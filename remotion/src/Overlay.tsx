@@ -79,8 +79,8 @@ const MapInset: React.FC<{it: OItem; p: boolean; map: MapData}> = ({it, p, map})
 const EndCard: React.FC<{it: OItem; p: boolean; brand: string}> = ({it, p, brand}) => {
   const f = useCurrentFrame();
   const o = interpolate(f, [0, 15], [0, 1], clamp);
+  // v6 preview review: a 78% teal wash hid the moving footage and read as a frozen frame. Keep the footage visible.
   return (
-    {/* v6 preview review: a 78% teal wash hid the moving footage and read as a frozen frame. Keep the footage visible. */}
     <AbsoluteFill style={{background: `radial-gradient(ellipse at center, rgba(10,58,74,${0.5 * o}) 0%, rgba(10,58,74,${0.22 * o}) 60%, rgba(10,58,74,0) 100%)`, alignItems: 'center', justifyContent: 'center'}}>
       <div style={{textAlign: 'center', padding: 60, opacity: o, textShadow: '0 3px 14px rgba(0,0,0,0.65)'}}>
         <div style={{fontFamily: BODY, fontWeight: 700, fontSize: 30, letterSpacing: 8, color: C.turq}}>{brand}</div>
