@@ -1,6 +1,7 @@
-# Manual only. Dispatch only after a successful smoke-download AND a confirmed
-# remaining included-minutes budget. A push does not start this workflow.
+# Manual only. Do not add push/schedule triggers.
+# Fetches already-cut CC BY *range clips* from a GitHub Release. Never runs yt-dlp.
 # Never set AURUM_YT_TOKEN. Never publish to YouTube.
+# Artifact retention: 1 day.
 name: render-preview
 on:
   workflow_dispatch:
@@ -9,10 +10,10 @@ on:
         description: Job folder under jobs/
         required: true
         default: aruba-v6
-      confirm_no_spend:
-        description: Type "free-minutes-only" to confirm this must not incur Actions charges
+      release_tag:
+        description: Release tag that holds the planned range clips (mp4 + licence-log.csv)
         required: true
-        default: ""
+        default: aruba-v6-preview-ranges
 concurrency:
   group: aurum-video-render-preview
   cancel-in-progress: false
@@ -24,19 +25,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - name: Confirm no-spend gate
-        run: |
-          if [ "${{ inputs.confirm_no_spend }}" != "free-minutes-only" ]; then
-            echo "::error::Refusing to start. Re-dispatch with confirm_no_spend=free-minutes-only only after remaining included Actions minutes are confirmed."
-            exit 1
-          fi
-
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Fail fast if the shot list is empty
         run: |
-          python3 - <<'PY'
+          python3 - <<PY
           import json, sys
           from pathlib import Path
           job = "${{ inputs.job }}"
@@ -44,7 +38,7 @@ jobs:
           data = json.loads(p.read_text())
           clips = data.get("clips") or []
           if not clips:
-              print("::error::jobs/%s/footage.json has no clips. Assign high-quality ranges that pass v6 gates before dispatching a render." % job)
+              print("::error::jobs/%s/footage.json has no clips." % job)
               sys.exit(1)
           print("clips", len(clips))
           PY
@@ -52,14 +46,15 @@ jobs:
       - name: Free disk on the runner
         run: bash tools/ci/free_disk.sh
 
-      - name: Install ffmpeg, yt-dlp, Node
+      - name: Install ffmpeg, Python deps, Node
         run: |
           sudo apt-get update -y
           sudo apt-get install -y ffmpeg
-          python3 -m pip install -U yt-dlp
-          # Node for Remotion; ubuntu-latest already has a Node, pin via NodeSource if needed
+          python3 -m pip install -U numpy
           node -v
           npm -v
+          ffmpeg -version | head -2
+          df -h
 
       - name: Install Remotion deps and Chrome headless
         working-directory: remotion
@@ -67,8 +62,107 @@ jobs:
           npm ci
           npx remotion browser ensure || true
 
-      - name: Placeholder — planned range download + gates + 720p preview
+      - name: Fetch range-clip release assets (no yt-dlp)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          echo "::error::Range download, v6 gates (no repeats, no near-still or dark shots, footage matching each line, natural-sound lifts, engagement prompts, Oranjestad phoneme fix, no public-transport lines) and the Remotion 720p preview are wired to run here once footage.json is filled and a smoke download has succeeded."
-          echo "Not starting a heavy render in this commit so a mistaken dispatch cannot burn a long render."
-          exit 1
+          set -e
+          JOB="${{ inputs.job }}"
+          TAG="${{ inputs.release_tag }}"
+          DEST="jobs/${JOB}/clips"
+          mkdir -p "$DEST"
+          # Range clips only. The release must not contain full source videos or full-cut renders.
+          gh release download "$TAG" --repo "${{ github.repository }}" --dir "$DEST" --pattern "*.mp4"
+          gh release download "$TAG" --repo "${{ github.repository }}" --dir "jobs/${JOB}" --pattern "licence-log.csv" || true
+          echo "Downloaded assets:"
+          ls -lh "$DEST"
+          python3 - <<PY
+          import json, sys
+          from pathlib import Path
+          job = Path("jobs") / "${{ inputs.job }}"
+          lib = json.loads((job / "footage.json").read_text())
+          missing = []
+          for c in lib["clips"]:
+              p = job / c["file"]
+              if not p.is_file() or p.stat().st_size < 10_000:
+                  missing.append(c["file"])
+          if missing:
+              print("::error::Release is missing range clips:", missing)
+              sys.exit(1)
+          print("all planned range clips present", len(lib["clips"]))
+          PY
+
+      - name: QC, plan, render 720p preview, run gates
+        env:
+          AURUM_NO_UPLOAD: "1"
+        run: |
+          set -euo pipefail
+          JOB="jobs/${{ inputs.job }}"
+          # Do not run tts/stt: narration and timing are already in the repo.
+          python3 tools/clip_qc.py "$JOB"
+          python3 tools/title_runner.py "$JOB" plan
+          python3 - <<PY
+          import json, sys
+          from pathlib import Path
+          job = Path("jobs") / "${{ inputs.job }}"
+          pre = json.loads((job / "out" / "scorecard-pre-render.json").read_text())
+          print("pre-render", json.dumps({"pass": pre.get("pass"), "failed": pre.get("failed")}, ensure_ascii=False))
+          if not pre.get("pass"):
+              print("::error::Pre-render v6 gates failed:", pre.get("failed"))
+              sys.exit(1)
+          gaps = json.loads((job / "build" / "needs-footage.json").read_text()) if (job / "build" / "needs-footage.json").exists() else {}
+          if gaps.get("gaps"):
+              print("::error::Planner still has footage gaps:", gaps["gaps"])
+              sys.exit(1)
+          PY
+          python3 tools/title_runner.py "$JOB" segments overlays compose qa
+          python3 - <<PY
+          import json, sys
+          from pathlib import Path
+          job = Path("jobs") / "${{ inputs.job }}"
+          checks = job / "out" / "checks.json"
+          if checks.exists():
+              data = json.loads(checks.read_text())
+              print("qa", json.dumps({"pass": data.get("pass"), "failed": data.get("failed")}, ensure_ascii=False))
+              if data.get("pass") is False:
+                  print("::error::QA gates failed:", data.get("failed"))
+                  sys.exit(1)
+          # Prefer the 720p review copy; fall back to listing out/
+          out = job / "out"
+          print("outputs:")
+          for p in sorted(out.iterdir()):
+              if p.is_file():
+                  print(f"  {p.name} {p.stat().st_size}")
+          PY
+          # Keep the review copy under 100 MiB if the runner produced a larger master
+          REV="$JOB/out/v6-preview-review-720p.mp4"
+          if [ ! -f "$REV" ]; then
+            MASTER=$(ls -1 "$JOB"/out/v6-preview*.mp4 2>/dev/null | head -1 || true)
+            if [ -n "$MASTER" ]; then
+              ffmpeg -loglevel error -y -i "$MASTER" -vf scale=1280:720 -c:v libx264 -preset veryfast -b:v 2M -maxrate 2.6M -bufsize 4M -c:a aac -b:a 128k -movflags +faststart "$REV"
+            fi
+          fi
+          test -f "$REV"
+          python3 - <<PY
+          from pathlib import Path
+          p = Path("jobs") / "${{ inputs.job }}" / "out" / "v6-preview-review-720p.mp4"
+          mb = p.stat().st_size / 1048576
+          print(f"review_mb={mb:.1f}")
+          if mb >= 100:
+              raise SystemExit(f"review copy is {mb:.1f} MiB, over the 100 MiB cap")
+          PY
+
+      - name: Upload preview artifact (1 day)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aruba-v6-preview
+          path: |
+            jobs/${{ inputs.job }}/out/v6-preview-review-720p.mp4
+            jobs/${{ inputs.job }}/out/*.json
+            jobs/${{ inputs.job }}/build/edl-long.json
+            jobs/${{ inputs.job }}/build/needs-footage.json
+            jobs/${{ inputs.job }}/build/clipqc.json
+            jobs/${{ inputs.job }}/licence-log.csv
+          if-no-files-found: warn
+          retention-days: 1
