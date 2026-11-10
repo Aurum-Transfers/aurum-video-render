@@ -82,7 +82,9 @@ def resolve_clip_files(lib: dict, wd) -> dict:
     for c in lib.get("clips", []):
         f = c.get("file")
         if f and not _P(f).exists() and (_P(wd) / f).exists():
-            c["file"] = str(_P(wd) / f)
+            # relpath: clip_qc gets wd as typed, title_runner resolves it; both must key QC by the same string
+            import os as _os
+            c["file"] = _os.path.relpath(str(_P(wd).resolve() / f))
     return lib
 
 
