@@ -1,0 +1,353 @@
+{
+ "created": "2026-11-10T18:21:33-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 319.875,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 4.524,
+   "text": "Just landed at Queen Beatrix, and not sure how you'll get to your hotel?",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s000-f0f888a5bd.wav",
+   "sr": 24000,
+   "speed": 1.079
+  },
+  {
+   "i": 1,
+   "t0": 4.729,
+   "t1": 11.471,
+   "text": "Three easy ways: a pre-booked private transfer, a taxi with the fare agreed first, or a rental car.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s001-03d92b39c5.wav",
+   "sr": 24000,
+   "speed": 1.056
+  },
+  {
+   "i": 2,
+   "t0": 11.801,
+   "t1": 13.657,
+   "text": "Let's get you to the beach.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s002-708818ae8e.wav",
+   "sr": 24000,
+   "speed": 1.037,
+   "lift": [
+    13.807,
+    15.407
+   ]
+  },
+  {
+   "i": 3,
+   "t0": 15.99,
+   "t1": 27.809,
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s003-09ae8dc8f0.wav",
+   "sr": 24000,
+   "speed": 0.997,
+   "lift": [
+    27.959,
+    29.559
+   ]
+  },
+  {
+   "i": 4,
+   "t0": 30.977,
+   "t1": 34.454,
+   "text": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s004-dc98c1627f.wav",
+   "sr": 24000,
+   "speed": 0.99
+  },
+  {
+   "i": 5,
+   "t0": 34.773,
+   "t1": 45.632,
+   "text": "Queen Beatrix International Airport has frequent nonstop or one-stop flights from most major US cities, and daily flights from big hubs around the world.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s005-def3cb0449.wav",
+   "sr": 24000,
+   "speed": 0.995
+  },
+  {
+   "i": 6,
+   "t0": 45.941,
+   "t1": 54.858,
+   "text": "Once you're off the plane, everyone clears immigration on arrival, and eligible travellers can use the e-gates to move a little faster.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s006-ce4113d9c7.wav",
+   "sr": 24000,
+   "speed": 0.958
+  },
+  {
+   "i": 7,
+   "t0": 55.24,
+   "t1": 61.854,
+   "text": "Then customs: anything that may be prohibited, or subject to tax or duty, has to be declared.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s007-27a8e23deb.wav",
+   "sr": 24000,
+   "speed": 1.019
+  },
+  {
+   "i": 8,
+   "t0": 62.262,
+   "t1": 69.238,
+   "text": "From the air, you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s008-72b7fb8ff0.wav",
+   "sr": 24000,
+   "speed": 0.975
+  },
+  {
+   "i": 9,
+   "t0": 69.632,
+   "t1": 80.747,
+   "text": "Aruba sits in the southern Caribbean, just outside the hurricane belt, about fifteen to eighteen miles off the coast of Venezuela, and it's only six miles across.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s009-8a20a39e6b.wav",
+   "sr": 24000,
+   "speed": 0.952
+  },
+  {
+   "i": 10,
+   "t0": 81.12,
+   "t1": 87.456,
+   "text": "The climate is tropical semi-arid: warm and sunny all year, with just the occasional brief shower.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s010-585d6ebe74.wav",
+   "sr": 24000,
+   "speed": 0.984,
+   "lift": [
+    87.606,
+    89.206
+   ]
+  },
+  {
+   "i": 11,
+   "t0": 89.792,
+   "t1": 96.64,
+   "text": "Have you flown into Aruba before? Drop your best arrival tip in the comments; it genuinely helps the next traveller.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s011-55984da9bc.wav",
+   "sr": 24000,
+   "speed": 1.06
+  },
+  {
+   "i": 12,
+   "t0": 97.908,
+   "t1": 102.068,
+   "text": "Now, the one bit of paperwork that matters before you even board.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s012-9ee9169e04.wav",
+   "sr": 24000,
+   "speed": 0.996
+  },
+  {
+   "i": 13,
+   "t0": 102.406,
+   "t1": 113.372,
+   "text": "Every traveller to Aruba, including infants and children, must complete the online ED-Card, the Embarkation and Disembarkation Card, and get it approved.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s013-4cff8ede86.wav",
+   "sr": 24000,
+   "speed": 0.927
+  },
+  {
+   "i": 14,
+   "t0": 113.702,
+   "t1": 123.963,
+   "text": "You can fill it in within seven days before your trip, and the airline will ask for proof of approval before you fly. Even passengers in transit need one.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s014-da2cbedba3.wav",
+   "sr": 24000,
+   "speed": 0.949
+  },
+  {
+   "i": 15,
+   "t0": 124.352,
+   "t1": 136.661,
+   "text": "Bring a valid passport. American, Canadian, Caribbean, European and most South American citizens don't need a visa, and British citizens can stay up to three months without one.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s015-fba5e71ed5.wav",
+   "sr": 24000,
+   "speed": 0.976
+  },
+  {
+   "i": 16,
+   "t0": 137.039,
+   "t1": 149.967,
+   "text": "There's also a sustainability fee for visitors arriving by air, and the tourism authority keeps its traveller requirements page up to date, so check the current details there just before you go.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s016-628bf89e36.wav",
+   "sr": 24000,
+   "speed": 0.973
+  },
+  {
+   "i": 17,
+   "t0": 150.293,
+   "t1": 159.744,
+   "text": "And sort out travel health insurance; the UK government notes that European and Global Health Insurance Cards aren't valid in Aruba.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s017-5db60e7665.wav",
+   "sr": 24000,
+   "speed": 0.951
+  },
+  {
+   "i": 18,
+   "t0": 160.09,
+   "t1": 167.172,
+   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s018-42b0d3a000.wav",
+   "sr": 24000,
+   "speed": 1.073
+  },
+  {
+   "i": 19,
+   "t0": 168.556,
+   "t1": 171.692,
+   "text": "Right, bags in hand. Where are you actually going?",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s019-b251e16963.wav",
+   "sr": 24000,
+   "speed": 0.98
+  },
+  {
+   "i": 20,
+   "t0": 172.379,
+   "t1": 181.957,
+   "text": "Most hotels and resorts sit along the northwestern coast: the high-rises at Palm Beach, and the low-rise resorts near quieter Eagle Beach.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s020-e71b14878a.wav",
+   "sr": 24000,
+   "speed": 0.971
+  },
+  {
+   "i": 21,
+   "t0": 182.319,
+   "t1": 191.94,
+   "text": "Option one is the calmest: a pre-booked private transfer. You walk out of arrivals, your driver is waiting, and the first hour takes care of itself.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s021-fb8b628d5d.wav",
+   "sr": 24000,
+   "speed": 0.993
+  },
+  {
+   "i": 22,
+   "t0": 192.272,
+   "t1": 205.477,
+   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed and keep the confirmation on your phone.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s022-e014979fbb.wav",
+   "sr": 24000,
+   "speed": 1.022
+  },
+  {
+   "i": 23,
+   "t0": 205.82,
+   "t1": 215.228,
+   "text": "Option two, a taxi. The UK government's advice is simple: agree the fare with the driver, in local currency, before you set off.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s023-27a696899d.wav",
+   "sr": 24000,
+   "speed": 0.923
+  },
+  {
+   "i": 24,
+   "t0": 215.629,
+   "t1": 221.645,
+   "text": "Option three, a rental car, motorcycle or scooter, which you can pick up right at the airport.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s024-c8489f8ef3.wav",
+   "sr": 24000,
+   "speed": 1.015
+  },
+  {
+   "i": 25,
+   "t0": 221.961,
+   "t1": 231.838,
+   "text": "Just check the small print first: rental companies often ask for two years of driving experience, a higher minimum age, or an international driving permit.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s025-323f9462d2.wav",
+   "sr": 24000,
+   "speed": 1.025
+  },
+  {
+   "i": 26,
+   "t0": 232.193,
+   "t1": 239.959,
+   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s026-d2cb1e35a6.wav",
+   "sr": 24000,
+   "speed": 1.026
+  },
+  {
+   "i": 27,
+   "t0": 241.198,
+   "t1": 243.417,
+   "text": "Now the good part: the beaches.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s027-ec8875cd28.wav",
+   "sr": 24000,
+   "speed": 0.998
+  },
+  {
+   "i": 28,
+   "t0": 243.742,
+   "t1": 250.803,
+   "text": "The rule of thumb is simple. The west and south coasts are calm and protected, good for swimming and snorkelling.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s028-bd816db06f.wav",
+   "sr": 24000,
+   "speed": 1.026
+  },
+  {
+   "i": 29,
+   "t0": 251.146,
+   "t1": 257.695,
+   "text": "The east and north coasts face the open sea, with stronger winds, crashing waves and big views.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s029-1aedd2c83c.wav",
+   "sr": 24000,
+   "speed": 0.99
+  },
+  {
+   "i": 30,
+   "t0": 258.022,
+   "t1": 267.281,
+   "text": "Eagle Beach is the long stretch of soft white sand with the famous fofoti trees, and visitors are asked to treat them with respect.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s030-b583392fb8.wav",
+   "sr": 24000,
+   "speed": 0.947
+  },
+  {
+   "i": 31,
+   "t0": 267.609,
+   "t1": 276.079,
+   "text": "Up the hotel strip, Palm Beach is where the high-rises meet the palapas. Want free shade under a public palapa? Arrive early.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s031-7dfb173c3a.wav",
+   "sr": 24000,
+   "speed": 0.958
+  },
+  {
+   "i": 32,
+   "t0": 276.48,
+   "t1": 282.602,
+   "text": "Boca Catalina is a small bay with gentle waves and colourful reef fish just offshore.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s032-52107c04d0.wav",
+   "sr": 24000,
+   "speed": 1.011
+  },
+  {
+   "i": 33,
+   "t0": 282.938,
+   "t1": 290.853,
+   "text": "Over on the east side, Boca Grandi suits windsurfing and kitesurfing, but its strong current makes it a poor place to swim.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s033-8d9417ea9f.wav",
+   "sr": 24000,
+   "speed": 1.017
+  },
+  {
+   "i": 34,
+   "t0": 291.254,
+   "t1": 298.187,
+   "text": "Wherever you are, don't feed the wildlife, never stand on the reef, and leave shells and coral where you found them.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s034-45b6b86c7a.wav",
+   "sr": 24000,
+   "speed": 0.945
+  },
+  {
+   "i": 35,
+   "t0": 298.578,
+   "t1": 311.592,
+   "text": "So, the short version. Get your ED-Card approved before you fly. Pick your ride before you land: transfer, taxi or rental. Swim on the calm west coast, and save the wild east for the views.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s035-ceca415527.wav",
+   "sr": 24000,
+   "speed": 0.98
+  },
+  {
+   "i": 36,
+   "t0": 311.939,
+   "t1": 318.275,
+   "text": "Subscribe for the next arrival guide, and enjoy every sunny minute of Aruba. See you on the next trip!",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/tts/s036-5c5048516e.wav",
+   "sr": 24000,
+   "speed": 1.062
+  }
+ ]
+}

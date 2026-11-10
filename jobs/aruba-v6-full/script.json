@@ -1,0 +1,651 @@
+{
+ "slug": "aruba-travel-guide",
+ "title": "Aruba Airport Arrival 2026: Transfer, Taxi or Rental Car",
+ "angle": "Arrival-first: land at Queen Beatrix, clear the airport, pick the ride, then the island in the order a first-timer meets it.",
+ "end_card": {
+  "text": "ENJOY ARUBA",
+  "lines": [
+   "Compare airport transfers: link in the description",
+   "Subscribe for the next arrival guide"
+  ]
+ },
+ "lines": [
+  {
+   "text": "Just landed at Queen Beatrix, and not sure how you'll get to your hotel?",
+   "tags": [
+    "approach"
+   ],
+   "hook": true,
+   "pause": 0.2,
+   "need": [
+    "approach",
+    "air-arrival"
+   ],
+   "prefer": [
+    "landing_approach"
+   ]
+  },
+  {
+   "text": "Three easy ways: a pre-booked private transfer, a taxi with the fare agreed first, or a rental car.",
+   "tags": [
+    "approach"
+   ],
+   "hook": true,
+   "pause": 0.3,
+   "lower": {
+    "text": "TRANSFER · TAXI · RENTAL",
+    "sub": "Three ways from AUA to your hotel"
+   },
+   "need": [
+    "touchdown",
+    "airport-curb",
+    "plane-taxi"
+   ],
+   "prefer": [
+    "landing_touchdown",
+    "aua_curb"
+   ]
+  },
+  {
+   "text": "Let's get you to the beach.",
+   "tags": [
+    "touchdown"
+   ],
+   "hook": true,
+   "pause": 0.5,
+   "need": [
+    "pier",
+    "beach"
+   ],
+   "lift": 1.6,
+   "prefer": [
+    "palm_water_pier"
+   ]
+  },
+  {
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "tags": [
+    "taxi",
+    "drone-coast"
+   ],
+   "disclosure": true,
+   "pause": 0.6,
+   "need": [
+    "hotel-strip-water",
+    "hotel-strip",
+    "town-aerial"
+   ],
+   "lift": 1.6,
+   "prefer": [
+    "overview_town",
+    "palm_strip_water",
+    "palm_hotel_end"
+   ],
+   "reserve_for_lift": [
+    "palm_hotel_end"
+   ]
+  },
+  {
+   "chapter": "1. Landing in Aruba: Queen Beatrix Airport",
+   "text": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "tags": [
+    "taxi",
+    "airport"
+   ],
+   "pause": 0.3,
+   "need": [
+    "plane-taxi",
+    "airport-curb",
+    "touchdown"
+   ],
+   "prefer": [
+    "landing_taxi"
+   ]
+  },
+  {
+   "text": "Queen Beatrix International Airport has frequent nonstop or one-stop flights from most major US cities, and daily flights from big hubs around the world.",
+   "facts": [
+    "f80048"
+   ],
+   "tags": [
+    "taxi",
+    "drone-hotels"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "QUEEN BEATRIX INTERNATIONAL",
+    "sub": "Airport code AUA"
+   },
+   "need": [
+    "plane-taxi",
+    "driving",
+    "airport-curb"
+   ],
+   "prefer": [
+    "landing_taxi",
+    "aua_drive_day"
+   ]
+  },
+  {
+   "text": "Once you're off the plane, everyone clears immigration on arrival, and eligible travellers can use the e-gates to move a little faster.",
+   "facts": [
+    "f80260",
+    "f80262"
+   ],
+   "pause": 0.35,
+   "need": [
+    "plane-taxi",
+    "runway"
+   ],
+   "prefer": [
+    "aua_taxiway_win"
+   ]
+  },
+  {
+   "text": "Then customs: anything that may be prohibited, or subject to tax or duty, has to be declared.",
+   "facts": [
+    "f80245"
+   ],
+   "pause": 0.4,
+   "need": [
+    "klm-terminal"
+   ],
+   "prefer": [
+    "klm_terminal"
+   ],
+   "shots": 1
+  },
+  {
+   "text": "From the air, you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
+   "facts": [
+    "f80114"
+   ],
+   "tags": [
+    "drone-coast"
+   ],
+   "pause": 0.35,
+   "need": [
+    "island-aerial",
+    "calm-sea-aerial",
+    "beach-aerial"
+   ],
+   "prefer": [
+    "overview_island_a"
+   ]
+  },
+  {
+   "text": "Aruba sits in the southern Caribbean, just outside the hurricane belt, about fifteen to eighteen miles off the coast of Venezuela, and it's only six miles across.",
+   "facts": [
+    "f80029",
+    "f80025",
+    "f80024"
+   ],
+   "tags": [
+    "drone-coast"
+   ],
+   "pause": 0.35,
+   "need": [
+    "beach-aerial",
+    "island-aerial",
+    "hotel-strip"
+   ],
+   "prefer": [
+    "overview_coast",
+    "overview_boats"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "The climate is tropical semi-arid: warm and sunny all year, with just the occasional brief shower.",
+   "facts": [
+    "f80033"
+   ],
+   "tags": [
+    "drone-beach"
+   ],
+   "pause": 0.4,
+   "need": [
+    "baby-beach",
+    "pier",
+    "beach"
+   ],
+   "lift": 1.6,
+   "prefer": [
+    "baby_pan_a",
+    "palm_pier_deck"
+   ]
+  },
+  {
+   "text": "Have you flown into Aruba before? Drop your best arrival tip in the comments; it genuinely helps the next traveller.",
+   "tags": [
+    "drone-beach"
+   ],
+   "prompt": {
+    "badge": "COMMENT",
+    "text": "Your best Aruba arrival tip?"
+   },
+   "pause": 0.7,
+   "need": [
+    "beach",
+    "calm-sea"
+   ],
+   "prefer": [
+    "arashi_shore",
+    "arashi_palapas",
+    "hadicurari_a"
+   ]
+  },
+  {
+   "chapter": "2. Aruba ED-Card and Entry Rules",
+   "text": "Now, the one bit of paperwork that matters before you even board.",
+   "pause": 0.3,
+   "need": [
+    "pier-walk"
+   ],
+   "prefer": [
+    "palm_pier_walk"
+   ],
+   "shots": 1
+  },
+  {
+   "text": "Every traveller to Aruba, including infants and children, must complete the online ED-Card, the Embarkation and Disembarkation Card, and get it approved.",
+   "facts": [
+    "f80267",
+    "f80051"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "ED-CARD",
+    "sub": "Embarkation-Disembarkation Card, online"
+   },
+   "need": [
+    "lagoon-ren"
+   ],
+   "prefer": [
+    "lagoon_ren"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "You can fill it in within seven days before your trip, and the airline will ask for proof of approval before you fly. Even passengers in transit need one.",
+   "facts": [
+    "f80268",
+    "f80244",
+    "f80246"
+   ],
+   "pause": 0.4,
+   "need": [
+    "waterfront",
+    "cruise-port"
+   ],
+   "prefer": [
+    "oranjestad_boat"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "Bring a valid passport. American, Canadian, Caribbean, European and most South American citizens don't need a visa, and British citizens can stay up to three months without one.",
+   "facts": [
+    "f80050",
+    "f80049",
+    "f80242"
+   ],
+   "pause": 0.35,
+   "need": [
+    "town-street",
+    "shops"
+   ],
+   "prefer": [
+    "town_downtown"
+   ]
+  },
+  {
+   "text": "There's also a sustainability fee for visitors arriving by air, and the tourism authority keeps its traveller requirements page up to date, so check the current details there just before you go.",
+   "facts": [
+    "f80269",
+    "f80066"
+   ],
+   "pause": 0.35,
+   "need": [
+    "final-win"
+   ],
+   "prefer": [
+    "aua_final_win"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "And sort out travel health insurance; the UK government notes that European and Global Health Insurance Cards aren't valid in Aruba.",
+   "facts": [
+    "f80257",
+    "f80258"
+   ],
+   "pause": 0.4,
+   "need": [
+    "bushiribana"
+   ],
+   "prefer": [
+    "bushiribana_coast",
+    "bushiribana_rocks"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
+   "prompt": {
+    "badge": "LIKE",
+    "text": "Saved you a headache? Tap like"
+   },
+   "pause": 0.7,
+   "need": [
+    "catamaran-south"
+   ],
+   "prefer": [
+    "catamaran_south"
+   ],
+   "shots": 2
+  },
+  {
+   "chapter": "3. Aruba Airport to Hotel: Transfer, Taxi or Rental",
+   "text": "Right, bags in hand. Where are you actually going?",
+   "pause": 0.6,
+   "need": [
+    "airport-terminal"
+   ],
+   "prefer": [
+    "aua_terminal_win"
+   ],
+   "shots": 1
+  },
+  {
+   "text": "Most hotels and resorts sit along the northwestern coast: the high-rises at Palm Beach, and the low-rise resorts near quieter Eagle Beach.",
+   "facts": [
+    "f80069",
+    "f80070"
+   ],
+   "pause": 0.35,
+   "map": {
+    "route": [
+     "airport",
+     "oranjestad",
+     "eagle",
+     "palm"
+    ],
+    "focus": "palm",
+    "text": "AUA → Oranjestad → Eagle Beach → Palm Beach"
+   },
+   "need": [
+    "palm-pier-air",
+    "palm-hotels-walk"
+   ],
+   "prefer": [
+    "palm_pier_aerial",
+    "palm_hotels_walk"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "Option one is the calmest: a pre-booked private transfer. You walk out of arrivals, your driver is waiting, and the first hour takes care of itself.",
+   "pause": 0.35,
+   "lower": {
+    "text": "1 · PRIVATE TRANSFER",
+    "sub": "Pre-booked, driver meets you"
+   },
+   "need": [
+    "road-aerial"
+   ],
+   "prefer": [
+    "roads_aerial"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed and keep the confirmation on your phone.",
+   "pause": 0.4,
+   "need": [
+    "dash-a",
+    "road-aerial"
+   ],
+   "prefer": [
+    "dash_golden",
+    "blvd_aerial"
+   ],
+   "shots": 3
+  },
+  {
+   "text": "Option two, a taxi. The UK government's advice is simple: agree the fare with the driver, in local currency, before you set off.",
+   "facts": [
+    "f80054",
+    "f80254"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "2 · TAXI",
+    "sub": "Agree the fare before you set off"
+   },
+   "need": [
+    "town-street",
+    "shops"
+   ],
+   "prefer": [
+    "town_street_a",
+    "town_street_c"
+   ]
+  },
+  {
+   "text": "Option three, a rental car, motorcycle or scooter, which you can pick up right at the airport.",
+   "facts": [
+    "f80057"
+   ],
+   "pause": 0.3,
+   "lower": {
+    "text": "3 · RENTAL CAR",
+    "sub": "Pick up at the airport"
+   },
+   "need": [
+    "road-aerial"
+   ],
+   "prefer": [
+    "roundabout_south"
+   ]
+  },
+  {
+   "text": "Just check the small print first: rental companies often ask for two years of driving experience, a higher minimum age, or an international driving permit.",
+   "facts": [
+    "f80252"
+   ],
+   "pause": 0.4,
+   "need": [
+    "dash-b"
+   ],
+   "prefer": [
+    "drive_town_dash"
+   ]
+  },
+  {
+   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+   "prompt": {
+    "badge": "LINK BELOW",
+    "text": "Transfer, taxi or rental? Compare in the description"
+   },
+   "pause": 0.7,
+   "need": [
+    "pirate"
+   ],
+   "prefer": [
+    "pirate_ship"
+   ],
+   "shots": 2
+  },
+  {
+   "chapter": "4. Aruba Beaches: Eagle Beach, Palm Beach and the Wild Coast",
+   "text": "Now the good part: the beaches.",
+   "pause": 0.3,
+   "need": [
+    "flamingo"
+   ],
+   "prefer": [
+    "flamingo_beach"
+   ],
+   "shots": 1
+  },
+  {
+   "text": "The rule of thumb is simple. The west and south coasts are calm and protected, good for swimming and snorkelling.",
+   "facts": [
+    "f80114"
+   ],
+   "pause": 0.3,
+   "need": [
+    "south-reef"
+   ],
+   "map": {
+    "route": [
+     "arashi",
+     "palm",
+     "eagle",
+     "oranjestad",
+     "baby"
+    ],
+    "focus": "eagle",
+    "text": "Calm west and south coasts"
+   },
+   "prefer": [
+    "reef_aerial_south"
+   ],
+   "shots": 1
+  },
+  {
+   "text": "The east and north coasts face the open sea, with stronger winds, crashing waves and big views.",
+   "facts": [
+    "f80115"
+   ],
+   "pause": 0.35,
+   "need": [
+    "surf"
+   ],
+   "prefer": [
+    "wild_waves"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "Eagle Beach is the long stretch of soft white sand with the famous fofoti trees, and visitors are asked to treat them with respect.",
+   "facts": [
+    "f80118",
+    "f80082"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "EAGLE BEACH",
+    "sub": "Soft white sand, calm water"
+   },
+   "need": [
+    "eagle-air",
+    "eagle-ground"
+   ],
+   "prefer": [
+    "eagle_aerial",
+    "eagle_ground"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "Up the hotel strip, Palm Beach is where the high-rises meet the palapas. Want free shade under a public palapa? Arrive early.",
+   "facts": [
+    "f80070",
+    "f80127"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "PALM BEACH",
+    "sub": "High-rises and public palapas"
+   },
+   "need": [
+    "palapa-walk"
+   ],
+   "prefer": [
+    "palm_palapas_walk"
+   ]
+  },
+  {
+   "text": "Boca Catalina is a small bay with gentle waves and colourful reef fish just offshore.",
+   "facts": [
+    "f80119"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "BOCA CATALINA",
+    "sub": "Small, calm bay on the west coast"
+   },
+   "need": [
+    "catalina"
+   ],
+   "prefer": [
+    "catalina"
+   ]
+  },
+  {
+   "text": "Over on the east side, Boca Grandi suits windsurfing and kitesurfing, but its strong current makes it a poor place to swim.",
+   "facts": [
+    "f80121"
+   ],
+   "pause": 0.35,
+   "need": [
+    "kite"
+   ],
+   "map": {
+    "route": [
+     "baby",
+     "bocagrandi"
+    ],
+    "focus": "bocagrandi",
+    "text": "Boca Grandi, east coast"
+   },
+   "prefer": [
+    "kite_grandi"
+   ]
+  },
+  {
+   "text": "Wherever you are, don't feed the wildlife, never stand on the reef, and leave shells and coral where you found them.",
+   "facts": [
+    "f80128",
+    "f80067"
+   ],
+   "pause": 0.4,
+   "need": [
+    "snorkel",
+    "underwater"
+   ],
+   "prefer": [
+    "reef_snorkel"
+   ]
+  },
+  {
+   "text": "So, the short version. Get your ED-Card approved before you fly. Pick your ride before you land: transfer, taxi or rental. Swim on the calm west coast, and save the wild east for the views.",
+   "pause": 0.35,
+   "need": [
+    "catamaran-palm",
+    "malmok-cat"
+   ],
+   "prefer": [
+    "catamaran_palm",
+    "malmok_catamaran"
+   ],
+   "shots": 2
+  },
+  {
+   "text": "Subscribe for the next arrival guide, and enjoy every sunny minute of Aruba. See you on the next trip!",
+   "prompt": {
+    "badge": "SUBSCRIBE",
+    "text": "Subscribe for the next arrival guide"
+   },
+   "pause": 0.6,
+   "need": [
+    "malmok"
+   ],
+   "prefer": [
+    "malmok_sunset"
+   ]
+  }
+ ]
+}

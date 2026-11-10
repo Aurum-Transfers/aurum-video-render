@@ -1,0 +1,17 @@
+{
+ "id": "kx4ej_MndTU",
+ "title": "Aruba Drone 2017",
+ "channel": "Alejandro Martinez Ortiz",
+ "channel_url": "https://www.youtube.com/channel/UCDd64KXAJZ-zUCYTK6Wby8g",
+ "uploader": "Alejandro Martinez Ortiz",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": "213",
+ "upload_date": "20171129",
+ "width": "1920",
+ "height": "1080",
+ "description": "Recorrido por Aruba desde Drone, Disfrútalo.",
+ "checked_at": "2026-11-10T17:44:03-05:00",
+ "url": "https://www.youtube.com/watch?v=kx4ej_MndTU",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": "1080"
+}

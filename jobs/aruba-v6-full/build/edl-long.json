@@ -1,0 +1,3950 @@
+{
+ "schema": "aurum-edl-v1",
+ "created": "2026-11-10T18:27:44-05:00",
+ "slug": "aruba-travel-guide",
+ "title": "Aruba Airport Arrival 2026: Transfer, Taxi or Rental Car",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "duration_s": 324.875,
+ "program_end_s": 319.875,
+ "hook_end_s": 13.657,
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 4.7333,
+   "frames": 142,
+   "kind": "clip",
+   "clip_id": "landing_approach",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "file": "jobs/aruba-v6-full/clips/SfMJtsB5-Ds_310-360.mp4",
+   "file_in": 30.5,
+   "play_speed": 3.8,
+   "src_in": 340.5,
+   "src_out": 358.487,
+   "tag": "landing,approach,air-arrival",
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "qc": {
+    "mot_med": 3.937,
+    "mot_min": 1.245,
+    "y_mean": 137.5,
+    "y_min": 110.9,
+    "dh": [
+     662055594421061379,
+     658114944210241287,
+     662055593884714759,
+     662055559793411847,
+     662037967608416007,
+     590560949802829575,
+     1954588687476918031,
+     8668882855663223683,
+     9825736248139383569,
+     2526550787686862607,
+     806153739531389711,
+     157652435619218191,
+     2310518193037182735,
+     2528784449854702343,
+     806157588056317212,
+     229850769978789671,
+     2456885186847887350,
+     662038071231878107,
+     2384669744024239987
+    ]
+   },
+   "parent": "landing_approach",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Queen Beatrix — final approach over the turquoise shallows, source 5:40.5-6:00 at 3.8x (5:10-5:40 is a near-identical wing-over-sea view: v6 preview hook read as a static wing)",
+   "subject": "aua-approach",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 4.7333,
+   "t1": 8.2667,
+   "frames": 106,
+   "kind": "clip",
+   "clip_id": "landing_touchdown",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "file": "jobs/aruba-v6-full/clips/SfMJtsB5-Ds_360-370.mp4",
+   "file_in": 0.0,
+   "play_speed": 2.0,
+   "src_in": 360.0,
+   "src_out": 367.067,
+   "tag": "landing,touchdown,runway",
+   "shows": [
+    "touchdown",
+    "runway"
+   ],
+   "qc": {
+    "mot_med": 3.197,
+    "mot_min": 1.81,
+    "y_mean": 150.9,
+    "y_min": 144.7,
+    "dh": [
+     78826427923294183,
+     2312682107903360783,
+     2528945186596188158,
+     662319683110162938,
+     590825863654653872,
+     662883046461530090,
+     806171058728860386,
+     662042468740464383
+    ]
+   },
+   "parent": "landing_touchdown",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Queen Beatrix — touchdown, source 6:00-6:10 at 2x",
+   "subject": "aua-runway",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 8.2667,
+   "t1": 11.8,
+   "frames": 106,
+   "kind": "clip",
+   "clip_id": "aua_curb",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "file": "jobs/aruba-v6-full/clips/JMC3VLiM3ME_192-228.mp4",
+   "file_in": 0.0,
+   "play_speed": 1.0,
+   "src_in": 192.0,
+   "src_out": 195.533,
+   "tag": "airport-curb,driving",
+   "shows": [
+    "airport-curb",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 10.061,
+    "mot_min": 8.505,
+    "y_mean": 127.0,
+    "y_min": 115.0,
+    "dh": [
+     9548900735794708608,
+     5574823670473360455,
+     10797377701304580473,
+     18229721347582131452
+    ]
+   },
+   "parent": "aua_curb",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Arriving at Queen Beatrix curb, source 3:12-3:38 only",
+   "subject": "aua-curb",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 11.8,
+   "t1": 16.0,
+   "frames": 126,
+   "kind": "clip",
+   "clip_id": "palm_water_pier",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/OqD36OAu9As_80-145.mp4",
+   "file_in": 0.0,
+   "play_speed": 1.0,
+   "src_in": 80.0,
+   "src_out": 84.2,
+   "tag": "pier,beach,calm-sea-aerial",
+   "shows": [
+    "pier",
+    "beach",
+    "calm-sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.247,
+    "mot_min": 2.128,
+    "y_mean": 141.1,
+    "y_min": 134.1,
+    "dh": [
+     17940222126346238072,
+     18229512446802672828,
+     18374403341411998926,
+     18446638515743551206,
+     18446515237583583227
+    ]
+   },
+   "parent": "palm_water_pier",
+   "line": 2,
+   "audio_ok": true,
+   "place": "Palm Beach waterline in the sun, source 1:20-1:28",
+   "subject": "palm-beach-waterline",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 16.0,
+   "t1": 21.0,
+   "frames": 150,
+   "kind": "clip",
+   "clip_id": "overview_town",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/3wVflHovBu4_120-165.mp4",
+   "file_in": 16.0,
+   "play_speed": 1.0,
+   "src_in": 136.0,
+   "src_out": 141.0,
+   "tag": "town-aerial,island-aerial",
+   "shows": [
+    "island-aerial",
+    "town-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.523,
+    "mot_min": 2.327,
+    "y_mean": 144.8,
+    "y_min": 139.6,
+    "dh": [
+     18446603197890425779,
+     18446585291416790711,
+     18374650460426389350,
+     18446743177039480550,
+     18446672860992548042,
+     18446602626817337803
+    ]
+   },
+   "parent": "overview_town",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Inland Noord/Oranjestad town aerial, source 2:16-2:22",
+   "subject": "noord-town-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 21.0,
+   "t1": 25.9667,
+   "frames": 149,
+   "kind": "clip",
+   "clip_id": "palm_strip_water",
+   "video_id": "q9_rZmj1kSk",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/q9_rZmj1kSk_125-146.mp4",
+   "file_in": 5.0,
+   "play_speed": 1.0,
+   "src_in": 130.0,
+   "src_out": 134.967,
+   "tag": "hotel-strip,palm-beach",
+   "shows": [
+    "beach-aerial",
+    "hotel-strip",
+    "hotel-strip-water",
+    "palm-beach"
+   ],
+   "qc": {
+    "mot_med": 5.512,
+    "mot_min": 4.531,
+    "y_mean": 120.9,
+    "y_min": 113.5,
+    "dh": [
+     4557536717331988287,
+     2242792063863033839,
+     10344741679127828879,
+     505286560634447239,
+     648801510776542017,
+     156843910275
+    ]
+   },
+   "parent": "palm_strip_water",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Water-level Palm Beach hotel strip, source 2:05-2:26 only",
+   "subject": "palm-beach-hotels-from-water",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 25.9667,
+   "t1": 30.9667,
+   "frames": 150,
+   "kind": "clip",
+   "clip_id": "palm_hotel_end",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/OqD36OAu9As_190-213.mp4",
+   "file_in": 7.0,
+   "play_speed": 1.0,
+   "src_in": 197.0,
+   "src_out": 202.0,
+   "tag": "palm-beach,hotel-strip",
+   "shows": [
+    "hotel-strip",
+    "hotel-strip-water",
+    "palm-beach"
+   ],
+   "qc": {
+    "mot_med": 3.971,
+    "mot_min": 2.838,
+    "y_mean": 111.8,
+    "y_min": 91.5,
+    "dh": [
+     4575515930129301311,
+     4548564944271949759,
+     2242651185504800575,
+     1139364801232209803,
+     7037615662330720656,
+     341481723807669815
+    ]
+   },
+   "parent": "palm_hotel_end",
+   "line": 3,
+   "audio_ok": true,
+   "place": "Palm Beach hotels from the water, source 3:10-end",
+   "subject": "palm-beach-hotels-from-water",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 30.9667,
+   "t1": 34.7667,
+   "frames": 114,
+   "kind": "clip",
+   "clip_id": "landing_taxi",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "file": "jobs/aruba-v6-full/clips/SfMJtsB5-Ds_370-400.mp4",
+   "file_in": 0.0,
+   "play_speed": 2.0,
+   "src_in": 370.0,
+   "src_out": 377.6,
+   "tag": "plane-taxi",
+   "shows": [
+    "plane-taxi"
+   ],
+   "qc": {
+    "mot_med": 2.176,
+    "mot_min": 1.778,
+    "y_mean": 149.4,
+    "y_min": 141.5,
+    "dh": [
+     5478317754790443508,
+     902519250449589089,
+     901534637786903489,
+     1054657024040627169,
+     1230328547459981304,
+     1370124773912185772,
+     1370194039385556464,
+     1226009590130739132
+    ]
+   },
+   "parent": "landing_taxi",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Queen Beatrix — taxi after touchdown, source 6:10-6:40 at 2x",
+   "subject": "aua-apron",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 34.7667,
+   "t1": 38.5,
+   "frames": 112,
+   "kind": "clip",
+   "clip_id": "landing_taxi",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "file": "jobs/aruba-v6-full/clips/SfMJtsB5-Ds_370-400.mp4",
+   "file_in": 13.7,
+   "play_speed": 2.0,
+   "src_in": 383.7,
+   "src_out": 391.167,
+   "tag": "plane-taxi",
+   "shows": [
+    "plane-taxi"
+   ],
+   "qc": {
+    "mot_med": 1.662,
+    "mot_min": 1.328,
+    "y_mean": 149.2,
+    "y_min": 141.5,
+    "dh": [
+     1158270804647903103,
+     1734732654856536063,
+     1158273000439469895,
+     1158269720168693533,
+     1230328398210365309,
+     5045933952460521465,
+     5478251753503717369,
+     10953970297706835955,
+     13261080975107878899
+    ]
+   },
+   "parent": "landing_taxi",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Queen Beatrix — taxi after touchdown, source 6:10-6:40 at 2x",
+   "subject": "aua-apron",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 38.5,
+   "t1": 42.2,
+   "frames": 111,
+   "kind": "clip",
+   "clip_id": "aua_drive_day",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "file": "jobs/aruba-v6-full/clips/JMC3VLiM3ME_30-90.mp4",
+   "file_in": 3.0,
+   "play_speed": 1.0,
+   "src_in": 33.0,
+   "src_out": 36.7,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 3.972,
+    "mot_min": 2.899,
+    "y_mean": 141.1,
+    "y_min": 135.2,
+    "dh": [
+     18446742359115527159,
+     18446461374346817507,
+     2242747172280704575,
+     2242598864000639971
+    ]
+   },
+   "parent": "aua_drive_day",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)",
+   "subject": "road-to-aua",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 42.2,
+   "t1": 45.9333,
+   "frames": 112,
+   "kind": "clip",
+   "clip_id": "aua_drive_day",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "file": "jobs/aruba-v6-full/clips/JMC3VLiM3ME_30-90.mp4",
+   "file_in": 15.3,
+   "play_speed": 1.0,
+   "src_in": 45.3,
+   "src_out": 49.033,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 7.681,
+    "mot_min": 5.124,
+    "y_mean": 122.5,
+    "y_min": 110.1,
+    "dh": [
+     36689097174073472,
+     184877354073076529,
+     361414437042008881,
+     40752335527395729,
+     17791414239292551672
+    ]
+   },
+   "parent": "aua_drive_day",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)",
+   "subject": "road-to-aua",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 45.9333,
+   "t1": 50.6,
+   "frames": 140,
+   "kind": "clip",
+   "clip_id": "aua_taxiway_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "file": "jobs/aruba-v6-full/clips/lDsQ95TxjJY_352-462.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.8,
+   "src_in": 352.3,
+   "src_out": 360.7,
+   "tag": "plane-taxi,runway",
+   "shows": [
+    "plane-taxi",
+    "runway"
+   ],
+   "qc": {
+    "mot_med": 2.505,
+    "mot_min": 2.022,
+    "y_mean": 168.4,
+    "y_min": 161.5,
+    "dh": [
+     4476469085224060913,
+     8953047114860462392,
+     8953039246207943024,
+     8664670325548646736,
+     8664670323408044384,
+     8655363509375861568,
+     8654237615909442497,
+     8077771368195363393,
+     8077771368194311073
+    ]
+   },
+   "parent": "aua_taxiway_win",
+   "line": 6,
+   "audio_ok": false,
+   "place": "Queen Beatrix: taxiing to the terminal, window seat (4K source, cropped to remove burned-in caption and watermark); played at 1.8x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-taxiway-window",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 50.6,
+   "t1": 55.2333,
+   "frames": 139,
+   "kind": "clip",
+   "clip_id": "aua_taxiway_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "file": "jobs/aruba-v6-full/clips/lDsQ95TxjJY_352-462.mp4",
+   "file_in": 14.8,
+   "play_speed": 1.8,
+   "src_in": 366.8,
+   "src_out": 375.14,
+   "tag": "plane-taxi,runway",
+   "shows": [
+    "plane-taxi",
+    "runway"
+   ],
+   "qc": {
+    "mot_med": 1.977,
+    "mot_min": 1.455,
+    "y_mean": 168.2,
+    "y_min": 162.7,
+    "dh": [
+     6923234120648295377,
+     6923234120648295377,
+     6923234120651637713,
+     6918730658459878352,
+     6997543514499843024,
+     6997543654086345664,
+     6993322626801867712,
+     6993322628953609152,
+     6993322079059315008,
+     4830468220584332096
+    ]
+   },
+   "parent": "aua_taxiway_win",
+   "line": 6,
+   "audio_ok": false,
+   "place": "Queen Beatrix: taxiing to the terminal, window seat (4K source, cropped to remove burned-in caption and watermark); played at 1.8x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-taxiway-window",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 55.2333,
+   "t1": 62.2667,
+   "frames": 211,
+   "kind": "clip",
+   "clip_id": "klm_terminal",
+   "video_id": "Crp4nxTjd_Q",
+   "creator": "GouverneurNL",
+   "file": "jobs/aruba-v6-full/clips/Crp4nxTjd_Q_220-310.mp4",
+   "file_in": 58.0,
+   "play_speed": 2.6,
+   "src_in": 278.0,
+   "src_out": 296.287,
+   "tag": "klm-terminal,airport-terminal,plane-taxi",
+   "shows": [
+    "klm-terminal",
+    "airport-terminal",
+    "plane-taxi"
+   ],
+   "qc": {
+    "mot_med": 1.772,
+    "mot_min": 0.982,
+    "y_mean": 144.1,
+    "y_min": 141.2,
+    "dh": [
+     15618634108066667560,
+     15042173045317770280,
+     15042182177862982696,
+     10430496133835660328,
+     10430513693811285032,
+     10430381700473691176,
+     10412393326645681192,
+     12718253722555915304,
+     12718306704598506536,
+     12718307049135741992,
+     12718201598564047912,
+     11565314625894554664,
+     11565323868597328936,
+     11565455741474446376,
+     11565385646268095528,
+     11569906255039700008,
+     11570469684955716648,
+     11565248103981718568,
+     6953596756141415725
+    ]
+   },
+   "parent": "klm_terminal",
+   "line": 7,
+   "audio_ok": false,
+   "place": "KLM taxiing past the Queen Beatrix terminal (overcast), played at 2.6x",
+   "subject": "klm-taxi-terminal",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 62.2667,
+   "t1": 65.9333,
+   "frames": 110,
+   "kind": "clip",
+   "clip_id": "overview_island_a",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/3wVflHovBu4_0-40.mp4",
+   "file_in": 19.0,
+   "play_speed": 1.0,
+   "src_in": 19.0,
+   "src_out": 22.667,
+   "tag": "island-aerial,beach-aerial",
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "calm-sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.08,
+    "mot_min": 2.694,
+    "y_mean": 125.7,
+    "y_min": 123.2,
+    "dh": [
+     9232466967435182209,
+     9232488957669376897,
+     9232486742539010435,
+     109705452754307
+    ]
+   },
+   "parent": "overview_island_a",
+   "line": 8,
+   "audio_ok": false,
+   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds (source title text burned in until ~0:11, so starts at 0:12)",
+   "subject": "island-overview-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 65.9333,
+   "t1": 69.6333,
+   "frames": 111,
+   "kind": "clip",
+   "clip_id": "overview_island_a",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/3wVflHovBu4_0-40.mp4",
+   "file_in": 28.767,
+   "play_speed": 1.0,
+   "src_in": 28.767,
+   "src_out": 32.467,
+   "tag": "island-aerial,beach-aerial",
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "calm-sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.622,
+    "mot_min": 2.548,
+    "y_mean": 141.7,
+    "y_min": 138.3,
+    "dh": [
+     7361212130030944960,
+     7208088884176669405,
+     4997314052105341653,
+     10182784094058747539,
+     12128270274120176789
+    ]
+   },
+   "parent": "overview_island_a",
+   "line": 8,
+   "audio_ok": false,
+   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds (source title text burned in until ~0:11, so starts at 0:12)",
+   "subject": "island-overview-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 69.6333,
+   "t1": 75.3667,
+   "frames": 172,
+   "kind": "clip",
+   "clip_id": "overview_coast",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/3wVflHovBu4_240-300.mp4",
+   "file_in": 3.0,
+   "play_speed": 1.0,
+   "src_in": 243.0,
+   "src_out": 248.733,
+   "tag": "island-aerial,beach-aerial",
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "hotel-strip"
+   ],
+   "qc": {
+    "mot_med": 2.997,
+    "mot_min": 1.754,
+    "y_mean": 151.8,
+    "y_min": 147.1,
+    "dh": [
+     18338393558948051096,
+     18428667497905840068,
+     9164606546731022115,
+     4559700347620104731,
+     10936190595748564388,
+     14508737367072218009
+    ]
+   },
+   "parent": "overview_coast",
+   "line": 9,
+   "audio_ok": false,
+   "place": "Palm Beach hotel strip, top-down drone move, source 4:03-4:40",
+   "subject": "palm-beach-hotel-strip-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 75.3667,
+   "t1": 81.1333,
+   "frames": 173,
+   "kind": "clip",
+   "clip_id": "overview_boats",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/3wVflHovBu4_240-300.mp4",
+   "file_in": 42.0,
+   "play_speed": 1.0,
+   "src_in": 282.0,
+   "src_out": 287.767,
+   "tag": "boats,beach-aerial",
+   "shows": [
+    "calm-sea-aerial",
+    "beach-aerial",
+    "boats"
+   ],
+   "qc": {
+    "mot_med": 2.537,
+    "mot_min": 1.555,
+    "y_mean": 143.4,
+    "y_min": 140.3,
+    "dh": [
+     13599150976801260677,
+     2034696722378589446,
+     2030192985312265606,
+     2066485671564346374,
+     2065359488256640513,
+     12439367763485984088
+    ]
+   },
+   "parent": "overview_boats",
+   "line": 9,
+   "audio_ok": false,
+   "place": "Catamarans and boats off Palm Beach, source 4:42-4:57",
+   "subject": "boats-off-palm-beach",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 81.1333,
+   "t1": 85.4667,
+   "frames": 130,
+   "kind": "clip",
+   "clip_id": "baby_pan_a",
+   "video_id": "sbcjtH8dehc",
+   "creator": "Thore Noernberg",
+   "file": "jobs/aruba-v6-full/clips/sbcjtH8dehc_0-62.mp4",
+   "file_in": 0.0,
+   "play_speed": 1.0,
+   "src_in": 0.0,
+   "src_out": 4.333,
+   "tag": "beach,baby-beach",
+   "shows": [
+    "beach",
+    "baby-beach"
+   ],
+   "qc": {
+    "mot_med": 2.523,
+    "mot_min": 1.357,
+    "y_mean": 135.4,
+    "y_min": 133.5,
+    "dh": [
+     17832002453689539258,
+     18158513426305850042,
+     18158227688640943354,
+     18446462215163688553,
+     18446180743440655849
+    ]
+   },
+   "parent": "baby_pan_a",
+   "line": 10,
+   "audio_ok": true,
+   "place": "Baby Beach pan from the dunes, source 0:00-0:10 (0:10-0:24 plays reversed: people walk backwards)",
+   "subject": "baby-beach",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 85.4667,
+   "t1": 89.8,
+   "frames": 130,
+   "kind": "clip",
+   "clip_id": "palm_pier_deck",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/OqD36OAu9As_80-145.mp4",
+   "file_in": 22.0,
+   "play_speed": 1.0,
+   "src_in": 102.0,
+   "src_out": 106.333,
+   "tag": "pier,beach",
+   "shows": [
+    "pier",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.63,
+    "mot_min": 2.307,
+    "y_mean": 141.1,
+    "y_min": 135.9,
+    "dh": [
+     2242542140427075583,
+     1085099439762178047,
+     508638686435344383,
+     506378840537300991,
+     217017375457804283
+    ]
+   },
+   "parent": "palm_pier_deck",
+   "line": 10,
+   "audio_ok": true,
+   "place": "On the Palm Beach pier deck, source 1:42-2:02",
+   "subject": "palm-beach-pier-deck",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 89.8,
+   "t1": 93.8667,
+   "frames": 122,
+   "kind": "clip",
+   "clip_id": "arashi_palapas",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "jobs/aruba-v6-full/clips/zxVwRRLLe2Q_90.2-95.5.mp4",
+   "file_in": 0.0,
+   "play_speed": 1.0,
+   "src_in": 90.2,
+   "src_out": 94.267,
+   "tag": "beach,arashi",
+   "shows": [
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.426,
+    "mot_min": 1.908,
+    "y_mean": 183.9,
+    "y_min": 181.7,
+    "dh": [
+     17071008842396662004,
+     16782919339505219836,
+     15623216012759791738,
+     15046755535501654264,
+     10435069517859059964
+    ]
+   },
+   "parent": "arashi_palapas",
+   "line": 11,
+   "audio_ok": false,
+   "place": "Arashi Beach palapas, source 1:30.2-1:35.5",
+   "subject": "arashi-beach",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 93.8667,
+   "t1": 97.9,
+   "frames": 121,
+   "kind": "clip",
+   "clip_id": "hadicurari_a",
+   "video_id": "NKOM0qmVfJs",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/NKOM0qmVfJs_20-80.mp4",
+   "file_in": 0.0,
+   "play_speed": 1.0,
+   "src_in": 20.0,
+   "src_out": 24.033,
+   "tag": "beach,hadicurari",
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "qc": {
+    "mot_med": 4.448,
+    "mot_min": 3.59,
+    "y_mean": 144.5,
+    "y_min": 142.1,
+    "dh": [
+     10376275403814731776,
+     6768892575274240324,
+     16131893724635496465,
+     4512603524189917224,
+     9169044064585975010
+    ]
+   },
+   "parent": "hadicurari_a",
+   "line": 11,
+   "audio_ok": false,
+   "place": "Hadicurari Beach shoreline, north of Palm Beach, source 0:20-1:20",
+   "subject": "hadicurari-beach",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 97.9,
+   "t1": 102.4,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "palm_pier_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "file": "jobs/aruba-v6-full/clips/D8EUO_LMIg8_414-441.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 414.3,
+   "src_out": 418.8,
+   "tag": "pier-walk,pier,beach",
+   "shows": [
+    "pier-walk",
+    "pier",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.424,
+    "mot_min": 2.278,
+    "y_mean": 124.5,
+    "y_min": 120.2,
+    "dh": [
+     1846434995916255388,
+     4259133079257407696,
+     2393651038600040577,
+     4857126632917377314,
+     5147584620772000582
+    ]
+   },
+   "parent": "palm_pier_walk",
+   "line": 12,
+   "audio_ok": false,
+   "place": "Walking out along a Palm Beach pier",
+   "subject": "palm-beach-pier-walk",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 102.4,
+   "t1": 108.0667,
+   "frames": 170,
+   "kind": "clip",
+   "clip_id": "lagoon_ren",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/ahdujmLapBg_240-290.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 240.3,
+   "src_out": 245.967,
+   "tag": "lagoon,calm-sea,lagoon-ren",
+   "shows": [
+    "lagoon",
+    "calm-sea",
+    "lagoon-ren"
+   ],
+   "qc": {
+    "mot_med": 2.79,
+    "mot_min": 2.276,
+    "y_mean": 135.9,
+    "y_min": 132.1,
+    "dh": [
+     18944889276571292,
+     18404071827562447,
+     9325404285558215,
+     9327603308812751,
+     4639661373328185679,
+     4630764537223035295,
+     16197143140734840985
+    ]
+   },
+   "parent": "lagoon_ren",
+   "line": 13,
+   "audio_ok": false,
+   "place": "Renaissance Island lagoon",
+   "subject": "renaissance-lagoon",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 108.0667,
+   "t1": 113.7,
+   "frames": 169,
+   "kind": "clip",
+   "clip_id": "lagoon_ren",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/ahdujmLapBg_240-290.mp4",
+   "file_in": 12.067,
+   "play_speed": 1.0,
+   "src_in": 252.067,
+   "src_out": 257.7,
+   "tag": "lagoon,calm-sea,lagoon-ren",
+   "shows": [
+    "lagoon",
+    "calm-sea",
+    "lagoon-ren"
+   ],
+   "qc": {
+    "mot_med": 3.702,
+    "mot_min": 3.345,
+    "y_mean": 128.2,
+    "y_min": 119.4,
+    "dh": [
+     14037385573428310320,
+     16199394875386599576,
+     6931923042811088110,
+     1159704052013240851,
+     579847628033002473,
+     868082404345686477
+    ]
+   },
+   "parent": "lagoon_ren",
+   "line": 13,
+   "audio_ok": false,
+   "place": "Renaissance Island lagoon",
+   "subject": "renaissance-lagoon",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 113.7,
+   "t1": 119.0333,
+   "frames": 160,
+   "kind": "clip",
+   "clip_id": "oranjestad_boat",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/ahdujmLapBg_635-680.mp4",
+   "file_in": 22.0,
+   "play_speed": 1.0,
+   "src_in": 657.0,
+   "src_out": 662.333,
+   "tag": "waterfront,town-aerial,marina,cruise-port",
+   "shows": [
+    "waterfront",
+    "town-aerial",
+    "marina",
+    "cruise-port"
+   ],
+   "qc": {
+    "mot_med": 2.92,
+    "mot_min": 2.525,
+    "y_mean": 139.9,
+    "y_min": 124.3,
+    "dh": [
+     14323354196203590368,
+     295003988671073646,
+     4668621478698457341,
+     4630340606987642343,
+     4630340606987781091,
+     4630340605915620067
+    ]
+   },
+   "parent": "oranjestad_boat",
+   "line": 14,
+   "audio_ok": false,
+   "place": "Oranjestad waterfront from the boat",
+   "subject": "oranjestad-from-boat",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 119.0333,
+   "t1": 124.3667,
+   "frames": 160,
+   "kind": "clip",
+   "clip_id": "oranjestad_boat",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/ahdujmLapBg_635-680.mp4",
+   "file_in": 33.433,
+   "play_speed": 1.0,
+   "src_in": 668.433,
+   "src_out": 673.767,
+   "tag": "waterfront,town-aerial,marina,cruise-port",
+   "shows": [
+    "waterfront",
+    "town-aerial",
+    "marina",
+    "cruise-port"
+   ],
+   "qc": {
+    "mot_med": 3.868,
+    "mot_min": 3.158,
+    "y_mean": 137.3,
+    "y_min": 129.9,
+    "dh": [
+     7513208382540870135,
+     7513208932295612147,
+     15116348015357768179,
+     2464062713072219002,
+     5126706009328906092,
+     7432549017978994668
+    ]
+   },
+   "parent": "oranjestad_boat",
+   "line": 14,
+   "audio_ok": false,
+   "place": "Oranjestad waterfront from the boat",
+   "subject": "oranjestad-from-boat",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 124.3667,
+   "t1": 128.6,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "town_downtown",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/gI-qoX5wNBE_210-270.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 210.3,
+   "src_out": 214.533,
+   "tag": "town-street,shops,streetcar",
+   "shows": [
+    "town-street",
+    "shops",
+    "streetcar"
+   ],
+   "qc": {
+    "mot_med": 15.506,
+    "mot_min": 8.01,
+    "y_mean": 117.0,
+    "y_min": 101.2,
+    "dh": [
+     11249033753422131183,
+     7197512624246294208,
+     16926823491202339152,
+     11138002515377852945,
+     3691594111541327143
+    ]
+   },
+   "parent": "town_downtown",
+   "line": 15,
+   "audio_ok": false,
+   "place": "Downtown Oranjestad streets and streetcar",
+   "subject": "oranjestad-downtown-walk",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 128.6,
+   "t1": 132.8,
+   "frames": 126,
+   "kind": "clip",
+   "clip_id": "town_downtown",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/gI-qoX5wNBE_210-270.mp4",
+   "file_in": 10.633,
+   "play_speed": 1.0,
+   "src_in": 220.633,
+   "src_out": 224.833,
+   "tag": "town-street,shops,streetcar",
+   "shows": [
+    "town-street",
+    "shops",
+    "streetcar"
+   ],
+   "qc": {
+    "mot_med": 9.963,
+    "mot_min": 9.02,
+    "y_mean": 111.4,
+    "y_min": 97.2,
+    "dh": [
+     9652870308128153825,
+     8773010548732853694,
+     11495366252868147486,
+     3990028122315470944,
+     16951103829925486704
+    ]
+   },
+   "parent": "town_downtown",
+   "line": 15,
+   "audio_ok": false,
+   "place": "Downtown Oranjestad streets and streetcar",
+   "subject": "oranjestad-downtown-walk",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 132.8,
+   "t1": 137.0333,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "town_downtown",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/gI-qoX5wNBE_210-270.mp4",
+   "file_in": 20.933,
+   "play_speed": 1.0,
+   "src_in": 230.933,
+   "src_out": 235.167,
+   "tag": "town-street,shops,streetcar",
+   "shows": [
+    "town-street",
+    "shops",
+    "streetcar"
+   ],
+   "qc": {
+    "mot_med": 12.241,
+    "mot_min": 6.926,
+    "y_mean": 126.7,
+    "y_min": 108.9,
+    "dh": [
+     15540699916912164603,
+     16099443858243777527,
+     14946996630147225662,
+     4087467293312313712,
+     4376562243583133848,
+     5704716135165180049
+    ]
+   },
+   "parent": "town_downtown",
+   "line": 15,
+   "audio_ok": false,
+   "place": "Downtown Oranjestad streets and streetcar",
+   "subject": "oranjestad-downtown-walk",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 137.0333,
+   "t1": 143.6667,
+   "frames": 199,
+   "kind": "clip",
+   "clip_id": "aua_final_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "file": "jobs/aruba-v6-full/clips/lDsQ95TxjJY_265-338.mp4",
+   "file_in": 9.3,
+   "play_speed": 2.5,
+   "src_in": 274.3,
+   "src_out": 290.883,
+   "tag": "air-arrival,approach,window-seat,final-win",
+   "shows": [
+    "air-arrival",
+    "approach",
+    "window-seat",
+    "final-win"
+   ],
+   "qc": {
+    "mot_med": 1.509,
+    "mot_min": 0.941,
+    "y_mean": 169.1,
+    "y_min": 148.5,
+    "dh": [
+     17863500674491154431,
+     17578665796186406655,
+     17434550676813250559,
+     17434546279085506303,
+     18011007580037446910,
+     18301489754341834751,
+     18300926805696970495,
+     10850175707984469919,
+     13165034746901602207,
+     13741488833482956703,
+     4481841726720810911,
+     3906506857144860479,
+     2753660136365440821,
+     7216726817472200503,
+     7811201968184458109,
+     7810639017928982397,
+     7810639018063265663,
+     5507047241996533631
+    ]
+   },
+   "parent": "aua_final_win",
+   "line": 16,
+   "audio_ok": false,
+   "place": "Final approach to AUA over turquoise water, window seat (4K source, cropped); played at 2.5x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-final-approach-window",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 143.6667,
+   "t1": 150.3,
+   "frames": 199,
+   "kind": "clip",
+   "clip_id": "aua_final_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "file": "jobs/aruba-v6-full/clips/lDsQ95TxjJY_265-338.mp4",
+   "file_in": 46.483,
+   "play_speed": 2.5,
+   "src_in": 311.483,
+   "src_out": 328.067,
+   "tag": "air-arrival,approach,window-seat,final-win",
+   "shows": [
+    "air-arrival",
+    "approach",
+    "window-seat",
+    "final-win"
+   ],
+   "qc": {
+    "mot_med": 1.514,
+    "mot_min": 1.132,
+    "y_mean": 168.1,
+    "y_min": 163.3,
+    "dh": [
+     14646098457905262543,
+     15222560309183303631,
+     10867543735388133343,
+     15479810294883344351,
+     9644271628547710927,
+     9639770227938353119,
+     9621751431386945439,
+     9476501547109513119,
+     10056479628685992862,
+     9407890912493168570,
+     10848761319483434943,
+     472485370203662271,
+     436456572111013687,
+     434204359981516598,
+     870483976670648094,
+     872735931236826943,
+     872736205983137599,
+     584505555624542015
+    ]
+   },
+   "parent": "aua_final_win",
+   "line": 16,
+   "audio_ok": false,
+   "place": "Final approach to AUA over turquoise water, window seat (4K source, cropped); played at 2.5x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-final-approach-window",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 150.3,
+   "t1": 155.2,
+   "frames": 147,
+   "kind": "clip",
+   "clip_id": "bushiribana_coast",
+   "video_id": "48HBrEn47I8",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/48HBrEn47I8_160-180.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.0,
+   "src_in": 162.3,
+   "src_out": 167.2,
+   "tag": "wild-coast,north-coast,bushiribana",
+   "shows": [
+    "wild-coast",
+    "north-coast",
+    "bushiribana"
+   ],
+   "qc": {
+    "mot_med": 5.479,
+    "mot_min": 1.862,
+    "y_mean": 124.8,
+    "y_min": 118.1,
+    "dh": [
+     15628894735660135144,
+     18156260737968493548,
+     8735713034064673211,
+     13749155327592058478,
+     14206559924820280859,
+     3660007005409833635
+    ]
+   },
+   "parent": "bushiribana_coast",
+   "line": 17,
+   "audio_ok": false,
+   "place": "Bushiribana ruins and the north coast",
+   "subject": "bushiribana-north-coast",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 155.2,
+   "t1": 160.1,
+   "frames": 147,
+   "kind": "clip",
+   "clip_id": "bushiribana_coast",
+   "video_id": "48HBrEn47I8",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/48HBrEn47I8_160-180.mp4",
+   "file_in": 13.3,
+   "play_speed": 1.0,
+   "src_in": 173.3,
+   "src_out": 178.2,
+   "tag": "wild-coast,north-coast,bushiribana",
+   "shows": [
+    "wild-coast",
+    "north-coast",
+    "bushiribana"
+   ],
+   "qc": {
+    "mot_med": 7.784,
+    "mot_min": 6.166,
+    "y_mean": 111.7,
+    "y_min": 70.5,
+    "dh": [
+     14502942954148316037,
+     16059546927727690673,
+     7472305088000039835,
+     14114477908285907554,
+     5479793727973577958,
+     10562841932527171049
+    ]
+   },
+   "parent": "bushiribana_coast",
+   "line": 17,
+   "audio_ok": false,
+   "place": "Bushiribana ruins and the north coast",
+   "subject": "bushiribana-north-coast",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 160.1,
+   "t1": 164.3333,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "catamaran_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/upG_Q15FQAY_0-50.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 0.3,
+   "src_out": 4.533,
+   "tag": "boats,calm-sea-aerial,catamaran-south",
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-south"
+   ],
+   "qc": {
+    "mot_med": 2.044,
+    "mot_min": 1.73,
+    "y_mean": 150.9,
+    "y_min": 147.0,
+    "dh": [
+     17941066633158596871,
+     17940432352438720775,
+     17940106802541365513,
+     17940089158815714569,
+     16764661750699919623
+    ]
+   },
+   "parent": "catamaran_south",
+   "line": 18,
+   "audio_ok": false,
+   "place": "Catamaran off the south-west coast, aerial",
+   "subject": "catamaran-aerial-south",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 164.3333,
+   "t1": 168.5667,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "catamaran_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/upG_Q15FQAY_0-50.mp4",
+   "file_in": 14.133,
+   "play_speed": 1.0,
+   "src_in": 14.133,
+   "src_out": 18.367,
+   "tag": "boats,calm-sea-aerial,catamaran-south",
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-south"
+   ],
+   "qc": {
+    "mot_med": 4.882,
+    "mot_min": 3.511,
+    "y_mean": 156.7,
+    "y_min": 150.5,
+    "dh": [
+     238190195667664960,
+     544575984297320640,
+     453834799860174896,
+     11756572733038170280,
+     11803596920939610272
+    ]
+   },
+   "parent": "catamaran_south",
+   "line": 18,
+   "audio_ok": false,
+   "place": "Catamaran off the south-west coast, aerial",
+   "subject": "catamaran-aerial-south",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 168.5667,
+   "t1": 172.3667,
+   "frames": 114,
+   "kind": "clip",
+   "clip_id": "aua_terminal_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "file": "jobs/aruba-v6-full/clips/lDsQ95TxjJY_462-557.mp4",
+   "file_in": 0.3,
+   "play_speed": 2.0,
+   "src_in": 462.3,
+   "src_out": 469.9,
+   "tag": "airport-terminal",
+   "shows": [
+    "airport-terminal"
+   ],
+   "qc": {
+    "mot_med": 3.488,
+    "mot_min": 3.086,
+    "y_mean": 164.2,
+    "y_min": 161.3,
+    "dh": [
+     10270092966122997616,
+     1046918032162538480,
+     2021488166195611376,
+     4128336917353514608,
+     4295196664953160945,
+     8228944151941104112,
+     16457042764877575152,
+     14504813890608588384,
+     15843319090488853872
+    ]
+   },
+   "parent": "aua_terminal_win",
+   "line": 19,
+   "audio_ok": false,
+   "place": "Queen Beatrix terminal and control tower from the window (4K source, cropped); played at 2.0x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-terminal-window",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 172.3667,
+   "t1": 177.3667,
+   "frames": 150,
+   "kind": "clip",
+   "clip_id": "palm_pier_aerial",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/qCGYFZhHymQ_15-45.mp4",
+   "file_in": 5.3,
+   "play_speed": 1.0,
+   "src_in": 20.3,
+   "src_out": 25.3,
+   "tag": "pier,hotel-strip,beach-aerial,beach,palm-pier-air",
+   "shows": [
+    "pier",
+    "hotel-strip",
+    "beach-aerial",
+    "beach",
+    "palm-pier-air"
+   ],
+   "qc": {
+    "mot_med": 3.441,
+    "mot_min": 2.825,
+    "y_mean": 138.5,
+    "y_min": 135.4,
+    "dh": [
+     156799363658793600,
+     807098450679940550,
+     884893037804300480,
+     6018794880532908068,
+     5478369509668108548,
+     3029533948598497633
+    ]
+   },
+   "parent": "palm_pier_aerial",
+   "line": 20,
+   "audio_ok": false,
+   "place": "Palm Beach pier and high-rises, aerial",
+   "subject": "palm-pier-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 177.3667,
+   "t1": 182.3333,
+   "frames": 149,
+   "kind": "clip",
+   "clip_id": "palm_hotels_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "file": "jobs/aruba-v6-full/clips/D8EUO_LMIg8_230-255.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 230.3,
+   "src_out": 235.267,
+   "tag": "palm-hotels-walk,palm-beach,hotel-strip,beach",
+   "shows": [
+    "palm-hotels-walk",
+    "palm-beach",
+    "hotel-strip",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.334,
+    "mot_min": 1.346,
+    "y_mean": 123.6,
+    "y_min": 119.5,
+    "dh": [
+     1119139557932045400,
+     8154853425543159952,
+     4113455449660983400,
+     1810014321387807748,
+     2022044761159418305,
+     1047081826459844800
+    ]
+   },
+   "parent": "palm_hotels_walk",
+   "line": 20,
+   "audio_ok": false,
+   "place": "Palm Beach shoreline below the high-rise resorts",
+   "subject": "palm-beach-highrises-shore",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 182.3333,
+   "t1": 187.3,
+   "frames": 149,
+   "kind": "clip",
+   "clip_id": "roads_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/jwnxuaB_0go_10-50.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 10.3,
+   "src_out": 15.267,
+   "tag": "road-aerial,driving",
+   "shows": [
+    "road-aerial",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.591,
+    "mot_min": 5.186,
+    "y_mean": 168.8,
+    "y_min": 162.5,
+    "dh": [
+     17934678180690938571,
+     17934673817256139315,
+     17934673821552120982,
+     17939186152849577008,
+     17933556722072944122,
+     18221805509515259044
+    ]
+   },
+   "parent": "roads_aerial",
+   "line": 21,
+   "audio_ok": false,
+   "place": "Roads and roundabout behind Eagle Beach, aerial",
+   "subject": "eagle-roads-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 187.3,
+   "t1": 192.2667,
+   "frames": 149,
+   "kind": "clip",
+   "clip_id": "roads_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/jwnxuaB_0go_10-50.mp4",
+   "file_in": 11.367,
+   "play_speed": 1.0,
+   "src_in": 21.367,
+   "src_out": 26.333,
+   "tag": "road-aerial,driving",
+   "shows": [
+    "road-aerial",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.024,
+    "mot_min": 4.693,
+    "y_mean": 156.7,
+    "y_min": 148.8,
+    "dh": [
+     17935746258682696869,
+     17935781438749389619,
+     17933528823428690531,
+     17939144853844160627,
+     18227374130316531929,
+     18226494519970453672
+    ]
+   },
+   "parent": "roads_aerial",
+   "line": 21,
+   "audio_ok": false,
+   "place": "Roads and roundabout behind Eagle Beach, aerial",
+   "subject": "eagle-roads-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 192.2667,
+   "t1": 196.8,
+   "frames": 136,
+   "kind": "clip",
+   "clip_id": "dash_golden",
+   "video_id": "YMIqVU63nvw",
+   "creator": "Aruba illustrated",
+   "file": "jobs/aruba-v6-full/clips/YMIqVU63nvw_25-105.mp4",
+   "file_in": 4.3,
+   "play_speed": 1.0,
+   "src_in": 29.3,
+   "src_out": 33.833,
+   "tag": "driving,dash-a",
+   "shows": [
+    "driving",
+    "dash-a"
+   ],
+   "qc": {
+    "mot_med": 3.492,
+    "mot_min": 3.069,
+    "y_mean": 81.3,
+    "y_min": 71.7,
+    "dh": [
+     12963320698917657106,
+     12026009560011512442,
+     16709735586331146867,
+     16601657014781221490,
+     16638181418811800186
+    ]
+   },
+   "parent": "dash_golden",
+   "line": 22,
+   "audio_ok": false,
+   "place": "Driving toward the airport (dash view)",
+   "subject": "dash-drive-golden-hour",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 196.8,
+   "t1": 201.3,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "blvd_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/jwnxuaB_0go_445-485.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 445.3,
+   "src_out": 449.8,
+   "tag": "road-aerial,hotel-strip,driving",
+   "shows": [
+    "road-aerial",
+    "hotel-strip",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.619,
+    "mot_min": 5.233,
+    "y_mean": 161.1,
+    "y_min": 157.3,
+    "dh": [
+     17940352784097989080,
+     17940352754041557682,
+     17940348339339736118,
+     17940348339211810920,
+     17363885387910085033
+    ]
+   },
+   "parent": "blvd_aerial",
+   "line": 22,
+   "audio_ok": false,
+   "place": "J.E. Irausquin Blvd along the hotel strip, aerial",
+   "subject": "irausquin-blvd-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 201.3,
+   "t1": 205.8333,
+   "frames": 136,
+   "kind": "clip",
+   "clip_id": "blvd_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/jwnxuaB_0go_445-485.mp4",
+   "file_in": 10.9,
+   "play_speed": 1.0,
+   "src_in": 455.9,
+   "src_out": 460.433,
+   "tag": "road-aerial,hotel-strip,driving",
+   "shows": [
+    "road-aerial",
+    "hotel-strip",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.521,
+    "mot_min": 5.099,
+    "y_mean": 164.8,
+    "y_min": 158.1,
+    "dh": [
+     17940346144192873941,
+     17940345054881331925,
+     17940344784399422165,
+     17940344835955435604,
+     17940344859846337876,
+     17940344821122418374
+    ]
+   },
+   "parent": "blvd_aerial",
+   "line": 22,
+   "audio_ok": false,
+   "place": "J.E. Irausquin Blvd along the hotel strip, aerial",
+   "subject": "irausquin-blvd-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 205.8333,
+   "t1": 210.7333,
+   "frames": 147,
+   "kind": "clip",
+   "clip_id": "town_street_a",
+   "video_id": "tBIJZkn58Yw",
+   "creator": "Think Travel",
+   "file": "jobs/aruba-v6-full/clips/tBIJZkn58Yw_15-40.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 15.3,
+   "src_out": 20.2,
+   "tag": "town-street,shops",
+   "shows": [
+    "town-street",
+    "shops"
+   ],
+   "qc": {
+    "mot_med": 5.018,
+    "mot_min": 3.303,
+    "y_mean": 102.2,
+    "y_min": 97.4,
+    "dh": [
+     14394900654651336435,
+     10651843114780058619,
+     11357147800670734060,
+     4519540896750669518,
+     18298416971679956028,
+     18334158499033586461
+    ]
+   },
+   "parent": "town_street_a",
+   "line": 23,
+   "audio_ok": false,
+   "place": "Oranjestad streets near the cruise port",
+   "subject": "oranjestad-cruise-street",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 210.7333,
+   "t1": 215.6333,
+   "frames": 147,
+   "kind": "clip",
+   "clip_id": "town_street_a",
+   "video_id": "tBIJZkn58Yw",
+   "creator": "Think Travel",
+   "file": "jobs/aruba-v6-full/clips/tBIJZkn58Yw_15-40.mp4",
+   "file_in": 11.3,
+   "play_speed": 1.0,
+   "src_in": 26.3,
+   "src_out": 31.2,
+   "tag": "town-street,shops",
+   "shows": [
+    "town-street",
+    "shops"
+   ],
+   "qc": {
+    "mot_med": 6.773,
+    "mot_min": 3.154,
+    "y_mean": 109.4,
+    "y_min": 95.5,
+    "dh": [
+     12731869868679964065,
+     15625477057072501209,
+     3915690173575887570,
+     3698109050903278726,
+     3130377325563553684,
+     8319680919974129588
+    ]
+   },
+   "parent": "town_street_a",
+   "line": 23,
+   "audio_ok": false,
+   "place": "Oranjestad streets near the cruise port",
+   "subject": "oranjestad-cruise-street",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 215.6333,
+   "t1": 218.8,
+   "frames": 95,
+   "kind": "clip",
+   "clip_id": "roundabout_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/upG_Q15FQAY_125-160.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 125.3,
+   "src_out": 128.467,
+   "tag": "road-aerial,driving",
+   "shows": [
+    "road-aerial",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 6.521,
+    "mot_min": 5.77,
+    "y_mean": 158.8,
+    "y_min": 155.6,
+    "dh": [
+     18227997755297854032,
+     18371577820635423968,
+     18373883805739533000,
+     18335020413166715652
+    ]
+   },
+   "parent": "roundabout_south",
+   "line": 24,
+   "audio_ok": false,
+   "place": "Roundabout and coast road, aerial",
+   "subject": "roundabout-aerial-south",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 218.8,
+   "t1": 221.9667,
+   "frames": 95,
+   "kind": "clip",
+   "clip_id": "roundabout_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/upG_Q15FQAY_125-160.mp4",
+   "file_in": 9.567,
+   "play_speed": 1.0,
+   "src_in": 134.567,
+   "src_out": 137.733,
+   "tag": "road-aerial,driving",
+   "shows": [
+    "road-aerial",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 9.934,
+    "mot_min": 8.256,
+    "y_mean": 172.8,
+    "y_min": 170.1,
+    "dh": [
+     14543341803067069585,
+     6059227790671754356,
+     5442698906237039558,
+     8202030681819608249
+    ]
+   },
+   "parent": "roundabout_south",
+   "line": 24,
+   "audio_ok": false,
+   "place": "Roundabout and coast road, aerial",
+   "subject": "roundabout-aerial-south",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 221.9667,
+   "t1": 227.1,
+   "frames": 154,
+   "kind": "clip",
+   "clip_id": "drive_town_dash",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/gI-qoX5wNBE_720-780.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 720.3,
+   "src_out": 725.433,
+   "tag": "driving,dash-b",
+   "shows": [
+    "driving",
+    "dash-b"
+   ],
+   "qc": {
+    "mot_med": 8.178,
+    "mot_min": 3.363,
+    "y_mean": 115.3,
+    "y_min": 108.5,
+    "dh": [
+     1519143046038429696,
+     9943959024329430016,
+     10161816232235600769,
+     13926119074201413602,
+     6980792458746038625,
+     6981073933722714433
+    ]
+   },
+   "parent": "drive_town_dash",
+   "line": 25,
+   "audio_ok": false,
+   "place": "Driving out of Oranjestad (dash view)",
+   "subject": "dash-drive-out-of-oranjestad",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 227.1,
+   "t1": 232.2,
+   "frames": 153,
+   "kind": "clip",
+   "clip_id": "drive_town_dash",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/gI-qoX5wNBE_720-780.mp4",
+   "file_in": 17.033,
+   "play_speed": 1.0,
+   "src_in": 737.033,
+   "src_out": 742.133,
+   "tag": "driving,dash-b",
+   "shows": [
+    "driving",
+    "dash-b"
+   ],
+   "qc": {
+    "mot_med": 3.812,
+    "mot_min": 2.436,
+    "y_mean": 111.5,
+    "y_min": 105.1,
+    "dh": [
+     9367493436042707203,
+     9367495086379704579,
+     9655725488299139331,
+     432924241382500611,
+     144834860408720322,
+     724532010458366915
+    ]
+   },
+   "parent": "drive_town_dash",
+   "line": 25,
+   "audio_ok": false,
+   "place": "Driving out of Oranjestad (dash view)",
+   "subject": "dash-drive-out-of-oranjestad",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 232.2,
+   "t1": 236.7,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "pirate_ship",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/qCGYFZhHymQ_200-240.mp4",
+   "file_in": 11.3,
+   "play_speed": 1.0,
+   "src_in": 211.3,
+   "src_out": 215.8,
+   "tag": "boats,calm-sea-aerial,pirate",
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "pirate"
+   ],
+   "qc": {
+    "mot_med": 2.834,
+    "mot_min": 2.78,
+    "y_mean": 117.8,
+    "y_min": 106.4,
+    "dh": [
+     18392700317369569031,
+     18392700006420385287,
+     13771936256785319446,
+     4543902256252460044,
+     10019836321390801504
+    ]
+   },
+   "parent": "pirate_ship",
+   "line": 26,
+   "audio_ok": false,
+   "place": "Sailing ship off Palm Beach, aerial",
+   "subject": "pirate-ship-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 236.7,
+   "t1": 241.2,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "pirate_ship",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/qCGYFZhHymQ_200-240.mp4",
+   "file_in": 29.4,
+   "play_speed": 1.0,
+   "src_in": 229.4,
+   "src_out": 233.9,
+   "tag": "boats,calm-sea-aerial,pirate",
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "pirate"
+   ],
+   "qc": {
+    "mot_med": 3.225,
+    "mot_min": 2.466,
+    "y_mean": 125.3,
+    "y_min": 117.0,
+    "dh": [
+     13798843677408959257,
+     13798799834921505595,
+     4548388349946829081,
+     1085102566968727576,
+     506390066326736944
+    ]
+   },
+   "parent": "pirate_ship",
+   "line": 26,
+   "audio_ok": false,
+   "place": "Sailing ship off Palm Beach, aerial",
+   "subject": "pirate-ship-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 241.2,
+   "t1": 243.7333,
+   "frames": 76,
+   "kind": "clip",
+   "clip_id": "flamingo_beach",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "file": "jobs/aruba-v6-full/clips/ahdujmLapBg_455-480.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 455.3,
+   "src_out": 457.833,
+   "tag": "flamingo,beach",
+   "shows": [
+    "flamingo",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 1.649,
+    "mot_min": 0.957,
+    "y_mean": 139.6,
+    "y_min": 132.4,
+    "dh": [
+     15912810441197739508,
+     15911684541324451313,
+     15911403083459449969
+    ]
+   },
+   "parent": "flamingo_beach",
+   "line": 27,
+   "audio_ok": false,
+   "place": "Flamingos on Renaissance (Flamingo) Island beach",
+   "subject": "renaissance-flamingos",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 243.7333,
+   "t1": 251.1333,
+   "frames": 222,
+   "kind": "clip",
+   "clip_id": "reef_aerial_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/upG_Q15FQAY_240-285.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 240.3,
+   "src_out": 247.7,
+   "tag": "calm-sea-aerial,beach-aerial,south-reef",
+   "shows": [
+    "calm-sea-aerial",
+    "beach-aerial",
+    "south-reef"
+   ],
+   "qc": {
+    "mot_med": 2.209,
+    "mot_min": 2.051,
+    "y_mean": 158.8,
+    "y_min": 148.7,
+    "dh": [
+     17940335986003048944,
+     17938084443654077937,
+     17938084442301817981,
+     17938084158844234956,
+     17940353276171791052,
+     17940212539119597010,
+     17940256657015206357,
+     17940331421648436217
+    ]
+   },
+   "parent": "reef_aerial_south",
+   "line": 28,
+   "audio_ok": false,
+   "place": "Shallow reef off the south coast, aerial",
+   "subject": "south-coast-reef-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 251.1333,
+   "t1": 254.6,
+   "frames": 104,
+   "kind": "clip",
+   "clip_id": "wild_waves",
+   "video_id": "5KnVV7neC18",
+   "creator": "Daniel Mosquera",
+   "file": "jobs/aruba-v6-full/clips/5KnVV7neC18_0-56.mp4",
+   "file_in": 4.3,
+   "play_speed": 1.0,
+   "src_in": 4.3,
+   "src_out": 7.767,
+   "tag": "wild-coast,north-coast,surf",
+   "shows": [
+    "wild-coast",
+    "north-coast",
+    "surf"
+   ],
+   "qc": {
+    "mot_med": 4.104,
+    "mot_min": 3.871,
+    "y_mean": 118.4,
+    "y_min": 113.8,
+    "dh": [
+     9039847771419379471,
+     17308448234641805157,
+     17920932835491780547,
+     17075601098723009461
+    ]
+   },
+   "parent": "wild_waves",
+   "line": 29,
+   "audio_ok": false,
+   "place": "North coast surf, Natural Bridge area (creator title), aerial",
+   "subject": "north-coast-surf-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 254.6,
+   "t1": 258.0333,
+   "frames": 103,
+   "kind": "clip",
+   "clip_id": "wild_waves",
+   "video_id": "5KnVV7neC18",
+   "creator": "Daniel Mosquera",
+   "file": "jobs/aruba-v6-full/clips/5KnVV7neC18_0-56.mp4",
+   "file_in": 14.367,
+   "play_speed": 1.0,
+   "src_in": 14.367,
+   "src_out": 17.8,
+   "tag": "wild-coast,north-coast,surf",
+   "shows": [
+    "wild-coast",
+    "north-coast",
+    "surf"
+   ],
+   "qc": {
+    "mot_med": 10.962,
+    "mot_min": 10.453,
+    "y_mean": 132.9,
+    "y_min": 117.9,
+    "dh": [
+     15769874151191962611,
+     4222858650653879975,
+     17756702233082015856,
+     17862339886707375025
+    ]
+   },
+   "parent": "wild_waves",
+   "line": 29,
+   "audio_ok": false,
+   "place": "North coast surf, Natural Bridge area (creator title), aerial",
+   "subject": "north-coast-surf-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 258.0333,
+   "t1": 262.8333,
+   "frames": 144,
+   "kind": "clip",
+   "clip_id": "eagle_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/jwnxuaB_0go_355-440.mp4",
+   "file_in": 52.3,
+   "play_speed": 1.0,
+   "src_in": 407.3,
+   "src_out": 412.1,
+   "tag": "eagle-beach,beach-aerial,hotel-strip,beach,eagle-air",
+   "shows": [
+    "eagle-beach",
+    "beach-aerial",
+    "hotel-strip",
+    "beach",
+    "eagle-air"
+   ],
+   "qc": {
+    "mot_med": 2.319,
+    "mot_min": 2.186,
+    "y_mean": 164.1,
+    "y_min": 162.9,
+    "dh": [
+     17940927991210176737,
+     17940927991210242544,
+     17940927991243665905,
+     17940928017013469665,
+     17940928017030243041,
+     17940928016996888801
+    ]
+   },
+   "parent": "eagle_aerial",
+   "line": 30,
+   "audio_ok": false,
+   "place": "Eagle Beach white sand and low-rise resorts, aerial",
+   "subject": "eagle-beach-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 262.8333,
+   "t1": 267.6,
+   "frames": 143,
+   "kind": "clip",
+   "clip_id": "eagle_ground",
+   "video_id": "oUYovWrqzOw",
+   "creator": "AlongForTheJourney",
+   "file": "jobs/aruba-v6-full/clips/oUYovWrqzOw_216-267.mp4",
+   "file_in": 11.3,
+   "play_speed": 1.0,
+   "src_in": 227.3,
+   "src_out": 232.067,
+   "tag": "eagle-beach,beach,eagle-ground",
+   "shows": [
+    "eagle-beach",
+    "beach",
+    "eagle-ground"
+   ],
+   "qc": {
+    "mot_med": 2.029,
+    "mot_min": 1.206,
+    "y_mean": 135.2,
+    "y_min": 131.6,
+    "dh": [
+     144962924692238335,
+     72905382181810015,
+     852186188573631,
+     220411464398035855,
+     508659502524832151,
+     1089655879336082747
+    ]
+   },
+   "parent": "eagle_ground",
+   "line": 30,
+   "audio_ok": false,
+   "place": "Eagle Beach sand and palapas",
+   "subject": "eagle-beach-ground",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 267.6,
+   "t1": 272.0333,
+   "frames": 133,
+   "kind": "clip",
+   "clip_id": "palm_palapas_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "file": "jobs/aruba-v6-full/clips/D8EUO_LMIg8_0-40.mp4",
+   "file_in": 1.3,
+   "play_speed": 1.0,
+   "src_in": 1.3,
+   "src_out": 5.733,
+   "tag": "palm-beach,palapa,beach,palapa-walk",
+   "shows": [
+    "palm-beach",
+    "palapa",
+    "beach",
+    "palapa-walk"
+   ],
+   "qc": {
+    "mot_med": 5.548,
+    "mot_min": 2.464,
+    "y_mean": 124.7,
+    "y_min": 120.5,
+    "dh": [
+     5923964710453280789,
+     5996039488656408597,
+     6589388748151358481,
+     1514428496365192067,
+     1659106668855169154
+    ]
+   },
+   "parent": "palm_palapas_walk",
+   "line": 31,
+   "audio_ok": false,
+   "place": "Palm Beach palapas",
+   "subject": "palm-beach-palapas",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 272.0333,
+   "t1": 276.4667,
+   "frames": 133,
+   "kind": "clip",
+   "clip_id": "palm_palapas_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "file": "jobs/aruba-v6-full/clips/D8EUO_LMIg8_0-40.mp4",
+   "file_in": 11.833,
+   "play_speed": 1.0,
+   "src_in": 11.833,
+   "src_out": 16.267,
+   "tag": "palm-beach,palapa,beach,palapa-walk",
+   "shows": [
+    "palm-beach",
+    "palapa",
+    "beach",
+    "palapa-walk"
+   ],
+   "qc": {
+    "mot_med": 4.588,
+    "mot_min": 3.871,
+    "y_mean": 118.0,
+    "y_min": 110.9,
+    "dh": [
+     3390696208761252197,
+     1085064304706382278,
+     11271661578400487886,
+     15991434263865772458,
+     17072845318756915672,
+     14757359453627134264
+    ]
+   },
+   "parent": "palm_palapas_walk",
+   "line": 31,
+   "audio_ok": false,
+   "place": "Palm Beach palapas",
+   "subject": "palm-beach-palapas",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 276.4667,
+   "t1": 279.7,
+   "frames": 97,
+   "kind": "clip",
+   "clip_id": "catalina",
+   "video_id": "rf7FqdVG3RY",
+   "creator": "Thore Noernberg",
+   "file": "jobs/aruba-v6-full/clips/rf7FqdVG3RY_3-20.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 3.3,
+   "src_out": 6.533,
+   "tag": "catalina,calm-sea,swim",
+   "shows": [
+    "catalina",
+    "calm-sea",
+    "swim"
+   ],
+   "qc": {
+    "mot_med": 2.712,
+    "mot_min": 2.432,
+    "y_mean": 135.7,
+    "y_min": 132.9,
+    "dh": [
+     12654970851688485121,
+     16708316104318046216,
+     15550787645858168973,
+     16712717449432457348
+    ]
+   },
+   "parent": "catalina",
+   "line": 32,
+   "audio_ok": true,
+   "place": "Boca Catalina (creator title)",
+   "subject": "boca-catalina",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 279.7,
+   "t1": 282.9333,
+   "frames": 97,
+   "kind": "clip",
+   "clip_id": "catalina",
+   "video_id": "rf7FqdVG3RY",
+   "creator": "Thore Noernberg",
+   "file": "jobs/aruba-v6-full/clips/rf7FqdVG3RY_3-20.mp4",
+   "file_in": 9.633,
+   "play_speed": 1.0,
+   "src_in": 12.633,
+   "src_out": 15.867,
+   "tag": "catalina,calm-sea,swim",
+   "shows": [
+    "catalina",
+    "calm-sea",
+    "swim"
+   ],
+   "qc": {
+    "mot_med": 2.131,
+    "mot_min": 1.807,
+    "y_mean": 134.6,
+    "y_min": 132.3,
+    "dh": [
+     531407094984988501,
+     517887465719692200,
+     506609878090459577,
+     506565862069234553
+    ]
+   },
+   "parent": "catalina",
+   "line": 32,
+   "audio_ok": true,
+   "place": "Boca Catalina (creator title)",
+   "subject": "boca-catalina",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 282.9333,
+   "t1": 287.1,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "kite_grandi",
+   "video_id": "SxmdGhj0cBQ",
+   "creator": "MrZona007",
+   "file": "jobs/aruba-v6-full/clips/SxmdGhj0cBQ_10-45.mp4",
+   "file_in": 13.3,
+   "play_speed": 1.0,
+   "src_in": 23.3,
+   "src_out": 27.467,
+   "tag": "kite,wild-coast",
+   "shows": [
+    "kite",
+    "wild-coast"
+   ],
+   "qc": {
+    "mot_med": 1.521,
+    "mot_min": 1.192,
+    "y_mean": 129.4,
+    "y_min": 128.0,
+    "dh": [
+     15055990954433486261,
+     15055533695036085174,
+     15057785391774749686,
+     15057996635442041846,
+     16786041989022879131
+    ]
+   },
+   "parent": "kite_grandi",
+   "line": 33,
+   "audio_ok": true,
+   "place": "Boca Grandi kitesurfers, east coast (creator title)",
+   "subject": "boca-grandi-kites",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 287.1,
+   "t1": 291.2667,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "kite_grandi",
+   "video_id": "SxmdGhj0cBQ",
+   "creator": "MrZona007",
+   "file": "jobs/aruba-v6-full/clips/SxmdGhj0cBQ_10-45.mp4",
+   "file_in": 23.567,
+   "play_speed": 1.0,
+   "src_in": 33.567,
+   "src_out": 37.733,
+   "tag": "kite,wild-coast",
+   "shows": [
+    "kite",
+    "wild-coast"
+   ],
+   "qc": {
+    "mot_med": 2.686,
+    "mot_min": 1.751,
+    "y_mean": 123.3,
+    "y_min": 119.1,
+    "dh": [
+     12759595221060104056,
+     16544307757572820860,
+     11724105681125445500,
+     14161262264523956072,
+     324968392532497935
+    ]
+   },
+   "parent": "kite_grandi",
+   "line": 33,
+   "audio_ok": true,
+   "place": "Boca Grandi kitesurfers, east coast (creator title)",
+   "subject": "boca-grandi-kites",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 291.2667,
+   "t1": 294.9333,
+   "frames": 110,
+   "kind": "clip",
+   "clip_id": "reef_snorkel",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "jobs/aruba-v6-full/clips/zxVwRRLLe2Q_44-84.mp4",
+   "file_in": 4.0,
+   "play_speed": 1.0,
+   "src_in": 48.0,
+   "src_out": 51.667,
+   "tag": "snorkel,underwater,reef",
+   "shows": [
+    "snorkel",
+    "underwater",
+    "reef"
+   ],
+   "qc": {
+    "mot_med": 9.762,
+    "mot_min": 9.067,
+    "y_mean": 154.2,
+    "y_min": 92.6,
+    "dh": [
+     4482328909837015210,
+     11337546780471150897,
+     11043290076541459063,
+     5357292537718196045
+    ]
+   },
+   "parent": "reef_snorkel",
+   "line": 34,
+   "audio_ok": false,
+   "place": "Snorkelling over the reef off Arashi (creator title)",
+   "subject": "arashi-underwater",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 294.9333,
+   "t1": 298.5667,
+   "frames": 109,
+   "kind": "clip",
+   "clip_id": "reef_snorkel",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "jobs/aruba-v6-full/clips/zxVwRRLLe2Q_44-84.mp4",
+   "file_in": 15.267,
+   "play_speed": 1.0,
+   "src_in": 59.267,
+   "src_out": 62.9,
+   "tag": "snorkel,underwater,reef",
+   "shows": [
+    "snorkel",
+    "underwater",
+    "reef"
+   ],
+   "qc": {
+    "mot_med": 2.099,
+    "mot_min": 1.249,
+    "y_mean": 134.5,
+    "y_min": 129.8,
+    "dh": [
+     16764499063655618167,
+     17052654673141891855,
+     18275412842793356359,
+     17184746861596991263
+    ]
+   },
+   "parent": "reef_snorkel",
+   "line": 34,
+   "audio_ok": false,
+   "place": "Snorkelling over the reef off Arashi (creator title)",
+   "subject": "arashi-underwater",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 298.5667,
+   "t1": 305.2333,
+   "frames": 200,
+   "kind": "clip",
+   "clip_id": "catamaran_palm",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "file": "jobs/aruba-v6-full/clips/qCGYFZhHymQ_360-410.mp4",
+   "file_in": 23.3,
+   "play_speed": 1.0,
+   "src_in": 383.3,
+   "src_out": 389.967,
+   "tag": "boats,calm-sea-aerial,catamaran-palm",
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-palm"
+   ],
+   "qc": {
+    "mot_med": 1.982,
+    "mot_min": 1.828,
+    "y_mean": 133.9,
+    "y_min": 128.0,
+    "dh": [
+     10308483597385815815,
+     12088527347294738195,
+     12220529855700670492,
+     12297654288206297147,
+     1557149640688212602,
+     7063626683417442870,
+     288246899345135926,
+     579006156367802642
+    ]
+   },
+   "parent": "catamaran_palm",
+   "line": 35,
+   "audio_ok": false,
+   "place": "Catamaran off Palm Beach, aerial",
+   "subject": "catamaran-aerial-palm",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 305.2333,
+   "t1": 311.9333,
+   "frames": 201,
+   "kind": "clip",
+   "clip_id": "malmok_catamaran",
+   "video_id": "66AD59M-C0o",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/66AD59M-C0o_75-95.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 75.3,
+   "src_out": 82.0,
+   "tag": "sunset,boats,malmok-cat",
+   "shows": [
+    "sunset",
+    "boats",
+    "malmok-cat"
+   ],
+   "qc": {
+    "mot_med": 9.039,
+    "mot_min": 1.469,
+    "y_mean": 116.2,
+    "y_min": 89.5,
+    "dh": [
+     6945786780423816839,
+     505251169548307346,
+     10777431811593430837,
+     2670040111024427369,
+     15589227749896102049,
+     9836283807265901740,
+     14474710805353403648,
+     9693455720322634408
+    ]
+   },
+   "parent": "malmok_catamaran",
+   "line": 35,
+   "audio_ok": false,
+   "place": "Sunset catamaran off Malmok (zoom)",
+   "subject": "malmok-sunset-boats",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 311.9333,
+   "t1": 316.2333,
+   "frames": 129,
+   "kind": "clip",
+   "clip_id": "malmok_sunset",
+   "video_id": "66AD59M-C0o",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/66AD59M-C0o_15-55.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 15.3,
+   "src_out": 19.6,
+   "tag": "sunset,boats,malmok",
+   "shows": [
+    "sunset",
+    "boats",
+    "malmok"
+   ],
+   "qc": {
+    "mot_med": 8.205,
+    "mot_min": 6.644,
+    "y_mean": 125.4,
+    "y_min": 105.4,
+    "dh": [
+     4751387360489676832,
+     290497623568679038,
+     144681182573426393,
+     36733329511348344,
+     14052078565432816096
+    ]
+   },
+   "parent": "malmok_sunset",
+   "line": 36,
+   "audio_ok": false,
+   "place": "Malmok sunset sailboats (zoom)",
+   "subject": "malmok-sunset-boats",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 316.2333,
+   "t1": 320.5667,
+   "frames": 130,
+   "kind": "clip",
+   "clip_id": "malmok_sunset",
+   "video_id": "66AD59M-C0o",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/66AD59M-C0o_15-55.mp4",
+   "file_in": 15.2,
+   "play_speed": 1.0,
+   "src_in": 30.2,
+   "src_out": 34.533,
+   "tag": "sunset,boats,malmok",
+   "shows": [
+    "sunset",
+    "boats",
+    "malmok"
+   ],
+   "qc": {
+    "mot_med": 17.956,
+    "mot_min": 10.053,
+    "y_mean": 107.1,
+    "y_min": 86.0,
+    "dh": [
+     7161694428519947115,
+     8321354491608328802,
+     2969333857052374321,
+     8748560258259643299,
+     18042108759674966610
+    ]
+   },
+   "parent": "malmok_sunset",
+   "line": 36,
+   "audio_ok": false,
+   "place": "Malmok sunset sailboats (zoom)",
+   "subject": "malmok-sunset-boats",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 320.5667,
+   "t1": 324.8667,
+   "frames": 129,
+   "kind": "clip",
+   "clip_id": "malmok_sunset",
+   "video_id": "66AD59M-C0o",
+   "creator": "Nik K",
+   "file": "jobs/aruba-v6-full/clips/66AD59M-C0o_15-55.mp4",
+   "file_in": 25.633,
+   "play_speed": 1.0,
+   "src_in": 40.633,
+   "src_out": 44.933,
+   "tag": "sunset,boats,malmok",
+   "shows": [
+    "sunset",
+    "boats",
+    "malmok"
+   ],
+   "qc": {
+    "mot_med": 17.54,
+    "mot_min": 8.94,
+    "y_mean": 99.0,
+    "y_min": 81.3,
+    "dh": [
+     16283276040831365585,
+     12228350251800699787,
+     8381332086766983272,
+     16168038562712604013,
+     2477031089452032368,
+     289361279308064984
+    ]
+   },
+   "parent": "malmok_sunset",
+   "line": 36,
+   "audio_ok": false,
+   "place": "Malmok sunset sailboats (zoom)",
+   "subject": "malmok-sunset-boats",
+   "handheld": false,
+   "ton_max": null
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "lower",
+   "t0": 5.1290000000000004,
+   "t1": 9.629000000000001,
+   "text": "TRANSFER · TAXI · RENTAL",
+   "sub": "Three ways from AUA to your hotel"
+  },
+  {
+   "kind": "disclosure",
+   "t0": 15.99,
+   "t1": 24.990000000000002,
+   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+  },
+  {
+   "kind": "chapter",
+   "t0": 30.977,
+   "t1": 34.577,
+   "text": "1. Landing in Aruba: Queen Beatrix Airport",
+   "number": 1
+  },
+  {
+   "kind": "lower",
+   "t0": 35.173,
+   "t1": 39.673,
+   "text": "QUEEN BEATRIX INTERNATIONAL",
+   "sub": "Airport code AUA"
+  },
+  {
+   "kind": "prompt",
+   "t0": 89.992,
+   "t1": 95.992,
+   "badge": "COMMENT",
+   "text": "Your best Aruba arrival tip?",
+   "spoken": true
+  },
+  {
+   "kind": "chapter",
+   "t0": 97.908,
+   "t1": 101.508,
+   "text": "2. Aruba ED-Card and Entry Rules",
+   "number": 2
+  },
+  {
+   "kind": "lower",
+   "t0": 102.80600000000001,
+   "t1": 107.30600000000001,
+   "text": "ED-CARD",
+   "sub": "Embarkation-Disembarkation Card, online"
+  },
+  {
+   "kind": "prompt",
+   "t0": 160.29,
+   "t1": 166.29,
+   "badge": "LIKE",
+   "text": "Saved you a headache? Tap like",
+   "spoken": true
+  },
+  {
+   "kind": "chapter",
+   "t0": 168.556,
+   "t1": 172.156,
+   "text": "3. Aruba Airport to Hotel: Transfer, Taxi or Rental",
+   "number": 3
+  },
+  {
+   "kind": "mapinset",
+   "t0": 172.679,
+   "t1": 179.679,
+   "text": "AUA → Oranjestad → Eagle Beach → Palm Beach",
+   "route": [
+    "airport",
+    "oranjestad",
+    "eagle",
+    "palm"
+   ],
+   "focus": "palm",
+   "focusFrom": null
+  },
+  {
+   "kind": "lower",
+   "t0": 182.719,
+   "t1": 187.219,
+   "text": "1 · PRIVATE TRANSFER",
+   "sub": "Pre-booked, driver meets you"
+  },
+  {
+   "kind": "lower",
+   "t0": 206.22,
+   "t1": 210.72,
+   "text": "2 · TAXI",
+   "sub": "Agree the fare before you set off"
+  },
+  {
+   "kind": "lower",
+   "t0": 216.029,
+   "t1": 220.529,
+   "text": "3 · RENTAL CAR",
+   "sub": "Pick up at the airport"
+  },
+  {
+   "kind": "prompt",
+   "t0": 232.393,
+   "t1": 238.393,
+   "badge": "LINK BELOW",
+   "text": "Transfer, taxi or rental? Compare in the description",
+   "spoken": true
+  },
+  {
+   "kind": "chapter",
+   "t0": 241.198,
+   "t1": 244.798,
+   "text": "4. Aruba Beaches: Eagle Beach, Palm Beach and the Wild Coast",
+   "number": 4
+  },
+  {
+   "kind": "mapinset",
+   "t0": 244.042,
+   "t1": 250.946,
+   "text": "Calm west and south coasts",
+   "route": [
+    "arashi",
+    "palm",
+    "eagle",
+    "oranjestad",
+    "baby"
+   ],
+   "focus": "eagle",
+   "focusFrom": null
+  },
+  {
+   "kind": "lower",
+   "t0": 258.42199999999997,
+   "t1": 262.92199999999997,
+   "text": "EAGLE BEACH",
+   "sub": "Soft white sand, calm water"
+  },
+  {
+   "kind": "lower",
+   "t0": 268.00899999999996,
+   "t1": 272.50899999999996,
+   "text": "PALM BEACH",
+   "sub": "High-rises and public palapas"
+  },
+  {
+   "kind": "lower",
+   "t0": 276.88,
+   "t1": 281.38,
+   "text": "BOCA CATALINA",
+   "sub": "Small, calm bay on the west coast"
+  },
+  {
+   "kind": "mapinset",
+   "t0": 283.238,
+   "t1": 290.238,
+   "text": "Boca Grandi, east coast",
+   "route": [
+    "baby",
+    "bocagrandi"
+   ],
+   "focus": "bocagrandi",
+   "focusFrom": null
+  },
+  {
+   "kind": "prompt",
+   "t0": 312.139,
+   "t1": 318.139,
+   "badge": "SUBSCRIBE",
+   "text": "Subscribe for the next arrival guide",
+   "spoken": true
+  },
+  {
+   "kind": "endcard",
+   "t0": 319.875,
+   "t1": 324.875,
+   "text": "ENJOY ARUBA",
+   "lines": [
+    "Compare airport transfers: link in the description",
+    "Subscribe for the next arrival guide"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "t0": 0.3,
+   "t1": 4.524,
+   "text": "Just landed at Queen Beatrix, and not sure how you'll get to your hotel?",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "approach",
+    "air-arrival"
+   ]
+  },
+  {
+   "t0": 4.729,
+   "t1": 11.471,
+   "text": "Three easy ways: a pre-booked private transfer, a taxi with the fare agreed first, or a rental car.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "touchdown",
+    "airport-curb",
+    "plane-taxi"
+   ]
+  },
+  {
+   "t0": 11.801,
+   "t1": 13.657,
+   "text": "Let's get you to the beach.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "pier",
+    "beach"
+   ]
+  },
+  {
+   "t0": 15.99,
+   "t1": 27.809,
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "disclosure": true,
+   "facts": [],
+   "need": [
+    "hotel-strip-water",
+    "hotel-strip",
+    "town-aerial"
+   ]
+  },
+  {
+   "t0": 30.977,
+   "t1": 34.454,
+   "text": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "plane-taxi",
+    "airport-curb",
+    "touchdown"
+   ]
+  },
+  {
+   "t0": 34.773,
+   "t1": 45.632,
+   "text": "Queen Beatrix International Airport has frequent nonstop or one-stop flights from most major US cities, and daily flights from big hubs around the world.",
+   "disclosure": false,
+   "facts": [
+    "f80048"
+   ],
+   "need": [
+    "plane-taxi",
+    "driving",
+    "airport-curb"
+   ]
+  },
+  {
+   "t0": 45.941,
+   "t1": 54.858,
+   "text": "Once you're off the plane, everyone clears immigration on arrival, and eligible travellers can use the e-gates to move a little faster.",
+   "disclosure": false,
+   "facts": [
+    "f80260",
+    "f80262"
+   ],
+   "need": [
+    "plane-taxi",
+    "runway"
+   ]
+  },
+  {
+   "t0": 55.24,
+   "t1": 61.854,
+   "text": "Then customs: anything that may be prohibited, or subject to tax or duty, has to be declared.",
+   "disclosure": false,
+   "facts": [
+    "f80245"
+   ],
+   "need": [
+    "klm-terminal"
+   ]
+  },
+  {
+   "t0": 62.262,
+   "t1": 69.238,
+   "text": "From the air, you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
+   "disclosure": false,
+   "facts": [
+    "f80114"
+   ],
+   "need": [
+    "island-aerial",
+    "calm-sea-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "t0": 69.632,
+   "t1": 80.747,
+   "text": "Aruba sits in the southern Caribbean, just outside the hurricane belt, about fifteen to eighteen miles off the coast of Venezuela, and it's only six miles across.",
+   "disclosure": false,
+   "facts": [
+    "f80029",
+    "f80025",
+    "f80024"
+   ],
+   "need": [
+    "beach-aerial",
+    "island-aerial",
+    "hotel-strip"
+   ]
+  },
+  {
+   "t0": 81.12,
+   "t1": 87.456,
+   "text": "The climate is tropical semi-arid: warm and sunny all year, with just the occasional brief shower.",
+   "disclosure": false,
+   "facts": [
+    "f80033"
+   ],
+   "need": [
+    "baby-beach",
+    "pier",
+    "beach"
+   ]
+  },
+  {
+   "t0": 89.792,
+   "t1": 96.64,
+   "text": "Have you flown into Aruba before? Drop your best arrival tip in the comments; it genuinely helps the next traveller.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "beach",
+    "calm-sea"
+   ]
+  },
+  {
+   "t0": 97.908,
+   "t1": 102.068,
+   "text": "Now, the one bit of paperwork that matters before you even board.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "pier-walk"
+   ]
+  },
+  {
+   "t0": 102.406,
+   "t1": 113.372,
+   "text": "Every traveller to Aruba, including infants and children, must complete the online ED-Card, the Embarkation and Disembarkation Card, and get it approved.",
+   "disclosure": false,
+   "facts": [
+    "f80267",
+    "f80051"
+   ],
+   "need": [
+    "lagoon-ren"
+   ]
+  },
+  {
+   "t0": 113.702,
+   "t1": 123.963,
+   "text": "You can fill it in within seven days before your trip, and the airline will ask for proof of approval before you fly. Even passengers in transit need one.",
+   "disclosure": false,
+   "facts": [
+    "f80268",
+    "f80244",
+    "f80246"
+   ],
+   "need": [
+    "waterfront",
+    "cruise-port"
+   ]
+  },
+  {
+   "t0": 124.352,
+   "t1": 136.661,
+   "text": "Bring a valid passport. American, Canadian, Caribbean, European and most South American citizens don't need a visa, and British citizens can stay up to three months without one.",
+   "disclosure": false,
+   "facts": [
+    "f80050",
+    "f80049",
+    "f80242"
+   ],
+   "need": [
+    "town-street",
+    "shops"
+   ]
+  },
+  {
+   "t0": 137.039,
+   "t1": 149.967,
+   "text": "There's also a sustainability fee for visitors arriving by air, and the tourism authority keeps its traveller requirements page up to date, so check the current details there just before you go.",
+   "disclosure": false,
+   "facts": [
+    "f80269",
+    "f80066"
+   ],
+   "need": [
+    "final-win"
+   ]
+  },
+  {
+   "t0": 150.293,
+   "t1": 159.744,
+   "text": "And sort out travel health insurance; the UK government notes that European and Global Health Insurance Cards aren't valid in Aruba.",
+   "disclosure": false,
+   "facts": [
+    "f80257",
+    "f80258"
+   ],
+   "need": [
+    "bushiribana"
+   ]
+  },
+  {
+   "t0": 160.09,
+   "t1": 167.172,
+   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "catamaran-south"
+   ]
+  },
+  {
+   "t0": 168.556,
+   "t1": 171.692,
+   "text": "Right, bags in hand. Where are you actually going?",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "airport-terminal"
+   ]
+  },
+  {
+   "t0": 172.379,
+   "t1": 181.957,
+   "text": "Most hotels and resorts sit along the northwestern coast: the high-rises at Palm Beach, and the low-rise resorts near quieter Eagle Beach.",
+   "disclosure": false,
+   "facts": [
+    "f80069",
+    "f80070"
+   ],
+   "need": [
+    "palm-pier-air",
+    "palm-hotels-walk"
+   ]
+  },
+  {
+   "t0": 182.319,
+   "t1": 191.94,
+   "text": "Option one is the calmest: a pre-booked private transfer. You walk out of arrivals, your driver is waiting, and the first hour takes care of itself.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "road-aerial"
+   ]
+  },
+  {
+   "t0": 192.272,
+   "t1": 205.477,
+   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed and keep the confirmation on your phone.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "dash-a",
+    "road-aerial"
+   ]
+  },
+  {
+   "t0": 205.82,
+   "t1": 215.228,
+   "text": "Option two, a taxi. The UK government's advice is simple: agree the fare with the driver, in local currency, before you set off.",
+   "disclosure": false,
+   "facts": [
+    "f80054",
+    "f80254"
+   ],
+   "need": [
+    "town-street",
+    "shops"
+   ]
+  },
+  {
+   "t0": 215.629,
+   "t1": 221.645,
+   "text": "Option three, a rental car, motorcycle or scooter, which you can pick up right at the airport.",
+   "disclosure": false,
+   "facts": [
+    "f80057"
+   ],
+   "need": [
+    "road-aerial"
+   ]
+  },
+  {
+   "t0": 221.961,
+   "t1": 231.838,
+   "text": "Just check the small print first: rental companies often ask for two years of driving experience, a higher minimum age, or an international driving permit.",
+   "disclosure": false,
+   "facts": [
+    "f80252"
+   ],
+   "need": [
+    "dash-b"
+   ]
+  },
+  {
+   "t0": 232.193,
+   "t1": 239.959,
+   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "pirate"
+   ]
+  },
+  {
+   "t0": 241.198,
+   "t1": 243.417,
+   "text": "Now the good part: the beaches.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "flamingo"
+   ]
+  },
+  {
+   "t0": 243.742,
+   "t1": 250.803,
+   "text": "The rule of thumb is simple. The west and south coasts are calm and protected, good for swimming and snorkelling.",
+   "disclosure": false,
+   "facts": [
+    "f80114"
+   ],
+   "need": [
+    "south-reef"
+   ]
+  },
+  {
+   "t0": 251.146,
+   "t1": 257.695,
+   "text": "The east and north coasts face the open sea, with stronger winds, crashing waves and big views.",
+   "disclosure": false,
+   "facts": [
+    "f80115"
+   ],
+   "need": [
+    "surf"
+   ]
+  },
+  {
+   "t0": 258.022,
+   "t1": 267.281,
+   "text": "Eagle Beach is the long stretch of soft white sand with the famous fofoti trees, and visitors are asked to treat them with respect.",
+   "disclosure": false,
+   "facts": [
+    "f80118",
+    "f80082"
+   ],
+   "need": [
+    "eagle-air",
+    "eagle-ground"
+   ]
+  },
+  {
+   "t0": 267.609,
+   "t1": 276.079,
+   "text": "Up the hotel strip, Palm Beach is where the high-rises meet the palapas. Want free shade under a public palapa? Arrive early.",
+   "disclosure": false,
+   "facts": [
+    "f80070",
+    "f80127"
+   ],
+   "need": [
+    "palapa-walk"
+   ]
+  },
+  {
+   "t0": 276.48,
+   "t1": 282.602,
+   "text": "Boca Catalina is a small bay with gentle waves and colourful reef fish just offshore.",
+   "disclosure": false,
+   "facts": [
+    "f80119"
+   ],
+   "need": [
+    "catalina"
+   ]
+  },
+  {
+   "t0": 282.938,
+   "t1": 290.853,
+   "text": "Over on the east side, Boca Grandi suits windsurfing and kitesurfing, but its strong current makes it a poor place to swim.",
+   "disclosure": false,
+   "facts": [
+    "f80121"
+   ],
+   "need": [
+    "kite"
+   ]
+  },
+  {
+   "t0": 291.254,
+   "t1": 298.187,
+   "text": "Wherever you are, don't feed the wildlife, never stand on the reef, and leave shells and coral where you found them.",
+   "disclosure": false,
+   "facts": [
+    "f80128",
+    "f80067"
+   ],
+   "need": [
+    "snorkel",
+    "underwater"
+   ]
+  },
+  {
+   "t0": 298.578,
+   "t1": 311.592,
+   "text": "So, the short version. Get your ED-Card approved before you fly. Pick your ride before you land: transfer, taxi or rental. Swim on the calm west coast, and save the wild east for the views.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "catamaran-palm",
+    "malmok-cat"
+   ]
+  },
+  {
+   "t0": 311.939,
+   "t1": 318.275,
+   "text": "Subscribe for the next arrival guide, and enjoy every sunny minute of Aruba. See you on the next trip!",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "malmok"
+   ]
+  }
+ ],
+ "audio": {
+  "narration": "/workspace/work/aurum-video-render/jobs/aruba-v6-full/build/narration.wav",
+  "music": "none",
+  "ambient": [
+   {
+    "t0": 11.8,
+    "t1": 16.0,
+    "video_id": "OqD36OAu9As",
+    "licence_ok": true
+   },
+   {
+    "t0": 25.9667,
+    "t1": 30.9667,
+    "video_id": "OqD36OAu9As",
+    "licence_ok": true
+   },
+   {
+    "t0": 81.1333,
+    "t1": 85.4667,
+    "video_id": "sbcjtH8dehc",
+    "licence_ok": true
+   },
+   {
+    "t0": 85.4667,
+    "t1": 89.8,
+    "video_id": "OqD36OAu9As",
+    "licence_ok": true
+   },
+   {
+    "t0": 276.4667,
+    "t1": 279.7,
+    "video_id": "rf7FqdVG3RY",
+    "licence_ok": true
+   },
+   {
+    "t0": 279.7,
+    "t1": 282.9333,
+    "video_id": "rf7FqdVG3RY",
+    "licence_ok": true
+   },
+   {
+    "t0": 282.9333,
+    "t1": 287.1,
+    "video_id": "SxmdGhj0cBQ",
+    "licence_ok": true
+   },
+   {
+    "t0": 287.1,
+    "t1": 291.2667,
+    "video_id": "SxmdGhj0cBQ",
+    "licence_ok": true
+   }
+  ]
+ },
+ "offtag_shots": [],
+ "banned": [
+  {
+   "clip_id": "eagle_sunset",
+   "video_id": "oUYovWrqzOw",
+   "src_in": 348.0,
+   "src_out": 378.0,
+   "reason": "plays reversed in the source itself; banned for all Aruba cuts"
+  },
+  {
+   "note": "YMIqVU63nvw skipped: licence description is after-sunset drive, dark-shot risk"
+  },
+  {
+   "note": "n4WpfzPv6_w skipped: sunset, dark-shot risk"
+  },
+  {
+   "note": "TVbixzzJjnA skipped: streetcar / public transport"
+  },
+  {
+   "video_id": "OqD36OAu9As",
+   "src_in": 88.0,
+   "src_out": 102.0,
+   "reason": "reversed motion: waves run backwards (v6 preview 0:45)"
+  },
+  {
+   "video_id": "sbcjtH8dehc",
+   "src_in": 10.0,
+   "src_out": 24.0,
+   "reason": "reversed motion: people walk backwards (v6 preview 1:00)"
+  },
+  {
+   "clip_id": "palm_walk_shore",
+   "video_id": "OqD36OAu9As",
+   "src_in": 0.0,
+   "src_out": 40.0,
+   "reason": "unstabilised handheld walk, shaky (v6 preview 1:02)"
+  },
+  {
+   "video_id": "q9_rZmj1kSk",
+   "audio_only": true,
+   "reason": "source audio has game SFX (v6 preview 0:11)"
+  }
+ ],
+ "lifts": [
+  {
+   "t0": 13.807,
+   "t1": 15.407,
+   "line": 2
+  },
+  {
+   "t0": 27.959,
+   "t1": 29.559,
+   "line": 3
+  },
+  {
+   "t0": 87.606,
+   "t1": 89.206,
+   "line": 10
+  }
+ ],
+ "lift_min_count": 3,
+ "needs_footage": [],
+ "scope": "full",
+ "narration_stt": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Just landed at Queen Beatrix and not sure how you'll get to your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "Three easy ways, a pre-booked private transfer, a taxi with the fare agreed first, or a rental car."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Let's get you to the beach."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "do",
+   "last_word_heard": true,
+   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "beatrix",
+   "last_word_heard": true,
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix."
+  },
+  {
+   "line": 5,
+   "recall": 0.92,
+   "last_word": "world",
+   "last_word_heard": true,
+   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major U.S. cities and daily flights from big hubs around the world."
+  },
+  {
+   "line": 6,
+   "recall": 1.0,
+   "last_word": "faster",
+   "last_word_heard": true,
+   "heard": "Once you're off the plane, everyone clears immigration on arrival, and eligible travelers can use the e-gates to move a little faster."
+  },
+  {
+   "line": 7,
+   "recall": 1.0,
+   "last_word": "declared",
+   "last_word_heard": true,
+   "heard": "Then customs, anything that may be prohibited or subject to tax or duty has to be declared."
+  },
+  {
+   "line": 8,
+   "recall": 1.0,
+   "last_word": "heading",
+   "last_word_heard": true,
+   "heard": "From the air you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading."
+  },
+  {
+   "line": 9,
+   "recall": 0.963,
+   "last_word": "across",
+   "last_word_heard": true,
+   "heard": "Aruba sits in the southern Caribbean, just outside the Hurricane Belt, about 15-18 miles off the coast of Venezuela, and it's only six miles across."
+  },
+  {
+   "line": 10,
+   "recall": 0.882,
+   "last_word": "shower",
+   "last_word_heard": true,
+   "heard": "The climate is tropical semiarid, warm and sunny all year with just the occasional brief shower."
+  },
+  {
+   "line": 11,
+   "recall": 1.0,
+   "last_word": "traveller",
+   "last_word_heard": true,
+   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments. It genuinely helps the next traveler."
+  },
+  {
+   "line": 12,
+   "recall": 1.0,
+   "last_word": "board",
+   "last_word_heard": true,
+   "heard": "Now the one bit of paperwork that matters before you even board."
+  },
+  {
+   "line": 13,
+   "recall": 1.0,
+   "last_word": "approved",
+   "last_word_heard": true,
+   "heard": "Every traveler to Aruba, including infants and children, must complete the online ED card, the Embarkation and Disembarkation card, and get it approved."
+  },
+  {
+   "line": 14,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "You can fill it in within seven days before your trip, and the airline will ask for proof of approval before you fly. Even passengers in transit need one."
+  },
+  {
+   "line": 15,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "Bring a valid passport. American, Canadian, Caribbean, European, and most South American citizens don't need a visa, and British citizens can stay up to three months without one."
+  },
+  {
+   "line": 16,
+   "recall": 1.0,
+   "last_word": "go",
+   "last_word_heard": true,
+   "heard": "There's also a sustainability fee for visitors arriving by air, and the tourism authority keeps its traveler requirements page up-to-date, so check the current details there just before you go."
+  },
+  {
+   "line": 17,
+   "recall": 0.952,
+   "last_word": "aruba",
+   "last_word_heard": true,
+   "heard": "and sought out travel health insurance. The UK government notes that European and global health insurance cards aren't valid in Aruba."
+  },
+  {
+   "line": 18,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "If this checklist just saved you a headache at the gate, tap like, it tells us to make more arrival guides like this one."
+  },
+  {
+   "line": 19,
+   "recall": 1.0,
+   "last_word": "going",
+   "last_word_heard": true,
+   "heard": "Right bags in hand, where are you actually going?"
+  },
+  {
+   "line": 20,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Most hotels and resorts sit along the northwestern coast. The high rises at Palm Beach and the low rise resorts near quieter Eagle Beach."
+  },
+  {
+   "line": 21,
+   "recall": 1.0,
+   "last_word": "itself",
+   "last_word_heard": true,
+   "heard": "Option one is the calmest. A pre-booked private transfer. You walk out of arrivals, your driver is waiting and the first hour takes care of itself."
+  },
+  {
+   "line": 22,
+   "recall": 1.0,
+   "last_word": "phone",
+   "last_word_heard": true,
+   "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed and keep the confirmation on your phone."
+  },
+  {
+   "line": 23,
+   "recall": 1.0,
+   "last_word": "off",
+   "last_word_heard": true,
+   "heard": "Option two, a taxi. The UK government's advice is simple. Agree the fare with the driver in local currency before you set off."
+  },
+  {
+   "line": 24,
+   "recall": 1.0,
+   "last_word": "airport",
+   "last_word_heard": true,
+   "heard": "Option 3, a rental car, motorcycle or scooter, which you can pick up right at the airport."
+  },
+  {
+   "line": 25,
+   "recall": 1.0,
+   "last_word": "permit",
+   "last_word_heard": true,
+   "heard": "Just check the small print first. Rental companies often ask for two years of driving experience, a higher minimum age, or an international driving permit."
+  },
+  {
+   "line": 26,
+   "recall": 1.0,
+   "last_word": "description",
+   "last_word_heard": true,
+   "heard": "Which one are you picking? Transfer, taxi or rental? Tell us below and the transfer comparison link is in the description."
+  },
+  {
+   "line": 27,
+   "recall": 1.0,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Now the good part, the beaches."
+  },
+  {
+   "line": 28,
+   "recall": 1.0,
+   "last_word": "snorkelling",
+   "last_word_heard": true,
+   "heard": "The rule of thumb is simple. The West and South coasts are calm and protected, good for swimming and snorkeling."
+  },
+  {
+   "line": 29,
+   "recall": 0.941,
+   "last_word": "views",
+   "last_word_heard": true,
+   "heard": "The eastern North coasts face the open sea, with stronger winds crashing waves and big views."
+  },
+  {
+   "line": 30,
+   "recall": 0.958,
+   "last_word": "respect",
+   "last_word_heard": true,
+   "heard": "Eagle Beach is the long stretch of soft white sand with the famous Fofo tea trees and visitors are asked to treat them with respect."
+  },
+  {
+   "line": 31,
+   "recall": 1.0,
+   "last_word": "early",
+   "last_word_heard": true,
+   "heard": "Up the hotel strip, Palm Beach is where the high rises meet the Palapas. Want free shade under a public Palapa? Arrive early."
+  },
+  {
+   "line": 32,
+   "recall": 0.933,
+   "last_word": "offshore",
+   "last_word_heard": true,
+   "heard": "Boca Catalina is a small bay with gentle waves and colorful reef fish just offshore."
+  },
+  {
+   "line": 33,
+   "recall": 1.0,
+   "last_word": "swim",
+   "last_word_heard": true,
+   "heard": "Over on the east side, Boca Grande suits windsurfing and kitesurfing, but its strong current makes it a poor place to swim."
+  },
+  {
+   "line": 34,
+   "recall": 1.0,
+   "last_word": "them",
+   "last_word_heard": true,
+   "heard": "Wherever you are, don't feed the wildlife, never stand on the reef and leave shells and coral where you found them."
+  },
+  {
+   "line": 35,
+   "recall": 0.972,
+   "last_word": "views",
+   "last_word_heard": true,
+   "heard": "So the short version, get your E.D. card approved before you fly, pick your ride before you land, transfer, taxi or rental, swim on the calm west coast and save the wild east for the views."
+  },
+  {
+   "line": 36,
+   "recall": 1.0,
+   "last_word": "trip",
+   "last_word_heard": true,
+   "heard": "Subscribe for the next Arrival Guide and enjoy every sunny minute of Aruba. See you on the next trip!"
+  }
+ ]
+}

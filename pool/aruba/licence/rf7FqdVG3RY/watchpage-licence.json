@@ -1,0 +1,17 @@
+{
+ "id": "rf7FqdVG3RY",
+ "title": "Boca Catalina Beach, Aruba",
+ "channel": "Thore Noernberg",
+ "channel_url": "https://www.youtube.com/channel/UC7LjjqOGvFK0dbQNWCQaSkQ",
+ "uploader": "Thore Noernberg",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": "34",
+ "upload_date": "20151005",
+ "width": "1920",
+ "height": "1080",
+ "description": "a fine beach at the north of One Happy Island",
+ "checked_at": "2026-11-10T17:44:12-05:00",
+ "url": "https://www.youtube.com/watch?v=rf7FqdVG3RY",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": "1080"
+}

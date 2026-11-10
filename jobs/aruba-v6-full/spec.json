@@ -1,0 +1,90 @@
+{
+ "slug": "aruba-travel-guide",
+ "place": "Aruba",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "speed": 1.0,
+ "map": {
+  "geojson": "assets/maps/aruba.geojson",
+  "places": "videos/aruba-travel-guide/places.json"
+ },
+ "public_dir": "jobs/aruba-v6-full/build/public",
+ "facts": "videos/aruba-travel-guide/facts.json",
+ "pronunciations": "videos/aruba-travel-guide/pronunciations.json",
+ "disclosure_overlay": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels.",
+ "brand": "AURUM TRANSFERS",
+ "output_stem": "v6-full",
+ "place_names": [
+  "Queen Beatrix",
+  "Aruba",
+  "Oranjestad",
+  "Paraguaná",
+  "Papiamento",
+  "Eagle Beach",
+  "Palm Beach",
+  "Boca Catalina",
+  "Boca Grandi",
+  "ED-Card",
+  "Hi-Winds",
+  "fofoti",
+  "palapa"
+ ],
+ "stt_alias": {
+  "ED-Card": [
+   "ED card",
+   "E D card",
+   "EDCard",
+   "E.D. card"
+  ],
+  "Willem": [
+   "William",
+   "Willem"
+  ],
+  "Hi-Winds": [
+   "high winds",
+   "hi winds"
+  ],
+  "palapa": [
+   "palapa",
+   "palapas"
+  ],
+  "Paraguaná": [
+   "paraguana",
+   "paraguan"
+  ],
+  "fofoti": [
+   "fofoti",
+   "fo fo tee",
+   "fofo tea",
+   "fofo t",
+   "fofoty"
+  ],
+  "Boca Grandi": [
+   "Boca Grande"
+  ],
+  "Oranjestad": [
+   "Orania stad",
+   "Oraniastad",
+   "Oranjestad",
+   "Oranjiestad",
+   "Oranya stad",
+   "Oranya stard",
+   "Oranyastad",
+   "Oranye stad",
+   "Oranyestad"
+  ]
+ },
+ "evidence_dirs": [
+  "pool/aruba/licence",
+  "videos/aruba-travel-guide"
+ ],
+ "respell": {
+  "Paraguaná": "Parra-gwah-NAH"
+ },
+ "ipa": {
+  "Oranjestad": "ɔːɹˈɑːnjəstˌɑːd"
+ },
+ "ambient_gain": 0.3,
+ "lift_min_count": 3,
+ "scope": "full"
+}

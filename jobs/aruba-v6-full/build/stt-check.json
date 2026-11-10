@@ -1,0 +1,386 @@
+{
+ "created": "2026-11-10T18:21:59-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Queen Beatrix",
+   "heard": "Just landed at Queen Beatrix and not sure how you'll get to your hotel.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Queen Beatrix",
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Aruba",
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 5,
+   "name": "Queen Beatrix",
+   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major U.S. cities and daily flights from big hubs around the world.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Aruba",
+   "heard": "Aruba sits in the southern Caribbean, just outside the Hurricane Belt, about 15-18 miles off the coast of Venezuela, and it's only six miles across.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 11,
+   "name": "Aruba",
+   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments. It genuinely helps the next traveler.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 13,
+   "name": "Aruba",
+   "heard": "Every traveler to Aruba, including infants and children, must complete the online ED card, the Embarkation and Disembarkation card, and get it approved.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 13,
+   "name": "ED-Card",
+   "heard": "Every traveler to Aruba, including infants and children, must complete the online ED card, the Embarkation and Disembarkation card, and get it approved.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 17,
+   "name": "Aruba",
+   "heard": "and sought out travel health insurance. The UK government notes that European and global health insurance cards aren't valid in Aruba.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 20,
+   "name": "Eagle Beach",
+   "heard": "Most hotels and resorts sit along the northwestern coast. The high rises at Palm Beach and the low rise resorts near quieter Eagle Beach.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 20,
+   "name": "Palm Beach",
+   "heard": "Most hotels and resorts sit along the northwestern coast. The high rises at Palm Beach and the low rise resorts near quieter Eagle Beach.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 30,
+   "name": "Eagle Beach",
+   "heard": "Eagle Beach is the long stretch of soft white sand with the famous Fofo tea trees and visitors are asked to treat them with respect.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 30,
+   "name": "fofoti",
+   "heard": "Eagle Beach is the long stretch of soft white sand with the famous Fofo tea trees and visitors are asked to treat them with respect.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 31,
+   "name": "Palm Beach",
+   "heard": "Up the hotel strip, Palm Beach is where the high rises meet the Palapas. Want free shade under a public Palapa? Arrive early.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 31,
+   "name": "palapa",
+   "heard": "Up the hotel strip, Palm Beach is where the high rises meet the Palapas. Want free shade under a public Palapa? Arrive early.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 32,
+   "name": "Boca Catalina",
+   "heard": "Boca Catalina is a small bay with gentle waves and colorful reef fish just offshore.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 33,
+   "name": "Boca Grandi",
+   "heard": "Over on the east side, Boca Grande suits windsurfing and kitesurfing, but its strong current makes it a poor place to swim.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 35,
+   "name": "ED-Card",
+   "heard": "So the short version, get your E.D. card approved before you fly, pick your ride before you land, transfer, taxi or rental, swim on the calm west coast and save the wild east for the views.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 36,
+   "name": "Aruba",
+   "heard": "Subscribe for the next Arrival Guide and enjoy every sunny minute of Aruba. See you on the next trip!",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 19,
+ "total": 19,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Just landed at Queen Beatrix and not sure how you'll get to your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "Three easy ways, a pre-booked private transfer, a taxi with the fare agreed first, or a rental car."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Let's get you to the beach."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "do",
+   "last_word_heard": true,
+   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "beatrix",
+   "last_word_heard": true,
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix."
+  },
+  {
+   "line": 5,
+   "recall": 0.92,
+   "last_word": "world",
+   "last_word_heard": true,
+   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major U.S. cities and daily flights from big hubs around the world."
+  },
+  {
+   "line": 6,
+   "recall": 1.0,
+   "last_word": "faster",
+   "last_word_heard": true,
+   "heard": "Once you're off the plane, everyone clears immigration on arrival, and eligible travelers can use the e-gates to move a little faster."
+  },
+  {
+   "line": 7,
+   "recall": 1.0,
+   "last_word": "declared",
+   "last_word_heard": true,
+   "heard": "Then customs, anything that may be prohibited or subject to tax or duty has to be declared."
+  },
+  {
+   "line": 8,
+   "recall": 1.0,
+   "last_word": "heading",
+   "last_word_heard": true,
+   "heard": "From the air you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading."
+  },
+  {
+   "line": 9,
+   "recall": 0.963,
+   "last_word": "across",
+   "last_word_heard": true,
+   "heard": "Aruba sits in the southern Caribbean, just outside the Hurricane Belt, about 15-18 miles off the coast of Venezuela, and it's only six miles across."
+  },
+  {
+   "line": 10,
+   "recall": 0.882,
+   "last_word": "shower",
+   "last_word_heard": true,
+   "heard": "The climate is tropical semiarid, warm and sunny all year with just the occasional brief shower."
+  },
+  {
+   "line": 11,
+   "recall": 1.0,
+   "last_word": "traveller",
+   "last_word_heard": true,
+   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments. It genuinely helps the next traveler."
+  },
+  {
+   "line": 12,
+   "recall": 1.0,
+   "last_word": "board",
+   "last_word_heard": true,
+   "heard": "Now the one bit of paperwork that matters before you even board."
+  },
+  {
+   "line": 13,
+   "recall": 1.0,
+   "last_word": "approved",
+   "last_word_heard": true,
+   "heard": "Every traveler to Aruba, including infants and children, must complete the online ED card, the Embarkation and Disembarkation card, and get it approved."
+  },
+  {
+   "line": 14,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "You can fill it in within seven days before your trip, and the airline will ask for proof of approval before you fly. Even passengers in transit need one."
+  },
+  {
+   "line": 15,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "Bring a valid passport. American, Canadian, Caribbean, European, and most South American citizens don't need a visa, and British citizens can stay up to three months without one."
+  },
+  {
+   "line": 16,
+   "recall": 1.0,
+   "last_word": "go",
+   "last_word_heard": true,
+   "heard": "There's also a sustainability fee for visitors arriving by air, and the tourism authority keeps its traveler requirements page up-to-date, so check the current details there just before you go."
+  },
+  {
+   "line": 17,
+   "recall": 0.952,
+   "last_word": "aruba",
+   "last_word_heard": true,
+   "heard": "and sought out travel health insurance. The UK government notes that European and global health insurance cards aren't valid in Aruba."
+  },
+  {
+   "line": 18,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "If this checklist just saved you a headache at the gate, tap like, it tells us to make more arrival guides like this one."
+  },
+  {
+   "line": 19,
+   "recall": 1.0,
+   "last_word": "going",
+   "last_word_heard": true,
+   "heard": "Right bags in hand, where are you actually going?"
+  },
+  {
+   "line": 20,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Most hotels and resorts sit along the northwestern coast. The high rises at Palm Beach and the low rise resorts near quieter Eagle Beach."
+  },
+  {
+   "line": 21,
+   "recall": 1.0,
+   "last_word": "itself",
+   "last_word_heard": true,
+   "heard": "Option one is the calmest. A pre-booked private transfer. You walk out of arrivals, your driver is waiting and the first hour takes care of itself."
+  },
+  {
+   "line": 22,
+   "recall": 1.0,
+   "last_word": "phone",
+   "last_word_heard": true,
+   "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed and keep the confirmation on your phone."
+  },
+  {
+   "line": 23,
+   "recall": 1.0,
+   "last_word": "off",
+   "last_word_heard": true,
+   "heard": "Option two, a taxi. The UK government's advice is simple. Agree the fare with the driver in local currency before you set off."
+  },
+  {
+   "line": 24,
+   "recall": 1.0,
+   "last_word": "airport",
+   "last_word_heard": true,
+   "heard": "Option 3, a rental car, motorcycle or scooter, which you can pick up right at the airport."
+  },
+  {
+   "line": 25,
+   "recall": 1.0,
+   "last_word": "permit",
+   "last_word_heard": true,
+   "heard": "Just check the small print first. Rental companies often ask for two years of driving experience, a higher minimum age, or an international driving permit."
+  },
+  {
+   "line": 26,
+   "recall": 1.0,
+   "last_word": "description",
+   "last_word_heard": true,
+   "heard": "Which one are you picking? Transfer, taxi or rental? Tell us below and the transfer comparison link is in the description."
+  },
+  {
+   "line": 27,
+   "recall": 1.0,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Now the good part, the beaches."
+  },
+  {
+   "line": 28,
+   "recall": 1.0,
+   "last_word": "snorkelling",
+   "last_word_heard": true,
+   "heard": "The rule of thumb is simple. The West and South coasts are calm and protected, good for swimming and snorkeling."
+  },
+  {
+   "line": 29,
+   "recall": 0.941,
+   "last_word": "views",
+   "last_word_heard": true,
+   "heard": "The eastern North coasts face the open sea, with stronger winds crashing waves and big views."
+  },
+  {
+   "line": 30,
+   "recall": 0.958,
+   "last_word": "respect",
+   "last_word_heard": true,
+   "heard": "Eagle Beach is the long stretch of soft white sand with the famous Fofo tea trees and visitors are asked to treat them with respect."
+  },
+  {
+   "line": 31,
+   "recall": 1.0,
+   "last_word": "early",
+   "last_word_heard": true,
+   "heard": "Up the hotel strip, Palm Beach is where the high rises meet the Palapas. Want free shade under a public Palapa? Arrive early."
+  },
+  {
+   "line": 32,
+   "recall": 0.933,
+   "last_word": "offshore",
+   "last_word_heard": true,
+   "heard": "Boca Catalina is a small bay with gentle waves and colorful reef fish just offshore."
+  },
+  {
+   "line": 33,
+   "recall": 1.0,
+   "last_word": "swim",
+   "last_word_heard": true,
+   "heard": "Over on the east side, Boca Grande suits windsurfing and kitesurfing, but its strong current makes it a poor place to swim."
+  },
+  {
+   "line": 34,
+   "recall": 1.0,
+   "last_word": "them",
+   "last_word_heard": true,
+   "heard": "Wherever you are, don't feed the wildlife, never stand on the reef and leave shells and coral where you found them."
+  },
+  {
+   "line": 35,
+   "recall": 0.972,
+   "last_word": "views",
+   "last_word_heard": true,
+   "heard": "So the short version, get your E.D. card approved before you fly, pick your ride before you land, transfer, taxi or rental, swim on the calm west coast and save the wild east for the views."
+  },
+  {
+   "line": 36,
+   "recall": 1.0,
+   "last_word": "trip",
+   "last_word_heard": true,
+   "heard": "Subscribe for the next Arrival Guide and enjoy every sunny minute of Aruba. See you on the next trip!"
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}

@@ -1,0 +1,1674 @@
+{
+ "schema": "aurum-footage-v6",
+ "slug": "aruba-travel-guide",
+ "job": "aruba-v6-full",
+ "notes": "Landing from SfMJtsB5-Ds only at/after 5:10, sped up (Marvin rule). All other clips from the 10 Nov high-quality shortlist. TOMTOM limited to one video because of the 28% creator cap. Ranges are plans; clip_qc and the planner must still reject near-still, dark, or mismatched seconds. Files are release assets, not git. JMC3VLiM3ME range clips carry a digitally silent audio track (-91 dB), so audio=false (checked 10 Nov). 10 Nov v6 preview review: q9_rZmj1kSk audio banned (SFX); reversed ranges and the handheld walk banned; subject keys added so a place is shown in one block, never returned to. 10 Nov full cut: added range clips from the shortlist (TOMTOM jwnx/upG/qCGY, Boone, Aruba illustrated YMIq, Nik K 66AD/gI-qo) and sharp v5-library sources re-checked CC BY today (Regilio Jadi 4K re-download cropped to remove burned-in caption/watermark, Think Travel, NickWorldView, Daniel Mosquera, Thore, MrZona007, AlongForTheJourney). Letterboxed kx4ej/K7i9 excluded (effective height < 1080).",
+ "clips": [
+  {
+   "id": "landing_approach",
+   "parent": "landing_approach",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+   "title": "Landing on Aruba in 4K!",
+   "file": "clips/SfMJtsB5-Ds_310-360.mp4",
+   "f0": 30.5,
+   "f1": 50.0,
+   "src_base": 310.0,
+   "src_speed": 1.0,
+   "play_speed": 3.8,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix — final approach over the turquoise shallows, source 5:40.5-6:00 at 3.8x (5:10-5:40 is a near-identical wing-over-sea view: v6 preview hook read as a static wing)",
+   "subject": "aua-approach"
+  },
+  {
+   "id": "landing_touchdown",
+   "parent": "landing_touchdown",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+   "title": "Landing on Aruba in 4K!",
+   "file": "clips/SfMJtsB5-Ds_360-370.mp4",
+   "f0": 0.0,
+   "f1": 10.0,
+   "src_base": 360.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "landing",
+    "touchdown",
+    "runway"
+   ],
+   "shows": [
+    "touchdown",
+    "runway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix — touchdown, source 6:00-6:10 at 2x",
+   "subject": "aua-runway"
+  },
+  {
+   "id": "landing_taxi",
+   "parent": "landing_taxi",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+   "title": "Landing on Aruba in 4K!",
+   "file": "clips/SfMJtsB5-Ds_370-400.mp4",
+   "f0": 0.0,
+   "f1": 30.0,
+   "src_base": 370.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "plane-taxi"
+   ],
+   "shows": [
+    "plane-taxi"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix — taxi after touchdown, source 6:10-6:40 at 2x",
+   "subject": "aua-apron"
+  },
+  {
+   "id": "aua_drive_day",
+   "parent": "aua_drive_day",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "url": "https://www.youtube.com/watch?v=JMC3VLiM3ME",
+   "title": "Secrets Baby beach to Airport Aruba",
+   "file": "clips/JMC3VLiM3ME_30-90.mp4",
+   "f0": 0.0,
+   "f1": 60.0,
+   "src_base": 30.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving"
+   ],
+   "shows": [
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)",
+   "subject": "road-to-aua"
+  },
+  {
+   "id": "aua_curb",
+   "parent": "aua_curb",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "url": "https://www.youtube.com/watch?v=JMC3VLiM3ME",
+   "title": "Secrets Baby beach to Airport Aruba",
+   "file": "clips/JMC3VLiM3ME_192-228.mp4",
+   "f0": 0.0,
+   "f1": 36.0,
+   "src_base": 192.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-curb",
+    "driving"
+   ],
+   "shows": [
+    "airport-curb",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Arriving at Queen Beatrix curb, source 3:12-3:38 only",
+   "subject": "aua-curb"
+  },
+  {
+   "id": "palm_walk_shore",
+   "parent": "palm_walk_shore",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_0-40.mp4",
+   "f0": 0.0,
+   "f1": 40.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palm-beach",
+    "beach"
+   ],
+   "shows": [
+    "palm-beach",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palm Beach walk, palapas and shore, source 0:00-0:40",
+   "subject": "palm-beach-walk",
+   "handheld": true,
+   "stabilised": false
+  },
+  {
+   "id": "palm_water_pier",
+   "parent": "palm_water_pier",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_80-145.mp4",
+   "f0": 0.0,
+   "f1": 8.0,
+   "src_base": 80.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "pier",
+    "beach",
+    "calm-sea-aerial"
+   ],
+   "shows": [
+    "pier",
+    "beach",
+    "calm-sea-aerial"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palm Beach waterline in the sun, source 1:20-1:28",
+   "subject": "palm-beach-waterline"
+  },
+  {
+   "id": "palm_hotel_end",
+   "parent": "palm_hotel_end",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_190-213.mp4",
+   "f0": 0.0,
+   "f1": 23.0,
+   "src_base": 190.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palm-beach",
+    "hotel-strip"
+   ],
+   "shows": [
+    "hotel-strip",
+    "hotel-strip-water",
+    "palm-beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palm Beach hotels from the water, source 3:10-end",
+   "subject": "palm-beach-hotels-from-water"
+  },
+  {
+   "id": "palm_strip_water",
+   "parent": "palm_strip_water",
+   "video_id": "q9_rZmj1kSk",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=q9_rZmj1kSk",
+   "title": "ARUBA - Netherlands Antilles: Palm Beach Area In Front Of \"Barcelo Aruba\" Resort",
+   "file": "clips/q9_rZmj1kSk_125-146.mp4",
+   "f0": 0.0,
+   "f1": 21.0,
+   "src_base": 125.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "hotel-strip",
+    "palm-beach"
+   ],
+   "shows": [
+    "beach-aerial",
+    "hotel-strip",
+    "hotel-strip-water",
+    "palm-beach"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Water-level Palm Beach hotel strip, source 2:05-2:26 only",
+   "subject": "palm-beach-hotels-from-water",
+   "audio_note": "Creator edit carries 8-bit game jump/coin SFX (heard at v6 preview 0:11, tonality 0.82-0.88 at file 1-2 s). Source audio banned."
+  },
+  {
+   "id": "overview_island_a",
+   "parent": "overview_island_a",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_0-40.mp4",
+   "f0": 12.0,
+   "f1": 40.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "island-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "calm-sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds (source title text burned in until ~0:11, so starts at 0:12)",
+   "subject": "island-overview-aerial"
+  },
+  {
+   "id": "overview_hotels",
+   "parent": "overview_hotels",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_120-165.mp4",
+   "f0": 0.0,
+   "f1": 14.0,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "hotel-strip",
+    "eagle-beach",
+    "palm-beach"
+   ],
+   "shows": [
+    "hotel-strip",
+    "beach-aerial",
+    "eagle-beach"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "West-coast shoreline and hotels, oblique drone, source 2:00-2:14",
+   "subject": "west-coast-oblique-aerial"
+  },
+  {
+   "id": "overview_coast",
+   "parent": "overview_coast",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_240-300.mp4",
+   "f0": 3.0,
+   "f1": 40.0,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "island-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "hotel-strip"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palm Beach hotel strip, top-down drone move, source 4:03-4:40",
+   "subject": "palm-beach-hotel-strip-aerial"
+  },
+  {
+   "id": "baby_pan_a",
+   "parent": "baby_pan_a",
+   "video_id": "sbcjtH8dehc",
+   "creator": "Thore Noernberg",
+   "url": "https://www.youtube.com/watch?v=sbcjtH8dehc",
+   "title": "Baby Beach, Aruba",
+   "file": "clips/sbcjtH8dehc_0-62.mp4",
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "beach",
+    "baby-beach"
+   ],
+   "shows": [
+    "beach",
+    "baby-beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "f0": 0.0,
+   "f1": 10.0,
+   "place": "Baby Beach pan from the dunes, source 0:00-0:10 (0:10-0:24 plays reversed: people walk backwards)",
+   "subject": "baby-beach"
+  },
+  {
+   "id": "baby_pan_b",
+   "parent": "baby_pan_b",
+   "video_id": "sbcjtH8dehc",
+   "creator": "Thore Noernberg",
+   "url": "https://www.youtube.com/watch?v=sbcjtH8dehc",
+   "title": "Baby Beach, Aruba",
+   "file": "clips/sbcjtH8dehc_0-62.mp4",
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "beach",
+    "baby-beach"
+   ],
+   "shows": [
+    "beach",
+    "baby-beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "f0": 48.0,
+   "f1": 61.0,
+   "place": "Baby Beach pan, source 0:48-1:01",
+   "subject": "baby-beach"
+  },
+  {
+   "id": "hadicurari_a",
+   "parent": "hadicurari_a",
+   "video_id": "NKOM0qmVfJs",
+   "creator": "Nik K",
+   "file": "clips/NKOM0qmVfJs_20-80.mp4",
+   "src_base": 20.0,
+   "f1": 59.0,
+   "url": "https://www.youtube.com/watch?v=NKOM0qmVfJs",
+   "title": "ARUBA: Hadicurari Beach - One of the Best Beaches for Kite Surfers & Other Wind Fans | @5.3K",
+   "tags": [
+    "beach",
+    "hadicurari"
+   ],
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "audio": false,
+   "audio_note": "constant -7 dBFS with tonal content (backing music suspected); picture only",
+   "subject": "hadicurari-beach",
+   "place": "Hadicurari Beach shoreline, north of Palm Beach, source 0:20-1:20",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "hadicurari_b",
+   "parent": "hadicurari_b",
+   "video_id": "NKOM0qmVfJs",
+   "creator": "Nik K",
+   "file": "clips/NKOM0qmVfJs_100-160.mp4",
+   "src_base": 100.0,
+   "f1": 59.0,
+   "url": "https://www.youtube.com/watch?v=NKOM0qmVfJs",
+   "title": "ARUBA: Hadicurari Beach - One of the Best Beaches for Kite Surfers & Other Wind Fans | @5.3K",
+   "tags": [
+    "beach",
+    "hadicurari"
+   ],
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "audio": false,
+   "audio_note": "backing music suspected; picture only",
+   "subject": "hadicurari-beach",
+   "place": "Hadicurari Beach loungers and water, source 1:40-2:40",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "arashi_shore",
+   "parent": "arashi_shore",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "clips/zxVwRRLLe2Q_29.5-37.8.mp4",
+   "src_base": 29.5,
+   "f1": 8.0,
+   "url": "https://www.youtube.com/watch?v=zxVwRRLLe2Q",
+   "title": "Aruba Port Call - Arashi Beach",
+   "tags": [
+    "beach",
+    "arashi"
+   ],
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "audio": false,
+   "audio_note": "port-call vlog audio; picture only",
+   "subject": "arashi-beach",
+   "place": "Arashi Beach shoreline, source 0:29.5-0:37.8 (before the 0:39 selfie)",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "arashi_palapas",
+   "parent": "arashi_palapas",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "clips/zxVwRRLLe2Q_90.2-95.5.mp4",
+   "src_base": 90.2,
+   "f1": 5.0,
+   "url": "https://www.youtube.com/watch?v=zxVwRRLLe2Q",
+   "title": "Aruba Port Call - Arashi Beach",
+   "tags": [
+    "beach",
+    "arashi"
+   ],
+   "shows": [
+    "beach"
+   ],
+   "audio": false,
+   "audio_note": "port-call vlog audio; picture only",
+   "subject": "arashi-beach",
+   "place": "Arashi Beach palapas, source 1:30.2-1:35.5",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "palm_pier_deck",
+   "parent": "palm_pier_deck",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_80-145.mp4",
+   "f0": 22.0,
+   "f1": 42.0,
+   "src_base": 80.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "pier",
+    "beach"
+   ],
+   "shows": [
+    "pier",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "On the Palm Beach pier deck, source 1:42-2:02",
+   "subject": "palm-beach-pier-deck"
+  },
+  {
+   "id": "overview_boats",
+   "parent": "overview_boats",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_240-300.mp4",
+   "f0": 42.0,
+   "f1": 57.0,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boats",
+    "beach-aerial"
+   ],
+   "shows": [
+    "calm-sea-aerial",
+    "beach-aerial",
+    "boats"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Catamarans and boats off Palm Beach, source 4:42-4:57",
+   "subject": "boats-off-palm-beach"
+  },
+  {
+   "id": "overview_town",
+   "parent": "overview_town",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_120-165.mp4",
+   "f0": 16.0,
+   "f1": 22.0,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "town-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "town-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Inland Noord/Oranjestad town aerial, source 2:16-2:22",
+   "subject": "noord-town-aerial"
+  },
+  {
+   "id": "aua_taxiway_win",
+   "parent": "aua_taxiway_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "url": "https://www.youtube.com/watch?v=lDsQ95TxjJY",
+   "title": "Insane POV Landing at Aruba International Airport (AUA)",
+   "file": "clips/lDsQ95TxjJY_352-462.mp4",
+   "f0": 0.3,
+   "f1": 109.7,
+   "src_base": 352.0,
+   "src_speed": 1.0,
+   "play_speed": 1.8,
+   "tags": [
+    "plane-taxi",
+    "runway"
+   ],
+   "shows": [
+    "plane-taxi",
+    "runway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix: taxiing to the terminal, window seat (4K source, cropped to remove burned-in caption and watermark); played at 1.8x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-taxiway-window"
+  },
+  {
+   "id": "aua_terminal_win",
+   "parent": "aua_terminal_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "url": "https://www.youtube.com/watch?v=lDsQ95TxjJY",
+   "title": "Insane POV Landing at Aruba International Airport (AUA)",
+   "file": "clips/lDsQ95TxjJY_462-557.mp4",
+   "f0": 0.3,
+   "f1": 94.7,
+   "src_base": 462.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "airport-terminal"
+   ],
+   "shows": [
+    "airport-terminal"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix terminal and control tower from the window (4K source, cropped); played at 2.0x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-terminal-window"
+  },
+  {
+   "id": "aua_final_win",
+   "parent": "aua_final_win",
+   "video_id": "lDsQ95TxjJY",
+   "creator": "Regilio Jadi",
+   "url": "https://www.youtube.com/watch?v=lDsQ95TxjJY",
+   "title": "Insane POV Landing at Aruba International Airport (AUA)",
+   "file": "clips/lDsQ95TxjJY_265-338.mp4",
+   "f0": 0.3,
+   "f1": 72.7,
+   "src_base": 265.0,
+   "src_speed": 1.0,
+   "play_speed": 2.5,
+   "tags": [
+    "air-arrival",
+    "approach",
+    "window-seat",
+    "final-win"
+   ],
+   "shows": [
+    "air-arrival",
+    "approach",
+    "window-seat",
+    "final-win"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Final approach to AUA over turquoise water, window seat (4K source, cropped); played at 2.5x (slow taxi/approach read near-static at 1x)",
+   "subject": "aua-final-approach-window"
+  },
+  {
+   "id": "town_downtown",
+   "parent": "town_downtown",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=gI-qoX5wNBE",
+   "title": "Downtown Aruba Vibes: Main & Other Streets of Oranjestad | Malmok Beach at Sunset, Twilight & Dusk",
+   "file": "clips/gI-qoX5wNBE_210-270.mp4",
+   "f0": 0.3,
+   "f1": 59.73,
+   "src_base": 210.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "town-street",
+    "shops",
+    "streetcar"
+   ],
+   "shows": [
+    "town-street",
+    "shops",
+    "streetcar"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Downtown Oranjestad streets and streetcar",
+   "subject": "oranjestad-downtown-walk"
+  },
+  {
+   "id": "drive_town_dash",
+   "parent": "drive_town_dash",
+   "video_id": "gI-qoX5wNBE",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=gI-qoX5wNBE",
+   "title": "Downtown Aruba Vibes: Main & Other Streets of Oranjestad | Malmok Beach at Sunset, Twilight & Dusk",
+   "file": "clips/gI-qoX5wNBE_720-780.mp4",
+   "f0": 0.3,
+   "f1": 59.69,
+   "src_base": 720.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "dash-b"
+   ],
+   "shows": [
+    "driving",
+    "dash-b"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Driving out of Oranjestad (dash view)",
+   "subject": "dash-drive-out-of-oranjestad"
+  },
+  {
+   "id": "wild_waves",
+   "parent": "wild_waves",
+   "video_id": "5KnVV7neC18",
+   "creator": "Daniel Mosquera",
+   "url": "https://www.youtube.com/watch?v=5KnVV7neC18",
+   "title": "Drone |Aruba|  Natural Bridge |",
+   "file": "clips/5KnVV7neC18_0-56.mp4",
+   "f0": 0.3,
+   "f1": 55.72,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "wild-coast",
+    "north-coast",
+    "surf"
+   ],
+   "shows": [
+    "wild-coast",
+    "north-coast",
+    "surf"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast surf, Natural Bridge area (creator title), aerial",
+   "subject": "north-coast-surf-aerial"
+  },
+  {
+   "id": "wild_cliff",
+   "parent": "wild_cliff",
+   "video_id": "5KnVV7neC18",
+   "creator": "Daniel Mosquera",
+   "url": "https://www.youtube.com/watch?v=5KnVV7neC18",
+   "title": "Drone |Aruba|  Natural Bridge |",
+   "file": "clips/5KnVV7neC18_180-195.mp4",
+   "f0": 0.3,
+   "f1": 14.71,
+   "src_base": 180.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "wild-coast",
+    "cliff"
+   ],
+   "shows": [
+    "wild-coast",
+    "cliff"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Waves at the north-coast cliff edge, aerial",
+   "subject": "north-coast-cliff-aerial"
+  },
+  {
+   "id": "catalina",
+   "parent": "catalina",
+   "video_id": "rf7FqdVG3RY",
+   "creator": "Thore Noernberg",
+   "url": "https://www.youtube.com/watch?v=rf7FqdVG3RY",
+   "title": "Boca Catalina Beach, Aruba",
+   "file": "clips/rf7FqdVG3RY_3-20.mp4",
+   "f0": 0.3,
+   "f1": 16.7,
+   "src_base": 3.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "catalina",
+    "calm-sea",
+    "swim"
+   ],
+   "shows": [
+    "catalina",
+    "calm-sea",
+    "swim"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Boca Catalina (creator title)",
+   "subject": "boca-catalina"
+  },
+  {
+   "id": "kite_grandi",
+   "parent": "kite_grandi",
+   "video_id": "SxmdGhj0cBQ",
+   "creator": "MrZona007",
+   "url": "https://www.youtube.com/watch?v=SxmdGhj0cBQ",
+   "title": "Aruba Kitesurfing Video at Boca Grande, Bachelors Beach",
+   "file": "clips/SxmdGhj0cBQ_10-45.mp4",
+   "f0": 0.3,
+   "f1": 34.7,
+   "src_base": 10.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kite",
+    "wild-coast"
+   ],
+   "shows": [
+    "kite",
+    "wild-coast"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Boca Grandi kitesurfers, east coast (creator title)",
+   "subject": "boca-grandi-kites"
+  },
+  {
+   "id": "town_street_a",
+   "parent": "town_street_a",
+   "video_id": "tBIJZkn58Yw",
+   "creator": "Think Travel",
+   "url": "https://www.youtube.com/watch?v=tBIJZkn58Yw",
+   "title": "ORANJESTAD ARUBA is BEAUTIFUL 😍",
+   "file": "clips/tBIJZkn58Yw_15-40.mp4",
+   "f0": 0.3,
+   "f1": 24.7,
+   "src_base": 15.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "town-street",
+    "shops"
+   ],
+   "shows": [
+    "town-street",
+    "shops"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Oranjestad streets near the cruise port",
+   "subject": "oranjestad-cruise-street"
+  },
+  {
+   "id": "town_street_c",
+   "parent": "town_street_c",
+   "video_id": "tBIJZkn58Yw",
+   "creator": "Think Travel",
+   "url": "https://www.youtube.com/watch?v=tBIJZkn58Yw",
+   "title": "ORANJESTAD ARUBA is BEAUTIFUL 😍",
+   "file": "clips/tBIJZkn58Yw_55-70.mp4",
+   "f0": 0.3,
+   "f1": 14.7,
+   "src_base": 55.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "town-street",
+    "shops"
+   ],
+   "shows": [
+    "town-street",
+    "shops"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Oranjestad streets near the cruise port",
+   "subject": "oranjestad-cruise-street"
+  },
+  {
+   "id": "palm_palapas_walk",
+   "parent": "palm_palapas_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+   "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+   "file": "clips/D8EUO_LMIg8_0-40.mp4",
+   "f0": 0.3,
+   "f1": 39.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palm-beach",
+    "palapa",
+    "beach",
+    "palapa-walk"
+   ],
+   "shows": [
+    "palm-beach",
+    "palapa",
+    "beach",
+    "palapa-walk"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palm Beach palapas",
+   "subject": "palm-beach-palapas"
+  },
+  {
+   "id": "eagle_ground",
+   "parent": "eagle_ground",
+   "video_id": "oUYovWrqzOw",
+   "creator": "AlongForTheJourney",
+   "url": "https://www.youtube.com/watch?v=oUYovWrqzOw",
+   "title": "Aruba Eagle Beach Ultimate Tour and How to Get There the Easy Way - Closest Beach to Cruise Port",
+   "file": "clips/oUYovWrqzOw_216-267.mp4",
+   "f0": 0.3,
+   "f1": 50.7,
+   "src_base": 216.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "eagle-beach",
+    "beach",
+    "eagle-ground"
+   ],
+   "shows": [
+    "eagle-beach",
+    "beach",
+    "eagle-ground"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Eagle Beach sand and palapas",
+   "subject": "eagle-beach-ground"
+  },
+  {
+   "id": "reef_snorkel",
+   "parent": "reef_snorkel",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "url": "https://www.youtube.com/watch?v=zxVwRRLLe2Q",
+   "title": "Aruba Port Call - Arashi Beach",
+   "file": "clips/zxVwRRLLe2Q_44-84.mp4",
+   "f0": 0.0,
+   "f1": 39.7,
+   "src_base": 44.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "snorkel",
+    "underwater",
+    "reef"
+   ],
+   "shows": [
+    "snorkel",
+    "underwater",
+    "reef"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Snorkelling over the reef off Arashi (creator title)",
+   "subject": "arashi-underwater"
+  },
+  {
+   "id": "roads_aerial",
+   "parent": "roads_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=jwnxuaB_0go",
+   "title": "🇦🇼ARUBA PART-6 NOORD, ORANJESTAD, LACABANA, OCEANIA DELUXE BEACH/ES & BUCUTI & TARA BEACH, RESORTS 😊",
+   "file": "clips/jwnxuaB_0go_10-50.mp4",
+   "f0": 0.3,
+   "f1": 39.77,
+   "src_base": 10.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "road-aerial",
+    "driving"
+   ],
+   "shows": [
+    "road-aerial",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Roads and roundabout behind Eagle Beach, aerial",
+   "subject": "eagle-roads-aerial"
+  },
+  {
+   "id": "eagle_palapas_aerial",
+   "parent": "eagle_palapas_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=jwnxuaB_0go",
+   "title": "🇦🇼ARUBA PART-6 NOORD, ORANJESTAD, LACABANA, OCEANIA DELUXE BEACH/ES & BUCUTI & TARA BEACH, RESORTS 😊",
+   "file": "clips/jwnxuaB_0go_60-105.mp4",
+   "f0": 0.3,
+   "f1": 44.73,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "beach-aerial",
+    "palapa",
+    "eagle-beach",
+    "beach",
+    "eagle-palapas-air"
+   ],
+   "shows": [
+    "beach-aerial",
+    "palapa",
+    "eagle-beach",
+    "beach",
+    "eagle-palapas-air"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Eagle Beach palapas, aerial",
+   "subject": "eagle-palapas-aerial"
+  },
+  {
+   "id": "eagle_aerial",
+   "parent": "eagle_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=jwnxuaB_0go",
+   "title": "🇦🇼ARUBA PART-6 NOORD, ORANJESTAD, LACABANA, OCEANIA DELUXE BEACH/ES & BUCUTI & TARA BEACH, RESORTS 😊",
+   "file": "clips/jwnxuaB_0go_355-440.mp4",
+   "f0": 0.3,
+   "f1": 84.78,
+   "src_base": 355.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "eagle-beach",
+    "beach-aerial",
+    "hotel-strip",
+    "beach",
+    "eagle-air"
+   ],
+   "shows": [
+    "eagle-beach",
+    "beach-aerial",
+    "hotel-strip",
+    "beach",
+    "eagle-air"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Eagle Beach white sand and low-rise resorts, aerial",
+   "subject": "eagle-beach-aerial"
+  },
+  {
+   "id": "blvd_aerial",
+   "parent": "blvd_aerial",
+   "video_id": "jwnxuaB_0go",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=jwnxuaB_0go",
+   "title": "🇦🇼ARUBA PART-6 NOORD, ORANJESTAD, LACABANA, OCEANIA DELUXE BEACH/ES & BUCUTI & TARA BEACH, RESORTS 😊",
+   "file": "clips/jwnxuaB_0go_445-485.mp4",
+   "f0": 0.3,
+   "f1": 39.78,
+   "src_base": 445.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "road-aerial",
+    "hotel-strip",
+    "driving"
+   ],
+   "shows": [
+    "road-aerial",
+    "hotel-strip",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "J.E. Irausquin Blvd along the hotel strip, aerial",
+   "subject": "irausquin-blvd-aerial"
+  },
+  {
+   "id": "catamaran_south",
+   "parent": "catamaran_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=upG_Q15FQAY",
+   "title": "🇦🇼ARUBA PART-8 LA CABANA BEACH RESORT, SAN NICOLAS BABY BEACH, RUM REEF BAR & GRILL BACHELOR'S BEACH",
+   "file": "clips/upG_Q15FQAY_0-50.mp4",
+   "f0": 0.3,
+   "f1": 49.72,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-south"
+   ],
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-south"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Catamaran off the south-west coast, aerial",
+   "subject": "catamaran-aerial-south"
+  },
+  {
+   "id": "roundabout_south",
+   "parent": "roundabout_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=upG_Q15FQAY",
+   "title": "🇦🇼ARUBA PART-8 LA CABANA BEACH RESORT, SAN NICOLAS BABY BEACH, RUM REEF BAR & GRILL BACHELOR'S BEACH",
+   "file": "clips/upG_Q15FQAY_125-160.mp4",
+   "f0": 0.3,
+   "f1": 34.77,
+   "src_base": 125.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "road-aerial",
+    "driving"
+   ],
+   "shows": [
+    "road-aerial",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Roundabout and coast road, aerial",
+   "subject": "roundabout-aerial-south"
+  },
+  {
+   "id": "reef_aerial_south",
+   "parent": "reef_aerial_south",
+   "video_id": "upG_Q15FQAY",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=upG_Q15FQAY",
+   "title": "🇦🇼ARUBA PART-8 LA CABANA BEACH RESORT, SAN NICOLAS BABY BEACH, RUM REEF BAR & GRILL BACHELOR'S BEACH",
+   "file": "clips/upG_Q15FQAY_240-285.mp4",
+   "f0": 0.3,
+   "f1": 44.72,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "calm-sea-aerial",
+    "beach-aerial",
+    "south-reef"
+   ],
+   "shows": [
+    "calm-sea-aerial",
+    "beach-aerial",
+    "south-reef"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Shallow reef off the south coast, aerial",
+   "subject": "south-coast-reef-aerial"
+  },
+  {
+   "id": "palm_pier_aerial",
+   "parent": "palm_pier_aerial",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=qCGYFZhHymQ",
+   "title": "🇦🇼ARUBA PART 12 NORTHWEST OF THE ISLAND RESORTS AND HOTELS BEACHES ARE INCLUDED PLEASE ENJOY 🕊️🤗",
+   "file": "clips/qCGYFZhHymQ_15-45.mp4",
+   "f0": 0.3,
+   "f1": 29.77,
+   "src_base": 15.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "pier",
+    "hotel-strip",
+    "beach-aerial",
+    "beach",
+    "palm-pier-air"
+   ],
+   "shows": [
+    "pier",
+    "hotel-strip",
+    "beach-aerial",
+    "beach",
+    "palm-pier-air"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palm Beach pier and high-rises, aerial",
+   "subject": "palm-pier-aerial"
+  },
+  {
+   "id": "pirate_ship",
+   "parent": "pirate_ship",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=qCGYFZhHymQ",
+   "title": "🇦🇼ARUBA PART 12 NORTHWEST OF THE ISLAND RESORTS AND HOTELS BEACHES ARE INCLUDED PLEASE ENJOY 🕊️🤗",
+   "file": "clips/qCGYFZhHymQ_200-240.mp4",
+   "f0": 0.3,
+   "f1": 39.72,
+   "src_base": 200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boats",
+    "calm-sea-aerial",
+    "pirate"
+   ],
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "pirate"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Sailing ship off Palm Beach, aerial",
+   "subject": "pirate-ship-aerial"
+  },
+  {
+   "id": "speedboat",
+   "parent": "speedboat",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=qCGYFZhHymQ",
+   "title": "🇦🇼ARUBA PART 12 NORTHWEST OF THE ISLAND RESORTS AND HOTELS BEACHES ARE INCLUDED PLEASE ENJOY 🕊️🤗",
+   "file": "clips/qCGYFZhHymQ_250-285.mp4",
+   "f0": 0.3,
+   "f1": 34.77,
+   "src_base": 250.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boats",
+    "calm-sea-aerial",
+    "speedboat"
+   ],
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "speedboat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Speedboat off Palm Beach, aerial",
+   "subject": "speedboat-aerial"
+  },
+  {
+   "id": "catamaran_palm",
+   "parent": "catamaran_palm",
+   "video_id": "qCGYFZhHymQ",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=qCGYFZhHymQ",
+   "title": "🇦🇼ARUBA PART 12 NORTHWEST OF THE ISLAND RESORTS AND HOTELS BEACHES ARE INCLUDED PLEASE ENJOY 🕊️🤗",
+   "file": "clips/qCGYFZhHymQ_360-410.mp4",
+   "f0": 0.3,
+   "f1": 49.75,
+   "src_base": 360.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-palm"
+   ],
+   "shows": [
+    "boats",
+    "calm-sea-aerial",
+    "catamaran-palm"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Catamaran off Palm Beach, aerial",
+   "subject": "catamaran-aerial-palm"
+  },
+  {
+   "id": "bushiribana_coast",
+   "parent": "bushiribana_coast",
+   "video_id": "48HBrEn47I8",
+   "creator": "Boone's Digital Trail",
+   "url": "https://www.youtube.com/watch?v=48HBrEn47I8",
+   "title": "Aruba Bushiribana Gold Mine Ruins",
+   "file": "clips/48HBrEn47I8_160-180.mp4",
+   "f0": 0.3,
+   "f1": 19.73,
+   "src_base": 160.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "wild-coast",
+    "north-coast",
+    "bushiribana"
+   ],
+   "shows": [
+    "wild-coast",
+    "north-coast",
+    "bushiribana"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Bushiribana ruins and the north coast",
+   "subject": "bushiribana-north-coast"
+  },
+  {
+   "id": "bushiribana_rocks",
+   "parent": "bushiribana_rocks",
+   "video_id": "48HBrEn47I8",
+   "creator": "Boone's Digital Trail",
+   "url": "https://www.youtube.com/watch?v=48HBrEn47I8",
+   "title": "Aruba Bushiribana Gold Mine Ruins",
+   "file": "clips/48HBrEn47I8_240-275.mp4",
+   "f0": 22.0,
+   "f1": 34.7,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "wild-coast",
+    "bushiribana"
+   ],
+   "shows": [
+    "wild-coast",
+    "bushiribana"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North-coast rocks near Bushiribana",
+   "subject": "bushiribana-north-coast"
+  },
+  {
+   "id": "dash_golden",
+   "parent": "dash_golden",
+   "video_id": "YMIqVU63nvw",
+   "creator": "Aruba illustrated",
+   "url": "https://www.youtube.com/watch?v=YMIqVU63nvw",
+   "title": "Superfood to the airport in Aruba",
+   "file": "clips/YMIqVU63nvw_25-105.mp4",
+   "f0": 0.3,
+   "f1": 79.83,
+   "src_base": 25.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "dash-a"
+   ],
+   "shows": [
+    "driving",
+    "dash-a"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Driving toward the airport (dash view)",
+   "subject": "dash-drive-golden-hour"
+  },
+  {
+   "id": "malmok_sunset",
+   "parent": "malmok_sunset",
+   "video_id": "66AD59M-C0o",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=66AD59M-C0o",
+   "title": "Malmok Beach, ARUBA: Sunset At Steve’s Snorkel Spot | Super Zoom",
+   "file": "clips/66AD59M-C0o_15-55.mp4",
+   "f0": 0.3,
+   "f1": 39.7,
+   "src_base": 15.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "sunset",
+    "boats",
+    "malmok"
+   ],
+   "shows": [
+    "sunset",
+    "boats",
+    "malmok"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Malmok sunset sailboats (zoom)",
+   "subject": "malmok-sunset-boats"
+  },
+  {
+   "id": "lagoon_ren",
+   "parent": "lagoon_ren",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "url": "https://www.youtube.com/watch?v=ahdujmLapBg",
+   "title": "Aruba Renaissance / Flamingo Island",
+   "file": "clips/ahdujmLapBg_240-290.mp4",
+   "f0": 0.3,
+   "f1": 49.82,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "lagoon",
+    "calm-sea",
+    "lagoon-ren"
+   ],
+   "shows": [
+    "lagoon",
+    "calm-sea",
+    "lagoon-ren"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Renaissance Island lagoon",
+   "subject": "renaissance-lagoon"
+  },
+  {
+   "id": "oranjestad_boat",
+   "parent": "oranjestad_boat",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "url": "https://www.youtube.com/watch?v=ahdujmLapBg",
+   "title": "Aruba Renaissance / Flamingo Island",
+   "file": "clips/ahdujmLapBg_635-680.mp4",
+   "f0": 22.0,
+   "f1": 44.7,
+   "src_base": 635.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "waterfront",
+    "town-aerial",
+    "marina",
+    "cruise-port"
+   ],
+   "shows": [
+    "waterfront",
+    "town-aerial",
+    "marina",
+    "cruise-port"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Oranjestad waterfront from the boat",
+   "subject": "oranjestad-from-boat"
+  },
+  {
+   "id": "cave_coast",
+   "parent": "cave_coast",
+   "video_id": "NHmpbsBChnM",
+   "creator": "Boone's Digital Trail",
+   "url": "https://www.youtube.com/watch?v=NHmpbsBChnM",
+   "title": "Aruba Hidden Cave Pool",
+   "file": "clips/NHmpbsBChnM_0-15.mp4",
+   "f0": 0.3,
+   "f1": 4.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "wild-coast",
+    "cave"
+   ],
+   "shows": [
+    "wild-coast",
+    "cave"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North-coast shore by the cave pool",
+   "subject": "north-coast-cave-shore"
+  },
+  {
+   "id": "flamingo_beach",
+   "parent": "flamingo_beach",
+   "video_id": "ahdujmLapBg",
+   "creator": "Boone's Digital Trail",
+   "url": "https://www.youtube.com/watch?v=ahdujmLapBg",
+   "title": "Aruba Renaissance / Flamingo Island",
+   "file": "clips/ahdujmLapBg_455-480.mp4",
+   "f0": 0.3,
+   "f1": 12.0,
+   "src_base": 455.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "flamingo",
+    "beach"
+   ],
+   "shows": [
+    "flamingo",
+    "beach"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Flamingos on Renaissance (Flamingo) Island beach",
+   "subject": "renaissance-flamingos"
+  },
+  {
+   "id": "klm_approach",
+   "parent": "klm_approach",
+   "video_id": "Crp4nxTjd_Q",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=Crp4nxTjd_Q",
+   "title": "(4K UHD) KLM KL765 Landing on Aruba, Caribbean Netherlands. 4K",
+   "file": "clips/Crp4nxTjd_Q_220-310.mp4",
+   "f0": 2.0,
+   "f1": 18.0,
+   "src_base": 220.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "klm-approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "klm-approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "KLM approach over Oranjestad harbour, window seat (overcast), played at 2x",
+   "subject": "klm-approach-window"
+  },
+  {
+   "id": "klm_terminal",
+   "parent": "klm_terminal",
+   "video_id": "Crp4nxTjd_Q",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=Crp4nxTjd_Q",
+   "title": "(4K UHD) KLM KL765 Landing on Aruba, Caribbean Netherlands. 4K",
+   "file": "clips/Crp4nxTjd_Q_220-310.mp4",
+   "f0": 58.0,
+   "f1": 88.0,
+   "src_base": 220.0,
+   "src_speed": 1.0,
+   "play_speed": 2.6,
+   "tags": [
+    "klm-terminal",
+    "airport-terminal",
+    "plane-taxi"
+   ],
+   "shows": [
+    "klm-terminal",
+    "airport-terminal",
+    "plane-taxi"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "KLM taxiing past the Queen Beatrix terminal (overcast), played at 2.6x",
+   "subject": "klm-taxi-terminal"
+  },
+  {
+   "id": "palm_hotels_walk",
+   "parent": "palm_hotels_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+   "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+   "file": "clips/D8EUO_LMIg8_230-255.mp4",
+   "f0": 0.3,
+   "f1": 24.7,
+   "src_base": 230.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palm-hotels-walk",
+    "palm-beach",
+    "hotel-strip",
+    "beach"
+   ],
+   "shows": [
+    "palm-hotels-walk",
+    "palm-beach",
+    "hotel-strip",
+    "beach"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palm Beach shoreline below the high-rise resorts",
+   "subject": "palm-beach-highrises-shore"
+  },
+  {
+   "id": "palm_pier_walk",
+   "parent": "palm_pier_walk",
+   "video_id": "D8EUO_LMIg8",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+   "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+   "file": "clips/D8EUO_LMIg8_414-441.mp4",
+   "f0": 0.3,
+   "f1": 26.7,
+   "src_base": 414.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "pier-walk",
+    "pier",
+    "beach"
+   ],
+   "shows": [
+    "pier-walk",
+    "pier",
+    "beach"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Walking out along a Palm Beach pier",
+   "subject": "palm-beach-pier-walk"
+  },
+  {
+   "id": "malmok_catamaran",
+   "parent": "malmok_catamaran",
+   "video_id": "66AD59M-C0o",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=66AD59M-C0o",
+   "title": "Malmok Beach, ARUBA: Sunset At Steve’s Snorkel Spot | Super Zoom",
+   "file": "clips/66AD59M-C0o_75-95.mp4",
+   "f0": 0.3,
+   "f1": 19.7,
+   "src_base": 75.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "sunset",
+    "boats",
+    "malmok-cat"
+   ],
+   "shows": [
+    "sunset",
+    "boats",
+    "malmok-cat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Sunset catamaran off Malmok (zoom)",
+   "subject": "malmok-sunset-boats"
+  }
+ ],
+ "banned": [
+  {
+   "clip_id": "eagle_sunset",
+   "video_id": "oUYovWrqzOw",
+   "src_in": 348.0,
+   "src_out": 378.0,
+   "reason": "plays reversed in the source itself; banned for all Aruba cuts"
+  },
+  {
+   "note": "YMIqVU63nvw skipped: licence description is after-sunset drive, dark-shot risk"
+  },
+  {
+   "note": "n4WpfzPv6_w skipped: sunset, dark-shot risk"
+  },
+  {
+   "note": "TVbixzzJjnA skipped: streetcar / public transport"
+  },
+  {
+   "video_id": "OqD36OAu9As",
+   "src_in": 88.0,
+   "src_out": 102.0,
+   "reason": "reversed motion: waves run backwards (v6 preview 0:45)"
+  },
+  {
+   "video_id": "sbcjtH8dehc",
+   "src_in": 10.0,
+   "src_out": 24.0,
+   "reason": "reversed motion: people walk backwards (v6 preview 1:00)"
+  },
+  {
+   "clip_id": "palm_walk_shore",
+   "video_id": "OqD36OAu9As",
+   "src_in": 0.0,
+   "src_out": 40.0,
+   "reason": "unstabilised handheld walk, shaky (v6 preview 1:02)"
+  },
+  {
+   "video_id": "q9_rZmj1kSk",
+   "audio_only": true,
+   "reason": "source audio has game SFX (v6 preview 0:11)"
+  }
+ ],
+ "scarce": [
+  "touchdown",
+  "approach",
+  "airport-curb",
+  "plane-taxi",
+  "air-arrival"
+ ]
+}
