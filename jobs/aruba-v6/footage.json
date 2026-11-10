@@ -2,7 +2,7 @@
  "schema": "aurum-footage-v6",
  "slug": "aruba-travel-guide",
  "job": "aruba-v6-preview",
- "notes": "Landing from SfMJtsB5-Ds only at/after 5:10, sped up (Marvin rule). All other clips from the 10 Nov high-quality shortlist. TOMTOM limited to one video because of the 28% creator cap. Ranges are plans; clip_qc and the planner must still reject near-still, dark, or mismatched seconds. Files are release assets, not git.",
+ "notes": "Landing from SfMJtsB5-Ds only at/after 5:10, sped up (Marvin rule). All other clips from the 10 Nov high-quality shortlist. TOMTOM limited to one video because of the 28% creator cap. Ranges are plans; clip_qc and the planner must still reject near-still, dark, or mismatched seconds. Files are release assets, not git. JMC3VLiM3ME range clips carry a digitally silent audio track (-91 dB), so audio=false (checked 10 Nov).",
  "clips": [
   {
    "id": "landing_approach",
@@ -99,7 +99,7 @@
    "shows": [
     "driving"
    ],
-   "audio": true,
+   "audio": false,
    "licensedContent": false,
    "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)"
   },
@@ -124,7 +124,7 @@
     "airport-curb",
     "driving"
    ],
-   "audio": true,
+   "audio": false,
    "licensedContent": false,
    "place": "Arriving at Queen Beatrix curb, source 3:12-3:38 only"
   },
@@ -239,7 +239,7 @@
    "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
    "file": "clips/3wVflHovBu4_0-40.mp4",
-   "f0": 0.0,
+   "f0": 12.0,
    "f1": 40.0,
    "src_base": 0.0,
    "src_speed": 1.0,
@@ -255,7 +255,7 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds"
+   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds (source title text burned in until ~0:11, so starts at 0:12)"
   },
   {
    "id": "overview_hotels",

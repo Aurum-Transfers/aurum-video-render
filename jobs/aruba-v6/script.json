@@ -74,9 +74,9 @@
    ],
    "pause": 0.3,
    "need": [
-    "airport-curb",
-    "air-arrival",
-    "island-aerial"
+    "beach",
+    "palm-beach",
+    "airport-curb"
    ],
    "lift": 1.6
   },

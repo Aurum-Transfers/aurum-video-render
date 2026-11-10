@@ -534,7 +534,8 @@ print(json.dumps(out))
                 c = next(c for c in self.lib["clips"] if c["id"] == s["clip_id"])
                 ns = int(round(d * 48000))
                 if s["audio_ok"] and c.get("audio"):
-                    a = c["audio"]
+                    # v6 footage.json may give audio as true: the clip's own range file carries its sound (file timeline)
+                    a = c["audio"] if isinstance(c["audio"], dict) else {"mode": "file", "file": c["file"]}
                     st = s["src_in"] if a["mode"] == "source" else s["file_in"]
                     speed = (c["src_speed"] if a["mode"] == "source" else 1.0) * sp
                     tempo = []
@@ -610,8 +611,17 @@ print(json.dumps(out))
         pp = self.b / "overlay-props.json"
         sj(pp, props)
         rdir = ROOT / "remotion"
+        # Stage the Remotion public dir (fonts load from /public/fonts/...). npx runs in remotion/, so a repo-relative
+        # public_dir must be made absolute or Remotion looks under remotion/ and every font 404s.
+        pub = Path(self.spec["public_dir"])
+        pub = pub if pub.is_absolute() else ROOT / pub
+        import shutil
+        for sub in ("fonts", "maps"):
+            src_d = ROOT / "assets" / sub
+            if src_d.is_dir():
+                shutil.copytree(src_d, pub / sub, dirs_exist_ok=True)
         sh(["npx", "remotion", "render", "src/index.ts", "OverlayStrip", str(self.b / "overlay.webm"), f"--props={pp}", "--codec=vp8",
-            "--pixel-format=yuva420p", "--image-format=png", "--concurrency=3", "--log=warn", f"--public-dir={self.spec['public_dir']}",
+            "--pixel-format=yuva420p", "--image-format=png", "--concurrency=3", "--log=warn", f"--public-dir={pub}",
             "--chrome-mode=headless-shell", "--gl=swangle", "--timeout=120000"], cwd=rdir)
         print(json.dumps({"overlay": str(self.b / "overlay.webm"), "dur": dur_of(self.b / "overlay.webm")}))
 

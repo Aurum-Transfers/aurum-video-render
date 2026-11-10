@@ -84,7 +84,7 @@
  "ipa": {
   "Oranjestad": "ɔːɹˈɑːnjəstˌɑːd"
  },
- "ambient_gain": 0.9,
+ "ambient_gain": 0.3,
  "lift_min_count": 3,
  "scope": "preview"
 }
