@@ -293,7 +293,7 @@
    "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
    "file": "clips/3wVflHovBu4_240-300.mp4",
-   "f0": 0.0,
+   "f0": 3.0,
    "f1": 60.0,
    "src_base": 240.0,
    "src_speed": 1.0,
@@ -309,7 +309,7 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Later overview pass, source 4:00-5:00 — clip_qc must drop near-still seconds"
+   "place": "Later overview pass, source 4:00-5:00 — clip_qc must drop near-still seconds (starts 3 s in: first seconds measured near-static in the run 42880903795 output)"
   },
   {
    "id": "baby_pan_a",
