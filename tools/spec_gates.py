@@ -51,6 +51,16 @@ SPEC = {
     "scene_uses_max": 1,         # a continuous source scene (same place + camera move) may appear once per video
     "scene_cut_hash": 20,        # per-second dHash jump that starts a new scene inside one source
     "scene_cut_luma": 18.0,      # or a per-second mean-luma jump
+    "scene_cut_abs": 12.0,       # v7: hard cut = max consecutive-frame diff (x100/255, 6 fps) above this ...
+    "scene_cut_rel": 3.0,        # ... and above 3x the file's median per-second max diff
+    "scene_max_s": 1e9,          # v7: scenes end only at real cuts (no chunking) ...
+    "scene_gap_s": 6.0,          # ... and two uses of one continuous scene must be >= 6 s of source apart (Baby Beach pan 0:27/0:49 was 1 s apart)
+    "subject_return": False,     # v7: a subject (place + viewpoint, footage.json "subject") is shown in ONE block, never returned to
+    "audio_tonality_max": 0.12,  # v7: music/SFX proxy per source second; surf/wind 0.00-0.09, chiptune SFX 0.82-0.88
+    "audio_tonality_mean_max": 0.05,  # v7: and over the shot; backing music (NKOM0qmVfJs, constant -7 dBFS) averages 0.15-0.2
+    "endcard_motion_min": 1.5,   # v7: output motion under the end card (no frozen-looking end card)
+    "narration_tail_min_s": 1.0, # v7: last word ends >= 1 s before the end card starts
+    "stt_word_recall_min": 0.85, # v7: every narration line transcribes with >= 85% of its words and its last word
     "parent_uses_max": 3,
     "video_uses_max": 5,         # shots from one source video per long cut (v5: one beach-walk POV video gave 23 shots)        # uses of one source clip (footage.json parent range) per video
     "cam_shift_min": 0.75,       # px/s at 96x54 (phase correlation), median over the shot; calibrated on the v5 animatic
@@ -106,14 +116,25 @@ def load_qc(root):
 def scene_index(qx):
     """Split every source file's measured seconds into continuous scenes: a new scene starts at a gap in the
     measured seconds, a dHash jump over scene_cut_hash bits or a mean-luma jump over scene_cut_luma."""
+    # v7 (Aruba v6 preview review, 10 Nov: Baby Beach pan at 0:27 reused at 0:49, the same drone move 7 s apart passed):
+    # per-second dHash drift inside one continuous camera move split it into many "scenes", so later ranges of the
+    # same move counted as new scenes. A scene now ends only at a measured hard cut (a frame-difference spike over
+    # max(scene_cut_abs, scene_cut_rel x the file's median)), a luma jump or a gap; a continuous move longer than
+    # scene_max_s is chunked so long drives/drone passes are not a single use.
     out = {}
     for f, secs in qx.items():
-        ks = sorted(secs); sc = 0; m = {}
+        ks = sorted(secs); sc = 0; m = {}; start = None
+        cuts = [secs[k].get("cut") for k in ks if secs[k].get("cut") is not None]
+        thr = max(SPEC["scene_cut_abs"], SPEC["scene_cut_rel"] * statistics.median(cuts)) if cuts else None
         for a, b in zip([None] + ks, ks):
             if a is not None:
                 pa, pb = secs[a], secs[b]
-                if b - a > 1 or bin(int(pa["dh"]) ^ int(pb["dh"])).count("1") > SPEC["scene_cut_hash"] or abs(pa["y"] - pb["y"]) > SPEC["scene_cut_luma"]:
+                hard = (pb.get("cut") or 0) > thr if thr is not None else bin(int(pa["dh"]) ^ int(pb["dh"])).count("1") > SPEC["scene_cut_hash"]
+                if b - a > 1 or hard or abs(pa["y"] - pb["y"]) > SPEC["scene_cut_luma"] or b - start >= SPEC["scene_max_s"]:
                     sc += 1
+                    start = b
+            else:
+                start = b
             m[b] = sc
         out[f] = m
     return out
@@ -325,7 +346,18 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
         for i_ in ids:
             sc_use[(s.get("video_id"), f, i_)].append(s["t0"])
         par_use[s.get("parent") or s.get("clip_id")].append(s["t0"])
-    sc_bad = [{"video_id": k[0], "scene": k[2], "uses_t0": v} for k, v in sc_use.items() if len(v) > SPEC["scene_uses_max"]]
+    # v7: a scene may be used more than once only with >= scene_gap_s of source between the used ranges
+    sc_rng = _dd(list)
+    for s in clip_shots:
+        f = s.get("file"); a0 = float(s.get("file_in", 0)); a1 = a0 + (s["t1"] - s["t0"]) * float(s.get("play_speed", 1))
+        for i_ in {scenes.get(f, {}).get(k) for k in range(int(_m.floor(a0 + 1e-6)), max(int(_m.floor(a0 + 1e-6)) + 1, int(_m.ceil(a1 - 1e-6))))} - {None}:
+            sc_rng[(s.get("video_id"), f, i_)].append((a0, a1, s["t0"]))
+    sc_bad = []
+    for k, rs in sc_rng.items():
+        rs.sort()
+        for (x0, x1, ta), (y0, y1, tb) in zip(rs, rs[1:]):
+            if y0 - x1 < SPEC["scene_gap_s"] - 1e-6:
+                sc_bad.append({"video_id": k[0], "scene": k[2], "uses_t0": [ta, tb], "gap_s": round(y0 - x1, 2)})
     add("source_scene_used_once", not sc_bad and not no_scene, (sc_bad[:40] + ([{"no_scene_qc": no_scene[:10]}] if no_scene else [])) or {"scenes": len(sc_use)})
     vid_use = _dd(list)
     for s in clip_shots:
@@ -373,7 +405,9 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
     hit = []
     for s in clip_shots:
         for b in bans:
-            if (b.get("clip_id") and b["clip_id"] in (s.get("clip_id"), s.get("parent"))) or (b.get("video_id") == s.get("video_id") and b.get("src_in") is not None
+            if b.get("audio_only"):
+                continue  # audio bans are gated by no_music_or_sfx_in_source_audio
+            if (b.get("clip_id") and b.get("src_in") is None and b["clip_id"] in (s.get("clip_id"), s.get("parent"))) or (b.get("video_id") == s.get("video_id") and b.get("src_in") is not None
                     and _overlap((float(s["src_in"]), float(s["src_out"])), (float(b["src_in"]), float(b["src_out"]))) > 0):
                 hit.append({"t0": s["t0"], "clip": s.get("clip_id"), "ban": b.get("reason")})
     add("no_banned_clips", "banned" in edl and not hit, hit or {"bans": len(bans)} if "banned" in edl else "EDL has no ban list")
@@ -406,6 +440,81 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
         det["ambient_under_voice_db"] = a
         ok5 = ok5 and a is not None and SPEC["ambient_under_voice_db"][0] <= a <= SPEC["ambient_under_voice_db"][1]
     add("natural_sound_audible", ok5, det)
+    # ---- v7 gates (independent viewing of the Aruba v6 preview, 10 Nov 2026) ----------------------------------
+    # (6) source audio carrying music or SFX is never used: audio-banned sources, and every used second measured
+    #     (clip_qc tonality) at or under audio_tonality_max. Unmeasured audio fails.
+    aud_ban = {b.get("video_id") for b in bans if b.get("audio_only")}
+    noisy = []
+    for s in clip_shots:
+        if not s.get("audio_ok"):
+            continue
+        if s.get("video_id") in aud_ban:
+            noisy.append({"t0": s["t0"], "clip": s.get("clip_id"), "why": "audio-banned source"}); continue
+        v = seg(s)
+        tons = [x.get("ton") for x in v]
+        if not tons or any(t is None or t > SPEC["audio_tonality_max"] for t in tons) or sum(tons) / len(tons) > SPEC["audio_tonality_mean_max"]:
+            noisy.append({"t0": s["t0"], "clip": s.get("clip_id"), "ton": tons})
+    add("no_music_or_sfx_in_source_audio", not noisy, noisy[:20] or "none")
+    # (7) no unstabilised handheld walk as picture (v6 preview 1:02)
+    shaky = [{"t0": s["t0"], "clip": s.get("clip_id")} for s in clip_shots if s.get("handheld")]
+    add("no_unstabilised_handheld", not shaky, shaky or "none")
+    # (8) a subject (place + viewpoint) appears in one contiguous block: no cutting back to a place already shown
+    #     (v6 preview: Baby Beach 0:27 -> 0:49, Palm Beach drone 0:41 -> 0:55)
+    seen, cur, back = set(), None, []
+    for s in clip_shots:
+        sj_ = s.get("subject")
+        if sj_ is None:
+            back.append({"t0": s["t0"], "why": "no subject key"}); continue
+        if sj_ != cur:
+            if sj_ in seen:
+                back.append({"t0": s["t0"], "subject": sj_})
+            if cur is not None:
+                seen.add(cur)
+            cur = sj_
+    add("no_return_to_shown_subject", not back, back[:20] or "none")
+    # (9) footage under a line / chapter card matches its words (v6 preview: airport chapter over a beach,
+    #     "window seat" over a drone). Cue words in the sentence or chapter title require these shows.
+    CUES = [(re.compile(r"window seat", re.I), {"window-seat", "approach"}),
+            (re.compile(r"\b(airport|landing|landed|touchdown|runway)\b", re.I), {"touchdown", "plane-taxi", "airport-curb", "airport-terminal", "approach", "runway", "air-arrival"}),
+            (re.compile(r"\bbeach\b", re.I), {"beach", "beach-aerial", "eagle-beach", "palm-beach", "baby-beach", "pier"})]
+    cue_bad = []
+    for li, sn in enumerate(sents_all):
+        for rx, want in CUES[:1] + CUES[2:]:  # sentence cues: window seat, beach
+            if rx.search(sn.get("text", "")):
+                for s in clip_shots:
+                    if s.get("line") == li and not (set(s.get("shows") or []) & want):
+                        cue_bad.append({"t0": s["t0"], "line": li, "cue": rx.pattern, "shows": s.get("shows")})
+    for c in chs:
+        for rx, want in CUES:
+            if rx.search(c.get("text") or ""):
+                under = [s for s in clip_shots if s["t1"] > c["t0"] + 0.05 and s["t0"] < c.get("t1", c["t0"] + 3.6) - 0.05]
+                for s in under:
+                    if not (set(s.get("shows") or []) & want):
+                        cue_bad.append({"t0": s["t0"], "chapter": c.get("text"), "cue": rx.pattern, "shows": s.get("shows")})
+                break
+    add("footage_matches_cue_words", not cue_bad, cue_bad[:20] or "none")
+    # (10) end card over clearly moving footage (v6 preview: end card read as frozen)
+    ec = [o for o in ovs if o.get("kind") == "endcard"]
+    ec_bad = []
+    for o in ec:
+        under = [s for s in shots if s.get("kind") in FOOTAGE_KINDS and s["t1"] > o["t0"] + 0.05 and s["t0"] < o["t1"] - 0.05]
+        cov = sum(min(s["t1"], o["t1"]) - max(s["t0"], o["t0"]) for s in under)
+        if cov < (o["t1"] - o["t0"]) - 0.1:
+            ec_bad.append({"why": "end card not fully over footage", "covered_s": round(cov, 2)})
+        for s in under:
+            m = q(s, "mot_med")
+            if m is None or m < SPEC["endcard_motion_min"] or s.get("handheld"):
+                ec_bad.append({"t0": s["t0"], "clip": s.get("clip_id"), "mot_med": m})
+        if output is not None and output.get("endcard_motion") is not None and output["endcard_motion"] < SPEC["endcard_motion_min"]:
+            ec_bad.append({"why": "measured output motion under end card", "mot": output["endcard_motion"]})
+    add("endcard_over_moving_footage", bool(ec) and not ec_bad, ec_bad or "ok")
+    # (11) narration complete: every line transcribes (TTS round trip) with >= stt_word_recall_min of its words and its
+    #      last word, and the last word ends >= narration_tail_min_s before the end card
+    st_ = edl.get("narration_stt")
+    tail = (ec[0]["t0"] if ec else program) - (max(s["t1"] for s in sents) if sents else 0)
+    inc = [x for x in (st_ or []) if x.get("recall", 0) < SPEC["stt_word_recall_min"] or not x.get("last_word_heard")]
+    add("narration_complete", bool(st_) and len(st_) == len(sents) and not inc and tail >= SPEC["narration_tail_min_s"] - 1e-6,
+        {"lines_checked": len(st_ or []), "incomplete": inc[:10], "tail_s": round(tail, 2)})
     failed = [k for k, v in g.items() if not v["pass"]]
     return {"pass": not failed, "failed": failed, "gates": g, "spec": SPEC}
 
@@ -490,6 +599,15 @@ def measure_output(path: Path, freeze: bool, edl: dict | None = None, ambient_wa
             out["duration_s"] = float(s.get("duration") or 0)
         if s.get("codec_type") == "audio":
             out["audio_duration_s"] = float(s.get("duration") or 0)
+    if edl is not None:
+        ec = [o for o in edl.get("overlays", []) if o.get("kind") == "endcard"]
+        if ec:
+            import numpy as np
+            o = ec[0]
+            bb = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", f"{o['t0'] + 0.6:.3f}", "-t", f"{max(0.5, o['t1'] - o['t0'] - 0.8):.3f}", "-i", str(path), "-an",
+                                 "-vf", "fps=6,scale=96:54,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
+            aa = np.frombuffer(bb, np.uint8).reshape(-1, 54, 96).astype(np.float32)
+            out["endcard_motion"] = round(float(np.abs(np.diff(aa, axis=0)).mean()) * 100 / 255, 3) if len(aa) > 2 else None
     if freeze:
         r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-vf", "freezedetect=n=0.003:d=1", "-an", "-f", "null", "-"],
                            capture_output=True, text=True)

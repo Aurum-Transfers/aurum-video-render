@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent)); import spec_gates  # n
 spec_gates.resolve_clip_files(lib, wd)  # job-relative clip paths -> repo-root paths
 out = wd / "build" / "clipqc.json"; out.parent.mkdir(exist_ok=True)
 cache = json.load(open(out)) if out.exists() else {}
-cache = {k: v for k, v in cache.items() if v.get("ver") == 3}  # older measurements lack the v3 camera-move fields
+cache = {k: v for k, v in cache.items() if v.get("ver") == 4}  # v4 adds per-second cut (hard-cut spike) and audio tonality (music/SFX)
 W, H, FPS = 96, 54, 6
 def dhash(fr):
     import numpy as np
@@ -43,21 +43,40 @@ def quality(c):
     return {"src_w": pr.get("width"), "src_h": pr.get("height"), "eff_h": eff_h, "src_fps": round(fps, 2),
             "lap_med": round(float(np.median(laps)), 1) if laps else None, "lap_min": round(min(laps), 1) if laps else None}
 
+def audio_tonality(c):
+    """v4 (Aruba v6 preview review, 10 Nov: 8-bit game jump/coin SFX in a creator's edit at 0:11): per source second,
+    the share of spectral energy in narrow peaks >20x the local median (music notes, chiptune, beeps, sung voice).
+    Wind/surf/crowd ambience measures ~0.00; the q9_rZmj1kSk SFX measured 0.82-0.88. Returns {second: tonality} or {}."""
+    if not c.get("audio"):
+        return {}
+    b = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", f"{c['f0']:.3f}", "-t", f"{c['f1'] - c['f0']:.3f}", "-i", c["file"], "-vn", "-ac", "1",
+                        "-ar", "16000", "-f", "f32le", "-"], capture_output=True).stdout
+    a = np.frombuffer(b, np.float32); sr, N = 16000, 2048; out = {}
+    from numpy.lib.stride_tricks import sliding_window_view
+    for s_ in range(int(len(a) // sr)):
+        seg = a[s_ * sr:(s_ + 1) * sr]
+        P = np.array([np.abs(np.fft.rfft(seg[k:k + N] * np.hanning(N))) ** 2 for k in range(0, len(seg) - N, N // 2)])
+        pm = P.mean(0)[10:]
+        base = np.median(sliding_window_view(np.pad(pm, 15, mode="edge"), 31), axis=1)
+        rms = float(np.sqrt((seg ** 2).mean()))
+        ton = float(pm[pm / (base + 1e-12) > 20].sum() / (pm.sum() + 1e-12)) if rms > 1e-4 else 0.0
+        out[round(c["f0"] + s_, 2)] = round(ton, 3)
+    return out
+
 res = dict(cache)
 covered = {}
 for v in cache.values():
     for x in v.get("secs", []):
         covered.setdefault(v["file"], set()).add(int(x["t"] + 1e-6))
 for c in lib["clips"]:
-    need = set(range(int(c["f0"]), int(c["f1"]) - 1))
-    if need and need <= covered.get(c["file"], set()):
-        continue  # sub-range of an already measured clip (planner indexes QC by file + second)
+    # v7: every clip is measured under its own id (the old "covered sub-range" skip read stale cache entries and left
+    # a re-split clip with no QC record)
     crop = c.get("crop", "")
     # Sped-up clips (play_speed > 1, e.g. the 4x window-seat approach) are measured as they appear ON SCREEN:
     # each frame difference spans 1/6 s of screen time (lag = play_speed frames at 6 fps). Measuring them at 1x
     # under-reported their on-screen motion and rejected every second. 1x clips are measured exactly as before.
     ps = float(c.get("play_speed") or 1.0); lag = max(1, int(round(ps))) if ps > 1 else 1
-    key = hashlib.md5((f"v3|{c['file']}|{c['f0']}|{c['f1']}|{crop}" + (f"|lag{lag}" if lag > 1 else "")).encode()).hexdigest()[:12]
+    key = hashlib.md5((f"v4|{c['file']}|{c['f0']}|{c['f1']}|{crop}" + (f"|lag{lag}" if lag > 1 else "")).encode()).hexdigest()[:12]
     if cache.get(c["id"], {}).get("key") == key:
         res[c["id"]] = cache[c["id"]]; continue
     vf = (f"crop={crop}," if crop else "") + f"fps={FPS},scale={W}:{H},format=gray"
@@ -89,9 +108,14 @@ for c in lib["clips"]:
         iy, ix = np.unravel_index(int(r.argmax()), r.shape)
         iy = iy - H if iy > H // 2 else iy; ix = ix - W if ix > W // 2 else ix
         pk = float(r.max() / (r.mean() + 1e-6))
-        secs.append({"t": round(c["f0"] + s, 2), "lmot": round(lmot, 3), "shift": round(float((ix * ix + iy * iy) ** 0.5), 2), "pk": round(pk, 1), "y": round(float(blk.mean()), 1), "ymin": round(float(blk.mean(axis=(1, 2)).min()), 1), "mot": round(float(d.mean()) * 100 / 255, 3),
+        cut = float(np.abs(np.diff(blk, axis=0)).mean(axis=(1, 2)).max()) * 100 / 255 if len(blk) > 1 else 0.0  # hard-cut spike
+        secs.append({"t": round(c["f0"] + s, 2), "cut": round(cut, 2), "lmot": round(lmot, 3), "shift": round(float((ix * ix + iy * iy) ** 0.5), 2), "pk": round(pk, 1), "y": round(float(blk.mean()), 1), "ymin": round(float(blk.mean(axis=(1, 2)).min()), 1), "mot": round(float(d.mean()) * 100 / 255, 3),
                      "gmot": round(float(gd.mean()) * 100 / 255, 3), "dh": dhash(blk[len(blk) // 2])})
-    res[c["id"]] = {"key": key, "ver": 3, "file": c["file"], "secs": secs, **quality(c)}
+    ton = audio_tonality(c)
+    for x in secs:
+        if ton:
+            x["ton"] = ton.get(round(x["t"], 2), 1.0)  # missing audio second = not proven clean
+    res[c["id"]] = {"key": key, "ver": 4, "file": c["file"], "secs": secs, "audio_measured": bool(ton), **quality(c)}
     print(c["id"], len(secs), file=sys.stderr)
 json.dump(res, open(out, "w"))
 print(json.dumps({"clips": len(res), "out": str(out)}))

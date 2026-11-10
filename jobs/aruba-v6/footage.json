@@ -2,7 +2,7 @@
  "schema": "aurum-footage-v6",
  "slug": "aruba-travel-guide",
  "job": "aruba-v6-preview",
- "notes": "Landing from SfMJtsB5-Ds only at/after 5:10, sped up (Marvin rule). All other clips from the 10 Nov high-quality shortlist. TOMTOM limited to one video because of the 28% creator cap. Ranges are plans; clip_qc and the planner must still reject near-still, dark, or mismatched seconds. Files are release assets, not git. JMC3VLiM3ME range clips carry a digitally silent audio track (-91 dB), so audio=false (checked 10 Nov).",
+ "notes": "Landing from SfMJtsB5-Ds only at/after 5:10, sped up (Marvin rule). All other clips from the 10 Nov high-quality shortlist. TOMTOM limited to one video because of the 28% creator cap. Ranges are plans; clip_qc and the planner must still reject near-still, dark, or mismatched seconds. Files are release assets, not git. JMC3VLiM3ME range clips carry a digitally silent audio track (-91 dB), so audio=false (checked 10 Nov). 10 Nov v6 preview review: q9_rZmj1kSk audio banned (SFX); reversed ranges and the handheld walk banned; subject keys added so a place is shown in one block, never returned to.",
  "clips": [
   {
    "id": "landing_approach",
@@ -12,11 +12,11 @@
    "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
    "title": "Landing on Aruba in 4K!",
    "file": "clips/SfMJtsB5-Ds_310-360.mp4",
-   "f0": 0.0,
+   "f0": 30.5,
    "f1": 50.0,
    "src_base": 310.0,
    "src_speed": 1.0,
-   "play_speed": 4.0,
+   "play_speed": 3.8,
    "tags": [
     "landing",
     "approach",
@@ -29,7 +29,8 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Queen Beatrix — window-seat approach, source 5:10-6:00 at 4x"
+   "place": "Queen Beatrix — final approach over the turquoise shallows, source 5:40.5-6:00 at 3.8x (5:10-5:40 is a near-identical wing-over-sea view: v6 preview hook read as a static wing)",
+   "subject": "aua-approach"
   },
   {
    "id": "landing_touchdown",
@@ -55,7 +56,8 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Queen Beatrix — touchdown, source 6:00-6:10 at 2x"
+   "place": "Queen Beatrix — touchdown, source 6:00-6:10 at 2x",
+   "subject": "aua-runway"
   },
   {
    "id": "landing_taxi",
@@ -78,7 +80,8 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Queen Beatrix — taxi after touchdown, source 6:10-6:40 at 2x"
+   "place": "Queen Beatrix — taxi after touchdown, source 6:10-6:40 at 2x",
+   "subject": "aua-apron"
   },
   {
    "id": "aua_drive_day",
@@ -101,7 +104,8 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)"
+   "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)",
+   "subject": "road-to-aua"
   },
   {
    "id": "aua_curb",
@@ -126,7 +130,8 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Arriving at Queen Beatrix curb, source 3:12-3:38 only"
+   "place": "Arriving at Queen Beatrix curb, source 3:12-3:38 only",
+   "subject": "aua-curb"
   },
   {
    "id": "palm_walk_shore",
@@ -151,7 +156,10 @@
    ],
    "audio": true,
    "licensedContent": false,
-   "place": "Palm Beach walk, palapas and shore, source 0:00-0:40"
+   "place": "Palm Beach walk, palapas and shore, source 0:00-0:40",
+   "subject": "palm-beach-walk",
+   "handheld": true,
+   "stabilised": false
   },
   {
    "id": "palm_water_pier",
@@ -162,7 +170,7 @@
    "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
    "file": "clips/OqD36OAu9As_80-145.mp4",
    "f0": 0.0,
-   "f1": 65.0,
+   "f1": 8.0,
    "src_base": 80.0,
    "src_speed": 1.0,
    "play_speed": 1.0,
@@ -178,7 +186,8 @@
    ],
    "audio": true,
    "licensedContent": false,
-   "place": "Waterline and pier at Palm Beach, source 1:20-2:25"
+   "place": "Palm Beach waterline in the sun, source 1:20-1:28",
+   "subject": "palm-beach-waterline"
   },
   {
    "id": "palm_hotel_end",
@@ -198,12 +207,14 @@
     "hotel-strip"
    ],
    "shows": [
-    "palm-beach",
-    "hotel-strip"
+    "hotel-strip",
+    "hotel-strip-water",
+    "palm-beach"
    ],
    "audio": true,
    "licensedContent": false,
-   "place": "Palm Beach hotels from the water, source 3:10-end"
+   "place": "Palm Beach hotels from the water, source 3:10-end",
+   "subject": "palm-beach-hotels-from-water"
   },
   {
    "id": "palm_strip_water",
@@ -223,13 +234,16 @@
     "palm-beach"
    ],
    "shows": [
+    "beach-aerial",
     "hotel-strip",
-    "palm-beach",
-    "beach-aerial"
+    "hotel-strip-water",
+    "palm-beach"
    ],
-   "audio": true,
+   "audio": false,
    "licensedContent": false,
-   "place": "Water-level Palm Beach hotel strip, source 2:05-2:26 only"
+   "place": "Water-level Palm Beach hotel strip, source 2:05-2:26 only",
+   "subject": "palm-beach-hotels-from-water",
+   "audio_note": "Creator edit carries 8-bit game jump/coin SFX (heard at v6 preview 0:11, tonality 0.82-0.88 at file 1-2 s). Source audio banned."
   },
   {
    "id": "overview_island_a",
@@ -255,7 +269,8 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds (source title text burned in until ~0:11, so starts at 0:12)"
+   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds (source title text burned in until ~0:11, so starts at 0:12)",
+   "subject": "island-overview-aerial"
   },
   {
    "id": "overview_hotels",
@@ -266,7 +281,7 @@
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
    "file": "clips/3wVflHovBu4_120-165.mp4",
    "f0": 0.0,
-   "f1": 45.0,
+   "f1": 14.0,
    "src_base": 120.0,
    "src_speed": 1.0,
    "play_speed": 1.0,
@@ -277,13 +292,13 @@
    ],
    "shows": [
     "hotel-strip",
-    "eagle-beach",
-    "palm-beach",
-    "beach-aerial"
+    "beach-aerial",
+    "eagle-beach"
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "West-coast hotel strip / Eagle-Palm aerials mid-film, source 2:00-2:45 — clip_qc must drop near-still seconds"
+   "place": "West-coast shoreline and hotels, oblique drone, source 2:00-2:14",
+   "subject": "west-coast-oblique-aerial"
   },
   {
    "id": "overview_coast",
@@ -294,7 +309,7 @@
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
    "file": "clips/3wVflHovBu4_240-300.mp4",
    "f0": 3.0,
-   "f1": 60.0,
+   "f1": 40.0,
    "src_base": 240.0,
    "src_speed": 1.0,
    "play_speed": 1.0,
@@ -305,11 +320,12 @@
    "shows": [
     "island-aerial",
     "beach-aerial",
-    "calm-sea-aerial"
+    "hotel-strip"
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Later overview pass, source 4:00-5:00 — clip_qc must drop near-still seconds (starts 3 s in: first seconds measured near-static in the run 42880903795 output)"
+   "place": "Palm Beach hotel strip, top-down drone move, source 4:03-4:40",
+   "subject": "palm-beach-hotel-strip-aerial"
   },
   {
    "id": "baby_pan_a",
@@ -333,8 +349,9 @@
    "audio": true,
    "licensedContent": false,
    "f0": 0.0,
-   "f1": 24.0,
-   "place": "Baby Beach pan from the dunes, source 0:00-0:24 (before the pole/parking lot)"
+   "f1": 10.0,
+   "place": "Baby Beach pan from the dunes, source 0:00-0:10 (0:10-0:24 plays reversed: people walk backwards)",
+   "subject": "baby-beach"
   },
   {
    "id": "baby_pan_b",
@@ -359,7 +376,194 @@
    "licensedContent": false,
    "f0": 48.0,
    "f1": 61.0,
-   "place": "Baby Beach pan, source 0:48-1:01"
+   "place": "Baby Beach pan, source 0:48-1:01",
+   "subject": "baby-beach"
+  },
+  {
+   "id": "hadicurari_a",
+   "parent": "hadicurari_a",
+   "video_id": "NKOM0qmVfJs",
+   "creator": "Nik K",
+   "file": "clips/NKOM0qmVfJs_20-80.mp4",
+   "src_base": 20.0,
+   "f1": 59.0,
+   "url": "https://www.youtube.com/watch?v=NKOM0qmVfJs",
+   "title": "ARUBA: Hadicurari Beach - One of the Best Beaches for Kite Surfers & Other Wind Fans | @5.3K",
+   "tags": [
+    "beach",
+    "hadicurari"
+   ],
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "audio": false,
+   "audio_note": "constant -7 dBFS with tonal content (backing music suspected); picture only",
+   "subject": "hadicurari-beach",
+   "place": "Hadicurari Beach shoreline, north of Palm Beach, source 0:20-1:20",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "hadicurari_b",
+   "parent": "hadicurari_b",
+   "video_id": "NKOM0qmVfJs",
+   "creator": "Nik K",
+   "file": "clips/NKOM0qmVfJs_100-160.mp4",
+   "src_base": 100.0,
+   "f1": 59.0,
+   "url": "https://www.youtube.com/watch?v=NKOM0qmVfJs",
+   "title": "ARUBA: Hadicurari Beach - One of the Best Beaches for Kite Surfers & Other Wind Fans | @5.3K",
+   "tags": [
+    "beach",
+    "hadicurari"
+   ],
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "audio": false,
+   "audio_note": "backing music suspected; picture only",
+   "subject": "hadicurari-beach",
+   "place": "Hadicurari Beach loungers and water, source 1:40-2:40",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "arashi_shore",
+   "parent": "arashi_shore",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "clips/zxVwRRLLe2Q_29.5-37.8.mp4",
+   "src_base": 29.5,
+   "f1": 8.0,
+   "url": "https://www.youtube.com/watch?v=zxVwRRLLe2Q",
+   "title": "Aruba Port Call - Arashi Beach",
+   "tags": [
+    "beach",
+    "arashi"
+   ],
+   "shows": [
+    "beach",
+    "calm-sea"
+   ],
+   "audio": false,
+   "audio_note": "port-call vlog audio; picture only",
+   "subject": "arashi-beach",
+   "place": "Arashi Beach shoreline, source 0:29.5-0:37.8 (before the 0:39 selfie)",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "arashi_palapas",
+   "parent": "arashi_palapas",
+   "video_id": "zxVwRRLLe2Q",
+   "creator": "Interesting Things",
+   "file": "clips/zxVwRRLLe2Q_90.2-95.5.mp4",
+   "src_base": 90.2,
+   "f1": 5.0,
+   "url": "https://www.youtube.com/watch?v=zxVwRRLLe2Q",
+   "title": "Aruba Port Call - Arashi Beach",
+   "tags": [
+    "beach",
+    "arashi"
+   ],
+   "shows": [
+    "beach"
+   ],
+   "audio": false,
+   "audio_note": "port-call vlog audio; picture only",
+   "subject": "arashi-beach",
+   "place": "Arashi Beach palapas, source 1:30.2-1:35.5",
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "licensedContent": false,
+   "f0": 0.0
+  },
+  {
+   "id": "palm_pier_deck",
+   "parent": "palm_pier_deck",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_80-145.mp4",
+   "f0": 22.0,
+   "f1": 42.0,
+   "src_base": 80.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "pier",
+    "beach"
+   ],
+   "shows": [
+    "pier",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "On the Palm Beach pier deck, source 1:42-2:02",
+   "subject": "palm-beach-pier-deck"
+  },
+  {
+   "id": "overview_boats",
+   "parent": "overview_boats",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_240-300.mp4",
+   "f0": 42.0,
+   "f1": 57.0,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boats",
+    "beach-aerial"
+   ],
+   "shows": [
+    "calm-sea-aerial",
+    "beach-aerial",
+    "boats"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Catamarans and boats off Palm Beach, source 4:42-4:57",
+   "subject": "boats-off-palm-beach"
+  },
+  {
+   "id": "overview_town",
+   "parent": "overview_town",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_120-165.mp4",
+   "f0": 16.0,
+   "f1": 36.0,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "town-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "town-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Inland Noord/Oranjestad town aerial, source 2:16-2:36 (hazy)",
+   "subject": "noord-town-aerial"
   }
  ],
  "banned": [
@@ -378,6 +582,30 @@
   },
   {
    "note": "TVbixzzJjnA skipped: streetcar / public transport"
+  },
+  {
+   "video_id": "OqD36OAu9As",
+   "src_in": 88.0,
+   "src_out": 102.0,
+   "reason": "reversed motion: waves run backwards (v6 preview 0:45)"
+  },
+  {
+   "video_id": "sbcjtH8dehc",
+   "src_in": 10.0,
+   "src_out": 24.0,
+   "reason": "reversed motion: people walk backwards (v6 preview 1:00)"
+  },
+  {
+   "clip_id": "palm_walk_shore",
+   "video_id": "OqD36OAu9As",
+   "src_in": 0.0,
+   "src_out": 40.0,
+   "reason": "unstabilised handheld walk, shaky (v6 preview 1:02)"
+  },
+  {
+   "video_id": "q9_rZmj1kSk",
+   "audio_only": true,
+   "reason": "source audio has game SFX (v6 preview 0:11)"
   }
  ],
  "scarce": [

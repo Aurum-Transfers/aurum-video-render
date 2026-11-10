@@ -1,6 +1,6 @@
 {
- "created": "2026-11-10T10:27:06-05:00",
- "voice": "bm_fable",
+ "created": "2026-11-10T16:26:30-05:00",
+ "voice": "bm_george",
  "lang": "en-gb",
  "checks": [
   {
@@ -11,14 +11,20 @@
   },
   {
    "line": 4,
+   "name": "Queen Beatrix",
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
    "name": "Aruba",
-   "heard": "Welcome to Aruba.",
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix.",
    "round_trip_ok": true
   },
   {
    "line": 5,
    "name": "Queen Beatrix",
-   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major US cities and daily flights from big hubs around the world.",
+   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major U.S. cities and daily flights from big hubs around the world.",
    "round_trip_ok": true
   },
   {
@@ -30,12 +36,84 @@
   {
    "line": 9,
    "name": "Aruba",
-   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments, it genuinely helps the next traveller.",
+   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments. It genuinely helps the next traveler.",
    "round_trip_ok": true
   }
  ],
- "passed": 5,
- "total": 5,
+ "passed": 6,
+ "total": 6,
  "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Just landed at Queen Beatrix and not sure how you'll get to your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "Three easy ways, a pre-booked private transfer, a taxi with the fare agreed first, or a rental car."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Let's get you to the beach."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "do",
+   "last_word_heard": true,
+   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "beatrix",
+   "last_word_heard": true,
+   "heard": "Welcome to Aruba, and welcome to Queen Beatrix."
+  },
+  {
+   "line": 5,
+   "recall": 0.92,
+   "last_word": "world",
+   "last_word_heard": true,
+   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major U.S. cities and daily flights from big hubs around the world."
+  },
+  {
+   "line": 6,
+   "recall": 1.0,
+   "last_word": "heading",
+   "last_word_heard": true,
+   "heard": "From the air you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading."
+  },
+  {
+   "line": 7,
+   "recall": 0.963,
+   "last_word": "across",
+   "last_word_heard": true,
+   "heard": "Aruba sits in the southern Caribbean, just outside the Hurricane Belt, about 15-18 miles off the coast of Venezuela, and it's only six miles across."
+  },
+  {
+   "line": 8,
+   "recall": 0.882,
+   "last_word": "shower",
+   "last_word_heard": true,
+   "heard": "The climate is tropical semiarid, warm and sunny all year with just the occasional brief shower."
+  },
+  {
+   "line": 9,
+   "recall": 1.0,
+   "last_word": "traveller",
+   "last_word_heard": true,
+   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments. It genuinely helps the next traveler."
+  }
+ ],
  "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
 }

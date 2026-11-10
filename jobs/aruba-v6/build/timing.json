@@ -1,108 +1,108 @@
 {
- "created": "2026-11-10T10:26:58-05:00",
- "voice": "bm_fable",
+ "created": "2026-11-10T16:19:35-05:00",
+ "voice": "bm_george",
  "lang": "en-gb",
- "total": 73.799,
+ "total": 81.918,
  "lines": [
   {
    "i": 0,
    "t0": 0.3,
-   "t1": 4.545,
+   "t1": 4.524,
    "text": "Just landed at Queen Beatrix, and not sure how you'll get to your hotel?",
-   "wav": "jobs/aruba-v6/build/tts/s000-3070532247.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s000-f0f888a5bd.wav",
    "sr": 24000,
    "speed": 1.079
   },
   {
    "i": 1,
-   "t0": 4.751,
-   "t1": 10.916,
+   "t0": 4.729,
+   "t1": 11.471,
    "text": "Three easy ways: a pre-booked private transfer, a taxi with the fare agreed first, or a rental car.",
-   "wav": "jobs/aruba-v6/build/tts/s001-d73ffb4cc1.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s001-03d92b39c5.wav",
    "sr": 24000,
    "speed": 1.056
   },
   {
    "i": 2,
-   "t0": 11.246,
-   "t1": 13.23,
+   "t0": 11.801,
+   "t1": 13.657,
    "text": "Let's get you to the beach.",
-   "wav": "jobs/aruba-v6/build/tts/s002-dfa5488ea9.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s002-708818ae8e.wav",
    "sr": 24000,
    "speed": 1.037,
    "lift": [
-    13.38,
-    14.98
+    13.807,
+    15.407
    ]
   },
   {
    "i": 3,
-   "t0": 15.563,
-   "t1": 25.803,
+   "t0": 15.99,
+   "t1": 27.809,
    "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
-   "wav": "jobs/aruba-v6/build/tts/s003-b4edf6dfb9.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s003-09ae8dc8f0.wav",
    "sr": 24000,
-   "speed": 0.997
-  },
-  {
-   "i": 4,
-   "t0": 27.072,
-   "t1": 28.906,
-   "text": "Welcome to Aruba!",
-   "wav": "jobs/aruba-v6/build/tts/s004-bbd06c5865.wav",
-   "sr": 24000,
-   "speed": 0.981,
+   "speed": 0.997,
    "lift": [
-    29.056,
-    30.656
+    27.959,
+    29.559
    ]
   },
   {
+   "i": 4,
+   "t0": 30.977,
+   "t1": 34.454,
+   "text": "Welcome to Aruba, and welcome to Queen Beatrix.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s004-dc98c1627f.wav",
+   "sr": 24000,
+   "speed": 0.99
+  },
+  {
    "i": 5,
-   "t0": 31.087,
-   "t1": 40.325,
+   "t0": 34.773,
+   "t1": 45.632,
    "text": "Queen Beatrix International Airport has frequent nonstop or one-stop flights from most major US cities, and daily flights from big hubs around the world.",
-   "wav": "jobs/aruba-v6/build/tts/s005-907fd584dc.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s005-def3cb0449.wav",
    "sr": 24000,
    "speed": 0.995
   },
   {
    "i": 6,
-   "t0": 40.634,
-   "t1": 47.396,
-   "text": "From the window seat you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
-   "wav": "jobs/aruba-v6/build/tts/s006-c55d4449e4.wav",
+   "t0": 45.941,
+   "t1": 52.917,
+   "text": "From the air, you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s006-72b7fb8ff0.wav",
    "sr": 24000,
-   "speed": 0.97,
-   "lift": [
-    47.546,
-    49.146
-   ]
+   "speed": 0.975
   },
   {
    "i": 7,
-   "t0": 49.612,
-   "t1": 59.298,
+   "t0": 53.311,
+   "t1": 64.426,
    "text": "Aruba sits in the southern Caribbean, just outside the hurricane belt, about fifteen to eighteen miles off the coast of Venezuela, and it's only six miles across.",
-   "wav": "jobs/aruba-v6/build/tts/s007-35a93a0632.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s007-8a20a39e6b.wav",
    "sr": 24000,
    "speed": 0.952
   },
   {
    "i": 8,
-   "t0": 59.671,
-   "t1": 65.772,
+   "t0": 64.799,
+   "t1": 71.135,
    "text": "The climate is tropical semi-arid: warm and sunny all year, with just the occasional brief shower.",
-   "wav": "jobs/aruba-v6/build/tts/s008-496447f741.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s008-585d6ebe74.wav",
    "sr": 24000,
-   "speed": 0.984
+   "speed": 0.984,
+   "lift": [
+    71.285,
+    72.885
+   ]
   },
   {
    "i": 9,
-   "t0": 66.209,
-   "t1": 72.801,
+   "t0": 73.472,
+   "t1": 80.32,
    "text": "Have you flown into Aruba before? Drop your best arrival tip in the comments; it genuinely helps the next traveller.",
-   "wav": "jobs/aruba-v6/build/tts/s009-bd2aca8a44.wav",
+   "wav": "/workspace/work/aurum-video-render/jobs/aruba-v6/build/tts/s009-55984da9bc.wav",
    "sr": 24000,
    "speed": 1.06
   }

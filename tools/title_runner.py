@@ -41,9 +41,9 @@ W, H = 1920, 1080
 TARGET_SHOT = 4.3
 CREATOR_CAP = 0.28
 END_CARD_S = 5.0
-TAIL_S = 1.0
+TAIL_S = 1.6  # v7: the last word must land well before the end card (v6 preview: narration felt cut off at 1:13)
 LEAD_S = 0.3
-VENV_PY = ROOT / ".venv" / "bin" / "python"
+VENV_PY = Path(os.environ.get("AURUM_TTS_PY") or ROOT / ".venv" / "bin" / "python")
 WHISPER_PY = Path("/workspace/tools/whisper-venv/bin/python")
 PROMPT_FILL = [("LIKE", "Finding this useful? Tap like"), ("SUBSCRIBE", "More arrival guides: subscribe"),
                ("LINK BELOW", "Compare transfers: link in the description")]
@@ -135,7 +135,7 @@ print(json.dumps(out))
             ipa = {k_: v_ for k_, v_ in (self.spec.get("ipa") or {}).items() if k_ in spoken}
             key = hashlib.sha1(json.dumps([spoken, self.spec["voice"], self.spec["lang"], sp, ipa, "ph1"]).encode()).hexdigest()[:10]
             items.append({"text": spoken, "wav": str(tdir / f"s{i:03d}-{key}.wav"), "speed": sp})
-        md = ROOT / "tools" / "tts" / "models"
+        md = Path(os.environ.get("AURUM_TTS_MODELS") or ROOT / "tools" / "tts" / "models")
         args = {"model": str(md / "kokoro-v1.0.onnx"), "voices": str(md / "voices-v1.0.bin"), "voice": self.spec["voice"],
                 "lang": self.spec["lang"], "speed": self.spec.get("speed", 1.0), "items": items, "ipa": self.spec.get("ipa") or {}}
         sh([str(VENV_PY), "-c", code, json.dumps(args)])
@@ -184,7 +184,7 @@ print(json.dumps(out))
     def stt(self):
         tm = lj(self.b / "timing.json")
         names = self.spec.get("place_names") or []
-        targets = [x for x in tm["lines"] if any(n.lower() in x["text"].lower() for n in names)]
+        targets = list(tm["lines"])  # v7: every line is transcribed (completeness gate), not only place-name lines
         code = r'''
 import json,sys,subprocess,numpy as np
 from faster_whisper import WhisperModel
@@ -197,6 +197,7 @@ print(json.dumps(out))
 '''
         tmp = self.b / "stt-in.json"
         sj(tmp, {"items": [{"i": x["i"], "wav": x["wav"]} for x in targets]})
+        code = code.replace("segs,_=m.transcribe(np.frombuffer(b,dtype=np.float32)", "segs,_=m.transcribe(np.frombuffer(b,dtype=np.float32).copy()")
         heard = json.loads(sh([str(WHISPER_PY), "-c", code, str(tmp)]).stdout.strip().splitlines()[-1])
         norm = lambda s: re.sub(r"[^a-z0-9 ]", "", s.lower().replace("-", " "))
         res = []
@@ -208,8 +209,19 @@ print(json.dumps(out))
                     ok = any(norm(a) in norm(h["heard"]) for a in alts)
                     res.append({"line": h["i"], "name": n, "heard": h["heard"], "round_trip_ok": ok})
         fails = [r for r in res if not r["round_trip_ok"]]
+        # v7 completeness (v6 preview: narration felt cut off at 1:13): >= stt_word_recall_min of each line's words heard,
+        # and the line's last word heard. Number words are compared loosely (whisper writes digits).
+        wn = lambda s: [w for w in re.sub(r"[^a-z0-9' ]", " ", s.lower().replace("-", " ")).split() if w]
+        stem = lambda w: w[:5]
+        full = []
+        for h in heard:
+            want = wn(tm["lines"][h["i"]]["text"]); got = {stem(w) for w in wn(h["heard"])}
+            nums = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "fifteen", "eighteen", "fifty"}
+            hit = [w for w in want if stem(w) in got or w in nums]
+            full.append({"line": h["i"], "recall": round(len(hit) / max(1, len(want)), 3), "last_word": want[-1] if want else "",
+                         "last_word_heard": bool(want) and (stem(want[-1]) in got or want[-1] in nums), "heard": h["heard"]})
         sj(self.b / "stt-check.json", {"created": now(), "voice": self.spec["voice"], "lang": self.spec["lang"], "checks": res,
-                                         "passed": len(res) - len(fails), "total": len(res), "failed_names": sorted({r["name"] for r in fails}),
+                                         "passed": len(res) - len(fails), "total": len(res), "failed_names": sorted({r["name"] for r in fails}), "full_lines": full,
                                          "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."})
         print(json.dumps({"stt_pass": len(res) - len(fails), "total": len(res), "failed": sorted({r['name'] for r in fails})}))
 
@@ -236,13 +248,18 @@ print(json.dumps(out))
             for x in v.get("secs", []):
                 qcx[v["file"]][int(math.floor(x["t"] + 1e-6))] = x  # floor: round() is banker's and dropped half-second keys
         bans = self.lib.get("banned", [])
-        banned_ids = {bn["clip_id"] for bn in bans if bn.get("clip_id")}
+        banned_ids = {bn["clip_id"] for bn in bans if bn.get("clip_id") and not bn.get("src_in") is not None and not bn.get("audio_only")}
+        # v7: range bans (reversed motion, shaky walk) are enforced by the planner too, not only by the gate
+        range_bans = [bn for bn in bans if bn.get("video_id") and bn.get("src_in") is not None and not bn.get("audio_only")]
+        audio_banned_vids = {bn["video_id"] for bn in bans if bn.get("audio_only") and bn.get("video_id")}
+        closed_subjects, cur_subject = set(), [None]
         G = spec_gates.SPEC
         SCARCE = set(self.lib.get("scarce") or [])
         used_h = []  # (shot index, hash)
         # v6 (v5-animatic review): scene-level reuse ban, per-clip/per-video caps, camera-move floor, source quality
         scenes = spec_gates.scene_index(qcx)
         used_scenes, par_n, vid_n = set(), defaultdict(int), defaultdict(int)
+        scene_rng = {}
         qual = {cid: v for cid, v in qc_raw.items()}
 
         def clip_quality_ok(c):
@@ -257,9 +274,22 @@ print(json.dumps(out))
         def hd(x, y):
             return bin(int(x) ^ int(y)).count("1")
 
-        def range_ok(c, fin, fout):
+        def audio_clean(c, fin, fout):
+            """v7: source audio may be used only if it is not banned and every second measured music/SFX-free."""
+            if not c.get("audio") or c.get("licensedContent") or c["video_id"] in audio_banned_vids:
+                return False
+            secs = [qcx[c["file"]].get(k) for k in range(int(math.floor(fin)), int(math.ceil(fout)))]
+            return (bool(secs) and all(x is not None and x.get("ton") is not None and x["ton"] <= G["audio_tonality_max"] for x in secs)
+                    and sum(x["ton"] for x in secs) / len(secs) <= G["audio_tonality_mean_max"])
+
+        def range_ok(c, fin, fout, endcard=False):
             secs = [qcx[c["file"]].get(k) for k in range(int(math.floor(fin)), int(math.ceil(fout)))]
             if not secs or any(x is None for x in secs):
+                return False, None
+            s_in, s_out = c["src_base"] + fin * c["src_speed"], c["src_base"] + fout * c["src_speed"]
+            if any(bn["video_id"] == c["video_id"] and min(s_out, float(bn["src_out"])) - max(s_in, float(bn["src_in"])) > 0 for bn in range_bans):
+                return False, None
+            if endcard and statistics.median(x["mot"] for x in secs) < G["endcard_motion_min"] + 0.5:
                 return False, None
             mots = [x["mot"] for x in secs]
             if statistics.median(mots) < G["motion_median_min"] + 0.1 or min(mots) < G["motion_second_min"] + 0.1:
@@ -271,45 +301,67 @@ print(json.dumps(out))
                     return False, None
                 if statistics.median(x["shift"] for x in secs) < G["cam_shift_min"] + 0.1 and statistics.median(x["gmot"] for x in secs) < G["cam_gmot_min"] + 0.05:
                     return False, None
-            if range_scenes(c, fin, fout) & used_scenes:
-                return False, None
+            dbg = os.environ.get("AURUM_PLAN_DEBUG") == c["id"]
+            if dbg:
+                print("DBG range", c["id"], round(fin, 2), round(fout, 2), "scenes", range_scenes(c, fin, fout), "used", {z: scene_rng.get(z) for z in range_scenes(c, fin, fout)}, file=sys.stderr)
+            for z in range_scenes(c, fin, fout):  # v7: same continuous scene only with >= scene_gap_s of source between uses
+                for (u0, u1) in scene_rng.get(z, []):
+                    if fin < u1 + G["scene_gap_s"] and fout > u0 - G["scene_gap_s"]:
+                        return False, None
             hs = [x["dh"] for x in secs]
             n_now = len(shots)
             for (k_, h_) in used_h:
                 if k_ < n_now - 1 and any(hd(h_, hh) <= G["dup_hash_max_dist"] + 2 for hh in hs):
+                    if dbg:
+                        print("DBG dup vs shot", k_, file=sys.stderr)
                     return False, None
             return True, hs
 
-        def pick(need, need_out, avoid, audio_only=False):
+        def pick(need, need_out, avoid, audio_only=False, endcard=False, prefer=(), reserve=()):
             for av in (avoid, None):
                 pool = []
                 for c in clips:
                     if c["id"] in banned_ids or c.get("parent") in banned_ids or not (set(c.get("shows") or []) & set(need)):
                         continue
-                    if audio_only and not (c.get("audio") and not c.get("licensedContent")):
+                    if not audio_only and c["id"] in reserve:
+                        continue  # kept for this line's natural-sound lift
+                    if c.get("handheld") and not c.get("stabilised"):
+                        continue  # v7: unstabilised handheld walks are never picture
+                    subj = c.get("subject") or c["id"]
+                    if subj in closed_subjects and subj != cur_subject[0]:
+                        continue  # v7: never return to a place already shown and cut away from
+                    if audio_only and not (c.get("audio") and not c.get("licensedContent")) or audio_only and c["video_id"] in audio_banned_vids:
                         continue
                     if not clip_quality_ok(c) or par_n[c.get("parent", c["id"])] >= G["parent_uses_max"] or vid_n[c["video_id"]] >= G["video_uses_max"]:
                         continue
-                    if av is not None and c["id"] == av:
-                        continue
+                    if av is not None and c["id"] == av and c["id"] not in prefer:
+                        continue  # no back-to-back shots from one clip unless the editor asked for it (gap rule still applies)
                     need_file = need_out * c["play_speed"]
                     fin = ptr[c["id"]]
                     found = None
                     while fin + need_file <= c["f1"]:
-                        ok, hs = range_ok(c, fin, fin + need_file)
+                        ok, hs = range_ok(c, fin, fin + need_file, endcard)
+                        if ok and audio_only and not audio_clean(c, fin, fin + need_file):
+                            ok = False
                         if ok:
                             found = (fin, hs)
                             break
                         fin += 0.5
                     if not found:
+                        if os.environ.get("AURUM_PLAN_DEBUG"):
+                            print("DBG no range", c["id"], "need", round(need_file, 2), "ptr", round(ptr[c["id"]], 2), "audio_only", audio_only, "subj", subj, file=sys.stderr)
                         continue
                     share = (by_creator[c["creator"]] + need_out) / est_footage
                     # keep scarce, sentence-specific footage for the sentences that name it
                     scarce = len(set(c.get("shows") or []) & SCARCE - set(need[:1]))
-                    pool.append((share > CREATOR_CAP, scarce, by_creator[c["creator"]], -(c["f1"] - found[0]), c, found))
+                    # v7: the line's "need" list is ordered; the first need the clip shows ranks it (hook: touchdown before curb)
+                    rank = min(need.index(t) for t in (set(c.get("shows") or []) & set(need)))
+                    # editor's per-line picks (script.json "prefer": [clip ids]) rank first; every gate still applies
+                    pref = list(prefer).index(c["id"]) if c["id"] in prefer else len(prefer)
+                    pool.append((share > CREATOR_CAP, pref, rank, scarce, by_creator[c["creator"]], -(c["f1"] - found[0]), c, found))
                 if pool:
-                    pool.sort(key=lambda x: (x[0], x[1], x[2], x[3]))
-                    return pool[0][4], pool[0][5]
+                    pool.sort(key=lambda x: x[:6])
+                    return pool[0][6], pool[0][7]
             return None, None
 
         # spans per line: from line t0 (first line from 0) to next line t0; last line to total (end card over footage)
@@ -330,6 +382,8 @@ print(json.dumps(out))
                 n += 1
             while n > 1 and L / n < 3.0:
                 n -= 1
+            if ln.get("shots") and L / int(ln["shots"]) <= 7.5:
+                n = int(ln["shots"])  # editor's shot count for the line (shot-length gates still apply)
             fr0 = round(a * FPS)
             frames_total = round(b * FPS) - fr0
             for j in range(n):
@@ -337,7 +391,7 @@ print(json.dumps(out))
                 f_b = fr0 + round(frames_total * (j + 1) / n)
                 d = (f_b - f_a) / FPS
                 in_lift = any(f_b / FPS > lf["t0"] and f_a / FPS < lf["t1"] for lf in lifts)
-                c, found = pick(need, d + 0.1, last_id, audio_only=in_lift)
+                c, found = pick(need, d + 0.1, last_id, audio_only=in_lift, endcard=f_b / FPS > program_end + 0.5, prefer=ln.get("prefer") or (), reserve=ln.get("reserve_for_lift") or ())
                 if c is None:
                     exhausted.append({"line": i, "need": need, "shot_s": round(d, 2), "lift": in_lift, "text": ln["text"][:70]})
                     # keep planning so every gap is reported at once; this shot is a hard failure
@@ -355,14 +409,21 @@ print(json.dumps(out))
                     used_h.append((len(shots), h_))
                 for z in range_scenes(c, fin, fout):
                     used_scenes.add(z)
+                    scene_rng.setdefault(z, []).append((fin, fout))
                 par_n[c.get("parent", c["id"])] += 1
+                subj = c.get("subject") or c["id"]
+                if cur_subject[0] is not None and cur_subject[0] != subj:
+                    closed_subjects.add(cur_subject[0])
+                cur_subject[0] = subj
                 vid_n[c["video_id"]] += 1
                 tag = ",".join(c.get("tags") or c.get("shows") or [])
                 shots.append({"t0": round(f_a / FPS, 4), "t1": round(f_b / FPS, 4), "frames": f_b - f_a, "kind": "clip", "clip_id": c["id"],
                               "video_id": c["video_id"], "creator": c["creator"], "file": c["file"], "file_in": round(fin, 3),
                               "play_speed": c["play_speed"], "src_in": round(src_in, 3), "src_out": round(src_out, 3), "tag": tag,
                               "shows": c.get("shows") or [], "qc": qc, "parent": c.get("parent", c["id"]),
-                              "line": i, "audio_ok": bool(c.get("audio")) and not c.get("licensedContent"), "place": c.get("place")})
+                              "line": i, "audio_ok": audio_clean(c, fin, fout), "place": c.get("place"),
+                              "subject": c.get("subject") or c["id"], "handheld": bool(c.get("handheld")) and not c.get("stabilised"),
+                              "ton_max": max((x.get("ton", 1.0) for x in secs), default=1.0) if c.get("audio") else None})
                 if f_a / FPS < program_end:
                     by_creator[c["creator"]] += min(d, program_end - f_a / FPS)
                 last_id = c["id"]
@@ -412,7 +473,7 @@ print(json.dumps(out))
                "duration_s": total, "program_end_s": program_end, "hook_end_s": round(hook_end, 3), "shots": shots, "overlays": ov, "sentences": sents,
                "audio": {"narration": str(self.b / "narration.wav"), "music": "none", "ambient": amb}, "offtag_shots": offtag,
                "banned": bans, "lifts": lifts, "lift_min_count": int(self.spec.get("lift_min_count", 1 if self.portrait else 3)), "needs_footage": exhausted,
-               "scope": self.spec.get("scope", "full")}
+               "scope": self.spec.get("scope", "full"), "narration_stt": lj(self.b / "stt-check.json", {}).get("full_lines")}
         sj(self.b / "edl-long.json", edl)
         self.licence_log(shots)
         res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), None, root=self.wd)

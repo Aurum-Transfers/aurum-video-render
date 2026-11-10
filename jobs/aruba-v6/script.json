@@ -20,6 +20,9 @@
    "need": [
     "approach",
     "air-arrival"
+   ],
+   "prefer": [
+    "landing_approach"
    ]
   },
   {
@@ -34,8 +37,13 @@
     "sub": "Three ways from AUA to your hotel"
    },
    "need": [
+    "touchdown",
     "airport-curb",
-    "driving"
+    "plane-taxi"
+   ],
+   "prefer": [
+    "landing_touchdown",
+    "aua_curb"
    ]
   },
   {
@@ -46,10 +54,13 @@
    "hook": true,
    "pause": 0.5,
    "need": [
-    "beach-aerial",
-    "eagle-beach"
+    "pier",
+    "beach"
    ],
-   "lift": 1.6
+   "lift": 1.6,
+   "prefer": [
+    "palm_water_pier"
+   ]
   },
   {
    "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
@@ -60,25 +71,35 @@
    "disclosure": true,
    "pause": 0.6,
    "need": [
-    "hotel-strip",
-    "beach-aerial",
-    "island-aerial"
+    "hotel-strip-water",
+    "hotel-strip"
+   ],
+   "lift": 1.6,
+   "prefer": [
+    "overview_hotels",
+    "palm_strip_water",
+    "palm_hotel_end"
+   ],
+   "reserve_for_lift": [
+    "palm_hotel_end"
    ]
   },
   {
    "chapter": "1. Landing in Aruba: Queen Beatrix Airport",
-   "text": "Welcome to Aruba!",
+   "text": "Welcome to Aruba, and welcome to Queen Beatrix.",
    "tags": [
     "taxi",
     "airport"
    ],
    "pause": 0.3,
    "need": [
-    "beach",
-    "palm-beach",
-    "airport-curb"
+    "plane-taxi",
+    "airport-curb",
+    "touchdown"
    ],
-   "lift": 1.6
+   "prefer": [
+    "landing_taxi"
+   ]
   },
   {
    "text": "Queen Beatrix International Airport has frequent nonstop or one-stop flights from most major US cities, and daily flights from big hubs around the world.",
@@ -95,13 +116,17 @@
     "sub": "Airport code AUA"
    },
    "need": [
-    "touchdown",
     "plane-taxi",
-    "airport-terminal"
+    "driving",
+    "airport-curb"
+   ],
+   "prefer": [
+    "landing_taxi",
+    "aua_drive_day"
    ]
   },
   {
-   "text": "From the window seat you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
+   "text": "From the air, you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
    "facts": [
     "f80114"
    ],
@@ -110,11 +135,13 @@
    ],
    "pause": 0.35,
    "need": [
-    "air-arrival",
+    "island-aerial",
     "calm-sea-aerial",
     "beach-aerial"
    ],
-   "lift": 1.6
+   "prefer": [
+    "overview_island_a"
+   ]
   },
   {
    "text": "Aruba sits in the southern Caribbean, just outside the hurricane belt, about fifteen to eighteen miles off the coast of Venezuela, and it's only six miles across.",
@@ -128,11 +155,15 @@
    ],
    "pause": 0.35,
    "need": [
-    "island-aerial",
     "beach-aerial",
-    "hotel-strip",
-    "beach"
-   ]
+    "island-aerial",
+    "hotel-strip"
+   ],
+   "prefer": [
+    "overview_coast",
+    "overview_boats"
+   ],
+   "shots": 2
   },
   {
    "text": "The climate is tropical semi-arid: warm and sunny all year, with just the occasional brief shower.",
@@ -144,10 +175,14 @@
    ],
    "pause": 0.4,
    "need": [
-    "beach-aerial",
-    "eagle-beach",
-    "palm-beach",
+    "baby-beach",
+    "pier",
     "beach"
+   ],
+   "lift": 1.6,
+   "prefer": [
+    "baby_pan_a",
+    "palm_pier_deck"
    ]
   },
   {
@@ -161,9 +196,13 @@
    },
    "pause": 0.7,
    "need": [
-    "palm-beach",
-    "pier",
-    "beach"
+    "beach",
+    "calm-sea"
+   ],
+   "prefer": [
+    "arashi_shore",
+    "arashi_palapas",
+    "hadicurari_a"
    ]
   }
  ]
