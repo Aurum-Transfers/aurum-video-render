@@ -428,8 +428,8 @@ print(json.dumps(out))
                 if f_a / FPS < program_end:
                     by_creator[c["creator"]] += min(d, program_end - f_a / FPS)
                 last_id = c["id"]
-        if exhausted:
-            sj(self.b / "needs-footage.json", {"created": now(), "gaps": exhausted})
+        # always rewrite: a stale gaps file from an earlier plan must not survive a clean re-plan (CI fails on any listed gap)
+        sj(self.b / "needs-footage.json", {"created": now(), "gaps": exhausted})
         # overlays
         ov = []
         hook_end = max((nl[i]["t1"] for i, l in enumerate(lines) if l.get("hook")), default=0)
@@ -683,7 +683,7 @@ print(json.dumps(out))
             if src_d.is_dir():
                 shutil.copytree(src_d, pub / sub, dirs_exist_ok=True)
         sh(["npx", "remotion", "render", "src/index.ts", "OverlayStrip", str(self.b / "overlay.webm"), f"--props={pp}", "--codec=vp8",
-            "--pixel-format=yuva420p", "--image-format=png", "--concurrency=3", "--log=warn", f"--public-dir={pub}",
+            "--pixel-format=yuva420p", "--image-format=png", f"--concurrency={min(4, os.cpu_count() or 3) if os.environ.get('GITHUB_ACTIONS') else 3}", "--log=warn", f"--public-dir={pub}",
             "--chrome-mode=headless-shell", "--gl=swangle", "--timeout=120000"], cwd=rdir)
         print(json.dumps({"overlay": str(self.b / "overlay.webm"), "dur": dur_of(self.b / "overlay.webm")}))
 
@@ -752,6 +752,16 @@ print(json.dumps(out))
         sj(self.out / "checks.json", chk)
         print(json.dumps({"pass": res["pass"], "failed": res["failed"], "lufs": mo.get("lufs"), "tp": mo.get("true_peak"), "freeze": mo.get("freeze"),
                           "review_mb": round(rv.stat().st_size / 1048576, 1)}))
+        if os.environ.get("GITHUB_ACTIONS") and self.stem != "v6-preview":
+            # CI export for the reused render-preview.yml (workflow files can't be pushed with the box token): its artifact
+            # step only collects out/v6-preview-review-720p.mp4 and out/*.json, so expose the review copy under that name and
+            # the 1080p master as out/<stem>-1080p-master.mp4.json (binary MP4; rename on download; sha256 in checks.json).
+            # Artifact only (1-day retention), never a release.
+            for src, dst in ((rv, self.out / "v6-preview-review-720p.mp4"), (out, self.out / f"{self.stem}-1080p-master.mp4.json")):
+                if dst.exists():
+                    dst.unlink()
+                os.link(src, dst)
+            print(json.dumps({"ci_export": [str(self.out / "v6-preview-review-720p.mp4"), str(self.out / f"{self.stem}-1080p-master.mp4.json")]}))
 
 
 if __name__ == "__main__":
