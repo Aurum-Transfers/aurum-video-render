@@ -18,9 +18,8 @@
    "hook": true,
    "pause": 0.2,
    "need": [
-    "touchdown",
-    "runway",
-    "approach"
+    "approach",
+    "air-arrival"
    ]
   },
   {
@@ -75,8 +74,9 @@
    ],
    "pause": 0.3,
    "need": [
-    "island-aerial",
-    "air-arrival"
+    "airport-curb",
+    "air-arrival",
+    "island-aerial"
    ],
    "lift": 1.6
   },
@@ -97,8 +97,7 @@
    "need": [
     "touchdown",
     "plane-taxi",
-    "airport-terminal",
-    "approach"
+    "airport-terminal"
    ]
   },
   {
@@ -131,7 +130,8 @@
    "need": [
     "island-aerial",
     "beach-aerial",
-    "hotel-strip"
+    "hotel-strip",
+    "beach"
    ]
   },
   {
@@ -146,7 +146,8 @@
    "need": [
     "beach-aerial",
     "eagle-beach",
-    "palm-beach"
+    "palm-beach",
+    "beach"
    ]
   },
   {

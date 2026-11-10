@@ -18,7 +18,7 @@
   "Queen Beatrix",
   "Aruba",
   "Oranjestad",
-  "Paraguan\u00e1",
+  "Paraguaná",
   "Papiamento",
   "Eagle Beach",
   "Palm Beach",
@@ -48,7 +48,7 @@
    "palapa",
    "palapas"
   ],
-  "Paraguan\u00e1": [
+  "Paraguaná": [
    "paraguana",
    "paraguan"
   ],
@@ -79,11 +79,12 @@
   "videos/aruba-travel-guide"
  ],
  "respell": {
-  "Paraguan\u00e1": "Parra-gwah-NAH"
+  "Paraguaná": "Parra-gwah-NAH"
  },
  "ipa": {
-  "Oranjestad": "\u0254\u02d0\u0279\u02c8\u0251\u02d0nj\u0259st\u02cc\u0251\u02d0d"
+  "Oranjestad": "ɔːɹˈɑːnjəstˌɑːd"
  },
  "ambient_gain": 0.9,
- "lift_min_count": 3
+ "lift_min_count": 3,
+ "scope": "preview"
 }

@@ -11,23 +11,25 @@
    "creator": "GouverneurNL",
    "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
    "title": "Landing on Aruba in 4K!",
-   "file": "clips/SfMJtsB5-Ds_310-360.mp4",
+   "file": "jobs/aruba-v6/clips/SfMJtsB5-Ds_310-360.mp4",
    "f0": 0.0,
    "f1": 50.0,
    "src_base": 310.0,
    "src_speed": 1.0,
    "play_speed": 4.0,
    "tags": [
+    "landing",
     "approach",
     "air-arrival"
    ],
    "shows": [
     "approach",
-    "air-arrival"
+    "air-arrival",
+    "window-seat"
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Queen Beatrix \u2014 window-seat approach, source 5:10-6:00 at 4x"
+   "place": "Queen Beatrix — window-seat approach, source 5:10-6:00 at 4x"
   },
   {
    "id": "landing_touchdown",
@@ -36,13 +38,14 @@
    "creator": "GouverneurNL",
    "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
    "title": "Landing on Aruba in 4K!",
-   "file": "clips/SfMJtsB5-Ds_360-370.mp4",
+   "file": "jobs/aruba-v6/clips/SfMJtsB5-Ds_360-370.mp4",
    "f0": 0.0,
    "f1": 10.0,
    "src_base": 360.0,
    "src_speed": 1.0,
    "play_speed": 2.0,
    "tags": [
+    "landing",
     "touchdown",
     "runway"
    ],
@@ -52,7 +55,7 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Queen Beatrix \u2014 touchdown, source 6:00-6:10 at 2x"
+   "place": "Queen Beatrix — touchdown, source 6:00-6:10 at 2x"
   },
   {
    "id": "landing_taxi",
@@ -61,7 +64,7 @@
    "creator": "GouverneurNL",
    "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
    "title": "Landing on Aruba in 4K!",
-   "file": "clips/SfMJtsB5-Ds_370-400.mp4",
+   "file": "jobs/aruba-v6/clips/SfMJtsB5-Ds_370-400.mp4",
    "f0": 0.0,
    "f1": 30.0,
    "src_base": 370.0,
@@ -75,7 +78,7 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Queen Beatrix \u2014 taxi after touchdown, source 6:10-6:40 at 2x"
+   "place": "Queen Beatrix — taxi after touchdown, source 6:10-6:40 at 2x"
   },
   {
    "id": "aua_drive_day",
@@ -84,7 +87,7 @@
    "creator": "Aruba illustrated",
    "url": "https://www.youtube.com/watch?v=JMC3VLiM3ME",
    "title": "Secrets Baby beach to Airport Aruba",
-   "file": "clips/JMC3VLiM3ME_30-90.mp4",
+   "file": "jobs/aruba-v6/clips/JMC3VLiM3ME_30-90.mp4",
    "f0": 0.0,
    "f1": 60.0,
    "src_base": 30.0,
@@ -107,7 +110,7 @@
    "creator": "Aruba illustrated",
    "url": "https://www.youtube.com/watch?v=JMC3VLiM3ME",
    "title": "Secrets Baby beach to Airport Aruba",
-   "file": "clips/JMC3VLiM3ME_192-228.mp4",
+   "file": "jobs/aruba-v6/clips/JMC3VLiM3ME_192-228.mp4",
    "f0": 0.0,
    "f1": 36.0,
    "src_base": 192.0,
@@ -132,7 +135,7 @@
    "creator": "Nik K",
    "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
    "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
-   "file": "clips/OqD36OAu9As_0-40.mp4",
+   "file": "jobs/aruba-v6/clips/OqD36OAu9As_0-40.mp4",
    "f0": 0.0,
    "f1": 40.0,
    "src_base": 0.0,
@@ -157,7 +160,7 @@
    "creator": "Nik K",
    "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
    "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
-   "file": "clips/OqD36OAu9As_80-145.mp4",
+   "file": "jobs/aruba-v6/clips/OqD36OAu9As_80-145.mp4",
    "f0": 0.0,
    "f1": 65.0,
    "src_base": 80.0,
@@ -184,7 +187,7 @@
    "creator": "Nik K",
    "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
    "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
-   "file": "clips/OqD36OAu9As_190-213.mp4",
+   "file": "jobs/aruba-v6/clips/OqD36OAu9As_190-213.mp4",
    "f0": 0.0,
    "f1": 23.0,
    "src_base": 190.0,
@@ -209,7 +212,7 @@
    "creator": "Nik K",
    "url": "https://www.youtube.com/watch?v=q9_rZmj1kSk",
    "title": "ARUBA - Netherlands Antilles: Palm Beach Area In Front Of \"Barcelo Aruba\" Resort",
-   "file": "clips/q9_rZmj1kSk_125-146.mp4",
+   "file": "jobs/aruba-v6/clips/q9_rZmj1kSk_125-146.mp4",
    "f0": 0.0,
    "f1": 21.0,
    "src_base": 125.0,
@@ -235,7 +238,7 @@
    "creator": "TOMTOM - OUTDOOR - MOMENTS",
    "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
-   "file": "clips/3wVflHovBu4_0-40.mp4",
+   "file": "jobs/aruba-v6/clips/3wVflHovBu4_0-40.mp4",
    "f0": 0.0,
    "f1": 40.0,
    "src_base": 0.0,
@@ -252,7 +255,7 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Island overview drone, opening minute \u2014 clip_qc must drop near-still seconds"
+   "place": "Island overview drone, opening minute — clip_qc must drop near-still seconds"
   },
   {
    "id": "overview_hotels",
@@ -261,7 +264,7 @@
    "creator": "TOMTOM - OUTDOOR - MOMENTS",
    "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
-   "file": "clips/3wVflHovBu4_120-165.mp4",
+   "file": "jobs/aruba-v6/clips/3wVflHovBu4_120-165.mp4",
    "f0": 0.0,
    "f1": 45.0,
    "src_base": 120.0,
@@ -280,7 +283,7 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "West-coast hotel strip / Eagle-Palm aerials mid-film, source 2:00-2:45 \u2014 clip_qc must drop near-still seconds"
+   "place": "West-coast hotel strip / Eagle-Palm aerials mid-film, source 2:00-2:45 — clip_qc must drop near-still seconds"
   },
   {
    "id": "overview_coast",
@@ -289,7 +292,7 @@
    "creator": "TOMTOM - OUTDOOR - MOMENTS",
    "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
    "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
-   "file": "clips/3wVflHovBu4_240-300.mp4",
+   "file": "jobs/aruba-v6/clips/3wVflHovBu4_240-300.mp4",
    "f0": 0.0,
    "f1": 60.0,
    "src_base": 240.0,
@@ -306,7 +309,57 @@
    ],
    "audio": false,
    "licensedContent": false,
-   "place": "Later overview pass, source 4:00-5:00 \u2014 clip_qc must drop near-still seconds"
+   "place": "Later overview pass, source 4:00-5:00 — clip_qc must drop near-still seconds"
+  },
+  {
+   "id": "baby_pan_a",
+   "parent": "baby_pan_a",
+   "video_id": "sbcjtH8dehc",
+   "creator": "Thore Noernberg",
+   "url": "https://www.youtube.com/watch?v=sbcjtH8dehc",
+   "title": "Baby Beach, Aruba",
+   "file": "jobs/aruba-v6/clips/sbcjtH8dehc_0-62.mp4",
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "beach",
+    "baby-beach"
+   ],
+   "shows": [
+    "beach",
+    "baby-beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "f0": 0.0,
+   "f1": 24.0,
+   "place": "Baby Beach pan from the dunes, source 0:00-0:24 (before the pole/parking lot)"
+  },
+  {
+   "id": "baby_pan_b",
+   "parent": "baby_pan_b",
+   "video_id": "sbcjtH8dehc",
+   "creator": "Thore Noernberg",
+   "url": "https://www.youtube.com/watch?v=sbcjtH8dehc",
+   "title": "Baby Beach, Aruba",
+   "file": "jobs/aruba-v6/clips/sbcjtH8dehc_0-62.mp4",
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "beach",
+    "baby-beach"
+   ],
+   "shows": [
+    "beach",
+    "baby-beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "f0": 48.0,
+   "f1": 61.0,
+   "place": "Baby Beach pan, source 0:48-1:01"
   }
  ],
  "banned": [
@@ -329,7 +382,6 @@
  ],
  "scarce": [
   "touchdown",
-  "runway",
   "approach",
   "airport-curb",
   "plane-taxi",

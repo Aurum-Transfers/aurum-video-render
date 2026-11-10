@@ -51,7 +51,11 @@ for c in lib["clips"]:
     if need and need <= covered.get(c["file"], set()):
         continue  # sub-range of an already measured clip (planner indexes QC by file + second)
     crop = c.get("crop", "")
-    key = hashlib.md5(f"v3|{c['file']}|{c['f0']}|{c['f1']}|{crop}".encode()).hexdigest()[:12]
+    # Sped-up clips (play_speed > 1, e.g. the 4x window-seat approach) are measured as they appear ON SCREEN:
+    # each frame difference spans 1/6 s of screen time (lag = play_speed frames at 6 fps). Measuring them at 1x
+    # under-reported their on-screen motion and rejected every second. 1x clips are measured exactly as before.
+    ps = float(c.get("play_speed") or 1.0); lag = max(1, int(round(ps))) if ps > 1 else 1
+    key = hashlib.md5((f"v3|{c['file']}|{c['f0']}|{c['f1']}|{crop}" + (f"|lag{lag}" if lag > 1 else "")).encode()).hexdigest()[:12]
     if cache.get(c["id"], {}).get("key") == key:
         res[c["id"]] = cache[c["id"]]; continue
     vf = (f"crop={crop}," if crop else "") + f"fps={FPS},scale={W}:{H},format=gray"
@@ -62,12 +66,23 @@ for c in lib["clips"]:
     for s in range(int(len(a) // FPS)):
         blk = a[s * FPS:(s + 1) * FPS]
         d = np.abs(np.diff(blk, axis=0))
+        if lag > 1:  # on-screen motion of a sped-up clip: pair each frame with the one lag frames later
+            i0, i1 = s * FPS, min((s + 1) * FPS, len(a) - lag)
+            pairs = (a[i0:i1], a[i0 + lag:i1 + lag]) if i1 > i0 else (blk[:1], blk[-1:])
+            d = np.abs(pairs[1] - pairs[0])
         bm = blk[:, :48, :].reshape(len(blk), 8, 6, 8, 12).mean(axis=(2, 4)) if False else blk.reshape(len(blk), 6, 9, 8, 12).mean(axis=(2, 4))
         gd = np.abs(np.diff(bm, axis=0))
+        if lag > 1:
+            bm1 = pairs[0].reshape(len(pairs[0]), 6, 9, 8, 12).mean(axis=(2, 4)); bm2 = pairs[1].reshape(len(pairs[1]), 6, 9, 8, 12).mean(axis=(2, 4))
+            gd = np.abs(bm2 - bm1)
+            last = a[min(s * FPS + (FPS - 1) * lag, len(a) - 1)]  # end of one on-screen second
+        else:
+            last = blk[-1]
         # v3 (post v5-animatic review): camera-move proxies that water shimmer does not inflate
         g6 = blk.reshape(len(blk), 6, 9, 12, 8).mean(axis=(2, 4))      # 6x12 grid of block means
-        lmot = float(np.abs(g6[-1] - g6[0]).mean()) * 100 / 255           # first vs last frame of the second
-        f0_, f1_ = blk[0] - blk[0].mean(), blk[-1] - blk[-1].mean()
+        g6l = last.reshape(6, 9, 12, 8).mean(axis=(1, 3))
+        lmot = float(np.abs(g6l - g6[0]).mean()) * 100 / 255           # first vs last frame of the second
+        f0_, f1_ = blk[0] - blk[0].mean(), last - last.mean()
         r = np.abs(np.fft.ifft2(np.fft.fft2(f0_) * np.conj(np.fft.fft2(f1_))))
         iy, ix = np.unravel_index(int(r.argmax()), r.shape)
         iy = iy - H if iy > H // 2 else iy; ix = ix - W if ix > W // 2 else ix

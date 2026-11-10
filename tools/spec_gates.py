@@ -65,6 +65,7 @@ SPEC = {
 }
 FOOTAGE_KINDS = {"clip"}
 MAP_KINDS = {"map"}
+PREVIEW_MAX_S = 180.0  # longest program that may use the preview scope (see chapter gate)
 BANNED_KINDS = {"illustration", "text", "fallback", "placeholder", "still", "sea", "desert", "town", "calendar", "checklist"}
 CC_BY = re.compile(r"creative commons attribution", re.I)
 STRESS = re.compile(r"\b(landed|landing|arriv\w*|airport|hotel|not sure|stress|first hour)\b", re.I)
@@ -210,7 +211,15 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
     first_ch = chs[0]["t0"] if chs else None
     ok = len(chs) >= 3 and all(sp["numbered"] for sp in spans) and all(SPEC["chapter_min_s"] <= sp["span_s"] <= SPEC["chapter_max_s"] for sp in spans[:-1]) \
         and spans[-1]["span_s"] <= SPEC["chapter_max_s"] and (first_ch is not None and first_ch <= SPEC["chapter_max_s"])
-    add("numbered_chapters_60_120s", ok, {"first_at_s": first_ch, "spans": spans})
+    # Preview scope (spec.json "scope": "preview"): a <=180 s review preview cannot hold three 60-120 s chapters.
+    # Only the 60 s minimum and the 3-chapter count are skipped; every chapter must still be numbered, start by 120 s,
+    # and no span may exceed 120 s. A program over 180 s is always gated as a full cut, whatever the scope says.
+    # No other gate reads scope.
+    preview = str(edl.get("scope") or "full") == "preview" and 0 < program <= PREVIEW_MAX_S
+    if preview:
+        ok = len(chs) >= 1 and all(sp["numbered"] for sp in spans) and all(sp["span_s"] <= SPEC["chapter_max_s"] for sp in spans) \
+            and first_ch is not None and first_ch <= SPEC["chapter_max_s"]
+    add("numbered_chapters_60_120s", ok, {"first_at_s": first_ch, "spans": spans, "scope": "preview" if preview else "full"})
     # 12 engagement prompts every 60-90 s (natural: not closer than 45 s)
     pts = sorted(o["t0"] for o in ovs if o.get("kind") == "prompt")
     marks = [hook_end] + pts + [program]
@@ -313,7 +322,8 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
     add("source_clip_uses_le_cap", not par_bad, par_bad or {"max": max((len(v) for v in par_use.values()), default=0)})
     # (1d) v6: camera actually moves. Water shimmer inflates pixel-difference motion, so a shot is "still" when the
     # per-second phase-correlation shift (96x54) has median < cam_shift_min AND block-level change (gmot) < cam_gmot_min.
-    # Forward-travel shots (dash/window: tag driving or plane-taxi) have no translation and are exempt.
+    # Forward-travel shots (dash/window: shows driving, plane-taxi or window-seat) have no translation and are exempt.
+    # window-seat = forward-facing window view of a landing approach; it still has to pass the motion and luma floors.
     def seg(s):
         f = s.get("file"); a = int(_m.floor(float(s.get("file_in", 0)) + 1e-6))
         b = int(_m.ceil(float(s.get("file_in", 0)) + (s["t1"] - s["t0"]) * float(s.get("play_speed", 1)) - 1e-6))
@@ -321,7 +331,7 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
     still = []
     for s in clip_shots:
         v = seg(s)
-        if set(s.get("shows") or []) & {"driving", "plane-taxi"}:
+        if set(s.get("shows") or []) & {"driving", "plane-taxi", "window-seat"}:
             continue
         if not v:
             still.append({"t0": s["t0"], "clip": s.get("clip_id"), "why": "no v3 qc"}); continue

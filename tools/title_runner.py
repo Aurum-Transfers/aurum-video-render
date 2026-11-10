@@ -266,7 +266,7 @@ print(json.dumps(out))
                 return False, None
             if statistics.mean(x["y"] for x in secs) < G["luma_mean_min"] + 5 or min(x.get("ymin", x["y"]) for x in secs) < G["luma_frame_min"] + 5:
                 return False, None
-            if not (set(c.get("shows") or []) & {"driving", "plane-taxi"}):
+            if not (set(c.get("shows") or []) & {"driving", "plane-taxi", "window-seat"}):
                 if any("shift" not in x for x in secs):
                     return False, None
                 if statistics.median(x["shift"] for x in secs) < G["cam_shift_min"] + 0.1 and statistics.median(x["gmot"] for x in secs) < G["cam_gmot_min"] + 0.05:
@@ -411,7 +411,8 @@ print(json.dumps(out))
         edl = {"schema": "aurum-edl-v1", "created": now(), "slug": self.spec["slug"], "title": self.script["title"], "fps": FPS, "width": W, "height": H,
                "duration_s": total, "program_end_s": program_end, "hook_end_s": round(hook_end, 3), "shots": shots, "overlays": ov, "sentences": sents,
                "audio": {"narration": str(self.b / "narration.wav"), "music": "none", "ambient": amb}, "offtag_shots": offtag,
-               "banned": bans, "lifts": lifts, "lift_min_count": int(self.spec.get("lift_min_count", 1 if self.portrait else 3)), "needs_footage": exhausted}
+               "banned": bans, "lifts": lifts, "lift_min_count": int(self.spec.get("lift_min_count", 1 if self.portrait else 3)), "needs_footage": exhausted,
+               "scope": self.spec.get("scope", "full")}
         sj(self.b / "edl-long.json", edl)
         self.licence_log(shots)
         res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), None, root=self.wd)
@@ -467,7 +468,7 @@ print(json.dumps(out))
         rows.append({"asset_id": "aurum-overlays", "video_id": "", "file": "remotion/src/Overlay.tsx", "source": "Aurum Transfers original Remotion overlays and maps",
                      "creator": "Aurum Transfers Limited", "url": "https://aurum-transfers.com", "title": "", "licence": "Original work", "date": now()[:10],
                      "evidence": "", "in_s": "", "out_s": "", "audio_used": "", "used_in": self.spec["slug"]})
-        rows.append({"asset_id": "kokoro-bm_george", "video_id": "", "file": "build/narration.wav", "source": "Kokoro-82M ONNX (Apache-2.0), local", "creator": "hexgrad / thewh1teagle",
+        rows.append({"asset_id": f"kokoro-{self.spec.get('voice', 'bm_george')}", "video_id": "", "file": "build/narration.wav", "source": "Kokoro-82M ONNX (Apache-2.0), local", "creator": "hexgrad / thewh1teagle",
                      "url": "https://github.com/thewh1teagle/kokoro-onnx", "title": "", "licence": "Apache-2.0", "date": now()[:10], "evidence": "", "in_s": "", "out_s": "",
                      "audio_used": "", "used_in": self.spec["slug"]})
         with open(self.wd / "licence-log.csv", "w", newline="") as f:
