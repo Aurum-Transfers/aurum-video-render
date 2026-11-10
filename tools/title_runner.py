@@ -78,7 +78,7 @@ class T:
     def __init__(self, wd):
         self.wd = Path(wd).resolve()
         self.script = lj(self.wd / "script.json")
-        self.lib = lj(self.wd / "footage.json")
+        self.lib = spec_gates.resolve_clip_files(lj(self.wd / "footage.json"), self.wd)
         self.spec = lj(self.wd / "spec.json")
         self.b = self.wd / "build"
         self.out = self.wd / "out"
@@ -506,7 +506,7 @@ print(json.dumps(out))
         w, h = w or W, h or H
         edl = lj(self.b / "edl-long.json")
         # per-source crop (letterboxed sources: remove burned bars and any logo inside them)
-        self.crops = {c["file"]: c["crop"] for c in lj(self.wd / "footage.json")["clips"] if c.get("crop")}
+        self.crops = {c["file"]: c["crop"] for c in spec_gates.resolve_clip_files(lj(self.wd / "footage.json"), self.wd)["clips"] if c.get("crop")}
         sd = self.b / f"seg-{tag}"
         sd.mkdir(exist_ok=True)
         vl, al = [], []

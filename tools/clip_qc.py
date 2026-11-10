@@ -9,6 +9,8 @@ usage: clip_qc.py WORKDIR   -> WORKDIR/build/clipqc.json (cached per clip key)""
 import json, subprocess, sys, hashlib, numpy as np
 from pathlib import Path
 wd = Path(sys.argv[1]); lib = json.load(open(wd / "footage.json"))
+sys.path.insert(0, str(Path(__file__).resolve().parent)); import spec_gates  # noqa: E402
+spec_gates.resolve_clip_files(lib, wd)  # job-relative clip paths -> repo-root paths
 out = wd / "build" / "clipqc.json"; out.parent.mkdir(exist_ok=True)
 cache = json.load(open(out)) if out.exists() else {}
 cache = {k: v for k, v in cache.items() if v.get("ver") == 3}  # older measurements lack the v3 camera-move fields

@@ -74,6 +74,18 @@ NUMBERED = re.compile(r"^\s*\d+\s*[.)]\s+\S")
 LICENCE_FIELDS = ("url", "creator", "licence", "date", "evidence", "in_s", "out_s")
 
 
+def resolve_clip_files(lib: dict, wd) -> dict:
+    """footage.json "file" paths are relative to the job folder (jobs/<job>/clips/...; that is where the CI fetch step
+    puts release assets and checks them). Tools run from the repo root, so a job-relative path is rewritten to
+    <wd>/<file> when it exists there. Absolute or repo-relative paths that already exist are left alone."""
+    from pathlib import Path as _P
+    for c in lib.get("clips", []):
+        f = c.get("file")
+        if f and not _P(f).exists() and (_P(wd) / f).exists():
+            c["file"] = str(_P(wd) / f)
+    return lib
+
+
 def load_qc(root):
     """clipqc.json -> {file: {second: rec}}, plus per-clip quality records keyed by clip id."""
     import math as _m
