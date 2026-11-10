@@ -1,0 +1,82 @@
+# Manual only. Do not add push/schedule triggers (those would consume Actions minutes).
+name: smoke-download
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: YouTube video id (must already be CC BY in pool evidence)
+        required: true
+        default: sbcjtH8dehc
+      start:
+        description: Range start (seconds)
+        required: true
+        default: "0"
+      end:
+        description: Range end (seconds)
+        required: true
+        default: "20"
+concurrency:
+  group: aurum-video-render-smoke
+  cancel-in-progress: false
+permissions:
+  contents: read
+  actions: write
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Free disk on the runner
+        run: bash tools/ci/free_disk.sh
+
+      - name: Install ffmpeg and yt-dlp
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install -U yt-dlp
+          yt-dlp --version
+          ffmpeg -version | head -2
+          df -h
+
+      - name: Download one 20s 1080p range (cookie-less)
+        id: download
+        continue-on-error: true
+        run: |
+          set +e
+          python3 tools/ci/smoke_download.py \
+            --video-id "${{ inputs.video_id }}" \
+            --start "${{ inputs.start }}" \
+            --end "${{ inputs.end }}" \
+            --outdir out/smoke
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Upload smoke artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-download
+          path: out/smoke/
+          if-no-files-found: warn
+          retention-days: 3
+
+      - name: Report result
+        if: always()
+        run: |
+          echo "==== result.json ===="
+          cat out/smoke/result.json || echo "no result.json"
+          status=$(python3 -c "import json; print(json.load(open('out/smoke/result.json')).get('status','missing'))" 2>/dev/null || echo missing)
+          echo "status=$status"
+          if [ "$status" = "ok" ]; then
+            echo "Smoke download succeeded."
+            exit 0
+          fi
+          if [ "$status" = "bot_blocked" ]; then
+            echo "::error::YouTube bot-blocked this GitHub-hosted runner (datacenter IP). Do not add cookies or account credentials. Fallback: download the planned ranges in small batches on the Aurum box and attach them as private release assets or a private cache for a later render job."
+            exit 2
+          fi
+          echo "::error::Smoke download failed (status=$status). See result.json in the artifact."
+          exit 1
