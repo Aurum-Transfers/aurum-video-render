@@ -72,11 +72,12 @@
    "pause": 0.6,
    "need": [
     "hotel-strip-water",
-    "hotel-strip"
+    "hotel-strip",
+    "town-aerial"
    ],
    "lift": 1.6,
    "prefer": [
-    "overview_hotels",
+    "overview_town",
     "palm_strip_water",
     "palm_hotel_end"
    ],

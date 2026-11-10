@@ -292,7 +292,8 @@ print(json.dumps(out))
             if endcard and statistics.median(x["mot"] for x in secs) < G["endcard_motion_min"] + 0.5:
                 return False, None
             mots = [x["mot"] for x in secs]
-            if statistics.median(mots) < G["motion_median_min"] + 0.1 or min(mots) < G["motion_second_min"] + 0.1:
+            # v7: margin 0.3 on the median (run 42906197006: overview_hotels planned 1.33, measured 1.16 on the render)
+            if statistics.median(mots) < G["motion_median_min"] + 0.3 or min(mots) < G["motion_second_min"] + 0.1:
                 return False, None
             if statistics.mean(x["y"] for x in secs) < G["luma_mean_min"] + 5 or min(x.get("ymin", x["y"]) for x in secs) < G["luma_frame_min"] + 5:
                 return False, None
