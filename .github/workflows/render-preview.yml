@@ -1,0 +1,74 @@
+# Manual only. Dispatch only after a successful smoke-download AND a confirmed
+# remaining included-minutes budget. A push does not start this workflow.
+# Never set AURUM_YT_TOKEN. Never publish to YouTube.
+name: render-preview
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Job folder under jobs/
+        required: true
+        default: aruba-v6
+      confirm_no_spend:
+        description: Type "free-minutes-only" to confirm this must not incur Actions charges
+        required: true
+        default: ""
+concurrency:
+  group: aurum-video-render-preview
+  cancel-in-progress: false
+permissions:
+  contents: read
+  actions: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Confirm no-spend gate
+        run: |
+          if [ "${{ inputs.confirm_no_spend }}" != "free-minutes-only" ]; then
+            echo "::error::Refusing to start. Re-dispatch with confirm_no_spend=free-minutes-only only after remaining included Actions minutes are confirmed."
+            exit 1
+          fi
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fail fast if the shot list is empty
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          from pathlib import Path
+          job = "${{ inputs.job }}"
+          p = Path("jobs") / job / "footage.json"
+          data = json.loads(p.read_text())
+          clips = data.get("clips") or []
+          if not clips:
+              print("::error::jobs/%s/footage.json has no clips. Assign high-quality ranges that pass v6 gates before dispatching a render." % job)
+              sys.exit(1)
+          print("clips", len(clips))
+          PY
+
+      - name: Free disk on the runner
+        run: bash tools/ci/free_disk.sh
+
+      - name: Install ffmpeg, yt-dlp, Node
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg
+          python3 -m pip install -U yt-dlp
+          # Node for Remotion; ubuntu-latest already has a Node, pin via NodeSource if needed
+          node -v
+          npm -v
+
+      - name: Install Remotion deps and Chrome headless
+        working-directory: remotion
+        run: |
+          npm ci
+          npx remotion browser ensure || true
+
+      - name: Placeholder — planned range download + gates + 720p preview
+        run: |
+          echo "::error::Range download, v6 gates (no repeats, no near-still or dark shots, footage matching each line, natural-sound lifts, engagement prompts, Oranjestad phoneme fix, no public-transport lines) and the Remotion 720p preview are wired to run here once footage.json is filled and a smoke download has succeeded."
+          echo "Not starting a heavy render in this commit so a mistaken dispatch cannot burn a long render."
+          exit 1
