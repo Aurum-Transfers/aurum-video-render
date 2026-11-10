@@ -1,0 +1,24 @@
+{
+  "long": {
+    "title": "Aruba Travel Guide: What to Know Before You Go",
+    "summary": "A calm, practical guide to Aruba: the ED-Card and entry basics, getting from Queen Beatrix International Airport to your hotel, the best time to go, which coast to swim on, Arikok National Park, Oranjestad, San Nicolás and getting around. Facts come from official sources (listed below); no prices are quoted, so check current details before you book.",
+    "tags": ["Aruba", "Aruba travel guide", "Aruba travel tips", "Aruba beaches", "Aruba airport transfer", "Caribbean travel"],
+    "hashtags": ["#Aruba", "#ArubaTravel", "#CaribbeanTravel"]
+  },
+  "shorts": {
+    "short-1": {"title": "Aruba: do this before you fly", "summary": "The ED-Card, in under a minute. Details from Aruba's airport authority and the UK government.", "hashtags": ["#Aruba", "#TravelTips"]},
+    "short-2": {"title": "Aruba: which coast to swim on", "summary": "Calm west and south, wild east and north. Details from the Aruba Tourism Authority.", "hashtags": ["#Aruba", "#Beaches"]},
+    "short-3": {"title": "Aruba: airport to hotel, sorted", "summary": "Bus, taxi, rental car or a pre-booked partner transfer. Details from Arubus, the Aruba Tourism Authority and the UK government.", "hashtags": ["#Aruba", "#TravelTips"]}
+  },
+  "tags": ["Aruba", "Aruba travel"],
+  "hashtags": ["#Aruba", "#ArubaTravel", "#CaribbeanTravel"],
+  "thumbnails": [
+    {"text": "ARUBA\nBEFORE YOU GO", "focus": "airport"},
+    {"text": "ARUBA\nDONE RIGHT", "focus": "eagle"},
+    {"text": "PLAN ARUBA\nCALMLY", "focus": null}
+  ],
+  "end_card": {"title": "ENJOY ARUBA", "lines": ["Links and sources are in the description", "Aruba: The Island Guide, from Aurum Travel Guides, coming soon"]},
+  "credits_line": "Narration: AI-generated voice (Kokoro). Maps, route animations and illustrations: Aurum Transfers, using a Natural Earth outline (public domain). Fonts: Montserrat and Bebas Neue (SIL OFL). Music: none.",
+  "advice_note": "This video is general travel information, not legal, health or immigration advice. Entry rules and fees change; check the official pages above before you travel.",
+  "sources_checked_on": "2026-11-09"
+}

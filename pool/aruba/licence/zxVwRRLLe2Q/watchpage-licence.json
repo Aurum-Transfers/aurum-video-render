@@ -1,0 +1,18 @@
+{
+ "id": "zxVwRRLLe2Q",
+ "title": "Aruba Port Call - Arashi Beach",
+ "channel": "Interesting Things",
+ "channel_url": "https://www.youtube.com/channel/UCXVI1V2VNSoIP1YX7ABG1qA",
+ "uploader": "Interesting Things",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 102,
+ "upload_date": "20251218",
+ "width": 3840,
+ "height": 2160,
+ "description": "Scenes from our port call visit to Arashi Beach in Aruba.",
+ "checked_at": "2026-11-10T09:10:46-05:00",
+ "url": "https://www.youtube.com/watch?v=zxVwRRLLe2Q",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 60.0
+}

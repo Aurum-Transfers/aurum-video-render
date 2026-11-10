@@ -1,0 +1,10 @@
+kokoro-onnx==0.6.1
+soundfile>=0.12
+numpy
+requests>=2.31
+Pillow>=10
+yt-dlp
+pytest>=8
+google-api-python-client>=2.120
+google-auth>=2.28
+google-auth-oauthlib>=1.2

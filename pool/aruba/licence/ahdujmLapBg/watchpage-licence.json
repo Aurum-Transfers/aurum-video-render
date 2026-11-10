@@ -1,0 +1,18 @@
+{
+ "id": "ahdujmLapBg",
+ "title": "Aruba Renaissance / Flamingo Island",
+ "channel": "Boone's Digital Trail",
+ "channel_url": "https://www.youtube.com/channel/UCqYbIBcDrOkCXJta4CkWHoQ",
+ "uploader": "Boone's Digital Trail",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 696,
+ "upload_date": "20240226",
+ "width": 3840,
+ "height": 2160,
+ "description": "Our day on the island",
+ "checked_at": "2026-11-10T09:10:46-05:00",
+ "url": "https://www.youtube.com/watch?v=ahdujmLapBg",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 24.0
+}

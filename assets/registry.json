@@ -1,0 +1,10 @@
+{
+  "map_credit": "Map outline: Natural Earth (public domain). Stylised; marker positions approximate.",
+  "assets": [
+    {"asset_id": "naturalearth-aruba-outline", "file": "assets/maps/aruba.geojson", "source": "Natural Earth 1:10m Admin 0 Countries (via github.com/nvkelso/natural-earth-vector)", "creator": "Natural Earth", "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/", "licence": "Public domain"},
+    {"asset_id": "font-montserrat", "file": "assets/fonts/Montserrat.ttf", "public": "fonts/Montserrat.ttf", "source": "Google Fonts (github.com/google/fonts)", "creator": "The Montserrat Project Authors", "url": "https://github.com/google/fonts/tree/main/ofl/montserrat", "licence": "SIL Open Font License 1.1"},
+    {"asset_id": "font-bebas-neue", "file": "assets/fonts/BebasNeue-Regular.ttf", "public": "fonts/BebasNeue-Regular.ttf", "source": "Google Fonts (github.com/google/fonts)", "creator": "The Bebas Neue Project Authors (Dharma Type)", "url": "https://github.com/google/fonts/tree/main/ofl/bebasneue", "licence": "SIL Open Font License 1.1"},
+    {"asset_id": "aurum-motion-graphics", "file": "remotion/src/Main.tsx", "source": "Aurum Transfers (original maps, route animations and illustrated scenes, coded in Remotion)", "creator": "Aurum Transfers Limited", "url": "https://aurum-transfers.com", "licence": "Original work, owned by Aurum Transfers Limited"},
+    {"asset_id": "kokoro-v1.0-bm_george", "file": "tools/tts/README.md", "source": "Kokoro-82M v1.0 via kokoro-onnx 0.6.1 (AI voice, rendered locally)", "creator": "hexgrad (model), thewh1teagle (kokoro-onnx)", "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0", "licence": "Apache-2.0 (model weights), MIT (kokoro-onnx)"}
+  ]
+}

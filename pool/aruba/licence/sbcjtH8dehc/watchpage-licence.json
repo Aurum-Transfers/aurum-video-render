@@ -1,0 +1,18 @@
+{
+ "id": "sbcjtH8dehc",
+ "title": "Baby Beach, Aruba",
+ "channel": "Thore Noernberg",
+ "channel_url": "https://www.youtube.com/channel/UC7LjjqOGvFK0dbQNWCQaSkQ",
+ "uploader": "Thore Noernberg",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 62,
+ "upload_date": "20151005",
+ "width": 1920,
+ "height": 1080,
+ "description": "beautiful Baby Beach on One Happy Island - always a windy place",
+ "checked_at": "2026-11-10T09:10:46-05:00",
+ "url": "https://www.youtube.com/watch?v=sbcjtH8dehc",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1080,
+ "fps_at_max": 30.0
+}

@@ -1,0 +1,18 @@
+{
+ "id": "JgeDvWFFLSU",
+ "title": "Downtown Oranjestad",
+ "channel": "NIFB Malawi",
+ "channel_url": "https://www.youtube.com/channel/UCXmtgV_FDowRHyobV9kGjKQ",
+ "uploader": "NIFB Malawi",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 45,
+ "upload_date": "20220924",
+ "width": 1920,
+ "height": 1080,
+ "description": "This is the Golden Mile of Oranjestad Central. Spotless clean. Tourist magnet though. Drivers on Aruba are incredibly courteous - a totally different world from \"real life GTA V\" Johannesburg which I'm used to.",
+ "checked_at": "2026-11-10T09:10:46-05:00",
+ "url": "https://www.youtube.com/watch?v=JgeDvWFFLSU",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1080,
+ "fps_at_max": 30.0
+}

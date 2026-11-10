@@ -1,0 +1,1286 @@
+{
+  "schema": "aurum-used-sources-plan-v1",
+  "slug": "aruba-travel-guide",
+  "output_stem": "long-v2",
+  "allow_graphics_fallback": false,
+  "min_real_footage_coverage": 0.8,
+  "offline_no_upload": true,
+  "library_dir_hints": [
+    "assets/cc-library/aruba-full-v2-sources",
+    "/workspace/work/aruba-full-v2/sources"
+  ],
+  "excluded": {
+    "HUwVYjxo81Q": "Canva/third-party credits, stills, presenter mix \u2014 not used",
+    "pzT_4owAAQA": "Canva/third-party credits, mural-centred/presenter mix \u2014 not used",
+    "osH6fqUpixs": "Poor sample, presenter, overlays, obstructed driving \u2014 not used",
+    "oUYovWrqzOw_other": "Excluded bus/presenter/title/subscribe stretches and GOLD ROCK / GRAND BAHAMAS / HORSESHOE BAY / BERMUDA labelled inserts"
+  },
+  "reviewed_selected_for_embed": [],
+  "used_in_render": {
+    "state": "used_in_render",
+    "checked_at": "2026-11-10T00:21:58 America/Jamaica",
+    "output_stem": "long-v2",
+    "output_relative": "videos/aruba-travel-guide/out/long-v2.mp4",
+    "output_absolute": "/workspace/work/aruba-full-v2/pc-src/videos/aruba-travel-guide/out/long-v2.mp4",
+    "output_sha256": "30959be2a48e9f2841e1820e88d6d82acf23df3e3057050485a5971f909e52ee",
+    "output_bytes": 763809412,
+    "output_duration_s": 646.466667,
+    "timeline": "videos/aruba-travel-guide/build/timeline-long.json",
+    "render_passed_at": "2026-11-10T00:18:28 America/Jamaica",
+    "checks_passed_at": "2026-11-10T00:19:04 America/Jamaica",
+    "unique_clips": 31,
+    "timeline_clip_slots": 35,
+    "clips": [
+      {
+        "clip_id": "drone_reef_a",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial, reef and boats",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 12,
+        "source_out_s": 45,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_reef_a",
+            "from_frame": 0,
+            "dur_frames": 190,
+            "from_s": 0.0,
+            "dur_s": 6.333,
+            "src": "assets/yt-75FVjbyKAr8-drone_reef_a.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_reef_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "landing_approach",
+        "video_id": "SfMJtsB5-Ds",
+        "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+        "title": "Landing on Aruba in 4K!",
+        "creator": "GouverneurNL",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "YouTube Data API videos.list licence=creativeCommon and yt-dlp watch-page license string, both 2026-11-09 JT; uploader-asserted CC BY, not a separate ownership deed.",
+        "place": "Queen Beatrix International Airport \u2014 window-seat approach",
+        "place_validated": "provisional: reviewer identified Aruba coast/airport; parent did not independently establish legible airport ID from one frame",
+        "source_in_s": 310,
+        "source_out_s": 360,
+        "speed": 4.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "landing_approach",
+            "from_frame": 190,
+            "dur_frames": 190,
+            "from_s": 6.333,
+            "dur_s": 6.333,
+            "src": "assets/yt-SfMJtsB5-Ds-landing_approach.mp4",
+            "asset_id": "yt-SfMJtsB5-Ds-landing_approach"
+          },
+          {
+            "clip_id": "landing_approach",
+            "from_frame": 4643,
+            "dur_frames": 248,
+            "from_s": 154.767,
+            "dur_s": 8.267,
+            "src": "assets/yt-SfMJtsB5-Ds-landing_approach.mp4",
+            "asset_id": "yt-SfMJtsB5-Ds-landing_approach"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_reef_b",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 45,
+        "source_out_s": 90,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_reef_b",
+            "from_frame": 380,
+            "dur_frames": 455,
+            "from_s": 12.667,
+            "dur_s": 15.167,
+            "src": "assets/yt-75FVjbyKAr8-drone_reef_b.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_reef_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_coast_a",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 90,
+        "source_out_s": 140,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_coast_a",
+            "from_frame": 835,
+            "dur_frames": 660,
+            "from_s": 27.833,
+            "dur_s": 22.0,
+            "src": "assets/yt-75FVjbyKAr8-drone_coast_a.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_coast_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "oranjestad_a",
+        "video_id": "tBIJZkn58Yw",
+        "url": "https://www.youtube.com/watch?v=tBIJZkn58Yw",
+        "title": "ORANJESTAD ARUBA is BEAUTIFUL",
+        "creator": "Think Travel",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Oranjestad streets near the cruise port",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 15,
+        "source_out_s": 40,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "oranjestad_a",
+            "from_frame": 1495,
+            "dur_frames": 677,
+            "from_s": 49.833,
+            "dur_s": 22.567,
+            "src": "assets/yt-tBIJZkn58Yw-oranjestad_a.mp4",
+            "asset_id": "yt-tBIJZkn58Yw-oranjestad_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_reef_c",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial, reef",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 140,
+        "source_out_s": 190,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_reef_c",
+            "from_frame": 2172,
+            "dur_frames": 722,
+            "from_s": 72.4,
+            "dur_s": 24.067,
+            "src": "assets/yt-75FVjbyKAr8-drone_reef_c.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_reef_c"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_palapas",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 0,
+        "source_out_s": 40,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_palapas",
+            "from_frame": 2894,
+            "dur_frames": 489,
+            "from_s": 96.467,
+            "dur_s": 16.3,
+            "src": "assets/yt-D8EUO_LMIg8-palm_palapas.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_palapas"
+          },
+          {
+            "clip_id": "palm_palapas",
+            "from_frame": 17566,
+            "dur_frames": 361,
+            "from_s": 585.533,
+            "dur_s": 12.033,
+            "src": "assets/yt-D8EUO_LMIg8-palm_palapas.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_palapas"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_open_a",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 190,
+        "source_out_s": 230,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_open_a",
+            "from_frame": 3383,
+            "dur_frames": 721,
+            "from_s": 112.767,
+            "dur_s": 24.033,
+            "src": "assets/yt-75FVjbyKAr8-drone_open_a.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_open_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_walk_a",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 40,
+        "source_out_s": 78,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_walk_a",
+            "from_frame": 4104,
+            "dur_frames": 539,
+            "from_s": 136.8,
+            "dur_s": 17.967,
+            "src": "assets/yt-D8EUO_LMIg8-palm_walk_a.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_walk_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "landing_touchdown",
+        "video_id": "SfMJtsB5-Ds",
+        "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+        "title": "Landing on Aruba in 4K!",
+        "creator": "GouverneurNL",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "YouTube Data API videos.list licence=creativeCommon and yt-dlp watch-page license string, both 2026-11-09 JT; uploader-asserted CC BY, not a separate ownership deed.",
+        "place": "Queen Beatrix International Airport \u2014 touchdown",
+        "place_validated": "provisional, continuous with approved landing sequence",
+        "source_in_s": 360,
+        "source_out_s": 370,
+        "speed": 2.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "landing_touchdown",
+            "from_frame": 4891,
+            "dur_frames": 177,
+            "from_s": 163.033,
+            "dur_s": 5.9,
+            "src": "assets/yt-SfMJtsB5-Ds-landing_touchdown.mp4",
+            "asset_id": "yt-SfMJtsB5-Ds-landing_touchdown"
+          }
+        ]
+      },
+      {
+        "clip_id": "landing_taxi",
+        "video_id": "SfMJtsB5-Ds",
+        "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+        "title": "Landing on Aruba in 4K!",
+        "creator": "GouverneurNL",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "YouTube Data API videos.list licence=creativeCommon and yt-dlp watch-page license string, both 2026-11-09 JT; uploader-asserted CC BY, not a separate ownership deed.",
+        "place": "Queen Beatrix International Airport \u2014 taxi after touchdown",
+        "place_validated": "provisional, continuous taxi after 5:10, not the slow earlier approach",
+        "source_in_s": 370,
+        "source_out_s": 400,
+        "speed": 2.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "landing_taxi",
+            "from_frame": 5068,
+            "dur_frames": 284,
+            "from_s": 168.933,
+            "dur_s": 9.467,
+            "src": "assets/yt-SfMJtsB5-Ds-landing_taxi.mp4",
+            "asset_id": "yt-SfMJtsB5-Ds-landing_taxi"
+          },
+          {
+            "clip_id": "landing_taxi",
+            "from_frame": 17308,
+            "dur_frames": 258,
+            "from_s": 576.933,
+            "dur_s": 8.6,
+            "src": "assets/yt-SfMJtsB5-Ds-landing_taxi.mp4",
+            "asset_id": "yt-SfMJtsB5-Ds-landing_taxi"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_hotels_a",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 177,
+        "source_out_s": 230,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_hotels_a",
+            "from_frame": 5352,
+            "dur_frames": 592,
+            "from_s": 178.4,
+            "dur_s": 19.733,
+            "src": "assets/yt-D8EUO_LMIg8-palm_hotels_a.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_hotels_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_hotels_b",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 230,
+        "source_out_s": 255,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_hotels_b",
+            "from_frame": 5944,
+            "dur_frames": 661,
+            "from_s": 198.133,
+            "dur_s": 22.033,
+            "src": "assets/yt-D8EUO_LMIg8-palm_hotels_b.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_hotels_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_shore_a",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 280,
+        "source_out_s": 320,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_shore_a",
+            "from_frame": 6605,
+            "dur_frames": 676,
+            "from_s": 220.167,
+            "dur_s": 22.533,
+            "src": "assets/yt-D8EUO_LMIg8-palm_shore_a.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_shore_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_shore_b",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 320,
+        "source_out_s": 387,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_shore_b",
+            "from_frame": 7281,
+            "dur_frames": 724,
+            "from_s": 242.7,
+            "dur_s": 24.133,
+            "src": "assets/yt-D8EUO_LMIg8-palm_shore_b.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_shore_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_pier_a",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach pier",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 414,
+        "source_out_s": 441,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_pier_a",
+            "from_frame": 8005,
+            "dur_frames": 746,
+            "from_s": 266.833,
+            "dur_s": 24.867,
+            "src": "assets/yt-D8EUO_LMIg8-palm_pier_a.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_pier_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_boats_a",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial, boats",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 260,
+        "source_out_s": 300,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_boats_a",
+            "from_frame": 8751,
+            "dur_frames": 574,
+            "from_s": 291.7,
+            "dur_s": 19.133,
+            "src": "assets/yt-75FVjbyKAr8-drone_boats_a.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_boats_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_sail_a",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 300,
+        "source_out_s": 354,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_sail_a",
+            "from_frame": 9325,
+            "dur_frames": 556,
+            "from_s": 310.833,
+            "dur_s": 18.533,
+            "src": "assets/yt-75FVjbyKAr8-drone_sail_a.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_sail_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_coast_b",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial, shoreline hotels",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 360,
+        "source_out_s": 410,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_coast_b",
+            "from_frame": 9881,
+            "dur_frames": 597,
+            "from_s": 329.367,
+            "dur_s": 19.9,
+            "src": "assets/yt-75FVjbyKAr8-drone_coast_b.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_coast_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "eagle_beach",
+        "video_id": "oUYovWrqzOw",
+        "url": "https://www.youtube.com/watch?v=oUYovWrqzOw",
+        "title": "Aruba Eagle Beach Ultimate Tour and How to Get There the Easy Way - Closest Beach to Cruise Port",
+        "creator": "AlongForTheJourney",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; licensedContent=true so source audio is always stripped.",
+        "place": "Eagle Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 216,
+        "source_out_s": 267,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "eagle_beach",
+            "from_frame": 10478,
+            "dur_frames": 772,
+            "from_s": 349.267,
+            "dur_s": 25.733,
+            "src": "assets/yt-oUYovWrqzOw-eagle_beach.mp4",
+            "asset_id": "yt-oUYovWrqzOw-eagle_beach"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_boats_b",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial, traditional boats",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 410,
+        "source_out_s": 470,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_boats_b",
+            "from_frame": 11461,
+            "dur_frames": 492,
+            "from_s": 382.033,
+            "dur_s": 16.4,
+            "src": "assets/yt-75FVjbyKAr8-drone_boats_b.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_boats_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_beach_a",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial, beach and palapas",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 470,
+        "source_out_s": 520,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_beach_a",
+            "from_frame": 11953,
+            "dur_frames": 634,
+            "from_s": 398.433,
+            "dur_s": 21.133,
+            "src": "assets/yt-75FVjbyKAr8-drone_beach_a.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_beach_a"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_gap",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 230,
+        "source_out_s": 260,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_gap",
+            "from_frame": 12850,
+            "dur_frames": 488,
+            "from_s": 428.333,
+            "dur_s": 16.267,
+            "src": "assets/yt-75FVjbyKAr8-drone_gap.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_gap"
+          }
+        ]
+      },
+      {
+        "clip_id": "drone_end",
+        "video_id": "75FVjbyKAr8",
+        "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+        "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+        "creator": "TOMTOM - OUTDOOR - MOMENTS",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+        "place": "Aruba west-coast aerial",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 520,
+        "source_out_s": 546,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "drone_end",
+            "from_frame": 13586,
+            "dur_frames": 461,
+            "from_s": 452.867,
+            "dur_s": 15.367,
+            "src": "assets/yt-75FVjbyKAr8-drone_end.mp4",
+            "asset_id": "yt-75FVjbyKAr8-drone_end"
+          }
+        ]
+      },
+      {
+        "clip_id": "oranjestad_c",
+        "video_id": "tBIJZkn58Yw",
+        "url": "https://www.youtube.com/watch?v=tBIJZkn58Yw",
+        "title": "ORANJESTAD ARUBA is BEAUTIFUL",
+        "creator": "Think Travel",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Oranjestad streets near the cruise port",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 55,
+        "source_out_s": 70,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "oranjestad_c",
+            "from_frame": 14047,
+            "dur_frames": 626,
+            "from_s": 468.233,
+            "dur_s": 20.867,
+            "src": "assets/yt-tBIJZkn58Yw-oranjestad_c.mp4",
+            "asset_id": "yt-tBIJZkn58Yw-oranjestad_c"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_pier_c",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach pier",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 480,
+        "source_out_s": 495,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_pier_c",
+            "from_frame": 14899,
+            "dur_frames": 420,
+            "from_s": 496.633,
+            "dur_s": 14.0,
+            "src": "assets/yt-D8EUO_LMIg8-palm_pier_c.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_pier_c"
+          }
+        ]
+      },
+      {
+        "clip_id": "oranjestad_b",
+        "video_id": "tBIJZkn58Yw",
+        "url": "https://www.youtube.com/watch?v=tBIJZkn58Yw",
+        "title": "ORANJESTAD ARUBA is BEAUTIFUL",
+        "creator": "Think Travel",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Oranjestad streets near the cruise port",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 40,
+        "source_out_s": 55,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "oranjestad_b",
+            "from_frame": 15319,
+            "dur_frames": 713,
+            "from_s": 510.633,
+            "dur_s": 23.767,
+            "src": "assets/yt-tBIJZkn58Yw-oranjestad_b.mp4",
+            "asset_id": "yt-tBIJZkn58Yw-oranjestad_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_hotels_c",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 255,
+        "source_out_s": 280,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_hotels_c",
+            "from_frame": 16032,
+            "dur_frames": 519,
+            "from_s": 534.4,
+            "dur_s": 17.3,
+            "src": "assets/yt-D8EUO_LMIg8-palm_hotels_c.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_hotels_c"
+          }
+        ]
+      },
+      {
+        "clip_id": "palm_pier_b",
+        "video_id": "D8EUO_LMIg8",
+        "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+        "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+        "creator": "NickWorldView",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+        "place": "Palm Beach pier",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 441,
+        "source_out_s": 480,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "palm_pier_b",
+            "from_frame": 16551,
+            "dur_frames": 757,
+            "from_s": 551.7,
+            "dur_s": 25.233,
+            "src": "assets/yt-D8EUO_LMIg8-palm_pier_b.mp4",
+            "asset_id": "yt-D8EUO_LMIg8-palm_pier_b"
+          }
+        ]
+      },
+      {
+        "clip_id": "eagle_sunset",
+        "video_id": "oUYovWrqzOw",
+        "url": "https://www.youtube.com/watch?v=oUYovWrqzOw",
+        "title": "Aruba Eagle Beach Ultimate Tour and How to Get There the Easy Way - Closest Beach to Cruise Port",
+        "creator": "AlongForTheJourney",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; licensedContent=true so source audio is always stripped.",
+        "place": "Eagle Beach sunset",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 348,
+        "source_out_s": 378,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "eagle_sunset",
+            "from_frame": 17927,
+            "dur_frames": 412,
+            "from_s": 597.567,
+            "dur_s": 13.733,
+            "src": "assets/yt-oUYovWrqzOw-eagle_sunset.mp4",
+            "asset_id": "yt-oUYovWrqzOw-eagle_sunset"
+          },
+          {
+            "clip_id": "eagle_sunset",
+            "from_frame": 19040,
+            "dur_frames": 354,
+            "from_s": 634.667,
+            "dur_s": 11.8,
+            "src": "assets/yt-oUYovWrqzOw-eagle_sunset.mp4",
+            "asset_id": "yt-oUYovWrqzOw-eagle_sunset"
+          }
+        ]
+      },
+      {
+        "clip_id": "eagle_evening",
+        "video_id": "oUYovWrqzOw",
+        "url": "https://www.youtube.com/watch?v=oUYovWrqzOw",
+        "title": "Aruba Eagle Beach Ultimate Tour and How to Get There the Easy Way - Closest Beach to Cruise Port",
+        "creator": "AlongForTheJourney",
+        "licence": "Creative Commons Attribution license (reuse allowed)",
+        "licence_checked_at": "2026-11-09",
+        "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; licensedContent=true so source audio is always stripped.",
+        "place": "Eagle Beach / hotel-strip evening",
+        "place_validated": "yes-from-contact-sheet-2026-11-09",
+        "source_in_s": 402,
+        "source_out_s": 417,
+        "speed": 1.0,
+        "mute": true,
+        "used_state": "used_in_render",
+        "timeline_uses": [
+          {
+            "clip_id": "eagle_evening",
+            "from_frame": 18585,
+            "dur_frames": 455,
+            "from_s": 619.5,
+            "dur_s": 15.167,
+            "src": "assets/yt-oUYovWrqzOw-eagle_evening.mp4",
+            "asset_id": "yt-oUYovWrqzOw-eagle_evening"
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "video_id": "SfMJtsB5-Ds",
+      "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+      "title": "Landing on Aruba in 4K!",
+      "creator": "GouverneurNL",
+      "channel_id": "UCOvgmRf5t45y-ZfhM2HJTeQ",
+      "licence": "Creative Commons Attribution license (reuse allowed)",
+      "licence_checked_at": "2026-11-09",
+      "licence_evidence": "YouTube Data API videos.list licence=creativeCommon and yt-dlp watch-page license string, both 2026-11-09 JT; uploader-asserted CC BY, not a separate ownership deed.",
+      "mute": true,
+      "clips": [
+        {
+          "clip_id": "landing_approach",
+          "place": "Queen Beatrix International Airport \u2014 window-seat approach",
+          "place_validated": "provisional: reviewer identified Aruba coast/airport; parent did not independently establish legible airport ID from one frame",
+          "source_in_s": 310,
+          "source_out_s": 360,
+          "speed": 4.0,
+          "notes": "Marvin: usable only from 5:10, sped up; 5:10-6:00 at 4x"
+        },
+        {
+          "clip_id": "landing_touchdown",
+          "place": "Queen Beatrix International Airport \u2014 touchdown",
+          "place_validated": "provisional, continuous with approved landing sequence",
+          "source_in_s": 360,
+          "source_out_s": 370,
+          "speed": 2.0,
+          "notes": "Marvin-tested 6:00-6:10 at 2x"
+        },
+        {
+          "clip_id": "landing_taxi",
+          "place": "Queen Beatrix International Airport \u2014 taxi after touchdown",
+          "place_validated": "provisional, continuous taxi after 5:10, not the slow earlier approach",
+          "source_in_s": 370,
+          "source_out_s": 400,
+          "speed": 2.0,
+          "notes": "After tested touchdown window; still after 5:10; brief sped-up taxi only"
+        }
+      ]
+    },
+    {
+      "video_id": "tBIJZkn58Yw",
+      "url": "https://www.youtube.com/watch?v=tBIJZkn58Yw",
+      "title": "ORANJESTAD ARUBA is BEAUTIFUL",
+      "creator": "Think Travel",
+      "channel_id": "UCVQ4Kv0JcfefTY--12jk__Q",
+      "licence": "Creative Commons Attribution license (reuse allowed)",
+      "licence_checked_at": "2026-11-09",
+      "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+      "mute": true,
+      "clips": [
+        {
+          "clip_id": "oranjestad_a",
+          "place": "Oranjestad streets near the cruise port",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 15,
+          "source_out_s": 40,
+          "speed": 1.0,
+          "notes": "After title/subscribe text at 0:00-0:09"
+        },
+        {
+          "clip_id": "oranjestad_b",
+          "place": "Oranjestad streets near the cruise port",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 40,
+          "source_out_s": 55,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "oranjestad_c",
+          "place": "Oranjestad streets near the cruise port",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 55,
+          "source_out_s": 70,
+          "speed": 1.0,
+          "notes": "Ends before 1:12 gift-shop overlay and indoor mall"
+        }
+      ]
+    },
+    {
+      "video_id": "D8EUO_LMIg8",
+      "url": "https://www.youtube.com/watch?v=D8EUO_LMIg8",
+      "title": "Discover Aruba's Hidden Paradise: Palm Beach Walk!",
+      "creator": "NickWorldView",
+      "channel_id": "UCiHmQYXh4ytY_iBaKrzqoew",
+      "licence": "Creative Commons Attribution license (reuse allowed)",
+      "licence_checked_at": "2026-11-09",
+      "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted.",
+      "mute": true,
+      "clips": [
+        {
+          "clip_id": "palm_palapas",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 0,
+          "source_out_s": 40,
+          "speed": 1.0,
+          "notes": "Palapas and shoreline walk"
+        },
+        {
+          "clip_id": "palm_walk_a",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 40,
+          "source_out_s": 78,
+          "speed": 1.0,
+          "notes": "Ends before close GREAT-branded tubing 1:21-2:54"
+        },
+        {
+          "clip_id": "palm_hotels_a",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 177,
+          "source_out_s": 230,
+          "speed": 1.0,
+          "notes": "2:57-3:50 after branded tubing"
+        },
+        {
+          "clip_id": "palm_hotels_b",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 230,
+          "source_out_s": 255,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "palm_hotels_c",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 255,
+          "source_out_s": 280,
+          "speed": 1.0,
+          "notes": "Second half of the previous 230-280 window; reserved so p26 does not reuse earlier street footage"
+        },
+        {
+          "clip_id": "palm_shore_a",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 280,
+          "source_out_s": 320,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "palm_shore_b",
+          "place": "Palm Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 320,
+          "source_out_s": 387,
+          "speed": 1.0,
+          "notes": "Stops before 6:30 commercial kiosk posters"
+        },
+        {
+          "clip_id": "palm_pier_a",
+          "place": "Palm Beach pier",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 414,
+          "source_out_s": 441,
+          "speed": 1.0,
+          "notes": "6:54-7:21 after kiosk ads"
+        },
+        {
+          "clip_id": "palm_pier_b",
+          "place": "Palm Beach pier",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 441,
+          "source_out_s": 480,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "palm_pier_c",
+          "place": "Palm Beach pier",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 480,
+          "source_out_s": 495,
+          "speed": 1.0,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "video_id": "75FVjbyKAr8",
+      "url": "https://www.youtube.com/watch?v=75FVjbyKAr8",
+      "title": "ARUBA, PART - 7 THE BEACH, PALM BEACH, HOLIDAY INN BEACH, BASIRUTI, MALMOK, SUNKEN SHIP",
+      "creator": "TOMTOM - OUTDOOR - MOMENTS",
+      "channel_id": "UCAxkCa0QwfHnBZkJ03WN3QQ",
+      "licence": "Creative Commons Attribution license (reuse allowed)",
+      "licence_checked_at": "2026-11-09",
+      "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; uploader-asserted. Description claims original DJI Air 3S 4K.",
+      "mute": true,
+      "clips": [
+        {
+          "clip_id": "drone_reef_a",
+          "place": "Aruba west-coast aerial, reef and boats",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 12,
+          "source_out_s": 45,
+          "speed": 1.0,
+          "notes": "After 0:00-0:09 title cards"
+        },
+        {
+          "clip_id": "drone_reef_b",
+          "place": "Aruba west-coast aerial",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 45,
+          "source_out_s": 90,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_coast_a",
+          "place": "Aruba west-coast aerial",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 90,
+          "source_out_s": 140,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_reef_c",
+          "place": "Aruba west-coast aerial, reef",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 140,
+          "source_out_s": 190,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_open_a",
+          "place": "Aruba west-coast aerial",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 190,
+          "source_out_s": 230,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_gap",
+          "place": "Aruba west-coast aerial",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 230,
+          "source_out_s": 260,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_boats_a",
+          "place": "Aruba west-coast aerial, boats",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 260,
+          "source_out_s": 300,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_sail_a",
+          "place": "Aruba west-coast aerial",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 300,
+          "source_out_s": 354,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_coast_b",
+          "place": "Aruba west-coast aerial, shoreline hotels",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 360,
+          "source_out_s": 410,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_boats_b",
+          "place": "Aruba west-coast aerial, traditional boats",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 410,
+          "source_out_s": 470,
+          "speed": 1.0,
+          "notes": ""
+        },
+        {
+          "clip_id": "drone_beach_a",
+          "place": "Aruba west-coast aerial, beach and palapas",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 470,
+          "source_out_s": 520,
+          "speed": 1.0,
+          "notes": "Stops before 9:09 thank-you text"
+        },
+        {
+          "clip_id": "drone_end",
+          "place": "Aruba west-coast aerial",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 520,
+          "source_out_s": 546,
+          "speed": 1.0,
+          "notes": "8:40-9:06, before 9:09 thank-you text"
+        }
+      ]
+    },
+    {
+      "video_id": "oUYovWrqzOw",
+      "url": "https://www.youtube.com/watch?v=oUYovWrqzOw",
+      "title": "Aruba Eagle Beach Ultimate Tour and How to Get There the Easy Way - Closest Beach to Cruise Port",
+      "creator": "AlongForTheJourney",
+      "channel_id": "UChdXwnPfuNESVttHF9UFUmA",
+      "licence": "Creative Commons Attribution license (reuse allowed)",
+      "licence_checked_at": "2026-11-09",
+      "licence_evidence": "API + yt-dlp watch-page CC BY metadata 2026-11-09 JT; licensedContent=true so source audio is always stripped.",
+      "mute": true,
+      "clips": [
+        {
+          "clip_id": "eagle_beach",
+          "place": "Eagle Beach",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 216,
+          "source_out_s": 267,
+          "speed": 1.0,
+          "notes": "3:36-4:27; stops before selfies and GOLD ROCK / GRAND BAHAMAS labels"
+        },
+        {
+          "clip_id": "eagle_sunset",
+          "place": "Eagle Beach sunset",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 348,
+          "source_out_s": 378,
+          "speed": 1.0,
+          "notes": "5:48-6:18; stops before 6:21 subscribe overlay"
+        },
+        {
+          "clip_id": "eagle_evening",
+          "place": "Eagle Beach / hotel-strip evening",
+          "place_validated": "yes-from-contact-sheet-2026-11-09",
+          "source_in_s": 402,
+          "source_out_s": 417,
+          "speed": 1.0,
+          "notes": "6:42-6:57 after Instagram overlays; before mural and like/subscribe cards"
+        }
+      ]
+    }
+  ]
+}

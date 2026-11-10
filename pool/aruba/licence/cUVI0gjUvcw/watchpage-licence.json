@@ -1,0 +1,18 @@
+{
+ "id": "cUVI0gjUvcw",
+ "title": "Aruba UTV Ride to California Lighthouse",
+ "channel": "Boone's Digital Trail",
+ "channel_url": "https://www.youtube.com/channel/UCqYbIBcDrOkCXJta4CkWHoQ",
+ "uploader": "Boone's Digital Trail",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 207,
+ "upload_date": "20240217",
+ "width": 3840,
+ "height": 2160,
+ "description": "Was the beginning of our day trip and the other side of the island. Quick stop at the California Lighthouse and Photo Op",
+ "checked_at": "2026-11-10T09:10:46-05:00",
+ "url": "https://www.youtube.com/watch?v=cUVI0gjUvcw",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 60.0
+}

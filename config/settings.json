@@ -1,0 +1,40 @@
+{
+  "brand": "AURUM TRANSFERS",
+  "tts": {
+    "voice": "bm_george",
+    "lang": "en-us",
+    "speed": 1.0,
+    "lead_in_s": 0.3,
+    "gap_s": 0.45,
+    "tail_s": 1.0
+  },
+  "loudnorm": {
+    "I": -14,
+    "TP": -1.5,
+    "LRA": 11
+  },
+  "render": {
+    "fps": 30,
+    "concurrency": 1,
+    "end_card_s": 5.0,
+    "music": "none"
+  },
+  "captions": {
+    "long_max_chars": 84,
+    "short_max_chars": 32
+  },
+  "disclosure": {
+    "keyword": "commission",
+    "onscreen": "Affiliate disclosure: Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels.",
+    "description": "Disclosure: Aurum Transfers is a travel-affiliate brand. Links below may earn us a commission at no extra cost to you. We don't operate transfers, tours or hotels; bookings are with our partners."
+  },
+  "checks": {
+    "lufs_target": -14,
+    "lufs_tolerance": 1.0,
+    "max_true_peak": -1.0
+  },
+  "youtube": {
+    "categoryId": "19",
+    "defaultLanguage": "en"
+  }
+}

@@ -1,0 +1,169 @@
+{
+ "slug": "aruba-travel-guide",
+ "title": "Aruba Airport Arrival 2026: Transfer, Taxi or Rental Car",
+ "angle": "Arrival-first: land at Queen Beatrix, clear the airport, pick the ride, then the island in the order a first-timer meets it.",
+ "end_card": {
+  "text": "ENJOY ARUBA",
+  "lines": [
+   "Compare airport transfers: link in the description",
+   "Subscribe for the next arrival guide"
+  ]
+ },
+ "lines": [
+  {
+   "text": "Just landed at Queen Beatrix, and not sure how you'll get to your hotel?",
+   "tags": [
+    "approach"
+   ],
+   "hook": true,
+   "pause": 0.2,
+   "need": [
+    "touchdown",
+    "runway",
+    "approach"
+   ]
+  },
+  {
+   "text": "Three easy ways: a pre-booked private transfer, a taxi with the fare agreed first, or a rental car.",
+   "tags": [
+    "approach"
+   ],
+   "hook": true,
+   "pause": 0.3,
+   "lower": {
+    "text": "TRANSFER · TAXI · RENTAL",
+    "sub": "Three ways from AUA to your hotel"
+   },
+   "need": [
+    "airport-curb",
+    "driving"
+   ]
+  },
+  {
+   "text": "Let's get you to the beach.",
+   "tags": [
+    "touchdown"
+   ],
+   "hook": true,
+   "pause": 0.5,
+   "need": [
+    "beach-aerial",
+    "eagle-beach"
+   ],
+   "lift": 1.6
+  },
+  {
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "tags": [
+    "taxi",
+    "drone-coast"
+   ],
+   "disclosure": true,
+   "pause": 0.6,
+   "need": [
+    "hotel-strip",
+    "beach-aerial",
+    "island-aerial"
+   ]
+  },
+  {
+   "chapter": "1. Landing in Aruba: Queen Beatrix Airport",
+   "text": "Welcome to Aruba!",
+   "tags": [
+    "taxi",
+    "airport"
+   ],
+   "pause": 0.3,
+   "need": [
+    "island-aerial",
+    "air-arrival"
+   ],
+   "lift": 1.6
+  },
+  {
+   "text": "Queen Beatrix International Airport has frequent nonstop or one-stop flights from most major US cities, and daily flights from big hubs around the world.",
+   "facts": [
+    "f80048"
+   ],
+   "tags": [
+    "taxi",
+    "drone-hotels"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "QUEEN BEATRIX INTERNATIONAL",
+    "sub": "Airport code AUA"
+   },
+   "need": [
+    "touchdown",
+    "plane-taxi",
+    "airport-terminal",
+    "approach"
+   ]
+  },
+  {
+   "text": "From the window seat you've already seen the colours, and the calm, turquoise west coast is where most visitors are heading.",
+   "facts": [
+    "f80114"
+   ],
+   "tags": [
+    "drone-coast"
+   ],
+   "pause": 0.35,
+   "need": [
+    "air-arrival",
+    "calm-sea-aerial",
+    "beach-aerial"
+   ],
+   "lift": 1.6
+  },
+  {
+   "text": "Aruba sits in the southern Caribbean, just outside the hurricane belt, about fifteen to eighteen miles off the coast of Venezuela, and it's only six miles across.",
+   "facts": [
+    "f80029",
+    "f80025",
+    "f80024"
+   ],
+   "tags": [
+    "drone-coast"
+   ],
+   "pause": 0.35,
+   "need": [
+    "island-aerial",
+    "beach-aerial",
+    "hotel-strip"
+   ]
+  },
+  {
+   "text": "The climate is tropical semi-arid: warm and sunny all year, with just the occasional brief shower.",
+   "facts": [
+    "f80033"
+   ],
+   "tags": [
+    "drone-beach"
+   ],
+   "pause": 0.4,
+   "need": [
+    "beach-aerial",
+    "eagle-beach",
+    "palm-beach"
+   ]
+  },
+  {
+   "text": "Have you flown into Aruba before? Drop your best arrival tip in the comments; it genuinely helps the next traveller.",
+   "tags": [
+    "drone-beach"
+   ],
+   "prompt": {
+    "badge": "COMMENT",
+    "text": "Your best Aruba arrival tip?"
+   },
+   "pause": 0.7,
+   "need": [
+    "palm-beach",
+    "pier",
+    "beach"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "subid_param": "subid",
+  "_note": "Links per video slug. Only these links may appear in descriptions; each gets ?subid=yt_<videoId>. TODO: confirm the SubID query parameter the aurum-transfers.com partner layer expects.",
+  "aruba-travel-guide": {
+    "main": {"label": "Plan your Aruba trip with Aurum's partners", "url": "https://aurum-transfers.com/global/destinations/aruba-aw"},
+    "links": [
+      {"key": "guidebook", "label": "Aruba: The Island Guide (Aurum Travel Guides)", "url": "", "todo": "TODO: store not live yet. Add the store URL when the guidebook is published; leave empty until then."}
+    ]
+  }
+}

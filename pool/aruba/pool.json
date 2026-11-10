@@ -1,0 +1,465 @@
+{
+ "created": "2026-11-10T09:22:57-05:00",
+ "searched_queries": 65,
+ "hits": 635,
+ "prefilter_pass": 202,
+ "visually_screened": 42,
+ "shortlist": [
+  {
+   "id": "3wVflHovBu4",
+   "tags": [
+    "hotel-strip",
+    "palm-beach",
+    "eagle-beach",
+    "beach-aerial",
+    "town-aerial",
+    "boats"
+   ],
+   "note": "drone overview, steady",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART  20 A FINAL ONE, AN OVER VIEW OF THE ISLAND\ud83d\udd4a\ufe0f\ud83e\udd17",
+   "evidence": "pool/aruba/screen/3wVflHovBu4/watchpage-licence.json"
+  },
+  {
+   "id": "OqD36OAu9As",
+   "tags": [
+    "palm-beach",
+    "pier",
+    "beach"
+   ],
+   "note": "gimbal beach walk + pier, no faces",
+   "height": 2160,
+   "fps": 30.0,
+   "channel": "Nik K",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "evidence": "pool/aruba/screen/OqD36OAu9As/watchpage-licence.json"
+  },
+  {
+   "id": "n4WpfzPv6_w",
+   "tags": [
+    "sunset",
+    "beach"
+   ],
+   "note": "sunset beach, Hilton/Palm Beach",
+   "height": 2160,
+   "fps": 30.0,
+   "channel": "Nik K",
+   "title": "ARUBA - Netherlands: Public Beach Area In Front Of \"Hilton Aruba Caribbean Resort & Casino\"",
+   "evidence": "pool/aruba/screen/n4WpfzPv6_w/watchpage-licence.json"
+  },
+  {
+   "id": "66AD59M-C0o",
+   "tags": [
+    "sunset",
+    "boats"
+   ],
+   "note": "Malmok sunset sailboats, zoom",
+   "height": 2160,
+   "fps": 30.0,
+   "channel": "Nik K",
+   "title": "Malmok Beach, ARUBA: Sunset At Steve\u2019s Snorkel Spot | Super Zoom",
+   "evidence": "pool/aruba/screen/66AD59M-C0o/watchpage-licence.json"
+  },
+  {
+   "id": "zxVwRRLLe2Q",
+   "tags": [
+    "cruise-port",
+    "town-aerial",
+    "arashi",
+    "snorkel",
+    "reef"
+   ],
+   "note": "ship-deck view of Oranjestad 0:00-0:20, Arashi, underwater 0:44-1:24",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "Interesting Things",
+   "title": "Aruba Port Call - Arashi Beach",
+   "evidence": "pool/aruba/screen/zxVwRRLLe2Q/watchpage-licence.json"
+  },
+  {
+   "id": "q9_rZmj1kSk",
+   "tags": [
+    "hotel-strip",
+    "palm-beach"
+   ],
+   "note": "water-level hotel strip 2:05-2:26 only",
+   "height": 2160,
+   "fps": 30.0,
+   "channel": "Nik K",
+   "title": "ARUBA - Netherlands Antilles: Palm Beach Area In Front Of \"Barcelo Aruba\u201d Resort",
+   "evidence": "pool/aruba/screen/q9_rZmj1kSk/watchpage-licence.json"
+  },
+  {
+   "id": "NKOM0qmVfJs",
+   "tags": [
+    "kite",
+    "beach"
+   ],
+   "note": "Hadicurari kite beach",
+   "height": 2160,
+   "fps": 30.0,
+   "channel": "Nik K",
+   "title": "ARUBA: Hadicurari Beach - One of the Best Beaches for Kite Surfers & Other Wind Fans | @5.3K",
+   "evidence": "pool/aruba/screen/NKOM0qmVfJs/watchpage-licence.json"
+  },
+  {
+   "id": "NHmpbsBChnM",
+   "tags": [
+    "wild-coast",
+    "cave-pool"
+   ],
+   "note": "cave pool, swimmers at distance",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "Boone's Digital Trail",
+   "title": "Aruba Hidden Cave Pool",
+   "evidence": "pool/aruba/screen/NHmpbsBChnM/watchpage-licence.json"
+  },
+  {
+   "id": "48HBrEn47I8",
+   "tags": [
+    "wild-coast",
+    "ruins"
+   ],
+   "note": "Bushiribana ruins + north coast",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "Boone's Digital Trail",
+   "title": "Aruba Bushiribana Gold Mine Ruins",
+   "evidence": "pool/aruba/screen/48HBrEn47I8/watchpage-licence.json"
+  },
+  {
+   "id": "ahdujmLapBg",
+   "tags": [
+    "resort",
+    "island",
+    "lagoon"
+   ],
+   "note": "Renaissance Island walkways, lagoon",
+   "height": 2160,
+   "fps": 24.0,
+   "channel": "Boone's Digital Trail",
+   "title": "Aruba Renaissance / Flamingo Island",
+   "evidence": "pool/aruba/screen/ahdujmLapBg/watchpage-licence.json"
+  },
+  {
+   "id": "Nd1DshOQqLk",
+   "tags": [
+    "hooiberg",
+    "island-view"
+   ],
+   "note": "Hooiberg trail + lookout",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "Nik K",
+   "title": "ARUBA: The Hooiberg Mountain Trail & Hooiberg Lookout | 5.3K, 60fps",
+   "evidence": "pool/aruba/screen/Nd1DshOQqLk/watchpage-licence.json"
+  },
+  {
+   "id": "cUVI0gjUvcw",
+   "tags": [
+    "lighthouse",
+    "offroad"
+   ],
+   "note": "lighthouse 2:28 area only (rest bumpy)",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "Boone's Digital Trail",
+   "title": "Aruba UTV Ride to California Lighthouse",
+   "evidence": "pool/aruba/screen/cUVI0gjUvcw/watchpage-licence.json"
+  },
+  {
+   "id": "YMIqVU63nvw",
+   "tags": [
+    "driving"
+   ],
+   "note": "dash drive, daylight 0:14-3:08 only",
+   "height": 1080,
+   "fps": 30.0,
+   "channel": "Aruba illustrated",
+   "title": "Superfood to the airport in Aruba",
+   "evidence": "pool/aruba/screen/YMIqVU63nvw/watchpage-licence.json"
+  },
+  {
+   "id": "JMC3VLiM3ME",
+   "tags": [
+    "driving",
+    "airport-curb"
+   ],
+   "note": "dash drive ending at AUA curb 3:12-3:38",
+   "height": 1080,
+   "fps": 30.0,
+   "channel": "Aruba illustrated",
+   "title": "Secrets Baby beach to Airport Aruba",
+   "evidence": "pool/aruba/screen/JMC3VLiM3ME/watchpage-licence.json"
+  },
+  {
+   "id": "JgeDvWFFLSU",
+   "tags": [
+    "town-street"
+   ],
+   "note": "downtown Oranjestad sidewalk (handheld, check steadiness)",
+   "height": 1080,
+   "fps": 30.0,
+   "channel": "NIFB Malawi",
+   "title": "Downtown Oranjestad",
+   "evidence": "pool/aruba/screen/JgeDvWFFLSU/watchpage-licence.json"
+  },
+  {
+   "id": "TVbixzzJjnA",
+   "tags": [
+    "streetcar",
+    "town-street"
+   ],
+   "note": "streetcar 0:00-0:08, 1:20",
+   "height": 1080,
+   "fps": 30.0,
+   "channel": "jazzcool",
+   "title": "Trams in Aruba - Streetcar in Oranjestad - Strassenbahn - Villamos",
+   "evidence": "pool/aruba/screen/TVbixzzJjnA/watchpage-licence.json"
+  },
+  {
+   "id": "sbcjtH8dehc",
+   "tags": [
+    "baby-beach"
+   ],
+   "note": "Baby Beach pan",
+   "height": 1080,
+   "fps": 30.0,
+   "channel": "Thore Noernberg",
+   "title": "Baby Beach, Aruba",
+   "evidence": "pool/aruba/screen/sbcjtH8dehc/watchpage-licence.json"
+  },
+  {
+   "id": "mw4LFUsnKuA",
+   "tags": [
+    "baby-beach",
+    "swim"
+   ],
+   "note": "water 4:43-9:27 only (vlog elsewhere)",
+   "height": 2160,
+   "fps": 30.0,
+   "channel": "Gulf Coast Girl",
+   "title": "Carnival Horizon Amazing Baby Beach Aruba!",
+   "evidence": "pool/aruba/screen/mw4LFUsnKuA/watchpage-licence.json"
+  },
+  {
+   "id": "FPUE7uuGjTw",
+   "tags": [
+    "town-street",
+    "sunset",
+    "coast"
+   ],
+   "note": "mixed scenery, needs range pick",
+   "height": 1080,
+   "fps": 60.0,
+   "channel": "Masked Identity Entertainment",
+   "title": "Aruba Beaches Ocean | ROYALTY FREE FOOTAGE",
+   "evidence": "pool/aruba/screen/FPUE7uuGjTw/watchpage-licence.json"
+  },
+  {
+   "id": "vfrQRMDERIE",
+   "tags": [
+    "sunset",
+    "town-evening"
+   ],
+   "note": "sunsets, evening palapas",
+   "height": 1080,
+   "fps": 60.0,
+   "channel": "Masked Identity Entertainment",
+   "title": "Aruba Scenery Footage | ROYALTY FREE FOOTAGE",
+   "evidence": "pool/aruba/screen/vfrQRMDERIE/watchpage-licence.json"
+  },
+  {
+   "id": "qCGYFZhHymQ",
+   "tags": [
+    "drone"
+   ],
+   "note": "boats, sailboats, catamarans, hotel-strip skyline",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART 12 NORTHWEST OF THE ISLAND RESORTS AND HOTELS BEACHES ARE INCLUDED PLEASE ENJOY \ud83d\udd4a\ufe0f\ud83e\udd17",
+   "evidence": "pool/aruba/screen/qCGYFZhHymQ/watchpage-licence.json"
+  },
+  {
+   "id": "BEG6tyMT8zo",
+   "tags": [
+    "drone"
+   ],
+   "note": "Malmok boats, hotel strip, high-rise aerial",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART - 3, NOORD, MALMOK AREA, BEACHES, BOATS VESSELS, YACHTS, RESORTS, HOTELS, 4K ENJOY(: \ud83e\udd17",
+   "evidence": "pool/aruba/screen/BEG6tyMT8zo/watchpage-licence.json"
+  },
+  {
+   "id": "j2k1MmMjd9g",
+   "tags": [
+    "drone"
+   ],
+   "note": "boats, Palm Beach, hotels, pier",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART-4 NOORD, MALMOK AREA, BEACHES, BOATS VESSELS, YACHTS, SUNKEN SHIP, RESORTS, HOTELS, 4K\ud83e\udd17",
+   "evidence": "pool/aruba/screen/j2k1MmMjd9g/watchpage-licence.json"
+  },
+  {
+   "id": "abG1BmlOz0I",
+   "tags": [
+    "drone"
+   ],
+   "note": "Eagle Beach, Palm Beach beach aerials, jet skis",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART 5 NOORD, ORANJESTAD, LACABANA, OCEANIA DELUXE BEACH:ES & BUCUTI & TARA BEACH, RESORTS",
+   "evidence": "pool/aruba/screen/abG1BmlOz0I/watchpage-licence.json"
+  },
+  {
+   "id": "r5iOqc1SKSQ",
+   "tags": [
+    "drone"
+   ],
+   "note": "Palm Beach high-rise aerial, boats",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART - 2, NOORD, MALMOK, NEAR BARCEL\u00d3, ALL INCLUSIVE HOTEL/S RESORT/S, DJI AIR 3S 60FPS\u270d\ufe0f \ud83e\udd17",
+   "evidence": "pool/aruba/screen/r5iOqc1SKSQ/watchpage-licence.json"
+  },
+  {
+   "id": "Sfm7awPVsAQ",
+   "tags": [
+    "drone"
+   ],
+   "note": "pirate ship, Arashi, California Lighthouse area, coast road",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART-15 NORTH / NORTHWEST AREA OF ARUBA, ARASHI BEACH, CALIFORNIA LIGHTHOUSE (: \ud83d\udd4a\ufe0f\ud83d\ude0a",
+   "evidence": "pool/aruba/screen/Sfm7awPVsAQ/watchpage-licence.json"
+  },
+  {
+   "id": "upG_Q15FQAY",
+   "tags": [
+    "drone"
+   ],
+   "note": "catamaran, roundabout/road, Baby Beach, south coast",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART-8 LA CABANA BEACH RESORT, SAN NICOLAS BABY BEACH, RUM REEF BAR & GRILL BACHELOR'S BEACH",
+   "evidence": "pool/aruba/screen/upG_Q15FQAY/watchpage-licence.json"
+  },
+  {
+   "id": "jwnxuaB_0go",
+   "tags": [
+    "drone"
+   ],
+   "note": "Eagle Beach palapas, J.E. Irausquin Blvd, hotel strip",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART-6 NOORD, ORANJESTAD, LACABANA, OCEANIA DELUXE BEACH/ES & BUCUTI & TARA BEACH, RESORTS \ud83d\ude0a",
+   "evidence": "pool/aruba/screen/jwnxuaB_0go/watchpage-licence.json"
+  },
+  {
+   "id": "zfXjEHLZirU",
+   "tags": [
+    "drone"
+   ],
+   "note": "Arashi/north-west coast, boats",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART-14 NORTH / NORTHWEST AREA OF ARUBA, ARASHI BEACH, CALIFORNIA LIGHTHOUSE (: \ud83d\udd4a\ufe0f\ud83d\ude0a",
+   "evidence": "pool/aruba/screen/zfXjEHLZirU/watchpage-licence.json"
+  },
+  {
+   "id": "OpFZRsOAh0Q",
+   "tags": [
+    "drone"
+   ],
+   "note": "Arashi, north-west aerial, boats",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART - 17 NORTH / NORTHWEST OF ARUBA ARASHI, ARASHI BEACH CALIFORNIA LIGHTHOUSE, NOORD AREA\ud83d\ude0a",
+   "evidence": "pool/aruba/screen/OpFZRsOAh0Q/watchpage-licence.json"
+  },
+  {
+   "id": "80T606mMguE",
+   "tags": [
+    "drone"
+   ],
+   "note": "Baby Beach, San Nicolas, lagoon",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfc ARUBA PART-9 VERSION-2 BEACH RESORT/S BY, SAN NICOLAS BABY BEACH, FOOD SPOTS BACHELOR'S BEACH \ud83d\ude0a",
+   "evidence": "pool/aruba/screen/80T606mMguE/watchpage-licence.json"
+  },
+  {
+   "id": "ukuS6YABMlA",
+   "tags": [
+    "drone"
+   ],
+   "note": "California Lighthouse, Arashi, boats",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA PART 13 BEACHES, CALIFORNIA LIGHTHOUSE, FARO BLANCO RESTAURANT, ARASHI BEACH SHACK & FOOD\ud83e\udd17",
+   "evidence": "pool/aruba/screen/ukuS6YABMlA/watchpage-licence.json"
+  },
+  {
+   "id": "gEKqy5AvlQk",
+   "tags": [
+    "drone"
+   ],
+   "note": "San Nicolas, lighthouse, south coast",
+   "height": 2160,
+   "fps": 60.0,
+   "channel": "TOMTOM - OUTDOOR - MOMENTS",
+   "title": "\ud83c\udde6\ud83c\uddfcARUBA 10 SOUTH, SOUTHEAST OF SAN NICOLAS CITY, / NORTH, NORTHWEST OF ARUBA CALIFORNIA LIGHTHOUSE\ud83e\udd17",
+   "evidence": "pool/aruba/screen/gEKqy5AvlQk/watchpage-licence.json"
+  }
+ ],
+ "gaps_no_cc_footage": [
+  "airport interior",
+  "immigration",
+  "baggage claim",
+  "taxi rank",
+  "car-rental counter"
+ ],
+ "rejected_visual_ids": [
+  "YzTxWK6XECw",
+  "AMU12vrd1wU",
+  "ocmIXlgOaig",
+  "0vVGeNXsz0w",
+  "JZTBEbgFQVc",
+  "uikTpg9OpNA",
+  "2J7-cXLuNfc",
+  "uAGFkt6oV7o",
+  "4A3meKdPPjQ",
+  "IPCzBtsCrgU",
+  "ejeezjaOpiE",
+  "yKYYLdNybdE",
+  "7mjaD9L_IIE",
+  "XlkcF0pzRvU",
+  "X18XWUD6Op8",
+  "MitQhFqCv8Y",
+  "73wc0dBZdNM",
+  "qx0Sw61PuRE",
+  "-fjtYi0n0_U",
+  "LzTF58ImIP4",
+  "qIurNoVETIU",
+  "d_Ofu4P9CJU",
+  "OXDwpVadJPg",
+  "KtEAqNbKvb8"
+ ]
+}

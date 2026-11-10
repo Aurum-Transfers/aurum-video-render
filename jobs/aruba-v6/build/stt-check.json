@@ -1,0 +1,41 @@
+{
+ "created": "2026-11-10T10:27:06-05:00",
+ "voice": "bm_fable",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Queen Beatrix",
+   "heard": "Just landed at Queen Beatrix and not sure how you'll get to your hotel.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Aruba",
+   "heard": "Welcome to Aruba.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 5,
+   "name": "Queen Beatrix",
+   "heard": "Queen Beatrix International Airport has frequent non-stop or one-stop flights from most major US cities and daily flights from big hubs around the world.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 7,
+   "name": "Aruba",
+   "heard": "Aruba sits in the southern Caribbean, just outside the Hurricane Belt, about 15-18 miles off the coast of Venezuela, and it's only six miles across.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Aruba",
+   "heard": "Have you flown into Aruba before? Drop your best arrival tip in the comments, it genuinely helps the next traveller.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 5,
+ "total": 5,
+ "failed_names": [],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}

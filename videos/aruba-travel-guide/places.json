@@ -1,0 +1,22 @@
+{
+  "outline": "assets/maps/aruba.geojson",
+  "_note": "Illustrative marker positions for a stylised map; not navigational. Not cited as facts.",
+  "places": {
+    "airport": {"label": "Queen Beatrix Intl (AUA)", "lon": -70.0152, "lat": 12.5014},
+    "oranjestad": {"label": "Oranjestad", "lon": -70.0370, "lat": 12.5196},
+    "eagle": {"label": "Eagle Beach", "lon": -70.0573, "lat": 12.5537},
+    "palm": {"label": "Palm Beach", "lon": -70.0450, "lat": 12.5747},
+    "arashi": {"label": "Arashi Beach", "lon": -70.0545, "lat": 12.6085},
+    "lighthouse": {"label": "California Lighthouse", "lon": -70.0510, "lat": 12.6150},
+    "catalina": {"label": "Boca Catalina", "lon": -70.0507, "lat": 12.5987},
+    "hooiberg": {"label": "Hooiberg", "lon": -69.9950, "lat": 12.5206},
+    "casibari": {"label": "Casibari", "lon": -69.9990, "lat": 12.5310},
+    "ayo": {"label": "Ayo", "lon": -69.9940, "lat": 12.5480},
+    "arikok": {"label": "Arikok National Park", "lon": -69.9450, "lat": 12.4970},
+    "savaneta": {"label": "Savaneta", "lon": -69.9580, "lat": 12.4500},
+    "mangel": {"label": "Mangel Halto", "lon": -69.9690, "lat": 12.4620},
+    "sannicolas": {"label": "San Nicolás", "lon": -69.9080, "lat": 12.4340},
+    "baby": {"label": "Baby Beach", "lon": -69.8820, "lat": 12.4180},
+    "bocagrandi": {"label": "Boca Grandi", "lon": -69.8880, "lat": 12.4380}
+  }
+}

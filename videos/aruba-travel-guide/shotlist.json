@@ -1,0 +1,659 @@
+{
+  "_note": "Long shots use explicit source_clip_id from used-sources.json. Graphics fallback is forbidden for this improved cut. Optional start_s is an in-point (seconds) into the staged clip; shots must not exceed remaining clip time by more than 1s. On-screen text is viewer-facing only. Shorts shotlists are unchanged and are not rendered in the long-v3 pass.",
+  "long": [
+    {
+      "id": "p01",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_reef_a",
+          "weight": 6.3
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "landing_approach",
+          "weight": 6.35
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_reef_b",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_coast_a",
+          "weight": 12.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_gap",
+          "weight": 9.98
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "oranjestad_a",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_reef_c",
+          "weight": 14.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_reef_a",
+          "weight": 10.07,
+          "start_s": 6.3
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_palapas",
+          "weight": 1,
+          "start_s": 8.0
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_open_a",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_walk_a",
+          "weight": 9.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_coast_a",
+          "weight": 8.96,
+          "start_s": 12.0
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "landing_approach",
+          "weight": 6.15,
+          "start_s": 6.35
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "landing_touchdown",
+          "weight": 5.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "landing_taxi",
+          "weight": 12.47
+        }
+      ],
+      "lower_third": {
+        "title": "Queen Beatrix International Airport",
+        "sub": "AUA"
+      }
+    },
+    {
+      "id": "p10",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_hotels_a",
+          "weight": 1
+        }
+      ],
+      "lower_third": {
+        "title": "Palm Beach and Eagle Beach",
+        "sub": "Where most resorts are"
+      }
+    },
+    {
+      "id": "p11",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_hotels_b",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_shore_a",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_shore_b",
+          "weight": 14.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "palm_hotels_a",
+          "weight": 10.15,
+          "start_s": 20.0
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_pier_a",
+          "weight": 12.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_boats_b",
+          "weight": 12.86
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_boats_a",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_sail_a",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_coast_b",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "eagle_beach",
+          "weight": 11.6
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "palm_shore_a",
+          "weight": 14.15,
+          "start_s": 22.53
+        }
+      ],
+      "lower_third": {
+        "title": "Eagle Beach",
+        "sub": "Fofoti trees: look, respect"
+      }
+    },
+    {
+      "id": "p19",
+      "shots": [
+        {
+          "type": "map",
+          "text": "BABY BEACH",
+          "sub": "South coast, near San Nicolás",
+          "weight": 1,
+          "focus": "baby",
+          "pins": [
+            "baby",
+            "mangel",
+            "sannicolas"
+          ],
+          "zoom": 1.8
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_beach_a",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "shots": [
+        {
+          "type": "map",
+          "text": "ARIKOK NATIONAL PARK",
+          "sub": "The protected interior",
+          "weight": 1,
+          "focus": "arikok",
+          "pins": [
+            "arikok"
+          ],
+          "zoom": 1.9
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "shots": [
+        {
+          "type": "map",
+          "text": "AYO, CASIBARI, HOOIBERG",
+          "sub": "Rock formations and the hill",
+          "weight": 1,
+          "focus": "hooiberg",
+          "pins": [
+            "ayo",
+            "casibari",
+            "hooiberg"
+          ],
+          "zoom": 1.7
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "oranjestad_c",
+          "weight": 15.0
+        },
+        {
+          "type": "map",
+          "text": "ORANJESTAD",
+          "sub": "The capital and cruise port",
+          "weight": 5.86,
+          "focus": "oranjestad",
+          "pins": [
+            "oranjestad"
+          ],
+          "zoom": 1.8
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "shots": [
+        {
+          "type": "map",
+          "text": "SAN NICOLÁS & SAVANETA",
+          "sub": "The art district and the first capital",
+          "weight": 1,
+          "focus": "sannicolas",
+          "pins": [
+            "sannicolas",
+            "savaneta"
+          ],
+          "zoom": 1.7
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "oranjestad_b",
+          "weight": 15.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_boats_b",
+          "weight": 8.77,
+          "start_s": 12.86
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_hotels_c",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_pier_b",
+          "weight": 12.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_sail_a",
+          "weight": 13.24,
+          "start_s": 18.54
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "palm_palapas",
+          "weight": 15.68,
+          "start_s": 24.32
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "eagle_sunset",
+          "weight": 11.4,
+          "start_s": 2.0
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "drone_end",
+          "weight": 7.31
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "shots": [
+        {
+          "type": "text",
+          "text": "ARUBA: THE ISLAND GUIDE",
+          "sub": "From Aurum Travel Guides — on its way",
+          "weight": 9.34
+        },
+        {
+          "type": "clip",
+          "source_clip_id": "eagle_evening",
+          "weight": 14.0,
+          "start_s": 1.0
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "shots": [
+        {
+          "type": "clip",
+          "source_clip_id": "drone_end",
+          "weight": 1,
+          "start_s": 7.31
+        }
+      ]
+    }
+  ],
+  "short-1": [
+    {
+      "id": "p01",
+      "shots": [
+        {
+          "type": "checklist",
+          "text": "BEFORE YOU FLY",
+          "items": [
+            "ED-Card"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shots": [
+        {
+          "type": "text",
+          "text": "AFFILIATE NOTE",
+          "sub": "Aurum may earn a commission",
+          "bg": "ink"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shots": [
+        {
+          "type": "checklist",
+          "text": "THE ED-CARD",
+          "items": [
+            "Online, approved",
+            "Everyone, infants too",
+            "Within 7 days"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shots": [
+        {
+          "type": "map",
+          "plane": "airport",
+          "pins": [
+            "airport"
+          ],
+          "zoom": 1.0
+        },
+        {
+          "type": "text",
+          "text": "CHECK THE OFFICIAL PAGE",
+          "sub": "Sustainability fee details change",
+          "bg": "sea"
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shots": [
+        {
+          "type": "map",
+          "pins": [
+            "airport",
+            "eagle",
+            "baby"
+          ],
+          "zoom": 1.05,
+          "text": "AURUM-TRANSFERS.COM"
+        }
+      ]
+    }
+  ],
+  "short-2": [
+    {
+      "id": "p01",
+      "shots": [
+        {
+          "type": "map",
+          "pins": [
+            "bocagrandi",
+            "eagle"
+          ],
+          "zoom": 1.0,
+          "text": "WHICH COAST?"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shots": [
+        {
+          "type": "text",
+          "text": "AFFILIATE NOTE",
+          "sub": "Aurum may earn a commission",
+          "bg": "ink"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shots": [
+        {
+          "type": "sea",
+          "time": "day",
+          "beach": true,
+          "text": "WEST AND SOUTH",
+          "sub": "Calm and protected"
+        },
+        {
+          "type": "sea",
+          "time": "day",
+          "wind": true,
+          "text": "EAST AND NORTH",
+          "sub": "Wind and waves"
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shots": [
+        {
+          "type": "sea",
+          "time": "day",
+          "wind": true,
+          "kites": true,
+          "text": "BOCA GRANDI",
+          "sub": "Strong current"
+        },
+        {
+          "type": "sea",
+          "time": "morning",
+          "beach": true,
+          "reef": true,
+          "text": "BABY BEACH",
+          "sub": "Calm lagoon"
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "shots": [
+        {
+          "type": "sea",
+          "time": "day",
+          "reef": true,
+          "text": "NEVER STAND ON THE REEF"
+        }
+      ]
+    }
+  ],
+  "short-3": [
+    {
+      "id": "p01",
+      "shots": [
+        {
+          "type": "text",
+          "text": "SKIP THE BUS",
+          "sub": "On arrival day",
+          "bg": "coral"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "shots": [
+        {
+          "type": "text",
+          "text": "AFFILIATE NOTE",
+          "sub": "Aurum may earn a commission",
+          "bg": "ink"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "shots": [
+        {
+          "type": "text",
+          "text": "CARRY-ON ONLY",
+          "sub": "Arubus takes no luggage",
+          "bg": "sea"
+        },
+        {
+          "type": "town",
+          "text": "TAXI",
+          "sub": "Agree the fare first"
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "shots": [
+        {
+          "type": "checklist",
+          "text": "RENTAL CAR",
+          "items": [
+            "2 years' experience",
+            "Higher minimum age",
+            "Driving permit"
+          ]
+        },
+        {
+          "type": "map",
+          "route": [
+            "airport",
+            "oranjestad",
+            "eagle",
+            "palm"
+          ],
+          "focus": "eagle",
+          "focusFrom": "airport",
+          "zoomFrom": 1.3,
+          "zoom": 1.8,
+          "text": "PRE-BOOKED TRANSFER"
+        }
+      ]
+    }
+  ]
+}
