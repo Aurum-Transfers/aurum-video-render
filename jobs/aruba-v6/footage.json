@@ -1,1 +1,338 @@
-{"clips":[],"banned":[]}
+{
+ "schema": "aurum-footage-v6",
+ "slug": "aruba-travel-guide",
+ "job": "aruba-v6-preview",
+ "notes": "Landing from SfMJtsB5-Ds only at/after 5:10, sped up (Marvin rule). All other clips from the 10 Nov high-quality shortlist. TOMTOM limited to one video because of the 28% creator cap. Ranges are plans; clip_qc and the planner must still reject near-still, dark, or mismatched seconds. Files are release assets, not git.",
+ "clips": [
+  {
+   "id": "landing_approach",
+   "parent": "landing_approach",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+   "title": "Landing on Aruba in 4K!",
+   "file": "clips/SfMJtsB5-Ds_310-360.mp4",
+   "f0": 0.0,
+   "f1": 50.0,
+   "src_base": 310.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "approach",
+    "air-arrival"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix \u2014 window-seat approach, source 5:10-6:00 at 4x"
+  },
+  {
+   "id": "landing_touchdown",
+   "parent": "landing_touchdown",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+   "title": "Landing on Aruba in 4K!",
+   "file": "clips/SfMJtsB5-Ds_360-370.mp4",
+   "f0": 0.0,
+   "f1": 10.0,
+   "src_base": 360.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "touchdown",
+    "runway"
+   ],
+   "shows": [
+    "touchdown",
+    "runway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix \u2014 touchdown, source 6:00-6:10 at 2x"
+  },
+  {
+   "id": "landing_taxi",
+   "parent": "landing_taxi",
+   "video_id": "SfMJtsB5-Ds",
+   "creator": "GouverneurNL",
+   "url": "https://www.youtube.com/watch?v=SfMJtsB5-Ds",
+   "title": "Landing on Aruba in 4K!",
+   "file": "clips/SfMJtsB5-Ds_370-400.mp4",
+   "f0": 0.0,
+   "f1": 30.0,
+   "src_base": 370.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "plane-taxi"
+   ],
+   "shows": [
+    "plane-taxi"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Queen Beatrix \u2014 taxi after touchdown, source 6:10-6:40 at 2x"
+  },
+  {
+   "id": "aua_drive_day",
+   "parent": "aua_drive_day",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "url": "https://www.youtube.com/watch?v=JMC3VLiM3ME",
+   "title": "Secrets Baby beach to Airport Aruba",
+   "file": "clips/JMC3VLiM3ME_30-90.mp4",
+   "f0": 0.0,
+   "f1": 60.0,
+   "src_base": 30.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving"
+   ],
+   "shows": [
+    "driving"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Daylight dash drive toward AUA (storyboard 0:30-1:30, open road, no terminal yet)"
+  },
+  {
+   "id": "aua_curb",
+   "parent": "aua_curb",
+   "video_id": "JMC3VLiM3ME",
+   "creator": "Aruba illustrated",
+   "url": "https://www.youtube.com/watch?v=JMC3VLiM3ME",
+   "title": "Secrets Baby beach to Airport Aruba",
+   "file": "clips/JMC3VLiM3ME_192-228.mp4",
+   "f0": 0.0,
+   "f1": 36.0,
+   "src_base": 192.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-curb",
+    "driving"
+   ],
+   "shows": [
+    "airport-curb",
+    "driving"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Arriving at Queen Beatrix curb, source 3:12-3:38 only"
+  },
+  {
+   "id": "palm_walk_shore",
+   "parent": "palm_walk_shore",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_0-40.mp4",
+   "f0": 0.0,
+   "f1": 40.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palm-beach",
+    "beach"
+   ],
+   "shows": [
+    "palm-beach",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palm Beach walk, palapas and shore, source 0:00-0:40"
+  },
+  {
+   "id": "palm_water_pier",
+   "parent": "palm_water_pier",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_80-145.mp4",
+   "f0": 0.0,
+   "f1": 65.0,
+   "src_base": 80.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "pier",
+    "beach",
+    "calm-sea-aerial"
+   ],
+   "shows": [
+    "pier",
+    "beach",
+    "calm-sea-aerial"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Waterline and pier at Palm Beach, source 1:20-2:25"
+  },
+  {
+   "id": "palm_hotel_end",
+   "parent": "palm_hotel_end",
+   "video_id": "OqD36OAu9As",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=OqD36OAu9As",
+   "title": "ARUBA - Netherlands Antilles: The Beaches In Front Of \"Hilton Aruba\" & \"Barcelo Aruba\" Resorts",
+   "file": "clips/OqD36OAu9As_190-213.mp4",
+   "f0": 0.0,
+   "f1": 23.0,
+   "src_base": 190.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palm-beach",
+    "hotel-strip"
+   ],
+   "shows": [
+    "palm-beach",
+    "hotel-strip"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palm Beach hotels from the water, source 3:10-end"
+  },
+  {
+   "id": "palm_strip_water",
+   "parent": "palm_strip_water",
+   "video_id": "q9_rZmj1kSk",
+   "creator": "Nik K",
+   "url": "https://www.youtube.com/watch?v=q9_rZmj1kSk",
+   "title": "ARUBA - Netherlands Antilles: Palm Beach Area In Front Of \"Barcelo Aruba\" Resort",
+   "file": "clips/q9_rZmj1kSk_125-146.mp4",
+   "f0": 0.0,
+   "f1": 21.0,
+   "src_base": 125.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "hotel-strip",
+    "palm-beach"
+   ],
+   "shows": [
+    "hotel-strip",
+    "palm-beach",
+    "beach-aerial"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Water-level Palm Beach hotel strip, source 2:05-2:26 only"
+  },
+  {
+   "id": "overview_island_a",
+   "parent": "overview_island_a",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_0-40.mp4",
+   "f0": 0.0,
+   "f1": 40.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "island-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "calm-sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Island overview drone, opening minute \u2014 clip_qc must drop near-still seconds"
+  },
+  {
+   "id": "overview_hotels",
+   "parent": "overview_hotels",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_120-165.mp4",
+   "f0": 0.0,
+   "f1": 45.0,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "hotel-strip",
+    "eagle-beach",
+    "palm-beach"
+   ],
+   "shows": [
+    "hotel-strip",
+    "eagle-beach",
+    "palm-beach",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "West-coast hotel strip / Eagle-Palm aerials mid-film, source 2:00-2:45 \u2014 clip_qc must drop near-still seconds"
+  },
+  {
+   "id": "overview_coast",
+   "parent": "overview_coast",
+   "video_id": "3wVflHovBu4",
+   "creator": "TOMTOM - OUTDOOR - MOMENTS",
+   "url": "https://www.youtube.com/watch?v=3wVflHovBu4",
+   "title": "ARUBA PART 20 A FINAL ONE, AN OVER VIEW OF THE ISLAND",
+   "file": "clips/3wVflHovBu4_240-300.mp4",
+   "f0": 0.0,
+   "f1": 60.0,
+   "src_base": 240.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "island-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "beach-aerial",
+    "calm-sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Later overview pass, source 4:00-5:00 \u2014 clip_qc must drop near-still seconds"
+  }
+ ],
+ "banned": [
+  {
+   "clip_id": "eagle_sunset",
+   "video_id": "oUYovWrqzOw",
+   "src_in": 348.0,
+   "src_out": 378.0,
+   "reason": "plays reversed in the source itself; banned for all Aruba cuts"
+  },
+  {
+   "note": "YMIqVU63nvw skipped: licence description is after-sunset drive, dark-shot risk"
+  },
+  {
+   "note": "n4WpfzPv6_w skipped: sunset, dark-shot risk"
+  },
+  {
+   "note": "TVbixzzJjnA skipped: streetcar / public transport"
+  }
+ ],
+ "scarce": [
+  "touchdown",
+  "runway",
+  "approach",
+  "airport-curb",
+  "plane-taxi",
+  "air-arrival"
+ ]
+}
