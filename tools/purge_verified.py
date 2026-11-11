@@ -10,7 +10,9 @@ For each media file under the Aurum video work roots it:
        D:      existing archive manifests (usb-archive/MANIFEST.jsonl, gen-manifest-append.jsonl, <slug>-expect.json
                + .result.json from arch_assemble.ps1) - only sha256-verified rows count
        GitHub  release asset digests (gh api, sha256:...) and unexpired artifact digests
-       Vultr   rows in research/vultr-archive/MANIFEST.jsonl, re-confirmed live with read-only `ssh host sha256sum`
+       Vultr   rows in research/vultr-archive/MANIFEST.jsonl, re-confirmed live with read-only `ssh host sha256sum`.
+               --offload-vultr first copies files with no verified copy to Aurum Vultr (root@45.77.193.164:/srv/aurum-video-archive/<job>/,
+               tar over ssh throttled by PURGE_BWLIMIT_MBPS, copy only, keeps >=20% free there), verifies, indexes (Marvin t241u/t242u/t117u)
   4. only if the location has an approval card in purge_cards.json: gate.py db-delete --bot aurum-reels --card <card>
      --item <path>; exit 2 = skip and log. Then re-checks size/mtime and deletes.
 Every decision is appended to research/purge/purge-log.jsonl (path, bytes, action, reason, remote, local and remote sha256,
@@ -102,19 +104,96 @@ def gh_index():
         if d.startswith("sha256:"): idx.setdefault(d[7:], {"where": f"github artifact {GH_REPO}#{i} {n} (expires {x})", "size": int(s)})
     return idx
 
+def ssh(host, cmd, stdin=None, timeout=3600):
+    return subprocess.run(["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=15", host, cmd], input=stdin,
+                          capture_output=True, text=isinstance(stdin, str) or stdin is None, timeout=timeout)
+
+def remote_sha(host, paths):
+    """read-only: niced sha256sum of the given remote paths in one ssh call -> {path: sha}"""
+    if not paths: return {}
+    p = ssh(host, "xargs -0 -r nice -n 19 ionice -c3 sha256sum --", stdin="\0".join(paths) + "\0")
+    out = {}
+    for l in (p.stdout or "").splitlines():
+        h, _, f = l.partition("  ")
+        if len(h) == 64: out[f] = h.lower()
+    return out
+
 def vultr_confirm(rows):
     """rows: manifest rows {host, remote_path, sha256}; returns sha->(where, live_sha) for rows whose live sha matches."""
-    out = {}
+    out, by = {}, {}
     for r in rows:
-        host, rp = r.get("host"), r.get("remote_path")
-        if not host or not rp or "'" in rp: continue
-        try:
-            p = subprocess.run(["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=10", host,
-                                f"nice -n 19 ionice -c3 sha256sum -- '{rp}'"], capture_output=True, text=True, timeout=600)
-            live = p.stdout.split()[0].lower() if p.returncode == 0 and p.stdout else ""
-        except Exception: live = ""
-        if live and live == str(r.get("sha256", "")).lower(): out[live] = (f"vultr {host}:{rp}", live)
+        if r.get("host") and r.get("remote_path"): by.setdefault(r["host"], []).append(r)
+    for host, rs in by.items():
+        try: live = remote_sha(host, sorted({r["remote_path"] for r in rs}))
+        except Exception: live = {}
+        for r in rs:
+            h = live.get(r["remote_path"], "")
+            if h and h == str(r.get("sha256", "")).lower(): out[h] = (f"vultr {host}:{r['remote_path']}", h)
     return out
+
+# ---------------------------------------------------------------- vultr offload (copy only; no rendering/transcoding there)
+VULTR_HOST = os.environ.get("AURUM_VULTR_HOST", "root@45.77.193.164")  # Aurum's own Vultr (hostname vultr), not MR/TPR
+VULTR_ROOT = "/srv/aurum-video-archive"
+VULTR_MIN_FREE = 0.20      # keep >=20% free on the server
+BWLIMIT = float(os.environ.get("PURGE_BWLIMIT_MBPS", "25")) * 1e6
+JOB_ROOTS = ("/workspace/work/overnight", "/workspace/work/aurum-video-render/jobs")
+
+def job_rel(p):
+    for r in ROOTS:
+        if p.startswith(r.rstrip("/") + "/"):
+            rel = Path(p[len(r.rstrip("/")) + 1:])
+            if r in JOB_ROOTS and len(rel.parts) > 1: return rel.parts[0], str(Path(*rel.parts[1:]))
+            return Path(r).name, str(rel)
+    return None, None
+
+class Throttle:
+    def __init__(self, f): self.f, self.t0, self.n = f, time.time(), 0
+    def write(self, b):
+        self.f.write(b); self.n += len(b)
+        ahead = self.n / BWLIMIT - (time.time() - self.t0)
+        if ahead > 0: time.sleep(ahead)
+        return len(b)
+    def flush(self): self.f.flush()
+
+def vultr_offload(files, shas):
+    """files: [(path, st)] with no verified copy. tar over ssh (throttled) into VULTR_ROOT/<job>/, then remote sha256sum,
+    append verified rows to VULTR_MANIFEST. Returns (rows_added, notes)."""
+    import tarfile
+    notes = []
+    p = ssh(VULTR_HOST, f"df -B1 --output=size,avail / | tail -1; hostname", timeout=60)
+    try:
+        size, avail = map(int, p.stdout.split()[:2]); host_name = p.stdout.split()[2]
+    except Exception: return 0, [f"vultr df failed: {(p.stderr or '')[-200:]}"]
+    need = sum(st.st_size for _, st in files)
+    if (avail - need) / size < VULTR_MIN_FREE:
+        return 0, [f"vultr would drop under {int(VULTR_MIN_FREE*100)}% free ({avail/1e9:.1f} GB free, need {need/1e9:.1f} GB): nothing copied"]
+    groups = {}
+    for fp, st in files:
+        j, rel = job_rel(fp)
+        if j: groups.setdefault(j, []).append((fp, rel, st))
+    VULTR_MANIFEST.parent.mkdir(parents=True, exist_ok=True); added = 0
+    for job, items in sorted(groups.items()):
+        dest = f"{VULTR_ROOT}/{job}"
+        proc = subprocess.Popen(["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=15", VULTR_HOST,
+                                 f"umask 077 && mkdir -p '{dest}' && tar -x -C '{dest}' -f -"], stdin=subprocess.PIPE,
+                                stderr=subprocess.PIPE)
+        try:
+            with tarfile.open(fileobj=Throttle(proc.stdin), mode="w|") as tf:
+                for fp, rel, st in items: tf.add(fp, arcname=rel, recursive=False)
+            proc.stdin.close(); err = proc.stderr.read().decode()[-200:]; rc = proc.wait(timeout=3600)
+        except Exception as e:
+            rc, err = 1, str(e)
+        if rc:
+            notes.append(f"{job}: copy failed rc={rc} {err}"); continue
+        live = remote_sha(VULTR_HOST, [f"{dest}/{rel}" for _, rel, _ in items])
+        with open(VULTR_MANIFEST, "a") as f:
+            for fp, rel, st in items:
+                rp = f"{dest}/{rel}"; h = live.get(rp)
+                if h and h == shas.get(fp):
+                    f.write(json.dumps({"host": VULTR_HOST, "hostname": host_name, "remote_path": rp, "sha256": h, "size": st.st_size,
+                                        "local_path": fp, "job": job, "verified_at": now()}) + "\n"); added += 1
+                else: notes.append(f"{fp}: remote sha mismatch/missing after copy (kept)")
+    return added, notes
 
 # ---------------------------------------------------------------- local side
 def tracked():
@@ -158,7 +237,9 @@ def log(row):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); ap.add_argument("--slug")
-    ap.add_argument("--quiet", action="store_true"); a = ap.parse_args()
+    ap.add_argument("--quiet", action="store_true"); ap.add_argument("--offload-vultr", action="store_true",
+                    help="first copy files with no verified remote copy to Aurum Vultr, verify, index")
+    a = ap.parse_args()
     os.nice(10); OUT.mkdir(parents=True, exist_ok=True); c = cfg(); t0 = time.time()
     free0 = os.statvfs("/workspace"); free0 = free0.f_bavail * free0.f_frsize
     trk, refs = tracked(), active_refs(c)
@@ -184,6 +265,13 @@ def main():
     for p, st in cand:
         try: shas[p] = sha_cached(p, st, cache)
         except Exception as e: kept.setdefault(f"unreadable ({type(e).__name__})", []).append((p, st.st_size))
+    off = None
+    if a.offload_vultr and not a.dry_run:
+        known = set(D) | set(G) | {str(r.get("sha256", "")).lower() for r in vrows}
+        todo = [(p, st) for p, st in cand if shas.get(p) and shas[p] not in known]
+        n, notes = vultr_offload(todo, shas); off = {"candidates": len(todo), "gb": round(sum(st.st_size for _, st in todo) / 1e9, 3),
+                                                      "indexed": n, "notes": notes[:20]}
+        vrows = jl(VULTR_MANIFEST)
     want_v = [r for r in vrows if str(r.get("sha256", "")).lower() in set(shas.values())]
     if want_v: V = vultr_confirm(want_v)
     for p, st in cand:
@@ -220,7 +308,7 @@ def main():
             "deleted_count": len(deleted), "deleted_gb": round(sum(b for _, b in deleted) / 1e9, 3),
             "gate_skipped": len(gate_skips),
             "kept": {k: {"count": len(v), "gb": round(sum(b for _, b in v) / 1e9, 3)} for k, v in sorted(kept.items())},
-            "log": str(LOG), "remote_index": {"D": len(D), "github": len(G), "vultr_rows": len(vrows)}, "cards": c["cards"]}
+            "log": str(LOG), "remote_index": {"D": len(D), "github": len(G), "vultr_rows": len(vrows)}, "cards": c["cards"], "vultr_offload": off}
     tag = "preview" if a.dry_run else "run"
     (OUT / f"last-{tag}.json").write_text(json.dumps(summ, indent=1))
     (OUT / f"last-{tag}-items.json").write_text(json.dumps({"deleted": deleted, "kept": kept}, indent=0))
