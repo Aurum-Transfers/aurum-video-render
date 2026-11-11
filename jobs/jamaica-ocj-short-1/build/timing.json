@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-11T12:13:34-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 43.473,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 5.825,
+   "text": "Flying into Jamaica's north coast at Ian Fleming? Here's how to reach your hotel.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/tts/s000-607d37816a.wav",
+   "sr": 24000,
+   "speed": 1.044
+  },
+  {
+   "i": 1,
+   "t0": 6.16,
+   "t1": 12.454,
+   "text": "The airport is in Boscobel, Saint Mary, about fifteen kilometres east of Ocho Rios.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/tts/s001-de0c9f655d.wav",
+   "sr": 24000,
+   "speed": 0.975
+  },
+  {
+   "i": 2,
+   "t0": 12.749,
+   "t1": 19.512,
+   "text": "The airport lists taxi or coach hire, and taxis are available on site when needed, for an extra fee.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/tts/s002-23f78e548c.wav",
+   "sr": 24000,
+   "speed": 0.997
+  },
+  {
+   "i": 3,
+   "t0": 19.84,
+   "t1": 25.344,
+   "text": "Or book a private transfer before you land, so your driver is arranged in advance.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/tts/s003-3f78a10022.wav",
+   "sr": 24000,
+   "speed": 0.988,
+   "lift": [
+    25.494,
+    26.694
+   ]
+  },
+  {
+   "i": 4,
+   "t0": 27.159,
+   "t1": 32.748,
+   "text": "Driving yourself? Jamaica drives on the left, so take it slowly on the coast road.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/tts/s004-65bc024cd9.wav",
+   "sr": 24000,
+   "speed": 0.978
+  },
+  {
+   "i": 5,
+   "t0": 33.019,
+   "t1": 41.873,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/tts/s005-d36faa54e1.wav",
+   "sr": 24000,
+   "speed": 0.98
+  }
+ ]
+}

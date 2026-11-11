@@ -1,0 +1,80 @@
+{
+  "slug": "jamaica-ocj-short-1",
+  "title": "Ian Fleming airport (OCJ): how to reach your hotel",
+  "lines": [
+    {
+      "text": "Flying into Jamaica's north coast at Ian Fleming? Here's how to reach your hotel.",
+      "need": [
+        "coast-approach",
+        "approach",
+        "air-arrival"
+      ],
+      "pause": 0.3,
+      "hook": true
+    },
+    {
+      "text": "The airport is in Boscobel, Saint Mary, about fifteen kilometres east of Ocho Rios.",
+      "need": [
+        "boscobel-road",
+        "driving"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "o001"
+      ]
+    },
+    {
+      "text": "The airport lists taxi or coach hire, and taxis are available on site when needed, for an extra fee.",
+      "need": [
+        "boscobel-road",
+        "driving"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "o005"
+      ]
+    },
+    {
+      "text": "Or book a private transfer before you land, so your driver is arranged in advance.",
+      "need": [
+        "driving",
+        "highway"
+      ],
+      "pause": 0.3,
+      "lift": 1.2,
+      "lower": {
+        "text": "PRIVATE TRANSFER",
+        "sub": "Pre-booked"
+      }
+    },
+    {
+      "text": "Driving yourself? Jamaica drives on the left, so take it slowly on the coast road.",
+      "need": [
+        "highway-aerial",
+        "driving"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "f1014"
+      ]
+    },
+    {
+      "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+      "need": [
+        "beach",
+        "ocho-aerial",
+        "ocho-beach",
+        "sea-aerial"
+      ],
+      "pause": 0.6,
+      "disclosure": true
+    }
+  ],
+  "end_card": {
+    "text": "ENJOY THE NORTH COAST",
+    "lines": [
+      "Compare airport transfers: link in the description",
+      "Subscribe for the next arrival guide"
+    ]
+  }
+}

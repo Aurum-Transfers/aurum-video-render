@@ -1,0 +1,728 @@
+{
+ "schema": "aurum-edl-v1",
+ "gate_exceptions": {
+  "why": "Marvin t225u 2026-11-10: no licensed OCJ landing footage exists; the opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled 'Approach footage: Jamaica's north coast'; narration says 'flying into Jamaica's north coast', never that it is OCJ."
+ },
+ "created": "2026-11-11T12:16:51-05:00",
+ "slug": "jamaica-ocj-short-1",
+ "title": "Ian Fleming airport (OCJ): how to reach your hotel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration_s": 45.473,
+ "program_end_s": 43.473,
+ "hook_end_s": 5.825,
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 3.0667,
+   "frames": 92,
+   "kind": "clip",
+   "clip_id": "mbj_coast_approach",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-ocj-short-1/clips/gcm2xnh129E_230-268.mp4",
+   "file_in": 0.1,
+   "play_speed": 3.0,
+   "src_in": 230.1,
+   "src_out": 239.3,
+   "tag": "landing,coast-approach,approach,air-arrival",
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "qc": {
+    "mot_med": 2.569,
+    "mot_min": 2.191,
+    "y_mean": 135.5,
+    "y_min": 128.3,
+    "dh": [
+     14553381225558448604,
+     15706303281747844350,
+     14687354726497947199
+    ]
+   },
+   "parent": "mbj_coast_approach",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Approach along Jamaica's north coast (St James coast, window seat); not OCJ",
+   "subject": "mbj-coast-approach",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7984,
+    "cx1": 0.6406,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 3.0667,
+   "t1": 6.1667,
+   "frames": 93,
+   "kind": "clip",
+   "clip_id": "mbj_coast_approach",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-ocj-short-1/clips/gcm2xnh129E_230-268.mp4",
+   "file_in": 26.4,
+   "play_speed": 3.0,
+   "src_in": 256.4,
+   "src_out": 265.7,
+   "tag": "landing,coast-approach,approach,air-arrival",
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "qc": {
+    "mot_med": 3.368,
+    "mot_min": 2.161,
+    "y_mean": 130.1,
+    "y_min": 109.0,
+    "dh": [
+     16243914167910974339,
+     13105851720092420365,
+     13016930241573751049
+    ]
+   },
+   "parent": "mbj_coast_approach",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Approach along Jamaica's north coast (St James coast, window seat); not OCJ",
+   "subject": "mbj-coast-approach",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.5953,
+    "cx1": 0.7531,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 6.1667,
+   "t1": 9.4333,
+   "frames": 98,
+   "kind": "clip",
+   "clip_id": "stmary_road_2",
+   "video_id": "fcB3GmUU3vU",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-1/clips/fcB3GmUU3vU_42-50.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 42.1,
+   "src_out": 45.367,
+   "tag": "boscobel-road,driving",
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 7.192,
+    "mot_min": 7.18,
+    "y_mean": 112.9,
+    "y_min": 100.0,
+    "dh": [
+     9350423218805561824,
+     7803723239382333684,
+     14757418503524382964
+    ]
+   },
+   "parent": "stmary_road_2",
+   "line": 1,
+   "audio_ok": false,
+   "place": "North coast road, St Mary",
+   "subject": "st-mary-road-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.6266,
+    "cx1": 0.4688,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 9.4333,
+   "t1": 12.7333,
+   "frames": 99,
+   "kind": "clip",
+   "clip_id": "rionuevo_road_2",
+   "video_id": "0jcA2ySfNHY",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-1/clips/0jcA2ySfNHY_796-803.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 796.1,
+   "src_out": 799.4,
+   "tag": "boscobel-road,driving",
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 1.617,
+    "mot_min": 1.54,
+    "y_mean": 127.6,
+    "y_min": 126.0,
+    "dh": [
+     17653086863773792370,
+     17653227463829420082,
+     15302348458331519090
+    ]
+   },
+   "parent": "rionuevo_road_2",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Main road near Rio Nuevo, St Mary",
+   "subject": "rio-nuevo-road-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.3453,
+    "cx1": 0.3016,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 12.7333,
+   "t1": 16.2667,
+   "frames": 106,
+   "kind": "clip",
+   "clip_id": "boscobel_road_2",
+   "video_id": "taA4JUAfdOQ",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-1/clips/taA4JUAfdOQ_46-53.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 46.1,
+   "src_out": 49.633,
+   "tag": "boscobel-road,driving",
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 3.458,
+    "mot_min": 2.306,
+    "y_mean": 134.0,
+    "y_min": 132.2,
+    "dh": [
+     15482944908795688707,
+     15451776193637569283,
+     16390810049693477962,
+     16281618095669311015
+    ]
+   },
+   "parent": "boscobel_road_2",
+   "line": 2,
+   "audio_ok": false,
+   "place": "Roads around Rio Nuevo and Boscobel, St Mary (near the airport)",
+   "subject": "boscobel-road-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.6297,
+    "cx1": 0.7109,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 16.2667,
+   "t1": 19.8333,
+   "frames": 107,
+   "kind": "clip",
+   "clip_id": "boscobel_road_1",
+   "video_id": "taA4JUAfdOQ",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-1/clips/taA4JUAfdOQ_0-6.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 0.1,
+   "src_out": 3.667,
+   "tag": "boscobel-road,driving",
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 6.611,
+    "mot_min": 5.852,
+    "y_mean": 127.0,
+    "y_min": 123.6,
+    "dh": [
+     10212257048644141315,
+     15448668015816912771,
+     1788655514623913859,
+     3460009626936065670
+    ]
+   },
+   "parent": "boscobel_road_1",
+   "line": 2,
+   "audio_ok": false,
+   "place": "Roads around Rio Nuevo and Boscobel, St Mary (near the airport)",
+   "subject": "boscobel-road-1",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.6609,
+    "cx1": 0.5031,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 19.8333,
+   "t1": 23.5,
+   "frames": 110,
+   "kind": "clip",
+   "clip_id": "dash_ocho_a_3",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-1/clips/MyaZDFcqtCw_118-129.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 118.1,
+   "src_out": 121.767,
+   "tag": "driving,highway",
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "qc": {
+    "mot_med": 3.699,
+    "mot_min": 3.054,
+    "y_mean": 122.1,
+    "y_min": 116.9,
+    "dh": [
+     13963674665767989442,
+     13889207545841709186,
+     9426228555423806083,
+     14046842316530185155
+    ]
+   },
+   "parent": "dash_ocho_a_3",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4422,
+    "cx1": 0.3516,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 23.5,
+   "t1": 27.1667,
+   "frames": 110,
+   "kind": "clip",
+   "clip_id": "dash_ocho_b_2",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-1/clips/MyaZDFcqtCw_439-448.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 439.1,
+   "src_out": 442.767,
+   "tag": "driving,highway",
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "parent": "dash_ocho_b_2",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Dash drive towards Ocho Rios",
+   "subject": "dash-st-mary-b-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 4.77,
+    "mot_min": 4.671,
+    "y_mean": 117.5,
+    "y_min": 112.4,
+    "dh": [
+     12740904042068832320,
+     12731874319524231232,
+     12714361572120361024,
+     13056775881291020352
+    ]
+   },
+   "reframe": {
+    "cx0": 0.3234,
+    "cx1": 0.2641,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 27.1667,
+   "t1": 33.0333,
+   "frames": 176,
+   "kind": "clip",
+   "clip_id": "highway_aerial_2",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-ocj-short-1/clips/FcYqtBaMXFM_66-76.mp4",
+   "file_in": 1.1,
+   "play_speed": 1.0,
+   "src_in": 67.1,
+   "src_out": 72.967,
+   "tag": "highway-aerial,island-aerial",
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 1.474,
+    "mot_min": 1.43,
+    "y_mean": 126.5,
+    "y_min": 99.6,
+    "dh": [
+     16623277423608102141,
+     16623277423608134906,
+     16623134764121749754,
+     16623134074231078198,
+     18005669344345644500,
+     3476550471813840182
+    ]
+   },
+   "parent": "highway_aerial_2",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.3516,
+    "cx1": 0.1938,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 33.0333,
+   "t1": 37.1667,
+   "frames": 124,
+   "kind": "clip",
+   "clip_id": "ocho_drone_3",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "file": "jobs/jamaica-ocj-short-1/clips/Rk2IRGPukWw_64-74.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 64.1,
+   "src_out": 70.3,
+   "tag": "ocho-aerial,sea-aerial",
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.556,
+    "mot_min": 2.001,
+    "y_mean": 101.9,
+    "y_min": 83.8,
+    "dh": [
+     9871890936173428992,
+     3602950347683267074,
+     36175101456549391,
+     1731946412633164299
+    ]
+   },
+   "parent": "ocho_drone_3",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4984,
+    "cx1": 0.6016,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 37.1667,
+   "t1": 41.3333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "ocho_cruise",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-ocj-short-1/clips/11Z-XBbUst0_229-239.mp4",
+   "file_in": 0.1,
+   "play_speed": 2.0,
+   "src_in": 229.1,
+   "src_out": 237.433,
+   "tag": "ocho-cruise,ocho-aerial",
+   "shows": [
+    "ocho-cruise",
+    "ocho-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.591,
+    "mot_min": 3.914,
+    "y_mean": 72.1,
+    "y_min": 65.5,
+    "dh": [
+     13835305026691072257,
+     2468181674691201408,
+     11656400502311291288,
+     333358188436778687
+    ]
+   },
+   "parent": "ocho_cruise",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Ocho Rios cruise pier",
+   "subject": "ocho-cruise",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.1609,
+    "cx1": 0.1953,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 41.3333,
+   "t1": 45.4667,
+   "frames": 124,
+   "kind": "clip",
+   "clip_id": "ocho_beach_walk_2",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-ocj-short-1/clips/TILQzsOE8mg_199-209.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 199.1,
+   "src_out": 203.233,
+   "tag": "ocho-beach,beach",
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "parent": "ocho_beach_walk_2",
+   "line": 5,
+   "audio_ok": true,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 2.413,
+    "mot_min": 2.14,
+    "y_mean": 123.6,
+    "y_min": 121.9,
+    "dh": [
+     18373693590053060184,
+     18446459287311810550,
+     18266388941500002807,
+     8034155636487766091
+    ]
+   },
+   "reframe": {
+    "cx0": 0.3297,
+    "cx1": 0.1719,
+    "method": "saliency+motion v1"
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "lower",
+   "t0": 20.24,
+   "t1": 24.74,
+   "text": "PRIVATE TRANSFER",
+   "sub": "Pre-booked"
+  },
+  {
+   "kind": "disclosure",
+   "t0": 33.019,
+   "t1": 42.019,
+   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+  },
+  {
+   "kind": "endcard",
+   "t0": 43.473,
+   "t1": 45.473,
+   "text": "ENJOY THE NORTH COAST",
+   "lines": [
+    "Compare airport transfers: link in the description",
+    "Subscribe for the next arrival guide"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "t0": 0.3,
+   "t1": 5.825,
+   "text": "Flying into Jamaica's north coast at Ian Fleming? Here's how to reach your hotel.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ]
+  },
+  {
+   "t0": 6.16,
+   "t1": 12.454,
+   "text": "The airport is in Boscobel, Saint Mary, about fifteen kilometres east of Ocho Rios.",
+   "disclosure": false,
+   "facts": [
+    "o001"
+   ],
+   "need": [
+    "boscobel-road",
+    "driving"
+   ]
+  },
+  {
+   "t0": 12.749,
+   "t1": 19.512,
+   "text": "The airport lists taxi or coach hire, and taxis are available on site when needed, for an extra fee.",
+   "disclosure": false,
+   "facts": [
+    "o005"
+   ],
+   "need": [
+    "boscobel-road",
+    "driving"
+   ]
+  },
+  {
+   "t0": 19.84,
+   "t1": 25.344,
+   "text": "Or book a private transfer before you land, so your driver is arranged in advance.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "driving",
+    "highway"
+   ]
+  },
+  {
+   "t0": 27.159,
+   "t1": 32.748,
+   "text": "Driving yourself? Jamaica drives on the left, so take it slowly on the coast road.",
+   "disclosure": false,
+   "facts": [
+    "f1014"
+   ],
+   "need": [
+    "highway-aerial",
+    "driving"
+   ]
+  },
+  {
+   "t0": 33.019,
+   "t1": 41.873,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "disclosure": true,
+   "facts": [],
+   "need": [
+    "beach",
+    "ocho-aerial",
+    "ocho-beach",
+    "sea-aerial"
+   ]
+  }
+ ],
+ "audio": {
+  "narration": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-1/build/narration.wav",
+  "music": "none",
+  "ambient": []
+ },
+ "offtag_shots": [],
+ "banned": [],
+ "lifts": [
+  {
+   "t0": 42.1,
+   "t1": 43.4,
+   "line": 5
+  }
+ ],
+ "lift_min_count": 1,
+ "needs_footage": [
+  {
+   "line": 3,
+   "need": [
+    "driving",
+    "highway"
+   ],
+   "shot_s": 3.67,
+   "lift": true,
+   "text": "Or book a private transfer before you land, so your driver is arranged"
+  }
+ ],
+ "scope": "full",
+ "narration_stt": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Flying into Jamaica's North Coast at Ian Fleming, here's how to reach your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 0.929,
+   "last_word": "rios",
+   "last_word_heard": true,
+   "heard": "The airport is in Bosco Bell, St. Mary, about 15 kilometers east of Ocho Rios."
+  },
+  {
+   "line": 2,
+   "recall": 0.947,
+   "last_word": "fee",
+   "last_word_heard": true,
+   "heard": "The airport lists taxi or coach higher and taxis are available on site when needed for an extra fee."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "advance",
+   "last_word_heard": true,
+   "heard": "or book a private transfer before you land, so your driver is arranged in advance."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "road",
+   "last_word_heard": true,
+   "heard": "Driving yourself, Jamaica drives on the left, so take it slowly on the coast road."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "source_window_qc": {
+  "measured": 12,
+  "missing": [],
+  "method": "source-window-output-speed"
+ },
+ "reframe": {
+  "tool": "tools/portrait_reframe.py",
+  "shots": 12
+ }
+}

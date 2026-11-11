@@ -1,0 +1,79 @@
+{
+ "created": "2026-11-11T12:13:43-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Ian Fleming",
+   "heard": "Flying into Jamaica's North Coast at Ian Fleming, here's how to reach your hotel.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 1,
+   "name": "Boscobel",
+   "heard": "The airport is in Bosco Bell, St. Mary, about 15 kilometers east of Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 1,
+   "name": "Saint Mary",
+   "heard": "The airport is in Bosco Bell, St. Mary, about 15 kilometers east of Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 1,
+   "name": "Ocho Rios",
+   "heard": "The airport is in Bosco Bell, St. Mary, about 15 kilometers east of Ocho Rios.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 4,
+ "total": 4,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Flying into Jamaica's North Coast at Ian Fleming, here's how to reach your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 0.929,
+   "last_word": "rios",
+   "last_word_heard": true,
+   "heard": "The airport is in Bosco Bell, St. Mary, about 15 kilometers east of Ocho Rios."
+  },
+  {
+   "line": 2,
+   "recall": 0.947,
+   "last_word": "fee",
+   "last_word_heard": true,
+   "heard": "The airport lists taxi or coach higher and taxis are available on site when needed for an extra fee."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "advance",
+   "last_word_heard": true,
+   "heard": "or book a private transfer before you land, so your driver is arranged in advance."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "road",
+   "last_word_heard": true,
+   "heard": "Driving yourself, Jamaica drives on the left, so take it slowly on the coast road."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}
