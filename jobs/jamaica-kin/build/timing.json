@@ -1,8 +1,8 @@
 {
- "created": "2026-11-10T22:12:27-05:00",
+ "created": "2026-11-11T00:00:17-05:00",
  "voice": "bm_george",
  "lang": "en-gb",
- "total": 312.116,
+ "total": 303.641,
  "lines": [
   {
    "i": 0,
@@ -70,16 +70,16 @@
   {
    "i": 7,
    "t0": 52.082,
-   "t1": 57.415,
-   "text": "It handles over two million passengers a year, and most of the island's airfreight.",
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s007-e8aa707daf.wav",
+   "t1": 57.565,
+   "text": "It handles over two million passengers a year, and most of the island's air freight.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s007-c24115f257.wav",
    "sr": 24000,
-   "speed": 1.025
+   "speed": 0.97
   },
   {
    "i": 8,
-   "t0": 57.749,
-   "t1": 69.055,
+   "t0": 57.949,
+   "t1": 69.256,
    "text": "This guide is for Norman Manley. Jamaica's other two international airports, Sangster in Montego Bay and Ian Fleming near Ocho Rios, get their own arrival guides.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s008-71c3aa2865.wav",
    "sr": 24000,
@@ -87,8 +87,8 @@
   },
   {
    "i": 9,
-   "t0": 69.381,
-   "t1": 80.773,
+   "t0": 69.581,
+   "t1": 80.973,
    "text": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s009-6f00208dd9.wav",
    "sr": 24000,
@@ -96,8 +96,8 @@
   },
   {
    "i": 10,
-   "t0": 81.187,
-   "t1": 86.157,
+   "t0": 81.387,
+   "t1": 86.358,
    "text": "Is this your first time landing in Kingston? Tell us in the comments where you're staying.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s010-e5a81b4b84.wav",
    "sr": 24000,
@@ -105,8 +105,8 @@
   },
   {
    "i": 11,
-   "t0": 86.91,
-   "t1": 88.382,
+   "t0": 87.11,
+   "t1": 88.582,
    "text": "Now, the paperwork.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s011-4c761388f8.wav",
    "sr": 24000,
@@ -114,8 +114,8 @@
   },
   {
    "i": 12,
-   "t0": 88.694,
-   "t1": 97.462,
+   "t0": 88.894,
+   "t1": 97.662,
    "text": "Before you fly, fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s012-ec6593d510.wav",
    "sr": 24000,
@@ -123,8 +123,8 @@
   },
   {
    "i": 13,
-   "t0": 97.852,
-   "t1": 105.383,
+   "t0": 98.053,
+   "t1": 105.583,
    "text": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s013-8a7eefa894.wav",
    "sr": 24000,
@@ -132,8 +132,8 @@
   },
   {
    "i": 14,
-   "t0": 105.766,
-   "t1": 115.665,
+   "t0": 105.967,
+   "t1": 115.865,
    "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s014-876ce4da12.wav",
    "sr": 24000,
@@ -141,8 +141,8 @@
   },
   {
    "i": 15,
-   "t0": 116.03,
-   "t1": 123.198,
+   "t0": 116.23,
+   "t1": 123.398,
    "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s015-53f3cca38a.wav",
    "sr": 24000,
@@ -150,8 +150,8 @@
   },
   {
    "i": 16,
-   "t0": 123.503,
-   "t1": 128.111,
+   "t0": 123.703,
+   "t1": 128.311,
    "text": "And pack your own bags: never carry anything through customs for anyone else.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s016-102144c765.wav",
    "sr": 24000,
@@ -159,17 +159,17 @@
   },
   {
    "i": 17,
-   "t0": 128.503,
-   "t1": 135.586,
-   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s017-42b0d3a000.wav",
+   "t0": 128.703,
+   "t1": 130.325,
+   "text": "That's the paperwork done.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s017-ff28cbccbe.wav",
    "sr": 24000,
-   "speed": 1.073
+   "speed": 1.007
   },
   {
    "i": 18,
-   "t0": 136.969,
-   "t1": 140.169,
+   "t0": 131.494,
+   "t1": 134.694,
    "text": "Through customs? Here's how to get to your hotel.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s018-cfdaef1639.wav",
    "sr": 24000,
@@ -177,8 +177,8 @@
   },
   {
    "i": 19,
-   "t0": 140.532,
-   "t1": 149.876,
+   "t0": 135.057,
+   "t1": 144.401,
    "text": "Car rentals, currency exchange, taxis and tour desks are all in the Arrivals Ground Transportation Hall, and luggage trolleys are free.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s019-dce1f8177d.wav",
    "sr": 24000,
@@ -186,17 +186,21 @@
   },
   {
    "i": 20,
-   "t0": 150.197,
-   "t1": 158.901,
+   "t0": 144.722,
+   "t1": 153.426,
    "text": "The drive into town runs along the Palisadoes road, with Kingston Harbour on one side and the Caribbean Sea on the other.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s020-72e7ff5d4c.wav",
    "sr": 24000,
-   "speed": 0.991
+   "speed": 0.991,
+   "lift": [
+    153.576,
+    155.176
+   ]
   },
   {
    "i": 21,
-   "t0": 159.266,
-   "t1": 169.527,
+   "t0": 155.691,
+   "t1": 165.952,
    "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after a long flight.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s021-e504d1113e.wav",
    "sr": 24000,
@@ -204,8 +208,8 @@
   },
   {
    "i": 22,
-   "t0": 169.845,
-   "t1": 180.789,
+   "t0": 166.27,
+   "t1": 177.214,
    "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s022-76b18f6084.wav",
    "sr": 24000,
@@ -213,8 +217,8 @@
   },
   {
    "i": 23,
-   "t0": 181.131,
-   "t1": 193.675,
+   "t0": 177.556,
+   "t1": 190.1,
    "text": "Option two, an approved taxi. The UK advises Jamaican Tourist Board approved taxis, which show a blue JTB sticker, and Canada advises avoiding unmarked cars.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s023-baf3b5166c.wav",
    "sr": 24000,
@@ -222,8 +226,8 @@
   },
   {
    "i": 24,
-   "t0": 194.076,
-   "t1": 205.297,
+   "t0": 190.501,
+   "t1": 201.722,
    "text": "Between the airport and the city, most people take the Humming Bird route via South Camp Road, and the UK advises care when you get out of the car at private accommodation.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s024-a4f291f797.wav",
    "sr": 24000,
@@ -231,8 +235,8 @@
   },
   {
    "i": 25,
-   "t0": 205.596,
-   "t1": 215.175,
+   "t0": 202.021,
+   "t1": 211.6,
    "text": "Option three, a rental car. Jamaica drives on the left, and the UK advises not driving in Kingston itself if you don't know the city.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s025-336aa646ea.wav",
    "sr": 24000,
@@ -240,30 +244,30 @@
   },
   {
    "i": 26,
-   "t0": 215.559,
-   "t1": 223.324,
-   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s026-d2cb1e35a6.wav",
+   "t0": 211.984,
+   "t1": 215.333,
+   "text": "So that's the choice: transfer, taxi or rental.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s026-85ed725f82.wav",
    "sr": 24000,
-   "speed": 1.026
+   "speed": 1.004
   },
   {
    "i": 27,
-   "t0": 224.564,
-   "t1": 227.145,
+   "t0": 216.437,
+   "t1": 219.019,
    "text": "Now, the best part: Kingston itself.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s027-d81fff6d4d.wav",
    "sr": 24000,
    "speed": 0.999,
    "lift": [
-    227.295,
-    228.895
+    219.169,
+    220.769
    ]
   },
   {
    "i": 28,
-   "t0": 229.389,
-   "t1": 238.243,
+   "t0": 221.263,
+   "t1": 230.116,
    "text": "Kingston is the capital and the island's largest city, and New Kingston, the business hub, is home to several of its hotels.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s028-e738633da5.wav",
    "sr": 24000,
@@ -271,8 +275,8 @@
   },
   {
    "i": 29,
-   "t0": 238.563,
-   "t1": 245.923,
+   "t0": 230.436,
+   "t1": 237.796,
    "text": "It's the birthplace of reggae, and the Bob Marley Museum is the house where he lived and recorded many of his songs.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s029-2300b49c75.wav",
    "sr": 24000,
@@ -280,8 +284,8 @@
   },
   {
    "i": 30,
-   "t0": 246.278,
-   "t1": 251.953,
+   "t0": 238.152,
+   "t1": 243.827,
    "text": "A quick ride away, Port Royal was once called the richest and wickedest city on earth.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s030-1b85c4e998.wav",
    "sr": 24000,
@@ -289,30 +293,30 @@
   },
   {
    "i": 31,
-   "t0": 252.287,
-   "t1": 256.425,
-   "text": "You can tour the old fort, then head for the beaches at Lime Cay.",
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s031-1a3a092326.wav",
+   "t0": 244.16,
+   "t1": 247.936,
+   "text": "Tour the old fort, then head for Lime Cay and its beaches.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s031-0189f14c69.wav",
    "sr": 24000,
-   "speed": 0.995
+   "speed": 1.029
   },
   {
    "i": 32,
-   "t0": 256.769,
-   "t1": 262.252,
+   "t0": 248.294,
+   "t1": 253.777,
    "text": "Fort, museum or Lime Cay? Hit subscribe and tell us which one is first on your list.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s032-5aa02a5888.wav",
    "sr": 24000,
    "speed": 1.058,
    "lift": [
-    262.402,
-    264.002
+    253.927,
+    255.527
    ]
   },
   {
    "i": 33,
-   "t0": 264.817,
-   "t1": 270.151,
+   "t0": 256.342,
+   "t1": 261.675,
    "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s033-f720a60b90.wav",
    "sr": 24000,
@@ -320,8 +324,8 @@
   },
   {
    "i": 34,
-   "t0": 270.485,
-   "t1": 280.853,
+   "t0": 262.009,
+   "t1": 272.377,
    "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s034-865173a653.wav",
    "sr": 24000,
@@ -329,8 +333,8 @@
   },
   {
    "i": 35,
-   "t0": 281.246,
-   "t1": 292.659,
+   "t0": 272.771,
+   "t1": 284.184,
    "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s035-cb0dd6573b.wav",
    "sr": 24000,
@@ -338,8 +342,8 @@
   },
   {
    "i": 36,
-   "t0": 293.112,
-   "t1": 303.928,
+   "t0": 284.637,
+   "t1": 295.453,
    "text": "So, the short version. Fill in your C5 form before you fly. Pick your ride before you land: transfer, approved taxi or rental. Then enjoy the city.",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s036-17db70c96f.wav",
    "sr": 24000,
@@ -347,8 +351,8 @@
   },
   {
    "i": 37,
-   "t0": 304.31,
-   "t1": 310.518,
+   "t0": 295.834,
+   "t1": 302.042,
    "text": "Subscribe for the next arrival guide, and enjoy every minute in Kingston. See you on the next trip!",
    "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s037-3f1afe490e.wav",
    "sr": 24000,

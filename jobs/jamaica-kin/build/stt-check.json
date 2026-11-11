@@ -1,5 +1,5 @@
 {
- "created": "2026-11-10T22:18:38-05:00",
+ "created": "2026-11-11T00:00:40-05:00",
  "voice": "bm_george",
  "lang": "en-gb",
  "checks": [
@@ -150,7 +150,7 @@
   {
    "line": 31,
    "name": "Lime Cay",
-   "heard": "You can tour the old fort, then head for the beaches at Lime Key.",
+   "heard": "Tour the old fort, then head for Lime Key and its beaches.",
    "round_trip_ok": true
   },
   {
@@ -245,10 +245,10 @@
   },
   {
    "line": 7,
-   "recall": 0.929,
-   "last_word": "airfreight",
-   "last_word_heard": false,
-   "heard": "It handles over 2 million passengers a year and most of the island's air freight."
+   "recall": 1.0,
+   "last_word": "freight",
+   "last_word_heard": true,
+   "heard": "It handles over 2 million passengers a year, and most of the islands air freight."
   },
   {
    "line": 8,
@@ -316,9 +316,9 @@
   {
    "line": 17,
    "recall": 1.0,
-   "last_word": "one",
+   "last_word": "done",
    "last_word_heard": true,
-   "heard": "If this checklist just saved you a headache at the gate, tap like, it tells us to make more arrival guides like this one."
+   "heard": "That's the paperwork done."
   },
   {
    "line": 18,
@@ -379,9 +379,9 @@
   {
    "line": 26,
    "recall": 1.0,
-   "last_word": "description",
+   "last_word": "rental",
    "last_word_heard": true,
-   "heard": "Which one are you picking? Transfer, taxi or rental? Tell us below and the transfer comparison link is in the description."
+   "heard": "So that's the choice, transfer taxi or rental."
   },
   {
    "line": 27,
@@ -413,10 +413,10 @@
   },
   {
    "line": 31,
-   "recall": 0.929,
-   "last_word": "cay",
-   "last_word_heard": false,
-   "heard": "You can tour the old fort, then head for the beaches at Lime Key."
+   "recall": 0.917,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Tour the old fort, then head for Lime Key and its beaches."
   },
   {
    "line": 32,

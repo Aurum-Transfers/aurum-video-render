@@ -1,0 +1,3043 @@
+{
+ "schema": "aurum-footage-v6",
+ "slug": "jamaica-kin",
+ "job": "jamaica-kin",
+ "notes": "Pexels clips added 2026-11-10 23:10 EST (K / kelly Kingston drone series, Mathias Yoba Boroko). Jamaica KIN (Norman Manley) cut. All sources CC BY, watch pages read 2026-11-10 (pool/jamaica-kin/licence). Landing: 8tevGZVbe88 window seat only (burned-in welcome text after src 347 s excluded; vlogger-face parts excluded). Rejected: BM1bq5TVu9g (faces), ivncWk0Geos (New Zealand), XFePOXM2FQA (Canada), mcHR2_t06Mk (Devon UK), flight-sim uploads.",
+ "clips": [
+  {
+   "id": "kin_descent_1",
+   "parent": "kin_descent_1",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350_stab.mp4",
+   "f0": 2.5,
+   "f1": 18.25,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Descent towards Kingston, window seat (stabilised)",
+   "subject": "kin-descent-1"
+  },
+  {
+   "id": "kin_descent_2",
+   "parent": "kin_descent_2",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350_stab.mp4",
+   "f0": 18.75,
+   "f1": 34.0,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Descent towards Kingston, window seat (stabilised)",
+   "subject": "kin-descent-2"
+  },
+  {
+   "id": "kin_approach_hills",
+   "parent": "kin_approach_hills",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350_stab.mp4",
+   "f0": 50.0,
+   "f1": 57.0,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.25,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Approach over St Andrew hills (stabilised)",
+   "subject": "kin-approach-hills"
+  },
+  {
+   "id": "kin_approach_sea",
+   "parent": "kin_approach_sea",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350_stab.mp4",
+   "f0": 58.6,
+   "f1": 64.6,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "landing",
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Final approach over Kingston Harbour to Norman Manley (stabilised)",
+   "subject": "kin-harbour-approach"
+  },
+  {
+   "id": "kin_terminal_drive",
+   "parent": "kin_terminal_drive",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1640-1765.mp4",
+   "f0": 22.0,
+   "f1": 53.0,
+   "src_base": 1640.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-terminal",
+    "airport-curb",
+    "road-to-airport"
+   ],
+   "shows": [
+    "airport-terminal",
+    "airport-curb",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Arriving at the Norman Manley terminal",
+   "subject": "kin-terminal-front"
+  },
+  {
+   "id": "kin_curb_1",
+   "parent": "kin_curb_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1640-1765.mp4",
+   "f0": 54.0,
+   "f1": 89.0,
+   "src_base": 1640.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "shows": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Norman Manley terminal curb",
+   "subject": "kin-curb-1"
+  },
+  {
+   "id": "kin_curb_2",
+   "parent": "kin_curb_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1640-1765.mp4",
+   "f0": 89.5,
+   "f1": 124.0,
+   "src_base": 1640.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "shows": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Norman Manley terminal curb",
+   "subject": "kin-curb-2"
+  },
+  {
+   "id": "kin_roundabout",
+   "parent": "kin_roundabout",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 0.3,
+   "f1": 24.0,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Harbour View roundabout, Kingston",
+   "subject": "harbour-view-roundabout"
+  },
+  {
+   "id": "palisadoes_road_a_1",
+   "parent": "palisadoes_road_a_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 30.0,
+   "f1": 67.38,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-1"
+  },
+  {
+   "id": "palisadoes_road_a_2",
+   "parent": "palisadoes_road_a_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 67.88,
+   "f1": 104.75,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-2"
+  },
+  {
+   "id": "palisadoes_road_a_3",
+   "parent": "palisadoes_road_a_3",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 105.25,
+   "f1": 142.12,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-3"
+  },
+  {
+   "id": "palisadoes_road_a_4",
+   "parent": "palisadoes_road_a_4",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 142.62,
+   "f1": 179.5,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-4"
+  },
+  {
+   "id": "palisadoes_road_b_1",
+   "parent": "palisadoes_road_b_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 0.3,
+   "f1": 40.1,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-1"
+  },
+  {
+   "id": "palisadoes_road_b_2",
+   "parent": "palisadoes_road_b_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 40.6,
+   "f1": 79.9,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-2"
+  },
+  {
+   "id": "palisadoes_road_b_3",
+   "parent": "palisadoes_road_b_3",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 80.4,
+   "f1": 119.7,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-3"
+  },
+  {
+   "id": "palisadoes_road_b_4",
+   "parent": "palisadoes_road_b_4",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 120.2,
+   "f1": 159.5,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-4"
+  },
+  {
+   "id": "kgn_drive_vineyard_1",
+   "parent": "kgn_drive_vineyard_1",
+   "video_id": "P-AbmWV49TU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+   "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+   "file": "clips/P-AbmWV49TU_60-200.mp4",
+   "f0": 0.3,
+   "f1": 46.7,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Vineyard Town to Mona Road, Kingston",
+   "subject": "vineyard-town-1"
+  },
+  {
+   "id": "kgn_drive_vineyard_2",
+   "parent": "kgn_drive_vineyard_2",
+   "video_id": "P-AbmWV49TU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+   "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+   "file": "clips/P-AbmWV49TU_60-200.mp4",
+   "f0": 47.2,
+   "f1": 93.1,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Vineyard Town to Mona Road, Kingston",
+   "subject": "vineyard-town-2"
+  },
+  {
+   "id": "kgn_drive_vineyard_3",
+   "parent": "kgn_drive_vineyard_3",
+   "video_id": "P-AbmWV49TU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+   "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+   "file": "clips/P-AbmWV49TU_60-200.mp4",
+   "f0": 93.6,
+   "f1": 139.5,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Vineyard Town to Mona Road, Kingston",
+   "subject": "vineyard-town-3"
+  },
+  {
+   "id": "palisadoes_beach_aerial_1",
+   "parent": "palisadoes_beach_aerial_1",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_100-170.mp4",
+   "f0": 0.3,
+   "f1": 34.9,
+   "src_base": 100.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes beach aerial",
+   "subject": "palisadoes-beach-aerial-1"
+  },
+  {
+   "id": "palisadoes_beach_aerial_2",
+   "parent": "palisadoes_beach_aerial_2",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_100-170.mp4",
+   "f0": 35.4,
+   "f1": 69.5,
+   "src_base": 100.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes beach aerial",
+   "subject": "palisadoes-beach-aerial-2"
+  },
+  {
+   "id": "palisadoes_aerial_b",
+   "parent": "palisadoes_aerial_b",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_300-350.mp4",
+   "f0": 0.3,
+   "f1": 49.5,
+   "src_base": 300.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "palisadoes-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "palisadoes-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes and harbour aerial",
+   "subject": "palisadoes-aerial-b"
+  },
+  {
+   "id": "port_royal_aerial_1",
+   "parent": "port_royal_aerial_1",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_415-560.mp4",
+   "f0": 0.3,
+   "f1": 48.37,
+   "src_base": 415.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-1"
+  },
+  {
+   "id": "port_royal_aerial_2",
+   "parent": "port_royal_aerial_2",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_415-560.mp4",
+   "f0": 48.87,
+   "f1": 96.43,
+   "src_base": 415.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-2"
+  },
+  {
+   "id": "port_royal_aerial_3",
+   "parent": "port_royal_aerial_3",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_415-560.mp4",
+   "f0": 96.93,
+   "f1": 144.5,
+   "src_base": 415.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-3"
+  },
+  {
+   "id": "south_coast_sea_1",
+   "parent": "south_coast_sea_1",
+   "video_id": "6VvXOLRNFzA",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=6VvXOLRNFzA",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/6VvXOLRNFzA_150-300.mp4",
+   "f0": 0.3,
+   "f1": 74.9,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "South coast beach aerial, St Catherine",
+   "subject": "south-coast-sea-1"
+  },
+  {
+   "id": "south_coast_sea_2",
+   "parent": "south_coast_sea_2",
+   "video_id": "6VvXOLRNFzA",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=6VvXOLRNFzA",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/6VvXOLRNFzA_150-300.mp4",
+   "f0": 75.4,
+   "f1": 149.5,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "South coast beach aerial, St Catherine",
+   "subject": "south-coast-sea-2"
+  },
+  {
+   "id": "south_coast_sea_b_1",
+   "parent": "south_coast_sea_b_1",
+   "video_id": "6VvXOLRNFzA",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=6VvXOLRNFzA",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/6VvXOLRNFzA_300-460.mp4",
+   "f0": 0.3,
+   "f1": 79.9,
+   "src_base": 300.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "South coast aerial, St Catherine",
+   "subject": "south-coast-sea-b-1"
+  },
+  {
+   "id": "south_coast_sea_b_2",
+   "parent": "south_coast_sea_b_2",
+   "video_id": "6VvXOLRNFzA",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=6VvXOLRNFzA",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/6VvXOLRNFzA_300-460.mp4",
+   "f0": 80.4,
+   "f1": 159.5,
+   "src_base": 300.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "South coast aerial, St Catherine",
+   "subject": "south-coast-sea-b-2"
+  },
+  {
+   "id": "kgn_aerial_a_1",
+   "parent": "kgn_aerial_a_1",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_0-120.mp4",
+   "f0": 0.3,
+   "f1": 40.03,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Upper St Andrew, Kingston, from the air",
+   "subject": "st-andrew-aerial-a-1"
+  },
+  {
+   "id": "kgn_aerial_a_2",
+   "parent": "kgn_aerial_a_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_0-120.mp4",
+   "f0": 40.53,
+   "f1": 79.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Upper St Andrew, Kingston, from the air",
+   "subject": "st-andrew-aerial-a-2"
+  },
+  {
+   "id": "kgn_aerial_a_3",
+   "parent": "kgn_aerial_a_3",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_0-120.mp4",
+   "f0": 80.27,
+   "f1": 119.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Upper St Andrew, Kingston, from the air",
+   "subject": "st-andrew-aerial-a-3"
+  },
+  {
+   "id": "kgn_aerial_b_1",
+   "parent": "kgn_aerial_b_1",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_150-250.mp4",
+   "f0": 0.3,
+   "f1": 49.9,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston from the air",
+   "subject": "st-andrew-aerial-b-1"
+  },
+  {
+   "id": "kgn_aerial_b_2",
+   "parent": "kgn_aerial_b_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_150-250.mp4",
+   "f0": 50.4,
+   "f1": 99.5,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston from the air",
+   "subject": "st-andrew-aerial-b-2"
+  },
+  {
+   "id": "kgn_aerial_c_1",
+   "parent": "kgn_aerial_c_1",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_290-380.mp4",
+   "f0": 0.3,
+   "f1": 44.9,
+   "src_base": 290.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston hills from the air",
+   "subject": "st-andrew-aerial-c-1"
+  },
+  {
+   "id": "kgn_aerial_c_2",
+   "parent": "kgn_aerial_c_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_290-380.mp4",
+   "f0": 45.4,
+   "f1": 89.5,
+   "src_base": 290.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston hills from the air",
+   "subject": "st-andrew-aerial-c-2"
+  },
+  {
+   "id": "kingston_aerial",
+   "parent": "kingston_aerial",
+   "video_id": "pexels-37177254",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-s-urban-landscape-37177254/",
+   "title": "Aerial View of Kingston's Urban Landscape",
+   "file": "clips/pexels-37177254.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 32.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 3.5,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston urban landscape from the air",
+   "subject": "px-kingston-aerial"
+  },
+  {
+   "id": "kingston_dusk",
+   "parent": "kingston_dusk",
+   "video_id": "pexels-37177266",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-at-dusk-37177266/",
+   "title": "Aerial View of Kingston at Dusk",
+   "file": "clips/pexels-37177266.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.17,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.2,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston at dusk from the air",
+   "subject": "px-kingston-dusk"
+  },
+  {
+   "id": "kingston_landscape",
+   "parent": "kingston_landscape",
+   "video_id": "pexels-37177398",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-jamaica-landscape-37177398/",
+   "title": "Aerial View of Kingston, Jamaica Landscape",
+   "file": "clips/pexels-37177398.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 10.75,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston from the air",
+   "subject": "px-kingston-landscape"
+  },
+  {
+   "id": "kingston_hills",
+   "parent": "kingston_hills",
+   "video_id": "pexels-37177256",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-kingston-hills-37177256/",
+   "title": "Breathtaking Aerial View of Kingston Hills",
+   "file": "clips/pexels-37177256.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 20.76,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hills above Kingston from the air",
+   "subject": "px-kingston-hills"
+  },
+  {
+   "id": "kingston_hillside_1",
+   "parent": "kingston_hillside_1",
+   "video_id": "pexels-37177262",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-from-lush-hillside-37177262/",
+   "title": "Aerial View of Kingston from Lush Hillside",
+   "file": "clips/pexels-37177262.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 16.87,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 3.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston seen from the hillside",
+   "subject": "px-kingston-hillside-1"
+  },
+  {
+   "id": "kingston_hillside_2",
+   "parent": "kingston_hillside_2",
+   "video_id": "pexels-37177262",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-from-lush-hillside-37177262/",
+   "title": "Aerial View of Kingston from Lush Hillside",
+   "file": "clips/pexels-37177262.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 17.37,
+   "f1": 33.44,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 3.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston seen from the hillside",
+   "subject": "px-kingston-hillside-2"
+  },
+  {
+   "id": "kingston_sunset",
+   "parent": "kingston_sunset",
+   "video_id": "pexels-37177270",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-at-sunset-37177270/",
+   "title": "Aerial View of Kingston at Sunset",
+   "file": "clips/pexels-37177270.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 27.81,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston at sunset from the air",
+   "subject": "px-kingston-sunset"
+  },
+  {
+   "id": "kingston_cityscape_sunset",
+   "parent": "kingston_cityscape_sunset",
+   "video_id": "pexels-37177268",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-cityscape-at-sunset-37177268/",
+   "title": "Aerial View of Kingston Cityscape at Sunset",
+   "file": "clips/pexels-37177268.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 16.93,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston cityscape at sunset",
+   "subject": "px-kingston-cityscape-sunset"
+  },
+  {
+   "id": "kingston_dusk_b",
+   "parent": "kingston_dusk_b",
+   "video_id": "pexels-37177251",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-jamaica-at-dusk-37177251/",
+   "title": "Aerial View of Kingston, Jamaica at Dusk",
+   "file": "clips/pexels-37177251.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.63,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston at dusk",
+   "subject": "px-kingston-dusk-b"
+  },
+  {
+   "id": "kingston_residential",
+   "parent": "kingston_residential",
+   "video_id": "pexels-37177242",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-residential-neighborhood-in-jamaica-37177242/",
+   "title": "Aerial View of Residential Neighborhood in Jamaica",
+   "file": "clips/pexels-37177242.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.17,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial",
+    "kingston-street"
+   ],
+   "shows": [
+    "kingston-aerial",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Residential Kingston from the air",
+   "subject": "px-kingston-residential"
+  },
+  {
+   "id": "kingston_highway",
+   "parent": "kingston_highway",
+   "video_id": "pexels-37177245",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-bustling-jamaican-highway-37177245/",
+   "title": "Aerial View of Bustling Jamaican Highway",
+   "file": "clips/pexels-37177245.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 13.76,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial",
+    "kingston-street",
+    "driving-aerial"
+   ],
+   "shows": [
+    "kingston-aerial",
+    "kingston-street",
+    "driving-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Busy highway, Kingston area",
+   "subject": "px-kingston-highway"
+  },
+  {
+   "id": "kingston_roundabout",
+   "parent": "kingston_roundabout",
+   "video_id": "pexels-37177246",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-busy-roundabout-in-jamaica-37177246/",
+   "title": "Aerial View of Busy Roundabout in Jamaica",
+   "file": "clips/pexels-37177246.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.18,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial",
+    "kingston-street",
+    "driving-aerial"
+   ],
+   "shows": [
+    "kingston-aerial",
+    "kingston-street",
+    "driving-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Busy roundabout, Kingston area",
+   "subject": "px-kingston-roundabout"
+  },
+  {
+   "id": "kingston_coastline",
+   "parent": "kingston_coastline",
+   "video_id": "pexels-37177258",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-jamaica-s-coastline-37177258/",
+   "title": "Aerial View of Kingston, Jamaica's Coastline",
+   "file": "clips/pexels-37177258.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 12.92,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.4,
+   "tags": [
+    "kingston-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "kingston-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston city and coastline",
+   "subject": "px-kingston-coastline"
+  },
+  {
+   "id": "kingston_coast_sunrise",
+   "parent": "kingston_coast_sunrise",
+   "video_id": "pexels-37177259",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-kingston-coastline-at-sunrise-37177259/",
+   "title": "Aerial View of Kingston Coastline at Sunrise",
+   "file": "clips/pexels-37177259.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 15.72,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "kingston-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston coastline at sunrise",
+   "subject": "px-kingston-coast-sunrise"
+  },
+  {
+   "id": "kingston_harbour_twilight",
+   "parent": "kingston_harbour_twilight",
+   "video_id": "pexels-37177257",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-coastal-city-and-harbor-37177257/",
+   "title": "Aerial View of Coastal City and Harbor",
+   "file": "clips/pexels-37177257.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 9.75,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "kingston-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston harbour at twilight",
+   "subject": "px-kingston-harbour-twilight"
+  },
+  {
+   "id": "kingston_forest_urban_1",
+   "parent": "kingston_forest_urban_1",
+   "video_id": "pexels-37177253",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-forest-and-urban-landscape-37177253/",
+   "title": "Aerial View of Forest and Urban Landscape",
+   "file": "clips/pexels-37177253.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.17,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Forest meeting the city, Kingston",
+   "subject": "px-kingston-forest-urban-1"
+  },
+  {
+   "id": "kingston_forest_urban_2",
+   "parent": "kingston_forest_urban_2",
+   "video_id": "pexels-37177253",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-forest-and-urban-landscape-37177253/",
+   "title": "Aerial View of Forest and Urban Landscape",
+   "file": "clips/pexels-37177253.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 14.67,
+   "f1": 28.04,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Forest meeting the city, Kingston",
+   "subject": "px-kingston-forest-urban-2"
+  },
+  {
+   "id": "kingston_forest_urban_3",
+   "parent": "kingston_forest_urban_3",
+   "video_id": "pexels-37177253",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-forest-and-urban-landscape-37177253/",
+   "title": "Aerial View of Forest and Urban Landscape",
+   "file": "clips/pexels-37177253.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 28.54,
+   "f1": 41.91,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Forest meeting the city, Kingston",
+   "subject": "px-kingston-forest-urban-3"
+  },
+  {
+   "id": "jm_country_road",
+   "parent": "jm_country_road",
+   "video_id": "pexels-37177249",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-road-in-jamaica-s-countryside-37177249/",
+   "title": "Aerial View of Lush Road in Jamaica's Countryside",
+   "file": "clips/pexels-37177249.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 13.05,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Country road in Jamaica from the air",
+   "subject": "px-jm-country-road"
+  },
+  {
+   "id": "jm_countryside",
+   "parent": "jm_countryside",
+   "video_id": "pexels-37177248",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/scenic-aerial-view-of-jamaican-countryside-37177248/",
+   "title": "Scenic Aerial View of Jamaican Countryside",
+   "file": "clips/pexels-37177248.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 8.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican countryside from the air",
+   "subject": "px-jm-countryside"
+  },
+  {
+   "id": "jm_mountains_a",
+   "parent": "jm_mountains_a",
+   "video_id": "pexels-37177393",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/lush-green-jamaican-mountains-in-aerial-view-37177393/",
+   "title": "Lush Green Jamaican Mountains in Aerial View",
+   "file": "clips/pexels-37177393.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.09,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountains from the air",
+   "subject": "px-jm-mountains-a"
+  },
+  {
+   "id": "jm_mountains_b",
+   "parent": "jm_mountains_b",
+   "video_id": "pexels-37177434",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-lush-jamaican-mountains-37177434/",
+   "title": "Breathtaking Aerial View of Lush Jamaican Mountains",
+   "file": "clips/pexels-37177434.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.76,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 3.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountains from the air",
+   "subject": "px-jm-mountains-b"
+  },
+  {
+   "id": "jm_hills",
+   "parent": "jm_hills",
+   "video_id": "pexels-37177409",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-green-hills-37177409/",
+   "title": "Breathtaking Aerial View of Green Hills",
+   "file": "clips/pexels-37177409.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.68,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Green hills in Jamaica",
+   "subject": "px-jm-hills"
+  },
+  {
+   "id": "jm_mountain_c",
+   "parent": "jm_mountain_c",
+   "video_id": "pexels-37177263",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-green-mountain-landscape-37177263/",
+   "title": "Aerial View of Lush Green Mountain Landscape",
+   "file": "clips/pexels-37177263.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 16.97,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountain landscape",
+   "subject": "px-jm-mountain-c"
+  },
+  {
+   "id": "jm_mountain_coast_1",
+   "parent": "jm_mountain_coast_1",
+   "video_id": "pexels-37177265",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-drone-view-over-lush-green-mountain-37177265/",
+   "title": "Aerial Drone View Over Lush Green Mountain",
+   "file": "clips/pexels-37177265.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 15.14,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Green mountain and coastline, Jamaica",
+   "subject": "px-jm-mountain-coast-1"
+  },
+  {
+   "id": "jm_mountain_coast_2",
+   "parent": "jm_mountain_coast_2",
+   "video_id": "pexels-37177265",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-drone-view-over-lush-green-mountain-37177265/",
+   "title": "Aerial Drone View Over Lush Green Mountain",
+   "file": "clips/pexels-37177265.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 15.64,
+   "f1": 29.98,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Green mountain and coastline, Jamaica",
+   "subject": "px-jm-mountain-coast-2"
+  },
+  {
+   "id": "jm_forest_canopy_1",
+   "parent": "jm_forest_canopy_1",
+   "video_id": "pexels-37177267",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-jamaican-forest-canopy-37177267/",
+   "title": "Aerial View of Lush Jamaican Forest Canopy",
+   "file": "clips/pexels-37177267.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 12.04,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican forest canopy",
+   "subject": "px-jm-forest-canopy-1"
+  },
+  {
+   "id": "jm_forest_canopy_2",
+   "parent": "jm_forest_canopy_2",
+   "video_id": "pexels-37177267",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-jamaican-forest-canopy-37177267/",
+   "title": "Aerial View of Lush Jamaican Forest Canopy",
+   "file": "clips/pexels-37177267.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 12.54,
+   "f1": 23.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican forest canopy",
+   "subject": "px-jm-forest-canopy-2"
+  },
+  {
+   "id": "jm_forest_lake_1",
+   "parent": "jm_forest_lake_1",
+   "video_id": "pexels-37177269",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-forest-by-a-lake-37177269/",
+   "title": "Aerial View of Lush Forest by a Lake",
+   "file": "clips/pexels-37177269.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.04,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Forest by a lake, Jamaica",
+   "subject": "px-jm-forest-lake-1"
+  },
+  {
+   "id": "jm_forest_lake_2",
+   "parent": "jm_forest_lake_2",
+   "video_id": "pexels-37177269",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-forest-by-a-lake-37177269/",
+   "title": "Aerial View of Lush Forest by a Lake",
+   "file": "clips/pexels-37177269.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 14.54,
+   "f1": 27.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Forest by a lake, Jamaica",
+   "subject": "px-jm-forest-lake-2"
+  },
+  {
+   "id": "jm_landscape",
+   "parent": "jm_landscape",
+   "video_id": "pexels-37177397",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-jamaica-landscape-37177397/",
+   "title": "Aerial View of Lush Jamaica Landscape",
+   "file": "clips/pexels-37177397.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 8.83,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Lush Jamaica landscape",
+   "subject": "px-jm-landscape"
+  },
+  {
+   "id": "jm_hillside_house",
+   "parent": "jm_hillside_house",
+   "video_id": "pexels-37177410",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-hillside-house-with-lush-greenery-37177410/",
+   "title": "Aerial View of Hillside House with Lush Greenery",
+   "file": "clips/pexels-37177410.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.76,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hillside house in Jamaican hills",
+   "subject": "px-jm-hillside-house"
+  },
+  {
+   "id": "boroko",
+   "parent": "boroko",
+   "video_id": "pexels-26645622",
+   "creator": "Mathias  Yoba (Pexels)",
+   "url": "https://www.pexels.com/video/city-scape-boroko-26645622/",
+   "title": "City Scape Boroko",
+   "file": "clips/pexels-26645622.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.18,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 4.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Boroko, New Kingston area, at sunrise",
+   "subject": "px-boroko"
+  },
+  {
+   "id": "nk_drive_a_1",
+   "parent": "nk_drive_a_1",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_0-120.mp4",
+   "f0": 0.3,
+   "f1": 40.03,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "New Kingston, heading for South Camp Road",
+   "subject": "new-kingston-drive-a-1"
+  },
+  {
+   "id": "nk_drive_a_2",
+   "parent": "nk_drive_a_2",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_0-120.mp4",
+   "f0": 40.53,
+   "f1": 79.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "New Kingston, heading for South Camp Road",
+   "subject": "new-kingston-drive-a-2"
+  },
+  {
+   "id": "nk_drive_a_3",
+   "parent": "nk_drive_a_3",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_0-120.mp4",
+   "f0": 80.27,
+   "f1": 119.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "New Kingston, heading for South Camp Road",
+   "subject": "new-kingston-drive-a-3"
+  },
+  {
+   "id": "nk_drive_b_1",
+   "parent": "nk_drive_b_1",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_120-250.mp4",
+   "f0": 0.3,
+   "f1": 43.37,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, towards South Camp Road",
+   "subject": "new-kingston-drive-b-1"
+  },
+  {
+   "id": "nk_drive_b_2",
+   "parent": "nk_drive_b_2",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_120-250.mp4",
+   "f0": 43.87,
+   "f1": 86.43,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, towards South Camp Road",
+   "subject": "new-kingston-drive-b-2"
+  },
+  {
+   "id": "nk_drive_b_3",
+   "parent": "nk_drive_b_3",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_120-250.mp4",
+   "f0": 86.93,
+   "f1": 129.5,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, towards South Camp Road",
+   "subject": "new-kingston-drive-b-3"
+  },
+  {
+   "id": "nk_drive_c_1",
+   "parent": "nk_drive_c_1",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_250-380.mp4",
+   "f0": 0.3,
+   "f1": 43.37,
+   "src_base": 250.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, South Camp Road area",
+   "subject": "south-camp-drive-c-1"
+  },
+  {
+   "id": "nk_drive_c_2",
+   "parent": "nk_drive_c_2",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_250-380.mp4",
+   "f0": 43.87,
+   "f1": 86.43,
+   "src_base": 250.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, South Camp Road area",
+   "subject": "south-camp-drive-c-2"
+  },
+  {
+   "id": "nk_drive_c_3",
+   "parent": "nk_drive_c_3",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_250-380.mp4",
+   "f0": 86.93,
+   "f1": 129.5,
+   "src_base": 250.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, South Camp Road area",
+   "subject": "south-camp-drive-c-3"
+  },
+  {
+   "id": "nk_drive_d_1",
+   "parent": "nk_drive_d_1",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_380-500.mp4",
+   "f0": 0.3,
+   "f1": 40.03,
+   "src_base": 380.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, South Camp Road",
+   "subject": "south-camp-drive-d-1"
+  },
+  {
+   "id": "nk_drive_d_2",
+   "parent": "nk_drive_d_2",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_380-500.mp4",
+   "f0": 40.53,
+   "f1": 79.77,
+   "src_base": 380.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, South Camp Road",
+   "subject": "south-camp-drive-d-2"
+  },
+  {
+   "id": "nk_drive_d_3",
+   "parent": "nk_drive_d_3",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "url": "https://www.youtube.com/watch?v=EXrIIg9DTk0",
+   "title": "New Kingston to South Camp Road, Jamaica-\"Touring Jamaica Land We Love\"",
+   "file": "clips/EXrIIg9DTk0_380-500.mp4",
+   "f0": 80.27,
+   "f1": 119.5,
+   "src_base": 380.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Kingston, South Camp Road",
+   "subject": "south-camp-drive-d-3"
+  },
+  {
+   "id": "kgn_timelapse_1",
+   "parent": "kgn_timelapse_1",
+   "video_id": "5qYbTTy3S8g",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=5qYbTTy3S8g",
+   "title": "Timelapse just driving through Kingston",
+   "file": "clips/5qYbTTy3S8g_0-108.mp4",
+   "f0": 0.3,
+   "f1": 36.03,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Driving through Kingston (time-lapse)",
+   "subject": "kingston-timelapse-1"
+  },
+  {
+   "id": "kgn_timelapse_2",
+   "parent": "kgn_timelapse_2",
+   "video_id": "5qYbTTy3S8g",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=5qYbTTy3S8g",
+   "title": "Timelapse just driving through Kingston",
+   "file": "clips/5qYbTTy3S8g_0-108.mp4",
+   "f0": 36.53,
+   "f1": 71.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Driving through Kingston (time-lapse)",
+   "subject": "kingston-timelapse-2"
+  },
+  {
+   "id": "kgn_timelapse_3",
+   "parent": "kgn_timelapse_3",
+   "video_id": "5qYbTTy3S8g",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=5qYbTTy3S8g",
+   "title": "Timelapse just driving through Kingston",
+   "file": "clips/5qYbTTy3S8g_0-108.mp4",
+   "f0": 72.27,
+   "f1": 107.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Driving through Kingston (time-lapse)",
+   "subject": "kingston-timelapse-3"
+  },
+  {
+   "id": "portland_aerial_1",
+   "parent": "portland_aerial_1",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+   "title": "Portland, Jamaica",
+   "file": "clips/GBaTswg6mgs_0-138.mp4",
+   "f0": 0.3,
+   "f1": 46.03,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast, east Jamaica, from the air",
+   "subject": "portland-aerial-1"
+  },
+  {
+   "id": "portland_aerial_2",
+   "parent": "portland_aerial_2",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+   "title": "Portland, Jamaica",
+   "file": "clips/GBaTswg6mgs_0-138.mp4",
+   "f0": 46.53,
+   "f1": 91.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast, east Jamaica, from the air",
+   "subject": "portland-aerial-2"
+  },
+  {
+   "id": "portland_aerial_3",
+   "parent": "portland_aerial_3",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+   "title": "Portland, Jamaica",
+   "file": "clips/GBaTswg6mgs_0-138.mp4",
+   "f0": 92.27,
+   "f1": 137.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast, east Jamaica, from the air",
+   "subject": "portland-aerial-3"
+  },
+  {
+   "id": "portland_coast",
+   "parent": "portland_coast",
+   "video_id": "A7R4F02ZY68",
+   "creator": "Build With vegas",
+   "url": "https://www.youtube.com/watch?v=A7R4F02ZY68",
+   "title": "Jamaica | 4K cinematic video",
+   "file": "clips/A7R4F02ZY68_14-48.mp4",
+   "f0": 1.0,
+   "f1": 33.5,
+   "src_base": 14.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast, east Jamaica, from the air",
+   "subject": "portland-coast-b"
+  },
+  {
+   "id": "trident",
+   "parent": "trident",
+   "video_id": "xwah2a4CF3A",
+   "creator": "Digital Video Concept",
+   "url": "https://www.youtube.com/watch?v=xwah2a4CF3A",
+   "title": "Trident Aerial Lifestyle",
+   "file": "clips/xwah2a4CF3A_0-35.mp4",
+   "f0": 0.3,
+   "f1": 34.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Clifftop coast aerial, Portland",
+   "subject": "trident-aerial"
+  },
+  {
+   "id": "kgn_hills_view_00",
+   "parent": "kgn_hills_view_00",
+   "video_id": "fo-OT1OBeIs",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=fo-OT1OBeIs",
+   "title": "A Photographer's Paradise: 4K Nature Views of Kingston, Jamaica | Canon 90D",
+   "file": "clips/fo-OT1OBeIs_0-300.mp4",
+   "f0": 0.3,
+   "f1": 99.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston and the harbour from the St Andrew hills",
+   "subject": "kgn-hills-view-00"
+  },
+  {
+   "id": "kgn_hills_view_01",
+   "parent": "kgn_hills_view_01",
+   "video_id": "fo-OT1OBeIs",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=fo-OT1OBeIs",
+   "title": "A Photographer's Paradise: 4K Nature Views of Kingston, Jamaica | Canon 90D",
+   "file": "clips/fo-OT1OBeIs_0-300.mp4",
+   "f0": 100.3,
+   "f1": 199.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston and the harbour from the St Andrew hills",
+   "subject": "kgn-hills-view-01"
+  },
+  {
+   "id": "kgn_hills_view_02",
+   "parent": "kgn_hills_view_02",
+   "video_id": "fo-OT1OBeIs",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=fo-OT1OBeIs",
+   "title": "A Photographer's Paradise: 4K Nature Views of Kingston, Jamaica | Canon 90D",
+   "file": "clips/fo-OT1OBeIs_0-300.mp4",
+   "f0": 200.3,
+   "f1": 272.9,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston and the harbour from the St Andrew hills",
+   "subject": "kgn-hills-view-02"
+  },
+  {
+   "id": "kgn_hills_view_10",
+   "parent": "kgn_hills_view_10",
+   "video_id": "fo-OT1OBeIs",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=fo-OT1OBeIs",
+   "title": "A Photographer's Paradise: 4K Nature Views of Kingston, Jamaica | Canon 90D",
+   "file": "clips/fo-OT1OBeIs_1860-2240.mp4",
+   "f0": 0.3,
+   "f1": 126.4,
+   "src_base": 1860.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston and the harbour from the St Andrew hills",
+   "subject": "kgn-hills-view-10"
+  },
+  {
+   "id": "kgn_hills_view_11",
+   "parent": "kgn_hills_view_11",
+   "video_id": "fo-OT1OBeIs",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=fo-OT1OBeIs",
+   "title": "A Photographer's Paradise: 4K Nature Views of Kingston, Jamaica | Canon 90D",
+   "file": "clips/fo-OT1OBeIs_1860-2240.mp4",
+   "f0": 127.0,
+   "f1": 253.0,
+   "src_base": 1860.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston and the harbour from the St Andrew hills",
+   "subject": "kgn-hills-view-11"
+  },
+  {
+   "id": "kgn_hills_view_12",
+   "parent": "kgn_hills_view_12",
+   "video_id": "fo-OT1OBeIs",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=fo-OT1OBeIs",
+   "title": "A Photographer's Paradise: 4K Nature Views of Kingston, Jamaica | Canon 90D",
+   "file": "clips/fo-OT1OBeIs_1860-2240.mp4",
+   "f0": 253.6,
+   "f1": 379.7,
+   "src_base": 1860.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston and the harbour from the St Andrew hills",
+   "subject": "kgn-hills-view-12"
+  },
+  {
+   "id": "hellshire_00",
+   "parent": "hellshire_00",
+   "video_id": "egDSZto6Jmw",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=egDSZto6Jmw",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/egDSZto6Jmw_30-300.mp4",
+   "f0": 0.3,
+   "f1": 89.7,
+   "src_base": 30.0,
+   "src_speed": 1.0,
+   "play_speed": 3.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+   "subject": "hellshire-00"
+  },
+  {
+   "id": "hellshire_01",
+   "parent": "hellshire_01",
+   "video_id": "egDSZto6Jmw",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=egDSZto6Jmw",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/egDSZto6Jmw_30-300.mp4",
+   "f0": 144.0,
+   "f1": 157.0,
+   "src_base": 30.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+   "subject": "hellshire-01"
+  },
+  {
+   "id": "hellshire_02",
+   "parent": "hellshire_02",
+   "video_id": "egDSZto6Jmw",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=egDSZto6Jmw",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/egDSZto6Jmw_30-300.mp4",
+   "f0": 180.3,
+   "f1": 269.7,
+   "src_base": 30.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+   "subject": "hellshire-02"
+  },
+  {
+   "id": "hellshire_10",
+   "parent": "hellshire_10",
+   "video_id": "egDSZto6Jmw",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=egDSZto6Jmw",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/egDSZto6Jmw_540-840.mp4",
+   "f0": 0.3,
+   "f1": 99.7,
+   "src_base": 540.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+   "subject": "hellshire-10"
+  },
+  {
+   "id": "hellshire_11",
+   "parent": "hellshire_11",
+   "video_id": "egDSZto6Jmw",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=egDSZto6Jmw",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/egDSZto6Jmw_540-840.mp4",
+   "f0": 100.3,
+   "f1": 199.7,
+   "src_base": 540.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+   "subject": "hellshire-11"
+  },
+  {
+   "id": "hellshire_12",
+   "parent": "hellshire_12",
+   "video_id": "egDSZto6Jmw",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=egDSZto6Jmw",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/egDSZto6Jmw_540-840.mp4",
+   "f0": 200.3,
+   "f1": 299.7,
+   "src_base": 540.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+   "subject": "hellshire-12"
+  },
+  {
+   "id": "mona_drive_0",
+   "parent": "mona_drive_0",
+   "video_id": "AlE-3xK7aEg",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=AlE-3xK7aEg",
+   "title": "Kingston, Jamaica: Driving from Mona Road to Barbican Road via Millsborough",
+   "file": "clips/AlE-3xK7aEg_0-150.mp4",
+   "f0": 0.3,
+   "f1": 49.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Mona Road, Kingston",
+   "subject": "mona-drive-0"
+  },
+  {
+   "id": "mona_drive_1",
+   "parent": "mona_drive_1",
+   "video_id": "AlE-3xK7aEg",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=AlE-3xK7aEg",
+   "title": "Kingston, Jamaica: Driving from Mona Road to Barbican Road via Millsborough",
+   "file": "clips/AlE-3xK7aEg_0-150.mp4",
+   "f0": 50.3,
+   "f1": 99.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Mona Road, Kingston",
+   "subject": "mona-drive-1"
+  },
+  {
+   "id": "mona_drive_2",
+   "parent": "mona_drive_2",
+   "video_id": "AlE-3xK7aEg",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=AlE-3xK7aEg",
+   "title": "Kingston, Jamaica: Driving from Mona Road to Barbican Road via Millsborough",
+   "file": "clips/AlE-3xK7aEg_0-150.mp4",
+   "f0": 100.3,
+   "f1": 149.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Mona Road, Kingston",
+   "subject": "mona-drive-2"
+  },
+  {
+   "id": "hope_road_0",
+   "parent": "hope_road_0",
+   "video_id": "Uj4rTEQ4QCM",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=Uj4rTEQ4QCM",
+   "title": "Kingston, Jamaica: Driving from Hope Road to Coconut Industry Board on Waterloo Road",
+   "file": "clips/Uj4rTEQ4QCM_0-300.mp4",
+   "f0": 0.3,
+   "f1": 99.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Hope Road, New Kingston",
+   "subject": "hope-road-0"
+  },
+  {
+   "id": "hope_road_1",
+   "parent": "hope_road_1",
+   "video_id": "Uj4rTEQ4QCM",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=Uj4rTEQ4QCM",
+   "title": "Kingston, Jamaica: Driving from Hope Road to Coconut Industry Board on Waterloo Road",
+   "file": "clips/Uj4rTEQ4QCM_0-300.mp4",
+   "f0": 100.3,
+   "f1": 199.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Hope Road, New Kingston",
+   "subject": "hope-road-1"
+  },
+  {
+   "id": "hope_road_2",
+   "parent": "hope_road_2",
+   "video_id": "Uj4rTEQ4QCM",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=Uj4rTEQ4QCM",
+   "title": "Kingston, Jamaica: Driving from Hope Road to Coconut Industry Board on Waterloo Road",
+   "file": "clips/Uj4rTEQ4QCM_0-300.mp4",
+   "f0": 200.3,
+   "f1": 299.7,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Hope Road, New Kingston",
+   "subject": "hope-road-2"
+  },
+  {
+   "id": "coast_road_aerial",
+   "parent": "coast_road_aerial",
+   "video_id": "DTiioRRs3Bg",
+   "creator": "Making it with the Matthews",
+   "url": "https://www.youtube.com/watch?v=DTiioRRs3Bg",
+   "title": "DRIVE AROUND JAMAICA | FROM MONTEGO BAY TO NEGRIL WITH THE MOST AMAZING VIEWS",
+   "file": "clips/DTiioRRs3Bg_14-50.mp4",
+   "f0": 0.3,
+   "f1": 35.5,
+   "src_base": 14.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Coast road, St James, from the air",
+   "subject": "coast-road-aerial"
+  },
+  {
+   "id": "highway_aerial_1",
+   "parent": "highway_aerial_1",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 6.0,
+   "f1": 61.88,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway through the Jamaican hills, from the air",
+   "subject": "highway-aerial-1"
+  },
+  {
+   "id": "highway_aerial_2",
+   "parent": "highway_aerial_2",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 62.38,
+   "f1": 117.75,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway through the Jamaican hills, from the air",
+   "subject": "highway-aerial-2"
+  },
+  {
+   "id": "highway_aerial_3",
+   "parent": "highway_aerial_3",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 118.25,
+   "f1": 173.62,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway through the Jamaican hills, from the air",
+   "subject": "highway-aerial-3"
+  },
+  {
+   "id": "highway_aerial_4",
+   "parent": "highway_aerial_4",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 174.12,
+   "f1": 229.5,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway through the Jamaican hills, from the air",
+   "subject": "highway-aerial-4"
+  },
+  {
+   "id": "runaway_coast",
+   "parent": "runaway_coast",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_12-62.mp4",
+   "f0": 0.3,
+   "f1": 28.0,
+   "src_base": 12.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay coast, north Jamaica, from the air",
+   "subject": "runaway-coast"
+  },
+  {
+   "id": "rb_coast_a_1",
+   "parent": "rb_coast_a_1",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=Ymw6leiGhXw",
+   "title": "Drone fly over of Jewel Paradise Cove in Runaway Bay, Jamaica - January 2022.",
+   "file": "clips/Ymw6leiGhXw_140-205.mp4",
+   "f0": 14.0,
+   "f1": 39.25,
+   "src_base": 140.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay coastline, north Jamaica, from the air",
+   "subject": "rb-coast-a-1"
+  },
+  {
+   "id": "rb_coast_a_2",
+   "parent": "rb_coast_a_2",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=Ymw6leiGhXw",
+   "title": "Drone fly over of Jewel Paradise Cove in Runaway Bay, Jamaica - January 2022.",
+   "file": "clips/Ymw6leiGhXw_140-205.mp4",
+   "f0": 39.75,
+   "f1": 64.5,
+   "src_base": 140.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay coastline, north Jamaica, from the air",
+   "subject": "rb-coast-a-2"
+  },
+  {
+   "id": "rb_bay_d",
+   "parent": "rb_bay_d",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=OaDLJ5KtI2Y",
+   "title": "More drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/OaDLJ5KtI2Y_0-40.mp4",
+   "f0": 0.3,
+   "f1": 39.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast bay, Runaway Bay, from the air",
+   "subject": "rb-bay-d"
+  }
+ ],
+ "banned": [
+  {
+   "clip_id": "coast_road_aerial",
+   "why": "DTiioRRs3Bg 27-39 is a montage: boat, rafting and a person on green screen (vlogger face) at 5-8 s, not a coast-road aerial (found 11 Nov 2026)"
+  },
+  {
+   "clip_id": "kingston_cityscape_sunset",
+   "why": "near-static drone (camera-move gate: shift 0.5)"
+  },
+  {
+   "clip_id": "port_royal_aerial_1",
+   "why": "soft dusk aerial: locked-window lap_med 28.3 < sharp_lap_min 35 (measured 11 Nov 2026); use port_royal_aerial_2/3 (lap 114/87)"
+  }
+ ],
+ "scarce": [
+  "approach",
+  "coast-approach",
+  "air-arrival",
+  "airport-curb",
+  "airport-terminal",
+  "port-royal-aerial",
+  "palisadoes-road",
+  "kingston-aerial"
+ ],
+ "autoqc_ack": [
+  "kgn_aerial_b_1",
+  "highway_aerial_3",
+  "highway_aerial_1",
+  "kgn_aerial_c_1",
+  "portland_aerial_2",
+  "highway_aerial_4",
+  "kin_curb_2",
+  "hope_road_0",
+  "hope_road_1",
+  "hope_road_2",
+  "mona_drive_1",
+  "kingston_hillside_1",
+  "kingston_forest_urban_1",
+  "kgn_drive_vineyard_1",
+  "kgn_drive_vineyard_3",
+  "mona_drive_0",
+  "mona_drive_2",
+  "kingston_forest_urban_2",
+  "kingston_forest_urban_3",
+  "kgn_drive_vineyard_2",
+  "kingston_aerial",
+  "jm_forest_canopy_2",
+  "kgn_hills_view_00",
+  "kgn_hills_view_01",
+  "kgn_hills_view_02"
+ ],
+ "autoqc_ack_note": "Reviewed 11 Nov 2026 (Grok Bot) on a mid-frame contact sheet: aerial road/roof texture and tree canopy trip the text heuristic; dashboard edges trip the edge-band heuristic. No faces, watermarks or burned-in text. coast_road_aerial banned instead (green-screen face). 2026-11-11 01:26 JT review (mid-range frames + corner crops): kgn_drive_vineyard_2 edge band is the dashcam dashboard, not a logo (same as vineyard_1/3); kingston_aerial and jm_forest_canopy_2 'text' flags are building/canopy texture, no burned-in titles; kgn_hills_view_00/01/02 edge bands are static palm/foliage framing a St Andrew overlook, no channel bug (kgn_hills_view_02 f1 trimmed 299.7->272.9 so the croton close-up from 274s is out of the kingston-aerial range). coast_road_aerial stays BANNED (DTiioRRs3Bg montage includes a green-screen talking head at file ~20s / source ~34s); do not ack."
+}

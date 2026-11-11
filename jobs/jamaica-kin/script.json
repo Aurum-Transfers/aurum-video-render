@@ -48,9 +48,9 @@
    "disclosure": true,
    "pause": 0.6,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
-    "sea-aerial",
-    "jamaica-aerial"
+    "sea-aerial"
    ]
   },
   {
@@ -60,6 +60,7 @@
    ],
    "pause": 0.5,
    "need": [
+    "jamaica-aerial",
     "sea-aerial",
     "palisadoes-aerial"
    ]
@@ -99,7 +100,7 @@
    ]
   },
   {
-   "text": "It handles over two million passengers a year, and most of the island's airfreight.",
+   "text": "It handles over two million passengers a year, and most of the island's air freight.",
    "facts": [
     "k003"
    ],
@@ -127,9 +128,9 @@
    },
    "shots": 2,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
-    "sea-aerial",
-    "jamaica-aerial"
+    "sea-aerial"
    ]
   },
   {
@@ -140,6 +141,7 @@
    "pause": 0.4,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
     "palisadoes-aerial",
     "sea-aerial"
@@ -163,9 +165,9 @@
    "pause": 0.3,
    "shots": 1,
    "need": [
+    "jamaica-aerial",
     "sea-aerial",
-    "palisadoes-aerial",
-    "jamaica-aerial"
+    "palisadoes-aerial"
    ]
   },
   {
@@ -180,9 +182,9 @@
    },
    "shots": 2,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
-    "palisadoes-aerial",
-    "jamaica-aerial"
+    "palisadoes-aerial"
    ]
   },
   {
@@ -194,9 +196,9 @@
    "pause": 0.35,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
-    "sea-aerial",
-    "jamaica-aerial"
+    "sea-aerial"
    ]
   },
   {
@@ -207,8 +209,8 @@
    "pause": 0.35,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
-    "port-royal-aerial",
     "sea-aerial"
    ]
   },
@@ -221,10 +223,10 @@
    "pause": 0.35,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
     "kingston-aerial",
     "palisadoes-aerial",
-    "sea-aerial",
-    "jamaica-aerial"
+    "sea-aerial"
    ]
   },
   {
@@ -235,31 +237,28 @@
    "pause": 0.4,
    "shots": 1,
    "need": [
+    "jamaica-aerial",
     "sea-aerial",
-    "palisadoes-aerial",
-    "jamaica-aerial"
+    "palisadoes-aerial"
    ]
   },
   {
-   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
-   "prompt": {
-    "badge": "LIKE",
-    "text": "Saved you a headache? Tap like"
-   },
-   "pause": 0.7,
-   "shots": 2,
+   "text": "That's the paperwork done.",
+   "pause": 0.5,
+   "shots": 1,
    "need": [
-    "kingston-aerial",
-    "port-royal-aerial"
+    "jamaica-aerial",
+    "kingston-aerial"
    ]
   },
   {
    "text": "Through customs? Here's how to get to your hotel.",
-   "chapter": "2. Kingston Airport to Hotel: Transfer, Taxi or Rental",
+   "chapter": "2. From Norman Manley (KIN) to Your Hotel: Transfer, Taxi or Rental",
    "pause": 0.4,
    "need": [
-    "airport-curb",
-    "airport-terminal"
+    "palisadoes-aerial",
+    "sea-aerial",
+    "jamaica-aerial"
    ]
   },
   {
@@ -281,6 +280,7 @@
     "k007"
    ],
    "pause": 0.35,
+   "lift": 1.6,
    "map": {
     "route": [
      "airport",
@@ -366,16 +366,13 @@
    ]
   },
   {
-   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
-   "prompt": {
-    "badge": "LINK BELOW",
-    "text": "Transfer, taxi or rental? Compare in the description"
-   },
-   "pause": 0.7,
-   "shots": 2,
+   "text": "So that's the choice: transfer, taxi or rental.",
+   "pause": 0.5,
+   "shots": 1,
    "need": [
-    "kingston-aerial",
-    "driving"
+    "driving",
+    "kingston-street",
+    "kingston-aerial"
    ]
   },
   {
@@ -442,7 +439,7 @@
    ]
   },
   {
-   "text": "You can tour the old fort, then head for the beaches at Lime Cay.",
+   "text": "Tour the old fort, then head for Lime Cay and its beaches.",
    "facts": [
     "k015"
    ],
@@ -487,6 +484,8 @@
    "pause": 0.35,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
+    "driving",
     "kingston-aerial",
     "kingston-street"
    ]
@@ -500,9 +499,10 @@
    "pause": 0.4,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
+    "driving",
     "sea-aerial",
-    "beach-aerial",
-    "jamaica-aerial"
+    "beach-aerial"
    ]
   },
   {
@@ -510,10 +510,11 @@
    "pause": 0.35,
    "shots": 2,
    "need": [
+    "jamaica-aerial",
+    "driving",
     "kingston-aerial",
     "palisadoes-aerial",
-    "sea-aerial",
-    "jamaica-aerial"
+    "sea-aerial"
    ]
   },
   {
@@ -523,10 +524,260 @@
     "text": "Subscribe for the next arrival guide"
    },
    "pause": 0.6,
+   "shots": 4,
    "need": [
     "sea-aerial",
     "port-royal-aerial",
-    "beach-aerial"
+    "beach-aerial",
+    "jamaica-aerial",
+    "kingston-aerial",
+    "kingston-street",
+    "driving"
+   ]
+  }
+ ],
+ "package": {
+  "title": "Kingston Airport Arrival 2026: Transfer, Taxi or Rental (KIN)",
+  "tags": [
+   "Kingston",
+   "Kingston airport",
+   "Norman Manley airport",
+   "KIN airport",
+   "Jamaica airport transfer",
+   "Jamaica 2026"
+  ],
+  "line2": "Ride, data and bed sorted before you land at Kingston's Norman Manley airport (KIN).",
+  "intro_chapter": "Kingston airport arrival: 3 ways to your hotel",
+  "hashtags": "#Kingston #JamaicaTravel #Jamaica2026",
+  "main_url": "https://aurum-transfers.com/airport-transfers/kin-kingston",
+  "main_heading": "AURUM TRANSFERS",
+  "airport": "Norman Manley airport (KIN)",
+  "iata": "KIN",
+  "thumb_text": "KINGSTON AIRPORT",
+  "thumb_sub": "Transfer, taxi or rental",
+  "country": "Jamaica"
+ },
+ "shorts": [
+  {
+   "title": "Kingston airport: 3 ways to your hotel",
+   "hook_text": "LANDING IN KINGSTON?",
+   "lines": [
+    {
+     "text": "Landing in Kingston? Here are three ways to get to your hotel.",
+     "need": [
+      "approach",
+      "air-arrival",
+      "window-seat"
+     ],
+     "pause": 0.3,
+     "hook": true
+    },
+    {
+     "text": "The airport sits on the Palisadoes peninsula, about twenty minutes from Kingston's business centre.",
+     "need": [
+      "palisadoes-aerial",
+      "sea-aerial"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "k002"
+     ]
+    },
+    {
+     "text": "One: a pre-booked private transfer, so your driver is arranged before you land.",
+     "need": [
+      "palisadoes-road",
+      "driving"
+     ],
+     "pause": 0.3,
+     "lift": 1.2,
+     "lower": {
+      "text": "1 · PRIVATE TRANSFER",
+      "sub": "Pre-booked"
+     }
+    },
+    {
+     "text": "Two: an approved taxi. The UK advises Jamaican Tourist Board taxis with a blue JTB sticker.",
+     "need": [
+      "driving",
+      "kingston-street"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "k011"
+     ],
+     "lower": {
+      "text": "2 · APPROVED TAXI",
+      "sub": "Blue JTB sticker"
+     }
+    },
+    {
+     "text": "Three: a rental car. Jamaica drives on the left.",
+     "need": [
+      "driving",
+      "kingston-street"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "f1014"
+     ],
+     "lower": {
+      "text": "3 · RENTAL CAR",
+      "sub": "Drive on the left"
+     }
+    },
+    {
+     "text": "Compare partner transfers through the link in the description.",
+     "need": [
+      "kingston-aerial",
+      "driving",
+      "kingston-street"
+     ],
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "title": "Flying to Kingston? Do this before you board",
+   "hook_text": "BEFORE YOU FLY TO KINGSTON",
+   "lines": [
+    {
+     "text": "Flying into Kingston? Do this before you board.",
+     "need": [
+      "approach",
+      "air-arrival",
+      "window-seat"
+     ],
+     "pause": 0.3,
+     "hook": true
+    },
+    {
+     "text": "Fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
+     "need": [
+      "kingston-aerial",
+      "jamaica-aerial"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "f589"
+     ],
+     "lower": {
+      "text": "C5 FORM",
+      "sub": "Online, before you fly"
+     }
+    },
+    {
+     "text": "Your passport must stay valid for your whole stay, and your airline's rules may be stricter.",
+     "need": [
+      "jamaica-aerial",
+      "kingston-aerial"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "f580",
+      "f679"
+     ]
+    },
+    {
+     "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+     "need": [
+      "sea-aerial",
+      "jamaica-aerial"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "f590",
+      "f591"
+     ]
+    },
+    {
+     "text": "And never carry anything through customs for anyone else.",
+     "need": [
+      "driving",
+      "kingston-street"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "f626"
+     ],
+     "lift": 1.2
+    },
+    {
+     "text": "Then pick your ride: transfer, approved taxi or rental. The comparison link is in the description.",
+     "need": [
+      "palisadoes-road",
+      "driving"
+     ],
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "title": "Kingston in 40 seconds",
+   "hook_text": "KINGSTON IN 40 SECONDS",
+   "lines": [
+    {
+     "text": "Three things to do in Kingston, straight from the airport.",
+     "need": [
+      "kingston-aerial"
+     ],
+     "pause": 0.3,
+     "hook": true
+    },
+    {
+     "text": "One: the Bob Marley Museum, the house where he lived and recorded many of his songs.",
+     "need": [
+      "kingston-aerial",
+      "kingston-street"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "k014"
+     ]
+    },
+    {
+     "text": "Two: Port Royal, once called the richest and wickedest city on earth.",
+     "need": [
+      "port-royal-aerial"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "k015"
+     ]
+    },
+    {
+     "text": "Three: tour the old fort, then head for Lime Cay and its beaches.",
+     "need": [
+      "port-royal-aerial",
+      "beach-aerial",
+      "sea-aerial"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "k015"
+     ]
+    },
+    {
+     "text": "From Norman Manley, the drive runs along the Palisadoes road, with the harbour on one side and the sea on the other.",
+     "need": [
+      "palisadoes-road",
+      "driving"
+     ],
+     "pause": 0.3,
+     "facts": [
+      "k007"
+     ],
+     "lift": 1.2
+    },
+    {
+     "text": "Compare partner transfers through the link in the description.",
+     "need": [
+      "kingston-street",
+      "driving",
+      "kingston-aerial"
+     ],
+     "pause": 0.6
+    }
    ]
   }
  ]
