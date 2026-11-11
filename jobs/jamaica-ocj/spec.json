@@ -1,0 +1,152 @@
+{
+ "slug": "jamaica-ocj",
+ "place": "Ocho Rios, Jamaica",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "speed": 1.0,
+ "map": {
+  "geojson": "assets/maps/jamaica.geojson",
+  "places": "videos/jamaica-travel-guide/places-ocj.json"
+ },
+ "public_dir": "jobs/jamaica-ocj/build/public",
+ "facts": "videos/jamaica-travel-guide/facts.json",
+ "pronunciations": "videos/jamaica-travel-guide/pronunciations.json",
+ "disclosure_overlay": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels.",
+ "brand": "AURUM TRANSFERS",
+ "output_stem": "v6-full",
+ "place_names": [
+  "Ian Fleming",
+  "Boscobel",
+  "Saint Mary",
+  "Ocho Rios",
+  "Oracabessa",
+  "GoldenEye",
+  "James Bond",
+  "Dunn's River",
+  "Runaway Bay",
+  "Sangster",
+  "Montego Bay",
+  "Norman Manley",
+  "Kingston",
+  "JTB",
+  "Melissa",
+  "C5"
+ ],
+ "stt_alias": {
+  "JUTA": [
+   "Juta",
+   "Jutah",
+   "J U T A"
+  ],
+  "JCAL": [
+   "J Cal",
+   "JCal",
+   "Jay Cal",
+   "J-Cal",
+   "Jaykal",
+   "Jay-Cal",
+   "Jay Kal",
+   "JKal"
+  ],
+  "C5": [
+   "C five",
+   "C-5",
+   "C 5"
+  ],
+  "Dunn's River": [
+   "Dunns River",
+   "Dunn River",
+   "Dun's River"
+  ],
+  "Doctor's Cave": [
+   "Doctors Cave",
+   "Doctor Cave",
+   "Dr's Cave",
+   "Drs. Cave",
+   "Dr. Cave",
+   "Drs Cave"
+  ],
+  "Negril": [
+   "Negril",
+   "Nigril",
+   "Ne gril",
+   "Neggrill",
+   "Negrill",
+   "Nagrill",
+   "Negrill",
+   "Nagril"
+  ],
+  "Gloucester": [
+   "Gloucester",
+   "Gloster"
+  ],
+  "Knutsford": [
+   "Nutsford",
+   "Knutsford"
+  ],
+  "Sangster": [
+   "Sangster",
+   "Sankster",
+   "Sanxter"
+  ],
+  "Palisadoes": [
+   "Palisados",
+   "Palisade oes",
+   "Palisadoes",
+   "Palaisado's",
+   "Palaisados",
+   "Palaisado",
+   "Palisado's"
+  ],
+  "JTB": [
+   "J T B",
+   "JTB",
+   "J.T.B."
+  ],
+  "Lime Cay": [
+   "Lime Key",
+   "Lime Kay",
+   "Lime Cay"
+  ],
+  "Humming Bird": [
+   "Hummingbird",
+   "Humming bird"
+  ],
+  "Norman Manley": [
+   "Norman Manly",
+   "Norman Manley"
+  ],
+  "Oracabessa": [
+   "Oracabesa",
+   "Ora Kabessa",
+   "Orakabessa",
+   "Ora-ka-bessa"
+  ],
+  "Boscobel": [
+   "Bosco Bell",
+   "Boscobell",
+   "Bosco-bell"
+  ],
+  "GoldenEye": [
+   "Golden Eye"
+  ]
+ },
+ "evidence_dirs": [
+  "pool/jamaica/licence",
+  "pool/jamaica-ocj/screen",
+  "pool/jamaica-kin/licence",
+  "videos"
+ ],
+ "respell": {
+  "JTB": "J T B",
+  "Oracabessa": "Ora-ka-bessa",
+  "Boscobel": "Bosco-bell"
+ },
+ "ipa": {},
+ "ambient_gain": 0.3,
+ "lift_min_count": 3,
+ "scope": "full",
+ "gate_exceptions": {
+  "why": "Marvin t225u 2026-11-10: no licensed OCJ landing footage exists; the opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled 'Approach footage: Jamaica's north coast'; narration says 'flying into Jamaica's north coast', never that it is OCJ."
+ }
+}

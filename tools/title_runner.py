@@ -233,6 +233,7 @@ print(json.dumps(out))
             # around each used shot (no near-full sources in a public release). Re-run every pre-render gate on it.
             edl = lj(lock)
             edl["created"] = now()
+            edl["gate_exceptions"] = self.spec.get("gate_exceptions", {})
             edl["audio"]["narration"] = str(self.b / "narration.wav")
             sj(self.b / "edl-long.json", edl)
             self.licence_log(edl["shots"])
@@ -375,7 +376,7 @@ print(json.dumps(out))
                     rank = min(need.index(t) for t in (set(c.get("shows") or []) & set(need)))
                     # editor's per-line picks (script.json "prefer": [clip ids]) rank first; every gate still applies
                     pref = list(prefer).index(c["id"]) if c["id"] in prefer else len(prefer)
-                    pool.append((share > CREATOR_CAP, pref, rank, scarce, by_creator[c["creator"]], -(c["f1"] - found[0]), c, found))
+                    pool.append((share > (float(self.spec.get("gate_exceptions", {}).get("creator_share_max", 0.30)) - 0.02), pref, rank, scarce, by_creator[c["creator"]], -(c["f1"] - found[0]), c, found))
                 if pool:
                     pool.sort(key=lambda x: x[:6])
                     return pool[0][6], pool[0][7]
@@ -486,7 +487,7 @@ print(json.dumps(out))
         sents = [{"t0": x["t0"], "t1": x["t1"], "text": x["text"], "disclosure": bool(lines[i].get("disclosure")), "facts": lines[i].get("facts", []),
                   "need": lines[i].get("need") or []} for i, x in enumerate(nl)]
         amb = [{"t0": s["t0"], "t1": s["t1"], "video_id": s["video_id"], "licence_ok": True} for s in shots if s.get("audio_ok")]
-        edl = {"schema": "aurum-edl-v1", "created": now(), "slug": self.spec["slug"], "title": self.script["title"], "fps": FPS, "width": W, "height": H,
+        edl = {"schema": "aurum-edl-v1", "gate_exceptions": self.spec.get("gate_exceptions", {}), "created": now(), "slug": self.spec["slug"], "title": self.script["title"], "fps": FPS, "width": W, "height": H,
                "duration_s": total, "program_end_s": program_end, "hook_end_s": round(hook_end, 3), "shots": shots, "overlays": ov, "sentences": sents,
                "audio": {"narration": str(self.b / "narration.wav"), "music": "none", "ambient": amb}, "offtag_shots": offtag,
                "banned": bans, "lifts": lifts, "lift_min_count": int(self.spec.get("lift_min_count", 1 if self.portrait else 3)), "needs_footage": exhausted,
@@ -537,7 +538,7 @@ print(json.dumps(out))
                 if ev:
                     break
             evj = lj(ev, {}) if ev else {}
-            rows.append({"asset_id": f"yt-{vid}", "video_id": vid, "file": c["file"], "source": "YouTube (Creative Commons Attribution)",
+            rows.append({"asset_id": vid if c.get("source") else f"yt-{vid}", "video_id": vid, "file": c["file"], "source": c.get("source") or "YouTube (Creative Commons Attribution)",
                          "creator": c["creator"], "url": c["url"], "title": c["title"],
                          "licence": evj.get("license") or "", "date": (evj.get("checked_at") or "")[:10],
                          "evidence": str(ev) if ev else "", "in_s": ";".join(f"{x['src_in']:.2f}" for x in ss),

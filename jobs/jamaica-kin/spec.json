@@ -130,5 +130,14 @@
  "ipa": {},
  "ambient_gain": 0.3,
  "lift_min_count": 3,
- "scope": "full"
+ "scope": "full",
+ "gate_exceptions": {
+  "sharp_exempt_clips": [
+   "kin_descent",
+   "kin_approach_hills",
+   "kin_approach_sea"
+  ],
+  "sharp_exempt_lap_min": 15.0,
+  "why": "Marvin t225u 2026-11-10: 8tevGZVbe88 (Love Charmzworld window seat) is the only real Norman Manley landing footage found on CC BY YouTube, Pexels and Pixabay; used short, sped up (and stabilised) as a documented sharpness exception for the landing shots only."
+ }
 }

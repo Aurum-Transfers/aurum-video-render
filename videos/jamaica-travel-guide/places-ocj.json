@@ -1,0 +1,13 @@
+{
+ "outline": "assets/maps/jamaica.geojson",
+ "_note": "Illustrative marker positions for a stylised map; not navigational. Not cited as facts.",
+ "places": {
+  "airport": {"label": "Ian Fleming Intl (OCJ)", "lon": -76.969, "lat": 18.4047},
+  "ocho": {"label": "Ocho Rios", "lon": -77.1031, "lat": 18.4074},
+  "dunns": {"label": "Dunn's River Falls", "lon": -77.1347, "lat": 18.412},
+  "goldeneye": {"label": "GoldenEye, Oracabessa", "lon": -76.947, "lat": 18.405},
+  "oracabessa": {"label": "Oracabessa", "lon": -76.95, "lat": 18.402},
+  "mobay": {"label": "Montego Bay (MBJ)", "lon": -77.8939, "lat": 18.4762},
+  "kingston": {"label": "Kingston (KIN)", "lon": -76.7875, "lat": 17.9357}
+ }
+}

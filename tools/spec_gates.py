@@ -77,7 +77,7 @@ FOOTAGE_KINDS = {"clip"}
 MAP_KINDS = {"map"}
 PREVIEW_MAX_S = 180.0  # longest program that may use the preview scope (see chapter gate)
 BANNED_KINDS = {"illustration", "text", "fallback", "placeholder", "still", "sea", "desert", "town", "calendar", "checklist"}
-CC_BY = re.compile(r"creative commons attribution", re.I)
+CC_BY = re.compile(r"creative commons attribution|pexels license|pixabay content license", re.I)  # Pexels/Pixabay approved in footage-sources.md
 STRESS = re.compile(r"\b(landed|landing|arriv\w*|airport|hotel|not sure|stress|first hour)\b", re.I)
 THREE_WAYS = (re.compile(r"transfer", re.I), re.compile(r"taxi", re.I), re.compile(r"rental|rent a car|hire car", re.I))
 NUMBERED = re.compile(r"^\s*\d+\s*[.)]\s+\S")
@@ -159,6 +159,11 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
 
     shots = sorted(edl.get("shots", []), key=lambda s: s["t0"])
     ovs = edl.get("overlays", [])
+    # per-job documented exceptions (spec.json "gate_exceptions"); every one is echoed into the gate detail
+    exc = edl.get("gate_exceptions") or {}
+    cap = float(exc.get("creator_share_max", SPEC["creator_share_max"]))
+    sharp_exempt = tuple(exc.get("sharp_exempt_clips", []))
+    sharp_floor = float(exc.get("sharp_exempt_lap_min", 15.0))
     program = float(edl.get("program_end_s") or edl.get("duration_s") or 0)
     dur = lambda x: max(0.0, min(float(x["t1"]), program) - max(0.0, float(x["t0"])))
 
@@ -209,7 +214,7 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
         if s.get("kind") in FOOTAGE_KINDS:
             by[s.get("creator") or "?"] += dur(s)
     shares = {k: round(v / foot, 4) for k, v in sorted(by.items(), key=lambda kv: -kv[1])} if foot else {}
-    add("creator_share_le_30", bool(shares) and max(shares.values()) <= SPEC["creator_share_max"], shares)
+    add("creator_share_le_30", bool(shares) and max(shares.values()) <= cap, shares if cap == SPEC["creator_share_max"] else {"shares": shares, "exception_cap": cap})
     # 7 footage from frame 1
     first = shots[0] if shots else {}
     add("footage_from_frame_1", bool(first) and first.get("kind") in FOOTAGE_KINDS and float(first["t0"]) == 0.0, {"first": first.get("kind"), "t0": first.get("t0")})
@@ -386,16 +391,20 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
             still.append({"t0": s["t0"], "clip": s.get("clip_id"), "shift": round(sh_, 2), "gmot": round(gm_, 2)})
     add("camera_moves_no_still_drone", not still, still[:40] or "none")
     # (1e) v6: source quality: >=1080p effective, >=24 fps, sharp
-    lowq = []
+    lowq = []; sharp_ex_used = []
     for s in clip_shots:
         qq = qual.get(s.get("clip_id")) or qual.get(s.get("parent")) or {}
         why = []
         if (qq.get("eff_h") or 0) < SPEC["src_height_min"]: why.append(f"eff_h {qq.get('eff_h')}")
         if (qq.get("src_fps") or 0) < SPEC["src_fps_min"]: why.append(f"fps {qq.get('src_fps')}")
-        if qq.get("lap_med") is None or qq["lap_med"] < SPEC["sharp_lap_min"]: why.append(f"lap {qq.get('lap_med')}")
+        cid = str(s.get("clip_id") or "")
+        exempt = bool(sharp_exempt) and cid.startswith(sharp_exempt) and (qq.get("lap_med") or 0) >= sharp_floor
+        if qq.get("lap_med") is None or qq["lap_med"] < SPEC["sharp_lap_min"]:
+            if exempt: sharp_ex_used.append({"t0": s["t0"], "clip": cid, "lap": qq.get("lap_med")})
+            else: why.append(f"lap {qq.get('lap_med')}")
         if why:
             lowq.append({"t0": s["t0"], "clip": s.get("clip_id"), "why": why})
-    add("source_quality_1080p_24fps_sharp", not lowq, lowq[:40] or "none")
+    add("source_quality_1080p_24fps_sharp", not lowq, lowq[:40] or ({"documented_sharpness_exceptions": sharp_ex_used} if sharp_ex_used else "none"))
     # (2) brightness floor
     dark = [{"t0": s["t0"], "clip": s.get("clip_id"), "y_mean": q(s, "y_mean"), "y_min": q(s, "y_min")} for s in clip_shots
             if q(s, "y_mean") is None or q(s, "y_mean") < SPEC["luma_mean_min"] or (q(s, "y_min") or 0) < SPEC["luma_frame_min"]]
