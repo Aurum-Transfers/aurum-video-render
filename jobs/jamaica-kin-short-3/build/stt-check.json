@@ -1,0 +1,91 @@
+{
+ "created": "2026-11-11T08:20:41-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Kingston",
+   "heard": "three things to do in Kingston, straight from the airport.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 1,
+   "name": "Bob Marley",
+   "heard": "One, the Bob Marley Museum, the house where he lived and recorded many of his songs.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 2,
+   "name": "Port Royal",
+   "heard": "Two Port Royal, once called the richest and wickedest city on Earth.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 3,
+   "name": "Lime Cay",
+   "heard": "Three tour the old fort, then head for Lime Key and its beaches.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Norman Manley",
+   "heard": "From Norman Manley, the drive runs along the Palisados Road, with the harbour on one side and the sea on the other.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Palisadoes",
+   "heard": "From Norman Manley, the drive runs along the Palisados Road, with the harbour on one side and the sea on the other.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 6,
+ "total": 6,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "airport",
+   "last_word_heard": true,
+   "heard": "three things to do in Kingston, straight from the airport."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "songs",
+   "last_word_heard": true,
+   "heard": "One, the Bob Marley Museum, the house where he lived and recorded many of his songs."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "earth",
+   "last_word_heard": true,
+   "heard": "Two Port Royal, once called the richest and wickedest city on Earth."
+  },
+  {
+   "line": 3,
+   "recall": 0.923,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Three tour the old fort, then head for Lime Key and its beaches."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "other",
+   "last_word_heard": true,
+   "heard": "From Norman Manley, the drive runs along the Palisados Road, with the harbour on one side and the sea on the other."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}

@@ -1,0 +1,637 @@
+{
+ "schema": "aurum-edl-v1",
+ "gate_exceptions": {
+  "sharp_exempt_clips": [
+   "kin_descent_1",
+   "kin_approach_hills",
+   "kin_approach_sea"
+  ],
+  "sharp_exempt_lap_min": 12.0,
+  "why": "Marvin t225u 2026-11-10: 8tevGZVbe88 (Love Charmzworld window seat) is the only real Norman Manley landing footage found on CC BY YouTube, Pexels and Pixabay; used short, sped up (and stabilised) as a documented sharpness exception for the landing shots only. Creator cap raised to 40% for this video only (t225u option d): only 5 licensed creators film Kingston.",
+  "creator_share_max": 0.4
+ },
+ "created": "2026-11-11T08:42:15-05:00",
+ "slug": "jamaica-kin-short-3",
+ "title": "Kingston in 40 seconds",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration_s": 40.991,
+ "program_end_s": 38.991,
+ "hook_end_s": 3.777,
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 4.0333,
+   "frames": 121,
+   "kind": "clip",
+   "clip_id": "kingston_hillside_1",
+   "video_id": "pexels-37177262",
+   "creator": "K (Pexels)",
+   "file": "jobs/jamaica-kin-short-3/clips/pexels-37177262_0-16.mp4",
+   "file_in": 0.1,
+   "play_speed": 3.0,
+   "src_in": 0.1,
+   "src_out": 12.2,
+   "tag": "kingston-aerial",
+   "shows": [
+    "kingston-aerial"
+   ],
+   "qc": {
+    "mot_med": 15.75,
+    "mot_min": 14.794,
+    "y_mean": 90.3,
+    "y_min": 84.9,
+    "dh": [
+     14739357503397927522,
+     15697149968333548645,
+     11368856031258661466,
+     2170593448981023381
+    ]
+   },
+   "parent": "kingston_hillside_1",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Kingston seen from the hillside",
+   "subject": "px-kingston-hillside-1",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.5828,
+    "cx1": 0.5891,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 4.0333,
+   "t1": 9.7667,
+   "frames": 172,
+   "kind": "clip",
+   "clip_id": "kgn_aerial_b_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "file": "jobs/jamaica-kin-short-3/clips/12BhNaqKtPg_198-205.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 198.1,
+   "src_out": 203.833,
+   "tag": "kingston-aerial",
+   "shows": [
+    "kingston-aerial"
+   ],
+   "qc": {
+    "mot_med": 7.254,
+    "mot_min": 5.146,
+    "y_mean": 111.0,
+    "y_min": 107.6,
+    "dh": [
+     2707107758663046558,
+     1702840188691637608,
+     1711658207091801128,
+     1658320906746173364,
+     6851042143945372181,
+     17227344490076387475
+    ]
+   },
+   "parent": "kgn_aerial_b_2",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Kingston from the air",
+   "subject": "st-andrew-aerial-b-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.2922,
+    "cx1": 0.45,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 9.7667,
+   "t1": 14.6333,
+   "frames": 146,
+   "kind": "clip",
+   "clip_id": "port_royal_aerial_2",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "file": "jobs/jamaica-kin-short-3/clips/kth3xDGlYOo_462-470.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 462.1,
+   "src_out": 469.4,
+   "tag": "port-royal-aerial,beach-aerial",
+   "shows": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "parent": "port_royal_aerial_2",
+   "line": 2,
+   "audio_ok": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 4.214,
+    "mot_min": 4.043,
+    "y_mean": 101.3,
+    "y_min": 99.9,
+    "dh": [
+     10425895511778976155,
+     2389767023747722217,
+     2963413060776914153,
+     7575098796256488566,
+     7575091064243579758
+    ]
+   },
+   "reframe": {
+    "cx0": 0.4578,
+    "cx1": 0.4734,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 14.6333,
+   "t1": 18.9667,
+   "frames": 130,
+   "kind": "clip",
+   "clip_id": "port_royal_aerial_3",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "file": "jobs/jamaica-kin-short-3/clips/kth3xDGlYOo_510-518.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 510.1,
+   "src_out": 516.6,
+   "tag": "port-royal-aerial,beach-aerial",
+   "shows": [
+    "port-royal-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 1.895,
+    "mot_min": 1.839,
+    "y_mean": 101.8,
+    "y_min": 101.2,
+    "dh": [
+     2176983288548815028,
+     2176983288657851580,
+     2176983325238455474,
+     2176983308050197748
+    ]
+   },
+   "parent": "port_royal_aerial_3",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.5047,
+    "cx1": 0.4359,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 18.9667,
+   "t1": 23.7667,
+   "frames": 144,
+   "kind": "clip",
+   "clip_id": "palisadoes_road_b_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-kin-short-3/clips/B8Fo1ZQz8ec_1439-1448.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 1439.1,
+   "src_out": 1443.9,
+   "tag": "palisadoes-road,driving,road-to-airport",
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "qc": {
+    "mot_med": 1.748,
+    "mot_min": 1.467,
+    "y_mean": 134.8,
+    "y_min": 132.9,
+    "dh": [
+     10632666055676670911,
+     10632665501626454943,
+     10560538573930927007,
+     9411557786643788699,
+     9411557789326037971
+    ]
+   },
+   "parent": "palisadoes_road_b_2",
+   "line": 4,
+   "audio_ok": true,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-2",
+   "handheld": false,
+   "ton_max": 0.0,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.3547,
+    "cx1": 0.2078,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 23.7667,
+   "t1": 28.5333,
+   "frames": 143,
+   "kind": "clip",
+   "clip_id": "palisadoes_road_b_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-kin-short-3/clips/B8Fo1ZQz8ec_1400-1408.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 1400.1,
+   "src_out": 1404.867,
+   "tag": "palisadoes-road,driving,road-to-airport",
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "qc": {
+    "mot_med": 2.057,
+    "mot_min": 1.481,
+    "y_mean": 136.0,
+    "y_min": 123.2,
+    "dh": [
+     9390866007424545577,
+     29008348648477503,
+     64192722889511474,
+     1199697962772772407,
+     1199135010673964599
+    ]
+   },
+   "parent": "palisadoes_road_b_1",
+   "line": 4,
+   "audio_ok": true,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-1",
+   "handheld": false,
+   "ton_max": 0.0,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.8234,
+    "cx1": 0.6656,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 28.5333,
+   "t1": 32.7,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "nk_drive_b_3",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "file": "jobs/jamaica-kin-short-3/clips/EXrIIg9DTk0_205-215.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 205.1,
+   "src_out": 209.267,
+   "tag": "driving,kingston-street",
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "qc": {
+    "mot_med": 4.318,
+    "mot_min": 3.547,
+    "y_mean": 125.3,
+    "y_min": 117.6,
+    "dh": [
+     12872594740594799524,
+     15405948935139133356,
+     1628437042852397645,
+     11153438207877451273
+    ]
+   },
+   "parent": "nk_drive_b_3",
+   "line": 5,
+   "audio_ok": true,
+   "place": "Kingston, towards South Camp Road",
+   "subject": "new-kingston-drive-b-3",
+   "handheld": false,
+   "ton_max": 0.003,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.2984,
+    "cx1": 0.2922,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 32.7,
+   "t1": 36.8333,
+   "frames": 124,
+   "kind": "clip",
+   "clip_id": "nk_drive_c_3",
+   "video_id": "EXrIIg9DTk0",
+   "creator": "Rush Raymore Reviews-Jamaica",
+   "file": "jobs/jamaica-kin-short-3/clips/EXrIIg9DTk0_335-345.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 335.1,
+   "src_out": 339.233,
+   "tag": "driving,kingston-street",
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "qc": {
+    "mot_med": 5.392,
+    "mot_min": 5.123,
+    "y_mean": 111.8,
+    "y_min": 106.8,
+    "dh": [
+     3835477094862395438,
+     4142776440677309486,
+     2250243392521247870,
+     13077499701814270588
+    ]
+   },
+   "parent": "nk_drive_c_3",
+   "line": 5,
+   "audio_ok": true,
+   "place": "Kingston, South Camp Road area",
+   "subject": "south-camp-drive-c-3",
+   "handheld": false,
+   "ton_max": 0.012,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.2547,
+    "cx1": 0.3859,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 36.8333,
+   "t1": 41.0,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "kgn_timelapse_3",
+   "video_id": "5qYbTTy3S8g",
+   "creator": "Spicy_FPV_Jamaica",
+   "file": "jobs/jamaica-kin-short-3/clips/5qYbTTy3S8g_70-81.mp4",
+   "file_in": 2.1,
+   "play_speed": 1.0,
+   "src_in": 72.1,
+   "src_out": 76.267,
+   "tag": "driving,kingston-street",
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "qc": {
+    "mot_med": 10.772,
+    "mot_min": 9.738,
+    "y_mean": 119.9,
+    "y_min": 95.9,
+    "dh": [
+     2387480239516840672,
+     3597382558026702398,
+     7672007779547904543,
+     1445976690573065858
+    ]
+   },
+   "parent": "kgn_timelapse_3",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Driving through Kingston (time-lapse)",
+   "subject": "kingston-timelapse-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.5672,
+    "cx1": 0.4094,
+    "method": "saliency+motion v1"
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "disclosure",
+   "t0": 28.538,
+   "t1": 37.538,
+   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+  },
+  {
+   "kind": "endcard",
+   "t0": 38.991,
+   "t1": 40.991,
+   "text": "ENJOY KINGSTON",
+   "lines": [
+    "Compare airport transfers: link in the description",
+    "Subscribe for the next arrival guide"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "t0": 0.3,
+   "t1": 3.777,
+   "text": "Three things to do in Kingston, straight from the airport.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "kingston-aerial"
+   ]
+  },
+  {
+   "t0": 4.047,
+   "t1": 9.423,
+   "text": "One: the Bob Marley Museum, the house where he lived and recorded many of his songs.",
+   "disclosure": false,
+   "facts": [
+    "k014"
+   ],
+   "need": [
+    "kingston-aerial",
+    "kingston-street"
+   ]
+  },
+  {
+   "t0": 9.758,
+   "t1": 14.281,
+   "text": "Two: Port Royal, once called the richest and wickedest city on earth.",
+   "disclosure": false,
+   "facts": [
+    "k015"
+   ],
+   "need": [
+    "port-royal-aerial"
+   ]
+  },
+  {
+   "t0": 14.617,
+   "t1": 18.692,
+   "text": "Three: tour the old fort, then head for Lime Cay and its beaches.",
+   "disclosure": false,
+   "facts": [
+    "k015"
+   ],
+   "need": [
+    "port-royal-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 18.964,
+   "t1": 26.772,
+   "text": "From Norman Manley, the drive runs along the Palisadoes road, with the harbour on one side and the sea on the other.",
+   "disclosure": false,
+   "facts": [
+    "k007"
+   ],
+   "need": [
+    "palisadoes-road",
+    "driving"
+   ]
+  },
+  {
+   "t0": 28.538,
+   "t1": 37.391,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "disclosure": true,
+   "facts": [],
+   "need": [
+    "kingston-street",
+    "driving",
+    "kingston-aerial"
+   ]
+  }
+ ],
+ "audio": {
+  "narration": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/narration.wav",
+  "music": "none",
+  "ambient": [
+   {
+    "t0": 18.9667,
+    "t1": 23.7667,
+    "video_id": "B8Fo1ZQz8ec",
+    "licence_ok": true
+   },
+   {
+    "t0": 23.7667,
+    "t1": 28.5333,
+    "video_id": "B8Fo1ZQz8ec",
+    "licence_ok": true
+   },
+   {
+    "t0": 28.5333,
+    "t1": 32.7,
+    "video_id": "EXrIIg9DTk0",
+    "licence_ok": true
+   },
+   {
+    "t0": 32.7,
+    "t1": 36.8333,
+    "video_id": "EXrIIg9DTk0",
+    "licence_ok": true
+   }
+  ]
+ },
+ "offtag_shots": [],
+ "banned": [
+  {
+   "clip_id": "coast_road_aerial",
+   "why": "DTiioRRs3Bg 27-39 is a montage: boat, rafting and a person on green screen (vlogger face) at 5-8 s, not a coast-road aerial (found 11 Nov 2026)"
+  },
+  {
+   "clip_id": "kingston_cityscape_sunset",
+   "why": "near-static drone (camera-move gate: shift 0.5)"
+  },
+  {
+   "clip_id": "port_royal_aerial_1",
+   "why": "soft dusk aerial: locked-window lap_med 28.3 < sharp_lap_min 35 (measured 11 Nov 2026); use port_royal_aerial_2/3 (lap 114/87)"
+  }
+ ],
+ "lifts": [
+  {
+   "t0": 26.922,
+   "t1": 28.122,
+   "line": 4
+  }
+ ],
+ "lift_min_count": 1,
+ "needs_footage": [
+  {
+   "line": 2,
+   "need": [
+    "port-royal-aerial"
+   ],
+   "shot_s": 4.87,
+   "lift": false,
+   "text": "Two: Port Royal, once called the richest and wickedest city on earth."
+  }
+ ],
+ "scope": "full",
+ "narration_stt": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "airport",
+   "last_word_heard": true,
+   "heard": "three things to do in Kingston, straight from the airport."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "songs",
+   "last_word_heard": true,
+   "heard": "One, the Bob Marley Museum, the house where he lived and recorded many of his songs."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "earth",
+   "last_word_heard": true,
+   "heard": "Two Port Royal, once called the richest and wickedest city on Earth."
+  },
+  {
+   "line": 3,
+   "recall": 0.923,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Three tour the old fort, then head for Lime Key and its beaches."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "other",
+   "last_word_heard": true,
+   "heard": "From Norman Manley, the drive runs along the Palisados Road, with the harbour on one side and the sea on the other."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "source_window_qc": {
+  "measured": 9,
+  "missing": [],
+  "method": "source-window-output-speed"
+ },
+ "reframe": {
+  "tool": "tools/portrait_reframe.py",
+  "shots": 9
+ }
+}

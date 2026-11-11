@@ -1,0 +1,155 @@
+{
+ "slug": "jamaica-kin-short-3",
+ "place": "Kingston, Jamaica",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "speed": 1.0,
+ "map": {
+  "geojson": "assets/maps/jamaica.geojson",
+  "places": "videos/jamaica-travel-guide/places-kin.json"
+ },
+ "public_dir": "jobs/jamaica-kin-short-3/build/public",
+ "facts": "videos/jamaica-travel-guide/facts.json",
+ "pronunciations": "videos/jamaica-travel-guide/pronunciations.json",
+ "disclosure_overlay": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels.",
+ "brand": "AURUM TRANSFERS",
+ "output_stem": "short-3",
+ "place_names": [
+  "Norman Manley",
+  "Kingston",
+  "New Kingston",
+  "Palisadoes",
+  "Port Royal",
+  "Lime Cay",
+  "Sangster",
+  "Montego Bay",
+  "Ian Fleming",
+  "Ocho Rios",
+  "Humming Bird",
+  "South Camp Road",
+  "Bob Marley",
+  "JTB",
+  "Melissa",
+  "C5"
+ ],
+ "stt_alias": {
+  "JUTA": [
+   "Juta",
+   "Jutah",
+   "J U T A"
+  ],
+  "JCAL": [
+   "J Cal",
+   "JCal",
+   "Jay Cal",
+   "J-Cal",
+   "Jaykal",
+   "Jay-Cal",
+   "Jay Kal",
+   "JKal"
+  ],
+  "C5": [
+   "C five",
+   "C-5",
+   "C 5",
+   "see five",
+   "See five",
+   "see 5",
+   "See 5"
+  ],
+  "Dunn's River": [
+   "Dunns River",
+   "Dunn River",
+   "Dun's River"
+  ],
+  "Doctor's Cave": [
+   "Doctors Cave",
+   "Doctor Cave",
+   "Dr's Cave",
+   "Drs. Cave",
+   "Dr. Cave",
+   "Drs Cave"
+  ],
+  "Negril": [
+   "Negril",
+   "Nigril",
+   "Ne gril",
+   "Neggrill",
+   "Negrill",
+   "Nagrill",
+   "Negrill",
+   "Nagril"
+  ],
+  "Gloucester": [
+   "Gloucester",
+   "Gloster"
+  ],
+  "Knutsford": [
+   "Nutsford",
+   "Knutsford"
+  ],
+  "Sangster": [
+   "Sangster",
+   "Sankster",
+   "Sanxter"
+  ],
+  "Palisadoes": [
+   "Palisados",
+   "Palisade oes",
+   "Palisadoes",
+   "Palaisado's",
+   "Palaisados",
+   "Palaisado",
+   "Palisado's"
+  ],
+  "JTB": [
+   "J T B",
+   "JTB",
+   "J.T.B."
+  ],
+  "Lime Cay": [
+   "Lime Key",
+   "Lime Kay",
+   "Lime Cay"
+  ],
+  "Humming Bird": [
+   "Hummingbird",
+   "Humming bird"
+  ],
+  "Norman Manley": [
+   "Norman Manly",
+   "Norman Manley"
+  ]
+ },
+ "evidence_dirs": [
+  "pool/jamaica-kin/licence",
+  "pool/jamaica/licence",
+  "videos/jamaica-travel-guide",
+  "pool/jamaica-kin3/screen"
+ ],
+ "respell": {
+  "Palisadoes": "Pal-ih-say-dohs",
+  "JTB": "J T B",
+  "Lime Cay": "Lime Key"
+ },
+ "ipa": {},
+ "ambient_gain": 0.3,
+ "lift_min_count": 1,
+ "scope": "full",
+ "gate_exceptions": {
+  "sharp_exempt_clips": [
+   "kin_descent_1",
+   "kin_approach_hills",
+   "kin_approach_sea"
+  ],
+  "sharp_exempt_lap_min": 12.0,
+  "why": "Marvin t225u 2026-11-10: 8tevGZVbe88 (Love Charmzworld window seat) is the only real Norman Manley landing footage found on CC BY YouTube, Pexels and Pixabay; used short, sped up (and stabilised) as a documented sharpness exception for the landing shots only. Creator cap raised to 40% for this video only (t225u option d): only 5 licensed creators film Kingston.",
+  "creator_share_max": 0.4
+ },
+ "portrait": true,
+ "hook_text": "KINGSTON IN 40 SECONDS",
+ "end_card_s": 2.0,
+ "release_tag": "jamaica-kin-ranges",
+ "release_shared": true,
+ "parent_job": "jamaica-kin"
+}

@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-11T08:20:35-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 38.991,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 3.777,
+   "text": "Three things to do in Kingston, straight from the airport.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/tts/s000-27820f7861.wav",
+   "sr": 24000,
+   "speed": 1.022
+  },
+  {
+   "i": 1,
+   "t0": 4.047,
+   "t1": 9.423,
+   "text": "One: the Bob Marley Museum, the house where he lived and recorded many of his songs.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/tts/s001-63a765db58.wav",
+   "sr": 24000,
+   "speed": 1.016
+  },
+  {
+   "i": 2,
+   "t0": 9.758,
+   "t1": 14.281,
+   "text": "Two: Port Royal, once called the richest and wickedest city on earth.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/tts/s002-9883d48be9.wav",
+   "sr": 24000,
+   "speed": 0.97
+  },
+  {
+   "i": 3,
+   "t0": 14.617,
+   "t1": 18.692,
+   "text": "Three: tour the old fort, then head for Lime Cay and its beaches.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/tts/s003-c18464c048.wav",
+   "sr": 24000,
+   "speed": 1.004
+  },
+  {
+   "i": 4,
+   "t0": 18.964,
+   "t1": 26.772,
+   "text": "From Norman Manley, the drive runs along the Palisadoes road, with the harbour on one side and the sea on the other.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/tts/s004-ef69ef4309.wav",
+   "sr": 24000,
+   "speed": 1.002,
+   "lift": [
+    26.922,
+    28.122
+   ]
+  },
+  {
+   "i": 5,
+   "t0": 28.538,
+   "t1": 37.391,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-3/build/tts/s005-d36faa54e1.wav",
+   "sr": 24000,
+   "speed": 0.98
+  }
+ ]
+}

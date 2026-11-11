@@ -1,0 +1,76 @@
+{
+ "slug": "jamaica-kin-short-3",
+ "title": "Kingston in 40 seconds",
+ "lines": [
+  {
+   "text": "Three things to do in Kingston, straight from the airport.",
+   "need": [
+    "kingston-aerial"
+   ],
+   "pause": 0.3,
+   "hook": true
+  },
+  {
+   "text": "One: the Bob Marley Museum, the house where he lived and recorded many of his songs.",
+   "need": [
+    "kingston-aerial",
+    "kingston-street"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "k014"
+   ]
+  },
+  {
+   "text": "Two: Port Royal, once called the richest and wickedest city on earth.",
+   "need": [
+    "port-royal-aerial"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "k015"
+   ]
+  },
+  {
+   "text": "Three: tour the old fort, then head for Lime Cay and its beaches.",
+   "need": [
+    "port-royal-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "k015"
+   ]
+  },
+  {
+   "text": "From Norman Manley, the drive runs along the Palisadoes road, with the harbour on one side and the sea on the other.",
+   "need": [
+    "palisadoes-road",
+    "driving"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "k007"
+   ],
+   "lift": 1.2
+  },
+  {
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "need": [
+    "kingston-street",
+    "driving",
+    "kingston-aerial"
+   ],
+   "pause": 0.6,
+   "disclosure": true
+  }
+ ],
+ "end_card": {
+  "text": "ENJOY KINGSTON",
+  "lines": [
+   "Compare airport transfers: link in the description",
+   "Subscribe for the next arrival guide"
+  ]
+ }
+}
