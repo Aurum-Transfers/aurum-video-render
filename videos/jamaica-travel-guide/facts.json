@@ -1,0 +1,345 @@
+{
+ "f068": {
+  "claim": "Sangster International Airport serves Montego Bay and handles over 70 per cent of the island's tourist arrivals.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f069": {
+  "claim": "Ian Fleming International Airport serves the north coast including Ocho Rios and caters to private jets, charters and select international flights.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/",
+  "checked_on": "2026-11-07",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f1014": {
+  "claim": "Canada's advisory states that traffic drives on the left.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "government",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f1024": {
+  "claim": "In November 2025 the health ministry advised safe water practices because Hurricane Melissa damaged potable water systems, especially in the west and south.",
+  "url": "https://jis.gov.jm/health-ministry-urges-citizens-to-observe-safe-water-consumption-practices/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f1025": {
+  "claim": "The health ministry urged citizens to treat water before drinking it and to follow its advisories.",
+  "url": "https://jis.gov.jm/health-ministry-urges-citizens-to-observe-safe-water-consumption-practices/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f1056": {
+  "claim": "The tourist board gives an annual average temperature of 27 degrees Celsius, with the summer hottest and December to March appreciably cooler.",
+  "url": "https://www.jtbonline.org/tourism-in-jamaica/quick-facts-about-jamaica/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2001": {
+  "claim": "As of November 2026 the Airports Authority of Jamaica lists three international airports with their codes: Sangster International at Montego Bay (MBJ), Norman Manley International at Kingston (KIN) and Ian Fleming International, listed under Ocho Rios (OCJ).",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2010": {
+  "claim": "Two taxi companies, JUTA and JCAL, operate at Sangster and share an Authorised Airport Taxi desk just outside the Customs exit.",
+  "url": "https://www.mbjairport.com/taxi-cabs",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2011": {
+  "claim": "Sangster's operator says passengers must complete the immigration and customs form before arrival and present valid travel documents, including a passport and, for non-residents, a return ticket.",
+  "url": "https://www.mbjairport.com/passenger-services",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2013": {
+  "claim": "At Sangster car hire, hotel shuttles, taxis and the intra-island airlines are in the Ground Transportation Arrivals Hall outside the customs area.",
+  "url": "https://www.mbjairport.com/passenger-services",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2063": {
+  "claim": "Canada advises against unmarked taxis because of the risk of robbery and sexual assault.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "government",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2073": {
+  "claim": "The UK advises using tourist-board-approved taxis and minibuses for excursions, airport transfers and sightseeing.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-05",
+  "kind": "government",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f2084": {
+  "claim": "Knutsford Express runs scheduled air-conditioned coaches between major towns including Kingston, Spanish Town, Ocho Rios, Port Antonio, Montego Bay, Mandeville and Negril, from over 20 locations including international airports.",
+  "url": "https://www.visitjamaica.com/plan-your-adventure/getting-around/public-transportation/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f230": {
+  "claim": "The official hurricane season runs from 1 June to 30 November, and that period is usually a rainy one even if no hurricane develops.",
+  "url": "https://www.odpem.org.jm/hurricanes/",
+  "checked_on": "2026-11-05",
+  "kind": "government",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f237": {
+  "claim": "Hurricane Melissa made landfall as a major hurricane in October 2025, all western parishes suffered significant damage, and some communities remained without electricity and piped water.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "government",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f243": {
+  "claim": "Negril is the island's westernmost town, with a seven-mile stretch of beach and cliffs overlooking the sea.",
+  "url": "https://www.visitjamaica.com/resort-areas/negril/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f259": {
+  "claim": "The same strip is also named on that page as Gloucester Avenue, with the coast lying immediately behind the businesses that line it, so a visitor may meet either name.",
+  "url": "https://www.visitjamaica.com/resort-areas/montego-bay/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f262": {
+  "claim": "The tourist board sets out the island's seasons plainly: a tropical wet-and-dry climate, with the wet season running from May to November and overlapping the hurricane season, and the dry season from December to April.",
+  "url": "https://www.visitjamaica.com/resort-areas/montego-bay/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f263": {
+  "claim": "Doctor's Cave Beach is open to the general public as well as to members of the Doctor's Cave Bathing Club.",
+  "url": "https://www.visitjamaica.com/resort-areas/montego-bay/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f267": {
+  "claim": "Montego Bay sits between Ocho Rios, Negril and Saint Elizabeth, which is what makes it a practical base for day trips in more than one direction.",
+  "url": "https://www.visitjamaica.com/resort-areas/montego-bay/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f3014": {
+  "claim": "Canada records the Jamaican dollar as the currency, card acceptance at hotels and tourist businesses, limited cash machines outside Kingston and Montego Bay, and advises carrying enough cash outside those areas.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f580": {
+  "claim": "The foreign ministry's rule on passport validity is that entry is allowed so long as the passport stays valid for the whole of the stay, arrival and departure both falling before it expires.",
+  "url": "https://mfaft.gov.jm/site/visa-information/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f584": {
+  "claim": "British citizens need no visa to visit Jamaica and are usually granted entry for up to ninety days.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f589": {
+  "claim": "A customs declaration must be made before entering Jamaica, and the immigration and customs C5 form should be completed online where possible before arrival.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f590": {
+  "claim": "Anything prohibited, or subject to tax or duty, must be declared.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f591": {
+  "claim": "Bringing meat and dairy products into Jamaica is illegal, and customs officers may search baggage and will destroy banned foodstuffs.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/entry-requirements",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f6001": {
+  "claim": "The UK FCDO lists the emergency numbers in Jamaica as ambulance 110, fire 110 and police 119.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/getting-help",
+  "checked_on": "2026-11-05",
+  "kind": "government",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f601": {
+  "claim": "As of November 2026 the British foreign office records that access to healthcare in the areas worst affected by Hurricane Melissa is limited, with some areas still working out of field hospitals.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/health",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f6047": {
+  "claim": "The JCF gives 119 for police emergencies, free from any phone, and Crime Stop 311 for anonymous information.",
+  "url": "https://jcf.gov.jm/contact/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f610": {
+  "claim": "Gang violence and shootings occur mostly in inner city areas, and tourist areas are not usually affected by gang-related crime.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f615": {
+  "claim": "The British foreign office advises against using buses at night, and against displaying valuables or leaving them in a car.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f621": {
+  "claim": "A solo traveller is advised to tell someone they trust, at home or at the hotel, where they will be, and to have transport arranged to get back independently.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f626": {
+  "claim": "The advice is to pack your own luggage and carry nothing through customs for anyone else.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f631": {
+  "claim": "A British driving licence can be used in Jamaica for up to six months, and it must be the photocard rather than the old paper kind.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f641": {
+  "claim": "The Canadian government's advisory for Jamaica is to exercise a high degree of caution, because of the level of violent crime, particularly outside tourist areas.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f665": {
+  "claim": "Canada rates the coastal roads as fair but calls driving inland dangerous, listing narrow winding roads, poor maintenance, insufficient lighting, inadequate signage, poor lane markings and hurricane damage.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f669": {
+  "claim": "Canada advises using only taxis ordered from hotels and authorised by the Jamaica Union of Travellers Association, identified by red and white registration plates lettered PP and a lime-green sticker on the window.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f672": {
+  "claim": "Canada advises staying on main roads where possible, driving defensively, keeping doors and windows closed and locked, and leaving nothing valuable within reach or in sight.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f679": {
+  "claim": "An airline's own rules on passport validity may be stricter than the country's entry rules, so the carrier is worth asking as well as the government.",
+  "url": "https://travel.gc.ca/destinations/jamaica",
+  "checked_on": "2026-11-07",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f7012": {
+  "claim": "Melissa made landfall near New Hope in Westmoreland as a Category 5 hurricane.",
+  "url": "https://opm.gov.jm/statement-to-parliament-on-the-aftermath-of-hurricane-melissa/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f872": {
+  "claim": "As of November 2026 the tourist board records that, after Hurricane Melissa, all international and domestic airports are operational and open for commercial flights, and advises visitors to check with their airline for updates.",
+  "url": "https://www.visitjamaica.com/plan-your-adventure/getting-here/airports-in-jamaica/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f873": {
+  "claim": "Sangster is the most convenient point of entry for anyone heading to Montego Bay, Ocho Rios or Negril.",
+  "url": "https://www.visitjamaica.com/plan-your-adventure/getting-here/airports-in-jamaica/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f897": {
+  "claim": "The Blue Lagoon is the island's largest spring-fed lagoon, where cold fresh water rising from below meets the warm sea.",
+  "url": "https://www.visitjamaica.com/resort-areas/port-antonio/things-to-do/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f9000": {
+  "claim": "Doctor's Cave Beach, on the Hip Strip, is a gentle, shallow, fine-sand beach suited to families.",
+  "url": "https://www.visitjamaica.com/resort-areas/montego-bay/things-to-do/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f9004": {
+  "claim": "Doctor's Cave Reef and Secrets Reef are among the best snorkelling spots in Montego Bay.",
+  "url": "https://www.visitjamaica.com/resort-areas/montego-bay/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f902": {
+  "claim": "Dunn's River is one of the few waterfalls in the world that empties directly into the sea.",
+  "url": "https://www.visitjamaica.com/experiences/natural-wonders/waterfalls-rivers/dunns-river-falls/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f9020": {
+  "claim": "Hurricane Melissa struck on 28 October 2025.",
+  "url": "https://opm.gov.jm/statement-to-parliament-on-the-aftermath-of-hurricane-melissa/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f904": {
+  "claim": "Water shoes make the climb at Dunn's River safer, and are sold at the entrance for anyone who has not brought a pair.",
+  "url": "https://www.visitjamaica.com/experiences/natural-wonders/waterfalls-rivers/dunns-river-falls/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "f9140": {
+  "claim": "The Hip Strip is a full mile of restaurants, entertainment and shopping.",
+  "url": "https://www.jtbonline.org/tourism-in-jamaica/resort-areas/",
+  "checked_on": "2026-11-05",
+  "kind": "official",
+  "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "jamaica-travel-guide",
+ "place": "Jamaica",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "speed": 1.0,
+ "map": {
+  "geojson": "assets/maps/jamaica.geojson",
+  "places": "videos/jamaica-travel-guide/places.json"
+ },
+ "public_dir": "jobs/jamaica-v6-full/build/public",
+ "facts": "videos/jamaica-travel-guide/facts.json",
+ "pronunciations": "videos/jamaica-travel-guide/pronunciations.json",
+ "disclosure_overlay": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels.",
+ "brand": "AURUM TRANSFERS",
+ "output_stem": "v6-full",
+ "place_names": [
+  "Sangster",
+  "Montego Bay",
+  "Negril",
+  "Ocho Rios",
+  "Port Antonio",
+  "Kingston",
+  "Norman Manley",
+  "Ian Fleming",
+  "JUTA",
+  "JCAL",
+  "Dunn's River",
+  "Doctor's Cave",
+  "Gloucester",
+  "Melissa",
+  "C5"
+ ],
+ "stt_alias": {
+  "JUTA": [
+   "Juta",
+   "Jutah",
+   "J U T A"
+  ],
+  "JCAL": [
+   "J Cal",
+   "JCal",
+   "Jay Cal",
+   "J-Cal",
+   "Jaykal",
+   "Jay-Cal",
+   "Jay Kal",
+   "JKal"
+  ],
+  "C5": [
+   "C five",
+   "C-5",
+   "C 5"
+  ],
+  "Dunn's River": [
+   "Dunns River",
+   "Dunn River",
+   "Dun's River"
+  ],
+  "Doctor's Cave": [
+   "Doctors Cave",
+   "Doctor Cave",
+   "Dr's Cave",
+   "Drs. Cave",
+   "Dr. Cave",
+   "Drs Cave"
+  ],
+  "Negril": [
+   "Negril",
+   "Nigril",
+   "Ne gril",
+   "Neggrill",
+   "Negrill",
+   "Nagrill",
+   "Negrill",
+   "Nagril"
+  ],
+  "Gloucester": [
+   "Gloucester",
+   "Gloster"
+  ],
+  "Knutsford": [
+   "Nutsford",
+   "Knutsford"
+  ],
+  "Sangster": [
+   "Sangster",
+   "Sankster",
+   "Sanxter"
+  ]
+ },
+ "evidence_dirs": [
+  "pool/jamaica/licence",
+  "videos/jamaica-travel-guide"
+ ],
+ "respell": {
+  "Negril": "Neh-grill"
+ },
+ "ipa": {},
+ "ambient_gain": 0.3,
+ "lift_min_count": 3,
+ "scope": "full"
+}

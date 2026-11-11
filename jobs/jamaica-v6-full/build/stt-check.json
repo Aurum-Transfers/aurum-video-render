@@ -1,0 +1,467 @@
+{
+ "created": "2026-11-10T20:53:55-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Montego Bay",
+   "heard": "Just landed in Montego Bay and not sure how you'll get to your hotel.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Melissa",
+   "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 5,
+   "name": "Sangster",
+   "heard": "Welcome to Jamaica, and welcome to Sankster International.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 6,
+   "name": "Sangster",
+   "heard": "Most visitors land right here in Montego Bay. Sankster handles over 70% of the island's tourist arrivals.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 6,
+   "name": "Montego Bay",
+   "heard": "Most visitors land right here in Montego Bay. Sankster handles over 70% of the island's tourist arrivals.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 7,
+   "name": "Montego Bay",
+   "heard": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negrill.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 7,
+   "name": "Negril",
+   "heard": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negrill.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 7,
+   "name": "Ocho Rios",
+   "heard": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negrill.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "Ocho Rios",
+   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "Kingston",
+   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "Norman Manley",
+   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "Ian Fleming",
+   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Melissa",
+   "heard": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 10,
+   "name": "Montego Bay",
+   "heard": "Is this your first time landing in Montego Bay? Tell us in the comments where you're staying.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 12,
+   "name": "Sangster",
+   "heard": "Before you fly, fill in the immigration and customs C5 form online. Sankster's operator says it has to be done before arrival.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 12,
+   "name": "C5",
+   "heard": "Before you fly, fill in the immigration and customs C5 form online. Sankster's operator says it has to be done before arrival.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 22,
+   "name": "JUTA",
+   "heard": "Option 2, an authorized airport taxi. Jutar and Jay Kal share an authorized airport taxi desk just outside the customs exit.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 22,
+   "name": "JCAL",
+   "heard": "Option 2, an authorized airport taxi. Jutar and Jay Kal share an authorized airport taxi desk just outside the customs exit.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 27,
+   "name": "Montego Bay",
+   "heard": "On Montego Bay's hip strip, Doctors Cave Beach is gentle, shallow and fine sand, and it's open to the public.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 27,
+   "name": "Doctor's Cave",
+   "heard": "On Montego Bay's hip strip, Doctors Cave Beach is gentle, shallow and fine sand, and it's open to the public.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 28,
+   "name": "Gloucester",
+   "heard": "The hip strip itself, Gloucester Avenue, is a full mile of restaurants, entertainment and shopping.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 29,
+   "name": "Negril",
+   "heard": "Head west to Nagrill, the island's westernmost town with a 7-mile stretch of beach and cliffs overlooking the sea.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 31,
+   "name": "Ocho Rios",
+   "heard": "Along the north coast, Ocho Rios is home to Duns River, one of the few waterfalls in the world that empties straight into the sea.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 31,
+   "name": "Dunn's River",
+   "heard": "Along the north coast, Ocho Rios is home to Duns River, one of the few waterfalls in the world that empties straight into the sea.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 33,
+   "name": "Port Antonio",
+   "heard": "Further east, Port Antonio has the Blue Lagoon, where cold spring water rises to meet the warm sea.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 36,
+   "name": "Montego Bay",
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 36,
+   "name": "Kingston",
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 37,
+   "name": "Melissa",
+   "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 38,
+   "name": "C5",
+   "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, authorize taxi or rental, then pick your coast.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 29,
+ "total": 29,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Just landed in Montego Bay and not sure how you'll get to your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "Three easy ways – a pre-booked private transfer, an authorized airport taxi, or a rental car."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Let's get you to the beach."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "do",
+   "last_word_heard": true,
+   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "today",
+   "last_word_heard": true,
+   "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today."
+  },
+  {
+   "line": 5,
+   "recall": 0.875,
+   "last_word": "international",
+   "last_word_heard": true,
+   "heard": "Welcome to Jamaica, and welcome to Sankster International."
+  },
+  {
+   "line": 6,
+   "recall": 0.789,
+   "last_word": "arrivals",
+   "last_word_heard": true,
+   "heard": "Most visitors land right here in Montego Bay. Sankster handles over 70% of the island's tourist arrivals."
+  },
+  {
+   "line": 7,
+   "recall": 1.0,
+   "last_word": "negril",
+   "last_word_heard": true,
+   "heard": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negrill."
+  },
+  {
+   "line": 8,
+   "recall": 1.0,
+   "last_word": "rios",
+   "last_word_heard": true,
+   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios."
+  },
+  {
+   "line": 9,
+   "recall": 1.0,
+   "last_word": "fly",
+   "last_word_heard": true,
+   "heard": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly."
+  },
+  {
+   "line": 10,
+   "recall": 1.0,
+   "last_word": "staying",
+   "last_word_heard": true,
+   "heard": "Is this your first time landing in Montego Bay? Tell us in the comments where you're staying."
+  },
+  {
+   "line": 11,
+   "recall": 1.0,
+   "last_word": "paperwork",
+   "last_word_heard": true,
+   "heard": "Now the paperwork."
+  },
+  {
+   "line": 12,
+   "recall": 0.955,
+   "last_word": "arrival",
+   "last_word_heard": true,
+   "heard": "Before you fly, fill in the immigration and customs C5 form online. Sankster's operator says it has to be done before arrival."
+  },
+  {
+   "line": 13,
+   "recall": 1.0,
+   "last_word": "ticket",
+   "last_word_heard": true,
+   "heard": "You'll need a valid passport, and if you're not a resident, a return ticket."
+  },
+  {
+   "line": 14,
+   "recall": 0.962,
+   "last_word": "passport",
+   "last_word_heard": true,
+   "heard": "British visitors don't need a visa and are usually granted entry for up to 90 days. Other nationalities should check the rules for their own passport."
+  },
+  {
+   "line": 15,
+   "recall": 1.0,
+   "last_word": "home",
+   "last_word_heard": true,
+   "heard": "At customs, declare anything prohibited or subject to duty and leave meat and dairy products at home."
+  },
+  {
+   "line": 16,
+   "recall": 1.0,
+   "last_word": "else",
+   "last_word_heard": true,
+   "heard": "and pack your own bags, never carry anything through customs for anyone else."
+  },
+  {
+   "line": 17,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "If this checklist just saved you a headache at the gate, tap like, it tells us to make more arrival guides like this one."
+  },
+  {
+   "line": 18,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Through customs, here's how to get to your hotel."
+  },
+  {
+   "line": 19,
+   "recall": 0.895,
+   "last_word": "area",
+   "last_word_heard": true,
+   "heard": "Ka Haya, hotel shuttles and taxis are all in the ground transportation arrivals hall, just outside the customs area."
+  },
+  {
+   "line": 20,
+   "recall": 1.0,
+   "last_word": "flight",
+   "last_word_heard": true,
+   "heard": "Option 1 is the calmest. A pre-booked private transfer. Your driver is arranged before you land so there's no hunting for a ride after a long flight."
+  },
+  {
+   "line": 21,
+   "recall": 1.0,
+   "last_word": "fixed",
+   "last_word_heard": true,
+   "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed."
+  },
+  {
+   "line": 22,
+   "recall": 0.9,
+   "last_word": "exit",
+   "last_word_heard": true,
+   "heard": "Option 2, an authorized airport taxi. Jutar and Jay Kal share an authorized airport taxi desk just outside the customs exit."
+  },
+  {
+   "line": 23,
+   "recall": 0.938,
+   "last_word": "cars",
+   "last_word_heard": true,
+   "heard": "Canada advises using only authorised taxis with red and white P.P. plates and avoiding unmarked cars."
+  },
+  {
+   "line": 24,
+   "recall": 1.0,
+   "last_word": "can",
+   "last_word_heard": true,
+   "heard": "Option 3, a rental car. Jamaica drives on the left and inland roads can be narrow and winding, so stay on main roads where you can."
+  },
+  {
+   "line": 25,
+   "recall": 1.0,
+   "last_word": "description",
+   "last_word_heard": true,
+   "heard": "Which one are you picking? Transfer, taxi or rental? Tell us below and the transfer comparison link is in the description."
+  },
+  {
+   "line": 26,
+   "recall": 1.0,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Now the best part, the beaches."
+  },
+  {
+   "line": 27,
+   "recall": 1.0,
+   "last_word": "public",
+   "last_word_heard": true,
+   "heard": "On Montego Bay's hip strip, Doctors Cave Beach is gentle, shallow and fine sand, and it's open to the public."
+  },
+  {
+   "line": 28,
+   "recall": 1.0,
+   "last_word": "shopping",
+   "last_word_heard": true,
+   "heard": "The hip strip itself, Gloucester Avenue, is a full mile of restaurants, entertainment and shopping."
+  },
+  {
+   "line": 29,
+   "recall": 0.95,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Head west to Nagrill, the island's westernmost town with a 7-mile stretch of beach and cliffs overlooking the sea."
+  },
+  {
+   "line": 30,
+   "recall": 1.0,
+   "last_word": "other",
+   "last_word_heard": true,
+   "heard": "Long, calm sand on one side of town and cliffs dropping into clear water on the other."
+  },
+  {
+   "line": 31,
+   "recall": 0.96,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Along the north coast, Ocho Rios is home to Duns River, one of the few waterfalls in the world that empties straight into the sea."
+  },
+  {
+   "line": 32,
+   "recall": 0.938,
+   "last_word": "yours",
+   "last_word_heard": true,
+   "heard": "Water shoes make the climb safer and they are sold at the entrance if you forget yours."
+  },
+  {
+   "line": 33,
+   "recall": 1.0,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Further east, Port Antonio has the Blue Lagoon, where cold spring water rises to meet the warm sea."
+  },
+  {
+   "line": 34,
+   "recall": 1.0,
+   "last_word": "list",
+   "last_word_heard": true,
+   "heard": "Beach, Waterfall or Lagoon, hit subscribe and tell us which one is first on your list."
+  },
+  {
+   "line": 35,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "A few last tips, don't show off valuables and never leave anything in a parked car."
+  },
+  {
+   "line": 36,
+   "recall": 1.0,
+   "last_word": "bay",
+   "last_word_heard": true,
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay."
+  },
+  {
+   "line": 37,
+   "recall": 1.0,
+   "last_word": "arrive",
+   "last_word_heard": true,
+   "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive."
+  },
+  {
+   "line": 38,
+   "recall": 1.0,
+   "last_word": "coast",
+   "last_word_heard": true,
+   "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, authorize taxi or rental, then pick your coast."
+  },
+  {
+   "line": 39,
+   "recall": 1.0,
+   "last_word": "trip",
+   "last_word_heard": true,
+   "heard": "Subscribe for the next Arrival Guide and enjoy every sunny minute in Jamaica. See you on the next trip!"
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}

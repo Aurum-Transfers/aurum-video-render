@@ -1,0 +1,555 @@
+{
+ "slug": "jamaica-travel-guide",
+ "title": "Jamaica Airport Arrival 2026: Transfer, Taxi or Rental Car",
+ "angle": "Arrival-first: land at Sangster (MBJ), clear entry, pick the ride, then the island in the order a first-timer meets it.",
+ "end_card": {
+  "text": "ENJOY JAMAICA",
+  "lines": [
+   "Compare airport transfers: link in the description",
+   "Subscribe for the next arrival guide"
+  ]
+ },
+ "lines": [
+  {
+   "text": "Just landed in Montego Bay, and not sure how you'll get to your hotel?",
+   "hook": true,
+   "pause": 0.2,
+   "prefer": [
+    "mbj_approach_bay"
+   ],
+   "need": [
+    "approach",
+    "air-arrival"
+   ]
+  },
+  {
+   "text": "Three easy ways: a pre-booked private transfer, an authorised airport taxi, or a rental car.",
+   "hook": true,
+   "pause": 0.3,
+   "lower": {
+    "text": "TRANSFER · TAXI · RENTAL",
+    "sub": "Three ways from MBJ to your hotel"
+   },
+   "prefer": [
+    "mbj_touchdown",
+    "mbj_taxi"
+   ],
+   "need": [
+    "touchdown",
+    "plane-taxi"
+   ]
+  },
+  {
+   "text": "Let's get you to the beach.",
+   "hook": true,
+   "pause": 0.5,
+   "lift": 1.6,
+   "prefer": [
+    "negril_clear_water"
+   ],
+   "need": [
+    "negril-water",
+    "beach"
+   ]
+  },
+  {
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "disclosure": true,
+   "pause": 0.6,
+   "prefer": [
+    "mobay_promo_bay",
+    "mobay_promo_sea"
+   ],
+   "need": [
+    "mobay-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+   "facts": [
+    "f9020"
+   ],
+   "pause": 0.5,
+   "prefer": [
+    "negril_wakes"
+   ],
+   "need": [
+    "negril-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "text": "Welcome to Jamaica, and welcome to Sangster International.",
+   "chapter": "1. Landing in Jamaica: Sangster International (MBJ)",
+   "pause": 0.3,
+   "prefer": [
+    "mbj_apron"
+   ],
+   "need": [
+    "apron",
+    "plane-taxi"
+   ]
+  },
+  {
+   "text": "Most visitors land right here in Montego Bay; Sangster handles over seventy per cent of the island's tourist arrivals.",
+   "facts": [
+    "f068"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "SANGSTER INTERNATIONAL",
+    "sub": "Airport code MBJ"
+   },
+   "prefer": [
+    "mbj_terminal"
+   ],
+   "need": [
+    "airport-terminal",
+    "apron",
+    "plane-taxi"
+   ]
+  },
+  {
+   "text": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negril.",
+   "facts": [
+    "f873"
+   ],
+   "pause": 0.35,
+   "map": {
+    "route": [
+     "airport",
+     "mobay",
+     "negril"
+    ],
+    "focus": "airport",
+    "text": "MBJ → Montego Bay · Negril · Ocho Rios"
+   },
+   "prefer": [
+    "mbj_coast_approach"
+   ],
+   "need": [
+    "coast-approach",
+    "mobay-aerial"
+   ]
+  },
+  {
+   "text": "Jamaica has two other international airports: Norman Manley in Kingston, and Ian Fleming, near Ocho Rios.",
+   "facts": [
+    "f2001",
+    "f069"
+   ],
+   "pause": 0.35,
+   "map": {
+    "route": [
+     "airport",
+     "ocho",
+     "kingston"
+    ],
+    "focus": "kingston",
+    "text": "Three international airports"
+   },
+   "need": [
+    "island-aerial",
+    "portland-aerial",
+    "highway-aerial"
+   ]
+  },
+  {
+   "text": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly.",
+   "facts": [
+    "f872"
+   ],
+   "pause": 0.4,
+   "need": [
+    "coast-road-aerial",
+    "island-aerial"
+   ]
+  },
+  {
+   "text": "Is this your first time landing in Montego Bay? Tell us in the comments where you're staying.",
+   "prompt": {
+    "badge": "COMMENT",
+    "text": "First time in Montego Bay?"
+   },
+   "pause": 0.7,
+   "need": [
+    "resort-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "text": "Now, the paperwork.",
+   "chapter": "2. Jamaica Entry Rules: C5 Form and Passport",
+   "pause": 0.3,
+   "shots": 1,
+   "need": [
+    "highway-aerial",
+    "driving"
+   ]
+  },
+  {
+   "text": "Before you fly, fill in the immigration and customs C5 form online. Sangster's operator says it has to be done before arrival.",
+   "facts": [
+    "f589",
+    "f2011"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "C5 FORM",
+    "sub": "Immigration and customs, online before you fly"
+   },
+   "need": [
+    "airport-terminal",
+    "apron"
+   ]
+  },
+  {
+   "text": "You'll need a valid passport and, if you're not a resident, a return ticket.",
+   "facts": [
+    "f2011"
+   ],
+   "pause": 0.35,
+   "need": [
+    "mobay-aerial",
+    "cruise-port",
+    "resort-aerial"
+   ]
+  },
+  {
+   "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
+   "facts": [
+    "f584"
+   ],
+   "pause": 0.35,
+   "need": [
+    "island-aerial",
+    "portland-aerial",
+    "coast-road-aerial"
+   ]
+  },
+  {
+   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+   "facts": [
+    "f590",
+    "f591"
+   ],
+   "pause": 0.35,
+   "need": [
+    "highway-aerial",
+    "driving"
+   ]
+  },
+  {
+   "text": "And pack your own bags: never carry anything through customs for anyone else.",
+   "facts": [
+    "f626"
+   ],
+   "pause": 0.4,
+   "need": [
+    "sea-aerial",
+    "kite"
+   ]
+  },
+  {
+   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
+   "prompt": {
+    "badge": "LIKE",
+    "text": "Saved you a headache? Tap like"
+   },
+   "pause": 0.7,
+   "need": [
+    "resort-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "text": "Through customs? Here's how to get to your hotel.",
+   "chapter": "3. Montego Bay Airport to Hotel: Transfer, Taxi or Rental",
+   "pause": 0.4,
+   "need": [
+    "road-to-airport",
+    "driving"
+   ]
+  },
+  {
+   "text": "Car hire, hotel shuttles and taxis are all in the Ground Transportation Arrivals Hall, just outside the customs area.",
+   "facts": [
+    "f2013"
+   ],
+   "pause": 0.35,
+   "need": [
+    "road-to-airport",
+    "driving"
+   ]
+  },
+  {
+   "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after a long flight.",
+   "pause": 0.35,
+   "lower": {
+    "text": "1 · PRIVATE TRANSFER",
+    "sub": "Pre-booked, driver meets you"
+   },
+   "need": [
+    "highway-aerial",
+    "coast-road-aerial"
+   ]
+  },
+  {
+   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
+   "pause": 0.4,
+   "shots": 3,
+   "need": [
+    "driving",
+    "highway-aerial"
+   ]
+  },
+  {
+   "text": "Option two, an authorised airport taxi. JUTA and JCAL share an Authorised Airport Taxi desk just outside the customs exit.",
+   "facts": [
+    "f2010"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "2 · AUTHORISED TAXI",
+    "sub": "JUTA and JCAL desk, outside customs"
+   },
+   "need": [
+    "road-to-airport",
+    "driving"
+   ]
+  },
+  {
+   "text": "Canada advises using only authorised taxis, with red and white PP plates, and avoiding unmarked cars.",
+   "facts": [
+    "f669",
+    "f2063"
+   ],
+   "pause": 0.35,
+   "need": [
+    "driving",
+    "road-to-airport"
+   ]
+  },
+  {
+   "text": "Option three, a rental car. Jamaica drives on the left, and inland roads can be narrow and winding, so stay on main roads where you can.",
+   "facts": [
+    "f1014",
+    "f665",
+    "f672"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "3 · RENTAL CAR",
+    "sub": "Drive on the left"
+   },
+   "need": [
+    "driving",
+    "highway-aerial"
+   ]
+  },
+  {
+   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+   "prompt": {
+    "badge": "LINK BELOW",
+    "text": "Transfer, taxi or rental? Compare in the description"
+   },
+   "pause": 0.7,
+   "need": [
+    "mobay-aerial",
+    "resort-aerial"
+   ]
+  },
+  {
+   "text": "Now, the best part: the beaches.",
+   "chapter": "4. Jamaica Beaches: Montego Bay, Negril and Ocho Rios",
+   "pause": 0.3,
+   "shots": 1,
+   "need": [
+    "doctors-cave",
+    "beach"
+   ]
+  },
+  {
+   "text": "On Montego Bay's Hip Strip, Doctor's Cave Beach is gentle, shallow and fine-sand, and it's open to the public.",
+   "facts": [
+    "f9000",
+    "f263"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "DOCTOR'S CAVE BEACH",
+    "sub": "Montego Bay, Hip Strip"
+   },
+   "need": [
+    "doctors-cave"
+   ]
+  },
+  {
+   "text": "The Hip Strip itself, Gloucester Avenue, is a full mile of restaurants, entertainment and shopping.",
+   "facts": [
+    "f259",
+    "f9140"
+   ],
+   "pause": 0.35,
+   "need": [
+    "mobay-aerial",
+    "cruise-port"
+   ]
+  },
+  {
+   "text": "Head west to Negril, the island's westernmost town, with a seven-mile stretch of beach and cliffs overlooking the sea.",
+   "facts": [
+    "f243"
+   ],
+   "pause": 0.35,
+   "map": {
+    "route": [
+     "airport",
+     "mobay",
+     "negril"
+    ],
+    "focus": "negril",
+    "text": "Montego Bay → Negril"
+   },
+   "lower": {
+    "text": "NEGRIL",
+    "sub": "Seven-mile beach"
+   },
+   "need": [
+    "negril-aerial",
+    "negril-beach"
+   ]
+  },
+  {
+   "text": "Long, calm sand on one side of town, and cliffs dropping into clear water on the other.",
+   "facts": [
+    "f243"
+   ],
+   "pause": 0.35,
+   "need": [
+    "negril-beach",
+    "negril-aerial"
+   ]
+  },
+  {
+   "text": "Along the north coast, Ocho Rios is home to Dunn's River, one of the few waterfalls in the world that empties straight into the sea.",
+   "facts": [
+    "f902"
+   ],
+   "pause": 0.35,
+   "map": {
+    "route": [
+     "airport",
+     "ocho"
+    ],
+    "focus": "ocho",
+    "text": "Ocho Rios, north coast"
+   },
+   "need": [
+    "ocho-aerial",
+    "dunns"
+   ]
+  },
+  {
+   "text": "Water shoes make the climb safer, and they're sold at the entrance if you forget yours.",
+   "facts": [
+    "f904"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "DUNN'S RIVER FALLS",
+    "sub": "Ocho Rios"
+   },
+   "need": [
+    "dunns"
+   ]
+  },
+  {
+   "text": "Further east, Port Antonio has the Blue Lagoon, where cold spring water rises to meet the warm sea.",
+   "facts": [
+    "f897"
+   ],
+   "pause": 0.35,
+   "lower": {
+    "text": "BLUE LAGOON",
+    "sub": "Port Antonio"
+   },
+   "need": [
+    "blue-lagoon",
+    "portland-aerial"
+   ]
+  },
+  {
+   "text": "Beach, waterfall or lagoon? Hit subscribe and tell us which one is first on your list.",
+   "prompt": {
+    "badge": "SUBSCRIBE",
+    "text": "Beach, waterfall or lagoon?"
+   },
+   "pause": 0.7,
+   "need": [
+    "ocho-beach",
+    "beach"
+   ]
+  },
+  {
+   "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
+   "facts": [
+    "f615"
+   ],
+   "pause": 0.35,
+   "chapter": "5. Jamaica Travel Tips: Money, Water and Safety",
+   "need": [
+    "runaway-aerial",
+    "resort-aerial"
+   ]
+  },
+  {
+   "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "facts": [
+    "f3014"
+   ],
+   "pause": 0.35,
+   "need": [
+    "ocho-aerial",
+    "cruise-port",
+    "resort-aerial"
+   ]
+  },
+  {
+   "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+   "facts": [
+    "f1024",
+    "f1025"
+   ],
+   "pause": 0.4,
+   "need": [
+    "rafting",
+    "waterfall"
+   ]
+  },
+  {
+   "text": "So, the short version. Fill in your C5 form before you fly. Pick your ride before you land: transfer, authorised taxi or rental. Then pick your coast.",
+   "pause": 0.35,
+   "shots": 3,
+   "need": [
+    "negril-aerial",
+    "beach-aerial",
+    "portland-aerial"
+   ]
+  },
+  {
+   "text": "Subscribe for the next arrival guide, and enjoy every sunny minute in Jamaica. See you on the next trip!",
+   "prompt": {
+    "badge": "SUBSCRIBE",
+    "text": "Subscribe for the next arrival guide"
+   },
+   "pause": 0.6,
+   "need": [
+    "negril-beach",
+    "beach-aerial"
+   ]
+  }
+ ]
+}

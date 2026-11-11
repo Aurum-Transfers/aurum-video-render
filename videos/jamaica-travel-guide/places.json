@@ -1,0 +1,36 @@
+{
+ "outline": "assets/maps/jamaica.geojson",
+ "_note": "Illustrative marker positions for a stylised map; not navigational. Not cited as facts.",
+ "places": {
+  "airport": {
+   "label": "Sangster Intl (MBJ)",
+   "lon": -77.9134,
+   "lat": 18.5037
+  },
+  "mobay": {
+   "label": "Montego Bay",
+   "lon": -77.8939,
+   "lat": 18.4762
+  },
+  "negril": {
+   "label": "Negril",
+   "lon": -78.3478,
+   "lat": 18.2683
+  },
+  "ocho": {
+   "label": "Ocho Rios",
+   "lon": -77.1031,
+   "lat": 18.4074
+  },
+  "portantonio": {
+   "label": "Port Antonio",
+   "lon": -76.4504,
+   "lat": 18.1765
+  },
+  "kingston": {
+   "label": "Kingston",
+   "lon": -76.792,
+   "lat": 17.9714
+  }
+ }
+}
