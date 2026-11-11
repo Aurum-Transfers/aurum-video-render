@@ -3,7 +3,7 @@
  "gate_exceptions": {
   "why": "Marvin t225u 2026-11-10: no licensed OCJ landing footage exists; the opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled 'Approach footage: Jamaica's north coast'; narration says 'flying into Jamaica's north coast', never that it is OCJ."
  },
- "created": "2026-11-11T12:16:51-05:00",
+ "created": "2026-11-11T12:21:09-05:00",
  "slug": "jamaica-ocj-short-1",
  "title": "Ian Fleming airport (OCJ): how to reach your hotel",
  "fps": 30,
@@ -458,42 +458,42 @@
    "t1": 41.3333,
    "frames": 125,
    "kind": "clip",
-   "clip_id": "ocho_cruise",
-   "video_id": "11Z-XBbUst0",
-   "creator": "Joseph Oleske",
-   "file": "jobs/jamaica-ocj-short-1/clips/11Z-XBbUst0_229-239.mp4",
+   "clip_id": "ocho_villa_aerial_1",
+   "video_id": "loUSJynWKNU",
+   "creator": "Bicana",
+   "file": "jobs/jamaica-ocj-short-1/clips/loUSJynWKNU_0-9.mp4",
    "file_in": 0.1,
-   "play_speed": 2.0,
-   "src_in": 229.1,
-   "src_out": 237.433,
-   "tag": "ocho-cruise,ocho-aerial",
+   "play_speed": 1.0,
+   "src_in": 0.1,
+   "src_out": 4.267,
+   "tag": "ocho-aerial,resort-aerial",
    "shows": [
-    "ocho-cruise",
-    "ocho-aerial"
+    "ocho-aerial",
+    "resort-aerial"
    ],
-   "qc": {
-    "mot_med": 4.591,
-    "mot_min": 3.914,
-    "y_mean": 72.1,
-    "y_min": 65.5,
-    "dh": [
-     13835305026691072257,
-     2468181674691201408,
-     11656400502311291288,
-     333358188436778687
-    ]
-   },
-   "parent": "ocho_cruise",
+   "parent": "ocho_villa_aerial_1",
    "line": 5,
    "audio_ok": false,
-   "place": "Ocho Rios cruise pier",
-   "subject": "ocho-cruise",
+   "place": "Hills above Ocho Rios from the air (Bicana)",
+   "subject": "ocho-villa-aerial-1",
    "handheld": false,
    "ton_max": null,
    "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 4.142,
+    "mot_min": 3.468,
+    "y_mean": 158.4,
+    "y_min": 152.7,
+    "dh": [
+     12952851332559557696,
+     12958629407870689376,
+     8346974308921286664,
+     8311051063274801548
+    ]
+   },
    "reframe": {
-    "cx0": 0.1609,
-    "cx1": 0.1953,
+    "cx0": 0.7797,
+    "cx1": 0.8109,
     "method": "saliency+motion v1"
    }
   },
