@@ -1,0 +1,18 @@
+{
+ "id": "P-AbmWV49TU",
+ "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+ "channel": "Driving Time",
+ "channel_url": "https://www.youtube.com/channel/UCRK36g-UxXwxJQm-4MUCbiA",
+ "uploader": "Driving Time",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 540,
+ "upload_date": "20240718",
+ "width": 3840,
+ "height": 2160,
+ "description": "",
+ "checked_at": "2026-11-10T22:03:22-05:00",
+ "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 60.0
+}

@@ -341,5 +341,180 @@
   "checked_on": "2026-11-05",
   "kind": "official",
   "source": "gb-fix-scripted-resume/books/jamaica export place.json (read-only copy)"
+ },
+ "k001": {
+  "claim": "Norman Manley International Airport (NMIA), IATA KIN, is about 19 km from downtown Kingston.",
+  "url": "https://www.aeropuertosgap.com.mx/en/kingston.html",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k002": {
+  "claim": "NMIA sits on a peninsula about twenty minutes from Kingston's business centre, bordered by the seventh-largest natural harbour in the world.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/normal-manley-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k003": {
+  "claim": "NMIA handles over 2 million passengers a year and over 80 percent of the island's airfreight.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/normal-manley-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k004": {
+  "claim": "NMIA is operated by PAC Kingston Airport Limited, a subsidiary of Grupo Aeroportuario del Pacifico (GAP).",
+  "url": "https://www.aeropuertosgap.com.mx/en/kingston.html",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k005": {
+  "claim": "NMIA has a single runway, 12/30, 2,716 m long.",
+  "url": "https://www.aeropuertosgap.com.mx/en/kingston.html",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k006": {
+  "claim": "Car rentals, currency exchange, taxi services and tour operators are in the NMIA Arrivals Ground Transportation Hall; luggage trolleys are free and porters ('Red-Caps') are available.",
+  "url": "https://www.visitjamaica.com/plan-your-adventure/getting-here/airports-in-jamaica/norman-manley-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k007": {
+  "claim": "The drive from NMIA runs along the Palisadoes road with Kingston Harbour on one side and the Caribbean Sea on the other; Ocho Rios is about 90 minutes away.",
+  "url": "https://www.visitjamaica.com/plan-your-adventure/getting-here/airports-in-jamaica/norman-manley-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k008": {
+  "claim": "UK advice: of the two routes between Kingston and NMIA, most people take the Humming Bird route via South Camp Road; there has been sporadic violence in the Mountain View area.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k009": {
+  "claim": "UK advice: British nationals have been tracked and robbed travelling from the airport to private accommodation; be cautious when driving and getting out of the car.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k010": {
+  "claim": "UK advice: if you are unfamiliar with Kingston, do not drive in the city.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k011": {
+  "claim": "UK advice: use Jamaican Tourist Board approved taxis, which display a blue JTB sticker; taxi-hailing apps such as Uber are available in some areas including Kingston.",
+  "url": "https://www.gov.uk/foreign-travel-advice/jamaica/safety-and-security",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (operator / airport authority / tourist board / GOV.UK), read 2026-11-10"
+ },
+ "k012": {
+  "claim": "Kingston was founded in 1692 for survivors of the earthquake that destroyed Port Royal; it is the capital and largest city of Jamaica.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "k013": {
+  "claim": "New Kingston, the business hub, is home to several of the city's hotels.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "k014": {
+  "claim": "Kingston is the birthplace of reggae, and the Bob Marley Museum is where he lived and recorded many of his famous songs.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "k015": {
+  "claim": "Port Royal, a quick ride from Kingston, was once called 'the richest and wickedest city on earth'; visitors can tour the old fort and reach the beaches at Lime Cay.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "k016": {
+  "claim": "Hope Gardens, at 2,000 acres, is the largest botanical garden in the Caribbean.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "k017": {
+  "claim": "Devon House is one of Kingston's favourite historical mansions, known for ice cream and pastry.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "k018": {
+  "claim": "A scenic drive from Kingston climbs into the Blue Mountains, with coffee plantations, cool climate and hiking trails.",
+  "url": "https://www.visitjamaica.com/resort-areas/kingston/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Jamaica Tourist Board), read 2026-11-10"
+ },
+ "o001": {
+  "claim": "Ian Fleming International Airport (IFIA), IATA OCJ, is in Boscobel, St Mary, about 15 km from Ocho Rios; the airport's own guide gives 14.5 km (9 miles) east of Ocho Rios.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/ian-lemming-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
+ },
+ "o002": {
+  "claim": "IFIA is named after Ian Fleming, creator of James Bond; GoldenEye, his Jamaican home where fourteen Bond novels were written, is about 5 km away in Oracabessa.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/ian-lemming-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
+ },
+ "o003": {
+  "claim": "At IFIA, customs and immigration are available daily 07:00-19:00, with prior notice required outside these hours.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/ian-lemming-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
+ },
+ "o004": {
+  "claim": "IFIA's normal operating hours are 07:00-19:00 daily.",
+  "url": "https://ifia.aero/pilots-guide/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
+ },
+ "o005": {
+  "claim": "IFIA lists taxi or coach services hire for transportation; taxis are available on site when required and attract an additional fee.",
+  "url": "https://ifia.aero/procedures-guidelines/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
+ },
+ "o006": {
+  "claim": "IFIA has a single runway, 09/27.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/ian-lemming-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
+ },
+ "o007": {
+  "claim": "The Airports Authority of Jamaica calls IFIA Jamaica's newest international port of entry and the primary airport for accessible luxury.",
+  "url": "https://airportsauthorityjamaica.aero/airports-aerodromes/ian-lemming-international-airport/",
+  "checked_on": "2026-11-10",
+  "kind": "official",
+  "source": "primary web page (Airports Authority of Jamaica / IFIA), read 2026-11-10"
  }
 }

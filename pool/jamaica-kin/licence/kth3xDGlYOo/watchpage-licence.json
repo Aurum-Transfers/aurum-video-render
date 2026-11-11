@@ -1,0 +1,18 @@
+{
+ "id": "kth3xDGlYOo",
+ "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+ "channel": "Spicy_FPV_Jamaica",
+ "channel_url": "https://www.youtube.com/channel/UCfkPnzndCxL1Owrk3_5Bbaw",
+ "uploader": "Spicy_FPV_Jamaica",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 841,
+ "upload_date": "20200407",
+ "width": 2560,
+ "height": 1440,
+ "description": "This is a quick flyover of the Port Royal Beach using a DJI Phantom 3 Standard. This was after sunset on a wonderful evening outdoors.",
+ "checked_at": "2026-11-10T22:03:22-05:00",
+ "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1440,
+ "fps_at_max": 30.0
+}

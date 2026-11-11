@@ -1,0 +1,156 @@
+{
+ "items": [
+  {
+   "i": 0,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s000-d588111a54.wav"
+  },
+  {
+   "i": 1,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s001-16f70d9447.wav"
+  },
+  {
+   "i": 2,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s002-763090c5cf.wav"
+  },
+  {
+   "i": 3,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s003-09ae8dc8f0.wav"
+  },
+  {
+   "i": 4,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s004-a7c04fef66.wav"
+  },
+  {
+   "i": 5,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s005-0e64c339d4.wav"
+  },
+  {
+   "i": 6,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s006-515f83226d.wav"
+  },
+  {
+   "i": 7,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s007-e8aa707daf.wav"
+  },
+  {
+   "i": 8,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s008-71c3aa2865.wav"
+  },
+  {
+   "i": 9,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s009-6f00208dd9.wav"
+  },
+  {
+   "i": 10,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s010-e5a81b4b84.wav"
+  },
+  {
+   "i": 11,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s011-4c761388f8.wav"
+  },
+  {
+   "i": 12,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s012-ec6593d510.wav"
+  },
+  {
+   "i": 13,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s013-8a7eefa894.wav"
+  },
+  {
+   "i": 14,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s014-876ce4da12.wav"
+  },
+  {
+   "i": 15,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s015-53f3cca38a.wav"
+  },
+  {
+   "i": 16,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s016-102144c765.wav"
+  },
+  {
+   "i": 17,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s017-42b0d3a000.wav"
+  },
+  {
+   "i": 18,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s018-cfdaef1639.wav"
+  },
+  {
+   "i": 19,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s019-dce1f8177d.wav"
+  },
+  {
+   "i": 20,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s020-72e7ff5d4c.wav"
+  },
+  {
+   "i": 21,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s021-e504d1113e.wav"
+  },
+  {
+   "i": 22,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s022-76b18f6084.wav"
+  },
+  {
+   "i": 23,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s023-baf3b5166c.wav"
+  },
+  {
+   "i": 24,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s024-a4f291f797.wav"
+  },
+  {
+   "i": 25,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s025-336aa646ea.wav"
+  },
+  {
+   "i": 26,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s026-d2cb1e35a6.wav"
+  },
+  {
+   "i": 27,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s027-d81fff6d4d.wav"
+  },
+  {
+   "i": 28,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s028-e738633da5.wav"
+  },
+  {
+   "i": 29,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s029-2300b49c75.wav"
+  },
+  {
+   "i": 30,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s030-1b85c4e998.wav"
+  },
+  {
+   "i": 31,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s031-1a3a092326.wav"
+  },
+  {
+   "i": 32,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s032-5aa02a5888.wav"
+  },
+  {
+   "i": 33,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s033-f720a60b90.wav"
+  },
+  {
+   "i": 34,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s034-865173a653.wav"
+  },
+  {
+   "i": 35,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s035-cb0dd6573b.wav"
+  },
+  {
+   "i": 36,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s036-17db70c96f.wav"
+  },
+  {
+   "i": 37,
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/tts/s037-3f1afe490e.wav"
+  }
+ ]
+}
