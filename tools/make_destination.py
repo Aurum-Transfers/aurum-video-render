@@ -539,6 +539,9 @@ class Job:
         bad = [x for x in rs if x.get("status") not in ("sha256-verified", "already-verified")]
         if bad or len(rs) < len(lj(expect)):
             raise Stop(FAILED, "D: archive not fully verified", bad=bad)
+        # standing rule 11 Nov: purge box copies that now have a sha256-verified remote copy (gate-carded, non-fatal)
+        pv = run(["python3", HERE / "purge_verified.py", "--slug", self.slug, "--quiet"])
+        print(json.dumps({"stage": "archive", "purge_verified": (pv.stdout or pv.stderr).strip()[-300:]}))
         if not delete_card:
             return {"archived": len(rs), "deleted": 0, "note": "archive verified; box copies kept (pass --delete-card to free space)"}
         g = run(["python3", GATE, "db-delete", "--bot", BOT, "--card", delete_card, "--what",
