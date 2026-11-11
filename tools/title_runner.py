@@ -238,6 +238,8 @@ print(json.dumps(out))
             sj(self.b / "edl-long.json", edl)
             self.licence_log(edl["shots"])
             res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), None, root=self.wd)
+            if self.portrait:
+                res = self.short_filter(res, edl)
             sj(self.out / "scorecard-pre-render.json", {"created": now(), "stage": "pre-render (locked EDL)", **res})
             fs = [x["t1"] - x["t0"] for x in edl["shots"]]
             print(json.dumps({"pass": res["pass"], "failed": res["failed"], "locked": True, "shots": len(fs), "median_shot": round(statistics.median(fs), 2),
@@ -524,6 +526,11 @@ print(json.dumps(out))
         disc = any(s_.get("disclosure") for s_ in edl["sentences"])
         needs = any("aurum-transfers.com" in s_["text"] or "link" in s_["text"].lower() for s_ in edl["sentences"])
         g["disclosure_if_affiliate_cta"] = {"pass": disc or not needs, "detail": {"cta": needs, "disclosure": disc}}
+        import portrait_gate  # t230u: true 9:16 reframe (crop + pan on the subject), never bars or blur-pad
+        g["portrait_shots_reframed"] = portrait_gate.check_edl(edl)
+        outp = self.out / f"{self.stem}.mp4"
+        if getattr(self, "_qa_output", False) and outp.exists():
+            g["portrait_no_letterbox_or_blur_pad"] = portrait_gate.check_video(outp)
         failed = [k for k, v in g.items() if not v["pass"]]
         return {"pass": not failed, "failed": failed, "gates": g, "spec": res["spec"]}
 
@@ -601,7 +608,9 @@ print(json.dumps(out))
             d = n / FPS
             sp = s["play_speed"]
             crop = self.crops.get(s["file"], "")
-            key = hashlib.md5((f"{s['file']}|{s['file_in']:.3f}|{n}|{sp}|{w}x{h}" + (f"|{crop}" if crop else "")).encode()).hexdigest()[:10]
+            rf = s.get("reframe") if self.portrait else None  # portrait_reframe.py: subject-tracking 9:16 window (cx0 -> cx1)
+            key = hashlib.md5((f"{s['file']}|{s['file_in']:.3f}|{n}|{sp}|{w}x{h}" + (f"|{crop}" if crop else "")
+                               + (f"|rf{rf['cx0']:.3f}-{rf['cx1']:.3f}" if rf else "")).encode()).hexdigest()[:10]
             keys_f = sd / "keys.json"
             keys = json.loads(keys_f.read_text()) if keys_f.exists() else {}
             vf = sd / f"{k:04d}.mp4"
@@ -612,6 +621,10 @@ print(json.dumps(out))
                 keys_f.write_text(json.dumps(keys))
             if not vf.exists():
                 filt = (f"crop={crop}," if crop else "") + f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},setsar=1,format=yuv420p,tpad=stop_mode=clone:stop_duration=1"
+                if rf:  # crop + pan on the subject (never pad/blur): window centre moves linearly cx0 -> cx1 over the shot
+                    D = max(0.1, d * sp)
+                    pan = (f"crop=w='trunc(ih*9/16/2)*2':h=ih:x='max(0,min(iw-ow,({rf['cx0']:.4f}+({rf['cx1'] - rf['cx0']:.4f})*min(1,t/{D:.3f}))*iw-ow/2))':y=0,")
+                    filt = (f"crop={crop}," if crop else "") + pan + f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},scale={w}:{h},setsar=1,format=yuv420p,tpad=stop_mode=clone:stop_duration=1"
                 sh(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{s['file_in']:.3f}", "-t", f"{d * sp + 1.0:.3f}", "-i", s["file"], "-an", "-vf", filt,
                     "-frames:v", str(n), "-c:v", "libx264", "-preset", preset, "-crf", crf, "-r", str(FPS), "-video_track_timescale", "15360", str(vf)])
             vl.append(f"file '{vf}'")
@@ -747,6 +760,7 @@ print(json.dumps(out))
         mo = spec_gates.measure_output(out, True, edl, self.b / "ambd-hd.wav", self.b / "narration.wav")
         res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), mo, root=self.wd)
         if self.portrait:
+            self._qa_output = True
             res = self.short_filter(res, edl)
         qa = self.out / "qa"
         qa.mkdir(exist_ok=True)

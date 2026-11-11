@@ -6,7 +6,8 @@
 <job> is a folder under jobs/. Stages run in order; each one is skipped when its outputs are already valid, and the
 state file records every result, so a re-run after an interruption resumes at the first unfinished stage.
 
-  inputs   script.json + facts.json present (the ONLY AI-written inputs), operator-claim / fixed-price lint
+  inputs   facts.json pulled from the facts database (facts_pull.py: book exports, earlier video facts, partner DB; spec
+           "facts_db"); script.json lines are the ONLY AI-written input (+ research for listed DB gaps); lint
   footage  [no ranges.json] YouTube Data API CC search (+cc_search.py fallback), Pexels/Pixabay API, pool_screen.py
            licence + 1080p prefilter, storyboard sheets -> STOP for the visual pick (ranges.json)
            [ranges.json] footage_from_ranges.py (cookie-less yt-dlp) -> clip_qc.py (sharpness, motion, luma, music
@@ -111,7 +112,7 @@ class Job:
         return {"stdout_tail": r.stdout.strip()[-600:]}
 
     def facts_path(self):
-        for p in (self.wd / "facts.json", ROOT / self.spec.get("facts", "__none__")):
+        for p in ((self.scratch / "facts.json") if self.dry else self.wd / "facts.json", self.wd / "facts.json", ROOT / self.spec.get("facts", "__none__")):
             if p.is_file():
                 return p
         return None
@@ -120,8 +121,30 @@ class Job:
         return lj(self.wd / "edl-lock.json")
 
     # ------------------------------------------------------------------ 1 inputs
+    def pull_facts(self):
+        """facts.json from the facts database (book exports, earlier video facts, partner DB) via facts_pull.py.
+        Needs spec "facts_db": {"dest": "jamaica", "iata": "KIN", "airport": "Norman Manley", "place": "Kingston"}."""
+        db = self.spec.get("facts_db")
+        if not db:
+            return None
+        out = (self.scratch if self.dry else self.wd) / "facts.json"
+        r = run(["python3", HERE / "facts_pull.py", db["dest"], "--iata", db["iata"], "--airport", db["airport"], "--place", db.get("place", ""),
+                 "--out", out])
+        if r.returncode == 2:
+            raise Stop(NEEDS_REVIEW, f"no fact database for {db['dest']} on the box: CopyToBox the book's export/place.json from the PC "
+                                     f"(C:\\Users\\MHB53\\gb-{db['dest']}\\books\\{db['dest']}\\export\\place.json) into "
+                                     f"/workspace/aurum-guidebooks/books/{db['dest']}/export/")
+        if r.returncode:
+            raise Stop(FAILED, "facts_pull failed", stderr=r.stderr[-400:])
+        return out
+
     def s_inputs(self):
-        sc = lj(self.wd / "script.json"); fp = self.facts_path()
+        pulled = self.pull_facts()
+        sc = lj(self.wd / "script.json"); fp = pulled or self.facts_path()
+        gaps = ((lj(fp, {}) or {}).get("_meta") or {}).get("gaps_for_ai_research", []) if fp else []
+        if fp and not (sc and sc.get("lines")):
+            raise Stop(NEEDS_AI, f"facts pulled from the database ({fp}); write script.json lines citing those fact ids"
+                                 + (f"; research only these gaps: {gaps}" if gaps else ""))
         miss = [n for n, ok in (("script.json", sc and sc.get("lines")), ("facts.json", fp)) if not ok]
         if miss:
             raise Stop(NEEDS_AI, f"missing AI inputs: {', '.join(miss)} (research facts from primary sources; write script.json to the v6 template)")
@@ -141,7 +164,8 @@ class Job:
         if bad:
             raise Stop(NEEDS_AI, "script lint failed (rewrite these lines)", lines=bad)
         words = sum(len(l["text"].split()) for l in sc["lines"])
-        return {"lines": len(sc["lines"]), "words": words, "facts": str(fp), "package_fields": sorted((sc.get("package") or {}).keys())}
+        return {"lines": len(sc["lines"]), "words": words, "facts": str(fp), "facts_from_db": bool(pulled), "gaps_for_ai": gaps,
+                "package_fields": sorted((sc.get("package") or {}).keys())}
 
     # ------------------------------------------------------------------ 2 footage
     def queries(self):
