@@ -3,7 +3,7 @@
  "gate_exceptions": {
   "why": "Marvin t225u 2026-11-10: no licensed OCJ landing footage exists; the opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled 'Approach footage: Jamaica's north coast'; narration says 'flying into Jamaica's north coast', never that it is OCJ."
  },
- "created": "2026-11-11T12:56:16-05:00",
+ "created": "2026-11-11T13:56:39-05:00",
  "slug": "jamaica-ocj-short-2",
  "title": "Ian Fleming (OCJ) arrival checklist",
  "fps": 30,
@@ -373,43 +373,42 @@
    "t1": 37.4667,
    "frames": 124,
    "kind": "clip",
-   "clip_id": "ocho_bay",
+   "clip_id": "ocho_coast",
    "video_id": "11Z-XBbUst0",
    "creator": "Joseph Oleske",
-   "file": "jobs/jamaica-ocj-short-2/clips/11Z-XBbUst0_250-257.mp4",
-   "file_in": 1.6,
+   "file": "jobs/jamaica-ocj-short-2/clips/11Z-XBbUst0_198-204.mp4",
+   "file_in": 0.1,
    "play_speed": 1.0,
-   "src_in": 251.6,
-   "src_out": 255.733,
-   "tag": "ocho-aerial,beach-aerial,resort-aerial",
+   "src_in": 198.1,
+   "src_out": 202.233,
+   "tag": "ocho-aerial,beach-aerial",
    "shows": [
     "ocho-aerial",
-    "beach-aerial",
-    "resort-aerial"
+    "beach-aerial"
    ],
-   "parent": "ocho_bay",
+   "parent": "ocho_coast",
    "line": 5,
    "audio_ok": false,
-   "place": "Ocho Rios bay aerial",
-   "subject": "ocho-bay",
+   "place": "Ocho Rios coast aerial",
+   "subject": "ocho-coast",
    "handheld": false,
    "ton_max": null,
    "qc_method": "source-window-output-speed",
    "qc": {
-    "mot_med": 2.066,
-    "mot_min": 1.564,
-    "y_mean": 104.5,
-    "y_min": 103.1,
+    "mot_med": 9.016,
+    "mot_min": 8.622,
+    "y_mean": 115.7,
+    "y_min": 103.8,
     "dh": [
-     17361606158851873563,
-     16276185699560657715,
-     16276255485289772855,
-     16420335768018827063
+     12945248355496151783,
+     12450636697402129550,
+     7380101781221733044,
+     9295426160406202062
     ]
    },
    "reframe": {
-    "cx0": 0.1828,
-    "cx1": 0.3406,
+    "cx0": 0.6422,
+    "cx1": 0.5234,
     "method": "saliency+motion v1"
    }
   },
