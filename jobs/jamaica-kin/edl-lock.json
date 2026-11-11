@@ -1,3861 +1,3859 @@
 {
- "schema": "aurum-edl-v1",
- "gate_exceptions": {
-  "sharp_exempt_clips": [
-   "kin_descent_1",
-   "kin_approach_hills",
-   "kin_approach_sea"
+  "schema": "aurum-edl-v1",
+  "gate_exceptions": {
+    "sharp_exempt_clips": [
+      "kin_descent_1",
+      "kin_approach_hills",
+      "kin_approach_sea"
+    ],
+    "sharp_exempt_lap_min": 12.0,
+    "why": "Marvin t225u 2026-11-10: 8tevGZVbe88 (Love Charmzworld window seat) is the only real Norman Manley landing footage found on CC BY YouTube, Pexels and Pixabay; used short, sped up (and stabilised) as a documented sharpness exception for the landing shots only. Creator cap raised to 40% for this video only (t225u option d): only 5 licensed creators film Kingston.",
+    "creator_share_max": 0.4
+  },
+  "created": "2026-11-11T01:49:01-05:00",
+  "slug": "jamaica-kin",
+  "title": "Kingston Airport (KIN) Arrival 2026: Transfer, Taxi or Rental Car",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration_s": 308.641,
+  "program_end_s": 303.641,
+  "hook_end_s": 12.304,
+  "shots": [
+    {
+      "t0": 0.0,
+      "t1": 4.5,
+      "frames": 135,
+      "kind": "clip",
+      "clip_id": "kin_descent_1",
+      "video_id": "8tevGZVbe88",
+      "creator": "Love Charmzworld",
+      "file": "jobs/jamaica-kin/clips/8tevGZVbe88_284-294.mp4",
+      "file_in": 1.5,
+      "play_speed": 1.5,
+      "src_in": 285.5,
+      "src_out": 292.25,
+      "tag": "landing,approach,air-arrival,window-seat",
+      "shows": [
+        "approach",
+        "air-arrival",
+        "window-seat"
+      ],
+      "qc": {
+        "mot_med": 2.406,
+        "mot_min": 1.727,
+        "y_mean": 140.2,
+        "y_min": 136.4,
+        "dh": [
+          17936601975629050194,
+          17935478274745463106,
+          17431110232266797378,
+          17395072639152716131,
+          17395081503965755747,
+          17431075670084597937,
+          17395046873065625777,
+          17431076494786747545
+        ]
+      },
+      "parent": "kin_descent_1",
+      "line": 0,
+      "audio_ok": false,
+      "place": "Descent towards Kingston, window seat (stabilised)",
+      "subject": "kin-descent-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 4.5,
+      "t1": 10.3333,
+      "frames": 175,
+      "kind": "clip",
+      "clip_id": "kin_curb_1",
+      "video_id": "B8Fo1ZQz8ec",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1692-1702.mp4",
+      "file_in": 2.0,
+      "play_speed": 1.0,
+      "src_in": 1694.0,
+      "src_out": 1699.833,
+      "tag": "airport-curb,airport-terminal",
+      "shows": [
+        "airport-curb",
+        "airport-terminal"
+      ],
+      "qc": {
+        "mot_med": 6.47,
+        "mot_min": 5.761,
+        "y_mean": 122.8,
+        "y_min": 112.7,
+        "dh": [
+          18102690734576813575,
+          11263220631777313835,
+          17795687702308782925,
+          15765111315932395894,
+          3501777187576257708,
+          3790266498219275388
+        ]
+      },
+      "parent": "kin_curb_1",
+      "line": 1,
+      "audio_ok": true,
+      "place": "Norman Manley terminal curb",
+      "subject": "kin-curb-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 10.3333,
+      "t1": 12.8333,
+      "frames": 75,
+      "kind": "clip",
+      "clip_id": "kgn_aerial_b_1",
+      "video_id": "12BhNaqKtPg",
+      "creator": "Joeka Productions",
+      "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_150-155.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 150.3,
+      "src_out": 152.8,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 11.422,
+        "mot_min": 11.074,
+        "y_mean": 117.5,
+        "y_min": 111.2,
+        "dh": [
+          6434844751211459543,
+          17392132396343009957,
+          2182964444035995287
+        ]
+      },
+      "parent": "kgn_aerial_b_1",
+      "line": 2,
+      "audio_ok": false,
+      "place": "Kingston from the air",
+      "subject": "st-andrew-aerial-b-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 12.8333,
+      "t1": 17.0,
+      "frames": 125,
+      "kind": "clip",
+      "clip_id": "highway_aerial_2",
+      "video_id": "FcYqtBaMXFM",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_66-75.mp4",
+      "file_in": 2.38,
+      "play_speed": 1.0,
+      "src_in": 68.38,
+      "src_out": 72.547,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.578,
+        "mot_min": 1.414,
+        "y_mean": 123.8,
+        "y_min": 100.1,
+        "dh": [
+          16623277423608134906,
+          16623134764121749754,
+          16623133799353171254,
+          17969499809838456276,
+          12591977407565446580
+        ]
+      },
+      "parent": "highway_aerial_2",
+      "line": 3,
+      "audio_ok": false,
+      "place": "Highway through the Jamaican hills, from the air",
+      "subject": "highway-aerial-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 17.0,
+      "t1": 21.1667,
+      "frames": 125,
+      "kind": "clip",
+      "clip_id": "trident",
+      "video_id": "xwah2a4CF3A",
+      "creator": "Digital Video Concept",
+      "file": "jobs/jamaica-kin/clips/xwah2a4CF3A_0-11.mp4",
+      "file_in": 0.3,
+      "play_speed": 2.0,
+      "src_in": 0.3,
+      "src_out": 8.633,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.688,
+        "mot_min": 1.708,
+        "y_mean": 87.3,
+        "y_min": 80.8,
+        "dh": [
+          17129565894799037595,
+          17127321654127795611,
+          17129494289108481179,
+          17057788538791573149,
+          7831856838900889230,
+          7507602613498978858,
+          144735178521244660,
+          144735187111171040,
+          144735177449591586
+        ]
+      },
+      "parent": "trident",
+      "line": 3,
+      "audio_ok": false,
+      "place": "Clifftop coast aerial, Portland",
+      "subject": "trident-aerial",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 21.1667,
+      "t1": 25.3333,
+      "frames": 125,
+      "kind": "clip",
+      "clip_id": "rb_bay_d",
+      "video_id": "OaDLJ5KtI2Y",
+      "creator": "Chris Cafiero",
+      "file": "jobs/jamaica-kin/clips/OaDLJ5KtI2Y_3-14.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.5,
+      "src_in": 5.3,
+      "src_out": 11.55,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 3.757,
+        "mot_min": 2.607,
+        "y_mean": 102.6,
+        "y_min": 101.7,
+        "dh": [
+          16195103498128628760,
+          16195103223250594974,
+          16195103214809522854,
+          16195103352250958370,
+          16195103347922240321,
+          16195103211019897105,
+          16195085618160935444
+        ]
+      },
+      "parent": "rb_bay_d",
+      "line": 3,
+      "audio_ok": false,
+      "place": "North coast bay, Runaway Bay, from the air",
+      "subject": "rb-bay-d",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 25.3333,
+      "t1": 29.1,
+      "frames": 113,
+      "kind": "clip",
+      "clip_id": "runaway_coast",
+      "video_id": "11Z-XBbUst0",
+      "creator": "Joseph Oleske",
+      "file": "jobs/jamaica-kin/clips/11Z-XBbUst0_12-19.mp4",
+      "file_in": 1.3,
+      "play_speed": 1.0,
+      "src_in": 13.3,
+      "src_out": 17.067,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 4.226,
+        "mot_min": 3.695,
+        "y_mean": 114.6,
+        "y_min": 66.7,
+        "dh": [
+          13320664333898768451,
+          11014832336448750536,
+          11014901460193503460,
+          10974292381740889337,
+          11263173789270243892
+        ]
+      },
+      "parent": "runaway_coast",
+      "line": 4,
+      "audio_ok": false,
+      "place": "Runaway Bay coast, north Jamaica, from the air",
+      "subject": "runaway-coast",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 29.1,
+      "t1": 32.9,
+      "frames": 114,
+      "kind": "clip",
+      "clip_id": "portland_coast",
+      "video_id": "A7R4F02ZY68",
+      "creator": "Build With vegas",
+      "file": "jobs/jamaica-kin/clips/A7R4F02ZY68_19-29.mp4",
+      "file_in": 2.0,
+      "play_speed": 1.5,
+      "src_in": 21.0,
+      "src_out": 26.7,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 5.38,
+        "mot_min": 4.715,
+        "y_mean": 114.4,
+        "y_min": 89.6,
+        "dh": [
+          14752910830667477536,
+          15869795293528781666,
+          14725881262384141299,
+          14725740252160651985,
+          14734888189968831699,
+          14716873928969580662
+        ]
+      },
+      "parent": "portland_coast",
+      "line": 4,
+      "audio_ok": false,
+      "place": "Portland coast, east Jamaica, from the air",
+      "subject": "portland-coast-b",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 32.9,
+      "t1": 36.6667,
+      "frames": 113,
+      "kind": "clip",
+      "clip_id": "jm_mountains_b",
+      "video_id": "pexels-37177434",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177434_0-15.mp4",
+      "file_in": 0.3,
+      "play_speed": 3.5,
+      "src_in": 0.3,
+      "src_out": 13.483,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 1.596,
+        "mot_min": 1.287,
+        "y_mean": 82.6,
+        "y_min": 78.6,
+        "dh": [
+          12435427045430949074,
+          12435286307925816530,
+          12507343919143609554,
+          10201536094302004946,
+          10201536085712074454,
+          10201536086783718118,
+          10201536069673055941,
+          10201536073968002005,
+          10201536073968001495,
+          10201501164473823731,
+          10201501168789762547,
+          12507344178003456491,
+          12507414538153636330,
+          12507344255308804458
+        ]
+      },
+      "parent": "jm_mountains_b",
+      "line": 4,
+      "audio_ok": false,
+      "place": "Jamaican mountains from the air",
+      "subject": "px-jm-mountains-b",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 36.6667,
+      "t1": 41.5667,
+      "frames": 147,
+      "kind": "clip",
+      "clip_id": "kin_approach_hills",
+      "video_id": "8tevGZVbe88",
+      "creator": "Love Charmzworld",
+      "file": "jobs/jamaica-kin/clips/8tevGZVbe88_333-341.mp4",
+      "file_in": 0.1,
+      "play_speed": 1.25,
+      "src_in": 333.1,
+      "src_out": 339.225,
+      "tag": "landing,approach,air-arrival,window-seat",
+      "shows": [
+        "approach",
+        "air-arrival",
+        "window-seat"
+      ],
+      "parent": "kin_approach_hills",
+      "line": 5,
+      "audio_ok": false,
+      "place": "Approach over St Andrew hills (stabilised)",
+      "subject": "kin-approach-hills",
+      "handheld": false,
+      "ton_max": null,
+      "qc": {
+        "mot_med": 2.039,
+        "mot_min": 1.887,
+        "y_mean": 127.0,
+        "y_min": 125.4,
+        "dh": [
+          15680280004895504383,
+          16640454063748119019,
+          5825373985974828277,
+          6407480162620440186,
+          8964397893236529977,
+          4352148918514347068,
+          4500213826718179002
+        ]
+      }
+    },
+    {
+      "t0": 41.5667,
+      "t1": 46.8333,
+      "frames": 158,
+      "kind": "clip",
+      "clip_id": "hellshire_10",
+      "video_id": "egDSZto6Jmw",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_540-550.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 540.3,
+      "src_out": 548.2,
+      "tag": "sea-aerial,beach-aerial",
+      "shows": [
+        "sea-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 4.057,
+        "mot_min": 3.138,
+        "y_mean": 113.3,
+        "y_min": 108.1,
+        "dh": [
+          13255197479728833525,
+          13399298425391072998,
+          15200046726778120649,
+          17941484361358244333,
+          17941415899076164557,
+          18227671612977247193,
+          13415213890967272925,
+          13505534360257559483,
+          12933735500698221426
+        ]
+      },
+      "parent": "hellshire_10",
+      "line": 6,
+      "audio_ok": false,
+      "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+      "subject": "hellshire-10",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 46.8333,
+      "t1": 52.0667,
+      "frames": 157,
+      "kind": "clip",
+      "clip_id": "jm_mountain_coast_2",
+      "video_id": "pexels-37177265",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177265_14-25.mp4",
+      "file_in": 1.64,
+      "play_speed": 1.5,
+      "src_in": 15.64,
+      "src_out": 23.49,
+      "tag": "jamaica-aerial,sea-aerial",
+      "shows": [
+        "jamaica-aerial",
+        "sea-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.413,
+        "mot_min": 2.215,
+        "y_mean": 105.8,
+        "y_min": 97.2,
+        "dh": [
+          1300907490067520558,
+          1161296456745598558,
+          2601534611141254714,
+          2313163506074121464,
+          5202786643482502654,
+          4626325770886179694,
+          10410076882080877513,
+          10477911011437233075,
+          135398298025273206
+        ]
+      },
+      "parent": "jm_mountain_coast_2",
+      "line": 6,
+      "audio_ok": false,
+      "place": "Green mountain and coastline, Jamaica",
+      "subject": "px-jm-mountain-coast-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 52.0667,
+      "t1": 55.0,
+      "frames": 88,
+      "kind": "clip",
+      "clip_id": "kgn_aerial_b_2",
+      "video_id": "12BhNaqKtPg",
+      "creator": "Joeka Productions",
+      "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_198-205.mp4",
+      "file_in": 2.4,
+      "play_speed": 1.0,
+      "src_in": 200.4,
+      "src_out": 203.333,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 5.3,
+        "mot_min": 4.739,
+        "y_mean": 112.4,
+        "y_min": 111.0,
+        "dh": [
+          1712784107124464680,
+          2234781641869727668,
+          5698120639338525205,
+          17227342292126865585
+        ]
+      },
+      "parent": "kgn_aerial_b_2",
+      "line": 7,
+      "audio_ok": false,
+      "place": "Kingston from the air",
+      "subject": "st-andrew-aerial-b-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 55.0,
+      "t1": 57.9333,
+      "frames": 88,
+      "kind": "clip",
+      "clip_id": "kgn_aerial_c_1",
+      "video_id": "12BhNaqKtPg",
+      "creator": "Joeka Productions",
+      "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_290-295.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 290.3,
+      "src_out": 293.233,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 10.119,
+        "mot_min": 9.469,
+        "y_mean": 109.2,
+        "y_min": 96.5,
+        "dh": [
+          9478814157407609942,
+          3245984329219322725,
+          8158897117697560722,
+          5860160003033897211
+        ]
+      },
+      "parent": "kgn_aerial_c_1",
+      "line": 7,
+      "audio_ok": false,
+      "place": "Kingston hills from the air",
+      "subject": "st-andrew-aerial-c-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 57.9333,
+      "t1": 63.7333,
+      "frames": 174,
+      "kind": "clip",
+      "clip_id": "highway_aerial_3",
+      "video_id": "FcYqtBaMXFM",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_125-135.mp4",
+      "file_in": 2.25,
+      "play_speed": 1.0,
+      "src_in": 127.25,
+      "src_out": 133.05,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 7.439,
+        "mot_min": 4.993,
+        "y_mean": 87.3,
+        "y_min": 68.5,
+        "dh": [
+          1663816547113047574,
+          1591771884131096214,
+          6203451314217047830,
+          6257494482834839223,
+          1591766372732212823,
+          1483398648306161302,
+          10688316347270861846
+        ]
+      },
+      "parent": "highway_aerial_3",
+      "line": 8,
+      "audio_ok": false,
+      "place": "Highway through the Jamaican hills, from the air",
+      "subject": "highway-aerial-3",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 63.7333,
+      "t1": 69.5667,
+      "frames": 175,
+      "kind": "clip",
+      "clip_id": "rb_coast_a_1",
+      "video_id": "Ymw6leiGhXw",
+      "creator": "Chris Cafiero",
+      "file": "jobs/jamaica-kin/clips/Ymw6leiGhXw_152-165.mp4",
+      "file_in": 2.0,
+      "play_speed": 1.5,
+      "src_in": 154.0,
+      "src_out": 162.75,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 5.589,
+        "mot_min": 3.916,
+        "y_mean": 89.8,
+        "y_min": 84.9,
+        "dh": [
+          12785845720186908880,
+          3527005636974932209,
+          3508569026007945297,
+          3634669834091931936,
+          6980704152047642873,
+          16204057978266083424,
+          16204198715729175138,
+          16204198715727078114,
+          16204198715729174626
+        ]
+      },
+      "parent": "rb_coast_a_1",
+      "line": 8,
+      "audio_ok": false,
+      "place": "Runaway Bay coastline, north Jamaica, from the air",
+      "subject": "rb-coast-a-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 69.5667,
+      "t1": 75.5,
+      "frames": 178,
+      "kind": "clip",
+      "clip_id": "jm_hillside_house",
+      "video_id": "pexels-37177410",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177410_0-11.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 9.2,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 1.824,
+        "mot_min": 1.295,
+        "y_mean": 84.8,
+        "y_min": 79.5,
+        "dh": [
+          10159410043384716171,
+          10159410043382651737,
+          10157158241689394073,
+          10157157683339975577,
+          10301276857145299929,
+          10868730410194145689,
+          10733340946378856627,
+          10733411312187020600,
+          15344536029931058484,
+          15346787832119782772
+        ]
+      },
+      "parent": "jm_hillside_house",
+      "line": 9,
+      "audio_ok": false,
+      "place": "Hillside house in Jamaican hills",
+      "subject": "px-jm-hillside-house",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 75.5,
+      "t1": 81.4,
+      "frames": 177,
+      "kind": "clip",
+      "clip_id": "highway_aerial_1",
+      "video_id": "FcYqtBaMXFM",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_30-40.mp4",
+      "file_in": 2.0,
+      "play_speed": 1.0,
+      "src_in": 32.0,
+      "src_out": 37.9,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 4.111,
+        "mot_min": 2.391,
+        "y_mean": 99.8,
+        "y_min": 68.6,
+        "dh": [
+          9792962174861345677,
+          141008825786790867,
+          141291590234057271,
+          141291584332670078,
+          141149197844325052,
+          15559484731442199001
+        ]
+      },
+      "parent": "highway_aerial_1",
+      "line": 9,
+      "audio_ok": false,
+      "place": "Highway through the Jamaican hills, from the air",
+      "subject": "highway-aerial-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 81.4,
+      "t1": 84.2667,
+      "frames": 86,
+      "kind": "clip",
+      "clip_id": "kgn_aerial_c_2",
+      "video_id": "12BhNaqKtPg",
+      "creator": "Joeka Productions",
+      "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_333-340.mp4",
+      "file_in": 2.4,
+      "play_speed": 1.0,
+      "src_in": 335.4,
+      "src_out": 338.267,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 7.857,
+        "mot_min": 5.291,
+        "y_mean": 101.4,
+        "y_min": 90.4,
+        "dh": [
+          5713561135217487244,
+          6900541252066480670,
+          18401522625650287266,
+          16110419459104207449
+        ]
+      },
+      "parent": "kgn_aerial_c_2",
+      "line": 10,
+      "audio_ok": false,
+      "place": "Kingston hills from the air",
+      "subject": "st-andrew-aerial-c-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 84.2667,
+      "t1": 87.1,
+      "frames": 85,
+      "kind": "clip",
+      "clip_id": "kgn_aerial_a_1",
+      "video_id": "12BhNaqKtPg",
+      "creator": "Joeka Productions",
+      "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_0-5.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 0.3,
+      "src_out": 3.133,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 6.478,
+        "mot_min": 4.882,
+        "y_mean": 129.5,
+        "y_min": 126.0,
+        "dh": [
+          9797249662563014746,
+          8883350889250710701,
+          17920037361549329764,
+          15123862224229426340
+        ]
+      },
+      "parent": "kgn_aerial_a_1",
+      "line": 10,
+      "audio_ok": false,
+      "place": "Upper St Andrew, Kingston, from the air",
+      "subject": "st-andrew-aerial-a-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 87.1,
+      "t1": 88.9,
+      "frames": 54,
+      "kind": "clip",
+      "clip_id": "rb_coast_a_2",
+      "video_id": "Ymw6leiGhXw",
+      "creator": "Chris Cafiero",
+      "file": "jobs/jamaica-kin/clips/Ymw6leiGhXw_178-184.mp4",
+      "file_in": 1.75,
+      "play_speed": 1.5,
+      "src_in": 179.75,
+      "src_out": 182.45,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 17.696,
+        "mot_min": 14.883,
+        "y_mean": 99.0,
+        "y_min": 91.7,
+        "dh": [
+          11224610603021808241,
+          13166755327952940252,
+          6203206306912148147,
+          16835272124193615030
+        ]
+      },
+      "parent": "rb_coast_a_2",
+      "line": 11,
+      "audio_ok": false,
+      "place": "Runaway Bay coastline, north Jamaica, from the air",
+      "subject": "rb-coast-a-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 88.9,
+      "t1": 93.5,
+      "frames": 138,
+      "kind": "clip",
+      "clip_id": "jm_forest_lake_1",
+      "video_id": "pexels-37177269",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177269_0-9.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 7.2,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.42,
+        "mot_min": 1.405,
+        "y_mean": 90.6,
+        "y_min": 88.2,
+        "dh": [
+          12033476153676375214,
+          12033476153743484136,
+          16501047877449262328,
+          17654110119577880032,
+          17653828784202285476,
+          17437655452583271332,
+          17430900327885116293,
+          17430900326793662593
+        ]
+      },
+      "parent": "jm_forest_lake_1",
+      "line": 12,
+      "audio_ok": false,
+      "place": "Forest by a lake, Jamaica",
+      "subject": "px-jm-forest-lake-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 93.5,
+      "t1": 98.0667,
+      "frames": 137,
+      "kind": "clip",
+      "clip_id": "portland_aerial_2",
+      "video_id": "GBaTswg6mgs",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/GBaTswg6mgs_45-58.mp4",
+      "file_in": 1.53,
+      "play_speed": 2.0,
+      "src_in": 46.53,
+      "src_out": 55.663,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 7.361,
+        "mot_min": 3.531,
+        "y_mean": 90.8,
+        "y_min": 78.5,
+        "dh": [
+          13898187780907077654,
+          13898117953320457235,
+          13898126645805782292,
+          9226805204153479280,
+          9226804316164829528,
+          9226949657883687320,
+          9224696723091446185,
+          37283661142907691,
+          37279400556399465,
+          16168400819654869232
+        ]
+      },
+      "parent": "portland_aerial_2",
+      "line": 12,
+      "audio_ok": false,
+      "place": "Portland coast, east Jamaica, from the air",
+      "subject": "portland-aerial-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 98.0667,
+      "t1": 102.0,
+      "frames": 118,
+      "kind": "clip",
+      "clip_id": "jm_forest_lake_2",
+      "video_id": "pexels-37177269",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177269_13-22.mp4",
+      "file_in": 1.54,
+      "play_speed": 1.5,
+      "src_in": 14.54,
+      "src_out": 20.44,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 1.934,
+        "mot_min": 1.825,
+        "y_mean": 96.5,
+        "y_min": 95.0,
+        "dh": [
+          18442775934084351953,
+          18442775934083960787,
+          16139114358090403267,
+          18444957367304064391,
+          18445043129211829639,
+          18446731974776666255,
+          18446727576731740301
+        ]
+      },
+      "parent": "jm_forest_lake_2",
+      "line": 13,
+      "audio_ok": false,
+      "place": "Forest by a lake, Jamaica",
+      "subject": "px-jm-forest-lake-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 102.0,
+      "t1": 105.9667,
+      "frames": 119,
+      "kind": "clip",
+      "clip_id": "portland_aerial_3",
+      "video_id": "GBaTswg6mgs",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/GBaTswg6mgs_90-102.mp4",
+      "file_in": 2.27,
+      "play_speed": 2.0,
+      "src_in": 92.27,
+      "src_out": 100.203,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.263,
+        "mot_min": 1.509,
+        "y_mean": 94.6,
+        "y_min": 91.2,
+        "dh": [
+          16210971979947749570,
+          16210972253615599842,
+          16210972290122805409,
+          17435933796615090401,
+          17437059660018940016,
+          17437059660555810992,
+          17437340037094631672,
+          17365291239116156152,
+          17365000968044330220
+        ]
+      },
+      "parent": "portland_aerial_3",
+      "line": 13,
+      "audio_ok": false,
+      "place": "Portland coast, east Jamaica, from the air",
+      "subject": "portland-aerial-3",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 105.9667,
+      "t1": 111.1,
+      "frames": 154,
+      "kind": "clip",
+      "clip_id": "jm_mountains_a",
+      "video_id": "pexels-37177393",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177393_2-14.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.5,
+      "src_in": 4.3,
+      "src_out": 12.0,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 3.058,
+        "mot_min": 2.779,
+        "y_mean": 81.0,
+        "y_min": 68.3,
+        "dh": [
+          4584556500159995005,
+          2259608394018856605,
+          6719297925036129950,
+          6719121732894774846,
+          15654333762325240958,
+          15618307300729146519,
+          15573376307810770164,
+          17464325476769045708,
+          11806678030437223838
+        ]
+      },
+      "parent": "jm_mountains_a",
+      "line": 14,
+      "audio_ok": false,
+      "place": "Jamaican mountains from the air",
+      "subject": "px-jm-mountains-a",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 111.1,
+      "t1": 116.2333,
+      "frames": 154,
+      "kind": "clip",
+      "clip_id": "portland_aerial_1",
+      "video_id": "GBaTswg6mgs",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/GBaTswg6mgs_9-24.mp4",
+      "file_in": 2.3,
+      "play_speed": 2.0,
+      "src_in": 11.3,
+      "src_out": 21.567,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 4.172,
+        "mot_min": 2.143,
+        "y_mean": 106.2,
+        "y_min": 83.4,
+        "dh": [
+          17361641489925982288,
+          6867883805302056351,
+          6894921067882061411,
+          13456114382282224840,
+          12951992700066919656,
+          17741984320080377084,
+          8537753663973684412,
+          14467946647279132736,
+          14467946647174307936,
+          14467946654694695136,
+          14467946686370046176
+        ]
+      },
+      "parent": "portland_aerial_1",
+      "line": 14,
+      "audio_ok": false,
+      "place": "Portland coast, east Jamaica, from the air",
+      "subject": "portland-aerial-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 116.2333,
+      "t1": 119.9667,
+      "frames": 112,
+      "kind": "clip",
+      "clip_id": "jm_country_road",
+      "video_id": "pexels-37177249",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177249_0-8.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 5.9,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 6.69,
+        "mot_min": 5.497,
+        "y_mean": 76.0,
+        "y_min": 71.9,
+        "dh": [
+          3263658586834821600,
+          3245503996314575073,
+          7244491557966012624,
+          380865545628729553,
+          598287379729703618,
+          2884799288706491328,
+          148699675685381187
+        ]
+      },
+      "parent": "jm_country_road",
+      "line": 15,
+      "audio_ok": false,
+      "place": "Country road in Jamaica from the air",
+      "subject": "px-jm-country-road",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 119.9667,
+      "t1": 123.7,
+      "frames": 112,
+      "kind": "clip",
+      "clip_id": "highway_aerial_4",
+      "video_id": "FcYqtBaMXFM",
+      "creator": "Robert Harvey",
+      "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_216-223.mp4",
+      "file_in": 1.62,
+      "play_speed": 1.0,
+      "src_in": 217.62,
+      "src_out": 221.353,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 5.0,
+        "mot_min": 2.864,
+        "y_mean": 80.7,
+        "y_min": 73.5,
+        "dh": [
+          8172187605509957158,
+          8156425539523994660,
+          3707432469415404644,
+          7075773146850337896,
+          2531361795638208600
+        ]
+      },
+      "parent": "highway_aerial_4",
+      "line": 15,
+      "audio_ok": false,
+      "place": "Highway through the Jamaican hills, from the air",
+      "subject": "highway-aerial-4",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 123.7,
+      "t1": 128.7,
+      "frames": 150,
+      "kind": "clip",
+      "clip_id": "jm_mountain_coast_1",
+      "video_id": "pexels-37177265",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177265_1-13.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.5,
+      "src_in": 3.3,
+      "src_out": 10.8,
+      "tag": "jamaica-aerial,sea-aerial",
+      "shows": [
+        "jamaica-aerial",
+        "sea-aerial"
+      ],
+      "qc": {
+        "mot_med": 1.706,
+        "mot_min": 1.028,
+        "y_mean": 88.5,
+        "y_min": 87.9,
+        "dh": [
+          6610239947015,
+          72073000907767811,
+          72073017552879619,
+          72352294345179651,
+          144427480032445193,
+          144427516541764361,
+          144986066906219264,
+          288854964380863301
+        ]
+      },
+      "parent": "jm_mountain_coast_1",
+      "line": 16,
+      "audio_ok": false,
+      "place": "Green mountain and coastline, Jamaica",
+      "subject": "px-jm-mountain-coast-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 128.7,
+      "t1": 131.5,
+      "frames": 84,
+      "kind": "clip",
+      "clip_id": "jm_forest_canopy_1",
+      "video_id": "pexels-37177267",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177267_0-7.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 4.5,
+      "tag": "jamaica-aerial",
+      "shows": [
+        "jamaica-aerial"
+      ],
+      "qc": {
+        "mot_med": 3.643,
+        "mot_min": 3.47,
+        "y_mean": 94.0,
+        "y_min": 93.1,
+        "dh": [
+          217040326907561606,
+          217038121437954567,
+          216475169336673026,
+          216457654428582146,
+          216457654527172935
+        ]
+      },
+      "parent": "jm_forest_canopy_1",
+      "line": 17,
+      "audio_ok": false,
+      "place": "Jamaican forest canopy",
+      "subject": "px-jm-forest-canopy-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 131.5,
+      "t1": 135.0667,
+      "frames": 107,
+      "kind": "clip",
+      "clip_id": "hellshire_11",
+      "video_id": "egDSZto6Jmw",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_638-648.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.5,
+      "src_in": 640.3,
+      "src_out": 645.65,
+      "tag": "sea-aerial,beach-aerial",
+      "shows": [
+        "sea-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 3.58,
+        "mot_min": 3.167,
+        "y_mean": 113.3,
+        "y_min": 108.3,
+        "dh": [
+          13417694094782646473,
+          11474726518010200256,
+          9114438823768604864,
+          18338083676948103553,
+          10195581811683476353,
+          11365946242279654275
+        ]
+      },
+      "parent": "hellshire_11",
+      "line": 18,
+      "audio_ok": false,
+      "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+      "subject": "hellshire-11",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 135.0667,
+      "t1": 139.9,
+      "frames": 145,
+      "kind": "clip",
+      "clip_id": "kin_curb_2",
+      "video_id": "B8Fo1ZQz8ec",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1728-1736.mp4",
+      "file_in": 1.5,
+      "play_speed": 1.0,
+      "src_in": 1729.5,
+      "src_out": 1734.333,
+      "tag": "airport-curb,airport-terminal",
+      "shows": [
+        "airport-curb",
+        "airport-terminal"
+      ],
+      "qc": {
+        "mot_med": 2.933,
+        "mot_min": 1.989,
+        "y_mean": 130.4,
+        "y_min": 128.3,
+        "dh": [
+          12026819862500001681,
+          12026538313577571867,
+          15191464496333710941,
+          13971006589485508250,
+          13971281454977902165,
+          16853304312849429211
+        ]
+      },
+      "parent": "kin_curb_2",
+      "line": 19,
+      "audio_ok": true,
+      "place": "Norman Manley terminal curb",
+      "subject": "kin-curb-2",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 139.9,
+      "t1": 144.7333,
+      "frames": 145,
+      "kind": "clip",
+      "clip_id": "kin_terminal_drive",
+      "video_id": "B8Fo1ZQz8ec",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1660-1669.mp4",
+      "file_in": 2.0,
+      "play_speed": 1.0,
+      "src_in": 1662.0,
+      "src_out": 1666.833,
+      "tag": "airport-terminal,airport-curb,road-to-airport",
+      "shows": [
+        "airport-terminal",
+        "airport-curb",
+        "road-to-airport"
+      ],
+      "qc": {
+        "mot_med": 3.256,
+        "mot_min": 2.708,
+        "y_mean": 119.7,
+        "y_min": 116.8,
+        "dh": [
+          4078203872536977600,
+          4367587364733772160,
+          4366337083647778944,
+          4366442362431398336,
+          4051120707502924224
+        ]
+      },
+      "parent": "kin_terminal_drive",
+      "line": 19,
+      "audio_ok": true,
+      "place": "Arriving at the Norman Manley terminal",
+      "subject": "kin-terminal-front",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 144.7333,
+      "t1": 150.2,
+      "frames": 164,
+      "kind": "clip",
+      "clip_id": "palisadoes_road_b_1",
+      "video_id": "B8Fo1ZQz8ec",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1400-1408.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 1400.3,
+      "src_out": 1405.767,
+      "tag": "palisadoes-road,driving,road-to-airport",
+      "shows": [
+        "palisadoes-road",
+        "driving",
+        "road-to-airport"
+      ],
+      "qc": {
+        "mot_med": 1.99,
+        "mot_min": 1.483,
+        "y_mean": 136.4,
+        "y_min": 129.9,
+        "dh": [
+          9390866006350869289,
+          29008347566347071,
+          64192720741896754,
+          1199697962772772407,
+          1217430885770769959,
+          1217114158776202935
+        ]
+      },
+      "parent": "palisadoes_road_b_1",
+      "line": 20,
+      "audio_ok": true,
+      "place": "Palisadoes road towards the airport",
+      "subject": "palisadoes-road-b-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 150.2,
+      "t1": 155.7,
+      "frames": 165,
+      "kind": "clip",
+      "clip_id": "palisadoes_road_b_2",
+      "video_id": "B8Fo1ZQz8ec",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1439-1448.mp4",
+      "file_in": 1.6,
+      "play_speed": 1.0,
+      "src_in": 1440.6,
+      "src_out": 1446.1,
+      "tag": "palisadoes-road,driving,road-to-airport",
+      "shows": [
+        "palisadoes-road",
+        "driving",
+        "road-to-airport"
+      ],
+      "qc": {
+        "mot_med": 1.742,
+        "mot_min": 1.457,
+        "y_mean": 134.8,
+        "y_min": 132.6,
+        "dh": [
+          10632665503771808671,
+          10632033228211770271,
+          9411557787180659607,
+          9411557786626995091,
+          9411556625895248785,
+          9375528932649382803,
+          9375528928236851894
+        ]
+      },
+      "parent": "palisadoes_road_b_2",
+      "line": 20,
+      "audio_ok": true,
+      "place": "Palisadoes road towards the airport",
+      "subject": "palisadoes-road-b-2",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 155.7,
+      "t1": 160.9667,
+      "frames": 158,
+      "kind": "clip",
+      "clip_id": "nk_drive_b_1",
+      "video_id": "EXrIIg9DTk0",
+      "creator": "Rush Raymore Reviews-Jamaica",
+      "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_120-128.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 120.3,
+      "src_out": 125.567,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 5.253,
+        "mot_min": 4.922,
+        "y_mean": 117.8,
+        "y_min": 107.5,
+        "dh": [
+          7165957353296922988,
+          17470233431816572780,
+          17582031944720749862,
+          17500650526834595126,
+          4007844390284743972,
+          6232694333484930404
+        ]
+      },
+      "parent": "nk_drive_b_1",
+      "line": 21,
+      "audio_ok": true,
+      "place": "Kingston, towards South Camp Road",
+      "subject": "new-kingston-drive-b-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 160.9667,
+      "t1": 166.2667,
+      "frames": 159,
+      "kind": "clip",
+      "clip_id": "nk_drive_c_1",
+      "video_id": "EXrIIg9DTk0",
+      "creator": "Rush Raymore Reviews-Jamaica",
+      "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_250-258.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 250.3,
+      "src_out": 255.6,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 4.856,
+        "mot_min": 3.232,
+        "y_mean": 124.1,
+        "y_min": 115.7,
+        "dh": [
+          5289568224176806942,
+          16496827970641644559,
+          8571687998192716815,
+          17470275295839292430,
+          17958633418088810510,
+          8672051415525378317
+        ]
+      },
+      "parent": "nk_drive_c_1",
+      "line": 21,
+      "audio_ok": true,
+      "place": "Kingston, South Camp Road area",
+      "subject": "south-camp-drive-c-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 166.2667,
+      "t1": 171.9333,
+      "frames": 170,
+      "kind": "clip",
+      "clip_id": "kgn_timelapse_1",
+      "video_id": "5qYbTTy3S8g",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/5qYbTTy3S8g_0-8.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 0.3,
+      "src_out": 5.967,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 3.795,
+        "mot_min": 2.095,
+        "y_mean": 117.5,
+        "y_min": 114.3,
+        "dh": [
+          14048614117884006854,
+          9719960098718294662,
+          9578145088748871686,
+          993457637341651206,
+          7595417657905650191,
+          14508524204617745924,
+          5582405978251685892
+        ]
+      },
+      "parent": "kgn_timelapse_1",
+      "line": 22,
+      "audio_ok": false,
+      "place": "Driving through Kingston (time-lapse)",
+      "subject": "kingston-timelapse-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 171.9333,
+      "t1": 177.5667,
+      "frames": 169,
+      "kind": "clip",
+      "clip_id": "nk_drive_b_3",
+      "video_id": "EXrIIg9DTk0",
+      "creator": "Rush Raymore Reviews-Jamaica",
+      "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_205-215.mp4",
+      "file_in": 1.93,
+      "play_speed": 1.0,
+      "src_in": 206.93,
+      "src_out": 212.563,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 4.984,
+        "mot_min": 3.77,
+        "y_mean": 119.7,
+        "y_min": 105.3,
+        "dh": [
+          1628558123625482060,
+          9982486359684582921,
+          3091977006241679945,
+          12553894422195988420,
+          10271228876516484492,
+          6687507134184678852,
+          11249600504192296324
+        ]
+      },
+      "parent": "nk_drive_b_3",
+      "line": 22,
+      "audio_ok": true,
+      "place": "Kingston, towards South Camp Road",
+      "subject": "new-kingston-drive-b-3",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 177.5667,
+      "t1": 184.0333,
+      "frames": 194,
+      "kind": "clip",
+      "clip_id": "kgn_timelapse_3",
+      "video_id": "5qYbTTy3S8g",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/5qYbTTy3S8g_70-81.mp4",
+      "file_in": 2.27,
+      "play_speed": 1.0,
+      "src_in": 72.27,
+      "src_out": 78.737,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 9.722,
+        "mot_min": 8.227,
+        "y_mean": 118.3,
+        "y_min": 93.8,
+        "dh": [
+          2387480239516840672,
+          3597382558026702398,
+          7672007779547904543,
+          1445976690573065858,
+          11574768490653651772,
+          8319902430190337587,
+          7505435362926815499
+        ]
+      },
+      "parent": "kgn_timelapse_3",
+      "line": 23,
+      "audio_ok": false,
+      "place": "Driving through Kingston (time-lapse)",
+      "subject": "kingston-timelapse-3",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 184.0333,
+      "t1": 190.5,
+      "frames": 194,
+      "kind": "clip",
+      "clip_id": "nk_drive_c_3",
+      "video_id": "EXrIIg9DTk0",
+      "creator": "Rush Raymore Reviews-Jamaica",
+      "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_335-345.mp4",
+      "file_in": 1.93,
+      "play_speed": 1.0,
+      "src_in": 336.93,
+      "src_out": 343.397,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 4.562,
+        "mot_min": 3.804,
+        "y_mean": 118.4,
+        "y_min": 109.0,
+        "dh": [
+          18319263883277966446,
+          18138978607716965758,
+          9015358664812828792,
+          11312748630780254588,
+          13669680451016597374,
+          17718833239486025596,
+          17713906865943973230,
+          13021226695732202734
+        ]
+      },
+      "parent": "nk_drive_c_3",
+      "line": 23,
+      "audio_ok": true,
+      "place": "Kingston, South Camp Road area",
+      "subject": "south-camp-drive-c-3",
+      "handheld": false,
+      "ton_max": 0.008
+    },
+    {
+      "t0": 190.5,
+      "t1": 196.2667,
+      "frames": 173,
+      "kind": "clip",
+      "clip_id": "kgn_timelapse_2",
+      "video_id": "5qYbTTy3S8g",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/5qYbTTy3S8g_61-71.mp4",
+      "file_in": 2.7,
+      "play_speed": 1.0,
+      "src_in": 63.7,
+      "src_out": 69.467,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 13.456,
+        "mot_min": 10.493,
+        "y_mean": 122.0,
+        "y_min": 83.0,
+        "dh": [
+          18300654971151498366,
+          18085462662290370808,
+          17940503040745963102,
+          8227065760618200942,
+          8386961384624781156,
+          12987281917259707716
+        ]
+      },
+      "parent": "kgn_timelapse_2",
+      "line": 24,
+      "audio_ok": false,
+      "place": "Driving through Kingston (time-lapse)",
+      "subject": "kingston-timelapse-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 196.2667,
+      "t1": 202.0333,
+      "frames": 173,
+      "kind": "clip",
+      "clip_id": "nk_drive_b_2",
+      "video_id": "EXrIIg9DTk0",
+      "creator": "Rush Raymore Reviews-Jamaica",
+      "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_162-172.mp4",
+      "file_in": 1.87,
+      "play_speed": 1.0,
+      "src_in": 163.87,
+      "src_out": 169.637,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 3.43,
+        "mot_min": 2.822,
+        "y_mean": 124.1,
+        "y_min": 119.6,
+        "dh": [
+          11299163919939594444,
+          11298529231130733902,
+          11298670519431997518,
+          11299233467237935310,
+          11299163115740212302,
+          10290330272435217356,
+          14900116195199461580
+        ]
+      },
+      "parent": "nk_drive_b_2",
+      "line": 24,
+      "audio_ok": true,
+      "place": "Kingston, towards South Camp Road",
+      "subject": "new-kingston-drive-b-2",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 202.0333,
+      "t1": 207.0333,
+      "frames": 150,
+      "kind": "clip",
+      "clip_id": "hope_road_0",
+      "video_id": "Uj4rTEQ4QCM",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/Uj4rTEQ4QCM_0-7.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.0,
+      "src_in": 0.3,
+      "src_out": 5.3,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 2.905,
+        "mot_min": 2.326,
+        "y_mean": 124.5,
+        "y_min": 121.3,
+        "dh": [
+          5328733251471980792,
+          14515988667837493496,
+          5294932200336488696,
+          5312330857308285180,
+          17092762320074630264,
+          17597165486862086842
+        ]
+      },
+      "parent": "hope_road_0",
+      "line": 25,
+      "audio_ok": true,
+      "place": "Hope Road, New Kingston",
+      "subject": "hope-road-0",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 207.0333,
+      "t1": 212.0,
+      "frames": 149,
+      "kind": "clip",
+      "clip_id": "hope_road_1",
+      "video_id": "Uj4rTEQ4QCM",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/Uj4rTEQ4QCM_98-107.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.0,
+      "src_in": 100.3,
+      "src_out": 105.267,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 4.841,
+        "mot_min": 3.819,
+        "y_mean": 130.3,
+        "y_min": 120.8,
+        "dh": [
+          364173424570787335,
+          220464298816357383,
+          14118766959318791174,
+          9498073127137920006,
+          9479742753306629126,
+          228856606191567879
+        ]
+      },
+      "parent": "hope_road_1",
+      "line": 25,
+      "audio_ok": true,
+      "place": "Hope Road, New Kingston",
+      "subject": "hope-road-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 212.0,
+      "t1": 216.4333,
+      "frames": 133,
+      "kind": "clip",
+      "clip_id": "hope_road_2",
+      "video_id": "Uj4rTEQ4QCM",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/Uj4rTEQ4QCM_221-230.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.0,
+      "src_in": 223.3,
+      "src_out": 227.733,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 2.627,
+        "mot_min": 1.693,
+        "y_mean": 124.9,
+        "y_min": 123.2,
+        "dh": [
+          4720708456148010502,
+          4864824192894390802,
+          4864824193910731456,
+          4864824193978997776,
+          4864824194011370518
+        ]
+      },
+      "parent": "hope_road_2",
+      "line": 26,
+      "audio_ok": true,
+      "place": "Hope Road, New Kingston",
+      "subject": "hope-road-2",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 216.4333,
+      "t1": 221.2667,
+      "frames": 145,
+      "kind": "clip",
+      "clip_id": "mona_drive_1",
+      "video_id": "AlE-3xK7aEg",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/AlE-3xK7aEg_48-57.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.0,
+      "src_in": 50.3,
+      "src_out": 55.133,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 5.238,
+        "mot_min": 4.128,
+        "y_mean": 113.3,
+        "y_min": 96.3,
+        "dh": [
+          7197724111411999713,
+          16348174130544669633,
+          15199878338188343968,
+          16638250651397550820,
+          7455410875918381797,
+          17722500955782767525
+        ]
+      },
+      "parent": "mona_drive_1",
+      "line": 27,
+      "audio_ok": true,
+      "place": "Mona Road, Kingston",
+      "subject": "mona-drive-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 221.2667,
+      "t1": 225.8667,
+      "frames": 138,
+      "kind": "clip",
+      "clip_id": "kingston_dusk_b",
+      "video_id": "pexels-37177251",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177251_0-9.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 7.2,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.617,
+        "mot_min": 2.334,
+        "y_mean": 102.1,
+        "y_min": 101.2,
+        "dh": [
+          13980034251346135450,
+          14268264726561016218,
+          9656596296024705928,
+          10090067760691792777,
+          10090067760540805833,
+          866731457813899853,
+          1805731517405030989,
+          6417417672734502084
+        ]
+      },
+      "parent": "kingston_dusk_b",
+      "line": 28,
+      "audio_ok": false,
+      "place": "Kingston at dusk",
+      "subject": "px-kingston-dusk-b",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 225.8667,
+      "t1": 230.4333,
+      "frames": 137,
+      "kind": "clip",
+      "clip_id": "kingston_hillside_1",
+      "video_id": "pexels-37177262",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177262_0-16.mp4",
+      "file_in": 0.3,
+      "play_speed": 3.0,
+      "src_in": 0.3,
+      "src_out": 14.0,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 14.568,
+        "mot_min": 6.497,
+        "y_mean": 91.7,
+        "y_min": 84.9,
+        "dh": [
+          13082551771545950010,
+          14894968085374728917,
+          12307366601695397258,
+          18066903001665048071,
+          15957303146371098031,
+          6052212805261102637,
+          5643812793281567532,
+          16090889064030894683,
+          13825853230916936402,
+          9196314478584782266,
+          2251693572766750681,
+          513198836015062743,
+          938753680866252751,
+          533428203641839509,
+          2525717981189586335
+        ]
+      },
+      "parent": "kingston_hillside_1",
+      "line": 28,
+      "audio_ok": false,
+      "place": "Kingston seen from the hillside",
+      "subject": "px-kingston-hillside-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 230.4333,
+      "t1": 234.3,
+      "frames": 116,
+      "kind": "clip",
+      "clip_id": "kingston_residential",
+      "video_id": "pexels-37177242",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177242_0-8.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 6.1,
+      "tag": "kingston-aerial,kingston-street",
+      "shows": [
+        "kingston-aerial",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 4.851,
+        "mot_min": 2.93,
+        "y_mean": 75.4,
+        "y_min": 75.1,
+        "dh": [
+          12291292762052419808,
+          12291292762052421345,
+          9986540468372305633,
+          9995553715024852708,
+          9991045977192158950,
+          9990694200043136246,
+          9990834680907523666
+        ]
+      },
+      "parent": "kingston_residential",
+      "line": 29,
+      "audio_ok": false,
+      "place": "Residential Kingston from the air",
+      "subject": "px-kingston-residential",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 234.3,
+      "t1": 238.1667,
+      "frames": 116,
+      "kind": "clip",
+      "clip_id": "kingston_forest_urban_1",
+      "video_id": "pexels-37177253",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177253_0-8.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 6.1,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 6.698,
+        "mot_min": 6.451,
+        "y_mean": 78.4,
+        "y_min": 75.1,
+        "dh": [
+          8952233125914450072,
+          7961300469401820568,
+          7813318986058733977,
+          7812758252841392281,
+          8533314545961703640,
+          7382644910416739480,
+          16953365856339638332
+        ]
+      },
+      "parent": "kingston_forest_urban_1",
+      "line": 29,
+      "audio_ok": false,
+      "place": "Forest meeting the city, Kingston",
+      "subject": "px-kingston-forest-urban-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 238.1667,
+      "t1": 241.1667,
+      "frames": 90,
+      "kind": "clip",
+      "clip_id": "port_royal_aerial_3",
+      "video_id": "kth3xDGlYOo",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/kth3xDGlYOo_510-518.mp4",
+      "file_in": 1.93,
+      "play_speed": 1.5,
+      "src_in": 511.93,
+      "src_out": 516.43,
+      "tag": "port-royal-aerial,beach-aerial",
+      "shows": [
+        "port-royal-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.442,
+        "mot_min": 2.41,
+        "y_mean": 101.5,
+        "y_min": 100.7,
+        "dh": [
+          2176983288674628788,
+          2176983325230064824,
+          2176983325230066866,
+          2176983308050197744,
+          2176983307781762148,
+          6790921229112658284
+        ]
+      },
+      "parent": "port_royal_aerial_3",
+      "line": 30,
+      "audio_ok": false,
+      "place": "Port Royal from the air",
+      "subject": "port-royal-3",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 241.1667,
+      "t1": 244.1667,
+      "frames": 90,
+      "kind": "clip",
+      "clip_id": "port_royal_aerial_2",
+      "video_id": "kth3xDGlYOo",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/kth3xDGlYOo_462-470.mp4",
+      "file_in": 1.87,
+      "play_speed": 1.5,
+      "src_in": 463.87,
+      "src_out": 468.37,
+      "tag": "port-royal-aerial,beach-aerial",
+      "shows": [
+        "port-royal-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 5.123,
+        "mot_min": 4.94,
+        "y_mean": 101.1,
+        "y_min": 99.7,
+        "dh": [
+          2389784615975709665,
+          2966227776051145193,
+          2963976011267206373,
+          2963412777829035254,
+          7575091099672988774,
+          7577341764545620846
+        ]
+      },
+      "parent": "port_royal_aerial_2",
+      "line": 30,
+      "audio_ok": false,
+      "place": "Port Royal from the air",
+      "subject": "port-royal-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 244.1667,
+      "t1": 248.3,
+      "frames": 124,
+      "kind": "clip",
+      "clip_id": "hellshire_02",
+      "video_id": "egDSZto6Jmw",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_208-218.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.5,
+      "src_in": 210.3,
+      "src_out": 216.5,
+      "tag": "sea-aerial,beach-aerial",
+      "shows": [
+        "sea-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 3.323,
+        "mot_min": 2.659,
+        "y_mean": 107.0,
+        "y_min": 105.1,
+        "dh": [
+          11565298901103245664,
+          12755375102635899232,
+          8146503833972996456,
+          6993547144983575032,
+          4686657400700229720,
+          6992491616106838104,
+          6993618855384346840
+        ]
+      },
+      "parent": "hellshire_02",
+      "line": 31,
+      "audio_ok": false,
+      "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+      "subject": "hellshire-02",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 248.3,
+      "t1": 252.3,
+      "frames": 120,
+      "kind": "clip",
+      "clip_id": "hellshire_01",
+      "video_id": "egDSZto6Jmw",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_174-187.mp4",
+      "file_in": 0.1,
+      "play_speed": 1.5,
+      "src_in": 174.1,
+      "src_out": 180.1,
+      "tag": "sea-aerial,beach-aerial",
+      "shows": [
+        "sea-aerial",
+        "beach-aerial"
+      ],
+      "parent": "hellshire_01",
+      "line": 32,
+      "audio_ok": false,
+      "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+      "subject": "hellshire-01",
+      "handheld": false,
+      "ton_max": null,
+      "qc": {
+        "mot_med": 2.288,
+        "mot_min": 2.032,
+        "y_mean": 111.4,
+        "y_min": 110.2,
+        "dh": [
+          1787057087569787129,
+          1787057087570311417,
+          634417057940175097,
+          634416989354916090,
+          634276251866626296,
+          634275699829111032,
+          778355703256054008
+        ]
+      }
+    },
+    {
+      "t0": 252.3,
+      "t1": 256.3333,
+      "frames": 121,
+      "kind": "clip",
+      "clip_id": "kgn_drive_vineyard_1",
+      "video_id": "P-AbmWV49TU",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/P-AbmWV49TU_60-68.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 60.3,
+      "src_out": 66.35,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 7.924,
+        "mot_min": 3.841,
+        "y_mean": 132.2,
+        "y_min": 116.3,
+        "dh": [
+          16195455334038401413,
+          16919140859715350916,
+          16919140859451105924,
+          16919140860525473924,
+          16919701521317884293,
+          16197434416174820480,
+          16919140722682650260
+        ]
+      },
+      "parent": "kgn_drive_vineyard_1",
+      "line": 32,
+      "audio_ok": true,
+      "place": "Vineyard Town to Mona Road, Kingston",
+      "subject": "vineyard-town-1",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 256.3333,
+      "t1": 262.0,
+      "frames": 170,
+      "kind": "clip",
+      "clip_id": "kgn_drive_vineyard_3",
+      "video_id": "P-AbmWV49TU",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/P-AbmWV49TU_152-164.mp4",
+      "file_in": 1.6,
+      "play_speed": 1.5,
+      "src_in": 153.6,
+      "src_out": 162.1,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 2.904,
+        "mot_min": 1.92,
+        "y_mean": 138.7,
+        "y_min": 130.8,
+        "dh": [
+          14037329644788245636,
+          14036766696982312583,
+          14037329577410870887,
+          14037329368832333878,
+          7105726870459046353,
+          14041833244406893205,
+          14037329645855157380,
+          14312049221247474820,
+          15176735953810994886,
+          15536464820851013253
+        ]
+      },
+      "parent": "kgn_drive_vineyard_3",
+      "line": 33,
+      "audio_ok": true,
+      "place": "Vineyard Town to Mona Road, Kingston",
+      "subject": "vineyard-town-3",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 262.0,
+      "t1": 267.4,
+      "frames": 162,
+      "kind": "clip",
+      "clip_id": "mona_drive_0",
+      "video_id": "AlE-3xK7aEg",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/AlE-3xK7aEg_6-16.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.0,
+      "src_in": 8.3,
+      "src_out": 13.7,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 5.158,
+        "mot_min": 4.37,
+        "y_mean": 131.3,
+        "y_min": 120.7,
+        "dh": [
+          4445741615883049018,
+          17040487878695115909,
+          14552250767543745157,
+          14552091576168364165,
+          14698456640046955684,
+          17004440939767919860
+        ]
+      },
+      "parent": "mona_drive_0",
+      "line": 34,
+      "audio_ok": true,
+      "place": "Mona Road, Kingston",
+      "subject": "mona-drive-0",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 267.4,
+      "t1": 272.7667,
+      "frames": 161,
+      "kind": "clip",
+      "clip_id": "mona_drive_2",
+      "video_id": "AlE-3xK7aEg",
+      "creator": "Driving Time",
+      "file": "jobs/jamaica-kin/clips/AlE-3xK7aEg_106-116.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.0,
+      "src_in": 108.3,
+      "src_out": 113.667,
+      "tag": "driving,kingston-street",
+      "shows": [
+        "driving",
+        "kingston-street"
+      ],
+      "qc": {
+        "mot_med": 1.641,
+        "mot_min": 1.014,
+        "y_mean": 128.1,
+        "y_min": 125.5,
+        "dh": [
+          17939163020162270758,
+          18227393396320273716,
+          18227392301099418662,
+          18227393401147950118,
+          17650932096949618214,
+          17650791355170497574
+        ]
+      },
+      "parent": "mona_drive_2",
+      "line": 34,
+      "audio_ok": true,
+      "place": "Mona Road, Kingston",
+      "subject": "mona-drive-2",
+      "handheld": false,
+      "ton_max": 0.0
+    },
+    {
+      "t0": 272.7667,
+      "t1": 278.7,
+      "frames": 178,
+      "kind": "clip",
+      "clip_id": "south_coast_sea_1",
+      "video_id": "6VvXOLRNFzA",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/6VvXOLRNFzA_154-167.mp4",
+      "file_in": 4.01,
+      "play_speed": 1.5,
+      "src_in": 158.01,
+      "src_out": 166.91,
+      "tag": "sea-aerial,beach-aerial",
+      "shows": [
+        "sea-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 3.178,
+        "mot_min": 1.345,
+        "y_mean": 99.2,
+        "y_min": 89.6,
+        "dh": [
+          8709737737474570298,
+          8705198901398657080,
+          8705198901396544696,
+          4359218509566107356,
+          2291216279386189807,
+          2291227274903482351,
+          4002601884858634238,
+          13224003593655209726
+        ]
+      },
+      "parent": "south_coast_sea_1",
+      "line": 35,
+      "audio_ok": false,
+      "place": "South coast beach aerial, St Catherine",
+      "subject": "south-coast-sea-1",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 278.7,
+      "t1": 284.6333,
+      "frames": 178,
+      "kind": "clip",
+      "clip_id": "hellshire_00",
+      "video_id": "egDSZto6Jmw",
+      "creator": "Spicy_FPV_Jamaica",
+      "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_81-106.mp4",
+      "file_in": 2.3,
+      "play_speed": 3.5,
+      "src_in": 83.3,
+      "src_out": 104.067,
+      "tag": "sea-aerial,beach-aerial",
+      "shows": [
+        "sea-aerial",
+        "beach-aerial"
+      ],
+      "qc": {
+        "mot_med": 2.333,
+        "mot_min": 1.404,
+        "y_mean": 113.2,
+        "y_min": 104.8,
+        "dh": [
+          18446603128853211079,
+          18446603128786905031,
+          18446603128845625319,
+          18446603128912717671,
+          18446603128912733159,
+          17870142376609301415,
+          17870142377683047331,
+          17870142377680950243,
+          17870142377144079331,
+          17870142377680949731,
+          18446603127300019107,
+          18446743933581251459,
+          18446637833261384099,
+          18446708183754056097,
+          18410679386663793057,
+          18419686723357483425,
+          18419687204393689377,
+          18419687204393689376,
+          11520027130489577504,
+          16112722451694166048,
+          16112722176816275488,
+          14983293379755937840
+        ]
+      },
+      "parent": "hellshire_00",
+      "line": 35,
+      "audio_ok": false,
+      "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
+      "subject": "hellshire-00",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 284.6333,
+      "t1": 290.2333,
+      "frames": 168,
+      "kind": "clip",
+      "clip_id": "kingston_highway",
+      "video_id": "pexels-37177245",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177245_0-11.mp4",
+      "file_in": 0.3,
+      "play_speed": 1.5,
+      "src_in": 0.3,
+      "src_out": 8.7,
+      "tag": "kingston-aerial,kingston-street,driving-aerial",
+      "shows": [
+        "kingston-aerial",
+        "kingston-street",
+        "driving-aerial"
+      ],
+      "qc": {
+        "mot_med": 7.395,
+        "mot_min": 6.584,
+        "y_mean": 100.6,
+        "y_min": 94.3,
+        "dh": [
+          220311218732497139,
+          508405134394487796,
+          530923269427131350,
+          12077597493304652741,
+          1089283756070758351,
+          5709853901674833357,
+          5705490756680600715,
+          6281951895450546829,
+          1679130939746866085
+        ]
+      },
+      "parent": "kingston_highway",
+      "line": 36,
+      "audio_ok": false,
+      "place": "Busy highway, Kingston area",
+      "subject": "px-kingston-highway",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 290.2333,
+      "t1": 295.8333,
+      "frames": 168,
+      "kind": "clip",
+      "clip_id": "kingston_forest_urban_2",
+      "video_id": "pexels-37177253",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177253_13-25.mp4",
+      "file_in": 1.67,
+      "play_speed": 1.5,
+      "src_in": 14.67,
+      "src_out": 23.07,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 8.236,
+        "mot_min": 7.199,
+        "y_mean": 76.7,
+        "y_min": 76.0,
+        "dh": [
+          6443927474997945195,
+          8451406494492631523,
+          8175525830951872929,
+          6374103573792156585,
+          6510363782614478250,
+          6510605775777123821,
+          15589874702465224141,
+          15914131569241312716,
+          5250311347173154253,
+          7880411330599810393
+        ]
+      },
+      "parent": "kingston_forest_urban_2",
+      "line": 36,
+      "audio_ok": false,
+      "place": "Forest meeting the city, Kingston",
+      "subject": "px-kingston-forest-urban-2",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 295.8333,
+      "t1": 299.0333,
+      "frames": 96,
+      "kind": "clip",
+      "clip_id": "kingston_coastline",
+      "video_id": "pexels-37177258",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177258_0-11.mp4",
+      "file_in": 1.3,
+      "play_speed": 2.4,
+      "src_in": 1.3,
+      "src_out": 8.98,
+      "tag": "kingston-aerial,sea-aerial",
+      "shows": [
+        "kingston-aerial",
+        "sea-aerial"
+      ],
+      "qc": {
+        "mot_med": 1.507,
+        "mot_min": 1.261,
+        "y_mean": 91.4,
+        "y_min": 91.1,
+        "dh": [
+          380500907417600936,
+          524616095493457764,
+          524616370370070100,
+          526868170183739058,
+          382744186016957162,
+          382743636261143256,
+          382743636261143165,
+          382743636261142780,
+          9606150857488007294
+        ]
+      },
+      "parent": "kingston_coastline",
+      "line": 37,
+      "audio_ok": false,
+      "place": "Kingston city and coastline",
+      "subject": "px-kingston-coastline",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 299.0333,
+      "t1": 302.2333,
+      "frames": 96,
+      "kind": "clip",
+      "clip_id": "kingston_forest_urban_3",
+      "video_id": "pexels-37177253",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177253_27-35.mp4",
+      "file_in": 1.54,
+      "play_speed": 1.5,
+      "src_in": 28.54,
+      "src_out": 33.34,
+      "tag": "kingston-aerial",
+      "shows": [
+        "kingston-aerial"
+      ],
+      "qc": {
+        "mot_med": 6.156,
+        "mot_min": 6.022,
+        "y_mean": 81.1,
+        "y_min": 77.5,
+        "dh": [
+          2030048579247971162,
+          2034549975339015323,
+          2025542510324602008,
+          872638572149988500,
+          952542280089886164,
+          10172532167539576157
+        ]
+      },
+      "parent": "kingston_forest_urban_3",
+      "line": 37,
+      "audio_ok": false,
+      "place": "Forest meeting the city, Kingston",
+      "subject": "px-kingston-forest-urban-3",
+      "handheld": false,
+      "ton_max": null
+    },
+    {
+      "t0": 302.2333,
+      "t1": 308.641,
+      "frames": 192,
+      "kind": "clip",
+      "clip_id": "kingston_roundabout",
+      "video_id": "pexels-37177246",
+      "creator": "K (Pexels)",
+      "file": "jobs/jamaica-kin/clips/pexels-37177246_4-17.mp4",
+      "file_in": 2.3,
+      "play_speed": 1.5,
+      "src_in": 6.3,
+      "src_out": 15.9116,
+      "tag": "kingston-aerial,kingston-street,driving-aerial",
+      "shows": [
+        "kingston-aerial",
+        "kingston-street",
+        "driving-aerial"
+      ],
+      "qc": {
+        "mot_med": 4.23,
+        "mot_min": 3.86,
+        "y_mean": 95.0,
+        "y_min": 94.0,
+        "dh": [
+          9426308319745471979,
+          9435315521181314518,
+          15123349201804455414,
+          4749323677952760814,
+          6951443175428447214,
+          3491482384333528014
+        ]
+      },
+      "parent": "kingston_roundabout",
+      "line": 37,
+      "audio_ok": false,
+      "place": "Busy roundabout, Kingston area",
+      "subject": "px-kingston-roundabout",
+      "handheld": false,
+      "ton_max": null
+    }
   ],
-  "sharp_exempt_lap_min": 12.0,
-  "why": "Marvin t225u 2026-11-10: 8tevGZVbe88 (Love Charmzworld window seat) is the only real Norman Manley landing footage found on CC BY YouTube, Pexels and Pixabay; used short, sped up (and stabilised) as a documented sharpness exception for the landing shots only. Creator cap raised to 40% for this video only (t225u option d): only 5 licensed creators film Kingston.",
-  "creator_share_max": 0.4
- },
- "created": "2026-11-11T01:49:01-05:00",
- "slug": "jamaica-kin",
- "title": "Kingston Airport (KIN) Arrival 2026: Transfer, Taxi or Rental Car",
- "fps": 30,
- "width": 1920,
- "height": 1080,
- "duration_s": 308.641,
- "program_end_s": 303.641,
- "hook_end_s": 12.304,
- "shots": [
-  {
-   "t0": 0.0,
-   "t1": 4.5,
-   "frames": 135,
-   "kind": "clip",
-   "clip_id": "kin_descent_1",
-   "video_id": "8tevGZVbe88",
-   "creator": "Love Charmzworld",
-   "file": "jobs/jamaica-kin/clips/8tevGZVbe88_284-294.mp4",
-   "file_in": 1.5,
-   "play_speed": 1.5,
-   "src_in": 285.5,
-   "src_out": 292.25,
-   "tag": "landing,approach,air-arrival,window-seat",
-   "shows": [
-    "approach",
-    "air-arrival",
-    "window-seat"
-   ],
-   "qc": {
-    "mot_med": 2.406,
-    "mot_min": 1.727,
-    "y_mean": 140.2,
-    "y_min": 136.4,
-    "dh": [
-     17936601975629050194,
-     17935478274745463106,
-     17431110232266797378,
-     17395072639152716131,
-     17395081503965755747,
-     17431075670084597937,
-     17395046873065625777,
-     17431076494786747545
-    ]
-   },
-   "parent": "kin_descent_1",
-   "line": 0,
-   "audio_ok": false,
-   "place": "Descent towards Kingston, window seat (stabilised)",
-   "subject": "kin-descent-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 4.5,
-   "t1": 10.3333,
-   "frames": 175,
-   "kind": "clip",
-   "clip_id": "kin_curb_1",
-   "video_id": "B8Fo1ZQz8ec",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1692-1702.mp4",
-   "file_in": 2.0,
-   "play_speed": 1.0,
-   "src_in": 1694.0,
-   "src_out": 1699.833,
-   "tag": "airport-curb,airport-terminal",
-   "shows": [
-    "airport-curb",
-    "airport-terminal"
-   ],
-   "qc": {
-    "mot_med": 6.47,
-    "mot_min": 5.761,
-    "y_mean": 122.8,
-    "y_min": 112.7,
-    "dh": [
-     18102690734576813575,
-     11263220631777313835,
-     17795687702308782925,
-     15765111315932395894,
-     3501777187576257708,
-     3790266498219275388
-    ]
-   },
-   "parent": "kin_curb_1",
-   "line": 1,
-   "audio_ok": true,
-   "place": "Norman Manley terminal curb",
-   "subject": "kin-curb-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 10.3333,
-   "t1": 12.8333,
-   "frames": 75,
-   "kind": "clip",
-   "clip_id": "kgn_aerial_b_1",
-   "video_id": "12BhNaqKtPg",
-   "creator": "Joeka Productions",
-   "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_150-155.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 150.3,
-   "src_out": 152.8,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 11.422,
-    "mot_min": 11.074,
-    "y_mean": 117.5,
-    "y_min": 111.2,
-    "dh": [
-     6434844751211459543,
-     17392132396343009957,
-     2182964444035995287
-    ]
-   },
-   "parent": "kgn_aerial_b_1",
-   "line": 2,
-   "audio_ok": false,
-   "place": "Kingston from the air",
-   "subject": "st-andrew-aerial-b-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 12.8333,
-   "t1": 17.0,
-   "frames": 125,
-   "kind": "clip",
-   "clip_id": "highway_aerial_2",
-   "video_id": "FcYqtBaMXFM",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_66-75.mp4",
-   "file_in": 2.38,
-   "play_speed": 1.0,
-   "src_in": 68.38,
-   "src_out": 72.547,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.578,
-    "mot_min": 1.414,
-    "y_mean": 123.8,
-    "y_min": 100.1,
-    "dh": [
-     16623277423608134906,
-     16623134764121749754,
-     16623133799353171254,
-     17969499809838456276,
-     12591977407565446580
-    ]
-   },
-   "parent": "highway_aerial_2",
-   "line": 3,
-   "audio_ok": false,
-   "place": "Highway through the Jamaican hills, from the air",
-   "subject": "highway-aerial-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 17.0,
-   "t1": 21.1667,
-   "frames": 125,
-   "kind": "clip",
-   "clip_id": "trident",
-   "video_id": "xwah2a4CF3A",
-   "creator": "Digital Video Concept",
-   "file": "jobs/jamaica-kin/clips/xwah2a4CF3A_0-11.mp4",
-   "file_in": 0.3,
-   "play_speed": 2.0,
-   "src_in": 0.3,
-   "src_out": 8.633,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.688,
-    "mot_min": 1.708,
-    "y_mean": 87.3,
-    "y_min": 80.8,
-    "dh": [
-     17129565894799037595,
-     17127321654127795611,
-     17129494289108481179,
-     17057788538791573149,
-     7831856838900889230,
-     7507602613498978858,
-     144735178521244660,
-     144735187111171040,
-     144735177449591586
-    ]
-   },
-   "parent": "trident",
-   "line": 3,
-   "audio_ok": false,
-   "place": "Clifftop coast aerial, Portland",
-   "subject": "trident-aerial",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 21.1667,
-   "t1": 25.3333,
-   "frames": 125,
-   "kind": "clip",
-   "clip_id": "rb_bay_d",
-   "video_id": "OaDLJ5KtI2Y",
-   "creator": "Chris Cafiero",
-   "file": "jobs/jamaica-kin/clips/OaDLJ5KtI2Y_3-14.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 5.3,
-   "src_out": 11.55,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 3.757,
-    "mot_min": 2.607,
-    "y_mean": 102.6,
-    "y_min": 101.7,
-    "dh": [
-     16195103498128628760,
-     16195103223250594974,
-     16195103214809522854,
-     16195103352250958370,
-     16195103347922240321,
-     16195103211019897105,
-     16195085618160935444
-    ]
-   },
-   "parent": "rb_bay_d",
-   "line": 3,
-   "audio_ok": false,
-   "place": "North coast bay, Runaway Bay, from the air",
-   "subject": "rb-bay-d",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 25.3333,
-   "t1": 29.1,
-   "frames": 113,
-   "kind": "clip",
-   "clip_id": "runaway_coast",
-   "video_id": "11Z-XBbUst0",
-   "creator": "Joseph Oleske",
-   "file": "jobs/jamaica-kin/clips/11Z-XBbUst0_12-19.mp4",
-   "file_in": 1.3,
-   "play_speed": 1.0,
-   "src_in": 13.3,
-   "src_out": 17.067,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 4.226,
-    "mot_min": 3.695,
-    "y_mean": 114.6,
-    "y_min": 66.7,
-    "dh": [
-     13320664333898768451,
-     11014832336448750536,
-     11014901460193503460,
-     10974292381740889337,
-     11263173789270243892
-    ]
-   },
-   "parent": "runaway_coast",
-   "line": 4,
-   "audio_ok": false,
-   "place": "Runaway Bay coast, north Jamaica, from the air",
-   "subject": "runaway-coast",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 29.1,
-   "t1": 32.9,
-   "frames": 114,
-   "kind": "clip",
-   "clip_id": "portland_coast",
-   "video_id": "A7R4F02ZY68",
-   "creator": "Build With vegas",
-   "file": "jobs/jamaica-kin/clips/A7R4F02ZY68_19-29.mp4",
-   "file_in": 2.0,
-   "play_speed": 1.5,
-   "src_in": 21.0,
-   "src_out": 26.7,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 5.38,
-    "mot_min": 4.715,
-    "y_mean": 114.4,
-    "y_min": 89.6,
-    "dh": [
-     14752910830667477536,
-     15869795293528781666,
-     14725881262384141299,
-     14725740252160651985,
-     14734888189968831699,
-     14716873928969580662
-    ]
-   },
-   "parent": "portland_coast",
-   "line": 4,
-   "audio_ok": false,
-   "place": "Portland coast, east Jamaica, from the air",
-   "subject": "portland-coast-b",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 32.9,
-   "t1": 36.6667,
-   "frames": 113,
-   "kind": "clip",
-   "clip_id": "jm_mountains_b",
-   "video_id": "pexels-37177434",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177434_0-15.mp4",
-   "file_in": 0.3,
-   "play_speed": 3.5,
-   "src_in": 0.3,
-   "src_out": 13.483,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 1.596,
-    "mot_min": 1.287,
-    "y_mean": 82.6,
-    "y_min": 78.6,
-    "dh": [
-     12435427045430949074,
-     12435286307925816530,
-     12507343919143609554,
-     10201536094302004946,
-     10201536085712074454,
-     10201536086783718118,
-     10201536069673055941,
-     10201536073968002005,
-     10201536073968001495,
-     10201501164473823731,
-     10201501168789762547,
-     12507344178003456491,
-     12507414538153636330,
-     12507344255308804458
-    ]
-   },
-   "parent": "jm_mountains_b",
-   "line": 4,
-   "audio_ok": false,
-   "place": "Jamaican mountains from the air",
-   "subject": "px-jm-mountains-b",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 36.6667,
-   "t1": 41.5667,
-   "frames": 147,
-   "kind": "clip",
-   "clip_id": "kin_approach_hills",
-   "video_id": "8tevGZVbe88",
-   "creator": "Love Charmzworld",
-   "file": "jobs/jamaica-kin/clips/8tevGZVbe88_333-341.mp4",
-   "file_in": 0.1,
-   "play_speed": 1.25,
-   "src_in": 333.1,
-   "src_out": 339.225,
-   "tag": "landing,approach,air-arrival,window-seat",
-   "shows": [
-    "approach",
-    "air-arrival",
-    "window-seat"
-   ],
-   "parent": "kin_approach_hills",
-   "line": 5,
-   "audio_ok": false,
-   "place": "Approach over St Andrew hills (stabilised)",
-   "subject": "kin-approach-hills",
-   "handheld": false,
-   "ton_max": null,
-   "qc": {
-    "mot_med": 2.039,
-    "mot_min": 1.887,
-    "y_mean": 127.0,
-    "y_min": 125.4,
-    "dh": [
-     15680280004895504383,
-     16640454063748119019,
-     5825373985974828277,
-     6407480162620440186,
-     8964397893236529977,
-     4352148918514347068,
-     4500213826718179002
-    ]
-   }
-  },
-  {
-   "t0": 41.5667,
-   "t1": 46.8333,
-   "frames": 158,
-   "kind": "clip",
-   "clip_id": "hellshire_10",
-   "video_id": "egDSZto6Jmw",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_540-550.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 540.3,
-   "src_out": 548.2,
-   "tag": "sea-aerial,beach-aerial",
-   "shows": [
-    "sea-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 4.057,
-    "mot_min": 3.138,
-    "y_mean": 113.3,
-    "y_min": 108.1,
-    "dh": [
-     13255197479728833525,
-     13399298425391072998,
-     15200046726778120649,
-     17941484361358244333,
-     17941415899076164557,
-     18227671612977247193,
-     13415213890967272925,
-     13505534360257559483,
-     12933735500698221426
-    ]
-   },
-   "parent": "hellshire_10",
-   "line": 6,
-   "audio_ok": false,
-   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
-   "subject": "hellshire-10",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 46.8333,
-   "t1": 52.0667,
-   "frames": 157,
-   "kind": "clip",
-   "clip_id": "jm_mountain_coast_2",
-   "video_id": "pexels-37177265",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177265_14-25.mp4",
-   "file_in": 1.64,
-   "play_speed": 1.5,
-   "src_in": 15.64,
-   "src_out": 23.49,
-   "tag": "jamaica-aerial,sea-aerial",
-   "shows": [
-    "jamaica-aerial",
-    "sea-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.413,
-    "mot_min": 2.215,
-    "y_mean": 105.8,
-    "y_min": 97.2,
-    "dh": [
-     1300907490067520558,
-     1161296456745598558,
-     2601534611141254714,
-     2313163506074121464,
-     5202786643482502654,
-     4626325770886179694,
-     10410076882080877513,
-     10477911011437233075,
-     135398298025273206
-    ]
-   },
-   "parent": "jm_mountain_coast_2",
-   "line": 6,
-   "audio_ok": false,
-   "place": "Green mountain and coastline, Jamaica",
-   "subject": "px-jm-mountain-coast-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 52.0667,
-   "t1": 55.0,
-   "frames": 88,
-   "kind": "clip",
-   "clip_id": "kgn_aerial_b_2",
-   "video_id": "12BhNaqKtPg",
-   "creator": "Joeka Productions",
-   "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_198-205.mp4",
-   "file_in": 2.4,
-   "play_speed": 1.0,
-   "src_in": 200.4,
-   "src_out": 203.333,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 5.3,
-    "mot_min": 4.739,
-    "y_mean": 112.4,
-    "y_min": 111.0,
-    "dh": [
-     1712784107124464680,
-     2234781641869727668,
-     5698120639338525205,
-     17227342292126865585
-    ]
-   },
-   "parent": "kgn_aerial_b_2",
-   "line": 7,
-   "audio_ok": false,
-   "place": "Kingston from the air",
-   "subject": "st-andrew-aerial-b-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 55.0,
-   "t1": 57.9333,
-   "frames": 88,
-   "kind": "clip",
-   "clip_id": "kgn_aerial_c_1",
-   "video_id": "12BhNaqKtPg",
-   "creator": "Joeka Productions",
-   "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_290-295.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 290.3,
-   "src_out": 293.233,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 10.119,
-    "mot_min": 9.469,
-    "y_mean": 109.2,
-    "y_min": 96.5,
-    "dh": [
-     9478814157407609942,
-     3245984329219322725,
-     8158897117697560722,
-     5860160003033897211
-    ]
-   },
-   "parent": "kgn_aerial_c_1",
-   "line": 7,
-   "audio_ok": false,
-   "place": "Kingston hills from the air",
-   "subject": "st-andrew-aerial-c-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 57.9333,
-   "t1": 63.7333,
-   "frames": 174,
-   "kind": "clip",
-   "clip_id": "highway_aerial_3",
-   "video_id": "FcYqtBaMXFM",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_125-135.mp4",
-   "file_in": 2.25,
-   "play_speed": 1.0,
-   "src_in": 127.25,
-   "src_out": 133.05,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 7.439,
-    "mot_min": 4.993,
-    "y_mean": 87.3,
-    "y_min": 68.5,
-    "dh": [
-     1663816547113047574,
-     1591771884131096214,
-     6203451314217047830,
-     6257494482834839223,
-     1591766372732212823,
-     1483398648306161302,
-     10688316347270861846
-    ]
-   },
-   "parent": "highway_aerial_3",
-   "line": 8,
-   "audio_ok": false,
-   "place": "Highway through the Jamaican hills, from the air",
-   "subject": "highway-aerial-3",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 63.7333,
-   "t1": 69.5667,
-   "frames": 175,
-   "kind": "clip",
-   "clip_id": "rb_coast_a_1",
-   "video_id": "Ymw6leiGhXw",
-   "creator": "Chris Cafiero",
-   "file": "jobs/jamaica-kin/clips/Ymw6leiGhXw_152-165.mp4",
-   "file_in": 2.0,
-   "play_speed": 1.5,
-   "src_in": 154.0,
-   "src_out": 162.75,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 5.589,
-    "mot_min": 3.916,
-    "y_mean": 89.8,
-    "y_min": 84.9,
-    "dh": [
-     12785845720186908880,
-     3527005636974932209,
-     3508569026007945297,
-     3634669834091931936,
-     6980704152047642873,
-     16204057978266083424,
-     16204198715729175138,
-     16204198715727078114,
-     16204198715729174626
-    ]
-   },
-   "parent": "rb_coast_a_1",
-   "line": 8,
-   "audio_ok": false,
-   "place": "Runaway Bay coastline, north Jamaica, from the air",
-   "subject": "rb-coast-a-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 69.5667,
-   "t1": 75.5,
-   "frames": 178,
-   "kind": "clip",
-   "clip_id": "jm_hillside_house",
-   "video_id": "pexels-37177410",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177410_0-11.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 9.2,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 1.824,
-    "mot_min": 1.295,
-    "y_mean": 84.8,
-    "y_min": 79.5,
-    "dh": [
-     10159410043384716171,
-     10159410043382651737,
-     10157158241689394073,
-     10157157683339975577,
-     10301276857145299929,
-     10868730410194145689,
-     10733340946378856627,
-     10733411312187020600,
-     15344536029931058484,
-     15346787832119782772
-    ]
-   },
-   "parent": "jm_hillside_house",
-   "line": 9,
-   "audio_ok": false,
-   "place": "Hillside house in Jamaican hills",
-   "subject": "px-jm-hillside-house",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 75.5,
-   "t1": 81.4,
-   "frames": 177,
-   "kind": "clip",
-   "clip_id": "highway_aerial_1",
-   "video_id": "FcYqtBaMXFM",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_30-40.mp4",
-   "file_in": 2.0,
-   "play_speed": 1.0,
-   "src_in": 32.0,
-   "src_out": 37.9,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 4.111,
-    "mot_min": 2.391,
-    "y_mean": 99.8,
-    "y_min": 68.6,
-    "dh": [
-     9792962174861345677,
-     141008825786790867,
-     141291590234057271,
-     141291584332670078,
-     141149197844325052,
-     15559484731442199001
-    ]
-   },
-   "parent": "highway_aerial_1",
-   "line": 9,
-   "audio_ok": false,
-   "place": "Highway through the Jamaican hills, from the air",
-   "subject": "highway-aerial-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 81.4,
-   "t1": 84.2667,
-   "frames": 86,
-   "kind": "clip",
-   "clip_id": "kgn_aerial_c_2",
-   "video_id": "12BhNaqKtPg",
-   "creator": "Joeka Productions",
-   "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_333-340.mp4",
-   "file_in": 2.4,
-   "play_speed": 1.0,
-   "src_in": 335.4,
-   "src_out": 338.267,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 7.857,
-    "mot_min": 5.291,
-    "y_mean": 101.4,
-    "y_min": 90.4,
-    "dh": [
-     5713561135217487244,
-     6900541252066480670,
-     18401522625650287266,
-     16110419459104207449
-    ]
-   },
-   "parent": "kgn_aerial_c_2",
-   "line": 10,
-   "audio_ok": false,
-   "place": "Kingston hills from the air",
-   "subject": "st-andrew-aerial-c-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 84.2667,
-   "t1": 87.1,
-   "frames": 85,
-   "kind": "clip",
-   "clip_id": "kgn_aerial_a_1",
-   "video_id": "12BhNaqKtPg",
-   "creator": "Joeka Productions",
-   "file": "jobs/jamaica-kin/clips/12BhNaqKtPg_0-5.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 0.3,
-   "src_out": 3.133,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 6.478,
-    "mot_min": 4.882,
-    "y_mean": 129.5,
-    "y_min": 126.0,
-    "dh": [
-     9797249662563014746,
-     8883350889250710701,
-     17920037361549329764,
-     15123862224229426340
-    ]
-   },
-   "parent": "kgn_aerial_a_1",
-   "line": 10,
-   "audio_ok": false,
-   "place": "Upper St Andrew, Kingston, from the air",
-   "subject": "st-andrew-aerial-a-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 87.1,
-   "t1": 88.9,
-   "frames": 54,
-   "kind": "clip",
-   "clip_id": "rb_coast_a_2",
-   "video_id": "Ymw6leiGhXw",
-   "creator": "Chris Cafiero",
-   "file": "jobs/jamaica-kin/clips/Ymw6leiGhXw_178-184.mp4",
-   "file_in": 1.75,
-   "play_speed": 1.5,
-   "src_in": 179.75,
-   "src_out": 182.45,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 17.696,
-    "mot_min": 14.883,
-    "y_mean": 99.0,
-    "y_min": 91.7,
-    "dh": [
-     11224610603021808241,
-     13166755327952940252,
-     6203206306912148147,
-     16835272124193615030
-    ]
-   },
-   "parent": "rb_coast_a_2",
-   "line": 11,
-   "audio_ok": false,
-   "place": "Runaway Bay coastline, north Jamaica, from the air",
-   "subject": "rb-coast-a-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 88.9,
-   "t1": 93.5,
-   "frames": 138,
-   "kind": "clip",
-   "clip_id": "jm_forest_lake_1",
-   "video_id": "pexels-37177269",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177269_0-9.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 7.2,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.42,
-    "mot_min": 1.405,
-    "y_mean": 90.6,
-    "y_min": 88.2,
-    "dh": [
-     12033476153676375214,
-     12033476153743484136,
-     16501047877449262328,
-     17654110119577880032,
-     17653828784202285476,
-     17437655452583271332,
-     17430900327885116293,
-     17430900326793662593
-    ]
-   },
-   "parent": "jm_forest_lake_1",
-   "line": 12,
-   "audio_ok": false,
-   "place": "Forest by a lake, Jamaica",
-   "subject": "px-jm-forest-lake-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 93.5,
-   "t1": 98.0667,
-   "frames": 137,
-   "kind": "clip",
-   "clip_id": "portland_aerial_2",
-   "video_id": "GBaTswg6mgs",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/GBaTswg6mgs_45-58.mp4",
-   "file_in": 1.53,
-   "play_speed": 2.0,
-   "src_in": 46.53,
-   "src_out": 55.663,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 7.361,
-    "mot_min": 3.531,
-    "y_mean": 90.8,
-    "y_min": 78.5,
-    "dh": [
-     13898187780907077654,
-     13898117953320457235,
-     13898126645805782292,
-     9226805204153479280,
-     9226804316164829528,
-     9226949657883687320,
-     9224696723091446185,
-     37283661142907691,
-     37279400556399465,
-     16168400819654869232
-    ]
-   },
-   "parent": "portland_aerial_2",
-   "line": 12,
-   "audio_ok": false,
-   "place": "Portland coast, east Jamaica, from the air",
-   "subject": "portland-aerial-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 98.0667,
-   "t1": 102.0,
-   "frames": 118,
-   "kind": "clip",
-   "clip_id": "jm_forest_lake_2",
-   "video_id": "pexels-37177269",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177269_13-22.mp4",
-   "file_in": 1.54,
-   "play_speed": 1.5,
-   "src_in": 14.54,
-   "src_out": 20.44,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 1.934,
-    "mot_min": 1.825,
-    "y_mean": 96.5,
-    "y_min": 95.0,
-    "dh": [
-     18442775934084351953,
-     18442775934083960787,
-     16139114358090403267,
-     18444957367304064391,
-     18445043129211829639,
-     18446731974776666255,
-     18446727576731740301
-    ]
-   },
-   "parent": "jm_forest_lake_2",
-   "line": 13,
-   "audio_ok": false,
-   "place": "Forest by a lake, Jamaica",
-   "subject": "px-jm-forest-lake-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 102.0,
-   "t1": 105.9667,
-   "frames": 119,
-   "kind": "clip",
-   "clip_id": "portland_aerial_3",
-   "video_id": "GBaTswg6mgs",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/GBaTswg6mgs_90-102.mp4",
-   "file_in": 2.27,
-   "play_speed": 2.0,
-   "src_in": 92.27,
-   "src_out": 100.203,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.263,
-    "mot_min": 1.509,
-    "y_mean": 94.6,
-    "y_min": 91.2,
-    "dh": [
-     16210971979947749570,
-     16210972253615599842,
-     16210972290122805409,
-     17435933796615090401,
-     17437059660018940016,
-     17437059660555810992,
-     17437340037094631672,
-     17365291239116156152,
-     17365000968044330220
-    ]
-   },
-   "parent": "portland_aerial_3",
-   "line": 13,
-   "audio_ok": false,
-   "place": "Portland coast, east Jamaica, from the air",
-   "subject": "portland-aerial-3",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 105.9667,
-   "t1": 111.1,
-   "frames": 154,
-   "kind": "clip",
-   "clip_id": "jm_mountains_a",
-   "video_id": "pexels-37177393",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177393_2-14.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 4.3,
-   "src_out": 12.0,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 3.058,
-    "mot_min": 2.779,
-    "y_mean": 81.0,
-    "y_min": 68.3,
-    "dh": [
-     4584556500159995005,
-     2259608394018856605,
-     6719297925036129950,
-     6719121732894774846,
-     15654333762325240958,
-     15618307300729146519,
-     15573376307810770164,
-     17464325476769045708,
-     11806678030437223838
-    ]
-   },
-   "parent": "jm_mountains_a",
-   "line": 14,
-   "audio_ok": false,
-   "place": "Jamaican mountains from the air",
-   "subject": "px-jm-mountains-a",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 111.1,
-   "t1": 116.2333,
-   "frames": 154,
-   "kind": "clip",
-   "clip_id": "portland_aerial_1",
-   "video_id": "GBaTswg6mgs",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/GBaTswg6mgs_9-24.mp4",
-   "file_in": 2.3,
-   "play_speed": 2.0,
-   "src_in": 11.3,
-   "src_out": 21.567,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 4.172,
-    "mot_min": 2.143,
-    "y_mean": 106.2,
-    "y_min": 83.4,
-    "dh": [
-     17361641489925982288,
-     6867883805302056351,
-     6894921067882061411,
-     13456114382282224840,
-     12951992700066919656,
-     17741984320080377084,
-     8537753663973684412,
-     14467946647279132736,
-     14467946647174307936,
-     14467946654694695136,
-     14467946686370046176
-    ]
-   },
-   "parent": "portland_aerial_1",
-   "line": 14,
-   "audio_ok": false,
-   "place": "Portland coast, east Jamaica, from the air",
-   "subject": "portland-aerial-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 116.2333,
-   "t1": 119.9667,
-   "frames": 112,
-   "kind": "clip",
-   "clip_id": "jm_country_road",
-   "video_id": "pexels-37177249",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177249_0-8.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 5.9,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 6.69,
-    "mot_min": 5.497,
-    "y_mean": 76.0,
-    "y_min": 71.9,
-    "dh": [
-     3263658586834821600,
-     3245503996314575073,
-     7244491557966012624,
-     380865545628729553,
-     598287379729703618,
-     2884799288706491328,
-     148699675685381187
-    ]
-   },
-   "parent": "jm_country_road",
-   "line": 15,
-   "audio_ok": false,
-   "place": "Country road in Jamaica from the air",
-   "subject": "px-jm-country-road",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 119.9667,
-   "t1": 123.7,
-   "frames": 112,
-   "kind": "clip",
-   "clip_id": "highway_aerial_4",
-   "video_id": "FcYqtBaMXFM",
-   "creator": "Robert Harvey",
-   "file": "jobs/jamaica-kin/clips/FcYqtBaMXFM_216-223.mp4",
-   "file_in": 1.62,
-   "play_speed": 1.0,
-   "src_in": 217.62,
-   "src_out": 221.353,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 5.0,
-    "mot_min": 2.864,
-    "y_mean": 80.7,
-    "y_min": 73.5,
-    "dh": [
-     8172187605509957158,
-     8156425539523994660,
-     3707432469415404644,
-     7075773146850337896,
-     2531361795638208600
-    ]
-   },
-   "parent": "highway_aerial_4",
-   "line": 15,
-   "audio_ok": false,
-   "place": "Highway through the Jamaican hills, from the air",
-   "subject": "highway-aerial-4",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 123.7,
-   "t1": 128.7,
-   "frames": 150,
-   "kind": "clip",
-   "clip_id": "jm_mountain_coast_1",
-   "video_id": "pexels-37177265",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177265_1-13.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 3.3,
-   "src_out": 10.8,
-   "tag": "jamaica-aerial,sea-aerial",
-   "shows": [
-    "jamaica-aerial",
-    "sea-aerial"
-   ],
-   "qc": {
-    "mot_med": 1.706,
-    "mot_min": 1.028,
-    "y_mean": 88.5,
-    "y_min": 87.9,
-    "dh": [
-     6610239947015,
-     72073000907767811,
-     72073017552879619,
-     72352294345179651,
-     144427480032445193,
-     144427516541764361,
-     144986066906219264,
-     288854964380863301
-    ]
-   },
-   "parent": "jm_mountain_coast_1",
-   "line": 16,
-   "audio_ok": false,
-   "place": "Green mountain and coastline, Jamaica",
-   "subject": "px-jm-mountain-coast-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 128.7,
-   "t1": 131.5,
-   "frames": 84,
-   "kind": "clip",
-   "clip_id": "jm_forest_canopy_1",
-   "video_id": "pexels-37177267",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177267_0-7.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 4.5,
-   "tag": "jamaica-aerial",
-   "shows": [
-    "jamaica-aerial"
-   ],
-   "qc": {
-    "mot_med": 3.643,
-    "mot_min": 3.47,
-    "y_mean": 94.0,
-    "y_min": 93.1,
-    "dh": [
-     217040326907561606,
-     217038121437954567,
-     216475169336673026,
-     216457654428582146,
-     216457654527172935
-    ]
-   },
-   "parent": "jm_forest_canopy_1",
-   "line": 17,
-   "audio_ok": false,
-   "place": "Jamaican forest canopy",
-   "subject": "px-jm-forest-canopy-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 131.5,
-   "t1": 135.0667,
-   "frames": 107,
-   "kind": "clip",
-   "clip_id": "hellshire_11",
-   "video_id": "egDSZto6Jmw",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_638-648.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 640.3,
-   "src_out": 645.65,
-   "tag": "sea-aerial,beach-aerial",
-   "shows": [
-    "sea-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 3.58,
-    "mot_min": 3.167,
-    "y_mean": 113.3,
-    "y_min": 108.3,
-    "dh": [
-     13417694094782646473,
-     11474726518010200256,
-     9114438823768604864,
-     18338083676948103553,
-     10195581811683476353,
-     11365946242279654275
-    ]
-   },
-   "parent": "hellshire_11",
-   "line": 18,
-   "audio_ok": false,
-   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
-   "subject": "hellshire-11",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 135.0667,
-   "t1": 139.9,
-   "frames": 145,
-   "kind": "clip",
-   "clip_id": "kin_curb_2",
-   "video_id": "B8Fo1ZQz8ec",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1728-1736.mp4",
-   "file_in": 1.5,
-   "play_speed": 1.0,
-   "src_in": 1729.5,
-   "src_out": 1734.333,
-   "tag": "airport-curb,airport-terminal",
-   "shows": [
-    "airport-curb",
-    "airport-terminal"
-   ],
-   "qc": {
-    "mot_med": 2.933,
-    "mot_min": 1.989,
-    "y_mean": 130.4,
-    "y_min": 128.3,
-    "dh": [
-     12026819862500001681,
-     12026538313577571867,
-     15191464496333710941,
-     13971006589485508250,
-     13971281454977902165,
-     16853304312849429211
-    ]
-   },
-   "parent": "kin_curb_2",
-   "line": 19,
-   "audio_ok": true,
-   "place": "Norman Manley terminal curb",
-   "subject": "kin-curb-2",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 139.9,
-   "t1": 144.7333,
-   "frames": 145,
-   "kind": "clip",
-   "clip_id": "kin_terminal_drive",
-   "video_id": "B8Fo1ZQz8ec",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1660-1669.mp4",
-   "file_in": 2.0,
-   "play_speed": 1.0,
-   "src_in": 1662.0,
-   "src_out": 1666.833,
-   "tag": "airport-terminal,airport-curb,road-to-airport",
-   "shows": [
-    "airport-terminal",
-    "airport-curb",
-    "road-to-airport"
-   ],
-   "qc": {
-    "mot_med": 3.256,
-    "mot_min": 2.708,
-    "y_mean": 119.7,
-    "y_min": 116.8,
-    "dh": [
-     4078203872536977600,
-     4367587364733772160,
-     4366337083647778944,
-     4366442362431398336,
-     4051120707502924224
-    ]
-   },
-   "parent": "kin_terminal_drive",
-   "line": 19,
-   "audio_ok": true,
-   "place": "Arriving at the Norman Manley terminal",
-   "subject": "kin-terminal-front",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 144.7333,
-   "t1": 150.2,
-   "frames": 164,
-   "kind": "clip",
-   "clip_id": "palisadoes_road_b_1",
-   "video_id": "B8Fo1ZQz8ec",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1400-1408.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 1400.3,
-   "src_out": 1405.767,
-   "tag": "palisadoes-road,driving,road-to-airport",
-   "shows": [
-    "palisadoes-road",
-    "driving",
-    "road-to-airport"
-   ],
-   "qc": {
-    "mot_med": 1.99,
-    "mot_min": 1.483,
-    "y_mean": 136.4,
-    "y_min": 129.9,
-    "dh": [
-     9390866006350869289,
-     29008347566347071,
-     64192720741896754,
-     1199697962772772407,
-     1217430885770769959,
-     1217114158776202935
-    ]
-   },
-   "parent": "palisadoes_road_b_1",
-   "line": 20,
-   "audio_ok": true,
-   "place": "Palisadoes road towards the airport",
-   "subject": "palisadoes-road-b-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 150.2,
-   "t1": 155.7,
-   "frames": 165,
-   "kind": "clip",
-   "clip_id": "palisadoes_road_b_2",
-   "video_id": "B8Fo1ZQz8ec",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/B8Fo1ZQz8ec_1439-1448.mp4",
-   "file_in": 1.6,
-   "play_speed": 1.0,
-   "src_in": 1440.6,
-   "src_out": 1446.1,
-   "tag": "palisadoes-road,driving,road-to-airport",
-   "shows": [
-    "palisadoes-road",
-    "driving",
-    "road-to-airport"
-   ],
-   "qc": {
-    "mot_med": 1.742,
-    "mot_min": 1.457,
-    "y_mean": 134.8,
-    "y_min": 132.6,
-    "dh": [
-     10632665503771808671,
-     10632033228211770271,
-     9411557787180659607,
-     9411557786626995091,
-     9411556625895248785,
-     9375528932649382803,
-     9375528928236851894
-    ]
-   },
-   "parent": "palisadoes_road_b_2",
-   "line": 20,
-   "audio_ok": true,
-   "place": "Palisadoes road towards the airport",
-   "subject": "palisadoes-road-b-2",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 155.7,
-   "t1": 160.9667,
-   "frames": 158,
-   "kind": "clip",
-   "clip_id": "nk_drive_b_1",
-   "video_id": "EXrIIg9DTk0",
-   "creator": "Rush Raymore Reviews-Jamaica",
-   "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_120-128.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 120.3,
-   "src_out": 125.567,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 5.253,
-    "mot_min": 4.922,
-    "y_mean": 117.8,
-    "y_min": 107.5,
-    "dh": [
-     7165957353296922988,
-     17470233431816572780,
-     17582031944720749862,
-     17500650526834595126,
-     4007844390284743972,
-     6232694333484930404
-    ]
-   },
-   "parent": "nk_drive_b_1",
-   "line": 21,
-   "audio_ok": true,
-   "place": "Kingston, towards South Camp Road",
-   "subject": "new-kingston-drive-b-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 160.9667,
-   "t1": 166.2667,
-   "frames": 159,
-   "kind": "clip",
-   "clip_id": "nk_drive_c_1",
-   "video_id": "EXrIIg9DTk0",
-   "creator": "Rush Raymore Reviews-Jamaica",
-   "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_250-258.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 250.3,
-   "src_out": 255.6,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 4.856,
-    "mot_min": 3.232,
-    "y_mean": 124.1,
-    "y_min": 115.7,
-    "dh": [
-     5289568224176806942,
-     16496827970641644559,
-     8571687998192716815,
-     17470275295839292430,
-     17958633418088810510,
-     8672051415525378317
-    ]
-   },
-   "parent": "nk_drive_c_1",
-   "line": 21,
-   "audio_ok": true,
-   "place": "Kingston, South Camp Road area",
-   "subject": "south-camp-drive-c-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 166.2667,
-   "t1": 171.9333,
-   "frames": 170,
-   "kind": "clip",
-   "clip_id": "kgn_timelapse_1",
-   "video_id": "5qYbTTy3S8g",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/5qYbTTy3S8g_0-8.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 0.3,
-   "src_out": 5.967,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 3.795,
-    "mot_min": 2.095,
-    "y_mean": 117.5,
-    "y_min": 114.3,
-    "dh": [
-     14048614117884006854,
-     9719960098718294662,
-     9578145088748871686,
-     993457637341651206,
-     7595417657905650191,
-     14508524204617745924,
-     5582405978251685892
-    ]
-   },
-   "parent": "kgn_timelapse_1",
-   "line": 22,
-   "audio_ok": false,
-   "place": "Driving through Kingston (time-lapse)",
-   "subject": "kingston-timelapse-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 171.9333,
-   "t1": 177.5667,
-   "frames": 169,
-   "kind": "clip",
-   "clip_id": "nk_drive_b_3",
-   "video_id": "EXrIIg9DTk0",
-   "creator": "Rush Raymore Reviews-Jamaica",
-   "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_205-215.mp4",
-   "file_in": 1.93,
-   "play_speed": 1.0,
-   "src_in": 206.93,
-   "src_out": 212.563,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 4.984,
-    "mot_min": 3.77,
-    "y_mean": 119.7,
-    "y_min": 105.3,
-    "dh": [
-     1628558123625482060,
-     9982486359684582921,
-     3091977006241679945,
-     12553894422195988420,
-     10271228876516484492,
-     6687507134184678852,
-     11249600504192296324
-    ]
-   },
-   "parent": "nk_drive_b_3",
-   "line": 22,
-   "audio_ok": true,
-   "place": "Kingston, towards South Camp Road",
-   "subject": "new-kingston-drive-b-3",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 177.5667,
-   "t1": 184.0333,
-   "frames": 194,
-   "kind": "clip",
-   "clip_id": "kgn_timelapse_3",
-   "video_id": "5qYbTTy3S8g",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/5qYbTTy3S8g_70-81.mp4",
-   "file_in": 2.27,
-   "play_speed": 1.0,
-   "src_in": 72.27,
-   "src_out": 78.737,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 9.722,
-    "mot_min": 8.227,
-    "y_mean": 118.3,
-    "y_min": 93.8,
-    "dh": [
-     2387480239516840672,
-     3597382558026702398,
-     7672007779547904543,
-     1445976690573065858,
-     11574768490653651772,
-     8319902430190337587,
-     7505435362926815499
-    ]
-   },
-   "parent": "kgn_timelapse_3",
-   "line": 23,
-   "audio_ok": false,
-   "place": "Driving through Kingston (time-lapse)",
-   "subject": "kingston-timelapse-3",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 184.0333,
-   "t1": 190.5,
-   "frames": 194,
-   "kind": "clip",
-   "clip_id": "nk_drive_c_3",
-   "video_id": "EXrIIg9DTk0",
-   "creator": "Rush Raymore Reviews-Jamaica",
-   "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_335-345.mp4",
-   "file_in": 1.93,
-   "play_speed": 1.0,
-   "src_in": 336.93,
-   "src_out": 343.397,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 4.562,
-    "mot_min": 3.804,
-    "y_mean": 118.4,
-    "y_min": 109.0,
-    "dh": [
-     18319263883277966446,
-     18138978607716965758,
-     9015358664812828792,
-     11312748630780254588,
-     13669680451016597374,
-     17718833239486025596,
-     17713906865943973230,
-     13021226695732202734
-    ]
-   },
-   "parent": "nk_drive_c_3",
-   "line": 23,
-   "audio_ok": true,
-   "place": "Kingston, South Camp Road area",
-   "subject": "south-camp-drive-c-3",
-   "handheld": false,
-   "ton_max": 0.008
-  },
-  {
-   "t0": 190.5,
-   "t1": 196.2667,
-   "frames": 173,
-   "kind": "clip",
-   "clip_id": "kgn_timelapse_2",
-   "video_id": "5qYbTTy3S8g",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/5qYbTTy3S8g_61-71.mp4",
-   "file_in": 2.03,
-   "play_speed": 1.0,
-   "src_in": 63.03,
-   "src_out": 68.797,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 13.352,
-    "mot_min": 10.009,
-    "y_mean": 123.8,
-    "y_min": 79.2,
-    "dh": [
-     18008481473037646329,
-     8753445423831121148,
-     16278639123667392752,
-     5938044522433186586,
-     8220221713507235796,
-     16475522936578097660
-    ]
-   },
-   "parent": "kgn_timelapse_2",
-   "line": 24,
-   "audio_ok": false,
-   "place": "Driving through Kingston (time-lapse)",
-   "subject": "kingston-timelapse-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 196.2667,
-   "t1": 202.0333,
-   "frames": 173,
-   "kind": "clip",
-   "clip_id": "nk_drive_b_2",
-   "video_id": "EXrIIg9DTk0",
-   "creator": "Rush Raymore Reviews-Jamaica",
-   "file": "jobs/jamaica-kin/clips/EXrIIg9DTk0_162-172.mp4",
-   "file_in": 1.87,
-   "play_speed": 1.0,
-   "src_in": 163.87,
-   "src_out": 169.637,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 3.43,
-    "mot_min": 2.822,
-    "y_mean": 124.1,
-    "y_min": 119.6,
-    "dh": [
-     11299163919939594444,
-     11298529231130733902,
-     11298670519431997518,
-     11299233467237935310,
-     11299163115740212302,
-     10290330272435217356,
-     14900116195199461580
-    ]
-   },
-   "parent": "nk_drive_b_2",
-   "line": 24,
-   "audio_ok": true,
-   "place": "Kingston, towards South Camp Road",
-   "subject": "new-kingston-drive-b-2",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 202.0333,
-   "t1": 207.0333,
-   "frames": 150,
-   "kind": "clip",
-   "clip_id": "hope_road_0",
-   "video_id": "Uj4rTEQ4QCM",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/Uj4rTEQ4QCM_0-7.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.0,
-   "src_in": 0.3,
-   "src_out": 5.3,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 2.905,
-    "mot_min": 2.326,
-    "y_mean": 124.5,
-    "y_min": 121.3,
-    "dh": [
-     5328733251471980792,
-     14515988667837493496,
-     5294932200336488696,
-     5312330857308285180,
-     17092762320074630264,
-     17597165486862086842
-    ]
-   },
-   "parent": "hope_road_0",
-   "line": 25,
-   "audio_ok": true,
-   "place": "Hope Road, New Kingston",
-   "subject": "hope-road-0",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 207.0333,
-   "t1": 212.0,
-   "frames": 149,
-   "kind": "clip",
-   "clip_id": "hope_road_1",
-   "video_id": "Uj4rTEQ4QCM",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/Uj4rTEQ4QCM_98-107.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.0,
-   "src_in": 100.3,
-   "src_out": 105.267,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 4.841,
-    "mot_min": 3.819,
-    "y_mean": 130.3,
-    "y_min": 120.8,
-    "dh": [
-     364173424570787335,
-     220464298816357383,
-     14118766959318791174,
-     9498073127137920006,
-     9479742753306629126,
-     228856606191567879
-    ]
-   },
-   "parent": "hope_road_1",
-   "line": 25,
-   "audio_ok": true,
-   "place": "Hope Road, New Kingston",
-   "subject": "hope-road-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 212.0,
-   "t1": 216.4333,
-   "frames": 133,
-   "kind": "clip",
-   "clip_id": "hope_road_2",
-   "video_id": "Uj4rTEQ4QCM",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/Uj4rTEQ4QCM_221-230.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.0,
-   "src_in": 223.3,
-   "src_out": 227.733,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 2.627,
-    "mot_min": 1.693,
-    "y_mean": 124.9,
-    "y_min": 123.2,
-    "dh": [
-     4720708456148010502,
-     4864824192894390802,
-     4864824193910731456,
-     4864824193978997776,
-     4864824194011370518
-    ]
-   },
-   "parent": "hope_road_2",
-   "line": 26,
-   "audio_ok": true,
-   "place": "Hope Road, New Kingston",
-   "subject": "hope-road-2",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 216.4333,
-   "t1": 221.2667,
-   "frames": 145,
-   "kind": "clip",
-   "clip_id": "mona_drive_1",
-   "video_id": "AlE-3xK7aEg",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/AlE-3xK7aEg_48-57.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.0,
-   "src_in": 50.3,
-   "src_out": 55.133,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 5.238,
-    "mot_min": 4.128,
-    "y_mean": 113.3,
-    "y_min": 96.3,
-    "dh": [
-     7197724111411999713,
-     16348174130544669633,
-     15199878338188343968,
-     16638250651397550820,
-     7455410875918381797,
-     17722500955782767525
-    ]
-   },
-   "parent": "mona_drive_1",
-   "line": 27,
-   "audio_ok": true,
-   "place": "Mona Road, Kingston",
-   "subject": "mona-drive-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 221.2667,
-   "t1": 225.8667,
-   "frames": 138,
-   "kind": "clip",
-   "clip_id": "kingston_dusk_b",
-   "video_id": "pexels-37177251",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177251_0-9.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 7.2,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.617,
-    "mot_min": 2.334,
-    "y_mean": 102.1,
-    "y_min": 101.2,
-    "dh": [
-     13980034251346135450,
-     14268264726561016218,
-     9656596296024705928,
-     10090067760691792777,
-     10090067760540805833,
-     866731457813899853,
-     1805731517405030989,
-     6417417672734502084
-    ]
-   },
-   "parent": "kingston_dusk_b",
-   "line": 28,
-   "audio_ok": false,
-   "place": "Kingston at dusk",
-   "subject": "px-kingston-dusk-b",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 225.8667,
-   "t1": 230.4333,
-   "frames": 137,
-   "kind": "clip",
-   "clip_id": "kingston_hillside_1",
-   "video_id": "pexels-37177262",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177262_0-16.mp4",
-   "file_in": 0.3,
-   "play_speed": 3.0,
-   "src_in": 0.3,
-   "src_out": 14.0,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 14.568,
-    "mot_min": 6.497,
-    "y_mean": 91.7,
-    "y_min": 84.9,
-    "dh": [
-     13082551771545950010,
-     14894968085374728917,
-     12307366601695397258,
-     18066903001665048071,
-     15957303146371098031,
-     6052212805261102637,
-     5643812793281567532,
-     16090889064030894683,
-     13825853230916936402,
-     9196314478584782266,
-     2251693572766750681,
-     513198836015062743,
-     938753680866252751,
-     533428203641839509,
-     2525717981189586335
-    ]
-   },
-   "parent": "kingston_hillside_1",
-   "line": 28,
-   "audio_ok": false,
-   "place": "Kingston seen from the hillside",
-   "subject": "px-kingston-hillside-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 230.4333,
-   "t1": 234.3,
-   "frames": 116,
-   "kind": "clip",
-   "clip_id": "kingston_residential",
-   "video_id": "pexels-37177242",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177242_0-8.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 6.1,
-   "tag": "kingston-aerial,kingston-street",
-   "shows": [
-    "kingston-aerial",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 4.851,
-    "mot_min": 2.93,
-    "y_mean": 75.4,
-    "y_min": 75.1,
-    "dh": [
-     12291292762052419808,
-     12291292762052421345,
-     9986540468372305633,
-     9995553715024852708,
-     9991045977192158950,
-     9990694200043136246,
-     9990834680907523666
-    ]
-   },
-   "parent": "kingston_residential",
-   "line": 29,
-   "audio_ok": false,
-   "place": "Residential Kingston from the air",
-   "subject": "px-kingston-residential",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 234.3,
-   "t1": 238.1667,
-   "frames": 116,
-   "kind": "clip",
-   "clip_id": "kingston_forest_urban_1",
-   "video_id": "pexels-37177253",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177253_0-8.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 6.1,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 6.698,
-    "mot_min": 6.451,
-    "y_mean": 78.4,
-    "y_min": 75.1,
-    "dh": [
-     8952233125914450072,
-     7961300469401820568,
-     7813318986058733977,
-     7812758252841392281,
-     8533314545961703640,
-     7382644910416739480,
-     16953365856339638332
-    ]
-   },
-   "parent": "kingston_forest_urban_1",
-   "line": 29,
-   "audio_ok": false,
-   "place": "Forest meeting the city, Kingston",
-   "subject": "px-kingston-forest-urban-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 238.1667,
-   "t1": 241.1667,
-   "frames": 90,
-   "kind": "clip",
-   "clip_id": "port_royal_aerial_3",
-   "video_id": "kth3xDGlYOo",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/kth3xDGlYOo_510-518.mp4",
-   "file_in": 1.93,
-   "play_speed": 1.5,
-   "src_in": 511.93,
-   "src_out": 516.43,
-   "tag": "port-royal-aerial,beach-aerial",
-   "shows": [
-    "port-royal-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.442,
-    "mot_min": 2.41,
-    "y_mean": 101.5,
-    "y_min": 100.7,
-    "dh": [
-     2176983288674628788,
-     2176983325230064824,
-     2176983325230066866,
-     2176983308050197744,
-     2176983307781762148,
-     6790921229112658284
-    ]
-   },
-   "parent": "port_royal_aerial_3",
-   "line": 30,
-   "audio_ok": false,
-   "place": "Port Royal from the air",
-   "subject": "port-royal-3",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 241.1667,
-   "t1": 244.1667,
-   "frames": 90,
-   "kind": "clip",
-   "clip_id": "port_royal_aerial_2",
-   "video_id": "kth3xDGlYOo",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/kth3xDGlYOo_462-470.mp4",
-   "file_in": 1.87,
-   "play_speed": 1.5,
-   "src_in": 463.87,
-   "src_out": 468.37,
-   "tag": "port-royal-aerial,beach-aerial",
-   "shows": [
-    "port-royal-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 5.123,
-    "mot_min": 4.94,
-    "y_mean": 101.1,
-    "y_min": 99.7,
-    "dh": [
-     2389784615975709665,
-     2966227776051145193,
-     2963976011267206373,
-     2963412777829035254,
-     7575091099672988774,
-     7577341764545620846
-    ]
-   },
-   "parent": "port_royal_aerial_2",
-   "line": 30,
-   "audio_ok": false,
-   "place": "Port Royal from the air",
-   "subject": "port-royal-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 244.1667,
-   "t1": 248.3,
-   "frames": 124,
-   "kind": "clip",
-   "clip_id": "hellshire_02",
-   "video_id": "egDSZto6Jmw",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_208-218.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 210.3,
-   "src_out": 216.5,
-   "tag": "sea-aerial,beach-aerial",
-   "shows": [
-    "sea-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 3.323,
-    "mot_min": 2.659,
-    "y_mean": 107.0,
-    "y_min": 105.1,
-    "dh": [
-     11565298901103245664,
-     12755375102635899232,
-     8146503833972996456,
-     6993547144983575032,
-     4686657400700229720,
-     6992491616106838104,
-     6993618855384346840
-    ]
-   },
-   "parent": "hellshire_02",
-   "line": 31,
-   "audio_ok": false,
-   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
-   "subject": "hellshire-02",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 248.3,
-   "t1": 252.3,
-   "frames": 120,
-   "kind": "clip",
-   "clip_id": "hellshire_01",
-   "video_id": "egDSZto6Jmw",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_174-187.mp4",
-   "file_in": 0.1,
-   "play_speed": 1.5,
-   "src_in": 174.1,
-   "src_out": 180.1,
-   "tag": "sea-aerial,beach-aerial",
-   "shows": [
-    "sea-aerial",
-    "beach-aerial"
-   ],
-   "parent": "hellshire_01",
-   "line": 32,
-   "audio_ok": false,
-   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
-   "subject": "hellshire-01",
-   "handheld": false,
-   "ton_max": null,
-   "qc": {
-    "mot_med": 2.288,
-    "mot_min": 2.032,
-    "y_mean": 111.4,
-    "y_min": 110.2,
-    "dh": [
-     1787057087569787129,
-     1787057087570311417,
-     634417057940175097,
-     634416989354916090,
-     634276251866626296,
-     634275699829111032,
-     778355703256054008
-    ]
-   }
-  },
-  {
-   "t0": 252.3,
-   "t1": 256.3333,
-   "frames": 121,
-   "kind": "clip",
-   "clip_id": "kgn_drive_vineyard_1",
-   "video_id": "P-AbmWV49TU",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/P-AbmWV49TU_60-68.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 60.3,
-   "src_out": 66.35,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 7.924,
-    "mot_min": 3.841,
-    "y_mean": 132.2,
-    "y_min": 116.3,
-    "dh": [
-     16195455334038401413,
-     16919140859715350916,
-     16919140859451105924,
-     16919140860525473924,
-     16919701521317884293,
-     16197434416174820480,
-     16919140722682650260
-    ]
-   },
-   "parent": "kgn_drive_vineyard_1",
-   "line": 32,
-   "audio_ok": true,
-   "place": "Vineyard Town to Mona Road, Kingston",
-   "subject": "vineyard-town-1",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 256.3333,
-   "t1": 262.0,
-   "frames": 170,
-   "kind": "clip",
-   "clip_id": "kgn_drive_vineyard_3",
-   "video_id": "P-AbmWV49TU",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/P-AbmWV49TU_152-164.mp4",
-   "file_in": 1.6,
-   "play_speed": 1.5,
-   "src_in": 153.6,
-   "src_out": 162.1,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 2.904,
-    "mot_min": 1.92,
-    "y_mean": 138.7,
-    "y_min": 130.8,
-    "dh": [
-     14037329644788245636,
-     14036766696982312583,
-     14037329577410870887,
-     14037329368832333878,
-     7105726870459046353,
-     14041833244406893205,
-     14037329645855157380,
-     14312049221247474820,
-     15176735953810994886,
-     15536464820851013253
-    ]
-   },
-   "parent": "kgn_drive_vineyard_3",
-   "line": 33,
-   "audio_ok": true,
-   "place": "Vineyard Town to Mona Road, Kingston",
-   "subject": "vineyard-town-3",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 262.0,
-   "t1": 267.4,
-   "frames": 162,
-   "kind": "clip",
-   "clip_id": "mona_drive_0",
-   "video_id": "AlE-3xK7aEg",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/AlE-3xK7aEg_6-16.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.0,
-   "src_in": 8.3,
-   "src_out": 13.7,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 5.158,
-    "mot_min": 4.37,
-    "y_mean": 131.3,
-    "y_min": 120.7,
-    "dh": [
-     4445741615883049018,
-     17040487878695115909,
-     14552250767543745157,
-     14552091576168364165,
-     14698456640046955684,
-     17004440939767919860
-    ]
-   },
-   "parent": "mona_drive_0",
-   "line": 34,
-   "audio_ok": true,
-   "place": "Mona Road, Kingston",
-   "subject": "mona-drive-0",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 267.4,
-   "t1": 272.7667,
-   "frames": 161,
-   "kind": "clip",
-   "clip_id": "mona_drive_2",
-   "video_id": "AlE-3xK7aEg",
-   "creator": "Driving Time",
-   "file": "jobs/jamaica-kin/clips/AlE-3xK7aEg_106-116.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.0,
-   "src_in": 108.3,
-   "src_out": 113.667,
-   "tag": "driving,kingston-street",
-   "shows": [
-    "driving",
-    "kingston-street"
-   ],
-   "qc": {
-    "mot_med": 1.641,
-    "mot_min": 1.014,
-    "y_mean": 128.1,
-    "y_min": 125.5,
-    "dh": [
-     17939163020162270758,
-     18227393396320273716,
-     18227392301099418662,
-     18227393401147950118,
-     17650932096949618214,
-     17650791355170497574
-    ]
-   },
-   "parent": "mona_drive_2",
-   "line": 34,
-   "audio_ok": true,
-   "place": "Mona Road, Kingston",
-   "subject": "mona-drive-2",
-   "handheld": false,
-   "ton_max": 0.0
-  },
-  {
-   "t0": 272.7667,
-   "t1": 278.7,
-   "frames": 178,
-   "kind": "clip",
-   "clip_id": "south_coast_sea_1",
-   "video_id": "6VvXOLRNFzA",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/6VvXOLRNFzA_154-167.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 156.3,
-   "src_out": 165.2,
-   "tag": "sea-aerial,beach-aerial",
-   "shows": [
-    "sea-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.696,
-    "mot_min": 0.901,
-    "y_mean": 98.8,
-    "y_min": 90.1,
-    "dh": [
-     17509781111679252536,
-     17500765390680905784,
-     8709737737474594874,
-     8705198901396559928,
-     8705198901396544696,
-     2213386249840783343,
-     2291236088312688623,
-     4579056041300258799,
-     4002601881637416958,
-     13224003593688764158
-    ]
-   },
-   "parent": "south_coast_sea_1",
-   "line": 35,
-   "audio_ok": false,
-   "place": "South coast beach aerial, St Catherine",
-   "subject": "south-coast-sea-1",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 278.7,
-   "t1": 284.6333,
-   "frames": 178,
-   "kind": "clip",
-   "clip_id": "hellshire_00",
-   "video_id": "egDSZto6Jmw",
-   "creator": "Spicy_FPV_Jamaica",
-   "file": "jobs/jamaica-kin/clips/egDSZto6Jmw_81-106.mp4",
-   "file_in": 2.3,
-   "play_speed": 3.5,
-   "src_in": 83.3,
-   "src_out": 104.067,
-   "tag": "sea-aerial,beach-aerial",
-   "shows": [
-    "sea-aerial",
-    "beach-aerial"
-   ],
-   "qc": {
-    "mot_med": 2.333,
-    "mot_min": 1.404,
-    "y_mean": 113.2,
-    "y_min": 104.8,
-    "dh": [
-     18446603128853211079,
-     18446603128786905031,
-     18446603128845625319,
-     18446603128912717671,
-     18446603128912733159,
-     17870142376609301415,
-     17870142377683047331,
-     17870142377680950243,
-     17870142377144079331,
-     17870142377680949731,
-     18446603127300019107,
-     18446743933581251459,
-     18446637833261384099,
-     18446708183754056097,
-     18410679386663793057,
-     18419686723357483425,
-     18419687204393689377,
-     18419687204393689376,
-     11520027130489577504,
-     16112722451694166048,
-     16112722176816275488,
-     14983293379755937840
-    ]
-   },
-   "parent": "hellshire_00",
-   "line": 35,
-   "audio_ok": false,
-   "place": "Hellshire Beach, St Catherine, near Kingston, from the air",
-   "subject": "hellshire-00",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 284.6333,
-   "t1": 290.2333,
-   "frames": 168,
-   "kind": "clip",
-   "clip_id": "kingston_highway",
-   "video_id": "pexels-37177245",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177245_0-11.mp4",
-   "file_in": 0.3,
-   "play_speed": 1.5,
-   "src_in": 0.3,
-   "src_out": 8.7,
-   "tag": "kingston-aerial,kingston-street,driving-aerial",
-   "shows": [
-    "kingston-aerial",
-    "kingston-street",
-    "driving-aerial"
-   ],
-   "qc": {
-    "mot_med": 7.395,
-    "mot_min": 6.584,
-    "y_mean": 100.6,
-    "y_min": 94.3,
-    "dh": [
-     220311218732497139,
-     508405134394487796,
-     530923269427131350,
-     12077597493304652741,
-     1089283756070758351,
-     5709853901674833357,
-     5705490756680600715,
-     6281951895450546829,
-     1679130939746866085
-    ]
-   },
-   "parent": "kingston_highway",
-   "line": 36,
-   "audio_ok": false,
-   "place": "Busy highway, Kingston area",
-   "subject": "px-kingston-highway",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 290.2333,
-   "t1": 295.8333,
-   "frames": 168,
-   "kind": "clip",
-   "clip_id": "kingston_forest_urban_2",
-   "video_id": "pexels-37177253",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177253_13-25.mp4",
-   "file_in": 1.67,
-   "play_speed": 1.5,
-   "src_in": 14.67,
-   "src_out": 23.07,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 8.236,
-    "mot_min": 7.199,
-    "y_mean": 76.7,
-    "y_min": 76.0,
-    "dh": [
-     6443927474997945195,
-     8451406494492631523,
-     8175525830951872929,
-     6374103573792156585,
-     6510363782614478250,
-     6510605775777123821,
-     15589874702465224141,
-     15914131569241312716,
-     5250311347173154253,
-     7880411330599810393
-    ]
-   },
-   "parent": "kingston_forest_urban_2",
-   "line": 36,
-   "audio_ok": false,
-   "place": "Forest meeting the city, Kingston",
-   "subject": "px-kingston-forest-urban-2",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 295.8333,
-   "t1": 299.0333,
-   "frames": 96,
-   "kind": "clip",
-   "clip_id": "kingston_coastline",
-   "video_id": "pexels-37177258",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177258_0-11.mp4",
-   "file_in": 1.3,
-   "play_speed": 2.4,
-   "src_in": 1.3,
-   "src_out": 8.98,
-   "tag": "kingston-aerial,sea-aerial",
-   "shows": [
-    "kingston-aerial",
-    "sea-aerial"
-   ],
-   "qc": {
-    "mot_med": 1.507,
-    "mot_min": 1.261,
-    "y_mean": 91.4,
-    "y_min": 91.1,
-    "dh": [
-     380500907417600936,
-     524616095493457764,
-     524616370370070100,
-     526868170183739058,
-     382744186016957162,
-     382743636261143256,
-     382743636261143165,
-     382743636261142780,
-     9606150857488007294
-    ]
-   },
-   "parent": "kingston_coastline",
-   "line": 37,
-   "audio_ok": false,
-   "place": "Kingston city and coastline",
-   "subject": "px-kingston-coastline",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 299.0333,
-   "t1": 302.2333,
-   "frames": 96,
-   "kind": "clip",
-   "clip_id": "kingston_forest_urban_3",
-   "video_id": "pexels-37177253",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177253_27-35.mp4",
-   "file_in": 1.54,
-   "play_speed": 1.5,
-   "src_in": 28.54,
-   "src_out": 33.34,
-   "tag": "kingston-aerial",
-   "shows": [
-    "kingston-aerial"
-   ],
-   "qc": {
-    "mot_med": 6.156,
-    "mot_min": 6.022,
-    "y_mean": 81.1,
-    "y_min": 77.5,
-    "dh": [
-     2030048579247971162,
-     2034549975339015323,
-     2025542510324602008,
-     872638572149988500,
-     952542280089886164,
-     10172532167539576157
-    ]
-   },
-   "parent": "kingston_forest_urban_3",
-   "line": 37,
-   "audio_ok": false,
-   "place": "Forest meeting the city, Kingston",
-   "subject": "px-kingston-forest-urban-3",
-   "handheld": false,
-   "ton_max": null
-  },
-  {
-   "t0": 302.2333,
-   "t1": 308.641,
-   "frames": 192,
-   "kind": "clip",
-   "clip_id": "kingston_roundabout",
-   "video_id": "pexels-37177246",
-   "creator": "K (Pexels)",
-   "file": "jobs/jamaica-kin/clips/pexels-37177246_4-17.mp4",
-   "file_in": 2.3,
-   "play_speed": 1.5,
-   "src_in": 6.3,
-   "src_out": 15.9116,
-   "tag": "kingston-aerial,kingston-street,driving-aerial",
-   "shows": [
-    "kingston-aerial",
-    "kingston-street",
-    "driving-aerial"
-   ],
-   "qc": {
-    "mot_med": 4.23,
-    "mot_min": 3.86,
-    "y_mean": 95.0,
-    "y_min": 94.0,
-    "dh": [
-     9426308319745471979,
-     9435315521181314518,
-     15123349201804455414,
-     4749323677952760814,
-     6951443175428447214,
-     3491482384333528014
-    ]
-   },
-   "parent": "kingston_roundabout",
-   "line": 37,
-   "audio_ok": false,
-   "place": "Busy roundabout, Kingston area",
-   "subject": "px-kingston-roundabout",
-   "handheld": false,
-   "ton_max": null
-  }
- ],
- "overlays": [
-  {
-   "kind": "lower",
-   "t0": 4.884,
-   "t1": 9.384,
-   "text": "TRANSFER · TAXI · RENTAL",
-   "sub": "Three ways from KIN to your hotel"
-  },
-  {
-   "kind": "disclosure",
-   "t0": 12.846,
-   "t1": 21.846,
-   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
-  },
-  {
-   "kind": "chapter",
-   "t0": 36.651,
-   "t1": 40.251000000000005,
-   "text": "1. Landing at Norman Manley (KIN): Arrival and C5 Entry Rules",
-   "number": 1
-  },
-  {
-   "kind": "mapinset",
-   "t0": 41.873999999999995,
-   "t1": 48.873999999999995,
-   "text": "KIN → New Kingston",
-   "route": [
-    "airport",
-    "kingston"
-   ],
-   "focus": "airport",
-   "focusFrom": null
-  },
-  {
-   "kind": "lower",
-   "t0": 41.974,
-   "t1": 46.474,
-   "text": "NORMAN MANLEY INTERNATIONAL",
-   "sub": "Airport code KIN"
-  },
-  {
-   "kind": "mapinset",
-   "t0": 58.248999999999995,
-   "t1": 65.249,
-   "text": "Three international airports",
-   "route": [
-    "airport",
-    "ocho",
-    "mobay"
-   ],
-   "focus": "airport",
-   "focusFrom": null
-  },
-  {
-   "kind": "prompt",
-   "t0": 81.587,
-   "t1": 87.31,
-   "badge": "COMMENT",
-   "text": "First time in Kingston?",
-   "spoken": true
-  },
-  {
-   "kind": "lower",
-   "t0": 89.29400000000001,
-   "t1": 93.79400000000001,
-   "text": "C5 FORM",
-   "sub": "Immigration and customs, online before you fly"
-  },
-  {
-   "kind": "chapter",
-   "t0": 131.494,
-   "t1": 135.094,
-   "text": "2. From Norman Manley (KIN) to Your Hotel: Transfer, Taxi or Rental",
-   "number": 2
-  },
-  {
-   "kind": "mapinset",
-   "t0": 145.02200000000002,
-   "t1": 152.02200000000002,
-   "text": "Palisadoes road into Kingston",
-   "route": [
-    "airport",
-    "downtown",
-    "kingston"
-   ],
-   "focus": "kingston",
-   "focusFrom": null
-  },
-  {
-   "kind": "lower",
-   "t0": 156.091,
-   "t1": 160.591,
-   "text": "1 · PRIVATE TRANSFER",
-   "sub": "Pre-booked, driver meets you"
-  },
-  {
-   "kind": "prompt",
-   "t0": 165.04,
-   "t1": 169.54,
-   "badge": "LIKE",
-   "text": "Finding this useful? Tap like",
-   "spoken": false
-  },
-  {
-   "kind": "lower",
-   "t0": 177.95600000000002,
-   "t1": 182.45600000000002,
-   "text": "2 · APPROVED TAXI",
-   "sub": "Blue JTB sticker, no unmarked cars"
-  },
-  {
-   "kind": "lower",
-   "t0": 202.421,
-   "t1": 206.921,
-   "text": "3 · RENTAL CAR",
-   "sub": "Drive on the left"
-  },
-  {
-   "kind": "chapter",
-   "t0": 216.437,
-   "t1": 220.037,
-   "text": "3. Kingston Highlights, plus Money, Water and Safety Tips",
-   "number": 3
-  },
-  {
-   "kind": "lower",
-   "t0": 221.663,
-   "t1": 226.163,
-   "text": "NEW KINGSTON",
-   "sub": "Hotels and business hub"
-  },
-  {
-   "kind": "mapinset",
-   "t0": 238.452,
-   "t1": 243.96,
-   "text": "Port Royal",
-   "route": [
-    "airport",
-    "portroyal"
-   ],
-   "focus": "portroyal",
-   "focusFrom": null
-  },
-  {
-   "kind": "lower",
-   "t0": 238.552,
-   "t1": 243.052,
-   "text": "PORT ROYAL",
-   "sub": "Old fort, boats to Lime Cay"
-  },
-  {
-   "kind": "prompt",
-   "t0": 248.494,
-   "t1": 254.494,
-   "badge": "SUBSCRIBE",
-   "text": "Fort, museum or Lime Cay?",
-   "spoken": true
-  },
-  {
-   "kind": "prompt",
-   "t0": 296.034,
-   "t1": 302.034,
-   "badge": "SUBSCRIBE",
-   "text": "Subscribe for the next arrival guide",
-   "spoken": true
-  },
-  {
-   "kind": "endcard",
-   "t0": 303.641,
-   "t1": 308.641,
-   "text": "ENJOY KINGSTON",
-   "lines": [
-    "Compare airport transfers: link in the description",
-    "Subscribe for the next arrival guide"
-   ]
-  }
- ],
- "sentences": [
-  {
-   "t0": 0.3,
-   "t1": 4.311,
-   "text": "Just landed in Kingston, and not sure how you'll get to your hotel?",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "approach",
-    "air-arrival"
-   ]
-  },
-  {
-   "t0": 4.484,
-   "t1": 10.009,
-   "text": "Three easy ways: a pre-booked private transfer, an approved taxi, or a rental car.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "airport-curb",
-    "airport-terminal"
-   ]
-  },
-  {
-   "t0": 10.32,
-   "t1": 12.304,
-   "text": "Let's get you into the city.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "kingston-aerial"
-   ]
-  },
-  {
-   "t0": 12.846,
-   "t1": 24.664,
-   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
-   "disclosure": true,
-   "facts": [],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 25.333,
-   "t1": 35.487,
-   "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
-   "disclosure": false,
-   "facts": [
-    "f9020"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "sea-aerial",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 36.651,
-   "t1": 41.237,
-   "text": "Welcome to Jamaica, and welcome to Norman Manley International.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "approach",
-    "coast-approach",
-    "window-seat"
-   ]
-  },
-  {
-   "t0": 41.574,
-   "t1": 51.707,
-   "text": "The airport sits on the Palisadoes peninsula, about twenty minutes from Kingston's business centre, beside one of the largest natural harbours in the world.",
-   "disclosure": false,
-   "facts": [
-    "k002"
-   ],
-   "need": [
-    "palisadoes-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 52.082,
-   "t1": 57.565,
-   "text": "It handles over two million passengers a year, and most of the island's air freight.",
-   "disclosure": false,
-   "facts": [
-    "k003"
-   ],
-   "need": [
-    "kingston-aerial",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 57.949,
-   "t1": 69.256,
-   "text": "This guide is for Norman Manley. Jamaica's other two international airports, Sangster in Montego Bay and Ian Fleming near Ocho Rios, get their own arrival guides.",
-   "disclosure": false,
-   "facts": [
-    "f2001"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 69.581,
-   "t1": 80.973,
-   "text": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly.",
-   "disclosure": false,
-   "facts": [
-    "f872"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "palisadoes-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 81.387,
-   "t1": 86.358,
-   "text": "Is this your first time landing in Kingston? Tell us in the comments where you're staying.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "kingston-aerial",
-    "port-royal-aerial"
-   ]
-  },
-  {
-   "t0": 87.11,
-   "t1": 88.582,
-   "text": "Now, the paperwork.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "jamaica-aerial",
-    "sea-aerial",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 88.894,
-   "t1": 97.662,
-   "text": "Before you fly, fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
-   "disclosure": false,
-   "facts": [
-    "f589"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 98.053,
-   "t1": 105.583,
-   "text": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too.",
-   "disclosure": false,
-   "facts": [
-    "f580",
-    "f679"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 105.967,
-   "t1": 115.865,
-   "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
-   "disclosure": false,
-   "facts": [
-    "f584"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 116.23,
-   "t1": 123.398,
-   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
-   "disclosure": false,
-   "facts": [
-    "f590",
-    "f591"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial",
-    "palisadoes-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 123.703,
-   "t1": 128.311,
-   "text": "And pack your own bags: never carry anything through customs for anyone else.",
-   "disclosure": false,
-   "facts": [
-    "f626"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "sea-aerial",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 128.703,
-   "t1": 130.325,
-   "text": "That's the paperwork done.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "jamaica-aerial",
-    "kingston-aerial"
-   ]
-  },
-  {
-   "t0": 131.494,
-   "t1": 134.694,
-   "text": "Through customs? Here's how to get to your hotel.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "palisadoes-aerial",
-    "sea-aerial",
-    "jamaica-aerial"
-   ]
-  },
-  {
-   "t0": 135.057,
-   "t1": 144.401,
-   "text": "Car rentals, currency exchange, taxis and tour desks are all in the Arrivals Ground Transportation Hall, and luggage trolleys are free.",
-   "disclosure": false,
-   "facts": [
-    "k006"
-   ],
-   "need": [
-    "airport-curb",
-    "palisadoes-road",
-    "driving"
-   ]
-  },
-  {
-   "t0": 144.722,
-   "t1": 153.426,
-   "text": "The drive into town runs along the Palisadoes road, with Kingston Harbour on one side and the Caribbean Sea on the other.",
-   "disclosure": false,
-   "facts": [
-    "k007"
-   ],
-   "need": [
-    "palisadoes-road",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 155.691,
-   "t1": 165.952,
-   "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after a long flight.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "palisadoes-road",
-    "driving"
-   ]
-  },
-  {
-   "t0": 166.27,
-   "t1": 177.214,
-   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "driving",
-    "palisadoes-road"
-   ]
-  },
-  {
-   "t0": 177.556,
-   "t1": 190.1,
-   "text": "Option two, an approved taxi. The UK advises Jamaican Tourist Board approved taxis, which show a blue JTB sticker, and Canada advises avoiding unmarked cars.",
-   "disclosure": false,
-   "facts": [
-    "k011",
-    "f2063"
-   ],
-   "need": [
-    "driving",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 190.501,
-   "t1": 201.722,
-   "text": "Between the airport and the city, most people take the Humming Bird route via South Camp Road, and the UK advises care when you get out of the car at private accommodation.",
-   "disclosure": false,
-   "facts": [
-    "k008",
-    "k009"
-   ],
-   "need": [
-    "driving",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 202.021,
-   "t1": 211.6,
-   "text": "Option three, a rental car. Jamaica drives on the left, and the UK advises not driving in Kingston itself if you don't know the city.",
-   "disclosure": false,
-   "facts": [
-    "f1014",
-    "k010"
-   ],
-   "need": [
-    "driving",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 211.984,
-   "t1": 215.333,
-   "text": "So that's the choice: transfer, taxi or rental.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "driving",
-    "kingston-street",
-    "kingston-aerial"
-   ]
-  },
-  {
-   "t0": 216.437,
-   "t1": 219.019,
-   "text": "Now, the best part: Kingston itself.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "kingston-aerial",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 221.263,
-   "t1": 230.116,
-   "text": "Kingston is the capital and the island's largest city, and New Kingston, the business hub, is home to several of its hotels.",
-   "disclosure": false,
-   "facts": [
-    "k012",
-    "k013"
-   ],
-   "need": [
-    "kingston-aerial"
-   ]
-  },
-  {
-   "t0": 230.436,
-   "t1": 237.796,
-   "text": "It's the birthplace of reggae, and the Bob Marley Museum is the house where he lived and recorded many of his songs.",
-   "disclosure": false,
-   "facts": [
-    "k014"
-   ],
-   "need": [
-    "kingston-aerial",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 238.152,
-   "t1": 243.827,
-   "text": "A quick ride away, Port Royal was once called the richest and wickedest city on earth.",
-   "disclosure": false,
-   "facts": [
-    "k015"
-   ],
-   "need": [
-    "port-royal-aerial",
-    "palisadoes-aerial"
-   ]
-  },
-  {
-   "t0": 244.16,
-   "t1": 247.936,
-   "text": "Tour the old fort, then head for Lime Cay and its beaches.",
-   "disclosure": false,
-   "facts": [
-    "k015"
-   ],
-   "need": [
-    "port-royal-aerial",
-    "beach-aerial"
-   ]
-  },
-  {
-   "t0": 248.294,
-   "t1": 253.777,
-   "text": "Fort, museum or Lime Cay? Hit subscribe and tell us which one is first on your list.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "sea-aerial",
-    "beach-aerial",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 256.342,
-   "t1": 261.675,
-   "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
-   "disclosure": false,
-   "facts": [
-    "f615"
-   ],
-   "need": [
-    "kingston-street",
-    "driving"
-   ]
-  },
-  {
-   "t0": 262.009,
-   "t1": 272.377,
-   "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
-   "disclosure": false,
-   "facts": [
-    "f3014"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "driving",
-    "kingston-aerial",
-    "kingston-street"
-   ]
-  },
-  {
-   "t0": 272.771,
-   "t1": 284.184,
-   "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
-   "disclosure": false,
-   "facts": [
-    "f1024",
-    "f1025"
-   ],
-   "need": [
-    "jamaica-aerial",
-    "driving",
-    "sea-aerial",
-    "beach-aerial"
-   ]
-  },
-  {
-   "t0": 284.637,
-   "t1": 295.453,
-   "text": "So, the short version. Fill in your C5 form before you fly. Pick your ride before you land: transfer, approved taxi or rental. Then enjoy the city.",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "jamaica-aerial",
-    "driving",
-    "kingston-aerial",
-    "palisadoes-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "t0": 295.834,
-   "t1": 302.042,
-   "text": "Subscribe for the next arrival guide, and enjoy every minute in Kingston. See you on the next trip!",
-   "disclosure": false,
-   "facts": [],
-   "need": [
-    "sea-aerial",
-    "port-royal-aerial",
-    "beach-aerial",
-    "jamaica-aerial",
-    "kingston-aerial",
-    "kingston-street",
-    "driving"
-   ]
-  }
- ],
- "audio": {
-  "narration": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/narration.wav",
-  "music": "none",
-  "ambient": [
-   {
-    "t0": 4.5,
-    "t1": 10.3333,
-    "video_id": "B8Fo1ZQz8ec",
-    "licence_ok": true
-   },
-   {
-    "t0": 135.0667,
-    "t1": 139.9,
-    "video_id": "B8Fo1ZQz8ec",
-    "licence_ok": true
-   },
-   {
-    "t0": 139.9,
-    "t1": 144.7333,
-    "video_id": "B8Fo1ZQz8ec",
-    "licence_ok": true
-   },
-   {
-    "t0": 144.7333,
-    "t1": 150.2,
-    "video_id": "B8Fo1ZQz8ec",
-    "licence_ok": true
-   },
-   {
-    "t0": 150.2,
-    "t1": 155.7,
-    "video_id": "B8Fo1ZQz8ec",
-    "licence_ok": true
-   },
-   {
-    "t0": 155.7,
-    "t1": 160.9667,
-    "video_id": "EXrIIg9DTk0",
-    "licence_ok": true
-   },
-   {
-    "t0": 160.9667,
-    "t1": 166.2667,
-    "video_id": "EXrIIg9DTk0",
-    "licence_ok": true
-   },
-   {
-    "t0": 171.9333,
-    "t1": 177.5667,
-    "video_id": "EXrIIg9DTk0",
-    "licence_ok": true
-   },
-   {
-    "t0": 184.0333,
-    "t1": 190.5,
-    "video_id": "EXrIIg9DTk0",
-    "licence_ok": true
-   },
-   {
-    "t0": 196.2667,
-    "t1": 202.0333,
-    "video_id": "EXrIIg9DTk0",
-    "licence_ok": true
-   },
-   {
-    "t0": 202.0333,
-    "t1": 207.0333,
-    "video_id": "Uj4rTEQ4QCM",
-    "licence_ok": true
-   },
-   {
-    "t0": 207.0333,
-    "t1": 212.0,
-    "video_id": "Uj4rTEQ4QCM",
-    "licence_ok": true
-   },
-   {
-    "t0": 212.0,
-    "t1": 216.4333,
-    "video_id": "Uj4rTEQ4QCM",
-    "licence_ok": true
-   },
-   {
-    "t0": 216.4333,
-    "t1": 221.2667,
-    "video_id": "AlE-3xK7aEg",
-    "licence_ok": true
-   },
-   {
-    "t0": 252.3,
-    "t1": 256.3333,
-    "video_id": "P-AbmWV49TU",
-    "licence_ok": true
-   },
-   {
-    "t0": 256.3333,
-    "t1": 262.0,
-    "video_id": "P-AbmWV49TU",
-    "licence_ok": true
-   },
-   {
-    "t0": 262.0,
-    "t1": 267.4,
-    "video_id": "AlE-3xK7aEg",
-    "licence_ok": true
-   },
-   {
-    "t0": 267.4,
-    "t1": 272.7667,
-    "video_id": "AlE-3xK7aEg",
-    "licence_ok": true
-   }
+  "overlays": [
+    {
+      "kind": "lower",
+      "t0": 4.884,
+      "t1": 9.384,
+      "text": "TRANSFER \u00b7 TAXI \u00b7 RENTAL",
+      "sub": "Three ways from KIN to your hotel"
+    },
+    {
+      "kind": "disclosure",
+      "t0": 12.846,
+      "t1": 21.846,
+      "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+    },
+    {
+      "kind": "chapter",
+      "t0": 36.651,
+      "t1": 40.251000000000005,
+      "text": "1. Landing at Norman Manley (KIN): Arrival and C5 Entry Rules",
+      "number": 1
+    },
+    {
+      "kind": "mapinset",
+      "t0": 41.873999999999995,
+      "t1": 48.873999999999995,
+      "text": "KIN \u2192 New Kingston",
+      "route": [
+        "airport",
+        "kingston"
+      ],
+      "focus": "airport",
+      "focusFrom": null
+    },
+    {
+      "kind": "lower",
+      "t0": 41.974,
+      "t1": 46.474,
+      "text": "NORMAN MANLEY INTERNATIONAL",
+      "sub": "Airport code KIN"
+    },
+    {
+      "kind": "mapinset",
+      "t0": 58.248999999999995,
+      "t1": 65.249,
+      "text": "Three international airports",
+      "route": [
+        "airport",
+        "ocho",
+        "mobay"
+      ],
+      "focus": "airport",
+      "focusFrom": null
+    },
+    {
+      "kind": "prompt",
+      "t0": 81.587,
+      "t1": 87.31,
+      "badge": "COMMENT",
+      "text": "First time in Kingston?",
+      "spoken": true
+    },
+    {
+      "kind": "lower",
+      "t0": 89.29400000000001,
+      "t1": 93.79400000000001,
+      "text": "C5 FORM",
+      "sub": "Immigration and customs, online before you fly"
+    },
+    {
+      "kind": "chapter",
+      "t0": 131.494,
+      "t1": 135.094,
+      "text": "2. From Norman Manley (KIN) to Your Hotel: Transfer, Taxi or Rental",
+      "number": 2
+    },
+    {
+      "kind": "mapinset",
+      "t0": 145.02200000000002,
+      "t1": 152.02200000000002,
+      "text": "Palisadoes road into Kingston",
+      "route": [
+        "airport",
+        "downtown",
+        "kingston"
+      ],
+      "focus": "kingston",
+      "focusFrom": null
+    },
+    {
+      "kind": "lower",
+      "t0": 156.091,
+      "t1": 160.591,
+      "text": "1 \u00b7 PRIVATE TRANSFER",
+      "sub": "Pre-booked, driver meets you"
+    },
+    {
+      "kind": "prompt",
+      "t0": 165.04,
+      "t1": 169.54,
+      "badge": "LIKE",
+      "text": "Finding this useful? Tap like",
+      "spoken": false
+    },
+    {
+      "kind": "lower",
+      "t0": 177.95600000000002,
+      "t1": 182.45600000000002,
+      "text": "2 \u00b7 APPROVED TAXI",
+      "sub": "Blue JTB sticker, no unmarked cars"
+    },
+    {
+      "kind": "lower",
+      "t0": 202.421,
+      "t1": 206.921,
+      "text": "3 \u00b7 RENTAL CAR",
+      "sub": "Drive on the left"
+    },
+    {
+      "kind": "chapter",
+      "t0": 216.437,
+      "t1": 220.037,
+      "text": "3. Kingston Highlights, plus Money, Water and Safety Tips",
+      "number": 3
+    },
+    {
+      "kind": "lower",
+      "t0": 221.663,
+      "t1": 226.163,
+      "text": "NEW KINGSTON",
+      "sub": "Hotels and business hub"
+    },
+    {
+      "kind": "mapinset",
+      "t0": 238.452,
+      "t1": 243.96,
+      "text": "Port Royal",
+      "route": [
+        "airport",
+        "portroyal"
+      ],
+      "focus": "portroyal",
+      "focusFrom": null
+    },
+    {
+      "kind": "lower",
+      "t0": 238.552,
+      "t1": 243.052,
+      "text": "PORT ROYAL",
+      "sub": "Old fort, boats to Lime Cay"
+    },
+    {
+      "kind": "prompt",
+      "t0": 248.494,
+      "t1": 254.494,
+      "badge": "SUBSCRIBE",
+      "text": "Fort, museum or Lime Cay?",
+      "spoken": true
+    },
+    {
+      "kind": "prompt",
+      "t0": 296.034,
+      "t1": 302.034,
+      "badge": "SUBSCRIBE",
+      "text": "Subscribe for the next arrival guide",
+      "spoken": true
+    },
+    {
+      "kind": "endcard",
+      "t0": 303.641,
+      "t1": 308.641,
+      "text": "ENJOY KINGSTON",
+      "lines": [
+        "Compare airport transfers: link in the description",
+        "Subscribe for the next arrival guide"
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "t0": 0.3,
+      "t1": 4.311,
+      "text": "Just landed in Kingston, and not sure how you'll get to your hotel?",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "approach",
+        "air-arrival"
+      ]
+    },
+    {
+      "t0": 4.484,
+      "t1": 10.009,
+      "text": "Three easy ways: a pre-booked private transfer, an approved taxi, or a rental car.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "airport-curb",
+        "airport-terminal"
+      ]
+    },
+    {
+      "t0": 10.32,
+      "t1": 12.304,
+      "text": "Let's get you into the city.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "kingston-aerial"
+      ]
+    },
+    {
+      "t0": 12.846,
+      "t1": 24.664,
+      "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+      "disclosure": true,
+      "facts": [],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 25.333,
+      "t1": 35.487,
+      "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+      "disclosure": false,
+      "facts": [
+        "f9020"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "sea-aerial",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 36.651,
+      "t1": 41.237,
+      "text": "Welcome to Jamaica, and welcome to Norman Manley International.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "approach",
+        "coast-approach",
+        "window-seat"
+      ]
+    },
+    {
+      "t0": 41.574,
+      "t1": 51.707,
+      "text": "The airport sits on the Palisadoes peninsula, about twenty minutes from Kingston's business centre, beside one of the largest natural harbours in the world.",
+      "disclosure": false,
+      "facts": [
+        "k002"
+      ],
+      "need": [
+        "palisadoes-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 52.082,
+      "t1": 57.565,
+      "text": "It handles over two million passengers a year, and most of the island's air freight.",
+      "disclosure": false,
+      "facts": [
+        "k003"
+      ],
+      "need": [
+        "kingston-aerial",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 57.949,
+      "t1": 69.256,
+      "text": "This guide is for Norman Manley. Jamaica's other two international airports, Sangster in Montego Bay and Ian Fleming near Ocho Rios, get their own arrival guides.",
+      "disclosure": false,
+      "facts": [
+        "f2001"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 69.581,
+      "t1": 80.973,
+      "text": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly.",
+      "disclosure": false,
+      "facts": [
+        "f872"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "palisadoes-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 81.387,
+      "t1": 86.358,
+      "text": "Is this your first time landing in Kingston? Tell us in the comments where you're staying.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "kingston-aerial",
+        "port-royal-aerial"
+      ]
+    },
+    {
+      "t0": 87.11,
+      "t1": 88.582,
+      "text": "Now, the paperwork.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "jamaica-aerial",
+        "sea-aerial",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 88.894,
+      "t1": 97.662,
+      "text": "Before you fly, fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
+      "disclosure": false,
+      "facts": [
+        "f589"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 98.053,
+      "t1": 105.583,
+      "text": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too.",
+      "disclosure": false,
+      "facts": [
+        "f580",
+        "f679"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 105.967,
+      "t1": 115.865,
+      "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
+      "disclosure": false,
+      "facts": [
+        "f584"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 116.23,
+      "t1": 123.398,
+      "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+      "disclosure": false,
+      "facts": [
+        "f590",
+        "f591"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial",
+        "palisadoes-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 123.703,
+      "t1": 128.311,
+      "text": "And pack your own bags: never carry anything through customs for anyone else.",
+      "disclosure": false,
+      "facts": [
+        "f626"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "sea-aerial",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 128.703,
+      "t1": 130.325,
+      "text": "That's the paperwork done.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "jamaica-aerial",
+        "kingston-aerial"
+      ]
+    },
+    {
+      "t0": 131.494,
+      "t1": 134.694,
+      "text": "Through customs? Here's how to get to your hotel.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "palisadoes-aerial",
+        "sea-aerial",
+        "jamaica-aerial"
+      ]
+    },
+    {
+      "t0": 135.057,
+      "t1": 144.401,
+      "text": "Car rentals, currency exchange, taxis and tour desks are all in the Arrivals Ground Transportation Hall, and luggage trolleys are free.",
+      "disclosure": false,
+      "facts": [
+        "k006"
+      ],
+      "need": [
+        "airport-curb",
+        "palisadoes-road",
+        "driving"
+      ]
+    },
+    {
+      "t0": 144.722,
+      "t1": 153.426,
+      "text": "The drive into town runs along the Palisadoes road, with Kingston Harbour on one side and the Caribbean Sea on the other.",
+      "disclosure": false,
+      "facts": [
+        "k007"
+      ],
+      "need": [
+        "palisadoes-road",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 155.691,
+      "t1": 165.952,
+      "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after a long flight.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "palisadoes-road",
+        "driving"
+      ]
+    },
+    {
+      "t0": 166.27,
+      "t1": 177.214,
+      "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "driving",
+        "palisadoes-road"
+      ]
+    },
+    {
+      "t0": 177.556,
+      "t1": 190.1,
+      "text": "Option two, an approved taxi. The UK advises Jamaican Tourist Board approved taxis, which show a blue JTB sticker, and Canada advises avoiding unmarked cars.",
+      "disclosure": false,
+      "facts": [
+        "k011",
+        "f2063"
+      ],
+      "need": [
+        "driving",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 190.501,
+      "t1": 201.722,
+      "text": "Between the airport and the city, most people take the Humming Bird route via South Camp Road, and the UK advises care when you get out of the car at private accommodation.",
+      "disclosure": false,
+      "facts": [
+        "k008",
+        "k009"
+      ],
+      "need": [
+        "driving",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 202.021,
+      "t1": 211.6,
+      "text": "Option three, a rental car. Jamaica drives on the left, and the UK advises not driving in Kingston itself if you don't know the city.",
+      "disclosure": false,
+      "facts": [
+        "f1014",
+        "k010"
+      ],
+      "need": [
+        "driving",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 211.984,
+      "t1": 215.333,
+      "text": "So that's the choice: transfer, taxi or rental.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "driving",
+        "kingston-street",
+        "kingston-aerial"
+      ]
+    },
+    {
+      "t0": 216.437,
+      "t1": 219.019,
+      "text": "Now, the best part: Kingston itself.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "kingston-aerial",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 221.263,
+      "t1": 230.116,
+      "text": "Kingston is the capital and the island's largest city, and New Kingston, the business hub, is home to several of its hotels.",
+      "disclosure": false,
+      "facts": [
+        "k012",
+        "k013"
+      ],
+      "need": [
+        "kingston-aerial"
+      ]
+    },
+    {
+      "t0": 230.436,
+      "t1": 237.796,
+      "text": "It's the birthplace of reggae, and the Bob Marley Museum is the house where he lived and recorded many of his songs.",
+      "disclosure": false,
+      "facts": [
+        "k014"
+      ],
+      "need": [
+        "kingston-aerial",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 238.152,
+      "t1": 243.827,
+      "text": "A quick ride away, Port Royal was once called the richest and wickedest city on earth.",
+      "disclosure": false,
+      "facts": [
+        "k015"
+      ],
+      "need": [
+        "port-royal-aerial",
+        "palisadoes-aerial"
+      ]
+    },
+    {
+      "t0": 244.16,
+      "t1": 247.936,
+      "text": "Tour the old fort, then head for Lime Cay and its beaches.",
+      "disclosure": false,
+      "facts": [
+        "k015"
+      ],
+      "need": [
+        "port-royal-aerial",
+        "beach-aerial"
+      ]
+    },
+    {
+      "t0": 248.294,
+      "t1": 253.777,
+      "text": "Fort, museum or Lime Cay? Hit subscribe and tell us which one is first on your list.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "sea-aerial",
+        "beach-aerial",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 256.342,
+      "t1": 261.675,
+      "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
+      "disclosure": false,
+      "facts": [
+        "f615"
+      ],
+      "need": [
+        "kingston-street",
+        "driving"
+      ]
+    },
+    {
+      "t0": 262.009,
+      "t1": 272.377,
+      "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+      "disclosure": false,
+      "facts": [
+        "f3014"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "driving",
+        "kingston-aerial",
+        "kingston-street"
+      ]
+    },
+    {
+      "t0": 272.771,
+      "t1": 284.184,
+      "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+      "disclosure": false,
+      "facts": [
+        "f1024",
+        "f1025"
+      ],
+      "need": [
+        "jamaica-aerial",
+        "driving",
+        "sea-aerial",
+        "beach-aerial"
+      ]
+    },
+    {
+      "t0": 284.637,
+      "t1": 295.453,
+      "text": "So, the short version. Fill in your C5 form before you fly. Pick your ride before you land: transfer, approved taxi or rental. Then enjoy the city.",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "jamaica-aerial",
+        "driving",
+        "kingston-aerial",
+        "palisadoes-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "t0": 295.834,
+      "t1": 302.042,
+      "text": "Subscribe for the next arrival guide, and enjoy every minute in Kingston. See you on the next trip!",
+      "disclosure": false,
+      "facts": [],
+      "need": [
+        "sea-aerial",
+        "port-royal-aerial",
+        "beach-aerial",
+        "jamaica-aerial",
+        "kingston-aerial",
+        "kingston-street",
+        "driving"
+      ]
+    }
+  ],
+  "audio": {
+    "narration": "/workspace/work/aurum-video-render/jobs/jamaica-kin/build/narration.wav",
+    "music": "none",
+    "ambient": [
+      {
+        "t0": 4.5,
+        "t1": 10.3333,
+        "video_id": "B8Fo1ZQz8ec",
+        "licence_ok": true
+      },
+      {
+        "t0": 135.0667,
+        "t1": 139.9,
+        "video_id": "B8Fo1ZQz8ec",
+        "licence_ok": true
+      },
+      {
+        "t0": 139.9,
+        "t1": 144.7333,
+        "video_id": "B8Fo1ZQz8ec",
+        "licence_ok": true
+      },
+      {
+        "t0": 144.7333,
+        "t1": 150.2,
+        "video_id": "B8Fo1ZQz8ec",
+        "licence_ok": true
+      },
+      {
+        "t0": 150.2,
+        "t1": 155.7,
+        "video_id": "B8Fo1ZQz8ec",
+        "licence_ok": true
+      },
+      {
+        "t0": 155.7,
+        "t1": 160.9667,
+        "video_id": "EXrIIg9DTk0",
+        "licence_ok": true
+      },
+      {
+        "t0": 160.9667,
+        "t1": 166.2667,
+        "video_id": "EXrIIg9DTk0",
+        "licence_ok": true
+      },
+      {
+        "t0": 171.9333,
+        "t1": 177.5667,
+        "video_id": "EXrIIg9DTk0",
+        "licence_ok": true
+      },
+      {
+        "t0": 184.0333,
+        "t1": 190.5,
+        "video_id": "EXrIIg9DTk0",
+        "licence_ok": true
+      },
+      {
+        "t0": 196.2667,
+        "t1": 202.0333,
+        "video_id": "EXrIIg9DTk0",
+        "licence_ok": true
+      },
+      {
+        "t0": 202.0333,
+        "t1": 207.0333,
+        "video_id": "Uj4rTEQ4QCM",
+        "licence_ok": true
+      },
+      {
+        "t0": 207.0333,
+        "t1": 212.0,
+        "video_id": "Uj4rTEQ4QCM",
+        "licence_ok": true
+      },
+      {
+        "t0": 212.0,
+        "t1": 216.4333,
+        "video_id": "Uj4rTEQ4QCM",
+        "licence_ok": true
+      },
+      {
+        "t0": 216.4333,
+        "t1": 221.2667,
+        "video_id": "AlE-3xK7aEg",
+        "licence_ok": true
+      },
+      {
+        "t0": 252.3,
+        "t1": 256.3333,
+        "video_id": "P-AbmWV49TU",
+        "licence_ok": true
+      },
+      {
+        "t0": 256.3333,
+        "t1": 262.0,
+        "video_id": "P-AbmWV49TU",
+        "licence_ok": true
+      },
+      {
+        "t0": 262.0,
+        "t1": 267.4,
+        "video_id": "AlE-3xK7aEg",
+        "licence_ok": true
+      },
+      {
+        "t0": 267.4,
+        "t1": 272.7667,
+        "video_id": "AlE-3xK7aEg",
+        "licence_ok": true
+      }
+    ]
+  },
+  "offtag_shots": [],
+  "banned": [
+    {
+      "clip_id": "coast_road_aerial",
+      "why": "DTiioRRs3Bg 27-39 is a montage: boat, rafting and a person on green screen (vlogger face) at 5-8 s, not a coast-road aerial (found 11 Nov 2026)"
+    },
+    {
+      "clip_id": "kingston_cityscape_sunset",
+      "why": "near-static drone (camera-move gate: shift 0.5)"
+    },
+    {
+      "clip_id": "port_royal_aerial_1",
+      "why": "soft dusk aerial: locked-window lap_med 28.3 < sharp_lap_min 35 (measured 11 Nov 2026); use port_royal_aerial_2/3 (lap 114/87)"
+    }
+  ],
+  "lifts": [
+    {
+      "t0": 153.576,
+      "t1": 155.176,
+      "line": 20
+    },
+    {
+      "t0": 219.169,
+      "t1": 220.769,
+      "line": 27
+    },
+    {
+      "t0": 253.927,
+      "t1": 255.527,
+      "line": 32
+    }
+  ],
+  "lift_min_count": 3,
+  "needs_footage": [],
+  "scope": "full",
+  "narration_stt": [
+    {
+      "line": 0,
+      "recall": 1.0,
+      "last_word": "hotel",
+      "last_word_heard": true,
+      "heard": "Just landed in Kingston and not sure how you'll get to your hotel."
+    },
+    {
+      "line": 1,
+      "recall": 1.0,
+      "last_word": "car",
+      "last_word_heard": true,
+      "heard": "Three easy ways \u2013 a pre-booked private transfer, an approved taxi, or a rental car."
+    },
+    {
+      "line": 2,
+      "recall": 1.0,
+      "last_word": "city",
+      "last_word_heard": true,
+      "heard": "Let's get you into the city."
+    },
+    {
+      "line": 3,
+      "recall": 1.0,
+      "last_word": "do",
+      "last_word_heard": true,
+      "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+    },
+    {
+      "line": 4,
+      "recall": 1.0,
+      "last_word": "today",
+      "last_word_heard": true,
+      "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today."
+    },
+    {
+      "line": 5,
+      "recall": 1.0,
+      "last_word": "international",
+      "last_word_heard": true,
+      "heard": "Welcome to Jamaica, and welcome to Norman Manley International."
+    },
+    {
+      "line": 6,
+      "recall": 0.917,
+      "last_word": "world",
+      "last_word_heard": true,
+      "heard": "The airport sits on the Palaisado's peninsula, about 20 minutes from Kingston's business centre, beside one of the largest natural harbors in the world."
+    },
+    {
+      "line": 7,
+      "recall": 1.0,
+      "last_word": "freight",
+      "last_word_heard": true,
+      "heard": "It handles over 2 million passengers a year, and most of the islands air freight."
+    },
+    {
+      "line": 8,
+      "recall": 0.962,
+      "last_word": "guides",
+      "last_word_heard": true,
+      "heard": "This guide is for Norman Manley. Jamaica's other two international airports, Sankster in Montego Bay and Ian Fleming, near Ocho Rios, get their own arrival guides."
+    },
+    {
+      "line": 9,
+      "recall": 1.0,
+      "last_word": "fly",
+      "last_word_heard": true,
+      "heard": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly."
+    },
+    {
+      "line": 10,
+      "recall": 1.0,
+      "last_word": "staying",
+      "last_word_heard": true,
+      "heard": "Is this your first time landing in Kingston? Tell us in the comments where you're staying."
+    },
+    {
+      "line": 11,
+      "recall": 1.0,
+      "last_word": "paperwork",
+      "last_word_heard": true,
+      "heard": "Now the paperwork."
+    },
+    {
+      "line": 12,
+      "recall": 1.0,
+      "last_word": "arrive",
+      "last_word_heard": true,
+      "heard": "Before you fly, fill in the immigration and customs C5 form online and make your customs declaration before you arrive."
+    },
+    {
+      "line": 13,
+      "recall": 1.0,
+      "last_word": "too",
+      "last_word_heard": true,
+      "heard": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too."
+    },
+    {
+      "line": 14,
+      "recall": 0.962,
+      "last_word": "passport",
+      "last_word_heard": true,
+      "heard": "British visitors don't need a visa and are usually granted entry for up to 90 days. Other nationalities should check the rules for their own passport."
+    },
+    {
+      "line": 15,
+      "recall": 1.0,
+      "last_word": "home",
+      "last_word_heard": true,
+      "heard": "At customs, declare anything prohibited or subject to duty and leave meat and dairy products at home."
+    },
+    {
+      "line": 16,
+      "recall": 1.0,
+      "last_word": "else",
+      "last_word_heard": true,
+      "heard": "and pack your own bags, never carry anything through customs for anyone else."
+    },
+    {
+      "line": 17,
+      "recall": 1.0,
+      "last_word": "done",
+      "last_word_heard": true,
+      "heard": "That's the paperwork done."
+    },
+    {
+      "line": 18,
+      "recall": 1.0,
+      "last_word": "hotel",
+      "last_word_heard": true,
+      "heard": "Through customs, here's how to get to your hotel."
+    },
+    {
+      "line": 19,
+      "recall": 1.0,
+      "last_word": "free",
+      "last_word_heard": true,
+      "heard": "Car rentals, currency exchange, taxis and tour desks are all in the arrival's ground transportation hall and luggage trolleys are free."
+    },
+    {
+      "line": 20,
+      "recall": 0.955,
+      "last_word": "other",
+      "last_word_heard": true,
+      "heard": "The drive into town runs along the Palaisados Road, with Kingston Harbour on one side and the Caribbean Sea on the other."
+    },
+    {
+      "line": 21,
+      "recall": 1.0,
+      "last_word": "flight",
+      "last_word_heard": true,
+      "heard": "Option 1 is the calmest. A pre-booked private transfer. Your driver is arranged before you land so there's no hunting for a ride after a long flight."
+    },
+    {
+      "line": 22,
+      "recall": 1.0,
+      "last_word": "fixed",
+      "last_word_heard": true,
+      "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed."
+    },
+    {
+      "line": 23,
+      "recall": 1.0,
+      "last_word": "cars",
+      "last_word_heard": true,
+      "heard": "Option two, an approved taxi. The UK advises Jamaican tourist board approved taxis, which show a blue JTB sticker and Canada advises avoiding unmarked cars."
+    },
+    {
+      "line": 24,
+      "recall": 0.969,
+      "last_word": "accommodation",
+      "last_word_heard": true,
+      "heard": "Between the airport and the city, most people take the hummingbird route via South Camp Road and the UK advises care when you get out of the car at private accommodation."
+    },
+    {
+      "line": 25,
+      "recall": 1.0,
+      "last_word": "city",
+      "last_word_heard": true,
+      "heard": "Option 3, a rental car, Jamaica drives on the left and the UK advises not driving in Kingston itself if you don't know the city."
+    },
+    {
+      "line": 26,
+      "recall": 1.0,
+      "last_word": "rental",
+      "last_word_heard": true,
+      "heard": "So that's the choice, transfer taxi or rental."
+    },
+    {
+      "line": 27,
+      "recall": 1.0,
+      "last_word": "itself",
+      "last_word_heard": true,
+      "heard": "Now the best part, Kingston itself."
+    },
+    {
+      "line": 28,
+      "recall": 1.0,
+      "last_word": "hotels",
+      "last_word_heard": true,
+      "heard": "Kingston is the capital and the island's largest city, and New Kingston, the business hub, is home to several of its hotels."
+    },
+    {
+      "line": 29,
+      "recall": 0.955,
+      "last_word": "songs",
+      "last_word_heard": true,
+      "heard": "It's the birthplace of Reggy, and the Bob Marley Museum is the house where he lived and recorded many of his songs."
+    },
+    {
+      "line": 30,
+      "recall": 1.0,
+      "last_word": "earth",
+      "last_word_heard": true,
+      "heard": "A quick ride away, Port Royal was once called the richest and wickedest city on earth."
+    },
+    {
+      "line": 31,
+      "recall": 0.917,
+      "last_word": "beaches",
+      "last_word_heard": true,
+      "heard": "Tour the old fort, then head for Lime Key and its beaches."
+    },
+    {
+      "line": 32,
+      "recall": 0.941,
+      "last_word": "list",
+      "last_word_heard": true,
+      "heard": "Fort Museum or Lime Key. Hit subscribe and tell us which one is first on your list."
+    },
+    {
+      "line": 33,
+      "recall": 1.0,
+      "last_word": "car",
+      "last_word_heard": true,
+      "heard": "A few last tips, don't show off valuables and never leave anything in a parked car."
+    },
+    {
+      "line": 34,
+      "recall": 1.0,
+      "last_word": "bay",
+      "last_word_heard": true,
+      "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay."
+    },
+    {
+      "line": 35,
+      "recall": 1.0,
+      "last_word": "arrive",
+      "last_word_heard": true,
+      "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive."
+    },
+    {
+      "line": 36,
+      "recall": 1.0,
+      "last_word": "city",
+      "last_word_heard": true,
+      "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, approved taxi or rental, then enjoy the city."
+    },
+    {
+      "line": 37,
+      "recall": 1.0,
+      "last_word": "trip",
+      "last_word_heard": true,
+      "heard": "Subscribe for the next Arrival Guide and enjoy every minute in Kingston. See you on the next trip."
+    }
   ]
- },
- "offtag_shots": [],
- "banned": [
-  {
-   "clip_id": "coast_road_aerial",
-   "why": "DTiioRRs3Bg 27-39 is a montage: boat, rafting and a person on green screen (vlogger face) at 5-8 s, not a coast-road aerial (found 11 Nov 2026)"
-  },
-  {
-   "clip_id": "kingston_cityscape_sunset",
-   "why": "near-static drone (camera-move gate: shift 0.5)"
-  },
-  {
-   "clip_id": "port_royal_aerial_1",
-   "why": "soft dusk aerial: locked-window lap_med 28.3 < sharp_lap_min 35 (measured 11 Nov 2026); use port_royal_aerial_2/3 (lap 114/87)"
-  }
- ],
- "lifts": [
-  {
-   "t0": 153.576,
-   "t1": 155.176,
-   "line": 20
-  },
-  {
-   "t0": 219.169,
-   "t1": 220.769,
-   "line": 27
-  },
-  {
-   "t0": 253.927,
-   "t1": 255.527,
-   "line": 32
-  }
- ],
- "lift_min_count": 3,
- "needs_footage": [],
- "scope": "full",
- "narration_stt": [
-  {
-   "line": 0,
-   "recall": 1.0,
-   "last_word": "hotel",
-   "last_word_heard": true,
-   "heard": "Just landed in Kingston and not sure how you'll get to your hotel."
-  },
-  {
-   "line": 1,
-   "recall": 1.0,
-   "last_word": "car",
-   "last_word_heard": true,
-   "heard": "Three easy ways – a pre-booked private transfer, an approved taxi, or a rental car."
-  },
-  {
-   "line": 2,
-   "recall": 1.0,
-   "last_word": "city",
-   "last_word_heard": true,
-   "heard": "Let's get you into the city."
-  },
-  {
-   "line": 3,
-   "recall": 1.0,
-   "last_word": "do",
-   "last_word_heard": true,
-   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
-  },
-  {
-   "line": 4,
-   "recall": 1.0,
-   "last_word": "today",
-   "last_word_heard": true,
-   "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today."
-  },
-  {
-   "line": 5,
-   "recall": 1.0,
-   "last_word": "international",
-   "last_word_heard": true,
-   "heard": "Welcome to Jamaica, and welcome to Norman Manley International."
-  },
-  {
-   "line": 6,
-   "recall": 0.917,
-   "last_word": "world",
-   "last_word_heard": true,
-   "heard": "The airport sits on the Palaisado's peninsula, about 20 minutes from Kingston's business centre, beside one of the largest natural harbors in the world."
-  },
-  {
-   "line": 7,
-   "recall": 1.0,
-   "last_word": "freight",
-   "last_word_heard": true,
-   "heard": "It handles over 2 million passengers a year, and most of the islands air freight."
-  },
-  {
-   "line": 8,
-   "recall": 0.962,
-   "last_word": "guides",
-   "last_word_heard": true,
-   "heard": "This guide is for Norman Manley. Jamaica's other two international airports, Sankster in Montego Bay and Ian Fleming, near Ocho Rios, get their own arrival guides."
-  },
-  {
-   "line": 9,
-   "recall": 1.0,
-   "last_word": "fly",
-   "last_word_heard": true,
-   "heard": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly."
-  },
-  {
-   "line": 10,
-   "recall": 1.0,
-   "last_word": "staying",
-   "last_word_heard": true,
-   "heard": "Is this your first time landing in Kingston? Tell us in the comments where you're staying."
-  },
-  {
-   "line": 11,
-   "recall": 1.0,
-   "last_word": "paperwork",
-   "last_word_heard": true,
-   "heard": "Now the paperwork."
-  },
-  {
-   "line": 12,
-   "recall": 1.0,
-   "last_word": "arrive",
-   "last_word_heard": true,
-   "heard": "Before you fly, fill in the immigration and customs C5 form online and make your customs declaration before you arrive."
-  },
-  {
-   "line": 13,
-   "recall": 1.0,
-   "last_word": "too",
-   "last_word_heard": true,
-   "heard": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too."
-  },
-  {
-   "line": 14,
-   "recall": 0.962,
-   "last_word": "passport",
-   "last_word_heard": true,
-   "heard": "British visitors don't need a visa and are usually granted entry for up to 90 days. Other nationalities should check the rules for their own passport."
-  },
-  {
-   "line": 15,
-   "recall": 1.0,
-   "last_word": "home",
-   "last_word_heard": true,
-   "heard": "At customs, declare anything prohibited or subject to duty and leave meat and dairy products at home."
-  },
-  {
-   "line": 16,
-   "recall": 1.0,
-   "last_word": "else",
-   "last_word_heard": true,
-   "heard": "and pack your own bags, never carry anything through customs for anyone else."
-  },
-  {
-   "line": 17,
-   "recall": 1.0,
-   "last_word": "done",
-   "last_word_heard": true,
-   "heard": "That's the paperwork done."
-  },
-  {
-   "line": 18,
-   "recall": 1.0,
-   "last_word": "hotel",
-   "last_word_heard": true,
-   "heard": "Through customs, here's how to get to your hotel."
-  },
-  {
-   "line": 19,
-   "recall": 1.0,
-   "last_word": "free",
-   "last_word_heard": true,
-   "heard": "Car rentals, currency exchange, taxis and tour desks are all in the arrival's ground transportation hall and luggage trolleys are free."
-  },
-  {
-   "line": 20,
-   "recall": 0.955,
-   "last_word": "other",
-   "last_word_heard": true,
-   "heard": "The drive into town runs along the Palaisados Road, with Kingston Harbour on one side and the Caribbean Sea on the other."
-  },
-  {
-   "line": 21,
-   "recall": 1.0,
-   "last_word": "flight",
-   "last_word_heard": true,
-   "heard": "Option 1 is the calmest. A pre-booked private transfer. Your driver is arranged before you land so there's no hunting for a ride after a long flight."
-  },
-  {
-   "line": 22,
-   "recall": 1.0,
-   "last_word": "fixed",
-   "last_word_heard": true,
-   "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed."
-  },
-  {
-   "line": 23,
-   "recall": 1.0,
-   "last_word": "cars",
-   "last_word_heard": true,
-   "heard": "Option two, an approved taxi. The UK advises Jamaican tourist board approved taxis, which show a blue JTB sticker and Canada advises avoiding unmarked cars."
-  },
-  {
-   "line": 24,
-   "recall": 0.969,
-   "last_word": "accommodation",
-   "last_word_heard": true,
-   "heard": "Between the airport and the city, most people take the hummingbird route via South Camp Road and the UK advises care when you get out of the car at private accommodation."
-  },
-  {
-   "line": 25,
-   "recall": 1.0,
-   "last_word": "city",
-   "last_word_heard": true,
-   "heard": "Option 3, a rental car, Jamaica drives on the left and the UK advises not driving in Kingston itself if you don't know the city."
-  },
-  {
-   "line": 26,
-   "recall": 1.0,
-   "last_word": "rental",
-   "last_word_heard": true,
-   "heard": "So that's the choice, transfer taxi or rental."
-  },
-  {
-   "line": 27,
-   "recall": 1.0,
-   "last_word": "itself",
-   "last_word_heard": true,
-   "heard": "Now the best part, Kingston itself."
-  },
-  {
-   "line": 28,
-   "recall": 1.0,
-   "last_word": "hotels",
-   "last_word_heard": true,
-   "heard": "Kingston is the capital and the island's largest city, and New Kingston, the business hub, is home to several of its hotels."
-  },
-  {
-   "line": 29,
-   "recall": 0.955,
-   "last_word": "songs",
-   "last_word_heard": true,
-   "heard": "It's the birthplace of Reggy, and the Bob Marley Museum is the house where he lived and recorded many of his songs."
-  },
-  {
-   "line": 30,
-   "recall": 1.0,
-   "last_word": "earth",
-   "last_word_heard": true,
-   "heard": "A quick ride away, Port Royal was once called the richest and wickedest city on earth."
-  },
-  {
-   "line": 31,
-   "recall": 0.917,
-   "last_word": "beaches",
-   "last_word_heard": true,
-   "heard": "Tour the old fort, then head for Lime Key and its beaches."
-  },
-  {
-   "line": 32,
-   "recall": 0.941,
-   "last_word": "list",
-   "last_word_heard": true,
-   "heard": "Fort Museum or Lime Key. Hit subscribe and tell us which one is first on your list."
-  },
-  {
-   "line": 33,
-   "recall": 1.0,
-   "last_word": "car",
-   "last_word_heard": true,
-   "heard": "A few last tips, don't show off valuables and never leave anything in a parked car."
-  },
-  {
-   "line": 34,
-   "recall": 1.0,
-   "last_word": "bay",
-   "last_word_heard": true,
-   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay."
-  },
-  {
-   "line": 35,
-   "recall": 1.0,
-   "last_word": "arrive",
-   "last_word_heard": true,
-   "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive."
-  },
-  {
-   "line": 36,
-   "recall": 1.0,
-   "last_word": "city",
-   "last_word_heard": true,
-   "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, approved taxi or rental, then enjoy the city."
-  },
-  {
-   "line": 37,
-   "recall": 1.0,
-   "last_word": "trip",
-   "last_word_heard": true,
-   "heard": "Subscribe for the next Arrival Guide and enjoy every minute in Kingston. See you on the next trip."
-  }
- ]
 }
