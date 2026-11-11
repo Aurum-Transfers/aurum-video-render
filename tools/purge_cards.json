@@ -1,8 +1,31 @@
 {
- "cards": {
-  "D": "t204u",
-  "github": "t108u",
-  "vultr": "t117u"
- },
- "_note": "Only Marvin-answered cards. D: t204u; github t108u (Grace chat 11 Nov 11:12 JT); vultr t117u (Marvin 1:35 PM JT, standing video-vultr-copy-verify-delete; also t108u). Recorded by grace."
+  "cards": {
+    "D": "t204u",
+    "github": "t108u",
+    "vultr": "t117u"
+  },
+  "active": [
+    "jamaica-ocj*",
+    "*ocj*",
+    "dr-puj*",
+    "*puj*",
+    "books*",
+    "books-ro",
+    ".secrets",
+    "movingrated*",
+    "*mr-*"
+  ],
+  "keep_names": [
+    "*review-720p*",
+    "*licen*",
+    "*package*",
+    "*description*",
+    "video.json",
+    "*.srt",
+    "*.vtt",
+    "*thumb*",
+    "*banner*",
+    "checks.json"
+  ],
+  "_note": "Only Marvin-answered cards. D: t204u; github t108u (Grace chat 11 Nov 11:12 JT); vultr t117u (Marvin 1:35 PM JT / t241u t242u standing video-vultr-copy-verify-delete; also t108u). Recorded by grace. Active (do not offload/delete): jamaica-ocj and its Shorts (live cut), dr-puj (next). Finished / inactive for media offload after sha256 verify: aruba-v6, aruba-v6-full, jamaica-v6-full (MBJ), jamaica-kin and jamaica-kin-short-*. jamaica-kin scripts, logs and other non-media stay (the OCJ/PUJ chain runs from jobs/jamaica-kin/run-from-shorts.sh and logs to run.log). Handoff videos/jamaica-kin/video.json and captions stay for finish_long at 3:10 AM 12 Nov. Never delete review-720p copies, licence logs, packages, descriptions, checks.json, thumb/art stills, or files touched in the last 30 min."
 }

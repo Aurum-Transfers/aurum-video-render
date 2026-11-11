@@ -3,8 +3,10 @@
 
 For each media file under the Aurum video work roots it:
   1. skips anything protected: active jobs (OCJ, PUJ and later, anything listed in purge_cards.json "active"), files a
-     live job references, files touched in the last 30 min, git-tracked files, non-media/small records (json, csv, srt,
-     md, txt, descriptions, licence logs, packages), the 720p review copy, books, secrets, other bots' trees;
+     live job references (exact path, or a basename that does not already exist under an active job tree — finished-job
+     duplicates of an active job's own clips are not kept), files touched in the last 30 min, git-tracked files,
+     non-media/small records (json, csv, srt, md, txt, descriptions, licence logs, packages, checks.json, thumb/art
+     stills), the 720p review copy, books, secrets, other bots' trees;
   2. hashes it (sha256, cached by path+size+mtime);
   3. looks for a remote copy with the SAME sha256:
        D:      existing archive manifests (usb-archive/MANIFEST.jsonl, gen-manifest-append.jsonl, <slug>-expect.json
@@ -46,7 +48,8 @@ DEFAULT_CFG = {
     # active jobs / never-touch path parts (fnmatch against each path component)
     "active": ["jamaica-ocj*", "*ocj*", "dr-puj*", "*puj*", "books*", "books-ro", ".secrets", "movingrated*", "*mr-*"],
     # names kept even when verified (card t204u: keep 720p review copy, licence records, handoff package)
-    "keep_names": ["*review-720p*", "*licen*", "*package*", "*description*", "video.json", "*.srt", "*.vtt"],
+    "keep_names": ["*review-720p*", "*licen*", "*package*", "*description*", "video.json", "*.srt", "*.vtt",
+                   "*thumb*", "*banner*", "checks.json"],
 }
 
 def now(): return datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
@@ -200,17 +203,32 @@ def tracked():
     p = subprocess.run(["git", "-C", str(REPO), "ls-files", "-z"], capture_output=True, text=True)
     return {str(REPO / f) for f in p.stdout.split("\0") if f}
 
+def is_active_path(p, c):
+    return any(fnmatch.fnmatch(x, pat) for x in Path(p).parts for pat in c["active"])
+
 def active_refs(c):
-    """basenames referenced from any json/txt in active job dirs (so a shared clip a live job uses is never deleted)."""
-    refs = set()
+    """Names and exact paths referenced from json/txt in active job dirs, plus media basenames already in those trees.
+
+    A finished-job file is only kept as 'referenced' when a live job names it (exact path) or names its basename
+    and no same-named media file already exists under an active tree. Shared Jamaica clip names (OCJ has its own
+    copy of the MBJ/KIN clip) must not pin the finished-job duplicates.
+    """
+    refs, path_refs, have = set(), set(), set()
+    path_re = re.compile(r"(/[\w./\-]+\.(?:mp4|mov|mkv|webm|m4a|wav|mp3|aac))", re.I)
+    base_re = re.compile(r"[\w.\-]+\.(?:mp4|mov|mkv|webm|m4a|wav|mp3|aac)", re.I)
     for root in ROOTS:
         for dp, dns, fns in os.walk(root):
-            if not any(fnmatch.fnmatch(x, pat) for x in Path(dp).parts for pat in c["active"]): continue
+            if not is_active_path(dp, c): continue
             for fn in fns:
-                if fn.endswith((".json", ".txt", ".csv", ".jsonl")) and os.path.getsize(os.path.join(dp, fn)) < 20_000_000:
-                    try: refs |= set(re.findall(r"[\w.\-]+\.(?:mp4|mov|mkv|webm|m4a|wav|mp3|aac)", open(os.path.join(dp, fn), errors="ignore").read()))
-                    except Exception: pass
-    return refs
+                fp = os.path.join(dp, fn)
+                if Path(fn).suffix.lower() in MEDIA: have.add(fn)
+                if fn.endswith((".json", ".txt", ".csv", ".jsonl")) and os.path.getsize(fp) < 20_000_000:
+                    try: text = open(fp, errors="ignore").read()
+                    except Exception: continue
+                    refs |= set(base_re.findall(text))
+                    for m in path_re.findall(text):
+                        if os.path.isfile(m): path_refs.add(os.path.abspath(m))
+    return refs, path_refs, have
 
 def sha_cached(p, st, cache):
     k = f"{p}|{st.st_size}|{int(st.st_mtime)}"
@@ -222,14 +240,16 @@ def sha_cached(p, st, cache):
     with open(CACHE, "a") as f: f.write(json.dumps({"k": k, "sha256": cache[k]}) + "\n")
     return cache[k]
 
-def classify(p, c, trk, refs, slug):
+def classify(p, c, trk, refs, path_refs, have, slug):
     parts = Path(p).parts; name = Path(p).name
     if slug and not any(slug in x for x in parts): return "out-of-scope"
-    if any(fnmatch.fnmatch(x, pat) for x in parts for pat in c["active"]): return "active job / protected tree"
+    if is_active_path(p, c): return "active job / protected tree"
     if p in trk: return "git-tracked (lives in the repo)"
     if Path(p).suffix.lower() not in MEDIA: return "record, not media (kept by rule)"
     if any(fnmatch.fnmatch(name.lower(), pat) for pat in c["keep_names"]): return "kept by name rule (review copy/licence/package/metadata)"
-    if name in refs: return "referenced by an active job"
+    ap = os.path.abspath(p)
+    if ap in path_refs: return "referenced by an active job (exact path)"
+    if name in refs and name not in have: return "referenced by an active job"
     return None
 
 def log(row):
@@ -242,7 +262,7 @@ def main():
     a = ap.parse_args()
     os.nice(10); OUT.mkdir(parents=True, exist_ok=True); c = cfg(); t0 = time.time()
     free0 = os.statvfs("/workspace"); free0 = free0.f_bavail * free0.f_frsize
-    trk, refs = tracked(), active_refs(c)
+    trk = tracked(); refs, path_refs, have = active_refs(c)
     cache = {r["k"]: r["sha256"] for r in jl(CACHE) if "k" in r}
     cand, kept = [], {}
     for root in ROOTS:
@@ -253,7 +273,7 @@ def main():
                 try: st = os.lstat(p)
                 except FileNotFoundError: continue
                 if not os.path.isfile(p) or os.path.islink(p) or st.st_size < MIN_BYTES: continue
-                why = classify(p, c, trk, refs, a.slug)
+                why = classify(p, c, trk, refs, path_refs, have, a.slug)
                 if why == "out-of-scope": continue
                 if not why and time.time() - st.st_mtime < 1800: why = "modified in the last 30 min (may be in use)"
                 if why: kept.setdefault(why, []).append((p, st.st_size)); continue
