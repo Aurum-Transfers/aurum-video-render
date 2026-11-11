@@ -1,20 +1,91 @@
 {
  "note": "Tracking link templates per partner, copied from the live-approved Aruba v6 description (Bali layout). {LANDING} = URL-encoded landing page, {LANDING_RAW} = plain landing, {SUBID} = yt_<videoId>. Public tracking IDs, not secrets.",
  "sections": [
-  {"heading": "AIRPORT TRANSFERS", "partners": ["kiwitaxi", "welcome-pickups"]},
-  {"heading": "eSIM / DATA", "partners": ["airalo"]},
-  {"heading": "HOTELS", "partners": ["expedia"]},
-  {"heading": "CAR RENTAL", "partners": ["discovercars"]},
-  {"heading": "TOURS & ACTIVITIES", "partners": ["viator"]},
-  {"heading": "FLIGHTS", "partners": ["trip-flights"]}
+  {
+   "heading": "AIRPORT TRANSFERS",
+   "partners": [
+    "kiwitaxi",
+    "welcome-pickups"
+   ]
+  },
+  {
+   "heading": "AIRPORT LOUNGES",
+   "partners": [
+    "viplounges"
+   ]
+  },
+  {
+   "heading": "eSIM / DATA",
+   "partners": [
+    "airalo"
+   ]
+  },
+  {
+   "heading": "HOTELS",
+   "partners": [
+    "expedia"
+   ]
+  },
+  {
+   "heading": "CAR RENTAL",
+   "partners": [
+    "discovercars"
+   ]
+  },
+  {
+   "heading": "TOURS & ACTIVITIES",
+   "partners": [
+    "viator"
+   ]
+  },
+  {
+   "heading": "FLIGHTS",
+   "partners": [
+    "trip-flights"
+   ]
+  }
  ],
  "partners": {
-  "kiwitaxi": {"name": "Kiwitaxi", "label": "Kiwitaxi: private car, meet in arrivals.", "template": "https://tp.media/r?campaign_id=1&marker=718397&p=647&sub_id={SUBID}&trs=517621&u={LANDING}"},
-  "welcome-pickups": {"name": "Welcome Pickups", "label": "Welcome Pickups: pre-booked pickup.", "template": "https://tp.media/r?campaign_id=627&marker=718397&p=8919&sub_id={SUBID}&trs=517621&u={LANDING}"},
-  "airalo": {"name": "Airalo", "label": "Airalo: {COUNTRY} eSIM (#ad, affiliate link).", "template": "https://airalo.pxf.io/c/7183298/1268485/15608?subId1={SUBID}&u={LANDING}"},
-  "expedia": {"name": "Expedia", "label": "Expedia: {PLACE} hotels.", "template": "https://tp.media/r?campaign_id=594&marker=718397&p=8645&sub_id={SUBID}&trs=517621&u={LANDING}"},
-  "discovercars": {"name": "DiscoverCars", "label": "DiscoverCars: car rental at {AIRPORT}.", "template": "https://tp.media/r?campaign_id=117&marker=718397&p=3555&sub_id={SUBID}&trs=517621&u={LANDING}"},
-  "viator": {"name": "Viator", "label": "Viator: {PLACE} tours and activities.", "template": "{LANDING_RAW}?pid=P00296548&mcid=42383&medium=link&campaign={SUBID}"},
-  "trip-flights": {"name": "Trip.com", "label": "Trip.com: flights to {PLACE} ({IATA}).", "template": "https://tp.media/r?campaign_id=121&marker=718397&p=8980&sub_id={SUBID}&trs=517621&u={LANDING}"}
+  "kiwitaxi": {
+   "name": "Kiwitaxi",
+   "label": "Kiwitaxi: private car, meet in arrivals.",
+   "template": "https://tp.media/r?campaign_id=1&marker=718397&p=647&sub_id={SUBID}&trs=517621&u={LANDING}"
+  },
+  "welcome-pickups": {
+   "name": "Welcome Pickups",
+   "label": "Welcome Pickups: pre-booked pickup.",
+   "template": "https://tp.media/r?campaign_id=627&marker=718397&p=8919&sub_id={SUBID}&trs=517621&u={LANDING}"
+  },
+  "airalo": {
+   "name": "Airalo",
+   "label": "Airalo: {COUNTRY} eSIM (#ad, affiliate link).",
+   "template": "https://airalo.pxf.io/c/7183298/1268485/15608?subId1={SUBID}&u={LANDING}"
+  },
+  "expedia": {
+   "name": "Expedia",
+   "label": "Expedia: {PLACE} hotels.",
+   "template": "https://tp.media/r?campaign_id=594&marker=718397&p=8645&sub_id={SUBID}&trs=517621&u={LANDING}"
+  },
+  "discovercars": {
+   "name": "DiscoverCars",
+   "label": "DiscoverCars: car rental at {AIRPORT}.",
+   "template": "https://tp.media/r?campaign_id=117&marker=718397&p=3555&sub_id={SUBID}&trs=517621&u={LANDING}"
+  },
+  "viator": {
+   "name": "Viator",
+   "label": "Viator: {PLACE} tours and activities.",
+   "template": "{LANDING_RAW}?pid=P00296548&mcid=42383&medium=link&campaign={SUBID}"
+  },
+  "trip-flights": {
+   "name": "Trip.com",
+   "label": "Trip.com: flights to {PLACE} ({IATA}).",
+   "template": "https://tp.media/r?campaign_id=121&marker=718397&p=8980&sub_id={SUBID}&trs=517621&u={LANDING}"
+  },
+  "viplounges": {
+   "name": "VipLounges",
+   "label": "VipLounges: book a VIP lounge at the airport, no membership or credit card required.",
+   "template": "https://clk.viplounges.com/c/7183298/4011017/57075?subId1={SUBID}",
+   "landing": "https://viplounges.com"
+  }
  }
 }
