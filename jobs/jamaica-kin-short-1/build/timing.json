@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-11T05:37:03-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 41.057,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 4.161,
+   "text": "Landing in Kingston? Here are three ways to get to your hotel.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-1/build/tts/s000-572c9eb2b1.wav",
+   "sr": 24000,
+   "speed": 1.054
+  },
+  {
+   "i": 1,
+   "t0": 4.454,
+   "t1": 11.409,
+   "text": "The airport sits on the Palisadoes peninsula beside the harbour, about twenty minutes from downtown Kingston.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-1/build/tts/s001-69a60e863a.wav",
+   "sr": 24000,
+   "speed": 1.013
+  },
+  {
+   "i": 2,
+   "t0": 11.721,
+   "t1": 16.884,
+   "text": "One: a pre-booked private transfer, so your driver is arranged before you land.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-1/build/tts/s002-e2a91a3174.wav",
+   "sr": 24000,
+   "speed": 1.001,
+   "lift": [
+    17.034,
+    18.234
+   ]
+  },
+  {
+   "i": 3,
+   "t0": 18.722,
+   "t1": 26.252,
+   "text": "Two: an approved taxi. The UK advises Jamaican Tourist Board taxis with a blue JTB sticker.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-1/build/tts/s003-11ae6303ec.wav",
+   "sr": 24000,
+   "speed": 0.977
+  },
+  {
+   "i": 4,
+   "t0": 26.557,
+   "t1": 30.291,
+   "text": "Three: a rental car. Jamaica drives on the left.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-1/build/tts/s004-574bd98b52.wav",
+   "sr": 24000,
+   "speed": 1.006
+  },
+  {
+   "i": 5,
+   "t0": 30.604,
+   "t1": 39.457,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-1/build/tts/s005-d36faa54e1.wav",
+   "sr": 24000,
+   "speed": 0.98
+  }
+ ]
+}

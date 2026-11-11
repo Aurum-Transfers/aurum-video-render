@@ -1,0 +1,87 @@
+{
+  "slug": "jamaica-kin-short-1",
+  "title": "Kingston airport: 3 ways to your hotel",
+  "lines": [
+    {
+      "text": "Landing in Kingston? Here are three ways to get to your hotel.",
+      "need": [
+        "approach",
+        "air-arrival",
+        "window-seat"
+      ],
+      "pause": 0.3,
+      "hook": true
+    },
+    {
+      "text": "The airport sits on the Palisadoes peninsula beside the harbour, about twenty minutes from downtown Kingston.",
+      "need": [
+        "palisadoes-aerial",
+        "sea-aerial"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "k002"
+      ]
+    },
+    {
+      "text": "One: a pre-booked private transfer, so your driver is arranged before you land.",
+      "need": [
+        "palisadoes-road",
+        "driving"
+      ],
+      "pause": 0.3,
+      "lift": 1.2,
+      "lower": {
+        "text": "1 · PRIVATE TRANSFER",
+        "sub": "Pre-booked"
+      }
+    },
+    {
+      "text": "Two: an approved taxi. The UK advises Jamaican Tourist Board taxis with a blue JTB sticker.",
+      "need": [
+        "driving",
+        "kingston-street"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "k011"
+      ],
+      "lower": {
+        "text": "2 · APPROVED TAXI",
+        "sub": "Blue JTB sticker"
+      }
+    },
+    {
+      "text": "Three: a rental car. Jamaica drives on the left.",
+      "need": [
+        "driving",
+        "kingston-street"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "f1014"
+      ],
+      "lower": {
+        "text": "3 · RENTAL CAR",
+        "sub": "Drive on the left"
+      }
+    },
+    {
+      "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+      "need": [
+        "kingston-aerial",
+        "driving",
+        "kingston-street"
+      ],
+      "pause": 0.6,
+      "disclosure": true
+    }
+  ],
+  "end_card": {
+    "text": "ENJOY KINGSTON",
+    "lines": [
+      "Compare airport transfers: link in the description",
+      "Subscribe for the next arrival guide"
+    ]
+  }
+}
