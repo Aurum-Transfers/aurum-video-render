@@ -8,6 +8,9 @@ can be waived by a plan flag.
 
     python tools/spec_gates.py --edl build/edl-long.json --licence licence-log.csv \
         [--output out/long-v4.mp4 --freeze] --write out/spec-gates.json
+
+Without --output, pre-render QC measures each shot's exact source window at play_speed
+(per-frame minimum luma, motion at output speed) so it matches post-render thresholds.
 """
 from __future__ import annotations
 
@@ -528,6 +531,143 @@ def evaluate(edl: dict, rows: list[dict], output: dict | None = None, root: Path
     return {"pass": not failed, "failed": failed, "gates": g, "spec": SPEC}
 
 
+def _resolve_shot_path(shot: dict, root: Path | None) -> Path:
+    """Find a shot's source file from a job- or repo-relative path."""
+    raw = Path(shot.get("file") or "")
+    cands = [raw]
+    if root is not None:
+        r = Path(root)
+        cands += [r / raw, r / raw.name, r / "clips" / raw.name]
+        if raw.parts and raw.parts[0] == "clips":
+            cands.append(r / raw)
+        # repo-relative jobs/<job>/clips/... when root is the job folder or the repo
+        cands.append(Path.cwd() / raw)
+        if r.name and raw.parts[:2] == ("jobs", r.name):
+            cands.append(r / Path(*raw.parts[2:]))
+    for c in cands:
+        if c.exists():
+            return c
+    return raw
+
+
+def _load_crops(root: Path | None) -> dict:
+    """clip_id and file-name -> crop string from footage.json, if present."""
+    out = {}
+    if root is None:
+        return out
+    p = Path(root) / "footage.json"
+    if not p.exists():
+        return out
+    lib = resolve_clip_files(json.loads(p.read_text()), root)
+    for c in lib.get("clips") or []:
+        crop = c.get("crop") or ""
+        if not crop:
+            continue
+        if c.get("id"):
+            out[c["id"]] = crop
+        if c.get("file"):
+            out[c["file"]] = crop
+            out[Path(c["file"]).name] = crop
+    return out
+
+
+def _motion_luma_from_stack(blk, fps: int = 6):
+    """Same aggregation measure_shots uses on a rendered program: per-second mean of
+    |frame-diff| * 100/255 at 6 fps, and per-FRAME mean luma (so a short dark flash fails)."""
+    import numpy as np
+    if len(blk) < 3:
+        return None
+    d = np.abs(np.diff(blk, axis=0)).mean(axis=(1, 2)) * 100 / 255
+    per = [float(d[k:k + fps].mean()) for k in range(0, max(1, len(d) - fps + 1), fps)] or [float(d.mean())]
+    ys = blk.mean(axis=(1, 2))
+    h, w = blk.shape[1], blk.shape[2]
+
+    def dh(fr):
+        bh, bw = h // 8, w // 9
+        m = fr[:bh * 8, :bw * 9].reshape(8, bh, 9, bw).mean(axis=(1, 3))
+        return int("".join("1" if x else "0" for x in (m[:, 1:] > m[:, :-1]).flatten()), 2)
+
+    dhs = [dh(blk[min(len(blk) - 1, k + fps // 2)]) for k in range(0, len(blk), fps)]
+    return {
+        "mot_med": round(float(np.median(per)), 3),
+        "mot_min": round(min(per), 3),
+        "y_mean": round(float(ys.mean()), 1),
+        "y_min": round(float(ys.min()), 1),
+        "dh": dhs or [dh(blk[len(blk) // 2])],
+    }
+
+
+def measure_source_window(shot: dict, root: Path | None = None, crops: dict | None = None,
+                          fps: int = 6, w: int = 96, h: int = 54) -> dict | None:
+    """Measure one EDL shot's exact source window at play_speed, matching post-render measure_shots.
+
+    Decodes file_in .. file_in + (t1-t0)*play_speed, applies the clip crop and setpts speed,
+    samples 96x54 gray at 6 fps of *output* time, skips the first and last frame (cut frames),
+    then uses the same mot_med / mot_min / y_mean / y_min aggregation as a rendered program.
+    y_min is the darkest sampled frame's mean luma, so a 0.3 s black flash fails.
+    """
+    import numpy as np
+    if shot.get("kind") not in FOOTAGE_KINDS:
+        return None
+    path = _resolve_shot_path(shot, root)
+    if not path.exists():
+        return None
+    sp = float(shot.get("play_speed") or 1.0) or 1.0
+    dur = float(shot["t1"]) - float(shot["t0"])
+    if dur <= 0:
+        return None
+    src_t = dur * sp
+    fin = float(shot.get("file_in") or 0.0)
+    crop = ""
+    if crops:
+        crop = crops.get(shot.get("clip_id")) or crops.get(shot.get("file")) or crops.get(Path(shot.get("file") or "").name) or ""
+    crop = crop or shot.get("crop") or ""
+    vf = ((f"crop={crop}," if crop else "")
+          + f"setpts=(PTS-STARTPTS)/{sp},fps={fps},scale={w}:{h},format=gray")
+    b = subprocess.run(
+        ["ffmpeg", "-loglevel", "error", "-ss", f"{fin:.3f}", "-t", f"{src_t:.3f}",
+         "-i", str(path), "-an", "-vf", vf, "-f", "rawvideo", "-"],
+        capture_output=True,
+    ).stdout
+    if not b:
+        return None
+    a = np.frombuffer(b, np.uint8)
+    n = len(a) // (w * h)
+    if n < 5:
+        return None
+    a = a[:n * w * h].reshape(n, h, w).astype(np.float32)
+    # same cut-frame skip measure_shots uses on a shot starting at t=0
+    i0, i1 = 1, int(np.floor(dur * fps)) - 1
+    blk = a[i0:max(i0, i1)]
+    return _motion_luma_from_stack(blk, fps)
+
+
+def apply_source_window_qc(edl: dict, root: Path | None = None) -> dict:
+    """Write per-shot qc from the exact source window at output speed. Pre-render only.
+
+    Replaces planner-aggregated clipqc second buckets, which used per-second mean luma
+    (missed short dark flashes) and source-timeline motion that did not match the
+    post-render 6 fps / play_speed window. Thresholds in evaluate() are unchanged.
+    """
+    crops = _load_crops(root)
+    info = {"measured": 0, "missing": [], "method": "source-window-output-speed"}
+    for s in edl.get("shots") or []:
+        if s.get("kind") not in FOOTAGE_KINDS:
+            continue
+        qc = measure_source_window(s, root=root, crops=crops)
+        if qc is None:
+            # fail closed: evaluate treats missing mot/y as a gate fail
+            s["qc"] = {"mot_med": None, "mot_min": None, "y_mean": None, "y_min": None, "dh": []}
+            s["qc_method"] = "source-window-output-speed"
+            info["missing"].append({"t0": s.get("t0"), "clip": s.get("clip_id"), "file": s.get("file")})
+            continue
+        s["qc"] = qc
+        s["qc_method"] = "source-window-output-speed"
+        info["measured"] += 1
+    edl["source_window_qc"] = info
+    return info
+
+
 def measure_shots(path: Path, edl: dict, fps: int = 6, w: int = 96, h: int = 54) -> dict:
     """Per-shot motion / luma / dHash measured on the RENDERED file (gates 1-2), keyed by shot t0."""
     import numpy as np
@@ -633,11 +773,18 @@ def main():
     ap.add_argument("--output", type=Path)
     ap.add_argument("--freeze", action="store_true")
     ap.add_argument("--write", type=Path, required=True)
+    ap.add_argument("--source-windows", action="store_true",
+                    help="measure each shot's exact source window at play_speed (default when --output is omitted)")
+    ap.add_argument("--no-source-windows", action="store_true",
+                    help="skip source-window measurement and use whatever qc is already on the EDL")
     a = ap.parse_args()
     edl = json.loads(a.edl.read_text())
     edl_d = json.loads(a.edl.read_text())
     out = measure_output(a.output, a.freeze, edl_d) if a.output else None
-    res = evaluate(edl, read_rows(a.licence), out, root=a.licence.parent)
+    root = a.licence.parent
+    if (out is None and not a.no_source_windows) or a.source_windows:
+        apply_source_window_qc(edl, root=root)
+    res = evaluate(edl, read_rows(a.licence), out, root=root)
     res.update({"edl": str(a.edl), "output": str(a.output) if a.output else None})
     a.write.parent.mkdir(parents=True, exist_ok=True)
     a.write.write_text(json.dumps(res, indent=2) + "\n")

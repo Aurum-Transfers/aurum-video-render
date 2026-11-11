@@ -228,13 +228,14 @@ print(json.dumps(out))
     # ------------------------------------------------------------------ plan
     def plan(self):
         lock = self.wd / "edl-lock.json"
-        if lock.exists() and not os.environ.get("AURUM_REPLAN"):
+        edl = lj(lock) if lock.exists() else None
+        if edl and edl.get("shots") and not os.environ.get("AURUM_REPLAN"):
             # Locked EDL: the cut was planned on the box from longer range files; the release carries only short windows
             # around each used shot (no near-full sources in a public release). Re-run every pre-render gate on it.
-            edl = lj(lock)
             edl["created"] = now()
             edl["gate_exceptions"] = self.spec.get("gate_exceptions", {})
             edl["audio"]["narration"] = str(self.b / "narration.wav")
+            spec_gates.apply_source_window_qc(edl, root=self.wd)
             sj(self.b / "edl-long.json", edl)
             self.licence_log(edl["shots"])
             res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), None, root=self.wd)
@@ -501,6 +502,7 @@ print(json.dumps(out))
                "audio": {"narration": str(self.b / "narration.wav"), "music": "none", "ambient": amb}, "offtag_shots": offtag,
                "banned": bans, "lifts": lifts, "lift_min_count": int(self.spec.get("lift_min_count", 1 if self.portrait else 3)), "needs_footage": exhausted,
                "scope": self.spec.get("scope", "full"), "narration_stt": lj(self.b / "stt-check.json", {}).get("full_lines")}
+        spec_gates.apply_source_window_qc(edl, root=self.wd)
         sj(self.b / "edl-long.json", edl)
         self.licence_log(shots)
         res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), None, root=self.wd)
