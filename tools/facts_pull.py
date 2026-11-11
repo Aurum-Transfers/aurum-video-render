@@ -74,6 +74,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("dest"); ap.add_argument("--iata", required=True); ap.add_argument("--airport", required=True)
     ap.add_argument("--place", default=""); ap.add_argument("--out", required=True); ap.add_argument("--books-root", action="append")
+    ap.add_argument("--include", action="append", default=[], help="verified facts file merged whole (e.g. the job's earlier facts.json)")
+    ap.add_argument("--cited", help="script.json: every fact id it cites is kept (if found in any source)")
     a = ap.parse_args()
     book, used = load_book(a.dest, a.books_root or ROOTS)
     for vf in glob.glob(str(ROOT / "videos/*/facts.json")):
@@ -82,6 +84,13 @@ def main():
             for k, f in d.items():
                 if isinstance(f, dict) and f.get("claim") and k not in book and re.search(re.escape(a.dest.replace("-", " ")), f["claim"] + " " + f.get("source", ""), re.I):
                     book[k] = {**f, "source": f"{vf} (earlier verified pick)"}
+    inc = {}
+    for f in a.include:
+        d = json.loads(Path(f).read_text()) if Path(f).is_file() else {}
+        for k, v in (d.items() if isinstance(d, dict) else []):
+            if isinstance(v, dict) and v.get("claim"):
+                inc[k] = {**v, "source": v.get("source") or f"{f} (verified earlier)"}
+    book = {**book, **inc}
     if not book:
         print(json.dumps({"error": f"no fact database for '{a.dest}' on the box", "looked_in": a.books_root or ROOTS})); return 2
     airport_re = re.compile(rf"{re.escape(a.airport)}|\b{re.escape(a.iata)}\b", re.I)
@@ -98,7 +107,16 @@ def main():
         pick[fid] = {**f, "topics": hit + (["this_airport"] if on_airport else [])}
         for t in hit:
             by_topic[t].append(fid)
-    gaps = [t for t, ids in by_topic.items() if not ids]
+    pick.update({k: {**v, "topics": ["included"]} for k, v in inc.items()})
+    missing_cited = []
+    if a.cited and Path(a.cited).is_file():
+        for ln in json.loads(Path(a.cited).read_text()).get("lines", []):
+            for fid in ln.get("facts") or []:
+                if fid in book:
+                    pick.setdefault(fid, {**book[fid], "topics": ["cited"]})
+                elif fid not in missing_cited:
+                    missing_cited.append(fid)
+    gaps = [t for t, ids in by_topic.items() if not ids] + ([f"cited ids not in the database: {missing_cited}"] if missing_cited else [])
     if not any(airport_re.search(book[i]["claim"]) for i in pick):
         gaps.insert(0, "this_airport (no fact names the airport or its IATA code)")
     out = Path(a.out)

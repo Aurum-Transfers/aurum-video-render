@@ -16,6 +16,10 @@ state file records every result, so a re-run after an interruption resumes at th
   plan     title_runner plan -> lock_release.py -> plan again on the locked EDL (all pre-render gates) + contact sheet
   render   commit job inputs (no footage) -> release <job>-ranges (range windows + licence-log only) -> dispatch
            render-preview.yml -> tools/ci/watch_and_fetch.sh (download artifact, verify master sha256 vs checks.json)
+  shorts   3 true 9:16 Shorts from script.json "shorts" (AI writes their lines): one jobs/<job>-short-<k>/ each, sharing
+           the long's release windows (hard links, no new downloads); tts+stt -> plan -> portrait_reframe.py (crop + pan
+           on the subject) -> locked EDL -> gates incl. portrait_shots_reframed -> GH render of the Remotion 1080x1920
+           "Short" path -> portrait_no_letterbox_or_blur_pad gate on the output (CI qa). One render at a time.
   package  package_video.py: video.json in the live Bali layout, SRT, thumbnail, partner landing check
   handoff  READY_TO_PUBLISH.json + publish-queue.jsonl line for the publishing worker (this tool never uploads)
   archive  after the publishing worker's result.json is ok: stage master/project/licences for D: (arch_stage.py),
@@ -42,7 +46,7 @@ GATE = "/workspace/ops/scripts/gate.py"; BOT = "aurum-reels"
 REPO = "Aurum-Transfers/aurum-video-render"
 TTS_PY = "/workspace/work/aruba-full-v2/pc-src/.venv/bin/python"
 HANDOFF = Path("/workspace/handoff/aurum-youtube")
-STAGES = ["inputs", "footage", "tts", "plan", "render", "package", "handoff", "archive"]
+STAGES = ["inputs", "footage", "tts", "plan", "render", "shorts", "package", "handoff", "archive"]
 OK, FAILED, NEEDS_AI, NEEDS_REVIEW, WAITING = 0, 1, 3, 4, 5
 NAMES = {0: "OK", 1: "FAILED", 3: "NEEDS_AI", 4: "NEEDS_REVIEW", 5: "WAITING"}
 
@@ -129,7 +133,8 @@ class Job:
             return None
         out = (self.scratch if self.dry else self.wd) / "facts.json"
         r = run(["python3", HERE / "facts_pull.py", db["dest"], "--iata", db["iata"], "--airport", db["airport"], "--place", db.get("place", ""),
-                 "--out", out])
+                 "--out", out, "--cited", self.wd / "script.json"]
+                + (["--include", ROOT / self.spec["facts"]] if (ROOT / self.spec.get("facts", "__none__")).is_file() else []))
         if r.returncode == 2:
             raise Stop(NEEDS_REVIEW, f"no fact database for {db['dest']} on the box: CopyToBox the book's export/place.json from the PC "
                                      f"(C:\\Users\\MHB53\\gb-{db['dest']}\\books\\{db['dest']}\\export\\place.json) into "
@@ -270,7 +275,17 @@ class Job:
             if not res["pass"]:
                 raise Stop(NEEDS_REVIEW, "pre-render gates fail on the locked EDL", failed=res["failed"])
             return {"locked": True, "gates_pass": True, "gates": len(res["gates"]), "shots": len(lock["shots"]), "duration_s": lock["duration_s"]}
-        if not lock:
+        if not lock and self.spec.get("portrait"):
+            # Short: plan on the long's release windows, then subject-tracking reframe; the windows are already short
+            # release cuts, so the planned EDL itself is locked (no lock_release re-cut).
+            self.heavy("plan(short)", ["python3", HERE / "title_runner.py", f"jobs/{self.name}", "plan"])
+            pre = lj(self.wd / "out/scorecard-pre-render.json", {})
+            other = [g for g in (pre.get("failed") or []) if g != "portrait_shots_reframed"]
+            if other:
+                raise Stop(NEEDS_REVIEW, "short plan fails gates", failed=other)
+            self.heavy("reframe", ["python3", HERE / "portrait_reframe.py", f"jobs/{self.name}", self.wd / "build/edl-long.json",
+                                   self.wd / "edl-lock.json"])
+        elif not lock:
             self.heavy("plan", ["python3", HERE / "title_runner.py", f"jobs/{self.name}", "plan"])
             pre = lj(self.wd / "out/scorecard-pre-render.json", {})
             gaps = (lj(self.wd / "build/needs-footage.json", {}) or {}).get("gaps")
@@ -339,10 +354,13 @@ class Job:
                 return self.s_render(False)
             raise Stop(WAITING, f"render run {st['run_id']} in progress; watcher writes {log}")
         self.commit_inputs()
-        if run(["gh", "release", "view", tag, "-R", REPO]).returncode:
+        if self.spec.get("release_shared"):  # Short: the long's release already holds every window it uses
+            pass
+        elif run(["gh", "release", "view", tag, "-R", REPO]).returncode:
             run(["gh", "release", "create", tag, "-R", REPO, "--title", f"{self.name} range clips", "--notes",
                  "Short CC BY / Pexels range windows around used shots + licence-log only (tools/lock_release.py). No full sources, no renders."], check=True)
-        run(["gh", "release", "upload", tag, "-R", REPO, "--clobber", *files], check=True)
+        if not self.spec.get("release_shared"):
+            run(["gh", "release", "upload", tag, "-R", REPO, "--clobber", *files], check=True)
         t0 = time.time()
         run(["gh", "workflow", "run", "render-preview.yml", "-R", REPO, "-f", f"job={self.name}", "-f", f"release_tag={tag}"], check=True)
         rid = None
@@ -385,6 +403,50 @@ class Job:
         run(["git", "push"], check=True)
         run(["python3", GATE, "release", "--bot", BOT])
 
+    # ------------------------------------------------------------------ 5b shorts
+    def s_shorts(self, watch):
+        sc = lj(self.wd / "script.json"); shorts = sc.get("shorts") or []
+        if len(shorts) < 3 or any(not x.get("lines") for x in shorts[:3]):
+            raise Stop(NEEDS_AI, "script.json needs 'shorts': 3 x {title, hook_text, lines[...]} (30-50 s each, own first-second hook)")
+        tag = self.spec.get("release_tag") or f"{self.name}-ranges"
+        res = {}
+        for k, short in enumerate(shorts[:3], 1):
+            sn = f"{self.name}-short-{k}"; sd = ROOT / "jobs" / sn
+            spec = {**self.spec, "slug": f"{self.slug}-short-{k}", "portrait": True, "output_stem": f"short-{k}", "hook_text": short["hook_text"],
+                    "lift_min_count": 1, "end_card_s": float(short.get("end_card_s", 2.0)), "release_tag": tag, "release_shared": True,
+                    "public_dir": f"jobs/{sn}/build/public", "parent_job": self.name}
+            spec.pop("facts_db", None)
+            if self.dry:
+                res[sn] = {"dry_run": True, "lines": len(short["lines"]), "would": "write job, hard-link windows, tts, plan, reframe, lock, render"}
+                continue
+            sd.mkdir(exist_ok=True); (sd / "clips").mkdir(exist_ok=True)
+            if not (sd / "spec.json").exists():
+                (sd / "spec.json").write_text(json.dumps(spec, indent=1, ensure_ascii=False))
+                (sd / "script.json").write_text(json.dumps({"slug": spec["slug"], "title": short.get("title", ""), "lines": short["lines"],
+                                                            "end_card": short.get("end_card", sc.get("end_card"))}, indent=1, ensure_ascii=False))
+                lib = lj(self.wd / "footage.json"); lib["job"] = sn
+                (sd / "footage.json").write_text(json.dumps(lib, indent=1, ensure_ascii=False))
+                shutil.copy(self.wd / "licence-log.csv", sd / "licence-log.csv")
+                pub = self.wd / "build/public"
+                if pub.exists() and not (sd / "build/public").exists():
+                    shutil.copytree(pub, sd / "build/public", copy_function=os.link)
+            for c in lj(sd / "footage.json")["clips"]:  # hard links: no extra disk, no downloads
+                dst = sd / c["file"]
+                if not dst.exists() and (self.wd / c["file"]).exists():
+                    os.link(self.wd / c["file"], dst)
+            sub = Job(sn, False); sub.args = self.args
+            for st in ("tts", "plan", "render"):
+                if sub.state["stages"].get(st, {}).get("status") == "done" and st != "render":
+                    continue
+                try:
+                    info = getattr(sub, f"s_{st}")(watch) if st == "render" else getattr(sub, f"s_{st}")()
+                    sub.note(st, status="done", info=info)
+                except Stop as e:
+                    sub.note(st, status=NAMES[e.code].lower(), message=e.msg, detail=e.kw)
+                    raise Stop(e.code, f"{sn}: {e.msg}", **e.kw)
+            res[sn] = sub.state["stages"]["render"]["info"]
+        return res
+
     # ------------------------------------------------------------------ 6 package
     def s_package(self):
         r = self.state["stages"].get("render", {}).get("info") or {}
@@ -420,7 +482,9 @@ class Job:
         mk = {"slug": self.slug, "job": self.name, "created": now(), "video_json": str(vj), "master": r["master"], "sha256": r["sha256"],
               "duration_s": r.get("duration_s"), "qa_pass": True, "review_copy": r.get("review"),
               "publish": "publishing worker: publish_long.py <video_json> --mode public|schedule (3 days after the previous slot)",
-              "shorts": "3 x 9:16 portrait Shorts via OpusClip to all connected socials; no overlap with the next long video slot",
+              "shorts": {k: {"master": v.get("master"), "sha256": v.get("sha256")} for k, v in
+                         ((self.state["stages"].get("shorts") or {}).get("info") or {}).items() if isinstance(v, dict)},
+              "shorts_note": "true 9:16 renders (portrait gate passed); schedule via OpusClip to all connected socials, no overlap with the next long slot",
               "by": "tools/make_destination.py"}
         (self.vdir / "READY_TO_PUBLISH.json").write_text(json.dumps(mk, indent=1))
         if not self.dry:
@@ -482,7 +546,10 @@ class Job:
 
     # ------------------------------------------------------------------ driver
     def go(self, args):
-        self.args = args
+        self.args = args; self.pending = []
+        if args.facts_db:
+            d, i, ap_, pl = (args.facts_db.split(":") + ["", "", "", ""])[:4]
+            self.spec["facts_db"] = {"dest": d, "iata": i, "airport": ap_, "place": pl}
         order = STAGES[STAGES.index(args.from_stage):] if args.from_stage else STAGES
         if args.only:
             order = [args.only]
@@ -492,15 +559,17 @@ class Job:
                 print(json.dumps({"stage": s, "status": "done (state)"})); continue
             try:
                 fn = getattr(self, f"s_{s}")
-                info = fn(args.watch) if s == "render" else fn(args.delete_card) if s == "archive" else fn()
+                info = fn(args.watch) if s in ("render", "shorts") else fn(args.delete_card) if s == "archive" else fn()
                 self.note(s, status="done", info=info)
                 print(json.dumps({"stage": s, "status": "dry-run ok" if self.dry else "done", "info": info}, ensure_ascii=False, default=str))
             except Stop as e:
                 self.note(s, status=NAMES[e.code].lower(), message=e.msg, detail=e.kw)
                 print(json.dumps({"stage": s, "status": NAMES[e.code], "message": e.msg, **e.kw}, ensure_ascii=False, default=str))
-                if self.dry and e.code == NEEDS_AI and s == "package":
-                    continue  # dry run: report and keep proving the rest of the chain
+                if self.dry and e.code == NEEDS_AI and s in ("package", "shorts"):
+                    self.pending.append(s); continue  # dry run: report and keep proving the rest of the chain
                 return e.code
+        if self.pending:
+            print(json.dumps({"dry_run_pending_ai_inputs": self.pending}))
         return OK
 
 
@@ -511,6 +580,7 @@ def main():
     ap.add_argument("--watch", action="store_true", help="block on the render (gh run watch) instead of a background watcher")
     ap.add_argument("--delete-card", help="approval card for deleting box copies after a verified D: archive (gate.py db-delete)")
     ap.add_argument("--package-input", help="JSON with package/links/official_sites to use when script.json/facts.json lack them (tests)")
+    ap.add_argument("--facts-db", help="dest:IATA:airport:place override for spec facts_db (e.g. jamaica:MBJ:Sangster:Montego Bay)")
     a = ap.parse_args()
     j = Job(a.job, a.dry_run)
     code = j.go(a)
