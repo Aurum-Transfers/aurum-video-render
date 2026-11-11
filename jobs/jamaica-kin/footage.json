@@ -1,0 +1,927 @@
+{
+ "schema": "aurum-footage-v6",
+ "slug": "jamaica-kin",
+ "job": "jamaica-kin",
+ "notes": "Jamaica KIN (Norman Manley) cut. All sources CC BY, watch pages read 2026-11-10 (pool/jamaica-kin/licence). Landing: 8tevGZVbe88 window seat only (burned-in welcome text after src 347 s excluded; vlogger-face parts excluded). Rejected: BM1bq5TVu9g (faces), ivncWk0Geos (New Zealand), XFePOXM2FQA (Canada), mcHR2_t06Mk (Devon UK), flight-sim uploads.",
+ "clips": [
+  {
+   "id": "kin_descent_1",
+   "parent": "kin_descent_1",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350.mp4",
+   "f0": 2.5,
+   "f1": 18.25,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Descent towards Kingston, window seat",
+   "subject": "kin-descent-1"
+  },
+  {
+   "id": "kin_descent_2",
+   "parent": "kin_descent_2",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350.mp4",
+   "f0": 18.75,
+   "f1": 34.0,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Descent towards Kingston, window seat",
+   "subject": "kin-descent-2"
+  },
+  {
+   "id": "kin_approach_hills",
+   "parent": "kin_approach_hills",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350.mp4",
+   "f0": 40.0,
+   "f1": 58.3,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.25,
+   "tags": [
+    "landing",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Approach over St Andrew hills",
+   "subject": "kin-approach-hills"
+  },
+  {
+   "id": "kin_approach_sea",
+   "parent": "kin_approach_sea",
+   "video_id": "8tevGZVbe88",
+   "creator": "Love Charmzworld",
+   "url": "https://www.youtube.com/watch?v=8tevGZVbe88",
+   "title": "Traveling to Jamaica during covid-19 part 2 (Norman Manley International) 2021",
+   "file": "clips/8tevGZVbe88_283-350.mp4",
+   "f0": 58.6,
+   "f1": 64.6,
+   "src_base": 283.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "landing",
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Final approach over Kingston Harbour to Norman Manley",
+   "subject": "kin-harbour-approach"
+  },
+  {
+   "id": "kin_terminal_drive",
+   "parent": "kin_terminal_drive",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1640-1765.mp4",
+   "f0": 22.0,
+   "f1": 53.0,
+   "src_base": 1640.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-terminal",
+    "airport-curb",
+    "road-to-airport"
+   ],
+   "shows": [
+    "airport-terminal",
+    "airport-curb",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Arriving at the Norman Manley terminal",
+   "subject": "kin-terminal-front"
+  },
+  {
+   "id": "kin_curb_1",
+   "parent": "kin_curb_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1640-1765.mp4",
+   "f0": 54.0,
+   "f1": 89.0,
+   "src_base": 1640.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "shows": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Norman Manley terminal curb",
+   "subject": "kin-curb-1"
+  },
+  {
+   "id": "kin_curb_2",
+   "parent": "kin_curb_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1640-1765.mp4",
+   "f0": 89.5,
+   "f1": 124.0,
+   "src_base": 1640.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "shows": [
+    "airport-curb",
+    "airport-terminal"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Norman Manley terminal curb",
+   "subject": "kin-curb-2"
+  },
+  {
+   "id": "kin_roundabout",
+   "parent": "kin_roundabout",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 0.3,
+   "f1": 24.0,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Harbour View roundabout, Kingston",
+   "subject": "harbour-view-roundabout"
+  },
+  {
+   "id": "palisadoes_road_a_1",
+   "parent": "palisadoes_road_a_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 30.0,
+   "f1": 67.38,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-1"
+  },
+  {
+   "id": "palisadoes_road_a_2",
+   "parent": "palisadoes_road_a_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 67.88,
+   "f1": 104.75,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-2"
+  },
+  {
+   "id": "palisadoes_road_a_3",
+   "parent": "palisadoes_road_a_3",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 105.25,
+   "f1": 142.12,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-3"
+  },
+  {
+   "id": "palisadoes_road_a_4",
+   "parent": "palisadoes_road_a_4",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1200-1380.mp4",
+   "f0": 142.62,
+   "f1": 179.5,
+   "src_base": 1200.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road",
+   "subject": "palisadoes-road-a-4"
+  },
+  {
+   "id": "palisadoes_road_b_1",
+   "parent": "palisadoes_road_b_1",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 0.3,
+   "f1": 40.1,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-1"
+  },
+  {
+   "id": "palisadoes_road_b_2",
+   "parent": "palisadoes_road_b_2",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 40.6,
+   "f1": 79.9,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-2"
+  },
+  {
+   "id": "palisadoes_road_b_3",
+   "parent": "palisadoes_road_b_3",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 80.4,
+   "f1": 119.7,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-3"
+  },
+  {
+   "id": "palisadoes_road_b_4",
+   "parent": "palisadoes_road_b_4",
+   "video_id": "B8Fo1ZQz8ec",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=B8Fo1ZQz8ec",
+   "title": "Kingston, Jamaica: Driving from Barbican Road to Norman Manley International Airport",
+   "file": "clips/B8Fo1ZQz8ec_1400-1560.mp4",
+   "f0": 120.2,
+   "f1": 159.5,
+   "src_base": 1400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "shows": [
+    "palisadoes-road",
+    "driving",
+    "road-to-airport"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes road towards the airport",
+   "subject": "palisadoes-road-b-4"
+  },
+  {
+   "id": "kgn_drive_vineyard_1",
+   "parent": "kgn_drive_vineyard_1",
+   "video_id": "P-AbmWV49TU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+   "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+   "file": "clips/P-AbmWV49TU_60-200.mp4",
+   "f0": 0.3,
+   "f1": 46.7,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Vineyard Town to Mona Road, Kingston",
+   "subject": "vineyard-town-1"
+  },
+  {
+   "id": "kgn_drive_vineyard_2",
+   "parent": "kgn_drive_vineyard_2",
+   "video_id": "P-AbmWV49TU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+   "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+   "file": "clips/P-AbmWV49TU_60-200.mp4",
+   "f0": 47.2,
+   "f1": 93.1,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Vineyard Town to Mona Road, Kingston",
+   "subject": "vineyard-town-2"
+  },
+  {
+   "id": "kgn_drive_vineyard_3",
+   "parent": "kgn_drive_vineyard_3",
+   "video_id": "P-AbmWV49TU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=P-AbmWV49TU",
+   "title": "Kingston, Jamaica: Driving from Vineyard Town to Mona Road",
+   "file": "clips/P-AbmWV49TU_60-200.mp4",
+   "f0": 93.6,
+   "f1": 139.5,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "kingston-street"
+   ],
+   "shows": [
+    "driving",
+    "kingston-street"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Vineyard Town to Mona Road, Kingston",
+   "subject": "vineyard-town-3"
+  },
+  {
+   "id": "palisadoes_beach_aerial_1",
+   "parent": "palisadoes_beach_aerial_1",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_100-170.mp4",
+   "f0": 0.3,
+   "f1": 34.9,
+   "src_base": 100.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes beach aerial",
+   "subject": "palisadoes-beach-aerial-1"
+  },
+  {
+   "id": "palisadoes_beach_aerial_2",
+   "parent": "palisadoes_beach_aerial_2",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_100-170.mp4",
+   "f0": 35.4,
+   "f1": 69.5,
+   "src_base": 100.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "palisadoes-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes beach aerial",
+   "subject": "palisadoes-beach-aerial-2"
+  },
+  {
+   "id": "palisadoes_aerial_b",
+   "parent": "palisadoes_aerial_b",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_300-350.mp4",
+   "f0": 0.3,
+   "f1": 49.5,
+   "src_base": 300.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "palisadoes-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "palisadoes-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Palisadoes and harbour aerial",
+   "subject": "palisadoes-aerial-b"
+  },
+  {
+   "id": "port_royal_aerial_1",
+   "parent": "port_royal_aerial_1",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_415-560.mp4",
+   "f0": 0.3,
+   "f1": 48.37,
+   "src_base": 415.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "port-royal-aerial",
+    "palisadoes-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "port-royal-aerial",
+    "palisadoes-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-1"
+  },
+  {
+   "id": "port_royal_aerial_2",
+   "parent": "port_royal_aerial_2",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_415-560.mp4",
+   "f0": 48.87,
+   "f1": 96.43,
+   "src_base": 415.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "port-royal-aerial",
+    "palisadoes-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "port-royal-aerial",
+    "palisadoes-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-2"
+  },
+  {
+   "id": "port_royal_aerial_3",
+   "parent": "port_royal_aerial_3",
+   "video_id": "kth3xDGlYOo",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=kth3xDGlYOo",
+   "title": "Port Royal Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/kth3xDGlYOo_415-560.mp4",
+   "f0": 96.93,
+   "f1": 144.5,
+   "src_base": 415.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "port-royal-aerial",
+    "palisadoes-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "port-royal-aerial",
+    "palisadoes-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Port Royal from the air",
+   "subject": "port-royal-3"
+  },
+  {
+   "id": "south_coast_sea_b_1",
+   "parent": "south_coast_sea_b_1",
+   "video_id": "6VvXOLRNFzA",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=6VvXOLRNFzA",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/6VvXOLRNFzA_300-460.mp4",
+   "f0": 0.3,
+   "f1": 79.9,
+   "src_base": 300.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "South coast aerial, St Catherine",
+   "subject": "south-coast-sea-b-1"
+  },
+  {
+   "id": "south_coast_sea_b_2",
+   "parent": "south_coast_sea_b_2",
+   "video_id": "6VvXOLRNFzA",
+   "creator": "Spicy_FPV_Jamaica",
+   "url": "https://www.youtube.com/watch?v=6VvXOLRNFzA",
+   "title": "Hellshire Beach flyover with a DJI Phantom 3 Standard",
+   "file": "clips/6VvXOLRNFzA_300-460.mp4",
+   "f0": 80.4,
+   "f1": 159.5,
+   "src_base": 300.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "South coast aerial, St Catherine",
+   "subject": "south-coast-sea-b-2"
+  },
+  {
+   "id": "kgn_aerial_a_1",
+   "parent": "kgn_aerial_a_1",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_0-120.mp4",
+   "f0": 0.3,
+   "f1": 40.03,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Upper St Andrew, Kingston, from the air",
+   "subject": "st-andrew-aerial-a-1"
+  },
+  {
+   "id": "kgn_aerial_a_2",
+   "parent": "kgn_aerial_a_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_0-120.mp4",
+   "f0": 40.53,
+   "f1": 79.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Upper St Andrew, Kingston, from the air",
+   "subject": "st-andrew-aerial-a-2"
+  },
+  {
+   "id": "kgn_aerial_a_3",
+   "parent": "kgn_aerial_a_3",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_0-120.mp4",
+   "f0": 80.27,
+   "f1": 119.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Upper St Andrew, Kingston, from the air",
+   "subject": "st-andrew-aerial-a-3"
+  },
+  {
+   "id": "kgn_aerial_b_1",
+   "parent": "kgn_aerial_b_1",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_150-250.mp4",
+   "f0": 0.3,
+   "f1": 49.9,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston from the air",
+   "subject": "st-andrew-aerial-b-1"
+  },
+  {
+   "id": "kgn_aerial_b_2",
+   "parent": "kgn_aerial_b_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_150-250.mp4",
+   "f0": 50.4,
+   "f1": 99.5,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston from the air",
+   "subject": "st-andrew-aerial-b-2"
+  },
+  {
+   "id": "kgn_aerial_c_1",
+   "parent": "kgn_aerial_c_1",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_290-380.mp4",
+   "f0": 0.3,
+   "f1": 44.9,
+   "src_base": 290.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston hills from the air",
+   "subject": "st-andrew-aerial-c-1"
+  },
+  {
+   "id": "kgn_aerial_c_2",
+   "parent": "kgn_aerial_c_2",
+   "video_id": "12BhNaqKtPg",
+   "creator": "Joeka Productions",
+   "url": "https://www.youtube.com/watch?v=12BhNaqKtPg",
+   "title": "DJI FPV Drone Diaries: Exploring Lush Upper St. Andrew, Kingston Jamaica",
+   "file": "clips/12BhNaqKtPg_290-380.mp4",
+   "f0": 45.4,
+   "f1": 89.5,
+   "src_base": 290.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "kingston-aerial"
+   ],
+   "shows": [
+    "kingston-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Kingston hills from the air",
+   "subject": "st-andrew-aerial-c-2"
+  }
+ ],
+ "banned": [],
+ "scarce": [
+  "approach",
+  "coast-approach",
+  "air-arrival",
+  "airport-curb",
+  "airport-terminal",
+  "port-royal-aerial"
+ ]
+}
