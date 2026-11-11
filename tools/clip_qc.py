@@ -76,7 +76,7 @@ for c in lib["clips"]:
     # each frame difference spans 1/6 s of screen time (lag = play_speed frames at 6 fps). Measuring them at 1x
     # under-reported their on-screen motion and rejected every second. 1x clips are measured exactly as before.
     ps = float(c.get("play_speed") or 1.0); lag = max(1, int(round(ps))) if ps > 1 else 1
-    key = hashlib.md5((f"v4|{c['file']}|{c['f0']}|{c['f1']}|{crop}" + (f"|lag{lag}" if lag > 1 else "")).encode()).hexdigest()[:12]
+    key = hashlib.md5((f"v4|{c['file']}|{c['f0']}|{c['f1']}|{crop}" + (f"|lag{lag}" if lag > 1 else "") + ("|aud" if c.get("audio") else "")).encode()).hexdigest()[:12]
     if cache.get(c["id"], {}).get("key") == key:
         res[c["id"]] = cache[c["id"]]; continue
     vf = (f"crop={crop}," if crop else "") + f"fps={FPS},scale={W}:{H},format=gray"

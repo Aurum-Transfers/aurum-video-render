@@ -281,8 +281,12 @@ print(json.dumps(out))
 
         def clip_quality_ok(c):
             v = qual.get(c["id"]) or qual.get(c.get("parent")) or {}
+            ex = self.spec.get("gate_exceptions", {})
+            floor = G["sharp_lap_min"]
+            if str(c["id"]).startswith(tuple(ex.get("sharp_exempt_clips", []))) and ex.get("sharp_exempt_clips"):
+                floor = float(ex.get("sharp_exempt_lap_min", 15.0))  # documented per-job exception (spec.json)
             return ((v.get("eff_h") or 0) >= G["src_height_min"] and (v.get("src_fps") or 0) >= G["src_fps_min"]
-                    and (v.get("lap_med") or 0) >= G["sharp_lap_min"])
+                    and (v.get("lap_med") or 0) >= floor)
 
         def range_scenes(c, fin, fout):
             m = scenes.get(c["file"], {})
@@ -339,6 +343,9 @@ print(json.dumps(out))
             for av in (avoid, None):
                 pool = []
                 for c in clips:
+                    if os.environ.get("AURUM_PLAN_DEBUG") == c["id"] and set(c.get("shows") or []) & set(need):
+                        print("DBG cand", c["id"], "q", clip_quality_ok(c), "par", par_n[c.get("parent", c["id"])], "vid", vid_n[c["video_id"]],
+                              "closed", (c.get("subject") or c["id"]) in closed_subjects, "banned", c["id"] in banned_ids, file=sys.stderr)
                     if c["id"] in banned_ids or c.get("parent") in banned_ids or not (set(c.get("shows") or []) & set(need)):
                         continue
                     if not audio_only and c["id"] in reserve:
@@ -636,20 +643,13 @@ print(json.dumps(out))
         print(json.dumps({"base": str(self.b / f"base-{tag}.mp4"), "dur": dur_of(self.b / f"base-{tag}.mp4"), "edl_dur": edl["duration_s"]}))
 
     def mix(self, tag="hd"):
-        """Narration + ambient (sidechain-ducked under the voice, up in the breaths), two-pass loudnorm to -14 LUFS / TP -1.5."""
+        """Narration + natural sound, level-targeted (tools/audio_mix.py, v8): ambient -16 dB under the voice, +6 dB in the
+        breaths, each planned lift gained to about -24 dBFS in the final mix and verified after two-pass loudnorm (-14 LUFS / TP -1.5).
+        Replaces the fixed sidechaincompress mix that left the MBJ v6 lifts at -33 dBFS and the ambient only 6 dB under the voice."""
+        import audio_mix
         edl = lj(self.b / "edl-long.json")
-        raw = self.b / f"mix-raw-{tag}.wav"
-        total = edl["duration_s"]
-        sh(["ffmpeg", "-loglevel", "error", "-y", "-i", str(self.b / "narration.wav"), "-i", str(self.b / f"ambient-{tag}.wav"), "-filter_complex",
-            f"[0:a]apad=whole_dur={total:.3f},atrim=0:{total:.3f},asplit=2[n1][n2];[1:a]volume={float(self.spec.get('ambient_gain', 0.9)):.2f},atrim=0:{total:.3f}[amb];"
-            "[amb][n1]sidechaincompress=threshold=0.04:ratio=3:attack=40:release=350:makeup=1[ambd0];[ambd0]asplit=2[ambd][ambw];"
-            "[n2][ambd]amix=inputs=2:normalize=0:duration=first[m]", "-map", "[m]", "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", str(raw),
-            "-map", "[ambw]", "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", str(self.b / f"ambd-{tag}.wav")])
-        r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(raw), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], capture_output=True, text=True)
-        st = json.loads(re.findall(r"\{[^{}]*\"input_i\"[^{}]*\}", r.stderr, re.S)[-1])
-        af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={st['input_i']}:measured_TP={st['input_tp']}:measured_LRA={st['input_lra']}"
-              f":measured_thresh={st['input_thresh']}:offset={st['target_offset']}:linear=true")
-        sh(["ffmpeg", "-loglevel", "error", "-y", "-i", str(raw), "-af", af, "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", str(self.b / f"mix-{tag}.wav")])
+        audio_mix.mix(self.b / "narration.wav", self.b / f"ambient-{tag}.wav", edl, self.b / f"mix-{tag}.wav", self.b / f"ambd-{tag}.wav",
+                      float(self.spec.get("ambient_gain", 0.9)))
 
     # ------------------------------------------------------------------ animatic
     def animatic(self):
