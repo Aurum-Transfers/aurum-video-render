@@ -450,6 +450,9 @@ class Job:
     # ------------------------------------------------------------------ 6 package
     def s_package(self):
         r = self.state["stages"].get("render", {}).get("info") or {}
+        if self.dry and not r.get("master"):
+            self.dry_norender = True
+            return {"dry_run": True, "would_run": "package_video.py after the render (no master yet)"}
         if not r.get("master"):
             raise Stop(FAILED, "render stage has no verified master")
         cmd = ["python3", HERE / "package_video.py", f"jobs/{self.name}", "--master", r["master"], "--checks", r["checks"], "--edl", r["edl"],
@@ -476,6 +479,8 @@ class Job:
 
     # ------------------------------------------------------------------ 7 handoff
     def s_handoff(self):
+        if getattr(self, "dry_norender", False):
+            return {"dry_run": True, "would_write": "READY_TO_PUBLISH.json + publish-queue.jsonl"}
         r = self.state["stages"]["render"]["info"]; vj = self.vdir / "video.json"
         if not vj.exists():
             raise Stop(FAILED, "no video.json from the package stage")
@@ -498,6 +503,8 @@ class Job:
     # ------------------------------------------------------------------ 8 archive
     def s_archive(self, delete_card):
         res = lj(self.vdir / "result.json")
+        if getattr(self, "dry_norender", False):
+            return {"dry_run": True, "would_run": "archive after publish"}
         if self.dry and not res:
             r = self.state["stages"]["render"]["info"]
             return {"dry_run": True, "note": "real run waits for the publishing worker's result.json first",
