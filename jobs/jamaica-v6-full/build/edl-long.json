@@ -1,0 +1,3919 @@
+{
+ "schema": "aurum-edl-v1",
+ "created": "2026-11-10T22:00:56-05:00",
+ "slug": "jamaica-mbj",
+ "title": "Montego Bay Airport (MBJ) Arrival 2026: Transfer, Taxi or Rental Car",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "duration_s": 317.335,
+ "program_end_s": 312.335,
+ "hook_end_s": 13.308,
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 4.9667,
+   "frames": 149,
+   "kind": "clip",
+   "clip_id": "mbj_approach_bay",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-v6-full/clips/gcm2xnh129E_308-322.mp4",
+   "file_in": 2.0,
+   "play_speed": 2.0,
+   "src_in": 310.0,
+   "src_out": 319.933,
+   "tag": "landing,approach,air-arrival,window-seat",
+   "shows": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "qc": {
+    "mot_med": 2.797,
+    "mot_min": 1.076,
+    "y_mean": 139.3,
+    "y_min": 133.9,
+    "dh": [
+     8778610722110194378,
+     12936557875484983882,
+     8261539574983983244,
+     15686956636813943366,
+     17057898107973056681,
+     7843533294968408206,
+     7843550358672279207,
+     13349141807636881811,
+     4058809478162679812,
+     4166895904074261505,
+     7607639011047819457
+    ]
+   },
+   "parent": "mbj_approach_bay",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Final approach over Montego Bay",
+   "subject": "mbj-approach-bay",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 4.9667,
+   "t1": 8.2333,
+   "frames": 98,
+   "kind": "clip",
+   "clip_id": "mbj_touchdown",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-v6-full/clips/gcm2xnh129E_340-354.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.5,
+   "src_in": 340.3,
+   "src_out": 345.2,
+   "tag": "landing,touchdown,runway",
+   "shows": [
+    "touchdown",
+    "runway"
+   ],
+   "qc": {
+    "mot_med": 9.367,
+    "mot_min": 6.25,
+    "y_mean": 140.3,
+    "y_min": 131.8,
+    "dh": [
+     2923914066913791791,
+     4341547513810945548,
+     4332792321369475460,
+     4359685250764593919,
+     3787767873518710527,
+     11270378637978008572
+    ]
+   },
+   "parent": "mbj_touchdown",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Touchdown at Sangster (MBJ)",
+   "subject": "mbj-runway",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 8.2333,
+   "t1": 11.4667,
+   "frames": 97,
+   "kind": "clip",
+   "clip_id": "mbj_touchdown",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-v6-full/clips/gcm2xnh129E_340-354.mp4",
+   "file_in": 7.3,
+   "play_speed": 1.5,
+   "src_in": 347.3,
+   "src_out": 352.15,
+   "tag": "landing,touchdown,runway",
+   "shows": [
+    "touchdown",
+    "runway"
+   ],
+   "qc": {
+    "mot_med": 9.537,
+    "mot_min": 8.103,
+    "y_mean": 151.2,
+    "y_min": 140.4,
+    "dh": [
+     12805018137443477632,
+     13010925698942015480,
+     11277048310124355583,
+     15621303651536590882,
+     14738186481306219440,
+     17072304081151783991
+    ]
+   },
+   "parent": "mbj_touchdown",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Touchdown at Sangster (MBJ)",
+   "subject": "mbj-runway",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 11.4667,
+   "t1": 15.6333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "ocho_beach_walk_3",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-v6-full/clips/TILQzsOE8mg_242-250.mp4",
+   "file_in": 1.6,
+   "play_speed": 1.0,
+   "src_in": 243.6,
+   "src_out": 247.767,
+   "tag": "ocho-beach,beach",
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 1.571,
+    "mot_min": 1.22,
+    "y_mean": 131.2,
+    "y_min": 130.0,
+    "dh": [
+     9169315359911641632,
+     9164529722857620993,
+     9187055422184358949,
+     18371574245292517506,
+     18225210012767156246
+    ]
+   },
+   "parent": "ocho_beach_walk_3",
+   "line": 2,
+   "audio_ok": true,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-3",
+   "handheld": false,
+   "ton_max": 0.116
+  },
+  {
+   "t0": 15.6333,
+   "t1": 19.8,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "mobay_promo_bay",
+   "video_id": "OTRnEh4qUwE",
+   "creator": "Digital Video Concept",
+   "file": "jobs/jamaica-v6-full/clips/OTRnEh4qUwE_0-6.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 0.3,
+   "src_out": 4.467,
+   "tag": "mobay-aerial,resort-aerial",
+   "shows": [
+    "mobay-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 1.675,
+    "mot_min": 1.481,
+    "y_mean": 152.3,
+    "y_min": 132.8,
+    "dh": [
+     2357905669881620963,
+     2357764915145895009,
+     2358046665502783088,
+     9294580195638964336,
+     9294580747525486768
+    ]
+   },
+   "parent": "mobay_promo_bay",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Montego Bay resort aerial",
+   "subject": "mobay-resort-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 19.8,
+   "t1": 23.9667,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "mobay_promo_sea",
+   "video_id": "OTRnEh4qUwE",
+   "creator": "Digital Video Concept",
+   "file": "jobs/jamaica-v6-full/clips/OTRnEh4qUwE_21-33.mp4",
+   "file_in": 2.0,
+   "play_speed": 2.0,
+   "src_in": 23.0,
+   "src_out": 31.333,
+   "tag": "mobay-aerial,sea-aerial,beach-aerial",
+   "shows": [
+    "mobay-aerial",
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.938,
+    "mot_min": 3.686,
+    "y_mean": 144.6,
+    "y_min": 137.8,
+    "dh": [
+     9330586829061006321,
+     9321577430717861012,
+     53746637183914048,
+     10425534774576685184,
+     9932645283320037388,
+     14133184464798434134,
+     16424792707399152491,
+     18156720913673992758,
+     18302189755233484092
+    ]
+   },
+   "parent": "mobay_promo_sea",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Montego Bay coast from the sea",
+   "subject": "mobay-sea-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 23.9667,
+   "t1": 28.1333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "runaway_bay2",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-v6-full/clips/11Z-XBbUst0_76-82.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 76.3,
+   "src_out": 80.467,
+   "tag": "runaway-aerial,resort-aerial,beach-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.557,
+    "mot_min": 5.288,
+    "y_mean": 91.9,
+    "y_min": 89.7,
+    "dh": [
+     14468026532364317293,
+     7695763778350535282,
+     1245470530991990482,
+     76922695852326564,
+     72939165213356410
+    ]
+   },
+   "parent": "runaway_bay2",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Runaway Bay aerials",
+   "subject": "runaway-bay2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 28.1333,
+   "t1": 31.9,
+   "frames": 113,
+   "kind": "clip",
+   "clip_id": "kite_sea",
+   "video_id": "KBAJ8JqdnYM",
+   "creator": "Skip Steuart",
+   "file": "jobs/jamaica-v6-full/clips/KBAJ8JqdnYM_80-90.mp4",
+   "file_in": 0.3,
+   "play_speed": 2.0,
+   "src_in": 80.3,
+   "src_out": 87.833,
+   "tag": "sea-aerial,kite",
+   "shows": [
+    "sea-aerial",
+    "kite"
+   ],
+   "qc": {
+    "mot_med": 2.276,
+    "mot_min": 1.17,
+    "y_mean": 115.3,
+    "y_min": 107.6,
+    "dh": [
+     5507655226050415373,
+     5260239544028955916,
+     7936766544380888871,
+     14855720677604790021,
+     8859707538388540893,
+     17725043334008790493,
+     18281530842339335517,
+     17705070090035919324,
+     18370183090489257452
+    ]
+   },
+   "parent": "kite_sea",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Sea off the north-west coast",
+   "subject": "half-moon-sea",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 31.9,
+   "t1": 35.6667,
+   "frames": 113,
+   "kind": "clip",
+   "clip_id": "portland_aerial_2",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/GBaTswg6mgs_45-56.mp4",
+   "file_in": 1.53,
+   "play_speed": 2.0,
+   "src_in": 46.53,
+   "src_out": 54.063,
+   "tag": "portland-aerial,island-aerial,sea-aerial",
+   "shows": [
+    "portland-aerial",
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 7.474,
+    "mot_min": 3.531,
+    "y_mean": 86.8,
+    "y_min": 79.1,
+    "dh": [
+     13898187780907077654,
+     13898117953320457235,
+     13898126645805782292,
+     9226805204153479280,
+     9226804316164829528,
+     9226949657883687320,
+     9224696723091446185,
+     37283661142907691,
+     37279400556399465
+    ]
+   },
+   "parent": "portland_aerial_2",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Portland coast aerial",
+   "subject": "portland-aerial-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 35.6667,
+   "t1": 39.4333,
+   "frames": 113,
+   "kind": "clip",
+   "clip_id": "rb_bay_d",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/OaDLJ5KtI2Y_3-13.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.5,
+   "src_in": 5.3,
+   "src_out": 10.95,
+   "tag": "sea-aerial,runaway-aerial,island-aerial",
+   "shows": [
+    "sea-aerial",
+    "runaway-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.734,
+    "mot_min": 2.607,
+    "y_mean": 102.5,
+    "y_min": 101.7,
+    "dh": [
+     16195103498128628760,
+     16195103223250594974,
+     16195103214809522854,
+     16195103352250958370,
+     16195103347922240321,
+     16195103211019897105,
+     16195085618160935444
+    ]
+   },
+   "parent": "rb_bay_d",
+   "line": 4,
+   "audio_ok": false,
+   "place": "North coast bay aerial, Runaway Bay",
+   "subject": "rb-bay-d",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 39.4333,
+   "t1": 43.6667,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "mbj_apron",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-v6-full/clips/gcm2xnh129E_530-538.mp4",
+   "file_in": 1.8,
+   "play_speed": 1.0,
+   "src_in": 531.8,
+   "src_out": 536.033,
+   "tag": "apron,airport-terminal,plane-taxi",
+   "shows": [
+    "apron",
+    "airport-terminal",
+    "plane-taxi"
+   ],
+   "qc": {
+    "mot_med": 1.999,
+    "mot_min": 1.075,
+    "y_mean": 142.0,
+    "y_min": 135.6,
+    "dh": [
+     16433382042646070211,
+     17601784191287280595,
+     16719078423269921683,
+     17926040792312574931,
+     17937911685452130801,
+     9006215251442138204
+    ]
+   },
+   "parent": "mbj_apron",
+   "line": 5,
+   "audio_ok": false,
+   "place": "MBJ apron and terminal",
+   "subject": "mbj-apron",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 43.6667,
+   "t1": 48.0667,
+   "frames": 132,
+   "kind": "clip",
+   "clip_id": "mbj_terminal",
+   "video_id": "ygCs26ddDB4",
+   "creator": "AAM Fun Videos",
+   "file": "jobs/jamaica-v6-full/clips/ygCs26ddDB4_28-45.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 28.3,
+   "src_out": 32.7,
+   "tag": "airport-terminal",
+   "shows": [
+    "airport-terminal"
+   ],
+   "qc": {
+    "mot_med": 5.749,
+    "mot_min": 4.042,
+    "y_mean": 130.7,
+    "y_min": 124.4,
+    "dh": [
+     13337478544093416456,
+     11679294172908720909,
+     11773913229766858263,
+     7242658548495451285,
+     13008566742178892953
+    ]
+   },
+   "parent": "mbj_terminal",
+   "line": 6,
+   "audio_ok": false,
+   "place": "Inside Sangster terminal",
+   "subject": "mbj-terminal-hall",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 48.0667,
+   "t1": 52.4333,
+   "frames": 131,
+   "kind": "clip",
+   "clip_id": "mbj_terminal",
+   "video_id": "ygCs26ddDB4",
+   "creator": "AAM Fun Videos",
+   "file": "jobs/jamaica-v6-full/clips/ygCs26ddDB4_28-45.mp4",
+   "file_in": 10.8,
+   "play_speed": 1.0,
+   "src_in": 38.8,
+   "src_out": 43.167,
+   "tag": "airport-terminal",
+   "shows": [
+    "airport-terminal"
+   ],
+   "qc": {
+    "mot_med": 7.635,
+    "mot_min": 2.714,
+    "y_mean": 137.0,
+    "y_min": 128.4,
+    "dh": [
+     8537127764873275151,
+     12137568828718352793,
+     12295850270671949516,
+     12422782148217445401,
+     10424899147578514491,
+     10424898018102778163
+    ]
+   },
+   "parent": "mbj_terminal",
+   "line": 6,
+   "audio_ok": false,
+   "place": "Inside Sangster terminal",
+   "subject": "mbj-terminal-hall",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 52.4333,
+   "t1": 55.5667,
+   "frames": 94,
+   "kind": "clip",
+   "clip_id": "mbj_coast_approach",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-v6-full/clips/gcm2xnh129E_230-242.mp4",
+   "file_in": 0.3,
+   "play_speed": 3.0,
+   "src_in": 230.3,
+   "src_out": 239.7,
+   "tag": "landing,coast-approach,approach,air-arrival,window-seat",
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "qc": {
+    "mot_med": 3.173,
+    "mot_min": 1.602,
+    "y_mean": 136.1,
+    "y_min": 125.6,
+    "dh": [
+     5327753540238711180,
+     14542118309454813596,
+     14543244209052258780,
+     14544370177948096734,
+     14553381777124220030,
+     15706303281756241151,
+     15272777855869435869,
+     15845438700048129949,
+     14687341532224212511,
+     14682555358074949279
+    ]
+   },
+   "parent": "mbj_coast_approach",
+   "line": 7,
+   "audio_ok": false,
+   "place": "Final approach along the St James coast, window seat",
+   "subject": "mbj-coast-approach",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 55.5667,
+   "t1": 58.6667,
+   "frames": 93,
+   "kind": "clip",
+   "clip_id": "portland_coast",
+   "video_id": "A7R4F02ZY68",
+   "creator": "Build With vegas",
+   "file": "jobs/jamaica-v6-full/clips/A7R4F02ZY68_19-28.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.5,
+   "src_in": 21.0,
+   "src_out": 25.65,
+   "tag": "portland-aerial,island-aerial,sea-aerial",
+   "shows": [
+    "portland-aerial",
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.386,
+    "mot_min": 4.715,
+    "y_mean": 114.7,
+    "y_min": 89.6,
+    "dh": [
+     14752910830667477536,
+     15869795293528781666,
+     14725881262384141299,
+     14725740252160651985,
+     14734888189968831699
+    ]
+   },
+   "parent": "portland_coast",
+   "line": 7,
+   "audio_ok": false,
+   "place": "Portland coast aerial",
+   "subject": "portland-coast-b",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 58.6667,
+   "t1": 64.5667,
+   "frames": 177,
+   "kind": "clip",
+   "clip_id": "highway_aerial_2",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/FcYqtBaMXFM_66-76.mp4",
+   "file_in": 2.38,
+   "play_speed": 1.0,
+   "src_in": 68.38,
+   "src_out": 74.28,
+   "tag": "highway-aerial,island-aerial",
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.868,
+    "mot_min": 1.414,
+    "y_mean": 123.1,
+    "y_min": 100.1,
+    "dh": [
+     16623277423608134906,
+     16623134764121749754,
+     16623133799353171254,
+     17969499809838456276,
+     12591977407565446580,
+     12431587936101521636,
+     16473400862264816100
+    ]
+   },
+   "parent": "highway_aerial_2",
+   "line": 8,
+   "audio_ok": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 64.5667,
+   "t1": 70.4667,
+   "frames": 177,
+   "kind": "clip",
+   "clip_id": "rb_coast_a_1",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/Ymw6leiGhXw_152-165.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.5,
+   "src_in": 154.0,
+   "src_out": 162.85,
+   "tag": "runaway-aerial,sea-aerial,island-aerial",
+   "shows": [
+    "runaway-aerial",
+    "sea-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.589,
+    "mot_min": 3.916,
+    "y_mean": 89.8,
+    "y_min": 84.9,
+    "dh": [
+     12785845720186908880,
+     3527005636974932209,
+     3508569026007945297,
+     3634669834091931936,
+     6980704152047642873,
+     16204057978266083424,
+     16204198715729175138,
+     16204198715727078114,
+     16204198715729174626
+    ]
+   },
+   "parent": "rb_coast_a_1",
+   "line": 8,
+   "audio_ok": false,
+   "place": "Runaway Bay coastline aerial",
+   "subject": "rb-coast-a-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 70.4667,
+   "t1": 76.3667,
+   "frames": 177,
+   "kind": "clip",
+   "clip_id": "runaway_coast",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-v6-full/clips/11Z-XBbUst0_12-21.mp4",
+   "file_in": 1.3,
+   "play_speed": 1.0,
+   "src_in": 13.3,
+   "src_out": 19.2,
+   "tag": "coast-road-aerial,island-aerial,runaway-aerial",
+   "shows": [
+    "coast-road-aerial",
+    "island-aerial",
+    "runaway-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.226,
+    "mot_min": 3.695,
+    "y_mean": 112.7,
+    "y_min": 66.7,
+    "dh": [
+     13320664333898768451,
+     11014832336448750536,
+     11014901460193503460,
+     10974292381740889337,
+     11263173789270243892,
+     11298516550220029658,
+     17922536391487016101
+    ]
+   },
+   "parent": "runaway_coast",
+   "line": 9,
+   "audio_ok": false,
+   "place": "Runaway Bay coast aerial",
+   "subject": "runaway-coast",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 76.3667,
+   "t1": 82.2667,
+   "frames": 177,
+   "kind": "clip",
+   "clip_id": "highway_aerial_3",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/FcYqtBaMXFM_125-135.mp4",
+   "file_in": 2.25,
+   "play_speed": 1.0,
+   "src_in": 127.25,
+   "src_out": 133.15,
+   "tag": "highway-aerial,island-aerial",
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 7.439,
+    "mot_min": 4.993,
+    "y_mean": 87.3,
+    "y_min": 68.5,
+    "dh": [
+     1663816547113047574,
+     1591771884131096214,
+     6203451314217047830,
+     6257494482834839223,
+     1591766372732212823,
+     1483398648306161302,
+     10688316347270861846
+    ]
+   },
+   "parent": "highway_aerial_3",
+   "line": 9,
+   "audio_ok": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 82.2667,
+   "t1": 85.3333,
+   "frames": 92,
+   "kind": "clip",
+   "clip_id": "trident",
+   "video_id": "xwah2a4CF3A",
+   "creator": "Digital Video Concept",
+   "file": "jobs/jamaica-v6-full/clips/xwah2a4CF3A_0-8.mp4",
+   "file_in": 0.3,
+   "play_speed": 2.0,
+   "src_in": 0.3,
+   "src_out": 6.433,
+   "tag": "resort-aerial,sea-aerial",
+   "shows": [
+    "resort-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.558,
+    "mot_min": 1.708,
+    "y_mean": 88.9,
+    "y_min": 80.8,
+    "dh": [
+     17129565894799037595,
+     17127321654127795611,
+     17129494289108481179,
+     17057788538791573149,
+     7831856838900889230,
+     7507602613498978858,
+     144735178521244660
+    ]
+   },
+   "parent": "trident",
+   "line": 10,
+   "audio_ok": false,
+   "place": "Clifftop hotel aerial, Portland",
+   "subject": "trident-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 85.3333,
+   "t1": 88.3667,
+   "frames": 91,
+   "kind": "clip",
+   "clip_id": "jewel_cove",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/T4xHrMQNab0_15-25.mp4",
+   "file_in": 2.3,
+   "play_speed": 2.0,
+   "src_in": 17.3,
+   "src_out": 23.367,
+   "tag": "runaway-aerial,resort-aerial,beach-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.941,
+    "mot_min": 2.39,
+    "y_mean": 107.9,
+    "y_min": 105.4,
+    "dh": [
+     16786306009447534608,
+     17616094034631065600,
+     18067430810910203920,
+     18265813786139037768,
+     18338298068138491940,
+     17275765186507084288,
+     17858862640009875712
+    ]
+   },
+   "parent": "jewel_cove",
+   "line": 10,
+   "audio_ok": false,
+   "place": "Runaway Bay resort cove aerial",
+   "subject": "jewel-cove",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 88.3667,
+   "t1": 90.1667,
+   "frames": 54,
+   "kind": "clip",
+   "clip_id": "coast_road_aerial",
+   "video_id": "DTiioRRs3Bg",
+   "creator": "Making it with the Matthews",
+   "file": "jobs/jamaica-v6-full/clips/DTiioRRs3Bg_27-35.mp4",
+   "file_in": 2.3,
+   "play_speed": 2.0,
+   "src_in": 29.3,
+   "src_out": 32.9,
+   "tag": "coast-road-aerial,island-aerial",
+   "shows": [
+    "coast-road-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 8.309,
+    "mot_min": 1.878,
+    "y_mean": 112.8,
+    "y_min": 96.5,
+    "dh": [
+     13899025451759747080,
+     3906371122755427550,
+     3906371122755423454,
+     10864602958306711303,
+     10864602954070431511
+    ]
+   },
+   "parent": "coast_road_aerial",
+   "line": 11,
+   "audio_ok": false,
+   "place": "Coast road aerial, St James",
+   "subject": "coast-road-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 90.1667,
+   "t1": 95.2333,
+   "frames": 152,
+   "kind": "clip",
+   "clip_id": "rb_coast_a_2",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/Ymw6leiGhXw_178-189.mp4",
+   "file_in": 1.75,
+   "play_speed": 1.5,
+   "src_in": 179.75,
+   "src_out": 187.35,
+   "tag": "runaway-aerial,sea-aerial,island-aerial",
+   "shows": [
+    "runaway-aerial",
+    "sea-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 16.895,
+    "mot_min": 8.631,
+    "y_mean": 103.6,
+    "y_min": 91.7,
+    "dh": [
+     11224610603021808241,
+     13166755327952940252,
+     6203206306912148147,
+     16835272124193615030,
+     13706551777234627178,
+     11968048031278077992,
+     10385960898025784458,
+     12875415806241662449,
+     15480513821090470285
+    ]
+   },
+   "parent": "rb_coast_a_2",
+   "line": 12,
+   "audio_ok": false,
+   "place": "Runaway Bay coastline aerial",
+   "subject": "rb-coast-a-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 95.2333,
+   "t1": 100.3,
+   "frames": 152,
+   "kind": "clip",
+   "clip_id": "portland_aerial_3",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/GBaTswg6mgs_90-104.mp4",
+   "file_in": 2.27,
+   "play_speed": 2.0,
+   "src_in": 92.27,
+   "src_out": 102.403,
+   "tag": "portland-aerial,island-aerial,sea-aerial",
+   "shows": [
+    "portland-aerial",
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.369,
+    "mot_min": 1.509,
+    "y_mean": 95.2,
+    "y_min": 91.2,
+    "dh": [
+     16210971979947749570,
+     16210972253615599842,
+     16210972290122805409,
+     17435933796615090401,
+     17437059660018940016,
+     17437059660555810992,
+     17437340037094631672,
+     17365291239116156152,
+     17365000968044330220,
+     17365001036496985196,
+     17365001036564248652
+    ]
+   },
+   "parent": "portland_aerial_3",
+   "line": 12,
+   "audio_ok": false,
+   "place": "Portland coast aerial",
+   "subject": "portland-aerial-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 100.3,
+   "t1": 105.4,
+   "frames": 153,
+   "kind": "clip",
+   "clip_id": "ocho_bay",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-v6-full/clips/11Z-XBbUst0_255-264.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 257.0,
+   "src_out": 262.1,
+   "tag": "ocho-aerial,beach-aerial,resort-aerial",
+   "shows": [
+    "ocho-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.003,
+    "mot_min": 1.865,
+    "y_mean": 88.5,
+    "y_min": 75.2,
+    "dh": [
+     16420195992317949799,
+     16195034146298881895,
+     14002184954217719655,
+     15046534444471511015,
+     15044089233698973671,
+     14287507047024412615
+    ]
+   },
+   "parent": "ocho_bay",
+   "line": 13,
+   "audio_ok": false,
+   "place": "Ocho Rios bay aerial",
+   "subject": "ocho-bay",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 105.4,
+   "t1": 110.5333,
+   "frames": 154,
+   "kind": "clip",
+   "clip_id": "highway_aerial_1",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/FcYqtBaMXFM_30-39.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 32.0,
+   "src_out": 37.133,
+   "tag": "highway-aerial,island-aerial",
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.111,
+    "mot_min": 2.391,
+    "y_mean": 99.8,
+    "y_min": 68.6,
+    "dh": [
+     9792962174861345677,
+     141008825786790867,
+     141291590234057271,
+     141291584332670078,
+     141149197844325052,
+     15559484731442199001
+    ]
+   },
+   "parent": "highway_aerial_1",
+   "line": 14,
+   "audio_ok": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 110.5333,
+   "t1": 115.6667,
+   "frames": 154,
+   "kind": "clip",
+   "clip_id": "portland_aerial_1",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/GBaTswg6mgs_9-24.mp4",
+   "file_in": 2.3,
+   "play_speed": 2.0,
+   "src_in": 11.3,
+   "src_out": 21.567,
+   "tag": "portland-aerial,island-aerial,sea-aerial",
+   "shows": [
+    "portland-aerial",
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.172,
+    "mot_min": 2.143,
+    "y_mean": 106.2,
+    "y_min": 83.4,
+    "dh": [
+     17361641489925982288,
+     6867883805302056351,
+     6894921067882061411,
+     13456114382282224840,
+     12951992700066919656,
+     17741984320080377084,
+     8537753663973684412,
+     14467946647279132736,
+     14467946647174307936,
+     14467946654694695136,
+     14467946686370046176
+    ]
+   },
+   "parent": "portland_aerial_1",
+   "line": 14,
+   "audio_ok": false,
+   "place": "Portland coast aerial",
+   "subject": "portland-aerial-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 115.6667,
+   "t1": 119.4,
+   "frames": 112,
+   "kind": "clip",
+   "clip_id": "highway_aerial_4",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-v6-full/clips/FcYqtBaMXFM_216-223.mp4",
+   "file_in": 1.62,
+   "play_speed": 1.0,
+   "src_in": 217.62,
+   "src_out": 221.353,
+   "tag": "highway-aerial,island-aerial",
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.0,
+    "mot_min": 2.864,
+    "y_mean": 80.7,
+    "y_min": 73.5,
+    "dh": [
+     8172187605509957158,
+     8156425539523994660,
+     3707432469415404644,
+     7075773146850337896,
+     2531361795638208600
+    ]
+   },
+   "parent": "highway_aerial_4",
+   "line": 15,
+   "audio_ok": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-4",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 119.4,
+   "t1": 123.1333,
+   "frames": 112,
+   "kind": "clip",
+   "clip_id": "rb_resort_d_1",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/OaDLJ5KtI2Y_41-49.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.5,
+   "src_in": 41.3,
+   "src_out": 46.9,
+   "tag": "resort-aerial,runaway-aerial,sea-aerial",
+   "shows": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 8.438,
+    "mot_min": 6.879,
+    "y_mean": 93.7,
+    "y_min": 90.6,
+    "dh": [
+     7402427202354234662,
+     12859562750349030922,
+     8625086368244385462,
+     16389367002813187430,
+     16407485751915200803,
+     12806299168306898001,
+     8149578188310811416
+    ]
+   },
+   "parent": "rb_resort_d_1",
+   "line": 15,
+   "audio_ok": false,
+   "place": "North coast resort aerial, Runaway Bay",
+   "subject": "rb-resort-d-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 123.1333,
+   "t1": 128.1333,
+   "frames": 150,
+   "kind": "clip",
+   "clip_id": "rb_resort_d_2",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/OaDLJ5KtI2Y_71-83.mp4",
+   "file_in": 2.4,
+   "play_speed": 1.5,
+   "src_in": 73.4,
+   "src_out": 80.9,
+   "tag": "resort-aerial,runaway-aerial,sea-aerial",
+   "shows": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 7.141,
+    "mot_min": 6.018,
+    "y_mean": 96.4,
+    "y_min": 89.6,
+    "dh": [
+     18131364243837767196,
+     17861170153492522414,
+     17861223103457760919,
+     9070187813098344139,
+     17855582591823900389,
+     17292568591448100527,
+     16140790920380896999,
+     16136342119006841787,
+     14983347922598210989
+    ]
+   },
+   "parent": "rb_resort_d_2",
+   "line": 16,
+   "audio_ok": false,
+   "place": "North coast resort aerial, Runaway Bay",
+   "subject": "rb-resort-d-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 128.1333,
+   "t1": 132.3667,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "runaway_resort",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-v6-full/clips/11Z-XBbUst0_41-49.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 43.0,
+   "src_out": 47.233,
+   "tag": "runaway-aerial,resort-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.09,
+    "mot_min": 4.21,
+    "y_mean": 109.1,
+    "y_min": 98.6,
+    "dh": [
+     9318680743492603594,
+     9302918693815265125,
+     16228876705683019568,
+     4695087968265241496,
+     5272806488505876932
+    ]
+   },
+   "parent": "runaway_resort",
+   "line": 17,
+   "audio_ok": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "runaway-resort",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 132.3667,
+   "t1": 136.6,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "jewel_cove_b_1",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/T4xHrMQNab0_120-127.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 120.3,
+   "src_out": 124.533,
+   "tag": "runaway-aerial,resort-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 8.267,
+    "mot_min": 4.489,
+    "y_mean": 111.3,
+    "y_min": 105.6,
+    "dh": [
+     17617060973060253083,
+     17361654150866981783,
+     9565734499809223790,
+     3530963259549964729,
+     15925502415085803314
+    ]
+   },
+   "parent": "jewel_cove_b_1",
+   "line": 17,
+   "audio_ok": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "jewel-cove-b-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 136.6,
+   "t1": 140.1667,
+   "frames": 107,
+   "kind": "clip",
+   "clip_id": "mbj_curb",
+   "video_id": "g0RQ-LHiYGI",
+   "creator": "Ahmed Dawn",
+   "file": "jobs/jamaica-v6-full/clips/g0RQ-LHiYGI_2500-2508.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.0,
+   "src_in": 2502.3,
+   "src_out": 2505.867,
+   "tag": "airport-curb,road-to-airport",
+   "shows": [
+    "airport-curb",
+    "road-to-airport"
+   ],
+   "qc": {
+    "mot_med": 4.379,
+    "mot_min": 3.907,
+    "y_mean": 144.5,
+    "y_min": 141.6,
+    "dh": [
+     18372633368701479016,
+     18373167585374549036,
+     18445824451887815870,
+     18446739067702270442
+    ]
+   },
+   "parent": "mbj_curb",
+   "line": 18,
+   "audio_ok": false,
+   "place": "Arriving at Sangster terminal by road",
+   "subject": "mbj-curb",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 140.1667,
+   "t1": 144.3667,
+   "frames": 126,
+   "kind": "clip",
+   "clip_id": "road_mbj_a_3",
+   "video_id": "g0RQ-LHiYGI",
+   "creator": "Ahmed Dawn",
+   "file": "jobs/jamaica-v6-full/clips/g0RQ-LHiYGI_961-969.mp4",
+   "file_in": 1.83,
+   "play_speed": 1.0,
+   "src_in": 962.83,
+   "src_out": 967.03,
+   "tag": "road-to-airport,driving",
+   "shows": [
+    "road-to-airport",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 4.28,
+    "mot_min": 3.5,
+    "y_mean": 120.4,
+    "y_min": 112.3,
+    "dh": [
+     18356387022661543653,
+     13762435233044260581,
+     18374683566237316837,
+     18302063176664314597,
+     18229582265656323303,
+     8823779785657642191
+    ]
+   },
+   "parent": "road_mbj_a_3",
+   "line": 19,
+   "audio_ok": false,
+   "place": "North coast highway towards MBJ",
+   "subject": "north-coast-highway-a-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 144.3667,
+   "t1": 148.6,
+   "frames": 127,
+   "kind": "clip",
+   "clip_id": "road_mbj_a_2",
+   "video_id": "g0RQ-LHiYGI",
+   "creator": "Ahmed Dawn",
+   "file": "jobs/jamaica-v6-full/clips/g0RQ-LHiYGI_928-936.mp4",
+   "file_in": 2.17,
+   "play_speed": 1.0,
+   "src_in": 930.17,
+   "src_out": 934.403,
+   "tag": "road-to-airport,driving",
+   "shows": [
+    "road-to-airport",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.185,
+    "mot_min": 4.519,
+    "y_mean": 113.2,
+    "y_min": 96.1,
+    "dh": [
+     16267812131730676164,
+     18446744067677108450,
+     9187271757515548900,
+     17759732370554940100,
+     17795973927419228102
+    ]
+   },
+   "parent": "road_mbj_a_2",
+   "line": 19,
+   "audio_ok": false,
+   "place": "North coast highway towards MBJ",
+   "subject": "north-coast-highway-a-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 148.6,
+   "t1": 153.8667,
+   "frames": 158,
+   "kind": "clip",
+   "clip_id": "highway_north_south_1",
+   "video_id": "55-rBgI1MUA",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-v6-full/clips/55-rBgI1MUA_900-908.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 900.3,
+   "src_out": 905.567,
+   "tag": "driving,highway",
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "qc": {
+    "mot_med": 2.457,
+    "mot_min": 2.298,
+    "y_mean": 119.4,
+    "y_min": 116.3,
+    "dh": [
+     4476133826858121275,
+     13735675329492351031,
+     4512307482373929015,
+     13735660552655256631,
+     4520733158095502388,
+     4557032589591591223
+    ]
+   },
+   "parent": "highway_north_south_1",
+   "line": 20,
+   "audio_ok": false,
+   "place": "North-South Highway, St Ann",
+   "subject": "north-south-highway-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 153.8667,
+   "t1": 159.1667,
+   "frames": 159,
+   "kind": "clip",
+   "clip_id": "drive_mobay_negril_1",
+   "video_id": "DTiioRRs3Bg",
+   "creator": "Making it with the Matthews",
+   "file": "jobs/jamaica-v6-full/clips/DTiioRRs3Bg_240-248.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 240.3,
+   "src_out": 245.6,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 7.806,
+    "mot_min": 5.731,
+    "y_mean": 110.7,
+    "y_min": 102.8,
+    "dh": [
+     9040764300067783236,
+     16460444557014815409,
+     14327707700939989585,
+     775726881475167488,
+     10635804624242242646,
+     264234550410513092
+    ]
+   },
+   "parent": "drive_mobay_negril_1",
+   "line": 20,
+   "audio_ok": false,
+   "place": "Drive Montego Bay to Negril",
+   "subject": "dash-mobay-negril-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 159.1667,
+   "t1": 164.8333,
+   "frames": 170,
+   "kind": "clip",
+   "clip_id": "highway_north_south_2",
+   "video_id": "55-rBgI1MUA",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-v6-full/clips/55-rBgI1MUA_959-969.mp4",
+   "file_in": 2.03,
+   "play_speed": 1.0,
+   "src_in": 961.03,
+   "src_out": 966.697,
+   "tag": "driving,highway",
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "qc": {
+    "mot_med": 2.26,
+    "mot_min": 1.959,
+    "y_mean": 119.5,
+    "y_min": 108.8,
+    "dh": [
+     18157386642253470743,
+     17000524526644116567,
+     3147453170120193031,
+     12226705619790386183,
+     13087456093204026375,
+     13030881821921088535
+    ]
+   },
+   "parent": "highway_north_south_2",
+   "line": 21,
+   "audio_ok": false,
+   "place": "North-South Highway, St Ann",
+   "subject": "north-south-highway-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 164.8333,
+   "t1": 170.4667,
+   "frames": 169,
+   "kind": "clip",
+   "clip_id": "drive_mobay_negril_2",
+   "video_id": "DTiioRRs3Bg",
+   "creator": "Making it with the Matthews",
+   "file": "jobs/jamaica-v6-full/clips/DTiioRRs3Bg_269-278.mp4",
+   "file_in": 1.53,
+   "play_speed": 1.0,
+   "src_in": 270.53,
+   "src_out": 276.163,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 7.753,
+    "mot_min": 4.886,
+    "y_mean": 105.6,
+    "y_min": 92.0,
+    "dh": [
+     13835057764167772621,
+     16100227359062059597,
+     11511122002031791469,
+     6365953094090626328,
+     2242615929615436569,
+     11475101378669842902,
+     5755459584065622731
+    ]
+   },
+   "parent": "drive_mobay_negril_2",
+   "line": 21,
+   "audio_ok": false,
+   "place": "Drive Montego Bay to Negril",
+   "subject": "dash-mobay-negril-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 170.4667,
+   "t1": 175.3667,
+   "frames": 147,
+   "kind": "clip",
+   "clip_id": "road_mbj_b_1",
+   "video_id": "g0RQ-LHiYGI",
+   "creator": "Ahmed Dawn",
+   "file": "jobs/jamaica-v6-full/clips/g0RQ-LHiYGI_1784-1793.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 1786.0,
+   "src_out": 1790.9,
+   "tag": "road-to-airport,driving",
+   "shows": [
+    "road-to-airport",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 8.191,
+    "mot_min": 6.854,
+    "y_mean": 129.8,
+    "y_min": 105.4,
+    "dh": [
+     14187743636114619576,
+     8823390457097739422,
+     9111620833249418302,
+     16476070649289989360,
+     7212011847943386304
+    ]
+   },
+   "parent": "road_mbj_b_1",
+   "line": 22,
+   "audio_ok": false,
+   "place": "Highway near Montego Bay",
+   "subject": "mobay-highway-b-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 175.3667,
+   "t1": 180.2667,
+   "frames": 147,
+   "kind": "clip",
+   "clip_id": "road_mbj_b_2",
+   "video_id": "g0RQ-LHiYGI",
+   "creator": "Ahmed Dawn",
+   "file": "jobs/jamaica-v6-full/clips/g0RQ-LHiYGI_1816-1825.mp4",
+   "file_in": 1.67,
+   "play_speed": 1.0,
+   "src_in": 1817.67,
+   "src_out": 1822.57,
+   "tag": "road-to-airport,driving",
+   "shows": [
+    "road-to-airport",
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 4.064,
+    "mot_min": 3.252,
+    "y_mean": 130.5,
+    "y_min": 120.6,
+    "dh": [
+     9278048571010239704,
+     9250394191361141704,
+     9232382004852025576,
+     9148634153937130,
+     13653331203614952,
+     9228070945302997753
+    ]
+   },
+   "parent": "road_mbj_b_2",
+   "line": 22,
+   "audio_ok": false,
+   "place": "Highway near Montego Bay",
+   "subject": "mobay-highway-b-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 180.2667,
+   "t1": 184.4667,
+   "frames": 126,
+   "kind": "clip",
+   "clip_id": "dash_ocho_a_1",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-v6-full/clips/MyaZDFcqtCw_60-67.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 60.3,
+   "src_out": 64.5,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.843,
+    "mot_min": 5.047,
+    "y_mean": 108.9,
+    "y_min": 94.6,
+    "dh": [
+     15870188236975361999,
+     17361473426259967039,
+     17363906190768856727,
+     8714730231140449911,
+     15623788359741861015
+    ]
+   },
+   "parent": "dash_ocho_a_1",
+   "line": 23,
+   "audio_ok": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 184.4667,
+   "t1": 188.6667,
+   "frames": 126,
+   "kind": "clip",
+   "clip_id": "drive_mobay_negril_3",
+   "video_id": "DTiioRRs3Bg",
+   "creator": "Making it with the Matthews",
+   "file": "jobs/jamaica-v6-full/clips/DTiioRRs3Bg_298-306.mp4",
+   "file_in": 2.27,
+   "play_speed": 1.0,
+   "src_in": 300.27,
+   "src_out": 304.47,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 3.9,
+    "mot_min": 3.843,
+    "y_mean": 118.6,
+    "y_min": 111.6,
+    "dh": [
+     17216060682224408372,
+     17293751902740436846,
+     15969657017838970334,
+     17262120875257673406,
+     17266624474331363293
+    ]
+   },
+   "parent": "drive_mobay_negril_3",
+   "line": 23,
+   "audio_ok": false,
+   "place": "Drive Montego Bay to Negril",
+   "subject": "dash-mobay-negril-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 188.6667,
+   "t1": 193.6667,
+   "frames": 150,
+   "kind": "clip",
+   "clip_id": "dash_ocho_a_2",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-v6-full/clips/MyaZDFcqtCw_89-98.mp4",
+   "file_in": 1.53,
+   "play_speed": 1.0,
+   "src_in": 90.53,
+   "src_out": 95.53,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 3.482,
+    "mot_min": 2.945,
+    "y_mean": 116.7,
+    "y_min": 109.0,
+    "dh": [
+     16348894548958509282,
+     16348894549491183843,
+     14614973508056039426,
+     16353406805892529347,
+     18085041018846964943,
+     4222749431970979023
+    ]
+   },
+   "parent": "dash_ocho_a_2",
+   "line": 24,
+   "audio_ok": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 193.6667,
+   "t1": 198.6667,
+   "frames": 150,
+   "kind": "clip",
+   "clip_id": "dash_ocho_a_3",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-v6-full/clips/MyaZDFcqtCw_118-127.mp4",
+   "file_in": 2.27,
+   "play_speed": 1.0,
+   "src_in": 120.27,
+   "src_out": 125.27,
+   "tag": "driving",
+   "shows": [
+    "driving"
+   ],
+   "qc": {
+    "mot_med": 5.065,
+    "mot_min": 4.416,
+    "y_mean": 118.5,
+    "y_min": 107.6,
+    "dh": [
+     9426228624143282819,
+     9281927873796830083,
+     13011146027269677254,
+     2648258179740000390,
+     2630190247671886467,
+     16478865310216805251
+    ]
+   },
+   "parent": "dash_ocho_a_3",
+   "line": 24,
+   "audio_ok": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 198.6667,
+   "t1": 203.1667,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "jewel_cove_b_2",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/T4xHrMQNab0_189-197.mp4",
+   "file_in": 1.53,
+   "play_speed": 1.0,
+   "src_in": 190.53,
+   "src_out": 195.03,
+   "tag": "runaway-aerial,resort-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.369,
+    "mot_min": 2.249,
+    "y_mean": 101.6,
+    "y_min": 99.2,
+    "dh": [
+     1504996880737937962,
+     3804013788645058730,
+     4164884510735455573,
+     3011963005591672149,
+     4164884512362787024,
+     4164885332701536468
+    ]
+   },
+   "parent": "jewel_cove_b_2",
+   "line": 25,
+   "audio_ok": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "jewel-cove-b-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 203.1667,
+   "t1": 207.6667,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "jewel_cove_b_3",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/T4xHrMQNab0_258-267.mp4",
+   "file_in": 2.27,
+   "play_speed": 1.0,
+   "src_in": 260.27,
+   "src_out": 264.77,
+   "tag": "runaway-aerial,resort-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.955,
+    "mot_min": 4.419,
+    "y_mean": 102.4,
+    "y_min": 99.2,
+    "dh": [
+     4541429316657013582,
+     4541147845958558693,
+     2182858658183013745,
+     1146035476740825954,
+     523410667838990577
+    ]
+   },
+   "parent": "jewel_cove_b_3",
+   "line": 25,
+   "audio_ok": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "jewel-cove-b-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 207.6667,
+   "t1": 212.1,
+   "frames": 133,
+   "kind": "clip",
+   "clip_id": "doctors_cave_c_1",
+   "video_id": "p84Z1h0RkwY",
+   "creator": "Adam & Ellie",
+   "file": "jobs/jamaica-v6-full/clips/p84Z1h0RkwY_445-452.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 445.3,
+   "src_out": 449.733,
+   "tag": "doctors-cave,beach",
+   "shows": [
+    "doctors-cave",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.998,
+    "mot_min": 1.458,
+    "y_mean": 113.5,
+    "y_min": 111.8,
+    "dh": [
+     18127368458890681544,
+     18136940807121853644,
+     17521731212058041492,
+     17754231123502807441,
+     17754231741969668497
+    ]
+   },
+   "parent": "doctors_cave_c_1",
+   "line": 26,
+   "audio_ok": true,
+   "place": "Doctor's Cave Beach, cruise-day visit",
+   "subject": "doctors-cave-water-c-1",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 212.1,
+   "t1": 216.1667,
+   "frames": 122,
+   "kind": "clip",
+   "clip_id": "doctors_cave_a",
+   "video_id": "U9Laoq9lVUc",
+   "creator": "Lisa Clarke",
+   "file": "jobs/jamaica-v6-full/clips/U9Laoq9lVUc_10-18.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.0,
+   "src_in": 12.3,
+   "src_out": 16.367,
+   "tag": "doctors-cave,beach",
+   "shows": [
+    "doctors-cave",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.298,
+    "mot_min": 1.151,
+    "y_mean": 169.2,
+    "y_min": 162.0,
+    "dh": [
+     13835128757804121324,
+     4647715183540877546,
+     4611686929802770638,
+     4665940458528215218,
+     17357159888719760522
+    ]
+   },
+   "parent": "doctors_cave_a",
+   "line": 27,
+   "audio_ok": false,
+   "place": "Doctor's Cave Beach",
+   "subject": "doctors-cave-beach",
+   "handheld": false,
+   "ton_max": 0.495
+  },
+  {
+   "t0": 216.1667,
+   "t1": 220.2333,
+   "frames": 122,
+   "kind": "clip",
+   "clip_id": "doctors_cave_c_2",
+   "video_id": "p84Z1h0RkwY",
+   "creator": "Adam & Ellie",
+   "file": "jobs/jamaica-v6-full/clips/p84Z1h0RkwY_504-512.mp4",
+   "file_in": 1.53,
+   "play_speed": 1.0,
+   "src_in": 505.53,
+   "src_out": 509.597,
+   "tag": "doctors-cave,beach",
+   "shows": [
+    "doctors-cave",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 7.832,
+    "mot_min": 6.483,
+    "y_mean": 116.9,
+    "y_min": 104.9,
+    "dh": [
+     15785089236326622966,
+     17013682659834768556,
+     12934284451544723022,
+     13479898780732384316,
+     337216402046857241
+    ]
+   },
+   "parent": "doctors_cave_c_2",
+   "line": 27,
+   "audio_ok": true,
+   "place": "Doctor's Cave Beach, cruise-day visit",
+   "subject": "doctors-cave-water-c-2",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 220.2333,
+   "t1": 227.0,
+   "frames": 203,
+   "kind": "clip",
+   "clip_id": "mobay_cruise_port",
+   "video_id": "OTRnEh4qUwE",
+   "creator": "Digital Video Concept",
+   "file": "jobs/jamaica-v6-full/clips/OTRnEh4qUwE_35-46.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 37.0,
+   "src_out": 43.767,
+   "tag": "cruise-port,mobay-aerial",
+   "shows": [
+    "cruise-port",
+    "mobay-aerial"
+   ],
+   "qc": {
+    "mot_med": 1.762,
+    "mot_min": 1.514,
+    "y_mean": 121.4,
+    "y_min": 116.4,
+    "dh": [
+     4834374659049024657,
+     4834373577790782641,
+     3681166062706015409,
+     1659052578794943921,
+     1667501217790341553,
+     1666657075187202481,
+     2747485526506092977
+    ]
+   },
+   "parent": "mobay_cruise_port",
+   "line": 28,
+   "audio_ok": false,
+   "place": "Montego Bay cruise port aerial",
+   "subject": "mobay-cruise-port",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 227.0,
+   "t1": 231.0667,
+   "frames": 122,
+   "kind": "clip",
+   "clip_id": "negril_bay",
+   "video_id": "EWQ8WWNwO8A",
+   "creator": "Making it with the Matthews",
+   "file": "jobs/jamaica-v6-full/clips/EWQ8WWNwO8A_110-118.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 112.0,
+   "src_out": 116.067,
+   "tag": "negril-aerial,negril-beach,beach-aerial,beach",
+   "shows": [
+    "negril-aerial",
+    "negril-beach",
+    "beach-aerial",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 5.638,
+    "mot_min": 4.336,
+    "y_mean": 123.6,
+    "y_min": 102.2,
+    "dh": [
+     18446734454786908266,
+     18446744068082581970,
+     18446744007722398345,
+     18445896213567499087,
+     18372707775686024795
+    ]
+   },
+   "parent": "negril_bay",
+   "line": 29,
+   "audio_ok": false,
+   "place": "Seven Mile Beach aerial",
+   "subject": "negril-bay-aerial",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 231.0667,
+   "t1": 235.1333,
+   "frames": 122,
+   "kind": "clip",
+   "clip_id": "negril_strip",
+   "video_id": "EWQ8WWNwO8A",
+   "creator": "Making it with the Matthews",
+   "file": "jobs/jamaica-v6-full/clips/EWQ8WWNwO8A_159-167.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 161.0,
+   "src_out": 165.067,
+   "tag": "negril-beach,negril-aerial,beach",
+   "shows": [
+    "negril-beach",
+    "negril-aerial",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 4.124,
+    "mot_min": 4.074,
+    "y_mean": 132.7,
+    "y_min": 131.9,
+    "dh": [
+     2064945204055005272,
+     2066141403994945624,
+     2030182425966467192,
+     2025542758545512600,
+     2025543038529992920
+    ]
+   },
+   "parent": "negril_strip",
+   "line": 29,
+   "audio_ok": false,
+   "place": "Seven Mile Beach hotels from the air",
+   "subject": "negril-strip",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 235.1333,
+   "t1": 241.2667,
+   "frames": 184,
+   "kind": "clip",
+   "clip_id": "negril_clear_water",
+   "video_id": "uZG3PnwB1bY",
+   "creator": "s'more",
+   "file": "jobs/jamaica-v6-full/clips/uZG3PnwB1bY_6-16.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.0,
+   "src_in": 8.3,
+   "src_out": 14.433,
+   "tag": "negril-water,calm-sea",
+   "shows": [
+    "negril-water",
+    "calm-sea"
+   ],
+   "qc": {
+    "mot_med": 4.965,
+    "mot_min": 1.421,
+    "y_mean": 102.4,
+    "y_min": 94.5,
+    "dh": [
+     16172488317537549553,
+     17355833498561953660,
+     17343635319149186846,
+     16208719477087784527,
+     16208697547336334702,
+     9167200706488955355,
+     8313902133303502564
+    ]
+   },
+   "parent": "negril_clear_water",
+   "line": 30,
+   "audio_ok": true,
+   "place": "Negril, clear water",
+   "subject": "negril-water",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 241.2667,
+   "t1": 245.9333,
+   "frames": 140,
+   "kind": "clip",
+   "clip_id": "ocho_coast",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-v6-full/clips/11Z-XBbUst0_198-205.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 198.3,
+   "src_out": 202.967,
+   "tag": "ocho-aerial,beach-aerial",
+   "shows": [
+    "ocho-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 8.883,
+    "mot_min": 4.156,
+    "y_mean": 112.6,
+    "y_min": 102.5,
+    "dh": [
+     12945283539868241639,
+     10216852519179009166,
+     7956561362878132924,
+     9295426160406202062,
+     13907112271980913254,
+     13906826298898375398
+    ]
+   },
+   "parent": "ocho_coast",
+   "line": 31,
+   "audio_ok": false,
+   "place": "Ocho Rios coast aerial",
+   "subject": "ocho-coast",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 245.9333,
+   "t1": 250.5667,
+   "frames": 139,
+   "kind": "clip",
+   "clip_id": "dunns_b",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "file": "jobs/jamaica-v6-full/clips/ABh47uaa08I_362-371.mp4",
+   "file_in": 2.0,
+   "play_speed": 1.0,
+   "src_in": 364.0,
+   "src_out": 368.633,
+   "tag": "dunns,waterfall",
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "qc": {
+    "mot_med": 2.542,
+    "mot_min": 1.515,
+    "y_mean": 109.8,
+    "y_min": 103.9,
+    "dh": [
+     6598866998441161073,
+     6416471558233207089,
+     6344273226707448113,
+     1804785539806343473,
+     14984595094464536286
+    ]
+   },
+   "parent": "dunns_b",
+   "line": 31,
+   "audio_ok": false,
+   "place": "Dunn's River Falls through the trees",
+   "subject": "dunns-trees",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 250.5667,
+   "t1": 256.4,
+   "frames": 175,
+   "kind": "clip",
+   "clip_id": "dunns_e",
+   "video_id": "AHqe0IZq7uw",
+   "creator": "EscapeOnTime",
+   "file": "jobs/jamaica-v6-full/clips/AHqe0IZq7uw_125-135.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.0,
+   "src_in": 127.3,
+   "src_out": 133.133,
+   "tag": "dunns,waterfall",
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "qc": {
+    "mot_med": 6.834,
+    "mot_min": 5.843,
+    "y_mean": 101.0,
+    "y_min": 86.4,
+    "dh": [
+     2918190717215732982,
+     17941495381303885269,
+     9151030760193259499,
+     15635650171993976054,
+     10447503407663802861,
+     3528848461731723978,
+     12753348603024239606
+    ]
+   },
+   "parent": "dunns_e",
+   "line": 32,
+   "audio_ok": false,
+   "place": "Dunn's River Falls rock face",
+   "subject": "dunns-rock",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 256.4,
+   "t1": 260.3333,
+   "frames": 118,
+   "kind": "clip",
+   "clip_id": "ocho_beach_walk_2",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-v6-full/clips/TILQzsOE8mg_197-205.mp4",
+   "file_in": 2.2,
+   "play_speed": 1.0,
+   "src_in": 199.2,
+   "src_out": 203.133,
+   "tag": "ocho-beach,beach",
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.631,
+    "mot_min": 2.054,
+    "y_mean": 124.0,
+    "y_min": 121.9,
+    "dh": [
+     18373693590053060120,
+     18374401555566493686,
+     18266388941500003319,
+     8034155636487766083,
+     3683736684385775827
+    ]
+   },
+   "parent": "ocho_beach_walk_2",
+   "line": 33,
+   "audio_ok": true,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-2",
+   "handheld": false,
+   "ton_max": 0.0
+  },
+  {
+   "t0": 260.3333,
+   "t1": 264.2667,
+   "frames": 118,
+   "kind": "clip",
+   "clip_id": "ocho_beach_walk_1",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-v6-full/clips/TILQzsOE8mg_152-160.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.0,
+   "src_in": 154.3,
+   "src_out": 158.233,
+   "tag": "ocho-beach,beach",
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 2.069,
+    "mot_min": 1.439,
+    "y_mean": 124.2,
+    "y_min": 122.6,
+    "dh": [
+     11529214326791289409,
+     14949557161550584837,
+     16663106965912653314,
+     2538657933672563235,
+     111890601630359683
+    ]
+   },
+   "parent": "ocho_beach_walk_1",
+   "line": 33,
+   "audio_ok": true,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-1",
+   "handheld": false,
+   "ton_max": 0.003
+  },
+  {
+   "t0": 264.2667,
+   "t1": 269.9333,
+   "frames": 170,
+   "kind": "clip",
+   "clip_id": "rb_cove_a",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/Ymw6leiGhXw_35-46.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.5,
+   "src_in": 35.3,
+   "src_out": 43.8,
+   "tag": "runaway-aerial,beach-aerial,resort-aerial",
+   "shows": [
+    "runaway-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.122,
+    "mot_min": 4.228,
+    "y_mean": 109.7,
+    "y_min": 104.7,
+    "dh": [
+     7206022238621427755,
+     10376571134597427398,
+     18375812362330457284,
+     18162169565028612120,
+     17526031702469767669,
+     17176997242295534306,
+     17920356004295248006,
+     8387613103987955980,
+     17349153133642192144
+    ]
+   },
+   "parent": "rb_cove_a",
+   "line": 34,
+   "audio_ok": false,
+   "place": "Runaway Bay cove aerial",
+   "subject": "rb-cove-a",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 269.9333,
+   "t1": 275.3333,
+   "frames": 162,
+   "kind": "clip",
+   "clip_id": "rb_cove_c_1",
+   "video_id": "onzcja6gqlw",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/onzcja6gqlw_186-196.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.5,
+   "src_in": 186.3,
+   "src_out": 194.4,
+   "tag": "runaway-aerial,resort-aerial,beach-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 8.188,
+    "mot_min": 7.707,
+    "y_mean": 126.0,
+    "y_min": 109.8,
+    "dh": [
+     9210845704020980837,
+     6329721022714894667,
+     15552899819880430035,
+     8910089803081159559,
+     12659055326565656078,
+     13784884519990316125,
+     16094703845816375739,
+     9123025931419398260,
+     12589733591289521761
+    ]
+   },
+   "parent": "rb_cove_c_1",
+   "line": 35,
+   "audio_ok": false,
+   "place": "Runaway Bay resort cove aerial",
+   "subject": "rb-cove-c-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 275.3333,
+   "t1": 280.7,
+   "frames": 161,
+   "kind": "clip",
+   "clip_id": "rb_cove_c_2",
+   "video_id": "onzcja6gqlw",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/onzcja6gqlw_236-248.mp4",
+   "file_in": 2.15,
+   "play_speed": 1.5,
+   "src_in": 238.15,
+   "src_out": 246.2,
+   "tag": "runaway-aerial,resort-aerial,beach-aerial",
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 6.524,
+    "mot_min": 1.383,
+    "y_mean": 96.1,
+    "y_min": 92.4,
+    "dh": [
+     3572941131755847808,
+     11012588644710498432,
+     14756769592484839552,
+     14756768220125348224,
+     11156568040990147329,
+     11071296000800000769,
+     9305858371762717283,
+     11827592687845573219,
+     9233521503650382435
+    ]
+   },
+   "parent": "rb_cove_c_2",
+   "line": 35,
+   "audio_ok": false,
+   "place": "Runaway Bay resort cove aerial",
+   "subject": "rb-cove-c-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 280.7,
+   "t1": 284.6667,
+   "frames": 119,
+   "kind": "clip",
+   "clip_id": "rafting_1",
+   "video_id": "GrksZW_z-DA",
+   "creator": "Adrian Parsons",
+   "file": "jobs/jamaica-v6-full/clips/GrksZW_z-DA_120-127.mp4",
+   "file_in": 1.3,
+   "play_speed": 1.0,
+   "src_in": 121.3,
+   "src_out": 125.267,
+   "tag": "rafting,calm-sea",
+   "shows": [
+    "rafting",
+    "calm-sea"
+   ],
+   "qc": {
+    "mot_med": 4.044,
+    "mot_min": 3.631,
+    "y_mean": 108.5,
+    "y_min": 103.7,
+    "dh": [
+     14983470439014071283,
+     16095858861910261495,
+     13824743119469083583,
+     15824442611698678771,
+     4304164111586352115
+    ]
+   },
+   "parent": "rafting_1",
+   "line": 36,
+   "audio_ok": false,
+   "place": "Martha Brae river raft, Trelawny",
+   "subject": "martha-brae-raft-1",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 284.6667,
+   "t1": 288.6,
+   "frames": 118,
+   "kind": "clip",
+   "clip_id": "rafting_3",
+   "video_id": "GrksZW_z-DA",
+   "creator": "Adrian Parsons",
+   "file": "jobs/jamaica-v6-full/clips/GrksZW_z-DA_241-249.mp4",
+   "file_in": 2.27,
+   "play_speed": 1.0,
+   "src_in": 243.27,
+   "src_out": 247.203,
+   "tag": "rafting,calm-sea",
+   "shows": [
+    "rafting",
+    "calm-sea"
+   ],
+   "qc": {
+    "mot_med": 4.308,
+    "mot_min": 3.598,
+    "y_mean": 99.3,
+    "y_min": 85.4,
+    "dh": [
+     9421672807257113740,
+     10651228073288139266,
+     9318160735643124033,
+     1247515860434739360,
+     11551895840919961824
+    ]
+   },
+   "parent": "rafting_3",
+   "line": 36,
+   "audio_ok": false,
+   "place": "Martha Brae river raft, Trelawny",
+   "subject": "martha-brae-raft-3",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 288.6,
+   "t1": 292.5667,
+   "frames": 119,
+   "kind": "clip",
+   "clip_id": "rafting_2",
+   "video_id": "GrksZW_z-DA",
+   "creator": "Adrian Parsons",
+   "file": "jobs/jamaica-v6-full/clips/GrksZW_z-DA_201-209.mp4",
+   "file_in": 2.03,
+   "play_speed": 1.0,
+   "src_in": 203.03,
+   "src_out": 206.997,
+   "tag": "rafting,calm-sea",
+   "shows": [
+    "rafting",
+    "calm-sea"
+   ],
+   "qc": {
+    "mot_med": 4.885,
+    "mot_min": 3.482,
+    "y_mean": 106.5,
+    "y_min": 103.0,
+    "dh": [
+     16177071460174643360,
+     12146372677717250208,
+     6817003827640310860,
+     6528775658900692508,
+     6528792767869238810
+    ]
+   },
+   "parent": "rafting_2",
+   "line": 36,
+   "audio_ok": false,
+   "place": "Martha Brae river raft, Trelawny",
+   "subject": "martha-brae-raft-2",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 292.5667,
+   "t1": 298.2333,
+   "frames": 170,
+   "kind": "clip",
+   "clip_id": "blue_lagoon_b",
+   "video_id": "A7R4F02ZY68",
+   "creator": "Build With vegas",
+   "file": "jobs/jamaica-v6-full/clips/A7R4F02ZY68_55-67.mp4",
+   "file_in": 1.5,
+   "play_speed": 1.5,
+   "src_in": 56.5,
+   "src_out": 65.0,
+   "tag": "blue-lagoon,portland-aerial,calm-sea",
+   "shows": [
+    "blue-lagoon",
+    "portland-aerial",
+    "calm-sea"
+   ],
+   "qc": {
+    "mot_med": 3.142,
+    "mot_min": 2.695,
+    "y_mean": 129.2,
+    "y_min": 126.8,
+    "dh": [
+     9405216835444416690,
+     9476148525814788120,
+     9476430000256715782,
+     9333431984981280259,
+     11638714811274036481,
+     11637588911367390464,
+     11583541163374936066,
+     11583823780493524992,
+     11583260965848449024,
+     11583270518425452672
+    ]
+   },
+   "parent": "blue_lagoon_b",
+   "line": 37,
+   "audio_ok": false,
+   "place": "Port Antonio lagoon and rafts",
+   "subject": "portland-lagoon-villa",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 298.2333,
+   "t1": 303.9,
+   "frames": 170,
+   "kind": "clip",
+   "clip_id": "rb_cove_b",
+   "video_id": "onzcja6gqlw",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-v6-full/clips/onzcja6gqlw_3-16.mp4",
+   "file_in": 2.3,
+   "play_speed": 1.5,
+   "src_in": 5.3,
+   "src_out": 13.8,
+   "tag": "runaway-aerial,beach-aerial",
+   "shows": [
+    "runaway-aerial",
+    "beach-aerial"
+   ],
+   "qc": {
+    "mot_med": 6.621,
+    "mot_min": 2.569,
+    "y_mean": 92.4,
+    "y_min": 89.9,
+    "dh": [
+     14189877969009294574,
+     14183192895363267759,
+     14183185061309374167,
+     7270720672232165227,
+     7127761510838626289,
+     7130009247865042928,
+     9575991206581385200,
+     602507691671163248,
+     632906715020394521
+    ]
+   },
+   "parent": "rb_cove_b",
+   "line": 37,
+   "audio_ok": false,
+   "place": "Runaway Bay beach aerial",
+   "subject": "rb-cove-b",
+   "handheld": false,
+   "ton_max": null
+  },
+  {
+   "t0": 303.9,
+   "t1": 308.3667,
+   "frames": 134,
+   "kind": "clip",
+   "clip_id": "tropical_bliss",
+   "video_id": "KFp2FkjgxHM",
+   "creator": "Lisa Clarke",
+   "file": "jobs/jamaica-v6-full/clips/KFp2FkjgxHM_25-32.mp4",
+   "file_in": 0.3,
+   "play_speed": 1.0,
+   "src_in": 25.3,
+   "src_out": 29.767,
+   "tag": "beach",
+   "shows": [
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 6.135,
+    "mot_min": 3.335,
+    "y_mean": 204.1,
+    "y_min": 166.5,
+    "dh": [
+     8606173777189113396,
+     17212630129176944488,
+     8140361042040223971,
+     9277655892049374202,
+     13898388692268395003
+    ]
+   },
+   "parent": "tropical_bliss",
+   "line": 38,
+   "audio_ok": false,
+   "place": "Tropical Bliss Beach, Montego Bay area",
+   "subject": "tropical-bliss-beach",
+   "handheld": false,
+   "ton_max": 0.404
+  },
+  {
+   "t0": 308.3667,
+   "t1": 312.8667,
+   "frames": 135,
+   "kind": "clip",
+   "clip_id": "ocho_bay_ground",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-v6-full/clips/TILQzsOE8mg_8-21.mp4",
+   "file_in": 2.3,
+   "play_speed": 2.0,
+   "src_in": 10.3,
+   "src_out": 19.3,
+   "tag": "ocho-beach,calm-sea,beach",
+   "shows": [
+    "ocho-beach",
+    "calm-sea",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 6.606,
+    "mot_min": 1.277,
+    "y_mean": 123.4,
+    "y_min": 113.7,
+    "dh": [
+     17361618945596782389,
+     13898201671809389714,
+     9363620317995550726,
+     14381267008530616727,
+     17737441719299019310,
+     18313902471568885294,
+     18313902471568885294,
+     18313902471568885310,
+     17844675858904711829,
+     9361190358362357889
+    ]
+   },
+   "parent": "ocho_bay_ground",
+   "line": 38,
+   "audio_ok": false,
+   "place": "Ocho Rios bay, ground level",
+   "subject": "ocho-bay-ground",
+   "handheld": false,
+   "ton_max": 0.44
+  },
+  {
+   "t0": 312.8667,
+   "t1": 317.3333,
+   "frames": 134,
+   "kind": "clip",
+   "clip_id": "doctors_cave_c_3",
+   "video_id": "p84Z1h0RkwY",
+   "creator": "Adam & Ellie",
+   "file": "jobs/jamaica-v6-full/clips/p84Z1h0RkwY_563-572.mp4",
+   "file_in": 2.27,
+   "play_speed": 1.0,
+   "src_in": 565.27,
+   "src_out": 569.737,
+   "tag": "doctors-cave,beach",
+   "shows": [
+    "doctors-cave",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 4.394,
+    "mot_min": 3.089,
+    "y_mean": 129.5,
+    "y_min": 126.9,
+    "dh": [
+     6953593923200981115,
+     6971748251083647592,
+     16924668146637988264,
+     6108147767080233258,
+     4387777115787022982
+    ]
+   },
+   "parent": "doctors_cave_c_3",
+   "line": 38,
+   "audio_ok": true,
+   "place": "Doctor's Cave Beach, cruise-day visit",
+   "subject": "doctors-cave-water-c-3",
+   "handheld": false,
+   "ton_max": 0.0
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "lower",
+   "t0": 5.354,
+   "t1": 9.854,
+   "text": "TRANSFER · TAXI · RENTAL",
+   "sub": "Three ways from MBJ to your hotel"
+  },
+  {
+   "kind": "disclosure",
+   "t0": 15.641,
+   "t1": 24.641,
+   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+  },
+  {
+   "kind": "chapter",
+   "t0": 39.446,
+   "t1": 43.046,
+   "text": "1. Landing at Sangster (MBJ): Arrival and C5 Entry Rules",
+   "number": 1
+  },
+  {
+   "kind": "lower",
+   "t0": 44.061,
+   "t1": 48.561,
+   "text": "SANGSTER INTERNATIONAL",
+   "sub": "Airport code MBJ"
+  },
+  {
+   "kind": "mapinset",
+   "t0": 52.73,
+   "t1": 58.479,
+   "text": "MBJ → Montego Bay · Negril · Ocho Rios",
+   "route": [
+    "airport",
+    "mobay",
+    "negril"
+   ],
+   "focus": "airport",
+   "focusFrom": null
+  },
+  {
+   "kind": "mapinset",
+   "t0": 58.979,
+   "t1": 65.979,
+   "text": "Three international airports",
+   "route": [
+    "airport",
+    "ocho",
+    "kingston"
+   ],
+   "focus": "kingston",
+   "focusFrom": null
+  },
+  {
+   "kind": "prompt",
+   "t0": 82.47500000000001,
+   "t1": 88.47500000000001,
+   "badge": "COMMENT",
+   "text": "First time in Montego Bay?",
+   "spoken": true
+  },
+  {
+   "kind": "lower",
+   "t0": 90.563,
+   "t1": 95.063,
+   "text": "C5 FORM",
+   "sub": "Immigration and customs, online before you fly"
+  },
+  {
+   "kind": "prompt",
+   "t0": 128.337,
+   "t1": 134.337,
+   "badge": "LIKE",
+   "text": "Saved you a headache? Tap like",
+   "spoken": true
+  },
+  {
+   "kind": "chapter",
+   "t0": 136.604,
+   "t1": 140.204,
+   "text": "2. Montego Bay Airport to Hotel: Transfer, Taxi or Rental",
+   "number": 2
+  },
+  {
+   "kind": "lower",
+   "t0": 149.002,
+   "t1": 153.502,
+   "text": "1 · PRIVATE TRANSFER",
+   "sub": "Pre-booked, driver meets you"
+  },
+  {
+   "kind": "lower",
+   "t0": 170.86700000000002,
+   "t1": 175.36700000000002,
+   "text": "2 · AUTHORISED TAXI",
+   "sub": "JUTA and JCAL desk, outside customs"
+  },
+  {
+   "kind": "lower",
+   "t0": 189.083,
+   "t1": 193.583,
+   "text": "3 · RENTAL CAR",
+   "sub": "Drive on the left"
+  },
+  {
+   "kind": "prompt",
+   "t0": 198.869,
+   "t1": 204.869,
+   "badge": "LINK BELOW",
+   "text": "Transfer, taxi or rental? Compare in the description",
+   "spoken": true
+  },
+  {
+   "kind": "chapter",
+   "t0": 207.674,
+   "t1": 211.274,
+   "text": "3. Beaches near MBJ, plus Money, Water and Safety Tips",
+   "number": 3
+  },
+  {
+   "kind": "lower",
+   "t0": 212.493,
+   "t1": 216.993,
+   "text": "DOCTOR'S CAVE BEACH",
+   "sub": "Montego Bay, Hip Strip"
+  },
+  {
+   "kind": "mapinset",
+   "t0": 227.29100000000003,
+   "t1": 234.29100000000003,
+   "text": "Montego Bay → Negril",
+   "route": [
+    "airport",
+    "mobay",
+    "negril"
+   ],
+   "focus": "negril",
+   "focusFrom": null
+  },
+  {
+   "kind": "lower",
+   "t0": 227.39100000000002,
+   "t1": 231.89100000000002,
+   "text": "NEGRIL",
+   "sub": "Seven-mile beach"
+  },
+  {
+   "kind": "mapinset",
+   "t0": 241.57600000000002,
+   "t1": 248.57600000000002,
+   "text": "Ocho Rios, north coast",
+   "route": [
+    "airport",
+    "ocho"
+   ],
+   "focus": "ocho",
+   "focusFrom": null
+  },
+  {
+   "kind": "lower",
+   "t0": 250.963,
+   "t1": 255.463,
+   "text": "DUNN'S RIVER FALLS",
+   "sub": "Ocho Rios"
+  },
+  {
+   "kind": "prompt",
+   "t0": 256.60699999999997,
+   "t1": 262.60699999999997,
+   "badge": "SUBSCRIBE",
+   "text": "Beach, cliffs or waterfall?",
+   "spoken": true
+  },
+  {
+   "kind": "prompt",
+   "t0": 304.109,
+   "t1": 310.109,
+   "badge": "SUBSCRIBE",
+   "text": "Subscribe for the next arrival guide",
+   "spoken": true
+  },
+  {
+   "kind": "endcard",
+   "t0": 312.335,
+   "t1": 317.335,
+   "text": "ENJOY MONTEGO BAY",
+   "lines": [
+    "Compare airport transfers: link in the description",
+    "Subscribe for the next arrival guide"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "t0": 0.3,
+   "t1": 4.78,
+   "text": "Just landed in Montego Bay, and not sure how you'll get to your hotel?",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "approach",
+    "air-arrival"
+   ]
+  },
+  {
+   "t0": 4.954,
+   "t1": 11.12,
+   "text": "Three easy ways: a pre-booked private transfer, an authorised airport taxi, or a rental car.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "touchdown",
+    "plane-taxi"
+   ]
+  },
+  {
+   "t0": 11.452,
+   "t1": 13.308,
+   "text": "Let's get you to the beach.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "beach-aerial",
+    "beach"
+   ]
+  },
+  {
+   "t0": 15.641,
+   "t1": 27.46,
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "disclosure": true,
+   "facts": [],
+   "need": [
+    "resort-aerial",
+    "sea-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "t0": 28.128,
+   "t1": 38.283,
+   "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+   "disclosure": false,
+   "facts": [
+    "f9020"
+   ],
+   "need": [
+    "sea-aerial",
+    "island-aerial",
+    "coast-road-aerial"
+   ]
+  },
+  {
+   "t0": 39.446,
+   "t1": 43.393,
+   "text": "Welcome to Jamaica, and welcome to Sangster International.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "apron",
+    "plane-taxi"
+   ]
+  },
+  {
+   "t0": 43.661,
+   "t1": 52.109,
+   "text": "Most visitors land right here in Montego Bay; Sangster handles the large majority of the island's tourist arrivals.",
+   "disclosure": false,
+   "facts": [
+    "f068"
+   ],
+   "need": [
+    "airport-terminal",
+    "apron",
+    "plane-taxi"
+   ]
+  },
+  {
+   "t0": 52.43,
+   "t1": 58.36,
+   "text": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negril.",
+   "disclosure": false,
+   "facts": [
+    "f873"
+   ],
+   "need": [
+    "coast-approach",
+    "sea-aerial",
+    "mobay-aerial"
+   ]
+  },
+  {
+   "t0": 58.679,
+   "t1": 70.093,
+   "text": "This guide is for Sangster. Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios, get their own arrival guides.",
+   "disclosure": false,
+   "facts": [
+    "f2001",
+    "f069"
+   ],
+   "need": [
+    "island-aerial",
+    "portland-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 70.47,
+   "t1": 81.862,
+   "text": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly.",
+   "disclosure": false,
+   "facts": [
+    "f872"
+   ],
+   "need": [
+    "coast-road-aerial",
+    "island-aerial",
+    "runaway-aerial",
+    "portland-aerial"
+   ]
+  },
+  {
+   "t0": 82.275,
+   "t1": 87.694,
+   "text": "Is this your first time landing in Montego Bay? Tell us in the comments where you're staying.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "resort-aerial",
+    "beach-aerial",
+    "runaway-aerial"
+   ]
+  },
+  {
+   "t0": 88.379,
+   "t1": 89.851,
+   "text": "Now, the paperwork.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "island-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 90.163,
+   "t1": 99.976,
+   "text": "Before you fly, fill in the immigration and customs C5 form online. Sangster's operator says it has to be done before arrival.",
+   "disclosure": false,
+   "facts": [
+    "f589",
+    "f2011"
+   ],
+   "need": [
+    "airport-terminal",
+    "apron",
+    "island-aerial"
+   ]
+  },
+  {
+   "t0": 100.302,
+   "t1": 105.102,
+   "text": "You'll need a valid passport and, if you're not a resident, a return ticket.",
+   "disclosure": false,
+   "facts": [
+    "f2011"
+   ],
+   "need": [
+    "resort-aerial",
+    "runaway-aerial",
+    "beach-aerial"
+   ]
+  },
+  {
+   "t0": 105.401,
+   "t1": 115.299,
+   "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
+   "disclosure": false,
+   "facts": [
+    "f584"
+   ],
+   "need": [
+    "island-aerial",
+    "portland-aerial",
+    "ocho-aerial",
+    "coast-road-aerial"
+   ]
+  },
+  {
+   "t0": 115.664,
+   "t1": 122.832,
+   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+   "disclosure": false,
+   "facts": [
+    "f590",
+    "f591"
+   ],
+   "need": [
+    "highway-aerial",
+    "island-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 123.137,
+   "t1": 127.745,
+   "text": "And pack your own bags: never carry anything through customs for anyone else.",
+   "disclosure": false,
+   "facts": [
+    "f626"
+   ],
+   "need": [
+    "sea-aerial",
+    "kite",
+    "island-aerial"
+   ]
+  },
+  {
+   "t0": 128.137,
+   "t1": 135.22,
+   "text": "If this checklist just saved you a headache at the gate, tap like; it tells us to make more arrival guides like this one.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "resort-aerial",
+    "runaway-aerial",
+    "ocho-aerial"
+   ]
+  },
+  {
+   "t0": 136.604,
+   "t1": 139.804,
+   "text": "Through customs? Here's how to get to your hotel.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "airport-curb",
+    "road-to-airport"
+   ]
+  },
+  {
+   "t0": 140.166,
+   "t1": 148.251,
+   "text": "Car hire, hotel shuttles and taxis are all in the Ground Transportation Arrivals Hall, just outside the customs area.",
+   "disclosure": false,
+   "facts": [
+    "f2013"
+   ],
+   "need": [
+    "road-to-airport",
+    "driving"
+   ]
+  },
+  {
+   "t0": 148.602,
+   "t1": 158.863,
+   "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after a long flight.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "highway-aerial",
+    "coast-road-aerial",
+    "driving"
+   ]
+  },
+  {
+   "t0": 159.181,
+   "t1": 170.125,
+   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "driving",
+    "highway-aerial"
+   ]
+  },
+  {
+   "t0": 170.467,
+   "t1": 179.96,
+   "text": "Option two, an authorised airport taxi. JUTA and JCAL share an Authorised Airport Taxi desk just outside the customs exit.",
+   "disclosure": false,
+   "facts": [
+    "f2010"
+   ],
+   "need": [
+    "road-to-airport",
+    "driving"
+   ]
+  },
+  {
+   "t0": 180.258,
+   "t1": 188.344,
+   "text": "Canada advises using only authorised taxis, with red and white PP plates, and avoiding unmarked cars.",
+   "disclosure": false,
+   "facts": [
+    "f669",
+    "f2063"
+   ],
+   "need": [
+    "driving",
+    "road-to-airport"
+   ]
+  },
+  {
+   "t0": 188.683,
+   "t1": 198.325,
+   "text": "Option three, a rental car. Jamaica drives on the left, and inland roads can be narrow and winding, so stay on main roads where you can.",
+   "disclosure": false,
+   "facts": [
+    "f1014",
+    "f665",
+    "f672"
+   ],
+   "need": [
+    "driving",
+    "highway-aerial"
+   ]
+  },
+  {
+   "t0": 198.669,
+   "t1": 206.435,
+   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "resort-aerial",
+    "runaway-aerial",
+    "ocho-aerial"
+   ]
+  },
+  {
+   "t0": 207.674,
+   "t1": 209.936,
+   "text": "Now, the best part: the beaches.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "doctors-cave",
+    "beach"
+   ]
+  },
+  {
+   "t0": 212.093,
+   "t1": 219.88,
+   "text": "On Montego Bay's Hip Strip, Doctor's Cave Beach is gentle, shallow and fine-sand, and it's open to the public.",
+   "disclosure": false,
+   "facts": [
+    "f9000",
+    "f263"
+   ],
+   "need": [
+    "doctors-cave"
+   ]
+  },
+  {
+   "t0": 220.223,
+   "t1": 226.601,
+   "text": "The Hip Strip itself, Gloucester Avenue, is a full mile of restaurants, entertainment and shopping.",
+   "disclosure": false,
+   "facts": [
+    "f259",
+    "f9140"
+   ],
+   "need": [
+    "mobay-aerial",
+    "beach-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 226.991,
+   "t1": 234.842,
+   "text": "Head west to Negril, the island's westernmost town, with a seven-mile stretch of beach and cliffs overlooking the sea.",
+   "disclosure": false,
+   "facts": [
+    "f243"
+   ],
+   "need": [
+    "negril-aerial",
+    "negril-beach"
+   ]
+  },
+  {
+   "t0": 235.143,
+   "t1": 240.946,
+   "text": "Long, calm sand on one side of town, and cliffs dropping into clear water on the other.",
+   "disclosure": false,
+   "facts": [
+    "f243"
+   ],
+   "need": [
+    "negril-water",
+    "negril-beach",
+    "negril-aerial"
+   ]
+  },
+  {
+   "t0": 241.276,
+   "t1": 250.172,
+   "text": "Along the north coast, Ocho Rios is home to Dunn's River, one of the few waterfalls in the world that empties straight into the sea.",
+   "disclosure": false,
+   "facts": [
+    "f902"
+   ],
+   "need": [
+    "ocho-aerial",
+    "dunns"
+   ]
+  },
+  {
+   "t0": 250.563,
+   "t1": 256.045,
+   "text": "Water shoes make the climb safer, and they're sold at the entrance if you forget yours.",
+   "disclosure": false,
+   "facts": [
+    "f904"
+   ],
+   "need": [
+    "dunns"
+   ]
+  },
+  {
+   "t0": 256.407,
+   "t1": 261.613,
+   "text": "Beach, cliffs or waterfall? Hit subscribe and tell us which one is first on your list.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "ocho-beach",
+    "beach"
+   ]
+  },
+  {
+   "t0": 264.266,
+   "t1": 269.599,
+   "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
+   "disclosure": false,
+   "facts": [
+    "f615"
+   ],
+   "need": [
+    "runaway-aerial",
+    "resort-aerial",
+    "ocho-aerial"
+   ]
+  },
+  {
+   "t0": 269.934,
+   "t1": 280.302,
+   "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "disclosure": false,
+   "facts": [
+    "f3014"
+   ],
+   "need": [
+    "ocho-aerial",
+    "ocho-cruise",
+    "resort-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 280.695,
+   "t1": 292.108,
+   "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+   "disclosure": false,
+   "facts": [
+    "f1024",
+    "f1025"
+   ],
+   "need": [
+    "rafting",
+    "waterfall",
+    "calm-sea",
+    "beach"
+   ]
+  },
+  {
+   "t0": 292.561,
+   "t1": 303.59,
+   "text": "So, the short version. Fill in your C5 form before you fly. Pick your ride before you land: transfer, authorised taxi or rental. Then pick your coast.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "portland-aerial",
+    "runaway-aerial",
+    "ocho-aerial",
+    "island-aerial"
+   ]
+  },
+  {
+   "t0": 303.909,
+   "t1": 310.736,
+   "text": "Subscribe for the next arrival guide, and enjoy every sunny minute in Jamaica. See you on the next trip!",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "negril-beach",
+    "beach",
+    "beach-aerial"
+   ]
+  }
+ ],
+ "audio": {
+  "narration": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/narration.wav",
+  "music": "none",
+  "ambient": [
+   {
+    "t0": 11.4667,
+    "t1": 15.6333,
+    "video_id": "TILQzsOE8mg",
+    "licence_ok": true
+   },
+   {
+    "t0": 207.6667,
+    "t1": 212.1,
+    "video_id": "p84Z1h0RkwY",
+    "licence_ok": true
+   },
+   {
+    "t0": 216.1667,
+    "t1": 220.2333,
+    "video_id": "p84Z1h0RkwY",
+    "licence_ok": true
+   },
+   {
+    "t0": 235.1333,
+    "t1": 241.2667,
+    "video_id": "uZG3PnwB1bY",
+    "licence_ok": true
+   },
+   {
+    "t0": 256.4,
+    "t1": 260.3333,
+    "video_id": "TILQzsOE8mg",
+    "licence_ok": true
+   },
+   {
+    "t0": 260.3333,
+    "t1": 264.2667,
+    "video_id": "TILQzsOE8mg",
+    "licence_ok": true
+   },
+   {
+    "t0": 312.8667,
+    "t1": 317.3333,
+    "video_id": "p84Z1h0RkwY",
+    "licence_ok": true
+   }
+  ]
+ },
+ "offtag_shots": [],
+ "banned": [],
+ "lifts": [
+  {
+   "t0": 13.458,
+   "t1": 15.058,
+   "line": 2
+  },
+  {
+   "t0": 210.086,
+   "t1": 211.686,
+   "line": 26
+  },
+  {
+   "t0": 261.763,
+   "t1": 263.363,
+   "line": 33
+  }
+ ],
+ "lift_min_count": 3,
+ "needs_footage": [],
+ "scope": "full",
+ "narration_stt": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Just landed in Montego Bay and not sure how you'll get to your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "Three easy ways – a pre-booked private transfer, an authorized airport taxi, or a rental car."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "beach",
+   "last_word_heard": true,
+   "heard": "Let's get you to the beach."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "do",
+   "last_word_heard": true,
+   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "today",
+   "last_word_heard": true,
+   "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today."
+  },
+  {
+   "line": 5,
+   "recall": 0.875,
+   "last_word": "international",
+   "last_word_heard": true,
+   "heard": "Welcome to Jamaica, and welcome to Sankster International."
+  },
+  {
+   "line": 6,
+   "recall": 0.944,
+   "last_word": "arrivals",
+   "last_word_heard": true,
+   "heard": "Most visitors land right here in Montego Bay. Sanxter handles the large majority of the island's tourist arrivals."
+  },
+  {
+   "line": 7,
+   "recall": 1.0,
+   "last_word": "negril",
+   "last_word_heard": true,
+   "heard": "It's the most convenient way in if you're heading to Montego Bay, Ocho Rios or Negrill."
+  },
+  {
+   "line": 8,
+   "recall": 0.96,
+   "last_word": "guides",
+   "last_word_heard": true,
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides."
+  },
+  {
+   "line": 9,
+   "recall": 1.0,
+   "last_word": "fly",
+   "last_word_heard": true,
+   "heard": "After Hurricane Melissa, the tourist board records that all international and domestic airports are open for commercial flights. Just check with your airline before you fly."
+  },
+  {
+   "line": 10,
+   "recall": 1.0,
+   "last_word": "staying",
+   "last_word_heard": true,
+   "heard": "Is this your first time landing in Montego Bay? Tell us in the comments where you're staying."
+  },
+  {
+   "line": 11,
+   "recall": 1.0,
+   "last_word": "paperwork",
+   "last_word_heard": true,
+   "heard": "Now the paperwork."
+  },
+  {
+   "line": 12,
+   "recall": 0.955,
+   "last_word": "arrival",
+   "last_word_heard": true,
+   "heard": "Before you fly, fill in the immigration and customs C5 form online. Sankster's operator says it has to be done before arrival."
+  },
+  {
+   "line": 13,
+   "recall": 1.0,
+   "last_word": "ticket",
+   "last_word_heard": true,
+   "heard": "You'll need a valid passport, and if you're not a resident, a return ticket."
+  },
+  {
+   "line": 14,
+   "recall": 0.962,
+   "last_word": "passport",
+   "last_word_heard": true,
+   "heard": "British visitors don't need a visa and are usually granted entry for up to 90 days. Other nationalities should check the rules for their own passport."
+  },
+  {
+   "line": 15,
+   "recall": 1.0,
+   "last_word": "home",
+   "last_word_heard": true,
+   "heard": "At customs, declare anything prohibited or subject to duty and leave meat and dairy products at home."
+  },
+  {
+   "line": 16,
+   "recall": 1.0,
+   "last_word": "else",
+   "last_word_heard": true,
+   "heard": "and pack your own bags, never carry anything through customs for anyone else."
+  },
+  {
+   "line": 17,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "If this checklist just saved you a headache at the gate, tap like, it tells us to make more arrival guides like this one."
+  },
+  {
+   "line": 18,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Through customs, here's how to get to your hotel."
+  },
+  {
+   "line": 19,
+   "recall": 0.895,
+   "last_word": "area",
+   "last_word_heard": true,
+   "heard": "Ka Haya, hotel shuttles and taxis are all in the ground transportation arrivals hall, just outside the customs area."
+  },
+  {
+   "line": 20,
+   "recall": 1.0,
+   "last_word": "flight",
+   "last_word_heard": true,
+   "heard": "Option 1 is the calmest. A pre-booked private transfer. Your driver is arranged before you land so there's no hunting for a ride after a long flight."
+  },
+  {
+   "line": 21,
+   "recall": 1.0,
+   "last_word": "fixed",
+   "last_word_heard": true,
+   "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed."
+  },
+  {
+   "line": 22,
+   "recall": 0.9,
+   "last_word": "exit",
+   "last_word_heard": true,
+   "heard": "Option 2, an authorized airport taxi. Jutar and Jay Kal share an authorized airport taxi desk just outside the customs exit."
+  },
+  {
+   "line": 23,
+   "recall": 0.938,
+   "last_word": "cars",
+   "last_word_heard": true,
+   "heard": "Canada advises using only authorised taxis with red and white P.P. plates and avoiding unmarked cars."
+  },
+  {
+   "line": 24,
+   "recall": 1.0,
+   "last_word": "can",
+   "last_word_heard": true,
+   "heard": "Option 3, a rental car. Jamaica drives on the left and inland roads can be narrow and winding, so stay on main roads where you can."
+  },
+  {
+   "line": 25,
+   "recall": 1.0,
+   "last_word": "description",
+   "last_word_heard": true,
+   "heard": "Which one are you picking? Transfer, taxi or rental? Tell us below and the transfer comparison link is in the description."
+  },
+  {
+   "line": 26,
+   "recall": 1.0,
+   "last_word": "beaches",
+   "last_word_heard": true,
+   "heard": "Now the best part, the beaches."
+  },
+  {
+   "line": 27,
+   "recall": 1.0,
+   "last_word": "public",
+   "last_word_heard": true,
+   "heard": "On Montego Bay's hip strip, Doctors Cave Beach is gentle, shallow and fine sand, and it's open to the public."
+  },
+  {
+   "line": 28,
+   "recall": 1.0,
+   "last_word": "shopping",
+   "last_word_heard": true,
+   "heard": "The hip strip itself, Gloucester Avenue, is a full mile of restaurants, entertainment and shopping."
+  },
+  {
+   "line": 29,
+   "recall": 0.95,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Head west to Nagrill, the island's westernmost town with a 7-mile stretch of beach and cliffs overlooking the sea."
+  },
+  {
+   "line": 30,
+   "recall": 1.0,
+   "last_word": "other",
+   "last_word_heard": true,
+   "heard": "Long, calm sand on one side of town and cliffs dropping into clear water on the other."
+  },
+  {
+   "line": 31,
+   "recall": 0.96,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Along the north coast, Ocho Rios is home to Duns River, one of the few waterfalls in the world that empties straight into the sea."
+  },
+  {
+   "line": 32,
+   "recall": 0.938,
+   "last_word": "yours",
+   "last_word_heard": true,
+   "heard": "Water shoes make the climb safer and they are sold at the entrance if you forget yours."
+  },
+  {
+   "line": 33,
+   "recall": 1.0,
+   "last_word": "list",
+   "last_word_heard": true,
+   "heard": "Beach, Cliffs or Waterfall, hit subscribe and tell us which one is first on your list."
+  },
+  {
+   "line": 34,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "A few last tips, don't show off valuables and never leave anything in a parked car."
+  },
+  {
+   "line": 35,
+   "recall": 1.0,
+   "last_word": "bay",
+   "last_word_heard": true,
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay."
+  },
+  {
+   "line": 36,
+   "recall": 1.0,
+   "last_word": "arrive",
+   "last_word_heard": true,
+   "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive."
+  },
+  {
+   "line": 37,
+   "recall": 1.0,
+   "last_word": "coast",
+   "last_word_heard": true,
+   "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, authorize taxi or rental, then pick your coast."
+  },
+  {
+   "line": 38,
+   "recall": 1.0,
+   "last_word": "trip",
+   "last_word_heard": true,
+   "heard": "Subscribe for the next Arrival Guide and enjoy every sunny minute in Jamaica. See you on the next trip!"
+  }
+ ]
+}

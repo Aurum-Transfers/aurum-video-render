@@ -26,3 +26,10 @@ Completed-book list (box copy of TITLE_TRACKER.csv, 2026-11-09 21:18 EST; PC off
 - Added sources (CC BY, watch pages in pool/jamaica/licence): Ymw6leiGhXw, onzcja6gqlw, OaDLJ5KtI2Y (Chris Cafiero, Runaway Bay drone), 55-rBgI1MUA (Driving Time, highway). Rejected: jSOlgxRqZWw (static), RKkN8qAstc0 (watermark), 2-g8Rv4v7Eg (faces).
 - Chapters merged to 3 (60-120 s gate). Line 7 reworded ("the large majority", fact f068) for STT recall; re-TTS done (312.33 s).
 - Plan status before these edits: 9 gaps, failed chapters/landing/cue/narration -> fixes applied, re-plan pending.
+
+## 2026-11-10 ~22:45 EST — plan PASS, EDL locked
+- Planner on box: pass, 0 gaps, 70 shots, median 4.42 s, footage 100 %, 3 lifts, 317.3 s. Max creator share Chris Cafiero ~0.20.
+- doctors_cave_b dropped (lap 23.5 on its used window).
+- New tools/lock_release.py: cuts one short window per used clip (+1.5 s), writes edl-lock.json + release footage.json (planning lib kept in build/footage-plan.json). title_runner plan now re-runs all gates on edl-lock.json (AURUM_REPLAN=1 to re-plan).
+- Locked EDL re-QC'd on the windows: all pre-render gates pass.
+- Release exposure per source (union of windows / source length): max OTRnEh4qUwE 29/55 s (53 %, a 55-s promo), uZG3PnwB1bY 10/22 s; all others <= 37 %. No full sources.

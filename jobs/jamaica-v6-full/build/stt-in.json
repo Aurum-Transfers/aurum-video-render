@@ -26,7 +26,7 @@
   },
   {
    "i": 6,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s006-0735e07f99.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s006-688a78fb67.wav"
   },
   {
    "i": 7,
@@ -34,7 +34,7 @@
   },
   {
    "i": 8,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s008-bdbe231e46.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s008-7a43044308.wav"
   },
   {
    "i": 9,
@@ -134,31 +134,27 @@
   },
   {
    "i": 33,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s033-299360297b.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s033-0a933615e2.wav"
   },
   {
    "i": 34,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s034-01a0c7b37c.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s034-f720a60b90.wav"
   },
   {
    "i": 35,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s035-f720a60b90.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s035-865173a653.wav"
   },
   {
    "i": 36,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s036-865173a653.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s036-cb0dd6573b.wav"
   },
   {
    "i": 37,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s037-cb0dd6573b.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s037-6699d33c3c.wav"
   },
   {
    "i": 38,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s038-6699d33c3c.wav"
-  },
-  {
-   "i": 39,
-   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s039-18a44d31ad.wav"
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-v6-full/build/tts/s038-18a44d31ad.wav"
   }
  ]
 }

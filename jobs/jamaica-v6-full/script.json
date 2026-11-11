@@ -48,7 +48,7 @@
     "negril_clear_water"
    ],
    "need": [
-    "negril-water",
+    "beach-aerial",
     "beach"
    ]
   },
@@ -456,6 +456,7 @@
    "pause": 0.35,
    "shots": 1,
    "need": [
+    "negril-water",
     "negril-beach",
     "negril-aerial"
    ]

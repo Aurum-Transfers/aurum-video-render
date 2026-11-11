@@ -227,6 +227,22 @@ print(json.dumps(out))
 
     # ------------------------------------------------------------------ plan
     def plan(self):
+        lock = self.wd / "edl-lock.json"
+        if lock.exists() and not os.environ.get("AURUM_REPLAN"):
+            # Locked EDL: the cut was planned on the box from longer range files; the release carries only short windows
+            # around each used shot (no near-full sources in a public release). Re-run every pre-render gate on it.
+            edl = lj(lock)
+            edl["created"] = now()
+            edl["audio"]["narration"] = str(self.b / "narration.wav")
+            sj(self.b / "edl-long.json", edl)
+            self.licence_log(edl["shots"])
+            res = spec_gates.evaluate(edl, spec_gates.read_rows(self.wd / "licence-log.csv"), None, root=self.wd)
+            sj(self.out / "scorecard-pre-render.json", {"created": now(), "stage": "pre-render (locked EDL)", **res})
+            fs = [x["t1"] - x["t0"] for x in edl["shots"]]
+            print(json.dumps({"pass": res["pass"], "failed": res["failed"], "locked": True, "shots": len(fs), "median_shot": round(statistics.median(fs), 2),
+                              "footage_ratio": res["gates"]["footage_ratio_ge_80"]["detail"]["ratio"], "needs_footage": len(edl.get("needs_footage") or []),
+                              "duration_s": edl["duration_s"]}, ensure_ascii=False))
+            return
         tm = lj(self.b / "timing.json")
         lines = self.script["lines"]
         nl = tm["lines"]

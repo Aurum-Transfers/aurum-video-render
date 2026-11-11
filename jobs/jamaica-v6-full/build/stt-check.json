@@ -1,5 +1,5 @@
 {
- "created": "2026-11-10T20:53:55-05:00",
+ "created": "2026-11-10T21:36:47-05:00",
  "voice": "bm_george",
  "lang": "en-gb",
  "checks": [
@@ -24,13 +24,13 @@
   {
    "line": 6,
    "name": "Sangster",
-   "heard": "Most visitors land right here in Montego Bay. Sankster handles over 70% of the island's tourist arrivals.",
+   "heard": "Most visitors land right here in Montego Bay. Sanxter handles the large majority of the island's tourist arrivals.",
    "round_trip_ok": true
   },
   {
    "line": 6,
    "name": "Montego Bay",
-   "heard": "Most visitors land right here in Montego Bay. Sankster handles over 70% of the island's tourist arrivals.",
+   "heard": "Most visitors land right here in Montego Bay. Sanxter handles the large majority of the island's tourist arrivals.",
    "round_trip_ok": true
   },
   {
@@ -53,26 +53,32 @@
   },
   {
    "line": 8,
+   "name": "Sangster",
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
    "name": "Ocho Rios",
-   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides.",
    "round_trip_ok": true
   },
   {
    "line": 8,
    "name": "Kingston",
-   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides.",
    "round_trip_ok": true
   },
   {
    "line": 8,
    "name": "Norman Manley",
-   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides.",
    "round_trip_ok": true
   },
   {
    "line": 8,
    "name": "Ian Fleming",
-   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios.",
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides.",
    "round_trip_ok": true
   },
   {
@@ -148,31 +154,25 @@
    "round_trip_ok": true
   },
   {
-   "line": 33,
-   "name": "Port Antonio",
-   "heard": "Further east, Port Antonio has the Blue Lagoon, where cold spring water rises to meet the warm sea.",
-   "round_trip_ok": true
-  },
-  {
-   "line": 36,
+   "line": 35,
    "name": "Montego Bay",
    "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
    "round_trip_ok": true
   },
   {
-   "line": 36,
+   "line": 35,
    "name": "Kingston",
    "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
    "round_trip_ok": true
   },
   {
-   "line": 37,
+   "line": 36,
    "name": "Melissa",
    "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive.",
    "round_trip_ok": true
   },
   {
-   "line": 38,
+   "line": 37,
    "name": "C5",
    "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, authorize taxi or rental, then pick your coast.",
    "round_trip_ok": true
@@ -226,10 +226,10 @@
   },
   {
    "line": 6,
-   "recall": 0.789,
+   "recall": 0.944,
    "last_word": "arrivals",
    "last_word_heard": true,
-   "heard": "Most visitors land right here in Montego Bay. Sankster handles over 70% of the island's tourist arrivals."
+   "heard": "Most visitors land right here in Montego Bay. Sanxter handles the large majority of the island's tourist arrivals."
   },
   {
    "line": 7,
@@ -240,10 +240,10 @@
   },
   {
    "line": 8,
-   "recall": 1.0,
-   "last_word": "rios",
+   "recall": 0.96,
+   "last_word": "guides",
    "last_word_heard": true,
-   "heard": "Jamaica has two other international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios."
+   "heard": "This guide is for Sankster, Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming, near Ocho Rios, get their own arrival guides."
   },
   {
    "line": 9,
@@ -416,47 +416,40 @@
   {
    "line": 33,
    "recall": 1.0,
-   "last_word": "sea",
+   "last_word": "list",
    "last_word_heard": true,
-   "heard": "Further east, Port Antonio has the Blue Lagoon, where cold spring water rises to meet the warm sea."
+   "heard": "Beach, Cliffs or Waterfall, hit subscribe and tell us which one is first on your list."
   },
   {
    "line": 34,
-   "recall": 1.0,
-   "last_word": "list",
-   "last_word_heard": true,
-   "heard": "Beach, Waterfall or Lagoon, hit subscribe and tell us which one is first on your list."
-  },
-  {
-   "line": 35,
    "recall": 1.0,
    "last_word": "car",
    "last_word_heard": true,
    "heard": "A few last tips, don't show off valuables and never leave anything in a parked car."
   },
   {
-   "line": 36,
+   "line": 35,
    "recall": 1.0,
    "last_word": "bay",
    "last_word_heard": true,
    "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay."
   },
   {
-   "line": 37,
+   "line": 36,
    "recall": 1.0,
    "last_word": "arrive",
    "last_word_heard": true,
    "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive."
   },
   {
-   "line": 38,
+   "line": 37,
    "recall": 1.0,
    "last_word": "coast",
    "last_word_heard": true,
    "heard": "So the short version, fill in your C5 form before you fly, pick your ride before you land, transfer, authorize taxi or rental, then pick your coast."
   },
   {
-   "line": 39,
+   "line": 38,
    "recall": 1.0,
    "last_word": "trip",
    "last_word_heard": true,
