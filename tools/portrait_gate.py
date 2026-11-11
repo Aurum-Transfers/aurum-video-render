@@ -5,8 +5,9 @@ Pre-render (--edl): every clip shot of a landscape source must carry a reframe (
 be portrait; shots without one would fall back to a plain centre crop -> FAIL (subject not tracked).
 Output (--video): stream must be 1080x1920; 16 frames sampled; a frame FAILS when
   letterbox: the top and bottom 12 % bands are near-uniform (row std < 6) while the middle has detail, or
-  blur-pad: the top/bottom 20 % bands are much softer than the middle (Laplacian var ratio < 0.12) AND there is a
-            sharp horizontal seam where a centred 16:9 inset would end (rows 0.33h / 0.67h) .
+  blur-pad: the top/bottom 20 % bands are much softer than the middle (Laplacian var ratio < 0.12) AND there are
+            sharp horizontal seams at BOTH edges of a centred 16:9 inset (rows 0.33h AND 0.67h). One seam alone
+            (a dashboard, horizon or cloud layer) is not a pad.
 Any failed frame fails the gate. Exit 0 pass, 1 fail; JSON on stdout. Also importable: check_edl(), check_video().
 
 usage: portrait_gate.py [--edl EDL.json] [--video OUT.mp4] [--write RESULT.json]
@@ -56,7 +57,13 @@ def check_video(path, n=16):
         t20, b20, m = a[: int(H * .2)], a[-int(H * .2):], a[int(H * .36): int(H * .64)]
         soft = (lapvar(t20) + lapvar(b20)) / 2 / max(1e-3, lapvar(m)) < 0.12
         rows = np.abs(np.diff(a.mean(axis=1)))
-        seam = max(rows[int(H * .30): int(H * .36)].max(), rows[int(H * .64): int(H * .70)].max()) > 6 * (np.median(rows) + 0.5)
+        # Real 16:9 blur-pads have two strong, aligned seams (~100 after the 270x480 probe).
+        # A 6x-median threshold alone also fires on a faint tree-line plus a curb or caption.
+        thresh = max(6 * (np.median(rows) + 0.5), 24.0)
+        seam_top = rows[int(H * .30): int(H * .36)].max() > thresh
+        seam_bot = rows[int(H * .64): int(H * .70)].max() > thresh
+        # A centred 16:9 inset with blur bars has two seams. One horizon, curb or dashboard is not a pad.
+        seam = bool(seam_top and seam_bot)
         if letter or (soft and seam):
             bad.append({"t": round(t, 2), "letterbox": bool(letter), "blur_pad": bool(soft and seam)})
     return {"pass": not bad, "detail": {"frames": n, "bad": bad}}
