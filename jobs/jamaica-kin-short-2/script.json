@@ -1,0 +1,83 @@
+{
+ "slug": "jamaica-kin-short-2",
+ "title": "Flying to Kingston? Do this before you board",
+ "lines": [
+  {
+   "text": "Flying into Kingston? Do this before you board.",
+   "need": [
+    "approach",
+    "air-arrival",
+    "window-seat"
+   ],
+   "pause": 0.3,
+   "hook": true
+  },
+  {
+   "text": "Fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
+   "need": [
+    "kingston-aerial",
+    "jamaica-aerial"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "f589"
+   ],
+   "lower": {
+    "text": "C5 FORM",
+    "sub": "Online, before you fly"
+   }
+  },
+  {
+   "text": "Your passport must stay valid for your whole stay, and your airline's rules may be stricter.",
+   "need": [
+    "jamaica-aerial",
+    "kingston-aerial"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "f580",
+    "f679"
+   ]
+  },
+  {
+   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+   "need": [
+    "sea-aerial",
+    "jamaica-aerial"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "f590",
+    "f591"
+   ]
+  },
+  {
+   "text": "And never carry anything through customs for anyone else.",
+   "need": [
+    "driving",
+    "kingston-street"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "f626"
+   ],
+   "lift": 1.2
+  },
+  {
+   "text": "Then pick your ride: transfer, approved taxi or rental. The comparison link is in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "need": [
+    "palisadoes-road",
+    "driving"
+   ],
+   "pause": 0.6,
+   "disclosure": true
+  }
+ ],
+ "end_card": {
+  "text": "ENJOY KINGSTON",
+  "lines": [
+   "Compare airport transfers: link in the description",
+   "Subscribe for the next arrival guide"
+  ]
+ }
+}

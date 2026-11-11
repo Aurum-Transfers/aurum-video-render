@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-11T07:56:15-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 44.007,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 3.393,
+   "text": "Flying into Kingston? Do this before you board.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-2/build/tts/s000-f5b9ccbcbc.wav",
+   "sr": 24000,
+   "speed": 1.022
+  },
+  {
+   "i": 1,
+   "t0": 3.661,
+   "t1": 11.767,
+   "text": "Fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-2/build/tts/s001-af9210251e.wav",
+   "sr": 24000,
+   "speed": 0.93
+  },
+  {
+   "i": 2,
+   "t0": 12.079,
+   "t1": 17.903,
+   "text": "Your passport must stay valid for your whole stay, and your airline's rules may be stricter.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-2/build/tts/s002-8837a53a0a.wav",
+   "sr": 24000,
+   "speed": 0.931
+  },
+  {
+   "i": 3,
+   "t0": 18.204,
+   "t1": 25.372,
+   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-2/build/tts/s003-53f3cca38a.wav",
+   "sr": 24000,
+   "speed": 0.969
+  },
+  {
+   "i": 4,
+   "t0": 25.633,
+   "t1": 29.26,
+   "text": "And never carry anything through customs for anyone else.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-2/build/tts/s004-1423936374.wav",
+   "sr": 24000,
+   "speed": 1.026,
+   "lift": [
+    29.41,
+    30.61
+   ]
+  },
+  {
+   "i": 5,
+   "t0": 31.078,
+   "t1": 42.406,
+   "text": "Then pick your ride: transfer, approved taxi or rental. The comparison link is in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-kin-short-2/build/tts/s005-f4a43add25.wav",
+   "sr": 24000,
+   "speed": 1.008
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "created": "2026-11-11T07:58:25-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Kingston",
+   "heard": "Flying into Kingston, do this before you board.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 1,
+   "name": "C5",
+   "heard": "Fill in the immigration and customs, see five form online, and make your customs declaration before you arrive.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 2,
+ "total": 2,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "board",
+   "last_word_heard": true,
+   "heard": "Flying into Kingston, do this before you board."
+  },
+  {
+   "line": 1,
+   "recall": 0.941,
+   "last_word": "arrive",
+   "last_word_heard": true,
+   "heard": "Fill in the immigration and customs, see five form online, and make your customs declaration before you arrive."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "stricter",
+   "last_word_heard": true,
+   "heard": "Your passport must stay valid for your whole stay and your airline's rules may be stricter."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "home",
+   "last_word_heard": true,
+   "heard": "At customs, declare anything prohibited or subject to duty and leave meat and dairy products at home."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "else",
+   "last_word_heard": true,
+   "heard": "and never carry anything through customs for anyone else."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "then pick your ride, transfer, approved taxi or rental. The comparison link is in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}
