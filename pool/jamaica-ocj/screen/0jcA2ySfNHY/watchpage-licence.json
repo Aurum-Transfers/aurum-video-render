@@ -1,0 +1,18 @@
+{
+ "id": "0jcA2ySfNHY",
+ "title": "Driving around Rio Nuevo, St. Mary, Jamaica",
+ "channel": "Driving Time",
+ "channel_url": "https://www.youtube.com/channel/UCRK36g-UxXwxJQm-4MUCbiA",
+ "uploader": "Driving Time",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 1635,
+ "upload_date": "20240606",
+ "width": 3840,
+ "height": 2160,
+ "description": "",
+ "checked_at": "2026-11-10T22:45:10-05:00",
+ "url": "https://www.youtube.com/watch?v=0jcA2ySfNHY",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 60.0
+}

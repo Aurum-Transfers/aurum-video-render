@@ -1,0 +1,18 @@
+{
+ "id": "AlE-3xK7aEg",
+ "title": "Kingston, Jamaica: Driving from Mona Road to Barbican Road via Millsborough",
+ "channel": "Driving Time",
+ "channel_url": "https://www.youtube.com/channel/UCRK36g-UxXwxJQm-4MUCbiA",
+ "uploader": "Driving Time",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 750,
+ "upload_date": "20240718",
+ "width": 3840,
+ "height": 2160,
+ "description": "",
+ "checked_at": "2026-11-10T23:39:03-05:00",
+ "url": "https://www.youtube.com/watch?v=AlE-3xK7aEg",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 60.0
+}

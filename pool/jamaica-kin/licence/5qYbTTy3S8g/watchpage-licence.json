@@ -1,0 +1,18 @@
+{
+ "id": "5qYbTTy3S8g",
+ "title": "Timelapse just driving through Kingston",
+ "channel": "Spicy_FPV_Jamaica",
+ "channel_url": "https://www.youtube.com/channel/UCfkPnzndCxL1Owrk3_5Bbaw",
+ "uploader": "Spicy_FPV_Jamaica",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 127,
+ "upload_date": "20210927",
+ "width": 3840,
+ "height": 2160,
+ "description": "Normally, I'd get upset just sitting in traffic, but today, the traffic was actually moving surprisingly well for that time of day",
+ "checked_at": "2026-11-10T22:03:22-05:00",
+ "url": "https://www.youtube.com/watch?v=5qYbTTy3S8g",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 25.0
+}
