@@ -1,0 +1,85 @@
+{
+  "slug": "jamaica-ocj-short-2",
+  "title": "Ian Fleming (OCJ) arrival checklist",
+  "lines": [
+    {
+      "text": "Landing at Ian Fleming near Ocho Rios? Check this first.",
+      "need": [
+        "coast-approach",
+        "approach",
+        "air-arrival"
+      ],
+      "pause": 0.3,
+      "hook": true
+    },
+    {
+      "text": "Customs and immigration run daily from seven in the morning to seven in the evening; outside those hours, prior notice is required.",
+      "need": [
+        "sea-aerial",
+        "island-aerial"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "o003"
+      ],
+      "lower": {
+        "text": "07:00 to 19:00",
+        "sub": "Customs and immigration, daily"
+      }
+    },
+    {
+      "text": "Fill in the immigration and customs C5 form online before you fly.",
+      "need": [
+        "runaway-aerial",
+        "sea-aerial"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "f589"
+      ],
+      "lower": {
+        "text": "C5 FORM",
+        "sub": "Online, before you fly"
+      }
+    },
+    {
+      "text": "And leave meat and dairy products at home.",
+      "need": [
+        "resort-aerial",
+        "island-aerial"
+      ],
+      "pause": 0.3,
+      "facts": [
+        "f591"
+      ]
+    },
+    {
+      "text": "Then pick your ride before you land: transfer, taxi or rental.",
+      "need": [
+        "driving",
+        "highway",
+        "boscobel-road"
+      ],
+      "pause": 0.3,
+      "lift": 1.2
+    },
+    {
+      "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+      "need": [
+        "beach",
+        "ocho-aerial",
+        "ocho-beach",
+        "sea-aerial"
+      ],
+      "pause": 0.6,
+      "disclosure": true
+    }
+  ],
+  "end_card": {
+    "text": "ENJOY THE NORTH COAST",
+    "lines": [
+      "Compare airport transfers: link in the description",
+      "Subscribe for the next arrival guide"
+    ]
+  }
+}

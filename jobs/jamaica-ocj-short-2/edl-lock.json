@@ -1,0 +1,653 @@
+{
+ "schema": "aurum-edl-v1",
+ "gate_exceptions": {
+  "why": "Marvin t225u 2026-11-10: no licensed OCJ landing footage exists; the opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled 'Approach footage: Jamaica's north coast'; narration says 'flying into Jamaica's north coast', never that it is OCJ."
+ },
+ "created": "2026-11-11T12:56:16-05:00",
+ "slug": "jamaica-ocj-short-2",
+ "title": "Ian Fleming (OCJ) arrival checklist",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration_s": 41.635,
+ "program_end_s": 39.635,
+ "hook_end_s": 4.289,
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 4.5667,
+   "frames": 137,
+   "kind": "clip",
+   "clip_id": "mbj_coast_approach",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "file": "jobs/jamaica-ocj-short-2/clips/gcm2xnh129E_230-268.mp4",
+   "file_in": 0.1,
+   "play_speed": 3.0,
+   "src_in": 230.1,
+   "src_out": 243.8,
+   "tag": "landing,coast-approach,approach,air-arrival",
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "qc": {
+    "mot_med": 2.86,
+    "mot_min": 2.191,
+    "y_mean": 138.9,
+    "y_min": 128.3,
+    "dh": [
+     14553381225558448604,
+     15706303281747844350,
+     14687354726497947199,
+     14040525370579585247,
+     14321943678996744935
+    ]
+   },
+   "parent": "mbj_coast_approach",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Approach along Jamaica's north coast (St James coast, window seat); not OCJ",
+   "subject": "mbj-coast-approach",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7328,
+    "cx1": 0.575,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 4.5667,
+   "t1": 9.3,
+   "frames": 142,
+   "kind": "clip",
+   "clip_id": "portland_aerial_2",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-ocj-short-2/clips/GBaTswg6mgs_45-60.mp4",
+   "file_in": 0.1,
+   "play_speed": 2.0,
+   "src_in": 45.1,
+   "src_out": 54.567,
+   "tag": "island-aerial,sea-aerial",
+   "shows": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 6.373,
+    "mot_min": 3.485,
+    "y_mean": 89.3,
+    "y_min": 79.6,
+    "dh": [
+     13898187780904981013,
+     13898109156698952978,
+     9226806303665100080,
+     9226949656776383960,
+     37283663030344507
+    ]
+   },
+   "parent": "portland_aerial_2",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Portland coast aerial, east of St Mary",
+   "subject": "portland-aerial-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4734,
+    "cx1": 0.5422,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 9.3,
+   "t1": 14.0,
+   "frames": 141,
+   "kind": "clip",
+   "clip_id": "kite_sea",
+   "video_id": "KBAJ8JqdnYM",
+   "creator": "Skip Steuart",
+   "file": "jobs/jamaica-ocj-short-2/clips/KBAJ8JqdnYM_80-93.mp4",
+   "file_in": 0.1,
+   "play_speed": 2.0,
+   "src_in": 80.1,
+   "src_out": 89.5,
+   "tag": "sea-aerial",
+   "shows": [
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.732,
+    "mot_min": 1.649,
+    "y_mean": 115.5,
+    "y_min": 107.7,
+    "dh": [
+     14627726768955395341,
+     7360305792081659681,
+     17652985739970862557,
+     17707321889849596253,
+     17793722338185833964
+    ]
+   },
+   "parent": "kite_sea",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Sea off the north-west coast",
+   "subject": "half-moon-sea",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7266,
+    "cx1": 0.5687,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 14.0,
+   "t1": 19.8333,
+   "frames": 175,
+   "kind": "clip",
+   "clip_id": "rb_resort_d_2",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "file": "jobs/jamaica-ocj-short-2/clips/OaDLJ5KtI2Y_71-84.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 71.1,
+   "src_out": 79.85,
+   "tag": "resort-aerial,runaway-aerial,sea-aerial",
+   "shows": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.912,
+    "mot_min": 3.096,
+    "y_mean": 96.8,
+    "y_min": 89.8,
+    "dh": [
+     9205141272922626875,
+     18131399428214050076,
+     17861143696223446447,
+     9212059744079825555,
+     17864589919912674919,
+     18446633929665892015
+    ]
+   },
+   "parent": "rb_resort_d_2",
+   "line": 2,
+   "audio_ok": false,
+   "place": "North coast resort aerial, Runaway Bay",
+   "subject": "rb-resort-d-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.6703,
+    "cx1": 0.5125,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 19.8333,
+   "t1": 23.0,
+   "frames": 95,
+   "kind": "clip",
+   "clip_id": "ocho_villa_aerial_1",
+   "video_id": "loUSJynWKNU",
+   "creator": "Bicana",
+   "file": "jobs/jamaica-ocj-short-2/clips/loUSJynWKNU_0-9.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 0.1,
+   "src_out": 4.85,
+   "tag": "ocho-aerial,resort-aerial",
+   "shows": [
+    "ocho-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.581,
+    "mot_min": 4.891,
+    "y_mean": 159.3,
+    "y_min": 153.0,
+    "dh": [
+     12952851474276683872,
+     8346974308912898088,
+     8311051067569773836
+    ]
+   },
+   "parent": "ocho_villa_aerial_1",
+   "line": 3,
+   "audio_ok": false,
+   "place": "Hills above Ocho Rios from the air (Bicana)",
+   "subject": "ocho-villa-aerial-1",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7797,
+    "cx1": 0.8234,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 23.0,
+   "t1": 26.0667,
+   "frames": 92,
+   "kind": "clip",
+   "clip_id": "dash_ocho_a_3",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-2/clips/MyaZDFcqtCw_118-129.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 118.1,
+   "src_out": 121.167,
+   "tag": "driving,highway",
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "qc": {
+    "mot_med": 3.377,
+    "mot_min": 3.054,
+    "y_mean": 122.7,
+    "y_min": 117.9,
+    "dh": [
+     13963674665767989442,
+     13889207545841709186,
+     9426228555423806083
+    ]
+   },
+   "parent": "dash_ocho_a_3",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.3797,
+    "cx1": 0.4141,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 26.0667,
+   "t1": 29.1667,
+   "frames": 93,
+   "kind": "clip",
+   "clip_id": "dash_ocho_b_2",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "file": "jobs/jamaica-ocj-short-2/clips/MyaZDFcqtCw_439-448.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 439.1,
+   "src_out": 442.2,
+   "tag": "driving,highway",
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "parent": "dash_ocho_b_2",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Dash drive towards Ocho Rios",
+   "subject": "dash-st-mary-b-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 4.99,
+    "mot_min": 4.671,
+    "y_mean": 118.3,
+    "y_min": 115.9,
+    "dh": [
+     12740904042068832320,
+     12731874319524231232,
+     12714361572120361024
+    ]
+   },
+   "reframe": {
+    "cx0": 0.3234,
+    "cx1": 0.2922,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 29.1667,
+   "t1": 33.3333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "ocho_drone_3",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "file": "jobs/jamaica-ocj-short-2/clips/Rk2IRGPukWw_64-74.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 64.1,
+   "src_out": 70.35,
+   "tag": "ocho-aerial,sea-aerial",
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.556,
+    "mot_min": 2.001,
+    "y_mean": 101.9,
+    "y_min": 83.8,
+    "dh": [
+     9871890936173428992,
+     3602950347683267074,
+     36175101456549391,
+     1731946412633164299
+    ]
+   },
+   "parent": "ocho_drone_3",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4984,
+    "cx1": 0.5797,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 33.3333,
+   "t1": 37.4667,
+   "frames": 124,
+   "kind": "clip",
+   "clip_id": "ocho_bay",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-ocj-short-2/clips/11Z-XBbUst0_250-257.mp4",
+   "file_in": 1.6,
+   "play_speed": 1.0,
+   "src_in": 251.6,
+   "src_out": 255.733,
+   "tag": "ocho-aerial,beach-aerial,resort-aerial",
+   "shows": [
+    "ocho-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "parent": "ocho_bay",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Ocho Rios bay aerial",
+   "subject": "ocho-bay",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 2.066,
+    "mot_min": 1.564,
+    "y_mean": 104.5,
+    "y_min": 103.1,
+    "dh": [
+     17361606158851873563,
+     16276185699560657715,
+     16276255485289772855,
+     16420335768018827063
+    ]
+   },
+   "reframe": {
+    "cx0": 0.1828,
+    "cx1": 0.3406,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 37.4667,
+   "t1": 41.6333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "ocho_beach_walk_2",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-ocj-short-2/clips/TILQzsOE8mg_199-209.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 199.1,
+   "src_out": 203.267,
+   "tag": "ocho-beach,beach",
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "parent": "ocho_beach_walk_2",
+   "line": 5,
+   "audio_ok": true,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "qc": {
+    "mot_med": 2.413,
+    "mot_min": 2.14,
+    "y_mean": 123.6,
+    "y_min": 121.9,
+    "dh": [
+     18373693590053060184,
+     18446459287311810550,
+     18266388941500002807,
+     8034155636487766091
+    ]
+   },
+   "reframe": {
+    "cx0": 0.3297,
+    "cx1": 0.1719,
+    "method": "saliency+motion v1"
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "lower",
+   "t0": 4.961,
+   "t1": 9.461,
+   "text": "07:00 to 19:00",
+   "sub": "Customs and immigration, daily"
+  },
+  {
+   "kind": "lower",
+   "t0": 14.393,
+   "t1": 18.893,
+   "text": "C5 FORM",
+   "sub": "Online, before you fly"
+  },
+  {
+   "kind": "disclosure",
+   "t0": 29.182,
+   "t1": 38.182,
+   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+  },
+  {
+   "kind": "endcard",
+   "t0": 39.635,
+   "t1": 41.635,
+   "text": "ENJOY THE NORTH COAST",
+   "lines": [
+    "Compare airport transfers: link in the description",
+    "Subscribe for the next arrival guide"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "t0": 0.3,
+   "t1": 4.289,
+   "text": "Landing at Ian Fleming near Ocho Rios? Check this first.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ]
+  },
+  {
+   "t0": 4.561,
+   "t1": 13.67,
+   "text": "Customs and immigration run daily from seven in the morning to seven in the evening; outside those hours, prior notice is required.",
+   "disclosure": false,
+   "facts": [
+    "o003"
+   ],
+   "need": [
+    "sea-aerial",
+    "island-aerial"
+   ]
+  },
+  {
+   "t0": 13.993,
+   "t1": 19.497,
+   "text": "Fill in the immigration and customs C5 form online before you fly.",
+   "disclosure": false,
+   "facts": [
+    "f589"
+   ],
+   "need": [
+    "runaway-aerial",
+    "sea-aerial"
+   ]
+  },
+  {
+   "t0": 19.833,
+   "t1": 22.671,
+   "text": "And leave meat and dairy products at home.",
+   "disclosure": false,
+   "facts": [
+    "f591"
+   ],
+   "need": [
+    "resort-aerial",
+    "island-aerial"
+   ]
+  },
+  {
+   "t0": 23.004,
+   "t1": 27.399,
+   "text": "Then pick your ride before you land: transfer, taxi or rental.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "driving",
+    "highway",
+    "boscobel-road"
+   ]
+  },
+  {
+   "t0": 29.182,
+   "t1": 38.035,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "disclosure": true,
+   "facts": [],
+   "need": [
+    "beach",
+    "ocho-aerial",
+    "ocho-beach",
+    "sea-aerial"
+   ]
+  }
+ ],
+ "audio": {
+  "narration": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/narration.wav",
+  "music": "none",
+  "ambient": []
+ },
+ "offtag_shots": [],
+ "banned": [],
+ "lifts": [
+  {
+   "t0": 38.2,
+   "t1": 39.5,
+   "line": 5
+  }
+ ],
+ "lift_min_count": 1,
+ "needs_footage": [
+  {
+   "line": 4,
+   "need": [
+    "driving",
+    "highway",
+    "boscobel-road"
+   ],
+   "shot_s": 3.1,
+   "lift": true,
+   "text": "Then pick your ride before you land: transfer, taxi or rental."
+  }
+ ],
+ "scope": "full",
+ "narration_stt": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "first",
+   "last_word_heard": true,
+   "heard": "Landing at Ian Fleming near Ocho Rios, check this first."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "required",
+   "last_word_heard": true,
+   "heard": "Customs and immigration run daily from 7 in the morning to 7 in the evening. Outside those hours, prior notice is required."
+  },
+  {
+   "line": 2,
+   "recall": 0.917,
+   "last_word": "fly",
+   "last_word_heard": true,
+   "heard": "Fill in the immigration and customs see five form online before you fly."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "home",
+   "last_word_heard": true,
+   "heard": "and leave meat and dairy products at home."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "rental",
+   "last_word_heard": true,
+   "heard": "then pick your ride before you land, transfer, taxi or rental."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "source_window_qc": {
+  "measured": 10,
+  "missing": [],
+  "method": "source-window-output-speed"
+ },
+ "reframe": {
+  "tool": "tools/portrait_reframe.py",
+  "shots": 10
+ }
+}

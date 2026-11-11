@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-11T12:53:02-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 39.635,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 4.289,
+   "text": "Landing at Ian Fleming near Ocho Rios? Check this first.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/tts/s000-3196cf4d08.wav",
+   "sr": 24000,
+   "speed": 1.08
+  },
+  {
+   "i": 1,
+   "t0": 4.561,
+   "t1": 13.67,
+   "text": "Customs and immigration run daily from seven in the morning to seven in the evening; outside those hours, prior notice is required.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/tts/s001-5bf10f501f.wav",
+   "sr": 24000,
+   "speed": 0.99
+  },
+  {
+   "i": 2,
+   "t0": 13.993,
+   "t1": 19.497,
+   "text": "Fill in the immigration and customs C5 form online before you fly.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/tts/s002-e3620957d2.wav",
+   "sr": 24000,
+   "speed": 0.956
+  },
+  {
+   "i": 3,
+   "t0": 19.833,
+   "t1": 22.671,
+   "text": "And leave meat and dairy products at home.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/tts/s003-6711e89a4a.wav",
+   "sr": 24000,
+   "speed": 0.981
+  },
+  {
+   "i": 4,
+   "t0": 23.004,
+   "t1": 27.399,
+   "text": "Then pick your ride before you land: transfer, taxi or rental.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/tts/s004-1f07094a92.wav",
+   "sr": 24000,
+   "speed": 1.006,
+   "lift": [
+    27.549,
+    28.749
+   ]
+  },
+  {
+   "i": 5,
+   "t0": 29.182,
+   "t1": 38.035,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-2/build/tts/s005-d36faa54e1.wav",
+   "sr": 24000,
+   "speed": 0.98
+  }
+ ]
+}

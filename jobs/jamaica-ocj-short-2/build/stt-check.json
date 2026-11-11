@@ -1,0 +1,73 @@
+{
+ "created": "2026-11-11T12:53:07-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Ian Fleming",
+   "heard": "Landing at Ian Fleming near Ocho Rios, check this first.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 0,
+   "name": "Ocho Rios",
+   "heard": "Landing at Ian Fleming near Ocho Rios, check this first.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 2,
+   "name": "C5",
+   "heard": "Fill in the immigration and customs see five form online before you fly.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 3,
+ "total": 3,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "first",
+   "last_word_heard": true,
+   "heard": "Landing at Ian Fleming near Ocho Rios, check this first."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "required",
+   "last_word_heard": true,
+   "heard": "Customs and immigration run daily from 7 in the morning to 7 in the evening. Outside those hours, prior notice is required."
+  },
+  {
+   "line": 2,
+   "recall": 0.917,
+   "last_word": "fly",
+   "last_word_heard": true,
+   "heard": "Fill in the immigration and customs see five form online before you fly."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "home",
+   "last_word_heard": true,
+   "heard": "and leave meat and dairy products at home."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "rental",
+   "last_word_heard": true,
+   "heard": "then pick your ride before you land, transfer, taxi or rental."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}
