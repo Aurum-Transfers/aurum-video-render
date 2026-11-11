@@ -46,7 +46,7 @@ GATE = "/workspace/ops/scripts/gate.py"; BOT = "aurum-reels"
 REPO = "Aurum-Transfers/aurum-video-render"
 TTS_PY = "/workspace/work/aruba-full-v2/pc-src/.venv/bin/python"
 HANDOFF = Path("/workspace/handoff/aurum-youtube")
-STAGES = ["inputs", "footage", "tts", "plan", "render", "shorts", "package", "handoff", "archive"]
+STAGES = ["inputs", "footage", "tts", "plan", "render", "shorts", "package", "banner", "handoff", "archive"]
 OK, FAILED, NEEDS_AI, NEEDS_REVIEW, WAITING = 0, 1, 3, 4, 5
 NAMES = {0: "OK", 1: "FAILED", 3: "NEEDS_AI", 4: "NEEDS_REVIEW", 5: "WAITING"}
 
@@ -478,6 +478,35 @@ class Job:
         return info
 
     # ------------------------------------------------------------------ 7 handoff
+    # ------------------------------------------------------------------ 7b banner (Marvin 11 Nov: every video gets a banner on par with Bali)
+    def s_banner(self):
+        """Bali-standard thumbnail: AI background (agent GenerateImage step) + make_banner.py text overlay; thumb_gate.py must pass.
+        script.json package.banner_lines (e.g. "BEFORE|YOU LAND|KINGSTON|2026") and package.banner_yellow override the defaults."""
+        if getattr(self, "dry_norender", False) or self.dry:
+            return {"dry_run": True, "would_run": "make_banner.py + thumb_gate.py (needs thumb/bg.jpg)"}
+        vj, tdir = self.vdir / "video.json", self.vdir / "thumb"
+        bg = tdir / "bg.jpg"; tdir.mkdir(parents=True, exist_ok=True)
+        place = self.spec.get("place", self.slug).split(",")[0].strip()
+        if not bg.exists():
+            (tdir / "bg-prompt.txt").write_text(
+                "Photoreal YouTube thumbnail background, NO TEXT, NO PEOPLE, 16:9. Same style and composition as the live Bali thumbnail "
+                "(https://i.ytimg.com/vi/HJ7zmT2n998/maxresdefault.jpg, text removed): a white commercial jetliner, gear down, flying across the "
+                f"upper right toward the viewer at golden sunset, dramatic orange/gold sky. Below: a vivid, instantly recognisable {place} scene "
+                "(its signature beach/landmark). Left 45% simple sky and sea for text. Hyper-saturated, crisp, high contrast.\n"
+                "Likeness: pass a real photo of the place (Wikimedia Commons) as a reference image.\n")
+            raise Stop(WAITING, "agent step: GenerateImage the banner background from thumb/bg-prompt.txt (live Bali thumbnail as style "
+                                "reference + a real photo of the place), LOOK at it, save it as thumb/bg.jpg, then rerun", prompt=str(tdir / "bg-prompt.txt"))
+        pk = (lj(self.wd / "script.json", {}) or {}).get("package", {})
+        name = place.upper()
+        lines = pk.get("banner_lines") or (f"BEFORE|YOU LAND|{name} 2026" if len(name) <= 6 else f"BEFORE|YOU LAND|{name}|2026")
+        yellow = str(pk.get("banner_yellow") or (2 if len(lines.split("|")) > 3 else 1))
+        run(["python3", HERE / "make_banner.py", "--bg", bg, "--out", tdir / "banner.jpg", "--lines", lines, "--yellow", yellow,
+             "--video-json", vj], check=True)
+        g = run(["python3", HERE / "thumb_gate.py", vj])
+        if g.returncode:
+            raise Stop(FAILED, "thumb gate failed", why=(g.stderr or g.stdout)[-300:])
+        return {"banner": str(tdir / "banner.jpg"), "lines": lines, "review": "agent must LOOK at thumb/banner.jpg before handoff"}
+
     def s_handoff(self):
         if getattr(self, "dry_norender", False):
             return {"dry_run": True, "would_write": "READY_TO_PUBLISH.json + publish-queue.jsonl"}
