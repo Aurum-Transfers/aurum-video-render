@@ -1,0 +1,18 @@
+{
+ "id": "GBaTswg6mgs",
+ "title": "Portland, Jamaica",
+ "channel": "Robert Harvey",
+ "channel_url": "https://www.youtube.com/channel/UCVuLj-vfNPdsBvWcTS7XZJA",
+ "uploader": "Robert Harvey",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 139,
+ "upload_date": "20230305",
+ "width": 3840,
+ "height": 2160,
+ "description": "Views from the beautiful parish of Portland, Jamaica",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 24.0
+}

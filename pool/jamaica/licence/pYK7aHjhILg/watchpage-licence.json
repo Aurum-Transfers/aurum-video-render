@@ -1,0 +1,18 @@
+{
+ "id": "pYK7aHjhILg",
+ "title": "Blue Lagoon ,Port Antonio, Jamaica",
+ "channel": "Sky&flight",
+ "channel_url": "https://www.youtube.com/channel/UCOefZjRBjKAVDdLG21DhwAg",
+ "uploader": "Sky&flight",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 118,
+ "upload_date": "20160724",
+ "width": 1920,
+ "height": 1080,
+ "description": "Blue Lagoon Port Antonio, Jamaica",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=pYK7aHjhILg",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1080,
+ "fps_at_max": 60.0
+}

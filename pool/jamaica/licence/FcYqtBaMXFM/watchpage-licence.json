@@ -1,0 +1,18 @@
+{
+ "id": "FcYqtBaMXFM",
+ "title": "Beautiful Jamaica!",
+ "channel": "Robert Harvey",
+ "channel_url": "https://www.youtube.com/channel/UCVuLj-vfNPdsBvWcTS7XZJA",
+ "uploader": "Robert Harvey",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 236,
+ "upload_date": "20190417",
+ "width": 2560,
+ "height": 1440,
+ "description": "Drone video shot wtih DJI Mavic2 Pro while traveling from Kingston in the Southeast of Jamaica through the mountains and over to the north coast to Ocho Rios!",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1440,
+ "fps_at_max": 24.0
+}

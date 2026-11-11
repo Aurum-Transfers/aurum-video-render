@@ -1,0 +1,18 @@
+{
+ "id": "GrksZW_z-DA",
+ "title": "Martha Brae Rafting in 4K",
+ "channel": "Adrian Parsons",
+ "channel_url": "https://www.youtube.com/channel/UCPK-cf4eA_DfI7gLdzwK8pg",
+ "uploader": "Adrian Parsons",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 2576,
+ "upload_date": "20221221",
+ "width": 3840,
+ "height": 2160,
+ "description": "A gentle Journey on the Martha Brae in Jamaica, aboard a Bamboo Raft",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=GrksZW_z-DA",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 25.0
+}

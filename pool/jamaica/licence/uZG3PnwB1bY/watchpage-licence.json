@@ -1,0 +1,18 @@
+{
+ "id": "uZG3PnwB1bY",
+ "title": "Warm and crystal clear - Negril Jamaica",
+ "channel": "s'more",
+ "channel_url": "https://www.youtube.com/channel/UCiHGklhqrb3n-77dG7lhA3A",
+ "uploader": "s'more",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 22,
+ "upload_date": "20201217",
+ "width": 1920,
+ "height": 1080,
+ "description": "West end of Negril, Jamaica",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=uZG3PnwB1bY",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1080,
+ "fps_at_max": 30.0
+}

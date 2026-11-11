@@ -18,3 +18,11 @@ Completed-book list (box copy of TITLE_TRACKER.csv, 2026-11-09 21:18 EST; PC off
 ## Log
 - 2026-11-10 20:26 EST: job created; CC search 35 queries -> 508 hits; pool_screen running.
 - 2026-11-10 20:54 EST: stage 3-4 done: script 40 lines/739 words/5 numbered chapters (Knutsford coach line dropped), TTS bm_george 313.3 s, STT 29/29 after aliases (Sankster/Jay Kal/Nagrill). Facts re-verified live today: mbjairport.com taxi-cabs + passenger-services, gov.uk entry-requirements. Footage pool screened (508 hits, 319 prefilter pass); range clips downloading.
+
+## 2026-11-10 21:36 EST — MBJ footage/plan iteration (resumed after interruption)
+- t220u: this job = jamaica-mbj (Sangster MBJ). Title/script say MBJ; KIN and OCJ get own jobs.
+- t221u: every international airport at every destination gets its own video; airport list per destination from primary sources, logged in that destination's progress file; order by passenger volume.
+- Footage: driving/aerial clips split into sub-clips (distinct subjects); slow drone clips play at 2x; landing clips tagged "landing"; Negril clips tagged beach.
+- Added sources (CC BY, watch pages in pool/jamaica/licence): Ymw6leiGhXw, onzcja6gqlw, OaDLJ5KtI2Y (Chris Cafiero, Runaway Bay drone), 55-rBgI1MUA (Driving Time, highway). Rejected: jSOlgxRqZWw (static), RKkN8qAstc0 (watermark), 2-g8Rv4v7Eg (faces).
+- Chapters merged to 3 (60-120 s gate). Line 7 reworded ("the large majority", fact f068) for STT recall; re-TTS done (312.33 s).
+- Plan status before these edits: 9 gaps, failed chapters/landing/cue/narration -> fixes applied, re-plan pending.

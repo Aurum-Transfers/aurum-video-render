@@ -1,0 +1,18 @@
+{
+ "id": "55-rBgI1MUA",
+ "title": "Driving from Ocho Rios, Jamaica to Kingston, Jamaica",
+ "channel": "Driving Time",
+ "channel_url": "https://www.youtube.com/channel/UCRK36g-UxXwxJQm-4MUCbiA",
+ "uploader": "Driving Time",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 5399,
+ "upload_date": "20240601",
+ "width": 3840,
+ "height": 2160,
+ "description": "",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=55-rBgI1MUA",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 60.0
+}

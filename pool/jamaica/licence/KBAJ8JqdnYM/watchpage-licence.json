@@ -1,0 +1,18 @@
+{
+ "id": "KBAJ8JqdnYM",
+ "title": "HalfMoonJamaicaKiteSurf",
+ "channel": "Skip Steuart",
+ "channel_url": "https://www.youtube.com/channel/UCDv2JbGjFdbpd0u-QmSCczg",
+ "uploader": "Skip Steuart",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 562,
+ "upload_date": "20161121",
+ "width": 1920,
+ "height": 1080,
+ "description": "Kite Surfing at Half Moon Jamaica\nNov 21, 2016: Thanksgiving Weekend\n\nI am flying the drone, and Ethan from Portland is sailing.  Ethan has been doing this for about 5 years, and brought his own equipment.  He says that it takes about a solid week of lessons to learn the basics.",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=KBAJ8JqdnYM",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 1080,
+ "fps_at_max": 60.0
+}

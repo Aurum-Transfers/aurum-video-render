@@ -1,0 +1,18 @@
+{
+ "id": "A7R4F02ZY68",
+ "title": "Jamaica | 4K cinematic video",
+ "channel": "Build With vegas",
+ "channel_url": "https://www.youtube.com/channel/UCoo5AzmwHPSRVVfzRlfDsCg",
+ "uploader": "Build With vegas",
+ "license": "Creative Commons Attribution license (reuse allowed)",
+ "duration": 162,
+ "upload_date": "20221016",
+ "width": 3840,
+ "height": 2160,
+ "description": "",
+ "checked_at": "2026-11-10T20:26:37-05:00",
+ "url": "https://www.youtube.com/watch?v=A7R4F02ZY68",
+ "method": "yt-dlp watch-page metadata, cookie-less",
+ "max_height": 2160,
+ "fps_at_max": 30.0
+}

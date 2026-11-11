@@ -1,9 +1,9 @@
 {
- "slug": "jamaica-travel-guide",
- "title": "Jamaica Airport Arrival 2026: Transfer, Taxi or Rental Car",
+ "slug": "jamaica-mbj",
+ "title": "Montego Bay Airport (MBJ) Arrival 2026: Transfer, Taxi or Rental Car",
  "angle": "Arrival-first: land at Sangster (MBJ), clear entry, pick the ride, then the island in the order a first-timer meets it.",
  "end_card": {
-  "text": "ENJOY JAMAICA",
+  "text": "ENJOY MONTEGO BAY",
   "lines": [
    "Compare airport transfers: link in the description",
    "Subscribe for the next arrival guide"
@@ -61,8 +61,8 @@
     "mobay_promo_sea"
    ],
    "need": [
-    "mobay-aerial",
     "resort-aerial",
+    "sea-aerial",
     "beach-aerial"
    ]
   },
@@ -76,13 +76,14 @@
     "negril_wakes"
    ],
    "need": [
-    "negril-aerial",
-    "beach-aerial"
+    "sea-aerial",
+    "island-aerial",
+    "coast-road-aerial"
    ]
   },
   {
    "text": "Welcome to Jamaica, and welcome to Sangster International.",
-   "chapter": "1. Landing in Jamaica: Sangster International (MBJ)",
+   "chapter": "1. Landing at Sangster (MBJ): Arrival and C5 Entry Rules",
    "pause": 0.3,
    "prefer": [
     "mbj_apron"
@@ -93,7 +94,7 @@
    ]
   },
   {
-   "text": "Most visitors land right here in Montego Bay; Sangster handles over seventy per cent of the island's tourist arrivals.",
+   "text": "Most visitors land right here in Montego Bay; Sangster handles the large majority of the island's tourist arrivals.",
    "facts": [
     "f068"
    ],
@@ -131,11 +132,12 @@
    ],
    "need": [
     "coast-approach",
+    "sea-aerial",
     "mobay-aerial"
    ]
   },
   {
-   "text": "Jamaica has two other international airports: Norman Manley in Kingston, and Ian Fleming, near Ocho Rios.",
+   "text": "This guide is for Sangster. Jamaica's other two international airports, Norman Manley in Kingston and Ian Fleming near Ocho Rios, get their own arrival guides.",
    "facts": [
     "f2001",
     "f069"
@@ -150,10 +152,11 @@
     "focus": "kingston",
     "text": "Three international airports"
    },
+   "shots": 2,
    "need": [
     "island-aerial",
     "portland-aerial",
-    "highway-aerial"
+    "sea-aerial"
    ]
   },
   {
@@ -162,9 +165,12 @@
     "f872"
    ],
    "pause": 0.4,
+   "shots": 2,
    "need": [
     "coast-road-aerial",
-    "island-aerial"
+    "island-aerial",
+    "runaway-aerial",
+    "portland-aerial"
    ]
   },
   {
@@ -176,17 +182,17 @@
    "pause": 0.7,
    "need": [
     "resort-aerial",
-    "beach-aerial"
+    "beach-aerial",
+    "runaway-aerial"
    ]
   },
   {
    "text": "Now, the paperwork.",
-   "chapter": "2. Jamaica Entry Rules: C5 Form and Passport",
    "pause": 0.3,
    "shots": 1,
    "need": [
-    "highway-aerial",
-    "driving"
+    "island-aerial",
+    "sea-aerial"
    ]
   },
   {
@@ -202,7 +208,8 @@
    },
    "need": [
     "airport-terminal",
-    "apron"
+    "apron",
+    "island-aerial"
    ]
   },
   {
@@ -212,9 +219,9 @@
    ],
    "pause": 0.35,
    "need": [
-    "mobay-aerial",
-    "cruise-port",
-    "resort-aerial"
+    "resort-aerial",
+    "runaway-aerial",
+    "beach-aerial"
    ]
   },
   {
@@ -223,9 +230,11 @@
     "f584"
    ],
    "pause": 0.35,
+   "shots": 2,
    "need": [
     "island-aerial",
     "portland-aerial",
+    "ocho-aerial",
     "coast-road-aerial"
    ]
   },
@@ -236,9 +245,11 @@
     "f591"
    ],
    "pause": 0.35,
+   "shots": 2,
    "need": [
     "highway-aerial",
-    "driving"
+    "island-aerial",
+    "sea-aerial"
    ]
   },
   {
@@ -247,9 +258,11 @@
     "f626"
    ],
    "pause": 0.4,
+   "shots": 1,
    "need": [
     "sea-aerial",
-    "kite"
+    "kite",
+    "island-aerial"
    ]
   },
   {
@@ -259,18 +272,20 @@
     "text": "Saved you a headache? Tap like"
    },
    "pause": 0.7,
+   "shots": 2,
    "need": [
     "resort-aerial",
-    "beach-aerial"
+    "runaway-aerial",
+    "ocho-aerial"
    ]
   },
   {
    "text": "Through customs? Here's how to get to your hotel.",
-   "chapter": "3. Montego Bay Airport to Hotel: Transfer, Taxi or Rental",
+   "chapter": "2. Montego Bay Airport to Hotel: Transfer, Taxi or Rental",
    "pause": 0.4,
    "need": [
-    "road-to-airport",
-    "driving"
+    "airport-curb",
+    "road-to-airport"
    ]
   },
   {
@@ -291,15 +306,17 @@
     "text": "1 · PRIVATE TRANSFER",
     "sub": "Pre-booked, driver meets you"
    },
+   "shots": 2,
    "need": [
     "highway-aerial",
-    "coast-road-aerial"
+    "coast-road-aerial",
+    "driving"
    ]
   },
   {
    "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
    "pause": 0.4,
-   "shots": 3,
+   "shots": 2,
    "need": [
     "driving",
     "highway-aerial"
@@ -315,6 +332,7 @@
     "text": "2 · AUTHORISED TAXI",
     "sub": "JUTA and JCAL desk, outside customs"
    },
+   "shots": 2,
    "need": [
     "road-to-airport",
     "driving"
@@ -327,6 +345,7 @@
     "f2063"
    ],
    "pause": 0.35,
+   "shots": 2,
    "need": [
     "driving",
     "road-to-airport"
@@ -344,6 +363,7 @@
     "text": "3 · RENTAL CAR",
     "sub": "Drive on the left"
    },
+   "shots": 2,
    "need": [
     "driving",
     "highway-aerial"
@@ -356,16 +376,19 @@
     "text": "Transfer, taxi or rental? Compare in the description"
    },
    "pause": 0.7,
+   "shots": 2,
    "need": [
-    "mobay-aerial",
-    "resort-aerial"
+    "resort-aerial",
+    "runaway-aerial",
+    "ocho-aerial"
    ]
   },
   {
    "text": "Now, the best part: the beaches.",
-   "chapter": "4. Jamaica Beaches: Montego Bay, Negril and Ocho Rios",
+   "chapter": "3. Beaches near MBJ, plus Money, Water and Safety Tips",
    "pause": 0.3,
    "shots": 1,
+   "lift": 1.6,
    "need": [
     "doctors-cave",
     "beach"
@@ -393,9 +416,11 @@
     "f9140"
    ],
    "pause": 0.35,
+   "shots": 1,
    "need": [
     "mobay-aerial",
-    "cruise-port"
+    "beach-aerial",
+    "sea-aerial"
    ]
   },
   {
@@ -417,6 +442,7 @@
     "text": "NEGRIL",
     "sub": "Seven-mile beach"
    },
+   "shots": 2,
    "need": [
     "negril-aerial",
     "negril-beach"
@@ -428,6 +454,7 @@
     "f243"
    ],
    "pause": 0.35,
+   "shots": 1,
    "need": [
     "negril-beach",
     "negril-aerial"
@@ -467,27 +494,13 @@
    ]
   },
   {
-   "text": "Further east, Port Antonio has the Blue Lagoon, where cold spring water rises to meet the warm sea.",
-   "facts": [
-    "f897"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "BLUE LAGOON",
-    "sub": "Port Antonio"
-   },
-   "need": [
-    "blue-lagoon",
-    "portland-aerial"
-   ]
-  },
-  {
-   "text": "Beach, waterfall or lagoon? Hit subscribe and tell us which one is first on your list.",
+   "text": "Beach, cliffs or waterfall? Hit subscribe and tell us which one is first on your list.",
    "prompt": {
     "badge": "SUBSCRIBE",
-    "text": "Beach, waterfall or lagoon?"
+    "text": "Beach, cliffs or waterfall?"
    },
    "pause": 0.7,
+   "lift": 1.6,
    "need": [
     "ocho-beach",
     "beach"
@@ -499,10 +512,11 @@
     "f615"
    ],
    "pause": 0.35,
-   "chapter": "5. Jamaica Travel Tips: Money, Water and Safety",
+   "shots": 1,
    "need": [
     "runaway-aerial",
-    "resort-aerial"
+    "resort-aerial",
+    "ocho-aerial"
    ]
   },
   {
@@ -511,10 +525,12 @@
     "f3014"
    ],
    "pause": 0.35,
+   "shots": 2,
    "need": [
     "ocho-aerial",
-    "cruise-port",
-    "resort-aerial"
+    "ocho-cruise",
+    "resort-aerial",
+    "sea-aerial"
    ]
   },
   {
@@ -526,17 +542,20 @@
    "pause": 0.4,
    "need": [
     "rafting",
-    "waterfall"
+    "waterfall",
+    "calm-sea",
+    "beach"
    ]
   },
   {
    "text": "So, the short version. Fill in your C5 form before you fly. Pick your ride before you land: transfer, authorised taxi or rental. Then pick your coast.",
    "pause": 0.35,
-   "shots": 3,
+   "shots": 2,
    "need": [
-    "negril-aerial",
-    "beach-aerial",
-    "portland-aerial"
+    "portland-aerial",
+    "runaway-aerial",
+    "ocho-aerial",
+    "island-aerial"
    ]
   },
   {
@@ -548,6 +567,7 @@
    "pause": 0.6,
    "need": [
     "negril-beach",
+    "beach",
     "beach-aerial"
    ]
   }

@@ -29,3 +29,4 @@ __pycache__/
 ffmpeg-*.log
 yt-dlp*.log
 .cache/
+jobs/*/clips-rejected/
