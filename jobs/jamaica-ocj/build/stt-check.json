@@ -1,0 +1,402 @@
+{
+ "created": "2026-11-11T10:20:51-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 2,
+   "name": "Ocho Rios",
+   "heard": "Let's get you to Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Melissa",
+   "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 5,
+   "name": "Ian Fleming",
+   "heard": "Welcome to Ian Fleming International, Jamaica's newest international port of entry.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 6,
+   "name": "Boscobel",
+   "heard": "It sits in Bosco Bell, in the parish of St. Mary, about 15 km east of Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 6,
+   "name": "Saint Mary",
+   "heard": "It sits in Bosco Bell, in the parish of St. Mary, about 15 km east of Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 6,
+   "name": "Ocho Rios",
+   "heard": "It sits in Bosco Bell, in the parish of St. Mary, about 15 km east of Ocho Rios.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "Ian Fleming",
+   "heard": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, Golden Eye, is about five kilometers away in Oracabessa.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "Oracabessa",
+   "heard": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, Golden Eye, is about five kilometers away in Oracabessa.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "GoldenEye",
+   "heard": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, Golden Eye, is about five kilometers away in Oracabessa.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 8,
+   "name": "James Bond",
+   "heard": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, Golden Eye, is about five kilometers away in Oracabessa.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Ian Fleming",
+   "heard": "This guide is for Ian Fleming, Jamaica's other two international airports, Sangster in Montego Bay, and Norman Manley in Kingston, get their own arrival guides.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Sangster",
+   "heard": "This guide is for Ian Fleming, Jamaica's other two international airports, Sangster in Montego Bay, and Norman Manley in Kingston, get their own arrival guides.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Montego Bay",
+   "heard": "This guide is for Ian Fleming, Jamaica's other two international airports, Sangster in Montego Bay, and Norman Manley in Kingston, get their own arrival guides.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Norman Manley",
+   "heard": "This guide is for Ian Fleming, Jamaica's other two international airports, Sangster in Montego Bay, and Norman Manley in Kingston, get their own arrival guides.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 9,
+   "name": "Kingston",
+   "heard": "This guide is for Ian Fleming, Jamaica's other two international airports, Sangster in Montego Bay, and Norman Manley in Kingston, get their own arrival guides.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 12,
+   "name": "C5",
+   "heard": "Before you fly, fill in the immigration and customs C5 form online and make your customs declaration before you arrive.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 21,
+   "name": "JTB",
+   "heard": "Option 2, a taxi. Canada advises avoiding unmarked cars and the UK advises using taxis approved by the Jamaica Tourist Board, which show a blue JTB sticker.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 24,
+   "name": "Ocho Rios",
+   "heard": "Now the best part, Ocho Rios and the coast around it.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 25,
+   "name": "Dunn's River",
+   "heard": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 28,
+   "name": "Runaway Bay",
+   "heard": "Further west along the coast is Runaway Bay, another resort area.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 31,
+   "name": "Montego Bay",
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 31,
+   "name": "Kingston",
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 32,
+   "name": "Melissa",
+   "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 33,
+   "name": "C5",
+   "heard": "So the short version, check the airport's hours, fill in your C5 form before you fly and pick your ride before you land, then enjoy the North Coast.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 24,
+ "total": 24,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Flying into Jamaica's North Coast, and not sure how you'll get from the airport to your hotel."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "Three easy ways, a pre-booked private transfer, a taxi, or a rental car."
+  },
+  {
+   "line": 2,
+   "recall": 1.0,
+   "last_word": "rios",
+   "last_word_heard": true,
+   "heard": "Let's get you to Ocho Rios."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "do",
+   "last_word_heard": true,
+   "heard": "Quick note, Aurum Transfers is a travel affiliate brand, so if you book through our links, we may earn a commission at no extra cost to you. We don't run the rides ourselves. Our partners do."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "today",
+   "last_word_heard": true,
+   "heard": "One honest note, some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "entry",
+   "last_word_heard": true,
+   "heard": "Welcome to Ian Fleming International, Jamaica's newest international port of entry."
+  },
+  {
+   "line": 6,
+   "recall": 0.882,
+   "last_word": "rios",
+   "last_word_heard": true,
+   "heard": "It sits in Bosco Bell, in the parish of St. Mary, about 15 km east of Ocho Rios."
+  },
+  {
+   "line": 7,
+   "recall": 1.0,
+   "last_word": "flights",
+   "last_word_heard": true,
+   "heard": "It has a single runway and serves private jets, charters and select international flights."
+  },
+  {
+   "line": 8,
+   "recall": 1.0,
+   "last_word": "oracabessa",
+   "last_word_heard": true,
+   "heard": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, Golden Eye, is about five kilometers away in Oracabessa."
+  },
+  {
+   "line": 9,
+   "recall": 1.0,
+   "last_word": "guides",
+   "last_word_heard": true,
+   "heard": "This guide is for Ian Fleming, Jamaica's other two international airports, Sangster in Montego Bay, and Norman Manley in Kingston, get their own arrival guides."
+  },
+  {
+   "line": 10,
+   "recall": 1.0,
+   "last_word": "staying",
+   "last_word_heard": true,
+   "heard": "Is this your first time flying into the North Coast? Tell us in the comments where you're staying."
+  },
+  {
+   "line": 11,
+   "recall": 1.0,
+   "last_word": "required",
+   "last_word_heard": true,
+   "heard": "Now the timing, customs and immigration here run daily from seven in the morning to seven in the evening, and outside those hours prior notice is required."
+  },
+  {
+   "line": 12,
+   "recall": 1.0,
+   "last_word": "arrive",
+   "last_word_heard": true,
+   "heard": "Before you fly, fill in the immigration and customs C5 form online and make your customs declaration before you arrive."
+  },
+  {
+   "line": 13,
+   "recall": 1.0,
+   "last_word": "too",
+   "last_word_heard": true,
+   "heard": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too."
+  },
+  {
+   "line": 14,
+   "recall": 0.962,
+   "last_word": "passport",
+   "last_word_heard": true,
+   "heard": "British visitors don't need a visa and are usually granted entry for up to 90 days. Other nationalities should check the rules for their own passport."
+  },
+  {
+   "line": 15,
+   "recall": 1.0,
+   "last_word": "home",
+   "last_word_heard": true,
+   "heard": "At customs, declare anything prohibited or subject to duty and leave meat and dairy products at home."
+  },
+  {
+   "line": 16,
+   "recall": 1.0,
+   "last_word": "one",
+   "last_word_heard": true,
+   "heard": "If this checklist just saved you a headache, tap like, it tells us to make more arrival guides like this one."
+  },
+  {
+   "line": 17,
+   "recall": 1.0,
+   "last_word": "hotel",
+   "last_word_heard": true,
+   "heard": "Through customs, here's how to get to your hotel."
+  },
+  {
+   "line": 18,
+   "recall": 0.952,
+   "last_word": "fee",
+   "last_word_heard": true,
+   "heard": "The airport lists taxi or coach higher for getting around. Taxis are available on site when needed for an extra fee."
+  },
+  {
+   "line": 19,
+   "recall": 1.0,
+   "last_word": "flight",
+   "last_word_heard": true,
+   "heard": "Option one is the calmest, a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after your flight."
+  },
+  {
+   "line": 20,
+   "recall": 1.0,
+   "last_word": "fixed",
+   "last_word_heard": true,
+   "heard": "On AurumTransfers.com, you can compare airport transfers from partner companies. The partner you choose runs the ride, so book once your flight times are fixed."
+  },
+  {
+   "line": 21,
+   "recall": 1.0,
+   "last_word": "sticker",
+   "last_word_heard": true,
+   "heard": "Option 2, a taxi. Canada advises avoiding unmarked cars and the UK advises using taxis approved by the Jamaica Tourist Board, which show a blue JTB sticker."
+  },
+  {
+   "line": 22,
+   "recall": 1.0,
+   "last_word": "road",
+   "last_word_heard": true,
+   "heard": "Option 3, a rental car. Jamaica drives on the left, so take it slowly on the coast road."
+  },
+  {
+   "line": 23,
+   "recall": 1.0,
+   "last_word": "description",
+   "last_word_heard": true,
+   "heard": "Which one are you picking? Transfer, taxi or rental? Tell us below and the transfer comparison link is in the description."
+  },
+  {
+   "line": 24,
+   "recall": 1.0,
+   "last_word": "it",
+   "last_word_heard": true,
+   "heard": "Now the best part, Ocho Rios and the coast around it."
+  },
+  {
+   "line": 25,
+   "recall": 1.0,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea."
+  },
+  {
+   "line": 26,
+   "recall": 0.938,
+   "last_word": "yours",
+   "last_word_heard": true,
+   "heard": "Water shoes make the climb safer and they are sold at the entrance if you forget yours."
+  },
+  {
+   "line": 27,
+   "recall": 1.0,
+   "last_word": "swim",
+   "last_word_heard": true,
+   "heard": "Back in town, the bay is right there for a swim."
+  },
+  {
+   "line": 28,
+   "recall": 1.0,
+   "last_word": "area",
+   "last_word_heard": true,
+   "heard": "Further west along the coast is Runaway Bay, another resort area."
+  },
+  {
+   "line": 29,
+   "recall": 1.0,
+   "last_word": "coast",
+   "last_word_heard": true,
+   "heard": "Waterfall first, then the beach. That's a good first day on the north coast."
+  },
+  {
+   "line": 30,
+   "recall": 1.0,
+   "last_word": "car",
+   "last_word_heard": true,
+   "heard": "A few last tips, don't show off valuables and never leave anything in a parked car."
+  },
+  {
+   "line": 31,
+   "recall": 1.0,
+   "last_word": "bay",
+   "last_word_heard": true,
+   "heard": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay."
+  },
+  {
+   "line": 32,
+   "recall": 1.0,
+   "last_word": "arrive",
+   "last_word_heard": true,
+   "heard": "After Melissa damaged water systems in the west and south, the Health Ministry advised treating water before drinking it, so check the latest advice when you arrive."
+  },
+  {
+   "line": 33,
+   "recall": 1.0,
+   "last_word": "coast",
+   "last_word_heard": true,
+   "heard": "So the short version, check the airport's hours, fill in your C5 form before you fly and pick your ride before you land, then enjoy the North Coast."
+  },
+  {
+   "line": 34,
+   "recall": 1.0,
+   "last_word": "trip",
+   "last_word_heard": true,
+   "heard": "Subscribe for the next Arrival Guide and enjoy every minute on the North Coast. See you on the next trip."
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}

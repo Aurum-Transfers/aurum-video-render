@@ -51,7 +51,11 @@
   "C5": [
    "C five",
    "C-5",
-   "C 5"
+   "C 5",
+   "see five",
+   "See five",
+   "see 5",
+   "See 5"
   ],
   "Dunn's River": [
    "Dunns River",
@@ -129,13 +133,20 @@
   ],
   "GoldenEye": [
    "Golden Eye"
+  ],
+  "Saint Mary": [
+   "St. Mary",
+   "St Mary",
+   "Saint Mary's"
   ]
  },
  "evidence_dirs": [
   "pool/jamaica/licence",
   "pool/jamaica-ocj/screen",
   "pool/jamaica-kin/licence",
-  "videos"
+  "videos",
+  "pool/jamaica-pexels/licence",
+  "pool/jamaica-ocj2/screen"
  ],
  "respell": {
   "JTB": "J T B",

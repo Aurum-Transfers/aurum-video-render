@@ -1,0 +1,335 @@
+{
+ "created": "2026-11-11T10:20:14-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 285.424,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 6.039,
+   "text": "Flying into Jamaica's north coast, and not sure how you'll get from the airport to your hotel?",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s000-e10fd8fec3.wav",
+   "sr": 24000,
+   "speed": 1.038
+  },
+  {
+   "i": 1,
+   "t0": 6.257,
+   "t1": 11.419,
+   "text": "Three easy ways: a pre-booked private transfer, a taxi, or a rental car.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s001-871af63bc7.wav",
+   "sr": 24000,
+   "speed": 1.032
+  },
+  {
+   "i": 2,
+   "t0": 11.745,
+   "t1": 13.878,
+   "text": "Let's get you to Ocho Rios.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s002-24956e3059.wav",
+   "sr": 24000,
+   "speed": 1.073
+  },
+  {
+   "i": 3,
+   "t0": 14.38,
+   "t1": 26.198,
+   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s003-09ae8dc8f0.wav",
+   "sr": 24000,
+   "speed": 0.997
+  },
+  {
+   "i": 4,
+   "t0": 26.867,
+   "t1": 37.021,
+   "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s004-a7c04fef66.wav",
+   "sr": 24000,
+   "speed": 0.947
+  },
+  {
+   "i": 5,
+   "t0": 38.185,
+   "t1": 44.094,
+   "text": "Welcome to Ian Fleming International, Jamaica's newest international port of entry.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s005-17f994ee7b.wav",
+   "sr": 24000,
+   "speed": 1.015
+  },
+  {
+   "i": 6,
+   "t0": 44.395,
+   "t1": 51.029,
+   "text": "It sits in Boscobel, in the parish of Saint Mary, about fifteen kilometres east of Ocho Rios.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s006-ca107dea70.wav",
+   "sr": 24000,
+   "speed": 1.025
+  },
+  {
+   "i": 7,
+   "t0": 51.329,
+   "t1": 57.623,
+   "text": "It has a single runway and serves private jets, charters and select international flights.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s007-eaaafcefd3.wav",
+   "sr": 24000,
+   "speed": 0.943
+  },
+  {
+   "i": 8,
+   "t0": 57.939,
+   "t1": 68.776,
+   "text": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, GoldenEye, is about five kilometres away in Oracabessa.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s008-e4e82ea9d6.wav",
+   "sr": 24000,
+   "speed": 0.985
+  },
+  {
+   "i": 9,
+   "t0": 69.134,
+   "t1": 80.249,
+   "text": "This guide is for Ian Fleming. Jamaica's other two international airports, Sangster in Montego Bay and Norman Manley in Kingston, get their own arrival guides.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s009-1ffdf96702.wav",
+   "sr": 24000,
+   "speed": 0.972
+  },
+  {
+   "i": 10,
+   "t0": 80.604,
+   "t1": 86.044,
+   "text": "Is this your first time flying into the north coast? Tell us in the comments where you're staying.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s010-e035237098.wav",
+   "sr": 24000,
+   "speed": 1.044
+  },
+  {
+   "i": 11,
+   "t0": 86.694,
+   "t1": 97.339,
+   "text": "Now, the timing. Customs and immigration here run daily from seven in the morning to seven in the evening, and outside those hours prior notice is required.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s011-08efd06a30.wav",
+   "sr": 24000,
+   "speed": 0.979
+  },
+  {
+   "i": 12,
+   "t0": 97.74,
+   "t1": 106.508,
+   "text": "Before you fly, fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s012-ec6593d510.wav",
+   "sr": 24000,
+   "speed": 0.931
+  },
+  {
+   "i": 13,
+   "t0": 106.898,
+   "t1": 114.429,
+   "text": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s013-8a7eefa894.wav",
+   "sr": 24000,
+   "speed": 0.937
+  },
+  {
+   "i": 14,
+   "t0": 114.812,
+   "t1": 124.711,
+   "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s014-876ce4da12.wav",
+   "sr": 24000,
+   "speed": 1.002
+  },
+  {
+   "i": 15,
+   "t0": 125.076,
+   "t1": 132.244,
+   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s015-53f3cca38a.wav",
+   "sr": 24000,
+   "speed": 0.969
+  },
+  {
+   "i": 16,
+   "t0": 132.549,
+   "t1": 139.077,
+   "text": "If this checklist just saved you a headache, tap like; it tells us to make more arrival guides like this one.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s016-2ab55403b3.wav",
+   "sr": 24000,
+   "speed": 1.031
+  },
+  {
+   "i": 17,
+   "t0": 140.314,
+   "t1": 143.514,
+   "text": "Through customs? Here's how to get to your hotel.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s017-cfdaef1639.wav",
+   "sr": 24000,
+   "speed": 0.977
+  },
+  {
+   "i": 18,
+   "t0": 143.876,
+   "t1": 151.812,
+   "text": "The airport lists taxi or coach hire for getting around. Taxis are available on site when needed, for an extra fee.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s018-6efe7e68c8.wav",
+   "sr": 24000,
+   "speed": 1.002
+  },
+  {
+   "i": 19,
+   "t0": 152.198,
+   "t1": 161.734,
+   "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after your flight.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s019-765b2b5ecb.wav",
+   "sr": 24000,
+   "speed": 1.024
+  },
+  {
+   "i": 20,
+   "t0": 162.076,
+   "t1": 173.02,
+   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s020-76b18f6084.wav",
+   "sr": 24000,
+   "speed": 0.995
+  },
+  {
+   "i": 21,
+   "t0": 173.362,
+   "t1": 186.354,
+   "text": "Option two, a taxi. Canada advises avoiding unmarked cars, and the UK advises using taxis approved by the Jamaica Tourist Board, which show a blue JTB sticker.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s021-34cb8062fa.wav",
+   "sr": 24000,
+   "speed": 0.953
+  },
+  {
+   "i": 22,
+   "t0": 186.661,
+   "t1": 193.168,
+   "text": "Option three, a rental car. Jamaica drives on the left, so take it slowly on the coast road.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s022-bed151b948.wav",
+   "sr": 24000,
+   "speed": 0.994
+  },
+  {
+   "i": 23,
+   "t0": 193.495,
+   "t1": 201.26,
+   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s023-d2cb1e35a6.wav",
+   "sr": 24000,
+   "speed": 1.026
+  },
+  {
+   "i": 24,
+   "t0": 202.5,
+   "t1": 206.233,
+   "text": "Now, the best part: Ocho Rios and the coast around it.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s024-78934ee1a2.wav",
+   "sr": 24000,
+   "speed": 1.015,
+   "lift": [
+    206.383,
+    207.983
+   ]
+  },
+  {
+   "i": 25,
+   "t0": 208.453,
+   "t1": 214.021,
+   "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s025-df19c7e6fa.wav",
+   "sr": 24000,
+   "speed": 1.0
+  },
+  {
+   "i": 26,
+   "t0": 214.345,
+   "t1": 219.828,
+   "text": "Water shoes make the climb safer, and they're sold at the entrance if you forget yours.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s026-26eed3b347.wav",
+   "sr": 24000,
+   "speed": 1.012
+  },
+  {
+   "i": 27,
+   "t0": 220.19,
+   "t1": 223.326,
+   "text": "Back in town, the bay is right there for a swim.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s027-20522b13f7.wav",
+   "sr": 24000,
+   "speed": 0.99,
+   "lift": [
+    223.476,
+    225.076
+   ]
+  },
+  {
+   "i": 28,
+   "t0": 225.559,
+   "t1": 230.466,
+   "text": "Further west along the coast is Runaway Bay, another resort area.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s028-56339606de.wav",
+   "sr": 24000,
+   "speed": 0.978
+  },
+  {
+   "i": 29,
+   "t0": 230.784,
+   "t1": 235.691,
+   "text": "Waterfall first, then the beach: that's a good first day on the north coast.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s029-474b096082.wav",
+   "sr": 24000,
+   "speed": 0.991,
+   "lift": [
+    235.841,
+    237.441
+   ]
+  },
+  {
+   "i": 30,
+   "t0": 238.229,
+   "t1": 243.562,
+   "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s030-f720a60b90.wav",
+   "sr": 24000,
+   "speed": 0.981
+  },
+  {
+   "i": 31,
+   "t0": 243.897,
+   "t1": 254.265,
+   "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s031-865173a653.wav",
+   "sr": 24000,
+   "speed": 0.966
+  },
+  {
+   "i": 32,
+   "t0": 254.658,
+   "t1": 266.071,
+   "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s032-cb0dd6573b.wav",
+   "sr": 24000,
+   "speed": 0.938
+  },
+  {
+   "i": 33,
+   "t0": 266.524,
+   "t1": 276.935,
+   "text": "So, the short version. Check the airport's hours, fill in your C5 form before you fly, and pick your ride before you land. Then enjoy the north coast.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s033-56507d0b13.wav",
+   "sr": 24000,
+   "speed": 0.944
+  },
+  {
+   "i": 34,
+   "t0": 277.296,
+   "t1": 283.824,
+   "text": "Subscribe for the next arrival guide, and enjoy every minute on the north coast. See you on the next trip!",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj/build/tts/s034-219b3baf30.wav",
+   "sr": 24000,
+   "speed": 1.061
+  }
+ ]
+}

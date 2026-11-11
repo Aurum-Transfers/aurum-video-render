@@ -1,0 +1,2198 @@
+{
+ "schema": "aurum-footage-v6",
+ "slug": "jamaica-ocj",
+ "job": "jamaica-ocj",
+ "notes": "Jamaica OCJ (Ian Fleming, Boscobel) cut, 2026-11-10. No licensed OCJ landing or terminal footage exists (YouTube CC BY, Pexels, Pixabay searched); opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled as such; narration says 'flying into Jamaica's north coast'. Clips reused from the MBJ library (same licence evidence, pool/jamaica/licence) plus Rk2IRGPukWw (DroneR JA, Ocho Rios) and taA4JUAfdOQ (Driving Time, Rio Nuevo/Boscobel).",
+ "clips": [
+  {
+   "id": "mbj_coast_approach",
+   "parent": "mbj_coast_approach",
+   "video_id": "gcm2xnh129E",
+   "creator": "Sky&flight",
+   "url": "https://www.youtube.com/watch?v=gcm2xnh129E",
+   "title": "Landing at Montego Bay Jamaica (boeing 787)",
+   "file": "clips/gcm2xnh129E_230-290.mp4",
+   "f0": 0.3,
+   "f1": 59.5,
+   "src_base": 230.0,
+   "src_speed": 1.0,
+   "play_speed": 3.0,
+   "tags": [
+    "landing",
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "shows": [
+    "coast-approach",
+    "approach",
+    "air-arrival"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Approach along Jamaica's north coast (St James coast, window seat); not OCJ",
+   "subject": "mbj-coast-approach"
+  },
+  {
+   "id": "dash_ocho_a_1",
+   "parent": "dash_ocho_a_1",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=MyaZDFcqtCw",
+   "title": "Driving from Rio Nuevo, Jamaica to Ocho Rios, Jamaica",
+   "file": "clips/MyaZDFcqtCw_60-150.mp4",
+   "f0": 0.3,
+   "f1": 30.03,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-1"
+  },
+  {
+   "id": "dash_ocho_a_2",
+   "parent": "dash_ocho_a_2",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=MyaZDFcqtCw",
+   "title": "Driving from Rio Nuevo, Jamaica to Ocho Rios, Jamaica",
+   "file": "clips/MyaZDFcqtCw_60-150.mp4",
+   "f0": 30.53,
+   "f1": 59.77,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-2"
+  },
+  {
+   "id": "dash_ocho_a_3",
+   "parent": "dash_ocho_a_3",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=MyaZDFcqtCw",
+   "title": "Driving from Rio Nuevo, Jamaica to Ocho Rios, Jamaica",
+   "file": "clips/MyaZDFcqtCw_60-150.mp4",
+   "f0": 60.27,
+   "f1": 89.5,
+   "src_base": 60.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dash drive, St Mary",
+   "subject": "dash-st-mary-a-3"
+  },
+  {
+   "id": "dash_ocho_b_1",
+   "parent": "dash_ocho_b_1",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=MyaZDFcqtCw",
+   "title": "Driving from Rio Nuevo, Jamaica to Ocho Rios, Jamaica",
+   "file": "clips/MyaZDFcqtCw_400-480.mp4",
+   "f0": 0.3,
+   "f1": 26.7,
+   "src_base": 400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dash drive towards Ocho Rios",
+   "subject": "dash-st-mary-b-1"
+  },
+  {
+   "id": "dash_ocho_b_2",
+   "parent": "dash_ocho_b_2",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=MyaZDFcqtCw",
+   "title": "Driving from Rio Nuevo, Jamaica to Ocho Rios, Jamaica",
+   "file": "clips/MyaZDFcqtCw_400-480.mp4",
+   "f0": 27.2,
+   "f1": 53.1,
+   "src_base": 400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dash drive towards Ocho Rios",
+   "subject": "dash-st-mary-b-2"
+  },
+  {
+   "id": "dash_ocho_b_3",
+   "parent": "dash_ocho_b_3",
+   "video_id": "MyaZDFcqtCw",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=MyaZDFcqtCw",
+   "title": "Driving from Rio Nuevo, Jamaica to Ocho Rios, Jamaica",
+   "file": "clips/MyaZDFcqtCw_400-480.mp4",
+   "f0": 53.6,
+   "f1": 79.5,
+   "src_base": 400.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dash drive towards Ocho Rios",
+   "subject": "dash-st-mary-b-3"
+  },
+  {
+   "id": "coast_road_aerial",
+   "parent": "coast_road_aerial",
+   "video_id": "DTiioRRs3Bg",
+   "creator": "Making it with the Matthews",
+   "url": "https://www.youtube.com/watch?v=DTiioRRs3Bg",
+   "title": "DRIVE AROUND JAMAICA | FROM MONTEGO BAY TO NEGRIL WITH THE MOST AMAZING VIEWS",
+   "file": "clips/DTiioRRs3Bg_14-50.mp4",
+   "f0": 0.3,
+   "f1": 35.5,
+   "src_base": 14.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "north-coast-aerial"
+   ],
+   "shows": [
+    "north-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast road aerial, St James",
+   "subject": "coast-road-aerial"
+  },
+  {
+   "id": "highway_aerial_1",
+   "parent": "highway_aerial_1",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 6.0,
+   "f1": 61.88,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-1"
+  },
+  {
+   "id": "highway_aerial_2",
+   "parent": "highway_aerial_2",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 62.38,
+   "f1": 117.75,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-2"
+  },
+  {
+   "id": "highway_aerial_3",
+   "parent": "highway_aerial_3",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 118.25,
+   "f1": 173.62,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-3"
+  },
+  {
+   "id": "highway_aerial_4",
+   "parent": "highway_aerial_4",
+   "video_id": "FcYqtBaMXFM",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=FcYqtBaMXFM",
+   "title": "Beautiful Jamaica!",
+   "file": "clips/FcYqtBaMXFM_6-236.mp4",
+   "f0": 174.12,
+   "f1": 229.5,
+   "src_base": 6.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "highway-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Highway aerials (Robert Harvey)",
+   "subject": "highway-aerial-4"
+  },
+  {
+   "id": "portland_aerial_1",
+   "parent": "portland_aerial_1",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+   "title": "Portland, Jamaica",
+   "file": "clips/GBaTswg6mgs_0-138.mp4",
+   "f0": 0.3,
+   "f1": 46.03,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast aerial, east of St Mary",
+   "subject": "portland-aerial-1"
+  },
+  {
+   "id": "portland_aerial_2",
+   "parent": "portland_aerial_2",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+   "title": "Portland, Jamaica",
+   "file": "clips/GBaTswg6mgs_0-138.mp4",
+   "f0": 46.53,
+   "f1": 91.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast aerial, east of St Mary",
+   "subject": "portland-aerial-2"
+  },
+  {
+   "id": "portland_aerial_3",
+   "parent": "portland_aerial_3",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "url": "https://www.youtube.com/watch?v=GBaTswg6mgs",
+   "title": "Portland, Jamaica",
+   "file": "clips/GBaTswg6mgs_0-138.mp4",
+   "f0": 92.27,
+   "f1": 137.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Portland coast aerial, east of St Mary",
+   "subject": "portland-aerial-3"
+  },
+  {
+   "id": "mobay_promo_bay",
+   "parent": "mobay_promo_bay",
+   "video_id": "OTRnEh4qUwE",
+   "creator": "Digital Video Concept",
+   "url": "https://www.youtube.com/watch?v=OTRnEh4qUwE",
+   "title": "Promo Montego Bay Corporate",
+   "file": "clips/OTRnEh4qUwE_0-46.mp4",
+   "f0": 0.3,
+   "f1": 6.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "north-coast-aerial"
+   ],
+   "shows": [
+    "north-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Montego Bay, on the north coast west of Ocho Rios, from the air",
+   "subject": "mobay-resort-aerial"
+  },
+  {
+   "id": "mobay_promo_beach",
+   "parent": "mobay_promo_beach",
+   "video_id": "OTRnEh4qUwE",
+   "creator": "Digital Video Concept",
+   "url": "https://www.youtube.com/watch?v=OTRnEh4qUwE",
+   "title": "Promo Montego Bay Corporate",
+   "file": "clips/OTRnEh4qUwE_0-46.mp4",
+   "f0": 6.2,
+   "f1": 10.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "north-coast-aerial"
+   ],
+   "shows": [
+    "north-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Montego Bay, on the north coast west of Ocho Rios, from the air",
+   "subject": "mobay-beach-aerial"
+  },
+  {
+   "id": "mobay_promo_sea",
+   "parent": "mobay_promo_sea",
+   "video_id": "OTRnEh4qUwE",
+   "creator": "Digital Video Concept",
+   "url": "https://www.youtube.com/watch?v=OTRnEh4qUwE",
+   "title": "Promo Montego Bay Corporate",
+   "file": "clips/OTRnEh4qUwE_0-46.mp4",
+   "f0": 23.0,
+   "f1": 36.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "north-coast-aerial"
+   ],
+   "shows": [
+    "north-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Montego Bay coast, north coast, from the sea",
+   "subject": "mobay-sea-aerial"
+  },
+  {
+   "id": "negril_wakes",
+   "parent": "negril_wakes",
+   "video_id": "EWQ8WWNwO8A",
+   "creator": "Making it with the Matthews",
+   "url": "https://www.youtube.com/watch?v=EWQ8WWNwO8A",
+   "title": "2023 NEGRIL JAMAICA DRONE VLOG|  7 MILE BEACH, MARGARITAVILLE AND MORE",
+   "file": "clips/EWQ8WWNwO8A_66-125.mp4",
+   "f0": 0.3,
+   "f1": 18.5,
+   "src_base": 66.0,
+   "src_speed": 1.0,
+   "play_speed": 3.0,
+   "tags": [
+    "west-coast-aerial"
+   ],
+   "shows": [
+    "west-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Negril, on Jamaica's west coast, from the air",
+   "subject": "negril-boats-aerial"
+  },
+  {
+   "id": "negril_bay",
+   "parent": "negril_bay",
+   "video_id": "EWQ8WWNwO8A",
+   "creator": "Making it with the Matthews",
+   "url": "https://www.youtube.com/watch?v=EWQ8WWNwO8A",
+   "title": "2023 NEGRIL JAMAICA DRONE VLOG|  7 MILE BEACH, MARGARITAVILLE AND MORE",
+   "file": "clips/EWQ8WWNwO8A_66-125.mp4",
+   "f0": 22.5,
+   "f1": 58.5,
+   "src_base": 66.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "west-coast-aerial"
+   ],
+   "shows": [
+    "west-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Seven Mile Beach, Negril (west coast)",
+   "subject": "negril-bay-aerial"
+  },
+  {
+   "id": "negril_7mile",
+   "parent": "negril_7mile",
+   "video_id": "EWQ8WWNwO8A",
+   "creator": "Making it with the Matthews",
+   "url": "https://www.youtube.com/watch?v=EWQ8WWNwO8A",
+   "title": "2023 NEGRIL JAMAICA DRONE VLOG|  7 MILE BEACH, MARGARITAVILLE AND MORE",
+   "file": "clips/EWQ8WWNwO8A_130-205.mp4",
+   "f0": 0.3,
+   "f1": 23.0,
+   "src_base": 130.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "west-coast-aerial"
+   ],
+   "shows": [
+    "west-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Seven Mile Beach, Negril (west coast)",
+   "subject": "negril-7mile-long"
+  },
+  {
+   "id": "negril_strip",
+   "parent": "negril_strip",
+   "video_id": "EWQ8WWNwO8A",
+   "creator": "Making it with the Matthews",
+   "url": "https://www.youtube.com/watch?v=EWQ8WWNwO8A",
+   "title": "2023 NEGRIL JAMAICA DRONE VLOG|  7 MILE BEACH, MARGARITAVILLE AND MORE",
+   "file": "clips/EWQ8WWNwO8A_130-205.mp4",
+   "f0": 31.0,
+   "f1": 38.5,
+   "src_base": 130.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "west-coast-aerial"
+   ],
+   "shows": [
+    "west-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Seven Mile Beach, Negril (west coast)",
+   "subject": "negril-strip"
+  },
+  {
+   "id": "runaway_coast",
+   "parent": "runaway_coast",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_12-62.mp4",
+   "f0": 0.3,
+   "f1": 28.0,
+   "src_base": 12.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "coast-road-aerial",
+    "island-aerial",
+    "runaway-aerial"
+   ],
+   "shows": [
+    "coast-road-aerial",
+    "island-aerial",
+    "runaway-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay coast aerial",
+   "subject": "runaway-coast"
+  },
+  {
+   "id": "runaway_resort",
+   "parent": "runaway_resort",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_12-62.mp4",
+   "f0": 30.0,
+   "f1": 46.0,
+   "src_base": 12.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "runaway-resort"
+  },
+  {
+   "id": "runaway_bay2",
+   "parent": "runaway_bay2",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_76-160.mp4",
+   "f0": 0.3,
+   "f1": 83.5,
+   "src_base": 76.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay aerials",
+   "subject": "runaway-bay2"
+  },
+  {
+   "id": "ocho_coast",
+   "parent": "ocho_coast",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_198-290.mp4",
+   "f0": 0.3,
+   "f1": 29.0,
+   "src_base": 198.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "ocho-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios coast aerial",
+   "subject": "ocho-coast"
+  },
+  {
+   "id": "ocho_cruise",
+   "parent": "ocho_cruise",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_198-290.mp4",
+   "f0": 30.0,
+   "f1": 49.0,
+   "src_base": 198.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "ocho-cruise",
+    "ocho-aerial"
+   ],
+   "shows": [
+    "ocho-cruise",
+    "ocho-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios cruise pier",
+   "subject": "ocho-cruise"
+  },
+  {
+   "id": "ocho_bay",
+   "parent": "ocho_bay",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "url": "https://www.youtube.com/watch?v=11Z-XBbUst0",
+   "title": "Grand Bahia Principe, Runaway Bay & Ocho Rios, Jamaica",
+   "file": "clips/11Z-XBbUst0_198-290.mp4",
+   "f0": 50.0,
+   "f1": 91.5,
+   "src_base": 198.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "ocho-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios bay aerial",
+   "subject": "ocho-bay"
+  },
+  {
+   "id": "jewel_cove",
+   "parent": "jewel_cove",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=T4xHrMQNab0",
+   "title": "Drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/T4xHrMQNab0_0-90.mp4",
+   "f0": 0.3,
+   "f1": 89.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort cove aerial",
+   "subject": "jewel-cove"
+  },
+  {
+   "id": "jewel_cove_b_1",
+   "parent": "jewel_cove_b_1",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=T4xHrMQNab0",
+   "title": "Drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/T4xHrMQNab0_120-330.mp4",
+   "f0": 0.3,
+   "f1": 70.03,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "jewel-cove-b-1"
+  },
+  {
+   "id": "jewel_cove_b_2",
+   "parent": "jewel_cove_b_2",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=T4xHrMQNab0",
+   "title": "Drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/T4xHrMQNab0_120-330.mp4",
+   "f0": 70.53,
+   "f1": 139.77,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "jewel-cove-b-2"
+  },
+  {
+   "id": "jewel_cove_b_3",
+   "parent": "jewel_cove_b_3",
+   "video_id": "T4xHrMQNab0",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=T4xHrMQNab0",
+   "title": "Drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/T4xHrMQNab0_120-330.mp4",
+   "f0": 140.27,
+   "f1": 209.5,
+   "src_base": 120.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort aerial",
+   "subject": "jewel-cove-b-3"
+  },
+  {
+   "id": "ocho_bay_ground",
+   "parent": "ocho_bay_ground",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=TILQzsOE8mg",
+   "title": "Moon Palace 7am Beach Walking Tour[ Ocho Rios Jamaica]",
+   "file": "clips/TILQzsOE8mg_0-40.mp4",
+   "f0": 0.3,
+   "f1": 25.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "ocho-beach",
+    "calm-sea",
+    "beach"
+   ],
+   "shows": [
+    "ocho-beach",
+    "calm-sea",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Ocho Rios bay, ground level",
+   "subject": "ocho-bay-ground"
+  },
+  {
+   "id": "ocho_beach_walk_1",
+   "parent": "ocho_beach_walk_1",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=TILQzsOE8mg",
+   "title": "Moon Palace 7am Beach Walking Tour[ Ocho Rios Jamaica]",
+   "file": "clips/TILQzsOE8mg_150-290.mp4",
+   "f0": 0.3,
+   "f1": 46.7,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "ocho-beach",
+    "beach"
+   ],
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-1"
+  },
+  {
+   "id": "ocho_beach_walk_2",
+   "parent": "ocho_beach_walk_2",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=TILQzsOE8mg",
+   "title": "Moon Palace 7am Beach Walking Tour[ Ocho Rios Jamaica]",
+   "file": "clips/TILQzsOE8mg_150-290.mp4",
+   "f0": 47.2,
+   "f1": 93.1,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "ocho-beach",
+    "beach"
+   ],
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-2"
+  },
+  {
+   "id": "ocho_beach_walk_3",
+   "parent": "ocho_beach_walk_3",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "url": "https://www.youtube.com/watch?v=TILQzsOE8mg",
+   "title": "Moon Palace 7am Beach Walking Tour[ Ocho Rios Jamaica]",
+   "file": "clips/TILQzsOE8mg_150-290.mp4",
+   "f0": 93.6,
+   "f1": 139.5,
+   "src_base": 150.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "ocho-beach",
+    "beach"
+   ],
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "audio": true,
+   "licensedContent": false,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-3"
+  },
+  {
+   "id": "dunns_a",
+   "parent": "dunns_a",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "url": "https://www.youtube.com/watch?v=ABh47uaa08I",
+   "title": "Ultimate Jamaica Tour - #1 Excursion 4K - Dunn's River Falls Ocho Rios Jamaica",
+   "file": "clips/ABh47uaa08I_320-420.mp4",
+   "f0": 0.3,
+   "f1": 30.0,
+   "src_base": 320.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "dunns",
+    "waterfall"
+   ],
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dunn's River Falls",
+   "subject": "dunns-lower"
+  },
+  {
+   "id": "dunns_b",
+   "parent": "dunns_b",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "url": "https://www.youtube.com/watch?v=ABh47uaa08I",
+   "title": "Ultimate Jamaica Tour - #1 Excursion 4K - Dunn's River Falls Ocho Rios Jamaica",
+   "file": "clips/ABh47uaa08I_320-420.mp4",
+   "f0": 44.0,
+   "f1": 99.5,
+   "src_base": 320.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "dunns",
+    "waterfall"
+   ],
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dunn's River Falls through the trees",
+   "subject": "dunns-trees"
+  },
+  {
+   "id": "dunns_c",
+   "parent": "dunns_c",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "url": "https://www.youtube.com/watch?v=ABh47uaa08I",
+   "title": "Ultimate Jamaica Tour - #1 Excursion 4K - Dunn's River Falls Ocho Rios Jamaica",
+   "file": "clips/ABh47uaa08I_445-545.mp4",
+   "f0": 52.0,
+   "f1": 99.5,
+   "src_base": 445.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "dunns",
+    "waterfall"
+   ],
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dunn's River cascades",
+   "subject": "dunns-cascade"
+  },
+  {
+   "id": "dunns_d",
+   "parent": "dunns_d",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "url": "https://www.youtube.com/watch?v=ABh47uaa08I",
+   "title": "Ultimate Jamaica Tour - #1 Excursion 4K - Dunn's River Falls Ocho Rios Jamaica",
+   "file": "clips/ABh47uaa08I_570-630.mp4",
+   "f0": 14.0,
+   "f1": 59.5,
+   "src_base": 570.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "dunns",
+    "waterfall"
+   ],
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dunn's River climb",
+   "subject": "dunns-climb"
+  },
+  {
+   "id": "dunns_e",
+   "parent": "dunns_e",
+   "video_id": "AHqe0IZq7uw",
+   "creator": "EscapeOnTime",
+   "url": "https://www.youtube.com/watch?v=AHqe0IZq7uw",
+   "title": "Experience the World Famous Dunn's River Falls in Jamaica",
+   "file": "clips/AHqe0IZq7uw_113-165.mp4",
+   "f0": 0.3,
+   "f1": 51.5,
+   "src_base": 113.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "dunns",
+    "waterfall"
+   ],
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Dunn's River Falls rock face",
+   "subject": "dunns-rock"
+  },
+  {
+   "id": "kite_sea",
+   "parent": "kite_sea",
+   "video_id": "KBAJ8JqdnYM",
+   "creator": "Skip Steuart",
+   "url": "https://www.youtube.com/watch?v=KBAJ8JqdnYM",
+   "title": "HalfMoonJamaicaKiteSurf",
+   "file": "clips/KBAJ8JqdnYM_80-200.mp4",
+   "f0": 0.3,
+   "f1": 119.5,
+   "src_base": 80.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "sea-aerial"
+   ],
+   "shows": [
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Sea off the north-west coast",
+   "subject": "half-moon-sea"
+  },
+  {
+   "id": "trident",
+   "parent": "trident",
+   "video_id": "xwah2a4CF3A",
+   "creator": "Digital Video Concept",
+   "url": "https://www.youtube.com/watch?v=xwah2a4CF3A",
+   "title": "Trident Aerial Lifestyle",
+   "file": "clips/xwah2a4CF3A_0-35.mp4",
+   "f0": 0.3,
+   "f1": 34.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 2.0,
+   "tags": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Clifftop coast aerial, Portland",
+   "subject": "trident-aerial"
+  },
+  {
+   "id": "rb_cove_a",
+   "parent": "rb_cove_a",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=Ymw6leiGhXw",
+   "title": "Drone fly over of Jewel Paradise Cove in Runaway Bay, Jamaica - January 2022.",
+   "file": "clips/Ymw6leiGhXw_35-80.mp4",
+   "f0": 0.3,
+   "f1": 44.5,
+   "src_base": 35.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "runaway-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "beach-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay cove aerial",
+   "subject": "rb-cove-a"
+  },
+  {
+   "id": "rb_coast_a_1",
+   "parent": "rb_coast_a_1",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=Ymw6leiGhXw",
+   "title": "Drone fly over of Jewel Paradise Cove in Runaway Bay, Jamaica - January 2022.",
+   "file": "clips/Ymw6leiGhXw_140-205.mp4",
+   "f0": 14.0,
+   "f1": 39.25,
+   "src_base": 140.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "runaway-aerial",
+    "sea-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "sea-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay coastline aerial",
+   "subject": "rb-coast-a-1"
+  },
+  {
+   "id": "rb_coast_a_2",
+   "parent": "rb_coast_a_2",
+   "video_id": "Ymw6leiGhXw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=Ymw6leiGhXw",
+   "title": "Drone fly over of Jewel Paradise Cove in Runaway Bay, Jamaica - January 2022.",
+   "file": "clips/Ymw6leiGhXw_140-205.mp4",
+   "f0": 39.75,
+   "f1": 64.5,
+   "src_base": 140.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "runaway-aerial",
+    "sea-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "sea-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay coastline aerial",
+   "subject": "rb-coast-a-2"
+  },
+  {
+   "id": "rb_cove_b",
+   "parent": "rb_cove_b",
+   "video_id": "onzcja6gqlw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=onzcja6gqlw",
+   "title": "and yet another drone video over Jewel Paradise Cove in Runaway Bay Jamaica - Feat Camp 2022.",
+   "file": "clips/onzcja6gqlw_0-30.mp4",
+   "f0": 0.3,
+   "f1": 29.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "runaway-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay beach aerial",
+   "subject": "rb-cove-b"
+  },
+  {
+   "id": "rb_cove_c_1",
+   "parent": "rb_cove_c_1",
+   "video_id": "onzcja6gqlw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=onzcja6gqlw",
+   "title": "and yet another drone video over Jewel Paradise Cove in Runaway Bay Jamaica - Feat Camp 2022.",
+   "file": "clips/onzcja6gqlw_186-275.mp4",
+   "f0": 0.3,
+   "f1": 44.15,
+   "src_base": 186.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort cove aerial",
+   "subject": "rb-cove-c-1"
+  },
+  {
+   "id": "rb_cove_c_2",
+   "parent": "rb_cove_c_2",
+   "video_id": "onzcja6gqlw",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=onzcja6gqlw",
+   "title": "and yet another drone video over Jewel Paradise Cove in Runaway Bay Jamaica - Feat Camp 2022.",
+   "file": "clips/onzcja6gqlw_186-275.mp4",
+   "f0": 44.65,
+   "f1": 88.0,
+   "src_base": 186.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "runaway-aerial",
+    "resort-aerial",
+    "beach-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Runaway Bay resort cove aerial",
+   "subject": "rb-cove-c-2"
+  },
+  {
+   "id": "rb_bay_d",
+   "parent": "rb_bay_d",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=OaDLJ5KtI2Y",
+   "title": "More drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/OaDLJ5KtI2Y_0-40.mp4",
+   "f0": 0.3,
+   "f1": 39.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "sea-aerial",
+    "runaway-aerial",
+    "island-aerial"
+   ],
+   "shows": [
+    "sea-aerial",
+    "runaway-aerial",
+    "island-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast bay aerial, Runaway Bay",
+   "subject": "rb-bay-d"
+  },
+  {
+   "id": "rb_resort_d_1",
+   "parent": "rb_resort_d_1",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=OaDLJ5KtI2Y",
+   "title": "More drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/OaDLJ5KtI2Y_41-105.mp4",
+   "f0": 0.3,
+   "f1": 31.9,
+   "src_base": 41.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast resort aerial, Runaway Bay",
+   "subject": "rb-resort-d-1"
+  },
+  {
+   "id": "rb_resort_d_2",
+   "parent": "rb_resort_d_2",
+   "video_id": "OaDLJ5KtI2Y",
+   "creator": "Chris Cafiero",
+   "url": "https://www.youtube.com/watch?v=OaDLJ5KtI2Y",
+   "title": "More drone flying for fun over Jewel Paradise Cove in Runaway Bay Jamaica - 02.03.2022",
+   "file": "clips/OaDLJ5KtI2Y_41-105.mp4",
+   "f0": 32.4,
+   "f1": 63.5,
+   "src_base": 41.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "resort-aerial",
+    "runaway-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast resort aerial, Runaway Bay",
+   "subject": "rb-resort-d-2"
+  },
+  {
+   "id": "highway_north_south_1",
+   "parent": "highway_north_south_1",
+   "video_id": "55-rBgI1MUA",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=55-rBgI1MUA",
+   "title": "Driving from Ocho Rios, Jamaica to Kingston, Jamaica",
+   "file": "clips/55-rBgI1MUA_900-1080.mp4",
+   "f0": 0.3,
+   "f1": 60.03,
+   "src_base": 900.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North-South Highway, St Ann",
+   "subject": "north-south-highway-1"
+  },
+  {
+   "id": "highway_north_south_2",
+   "parent": "highway_north_south_2",
+   "video_id": "55-rBgI1MUA",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=55-rBgI1MUA",
+   "title": "Driving from Ocho Rios, Jamaica to Kingston, Jamaica",
+   "file": "clips/55-rBgI1MUA_900-1080.mp4",
+   "f0": 60.53,
+   "f1": 119.77,
+   "src_base": 900.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North-South Highway, St Ann",
+   "subject": "north-south-highway-2"
+  },
+  {
+   "id": "highway_north_south_3",
+   "parent": "highway_north_south_3",
+   "video_id": "55-rBgI1MUA",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=55-rBgI1MUA",
+   "title": "Driving from Ocho Rios, Jamaica to Kingston, Jamaica",
+   "file": "clips/55-rBgI1MUA_900-1080.mp4",
+   "f0": 120.27,
+   "f1": 179.5,
+   "src_base": 900.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "driving",
+    "highway"
+   ],
+   "shows": [
+    "driving",
+    "highway"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North-South Highway, St Ann",
+   "subject": "north-south-highway-3"
+  },
+  {
+   "id": "ocho_drone_1",
+   "parent": "ocho_drone_1",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "url": "https://www.youtube.com/watch?v=Rk2IRGPukWw",
+   "title": "A beautiful Sunday Morning",
+   "file": "clips/Rk2IRGPukWw_0-129.mp4",
+   "f0": 4.0,
+   "f1": 34.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-1"
+  },
+  {
+   "id": "ocho_drone_2",
+   "parent": "ocho_drone_2",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "url": "https://www.youtube.com/watch?v=Rk2IRGPukWw",
+   "title": "A beautiful Sunday Morning",
+   "file": "clips/Rk2IRGPukWw_0-129.mp4",
+   "f0": 35.0,
+   "f1": 65.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-2"
+  },
+  {
+   "id": "ocho_drone_3",
+   "parent": "ocho_drone_3",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "url": "https://www.youtube.com/watch?v=Rk2IRGPukWw",
+   "title": "A beautiful Sunday Morning",
+   "file": "clips/Rk2IRGPukWw_0-129.mp4",
+   "f0": 65.5,
+   "f1": 95.5,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-3"
+  },
+  {
+   "id": "ocho_drone_4",
+   "parent": "ocho_drone_4",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "url": "https://www.youtube.com/watch?v=Rk2IRGPukWw",
+   "title": "A beautiful Sunday Morning",
+   "file": "clips/Rk2IRGPukWw_0-129.mp4",
+   "f0": 96.0,
+   "f1": 126.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-4"
+  },
+  {
+   "id": "boscobel_road_1",
+   "parent": "boscobel_road_1",
+   "video_id": "taA4JUAfdOQ",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=taA4JUAfdOQ",
+   "title": "Driving around Rio Nuevo and Boscobel in St. Mary, Jamaica",
+   "file": "clips/taA4JUAfdOQ_0-140.mp4",
+   "f0": 1.0,
+   "f1": 47.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Roads around Rio Nuevo and Boscobel, St Mary (near the airport)",
+   "subject": "boscobel-road-1"
+  },
+  {
+   "id": "boscobel_road_2",
+   "parent": "boscobel_road_2",
+   "video_id": "taA4JUAfdOQ",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=taA4JUAfdOQ",
+   "title": "Driving around Rio Nuevo and Boscobel in St. Mary, Jamaica",
+   "file": "clips/taA4JUAfdOQ_0-140.mp4",
+   "f0": 47.5,
+   "f1": 93.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Roads around Rio Nuevo and Boscobel, St Mary (near the airport)",
+   "subject": "boscobel-road-2"
+  },
+  {
+   "id": "boscobel_road_3",
+   "parent": "boscobel_road_3",
+   "video_id": "taA4JUAfdOQ",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=taA4JUAfdOQ",
+   "title": "Driving around Rio Nuevo and Boscobel in St. Mary, Jamaica",
+   "file": "clips/taA4JUAfdOQ_0-140.mp4",
+   "f0": 93.5,
+   "f1": 139.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Roads around Rio Nuevo and Boscobel, St Mary (near the airport)",
+   "subject": "boscobel-road-3"
+  },
+  {
+   "id": "negril_px_a",
+   "parent": "negril_px_a",
+   "video_id": "pexels-20532693",
+   "creator": "Amal Lohith (Pexels)",
+   "url": "https://www.pexels.com/video/negril-jamaica-20532693/",
+   "title": "Negril Jamaica",
+   "file": "clips/pexels-20532693.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 32.07,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "west-coast-aerial",
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "west-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Negril, west coast, from the air (Pexels)",
+   "subject": "negril-px-a"
+  },
+  {
+   "id": "negril_px_b",
+   "parent": "negril_px_b",
+   "video_id": "pexels-20532829",
+   "creator": "Amal Lohith (Pexels)",
+   "url": "https://www.pexels.com/video/negril-jamaica-20532829/",
+   "title": "negril Jamaica",
+   "file": "clips/pexels-20532829.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.25,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "west-coast-aerial",
+    "sea-aerial",
+    "beach-aerial"
+   ],
+   "shows": [
+    "west-coast-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Negril, west coast (Pexels)",
+   "subject": "negril-px-b"
+  },
+  {
+   "id": "stmary_road_1",
+   "parent": "stmary_road_1",
+   "video_id": "fcB3GmUU3vU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=fcB3GmUU3vU",
+   "title": "St. Mary, Jamaica: Driving around the side Streets of the North Coast",
+   "file": "clips/fcB3GmUU3vU_0-130.mp4",
+   "f0": 1.0,
+   "f1": 43.67,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast road, St Mary",
+   "subject": "st-mary-road-1"
+  },
+  {
+   "id": "stmary_road_2",
+   "parent": "stmary_road_2",
+   "video_id": "fcB3GmUU3vU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=fcB3GmUU3vU",
+   "title": "St. Mary, Jamaica: Driving around the side Streets of the North Coast",
+   "file": "clips/fcB3GmUU3vU_0-130.mp4",
+   "f0": 44.17,
+   "f1": 86.33,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast road, St Mary",
+   "subject": "st-mary-road-2"
+  },
+  {
+   "id": "stmary_road_3",
+   "parent": "stmary_road_3",
+   "video_id": "fcB3GmUU3vU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=fcB3GmUU3vU",
+   "title": "St. Mary, Jamaica: Driving around the side Streets of the North Coast",
+   "file": "clips/fcB3GmUU3vU_0-130.mp4",
+   "f0": 86.83,
+   "f1": 129.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "North coast road, St Mary",
+   "subject": "st-mary-road-3"
+  },
+  {
+   "id": "stmary_road_b_1",
+   "parent": "stmary_road_b_1",
+   "video_id": "fcB3GmUU3vU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=fcB3GmUU3vU",
+   "title": "St. Mary, Jamaica: Driving around the side Streets of the North Coast",
+   "file": "clips/fcB3GmUU3vU_600-700.mp4",
+   "f0": 1.0,
+   "f1": 50.0,
+   "src_base": 600.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "endcard-drive"
+   ],
+   "shows": [
+    "endcard-drive"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Side roads, St Mary (north coast)",
+   "subject": "st-mary-road-b-1"
+  },
+  {
+   "id": "stmary_road_b_2",
+   "parent": "stmary_road_b_2",
+   "video_id": "fcB3GmUU3vU",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=fcB3GmUU3vU",
+   "title": "St. Mary, Jamaica: Driving around the side Streets of the North Coast",
+   "file": "clips/fcB3GmUU3vU_600-700.mp4",
+   "f0": 50.5,
+   "f1": 99.0,
+   "src_base": 600.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "endcard-drive"
+   ],
+   "shows": [
+    "endcard-drive"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Side roads, St Mary (north coast)",
+   "subject": "st-mary-road-b-2"
+  },
+  {
+   "id": "rionuevo_road_1",
+   "parent": "rionuevo_road_1",
+   "video_id": "0jcA2ySfNHY",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=0jcA2ySfNHY",
+   "title": "Driving around Rio Nuevo, St. Mary, Jamaica",
+   "file": "clips/0jcA2ySfNHY_740-850.mp4",
+   "f0": 1.0,
+   "f1": 55.0,
+   "src_base": 740.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Main road near Rio Nuevo, St Mary",
+   "subject": "rio-nuevo-road-1"
+  },
+  {
+   "id": "rionuevo_road_2",
+   "parent": "rionuevo_road_2",
+   "video_id": "0jcA2ySfNHY",
+   "creator": "Driving Time",
+   "url": "https://www.youtube.com/watch?v=0jcA2ySfNHY",
+   "title": "Driving around Rio Nuevo, St. Mary, Jamaica",
+   "file": "clips/0jcA2ySfNHY_740-850.mp4",
+   "f0": 55.5,
+   "f1": 109.0,
+   "src_base": 740.0,
+   "src_speed": 1.0,
+   "play_speed": 1.0,
+   "tags": [
+    "boscobel-road",
+    "driving"
+   ],
+   "shows": [
+    "boscobel-road",
+    "driving"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Main road near Rio Nuevo, St Mary",
+   "subject": "rio-nuevo-road-2"
+  },
+  {
+   "id": "ocho_villa_aerial_1",
+   "parent": "ocho_villa_aerial_1",
+   "video_id": "loUSJynWKNU",
+   "creator": "Bicana",
+   "url": "https://www.youtube.com/watch?v=loUSJynWKNU",
+   "title": "Ocho Rios Weekend Getaway | Margaritaville + Mahogany Beach | My NEW CAMERA dropped in Water =(",
+   "file": "clips/loUSJynWKNU_0-55.mp4",
+   "f0": 0.5,
+   "f1": 25.25,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "ocho-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hills above Ocho Rios from the air (Bicana)",
+   "subject": "ocho-villa-aerial-1"
+  },
+  {
+   "id": "ocho_villa_aerial_2",
+   "parent": "ocho_villa_aerial_2",
+   "video_id": "loUSJynWKNU",
+   "creator": "Bicana",
+   "url": "https://www.youtube.com/watch?v=loUSJynWKNU",
+   "title": "Ocho Rios Weekend Getaway | Margaritaville + Mahogany Beach | My NEW CAMERA dropped in Water =(",
+   "file": "clips/loUSJynWKNU_0-55.mp4",
+   "f0": 25.75,
+   "f1": 50.0,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "ocho-aerial",
+    "resort-aerial"
+   ],
+   "shows": [
+    "ocho-aerial",
+    "resort-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hills above Ocho Rios from the air (Bicana)",
+   "subject": "ocho-villa-aerial-2"
+  },
+  {
+   "id": "jm_lush_landscape",
+   "parent": "jm_lush_landscape",
+   "video_id": "pexels-37177397",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-jamaica-landscape-37177397/",
+   "title": "Aerial View of Lush Jamaica Landscape",
+   "file": "clips/pexels-37177397.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 8.63,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican hills from the air",
+   "subject": "jm_lush_landscape"
+  },
+  {
+   "id": "jm_countryside",
+   "parent": "jm_countryside",
+   "video_id": "pexels-37177248",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/scenic-aerial-view-of-jamaican-countryside-37177248/",
+   "title": "Scenic Aerial View of Jamaican Countryside",
+   "file": "clips/pexels-37177248.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 8.3,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican countryside from the air",
+   "subject": "jm_countryside"
+  },
+  {
+   "id": "jm_mountains",
+   "parent": "jm_mountains",
+   "video_id": "pexels-37177393",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/lush-green-jamaican-mountains-in-aerial-view-37177393/",
+   "title": "Lush Green Jamaican Mountains in Aerial View",
+   "file": "clips/pexels-37177393.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 16.89,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountains from the air",
+   "subject": "jm_mountains"
+  },
+  {
+   "id": "jm_mountains_b",
+   "parent": "jm_mountains_b",
+   "video_id": "pexels-37177434",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-lush-jamaican-mountains-37177434/",
+   "title": "Breathtaking Aerial View of Lush Jamaican Mountains",
+   "file": "clips/pexels-37177434.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.56,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountains from the air",
+   "subject": "jm_mountains_b"
+  },
+  {
+   "id": "jm_forest_canopy",
+   "parent": "jm_forest_canopy",
+   "video_id": "pexels-37177267",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-jamaican-forest-canopy-37177267/",
+   "title": "Aerial View of Lush Jamaican Forest Canopy",
+   "file": "clips/pexels-37177267.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 23.57,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican forest canopy from the air",
+   "subject": "jm_forest_canopy"
+  },
+  {
+   "id": "jm_forest_lake",
+   "parent": "jm_forest_lake",
+   "video_id": "pexels-37177269",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-forest-by-a-lake-37177269/",
+   "title": "Aerial View of Lush Forest by a Lake",
+   "file": "clips/pexels-37177269.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 27.57,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican forest and lake from the air",
+   "subject": "jm_forest_lake"
+  },
+  {
+   "id": "jm_mountain_coast",
+   "parent": "jm_mountain_coast",
+   "video_id": "pexels-37177265",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-drone-view-over-lush-green-mountain-37177265/",
+   "title": "Aerial Drone View Over Lush Green Mountain",
+   "file": "clips/pexels-37177265.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 29.78,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountains towards the coast, from the air",
+   "subject": "jm_mountain_coast"
+  },
+  {
+   "id": "jm_hills",
+   "parent": "jm_hills",
+   "video_id": "pexels-37177409",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-green-hills-37177409/",
+   "title": "Breathtaking Aerial View of Green Hills",
+   "file": "clips/pexels-37177409.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 17.48,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican hills from the air",
+   "subject": "jm_hills"
+  },
+  {
+   "id": "jm_hillside_house",
+   "parent": "jm_hillside_house",
+   "video_id": "pexels-37177410",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-hillside-house-with-lush-greenery-37177410/",
+   "title": "Aerial View of Hillside House with Lush Greenery",
+   "file": "clips/pexels-37177410.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 14.56,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Hillside house in the Jamaican hills",
+   "subject": "jm_hillside_house"
+  },
+  {
+   "id": "jm_country_road",
+   "parent": "jm_country_road",
+   "video_id": "pexels-37177249",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-road-in-jamaica-s-countryside-37177249/",
+   "title": "Aerial View of Lush Road in Jamaica's Countryside",
+   "file": "clips/pexels-37177249.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 12.85,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Country road in the Jamaican hills, from the air",
+   "subject": "jm_country_road"
+  },
+  {
+   "id": "jm_mountain_c",
+   "parent": "jm_mountain_c",
+   "video_id": "pexels-37177263",
+   "creator": "K (Pexels)",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-green-mountain-landscape-37177263/",
+   "title": "Aerial View of Lush Green Mountain Landscape",
+   "file": "clips/pexels-37177263.mp4",
+   "source": "Pexels (Pexels License)",
+   "f0": 0.3,
+   "f1": 16.77,
+   "src_base": 0.0,
+   "src_speed": 1.0,
+   "play_speed": 1.5,
+   "tags": [
+    "jamaica-aerial"
+   ],
+   "shows": [
+    "jamaica-aerial"
+   ],
+   "audio": false,
+   "licensedContent": false,
+   "place": "Jamaican mountains from the air",
+   "subject": "jm_mountain_c"
+  }
+ ],
+ "banned": [],
+ "scarce": [
+  "approach",
+  "coast-approach",
+  "air-arrival",
+  "boscobel-road",
+  "dunns"
+ ]
+}

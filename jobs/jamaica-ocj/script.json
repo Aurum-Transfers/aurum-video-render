@@ -1,516 +1,762 @@
 {
- "slug": "jamaica-ocj",
- "title": "Ian Fleming Airport (OCJ) Arrival 2026: Transfer, Taxi or Rental to Ocho Rios",
- "angle": "Arrival-first: fly into the north coast, Ian Fleming (OCJ) hours and entry, pick the ride, then Ocho Rios in the order a first-timer meets it. No OCJ landing footage exists under our licences: the opening uses honest north-coast approach footage, labelled as such.",
- "end_card": {
-  "text": "ENJOY OCHO RIOS",
+  "slug": "jamaica-ocj",
+  "title": "Ian Fleming Airport (OCJ) Arrival 2026: Transfer, Taxi or Rental to Ocho Rios",
+  "angle": "Arrival-first: fly into the north coast, Ian Fleming (OCJ) hours and entry, pick the ride, then Ocho Rios in the order a first-timer meets it. No OCJ landing footage exists under our licences: the opening uses honest north-coast approach footage, labelled as such.",
+  "end_card": {
+    "text": "ENJOY THE NORTH COAST",
+    "lines": [
+      "Compare airport transfers: link in the description",
+      "Subscribe for the next arrival guide"
+    ]
+  },
   "lines": [
-   "Compare airport transfers: link in the description",
-   "Subscribe for the next arrival guide"
+    {
+      "text": "Flying into Jamaica's north coast, and not sure how you'll get from the airport to your hotel?",
+      "hook": true,
+      "pause": 0.2,
+      "lower": {
+        "text": "FLYING INTO THE NORTH COAST",
+        "sub": "Approach footage: Jamaica's north coast"
+      },
+      "need": [
+        "approach",
+        "coast-approach",
+        "air-arrival"
+      ]
+    },
+    {
+      "text": "Three easy ways: a pre-booked private transfer, a taxi, or a rental car.",
+      "hook": true,
+      "pause": 0.3,
+      "lower": {
+        "text": "TRANSFER · TAXI · RENTAL",
+        "sub": "Three ways from OCJ to your hotel"
+      },
+      "need": [
+        "approach",
+        "air-arrival",
+        "sea-aerial"
+      ]
+    },
+    {
+      "text": "Let's get you to Ocho Rios.",
+      "hook": true,
+      "pause": 0.5,
+      "need": [
+        "ocho-aerial"
+      ]
+    },
+    {
+      "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
+      "disclosure": true,
+      "pause": 0.6,
+      "shots": 3,
+      "need": [
+        "ocho-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
+      "facts": [
+        "f9020"
+      ],
+      "pause": 0.5,
+      "shots": 2,
+      "need": [
+        "sea-aerial",
+        "island-aerial"
+      ]
+    },
+    {
+      "text": "Welcome to Ian Fleming International, Jamaica's newest international port of entry.",
+      "facts": [
+        "o007"
+      ],
+      "chapter": "1. Arriving at Ian Fleming (OCJ): Hours, Entry and the C5 Form",
+      "pause": 0.3,
+      "shots": 2,
+      "need": [
+        "approach",
+        "coast-approach",
+        "sea-aerial"
+      ]
+    },
+    {
+      "text": "It sits in Boscobel, in the parish of Saint Mary, about fifteen kilometres east of Ocho Rios.",
+      "facts": [
+        "o001"
+      ],
+      "pause": 0.35,
+      "lower": {
+        "text": "IAN FLEMING INTERNATIONAL",
+        "sub": "Airport code OCJ · Boscobel, St Mary"
+      },
+      "map": {
+        "route": [
+          "airport",
+          "ocho"
+        ],
+        "focus": "airport",
+        "text": "OCJ → Ocho Rios"
+      },
+      "shots": 2,
+      "need": [
+        "boscobel-road",
+        "driving"
+      ]
+    },
+    {
+      "text": "It has a single runway and serves private jets, charters and select international flights.",
+      "facts": [
+        "o006",
+        "f069"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "boscobel-road",
+        "sea-aerial",
+        "island-aerial"
+      ]
+    },
+    {
+      "text": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, GoldenEye, is about five kilometres away in Oracabessa.",
+      "facts": [
+        "o002"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "sea-aerial",
+        "island-aerial",
+        "resort-aerial"
+      ]
+    },
+    {
+      "text": "This guide is for Ian Fleming. Jamaica's other two international airports, Sangster in Montego Bay and Norman Manley in Kingston, get their own arrival guides.",
+      "facts": [
+        "f2001"
+      ],
+      "pause": 0.35,
+      "map": {
+        "route": [
+          "airport",
+          "mobay",
+          "kingston"
+        ],
+        "focus": "airport",
+        "text": "Three international airports"
+      },
+      "shots": 2,
+      "need": [
+        "island-aerial",
+        "sea-aerial",
+        "highway-aerial"
+      ]
+    },
+    {
+      "text": "Is this your first time flying into the north coast? Tell us in the comments where you're staying.",
+      "prompt": {
+        "badge": "COMMENT",
+        "text": "First time on the north coast?"
+      },
+      "pause": 0.7,
+      "shots": 2,
+      "need": [
+        "ocho-aerial",
+        "resort-aerial"
+      ]
+    },
+    {
+      "text": "Now, the timing. Customs and immigration here run daily from seven in the morning to seven in the evening, and outside those hours prior notice is required.",
+      "facts": [
+        "o003"
+      ],
+      "pause": 0.35,
+      "lower": {
+        "text": "CUSTOMS 07:00 to 19:00",
+        "sub": "Prior notice outside these hours"
+      },
+      "shots": 2,
+      "need": [
+        "sea-aerial",
+        "island-aerial",
+        "runaway-aerial"
+      ]
+    },
+    {
+      "text": "Before you fly, fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
+      "facts": [
+        "f589"
+      ],
+      "pause": 0.35,
+      "lower": {
+        "text": "C5 FORM",
+        "sub": "Immigration and customs, online before you fly"
+      },
+      "shots": 2,
+      "need": [
+        "sea-aerial",
+        "runaway-aerial",
+        "island-aerial"
+      ]
+    },
+    {
+      "text": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too.",
+      "facts": [
+        "f580",
+        "f679"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "runaway-aerial",
+        "sea-aerial",
+        "resort-aerial"
+      ]
+    },
+    {
+      "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
+      "facts": [
+        "f584"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "island-aerial",
+        "sea-aerial",
+        "highway-aerial"
+      ]
+    },
+    {
+      "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
+      "facts": [
+        "f590",
+        "f591"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "sea-aerial",
+        "resort-aerial",
+        "island-aerial"
+      ]
+    },
+    {
+      "text": "If this checklist just saved you a headache, tap like; it tells us to make more arrival guides like this one.",
+      "prompt": {
+        "badge": "LIKE",
+        "text": "Saved you a headache? Tap like"
+      },
+      "pause": 0.7,
+      "shots": 2,
+      "need": [
+        "ocho-aerial",
+        "resort-aerial"
+      ]
+    },
+    {
+      "text": "Through customs? Here's how to get to your hotel.",
+      "chapter": "2. From Ian Fleming (OCJ) to Your Hotel: Transfer, Taxi or Rental",
+      "pause": 0.4,
+      "need": [
+        "boscobel-road",
+        "driving"
+      ]
+    },
+    {
+      "text": "The airport lists taxi or coach hire for getting around. Taxis are available on site when needed, for an extra fee.",
+      "facts": [
+        "o005"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "boscobel-road",
+        "driving"
+      ]
+    },
+    {
+      "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after your flight.",
+      "pause": 0.35,
+      "lower": {
+        "text": "1 · PRIVATE TRANSFER",
+        "sub": "Pre-booked, driver meets you"
+      },
+      "shots": 2,
+      "need": [
+        "driving",
+        "highway",
+        "boscobel-road"
+      ]
+    },
+    {
+      "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
+      "pause": 0.4,
+      "shots": 2,
+      "need": [
+        "driving",
+        "highway",
+        "highway-aerial",
+        "boscobel-road"
+      ]
+    },
+    {
+      "text": "Option two, a taxi. Canada advises avoiding unmarked cars, and the UK advises using taxis approved by the Jamaica Tourist Board, which show a blue JTB sticker.",
+      "facts": [
+        "k011",
+        "f2063"
+      ],
+      "pause": 0.35,
+      "lower": {
+        "text": "2 · TAXI",
+        "sub": "Blue JTB sticker, no unmarked cars"
+      },
+      "shots": 2,
+      "need": [
+        "driving",
+        "highway",
+        "boscobel-road",
+        "highway-aerial",
+        "island-aerial",
+        "jamaica-aerial"
+      ]
+    },
+    {
+      "text": "Option three, a rental car. Jamaica drives on the left, so take it slowly on the coast road.",
+      "facts": [
+        "f1014"
+      ],
+      "pause": 0.35,
+      "lower": {
+        "text": "3 · RENTAL CAR",
+        "sub": "Drive on the left"
+      },
+      "shots": 2,
+      "need": [
+        "driving",
+        "highway",
+        "highway-aerial"
+      ]
+    },
+    {
+      "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
+      "prompt": {
+        "badge": "LINK BELOW",
+        "text": "Transfer, taxi or rental? Compare in the description"
+      },
+      "pause": 0.7,
+      "shots": 2,
+      "need": [
+        "highway-aerial",
+        "driving",
+        "boscobel-road",
+        "jamaica-aerial"
+      ]
+    },
+    {
+      "text": "Now, the best part: Ocho Rios and the coast around it.",
+      "chapter": "3. Ocho Rios Highlights, plus Money, Water and Safety Tips",
+      "pause": 0.3,
+      "shots": 1,
+      "lift": 1.6,
+      "need": [
+        "ocho-beach",
+        "ocho-aerial",
+        "sea-aerial"
+      ]
+    },
+    {
+      "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+      "facts": [
+        "f902"
+      ],
+      "pause": 0.35,
+      "lower": {
+        "text": "DUNN'S RIVER FALLS",
+        "sub": "Near Ocho Rios"
+      },
+      "map": {
+        "route": [
+          "ocho",
+          "dunns"
+        ],
+        "focus": "dunns",
+        "text": "Dunn's River Falls"
+      },
+      "shots": 2,
+      "need": [
+        "dunns",
+        "waterfall"
+      ]
+    },
+    {
+      "text": "Water shoes make the climb safer, and they're sold at the entrance if you forget yours.",
+      "facts": [
+        "f904"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "dunns",
+        "waterfall"
+      ]
+    },
+    {
+      "text": "Back in town, the bay is right there for a swim.",
+      "pause": 0.35,
+      "shots": 1,
+      "lift": 1.6,
+      "need": [
+        "ocho-beach",
+        "ocho-aerial",
+        "beach"
+      ]
+    },
+    {
+      "text": "Further west along the coast is Runaway Bay, another resort area.",
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "runaway-aerial",
+        "resort-aerial",
+        "beach-aerial"
+      ]
+    },
+    {
+      "text": "Waterfall first, then the beach: that's a good first day on the north coast.",
+      "pause": 0.7,
+      "lift": 1.6,
+      "shots": 2,
+      "need": [
+        "ocho-beach",
+        "beach",
+        "ocho-aerial",
+        "beach-aerial",
+        "runaway-aerial"
+      ]
+    },
+    {
+      "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
+      "facts": [
+        "f615"
+      ],
+      "pause": 0.35,
+      "shots": 1,
+      "need": [
+        "driving",
+        "ocho-beach",
+        "highway",
+        "jamaica-aerial"
+      ]
+    },
+    {
+      "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
+      "facts": [
+        "f3014"
+      ],
+      "pause": 0.35,
+      "shots": 2,
+      "need": [
+        "ocho-aerial",
+        "resort-aerial",
+        "driving",
+        "runaway-aerial",
+        "island-aerial",
+        "jamaica-aerial"
+      ]
+    },
+    {
+      "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
+      "facts": [
+        "f1024",
+        "f1025"
+      ],
+      "pause": 0.4,
+      "shots": 2,
+      "need": [
+        "west-coast-aerial",
+        "sea-aerial",
+        "beach-aerial",
+        "island-aerial",
+        "jamaica-aerial",
+        "driving",
+        "north-coast-aerial"
+      ]
+    },
+    {
+      "text": "So, the short version. Check the airport's hours, fill in your C5 form before you fly, and pick your ride before you land. Then enjoy the north coast.",
+      "pause": 0.35,
+      "shots": 3,
+      "need": [
+        "ocho-aerial",
+        "sea-aerial",
+        "resort-aerial",
+        "runaway-aerial",
+        "island-aerial",
+        "jamaica-aerial",
+        "driving",
+        "north-coast-aerial"
+      ]
+    },
+    {
+      "text": "Subscribe for the next arrival guide, and enjoy every minute on the north coast. See you on the next trip!",
+      "prompt": {
+        "badge": "SUBSCRIBE",
+        "text": "Subscribe for the next arrival guide"
+      },
+      "pause": 0.6,
+      "shots": 4,
+      "need": [
+        "sea-aerial",
+        "ocho-aerial",
+        "beach-aerial",
+        "runaway-aerial",
+        "island-aerial",
+        "jamaica-aerial",
+        "north-coast-aerial",
+        "driving",
+        "boscobel-road",
+        "endcard-drive"
+      ]
+    }
+  ],
+  "package": {
+    "title": "Ocho Rios Airport Arrival 2026: Ian Fleming (OCJ) Transfer, Taxi or Rental",
+    "tags": [
+      "Ocho Rios",
+      "Ian Fleming airport",
+      "OCJ airport",
+      "Boscobel",
+      "Jamaica airport transfer",
+      "Jamaica 2026"
+    ],
+    "line2": "Ride, data and bed sorted before you land at Ian Fleming International (OCJ), near Ocho Rios.",
+    "intro_chapter": "Ian Fleming airport arrival: 3 ways to your hotel",
+    "hashtags": "#OchoRios #JamaicaTravel #Jamaica2026",
+    "main_url": "https://aurum-transfers.com/airport-transfers/ocj-ocho-rios",
+    "main_heading": "AURUM TRANSFERS",
+    "airport": "Ian Fleming International (OCJ)",
+    "iata": "OCJ",
+    "thumb_text": "OCHO RIOS AIRPORT",
+    "thumb_sub": "Ian Fleming (OCJ)",
+    "country": "Jamaica"
+  },
+  "shorts": [
+    {
+      "title": "Ian Fleming airport (OCJ): how to reach your hotel",
+      "hook_text": "FLYING INTO THE NORTH COAST?",
+      "lines": [
+        {
+          "text": "Flying into Jamaica's north coast at Ian Fleming? Here's how to reach your hotel.",
+          "need": [
+            "coast-approach",
+            "approach",
+            "air-arrival"
+          ],
+          "pause": 0.3,
+          "hook": true
+        },
+        {
+          "text": "The airport is in Boscobel, Saint Mary, about fifteen kilometres east of Ocho Rios.",
+          "need": [
+            "boscobel-road",
+            "driving"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "o001"
+          ]
+        },
+        {
+          "text": "The airport lists taxi or coach hire, and taxis are available on site when needed, for an extra fee.",
+          "need": [
+            "boscobel-road",
+            "driving"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "o005"
+          ]
+        },
+        {
+          "text": "Or book a private transfer before you land, so your driver is arranged in advance.",
+          "need": [
+            "driving",
+            "highway"
+          ],
+          "pause": 0.3,
+          "lift": 1.2,
+          "lower": {
+            "text": "PRIVATE TRANSFER",
+            "sub": "Pre-booked"
+          }
+        },
+        {
+          "text": "Driving yourself? Jamaica drives on the left, so take it slowly on the coast road.",
+          "need": [
+            "highway-aerial",
+            "driving"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "f1014"
+          ]
+        },
+        {
+          "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+          "need": [
+            "ocho-aerial",
+            "sea-aerial"
+          ],
+          "pause": 0.6,
+          "disclosure": true
+        }
+      ]
+    },
+    {
+      "title": "Ian Fleming (OCJ) arrival checklist",
+      "hook_text": "OCJ ARRIVAL CHECKLIST",
+      "lines": [
+        {
+          "text": "Landing at Ian Fleming near Ocho Rios? Check this first.",
+          "need": [
+            "coast-approach",
+            "approach",
+            "air-arrival"
+          ],
+          "pause": 0.3,
+          "hook": true
+        },
+        {
+          "text": "Customs and immigration run daily from seven in the morning to seven in the evening; outside those hours, prior notice is required.",
+          "need": [
+            "sea-aerial",
+            "island-aerial"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "o003"
+          ],
+          "lower": {
+            "text": "07:00 to 19:00",
+            "sub": "Customs and immigration, daily"
+          }
+        },
+        {
+          "text": "Fill in the immigration and customs C5 form online before you fly.",
+          "need": [
+            "runaway-aerial",
+            "sea-aerial"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "f589"
+          ],
+          "lower": {
+            "text": "C5 FORM",
+            "sub": "Online, before you fly"
+          }
+        },
+        {
+          "text": "And leave meat and dairy products at home.",
+          "need": [
+            "resort-aerial",
+            "island-aerial"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "f591"
+          ]
+        },
+        {
+          "text": "Then pick your ride before you land: transfer, taxi or rental.",
+          "need": [
+            "driving",
+            "highway",
+            "boscobel-road"
+          ],
+          "pause": 0.3,
+          "lift": 1.2
+        },
+        {
+          "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+          "need": [
+            "ocho-aerial",
+            "sea-aerial"
+          ],
+          "pause": 0.6,
+          "disclosure": true
+        }
+      ]
+    },
+    {
+      "title": "Ocho Rios in 40 seconds",
+      "hook_text": "OCHO RIOS IN 40 SECONDS",
+      "lines": [
+        {
+          "text": "Your first day near Ocho Rios, sorted.",
+          "need": [
+            "ocho-aerial"
+          ],
+          "pause": 0.3,
+          "hook": true
+        },
+        {
+          "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+          "need": [
+            "dunns",
+            "waterfall"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "f902"
+          ]
+        },
+        {
+          "text": "Water shoes make the climb safer, and they're sold at the entrance.",
+          "need": [
+            "dunns",
+            "waterfall"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "f904"
+          ]
+        },
+        {
+          "text": "Back in town, the bay is right there for a swim.",
+          "need": [
+            "ocho-beach",
+            "beach"
+          ],
+          "pause": 0.3,
+          "lift": 1.2
+        },
+        {
+          "text": "And Ian Fleming's Jamaican home, GoldenEye, is about five kilometres from the airport in Oracabessa.",
+          "need": [
+            "sea-aerial",
+            "resort-aerial",
+            "island-aerial"
+          ],
+          "pause": 0.3,
+          "facts": [
+            "o002"
+          ]
+        },
+        {
+          "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+          "need": [
+            "ocho-aerial",
+            "sea-aerial",
+            "runaway-aerial"
+          ],
+          "pause": 0.6,
+          "disclosure": true
+        }
+      ]
+    }
   ]
- },
- "lines": [
-  {
-   "text": "Flying into Jamaica's north coast, and not sure how you'll get from the airport to your hotel?",
-   "hook": true,
-   "pause": 0.2,
-   "lower": {
-    "text": "FLYING INTO THE NORTH COAST",
-    "sub": "Approach footage: Jamaica's north coast"
-   },
-   "need": [
-    "approach",
-    "coast-approach",
-    "air-arrival"
-   ]
-  },
-  {
-   "text": "Three easy ways: a pre-booked private transfer, a taxi, or a rental car.",
-   "hook": true,
-   "pause": 0.3,
-   "lower": {
-    "text": "TRANSFER · TAXI · RENTAL",
-    "sub": "Three ways from OCJ to your hotel"
-   },
-   "need": [
-    "approach",
-    "air-arrival",
-    "sea-aerial"
-   ]
-  },
-  {
-   "text": "Let's get you to Ocho Rios.",
-   "hook": true,
-   "pause": 0.5,
-   "need": [
-    "ocho-aerial"
-   ]
-  },
-  {
-   "text": "Quick note: Aurum Transfers is a travel-affiliate brand, so if you book through our links we may earn a commission, at no extra cost to you. We don't run the rides ourselves; our partners do.",
-   "disclosure": true,
-   "pause": 0.6,
-   "shots": 3,
-   "need": [
-    "ocho-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "text": "One honest note: some clips here were filmed before Hurricane Melissa in October 2025, so a few places may look different today.",
-   "facts": [
-    "f9020"
-   ],
-   "pause": 0.5,
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "island-aerial"
-   ]
-  },
-  {
-   "text": "Welcome to Ian Fleming International, Jamaica's newest international port of entry.",
-   "facts": [
-    "o007"
-   ],
-   "chapter": "1. Landing at Ian Fleming (OCJ): Hours, Entry and the C5 Form",
-   "pause": 0.3,
-   "shots": 2,
-   "need": [
-    "approach",
-    "coast-approach",
-    "sea-aerial"
-   ]
-  },
-  {
-   "text": "It sits in Boscobel, in the parish of Saint Mary, about fifteen kilometres east of Ocho Rios.",
-   "facts": [
-    "o001"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "IAN FLEMING INTERNATIONAL",
-    "sub": "Airport code OCJ · Boscobel, St Mary"
-   },
-   "map": {
-    "route": [
-     "airport",
-     "ocho"
-    ],
-    "focus": "airport",
-    "text": "OCJ → Ocho Rios"
-   },
-   "shots": 2,
-   "need": [
-    "boscobel-road",
-    "driving"
-   ]
-  },
-  {
-   "text": "It has a single runway and serves private jets, charters and select international flights.",
-   "facts": [
-    "o006",
-    "f069"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "boscobel-road",
-    "sea-aerial",
-    "island-aerial"
-   ]
-  },
-  {
-   "text": "And yes, it's named after Ian Fleming, the creator of James Bond. His Jamaican home, GoldenEye, is about five kilometres away in Oracabessa.",
-   "facts": [
-    "o002"
-   ],
-   "pause": 0.35,
-   "map": {
-    "route": [
-     "airport",
-     "goldeneye"
-    ],
-    "focus": "goldeneye",
-    "text": "GoldenEye, Oracabessa"
-   },
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "island-aerial",
-    "resort-aerial"
-   ]
-  },
-  {
-   "text": "This guide is for Ian Fleming. Jamaica's other two international airports, Sangster in Montego Bay and Norman Manley in Kingston, get their own arrival guides.",
-   "facts": [
-    "f2001"
-   ],
-   "pause": 0.35,
-   "map": {
-    "route": [
-     "airport",
-     "mobay",
-     "kingston"
-    ],
-    "focus": "airport",
-    "text": "Three international airports"
-   },
-   "shots": 2,
-   "need": [
-    "island-aerial",
-    "sea-aerial",
-    "highway-aerial"
-   ]
-  },
-  {
-   "text": "Is this your first time flying into the north coast? Tell us in the comments where you're staying.",
-   "prompt": {
-    "badge": "COMMENT",
-    "text": "First time on the north coast?"
-   },
-   "pause": 0.7,
-   "shots": 2,
-   "need": [
-    "ocho-aerial",
-    "resort-aerial"
-   ]
-  },
-  {
-   "text": "Now, the timing. Customs and immigration here run daily from seven in the morning to seven in the evening, and outside those hours prior notice is required.",
-   "facts": [
-    "o003"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "CUSTOMS 07:00 to 19:00",
-    "sub": "Prior notice outside these hours"
-   },
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "island-aerial",
-    "runaway-aerial"
-   ]
-  },
-  {
-   "text": "Before you fly, fill in the immigration and customs C5 form online, and make your customs declaration before you arrive.",
-   "facts": [
-    "f589"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "C5 FORM",
-    "sub": "Immigration and customs, online before you fly"
-   },
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "runaway-aerial",
-    "island-aerial"
-   ]
-  },
-  {
-   "text": "Your passport must stay valid for your whole stay, and your airline's own rules may be stricter, so check with them too.",
-   "facts": [
-    "f580",
-    "f679"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "runaway-aerial",
-    "sea-aerial",
-    "resort-aerial"
-   ]
-  },
-  {
-   "text": "British visitors don't need a visa and are usually granted entry for up to ninety days. Other nationalities should check the rules for their own passport.",
-   "facts": [
-    "f584"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "island-aerial",
-    "sea-aerial",
-    "highway-aerial"
-   ]
-  },
-  {
-   "text": "At customs, declare anything prohibited or subject to duty, and leave meat and dairy products at home.",
-   "facts": [
-    "f590",
-    "f591"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "resort-aerial",
-    "island-aerial"
-   ]
-  },
-  {
-   "text": "If this checklist just saved you a headache, tap like; it tells us to make more arrival guides like this one.",
-   "prompt": {
-    "badge": "LIKE",
-    "text": "Saved you a headache? Tap like"
-   },
-   "pause": 0.7,
-   "shots": 2,
-   "need": [
-    "ocho-aerial",
-    "resort-aerial"
-   ]
-  },
-  {
-   "text": "Through customs? Here's how to get to your hotel.",
-   "chapter": "2. Ian Fleming Airport to Hotel: Transfer, Taxi or Rental",
-   "pause": 0.4,
-   "need": [
-    "boscobel-road",
-    "driving"
-   ]
-  },
-  {
-   "text": "The airport lists taxi or coach hire for getting around. Taxis are available on site when needed, for an extra fee.",
-   "facts": [
-    "o005"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "boscobel-road",
-    "driving"
-   ]
-  },
-  {
-   "text": "Option one is the calmest: a pre-booked private transfer. Your driver is arranged before you land, so there's no hunting for a ride after your flight.",
-   "pause": 0.35,
-   "lower": {
-    "text": "1 · PRIVATE TRANSFER",
-    "sub": "Pre-booked, driver meets you"
-   },
-   "shots": 2,
-   "need": [
-    "driving",
-    "highway",
-    "boscobel-road"
-   ]
-  },
-  {
-   "text": "On aurum-transfers.com you can compare airport transfers from partner companies; the partner you choose runs the ride, so book once your flight times are fixed.",
-   "pause": 0.4,
-   "shots": 2,
-   "need": [
-    "driving",
-    "highway",
-    "highway-aerial"
-   ]
-  },
-  {
-   "text": "Option two, a taxi. Canada advises avoiding unmarked cars, and the UK advises using taxis approved by the Jamaica Tourist Board, which show a blue JTB sticker.",
-   "facts": [
-    "k011",
-    "f2063"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "2 · TAXI",
-    "sub": "Blue JTB sticker, no unmarked cars"
-   },
-   "shots": 2,
-   "need": [
-    "driving",
-    "highway",
-    "boscobel-road"
-   ]
-  },
-  {
-   "text": "Option three, a rental car. Jamaica drives on the left, so take it slowly on the coast road.",
-   "facts": [
-    "f1014"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "3 · RENTAL CAR",
-    "sub": "Drive on the left"
-   },
-   "map": {
-    "route": [
-     "airport",
-     "oracabessa",
-     "ocho"
-    ],
-    "focus": "ocho",
-    "text": "Coast road west to Ocho Rios"
-   },
-   "shots": 2,
-   "need": [
-    "driving",
-    "highway",
-    "highway-aerial"
-   ]
-  },
-  {
-   "text": "Which one are you picking: transfer, taxi or rental? Tell us below, and the transfer comparison link is in the description.",
-   "prompt": {
-    "badge": "LINK BELOW",
-    "text": "Transfer, taxi or rental? Compare in the description"
-   },
-   "pause": 0.7,
-   "shots": 2,
-   "need": [
-    "highway-aerial",
-    "driving"
-   ]
-  },
-  {
-   "text": "Now, the best part: Ocho Rios and the coast around it.",
-   "chapter": "3. Ocho Rios Highlights, plus Money, Water and Safety Tips",
-   "pause": 0.3,
-   "shots": 1,
-   "lift": 1.6,
-   "need": [
-    "ocho-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
-   "facts": [
-    "f902"
-   ],
-   "pause": 0.35,
-   "lower": {
-    "text": "DUNN'S RIVER FALLS",
-    "sub": "Near Ocho Rios"
-   },
-   "map": {
-    "route": [
-     "ocho",
-     "dunns"
-    ],
-    "focus": "dunns",
-    "text": "Dunn's River Falls"
-   },
-   "shots": 2,
-   "need": [
-    "dunns",
-    "waterfall"
-   ]
-  },
-  {
-   "text": "Water shoes make the climb safer, and they're sold at the entrance if you forget yours.",
-   "facts": [
-    "f904"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "dunns",
-    "waterfall"
-   ]
-  },
-  {
-   "text": "Back in town, the bay is right there for a swim.",
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "ocho-beach",
-    "ocho-aerial",
-    "beach"
-   ]
-  },
-  {
-   "text": "Further west along the coast is Runaway Bay, another resort area.",
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "runaway-aerial",
-    "resort-aerial",
-    "beach-aerial"
-   ]
-  },
-  {
-   "text": "Waterfall, beach or GoldenEye? Hit subscribe and tell us which one is first on your list.",
-   "prompt": {
-    "badge": "SUBSCRIBE",
-    "text": "Waterfall, beach or GoldenEye?"
-   },
-   "pause": 0.7,
-   "lift": 1.6,
-   "shots": 2,
-   "need": [
-    "ocho-aerial",
-    "beach-aerial",
-    "sea-aerial"
-   ]
-  },
-  {
-   "text": "A few last tips. Don't show off valuables, and never leave anything in a parked car.",
-   "facts": [
-    "f615"
-   ],
-   "pause": 0.35,
-   "shots": 1,
-   "need": [
-    "driving",
-    "ocho-beach",
-    "highway"
-   ]
-  },
-  {
-   "text": "The currency is the Jamaican dollar. Cards work at hotels and tourist businesses, but cash machines are limited outside Kingston and Montego Bay.",
-   "facts": [
-    "f3014"
-   ],
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "ocho-aerial",
-    "resort-aerial",
-    "driving"
-   ]
-  },
-  {
-   "text": "After Melissa damaged water systems in the west and south, the health ministry advised treating water before drinking it, so check the latest advice when you arrive.",
-   "facts": [
-    "f1024",
-    "f1025"
-   ],
-   "pause": 0.4,
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "beach-aerial",
-    "island-aerial"
-   ]
-  },
-  {
-   "text": "So, the short version. Check the airport's hours, fill in your C5 form before you fly, and pick your ride before you land. Then enjoy the north coast.",
-   "pause": 0.35,
-   "shots": 2,
-   "need": [
-    "ocho-aerial",
-    "sea-aerial",
-    "resort-aerial"
-   ]
-  },
-  {
-   "text": "Subscribe for the next arrival guide, and enjoy every minute in Ocho Rios. See you on the next trip!",
-   "prompt": {
-    "badge": "SUBSCRIBE",
-    "text": "Subscribe for the next arrival guide"
-   },
-   "pause": 0.6,
-   "shots": 2,
-   "need": [
-    "sea-aerial",
-    "ocho-aerial",
-    "beach-aerial"
-   ]
-  }
- ]
 }
