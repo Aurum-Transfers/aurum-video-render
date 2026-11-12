@@ -1,0 +1,603 @@
+{
+ "schema": "aurum-edl-v1",
+ "gate_exceptions": {
+  "why": "Marvin t225u 2026-11-10: no licensed OCJ landing footage exists; the opening uses north-coast approach footage (gcm2xnh129E, St James coast) labelled 'Approach footage: Jamaica's north coast'; narration says 'flying into Jamaica's north coast', never that it is OCJ."
+ },
+ "created": "2026-11-11T16:14:52-05:00",
+ "slug": "jamaica-ocj-short-3",
+ "title": "Ocho Rios in 40 seconds",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration_s": 39.023,
+ "program_end_s": 37.023,
+ "hook_end_s": 3.137,
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 3.4,
+   "frames": 102,
+   "kind": "clip",
+   "clip_id": "ocho_drone_3",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "file": "jobs/jamaica-ocj-short-3/clips/Rk2IRGPukWw_64-74.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 64.1,
+   "src_out": 69.2,
+   "tag": "ocho-aerial,sea-aerial",
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 2.279,
+    "mot_min": 2.001,
+    "y_mean": 105.7,
+    "y_min": 87.0,
+    "dh": [
+     9871890936173428992,
+     3602950347683267074,
+     36175101456549391
+    ]
+   },
+   "parent": "ocho_drone_3",
+   "line": 0,
+   "audio_ok": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-3",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4984,
+    "cx1": 0.6562,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 3.4,
+   "t1": 6.6,
+   "frames": 96,
+   "kind": "clip",
+   "clip_id": "dunns_d",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "file": "jobs/jamaica-ocj-short-3/clips/ABh47uaa08I_582-589.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 582.1,
+   "src_out": 585.3,
+   "tag": "dunns,waterfall",
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "parent": "dunns_d",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Dunn's River climb",
+   "subject": "dunns-climb",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4422,
+    "cx1": 0.4859,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 6.6,
+   "t1": 9.2667,
+   "frames": 80,
+   "kind": "clip",
+   "clip_id": "dunns_c",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "file": "jobs/jamaica-ocj-short-3/clips/ABh47uaa08I_495-502.mp4",
+   "file_in": 4.0,
+   "play_speed": 1.0,
+   "src_in": 499.0,
+   "src_out": 501.667,
+   "tag": "dunns,waterfall",
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "parent": "dunns_c",
+   "line": 1,
+   "audio_ok": false,
+   "place": "Dunn's River cascades",
+   "subject": "dunns-cascade",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.4516,
+    "cx1": 0.3703,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 9.2667,
+   "t1": 13.8333,
+   "frames": 137,
+   "kind": "clip",
+   "clip_id": "dunns_b",
+   "video_id": "ABh47uaa08I",
+   "creator": "AlongForTheJourney",
+   "file": "jobs/jamaica-ocj-short-3/clips/ABh47uaa08I_364-371.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 364.1,
+   "src_out": 368.667,
+   "tag": "dunns,waterfall",
+   "shows": [
+    "dunns",
+    "waterfall"
+   ],
+   "qc": {
+    "mot_med": 3.067,
+    "mot_min": 1.753,
+    "y_mean": 107.8,
+    "y_min": 104.0,
+    "dh": [
+     6416471352062210865,
+     6416471558233207089,
+     6416471558233731377,
+     8269702839239687987,
+     16423495313922113406
+    ]
+   },
+   "parent": "dunns_b",
+   "line": 2,
+   "audio_ok": false,
+   "place": "Dunn's River Falls through the trees",
+   "subject": "dunns-trees",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.3234,
+    "cx1": 0.2953,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 13.8333,
+   "t1": 18.7667,
+   "frames": 148,
+   "kind": "clip",
+   "clip_id": "ocho_beach_walk_3",
+   "video_id": "TILQzsOE8mg",
+   "creator": "NickWorldView",
+   "file": "jobs/jamaica-ocj-short-3/clips/TILQzsOE8mg_242-284.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.0,
+   "src_in": 242.1,
+   "src_out": 247.033,
+   "tag": "ocho-beach,beach",
+   "shows": [
+    "ocho-beach",
+    "beach"
+   ],
+   "qc": {
+    "mot_med": 1.928,
+    "mot_min": 1.335,
+    "y_mean": 131.3,
+    "y_min": 130.0,
+    "dh": [
+     9171436122054623360,
+     9160316956749857316,
+     9169033863646742017,
+     9185929517986743301,
+     9112744096406979138
+    ]
+   },
+   "parent": "ocho_beach_walk_3",
+   "line": 3,
+   "audio_ok": true,
+   "place": "Ocho Rios beach walk",
+   "subject": "ocho-beach-walk-3",
+   "handheld": false,
+   "ton_max": 0.051,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.3766,
+    "cx1": 0.5016,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 18.7667,
+   "t1": 22.6667,
+   "frames": 117,
+   "kind": "clip",
+   "clip_id": "portland_aerial_2",
+   "video_id": "GBaTswg6mgs",
+   "creator": "Robert Harvey",
+   "file": "jobs/jamaica-ocj-short-3/clips/GBaTswg6mgs_45-60.mp4",
+   "file_in": 0.1,
+   "play_speed": 2.0,
+   "src_in": 45.1,
+   "src_out": 52.9,
+   "tag": "island-aerial,sea-aerial",
+   "shows": [
+    "island-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 5.354,
+    "mot_min": 3.485,
+    "y_mean": 91.0,
+    "y_min": 79.6,
+    "dh": [
+     13898187780904981013,
+     13898109156698952978,
+     9226806303665100080,
+     9224697856962705816
+    ]
+   },
+   "parent": "portland_aerial_2",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Portland coast aerial, east of St Mary",
+   "subject": "portland-aerial-2",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.5047,
+    "cx1": 0.5391,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 22.6667,
+   "t1": 26.5667,
+   "frames": 117,
+   "kind": "clip",
+   "clip_id": "kite_sea",
+   "video_id": "KBAJ8JqdnYM",
+   "creator": "Skip Steuart",
+   "file": "jobs/jamaica-ocj-short-3/clips/KBAJ8JqdnYM_80-93.mp4",
+   "file_in": 0.1,
+   "play_speed": 2.0,
+   "src_in": 80.1,
+   "src_out": 87.9,
+   "tag": "sea-aerial",
+   "shows": [
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 3.383,
+    "mot_min": 1.649,
+    "y_mean": 115.4,
+    "y_min": 107.7,
+    "dh": [
+     14627726768955395341,
+     7360305792081659681,
+     17652985739970862557,
+     17707321889849596252
+    ]
+   },
+   "parent": "kite_sea",
+   "line": 4,
+   "audio_ok": false,
+   "place": "Sea off the north-west coast",
+   "subject": "half-moon-sea",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7266,
+    "cx1": 0.6641,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 26.5667,
+   "t1": 30.7333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "ocho_cruise",
+   "video_id": "11Z-XBbUst0",
+   "creator": "Joseph Oleske",
+   "file": "jobs/jamaica-ocj-short-3/clips/11Z-XBbUst0_229-239.mp4",
+   "file_in": 0.1,
+   "play_speed": 2.0,
+   "src_in": 229.1,
+   "src_out": 237.433,
+   "tag": "ocho-cruise,ocho-aerial",
+   "shows": [
+    "ocho-cruise",
+    "ocho-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.591,
+    "mot_min": 3.914,
+    "y_mean": 72.1,
+    "y_min": 65.5,
+    "dh": [
+     13835305026691072257,
+     2468181674691201408,
+     11656400502311291288,
+     333358188436778687
+    ]
+   },
+   "parent": "ocho_cruise",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Ocho Rios cruise pier",
+   "subject": "ocho-cruise",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.1609,
+    "cx1": 0.1953,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 30.7333,
+   "t1": 34.8667,
+   "frames": 124,
+   "kind": "clip",
+   "clip_id": "ocho_villa_aerial_1",
+   "video_id": "loUSJynWKNU",
+   "creator": "Bicana",
+   "file": "jobs/jamaica-ocj-short-3/clips/loUSJynWKNU_0-9.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 0.1,
+   "src_out": 6.3,
+   "tag": "ocho-aerial,resort-aerial",
+   "shows": [
+    "ocho-aerial",
+    "resort-aerial"
+   ],
+   "qc": {
+    "mot_med": 4.891,
+    "mot_min": 4.252,
+    "y_mean": 160.6,
+    "y_min": 153.0,
+    "dh": [
+     12952851474276683872,
+     8346974308912898088,
+     8311051067569773836,
+     8319530498020379736
+    ]
+   },
+   "parent": "ocho_villa_aerial_1",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Hills above Ocho Rios from the air (Bicana)",
+   "subject": "ocho-villa-aerial-1",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7797,
+    "cx1": 0.7984,
+    "method": "saliency+motion v1"
+   }
+  },
+  {
+   "t0": 34.8667,
+   "t1": 39.0333,
+   "frames": 125,
+   "kind": "clip",
+   "clip_id": "ocho_drone_1",
+   "video_id": "Rk2IRGPukWw",
+   "creator": "DroneR JA",
+   "file": "jobs/jamaica-ocj-short-3/clips/Rk2IRGPukWw_5-14.mp4",
+   "file_in": 0.1,
+   "play_speed": 1.5,
+   "src_in": 5.1,
+   "src_out": 11.35,
+   "tag": "ocho-aerial,sea-aerial",
+   "shows": [
+    "ocho-aerial",
+    "sea-aerial"
+   ],
+   "qc": {
+    "mot_med": 1.766,
+    "mot_min": 1.292,
+    "y_mean": 109.5,
+    "y_min": 105.1,
+    "dh": [
+     18373825531673099002,
+     18372699648811973209,
+     18228584460207586683,
+     18228584460876694116
+    ]
+   },
+   "parent": "ocho_drone_1",
+   "line": 5,
+   "audio_ok": false,
+   "place": "Ocho Rios from the air (DroneR JA)",
+   "subject": "ocho-drone-1",
+   "handheld": false,
+   "ton_max": null,
+   "qc_method": "source-window-output-speed",
+   "reframe": {
+    "cx0": 0.7266,
+    "cx1": 0.5687,
+    "method": "saliency+motion v1"
+   }
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "disclosure",
+   "t0": 26.57,
+   "t1": 35.57,
+   "text": "Aurum Transfers links to partner companies and may earn a commission if you book through our links, at no extra cost to you. Aurum does not operate transfers, tours or hotels."
+  },
+  {
+   "kind": "endcard",
+   "t0": 37.023,
+   "t1": 39.023,
+   "text": "ENJOY THE NORTH COAST",
+   "lines": [
+    "Compare airport transfers: link in the description",
+    "Subscribe for the next arrival guide"
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "t0": 0.3,
+   "t1": 3.137,
+   "text": "Your first day near Ocho Rios, sorted.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "ocho-aerial"
+   ]
+  },
+  {
+   "t0": 3.413,
+   "t1": 8.981,
+   "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+   "disclosure": false,
+   "facts": [
+    "f902"
+   ],
+   "need": [
+    "dunns",
+    "waterfall"
+   ]
+  },
+  {
+   "t0": 9.26,
+   "t1": 13.569,
+   "text": "Water shoes make the climb safer, and they're sold at the entrance.",
+   "disclosure": false,
+   "facts": [
+    "f904"
+   ],
+   "need": [
+    "dunns",
+    "waterfall"
+   ]
+  },
+  {
+   "t0": 13.848,
+   "t1": 16.984,
+   "text": "Back in town, the bay is right there for a swim.",
+   "disclosure": false,
+   "facts": [],
+   "need": [
+    "ocho-beach",
+    "beach"
+   ]
+  },
+  {
+   "t0": 18.769,
+   "t1": 26.299,
+   "text": "And Ian Fleming's Jamaican home, GoldenEye, is about five kilometres from the airport in Oracabessa.",
+   "disclosure": false,
+   "facts": [
+    "o002"
+   ],
+   "need": [
+    "sea-aerial",
+    "resort-aerial",
+    "island-aerial"
+   ]
+  },
+  {
+   "t0": 26.57,
+   "t1": 35.423,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "disclosure": true,
+   "facts": [],
+   "need": [
+    "ocho-aerial",
+    "sea-aerial",
+    "runaway-aerial"
+   ]
+  }
+ ],
+ "audio": {
+  "narration": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/narration.wav",
+  "music": "none",
+  "ambient": [
+   {
+    "t0": 13.8333,
+    "t1": 18.7667,
+    "video_id": "TILQzsOE8mg",
+    "licence_ok": true
+   }
+  ]
+ },
+ "offtag_shots": [],
+ "banned": [],
+ "lifts": [
+  {
+   "t0": 17.134,
+   "t1": 18.334,
+   "line": 3
+  }
+ ],
+ "lift_min_count": 1,
+ "needs_footage": [],
+ "scope": "full",
+ "narration_stt": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "sorted",
+   "last_word_heard": true,
+   "heard": "Your first day near Ocho Rios sorted."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea."
+  },
+  {
+   "line": 2,
+   "recall": 0.917,
+   "last_word": "entrance",
+   "last_word_heard": true,
+   "heard": "Water shoes make the climb safer and they are sold at the entrance."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "swim",
+   "last_word_heard": true,
+   "heard": "Back in town, the bay is right there for a swim."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "oracabessa",
+   "last_word_heard": true,
+   "heard": "and Ian Fleming's Jamaican home, Golden Eye, is about five kilometres from the airport in Oracabessa."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "source_window_qc": {
+  "measured": 8,
+  "missing": [],
+  "method": "source-window-output-speed"
+ },
+ "reframe": {
+  "tool": "tools/portrait_reframe.py",
+  "shots": 10
+ }
+}

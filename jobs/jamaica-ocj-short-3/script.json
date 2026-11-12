@@ -1,0 +1,74 @@
+{
+ "slug": "jamaica-ocj-short-3",
+ "title": "Ocho Rios in 40 seconds",
+ "lines": [
+  {
+   "text": "Your first day near Ocho Rios, sorted.",
+   "need": [
+    "ocho-aerial"
+   ],
+   "pause": 0.3,
+   "hook": true
+  },
+  {
+   "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+   "need": [
+    "dunns",
+    "waterfall"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "f902"
+   ]
+  },
+  {
+   "text": "Water shoes make the climb safer, and they're sold at the entrance.",
+   "need": [
+    "dunns",
+    "waterfall"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "f904"
+   ]
+  },
+  {
+   "text": "Back in town, the bay is right there for a swim.",
+   "need": [
+    "ocho-beach",
+    "beach"
+   ],
+   "pause": 0.3,
+   "lift": 1.2
+  },
+  {
+   "text": "And Ian Fleming's Jamaican home, GoldenEye, is about five kilometres from the airport in Oracabessa.",
+   "need": [
+    "sea-aerial",
+    "resort-aerial",
+    "island-aerial"
+   ],
+   "pause": 0.3,
+   "facts": [
+    "o002"
+   ]
+  },
+  {
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "need": [
+    "ocho-aerial",
+    "sea-aerial",
+    "runaway-aerial"
+   ],
+   "pause": 0.6,
+   "disclosure": true
+  }
+ ],
+ "end_card": {
+  "text": "ENJOY THE NORTH COAST",
+  "lines": [
+   "Compare airport transfers: link in the description",
+   "Subscribe for the next arrival guide"
+  ]
+ }
+}

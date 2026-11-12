@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-11T16:11:50-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "total": 37.023,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.3,
+   "t1": 3.137,
+   "text": "Your first day near Ocho Rios, sorted.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/tts/s000-9a4b4afa69.wav",
+   "sr": 24000,
+   "speed": 1.071
+  },
+  {
+   "i": 1,
+   "t0": 3.413,
+   "t1": 8.981,
+   "text": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/tts/s001-df19c7e6fa.wav",
+   "sr": 24000,
+   "speed": 1.0
+  },
+  {
+   "i": 2,
+   "t0": 9.26,
+   "t1": 13.569,
+   "text": "Water shoes make the climb safer, and they're sold at the entrance.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/tts/s002-772a1978b0.wav",
+   "sr": 24000,
+   "speed": 1.004
+  },
+  {
+   "i": 3,
+   "t0": 13.848,
+   "t1": 16.984,
+   "text": "Back in town, the bay is right there for a swim.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/tts/s003-20522b13f7.wav",
+   "sr": 24000,
+   "speed": 0.99,
+   "lift": [
+    17.134,
+    18.334
+   ]
+  },
+  {
+   "i": 4,
+   "t0": 18.769,
+   "t1": 26.299,
+   "text": "And Ian Fleming's Jamaican home, GoldenEye, is about five kilometres from the airport in Oracabessa.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/tts/s004-d9fde7a56f.wav",
+   "sr": 24000,
+   "speed": 0.973
+  },
+  {
+   "i": 5,
+   "t0": 26.57,
+   "t1": 35.423,
+   "text": "Compare partner transfers through the link in the description. If you book through our links we may earn a commission, at no extra cost to you.",
+   "wav": "/workspace/work/aurum-video-render/jobs/jamaica-ocj-short-3/build/tts/s005-d36faa54e1.wav",
+   "sr": 24000,
+   "speed": 0.98
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "created": "2026-11-11T16:11:59-05:00",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "checks": [
+  {
+   "line": 0,
+   "name": "Ocho Rios",
+   "heard": "Your first day near Ocho Rios sorted.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 1,
+   "name": "Dunn's River",
+   "heard": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Ian Fleming",
+   "heard": "and Ian Fleming's Jamaican home, Golden Eye, is about five kilometres from the airport in Oracabessa.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "Oracabessa",
+   "heard": "and Ian Fleming's Jamaican home, Golden Eye, is about five kilometres from the airport in Oracabessa.",
+   "round_trip_ok": true
+  },
+  {
+   "line": 4,
+   "name": "GoldenEye",
+   "heard": "and Ian Fleming's Jamaican home, Golden Eye, is about five kilometres from the airport in Oracabessa.",
+   "round_trip_ok": true
+  }
+ ],
+ "passed": 5,
+ "total": 5,
+ "failed_names": [],
+ "full_lines": [
+  {
+   "line": 0,
+   "recall": 1.0,
+   "last_word": "sorted",
+   "last_word_heard": true,
+   "heard": "Your first day near Ocho Rios sorted."
+  },
+  {
+   "line": 1,
+   "recall": 1.0,
+   "last_word": "sea",
+   "last_word_heard": true,
+   "heard": "Dunn's River is one of the few waterfalls in the world that empties straight into the sea."
+  },
+  {
+   "line": 2,
+   "recall": 0.917,
+   "last_word": "entrance",
+   "last_word_heard": true,
+   "heard": "Water shoes make the climb safer and they are sold at the entrance."
+  },
+  {
+   "line": 3,
+   "recall": 1.0,
+   "last_word": "swim",
+   "last_word_heard": true,
+   "heard": "Back in town, the bay is right there for a swim."
+  },
+  {
+   "line": 4,
+   "recall": 1.0,
+   "last_word": "oracabessa",
+   "last_word_heard": true,
+   "heard": "and Ian Fleming's Jamaican home, Golden Eye, is about five kilometres from the airport in Oracabessa."
+  },
+  {
+   "line": 5,
+   "recall": 1.0,
+   "last_word": "you",
+   "last_word_heard": true,
+   "heard": "Compare partner transfers through the link in the description. If you book through our links, we may earn a commission at no extra cost to you."
+  }
+ ],
+ "note": "Proxy only: whisper base.en recognising the name does not prove natural pronunciation."
+}
